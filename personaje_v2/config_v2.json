@@ -15,9 +15,9 @@
   "docs": "../v6/docs"
  },
  "kit_v1": {
-  "carpeta": "../kit/kit_pipeline_munger",
-  "corpus_munger": "../kit/kit_pipeline_munger/munger.md",
-  "scripts": "../kit/kit_pipeline_munger/scripts"
+  "carpeta": "../kit_pipeline_munger",
+  "corpus_munger": "../kit_pipeline_munger/munger.md",
+  "scripts": "../kit_pipeline_munger/scripts"
  },
  "corpus": {
   "damodaran": "corpus/damodaran.md",

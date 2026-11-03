@@ -1,0 +1,9 @@
+Fixtures de prueba (no son entregables; derivan de entregables/Ejemplo_V6.3_EmpresaX.xlsx y Ejemplo_ABB_V6.3.xlsx
+por openpyxl, sin deslizadores). Valores esperados tras recalcular con LibreOffice:
+  Fixture_motorB.xlsx              B78:D78 = 17,3539528334 / 29,7144295704 / 47,0265990684 · C83 = 30,7047681226
+  Fixture_motorC_palancas_A.xlsx   B78:D78 = 10,9505167043 / 17,2492128343 / 26,7560534971 · C83 = 17,8908417409
+  Fixture_motorC_original.xlsx     B78:D78 =  8,3362525831 / 11,9777149618 / 15,2293638877 · C83 = 11,8997522712
+                                   (palancas propias del motor C de scripts/V6.1/test_fill.py: B14 0,03/0,06/0,08 ·
+                                    B15 0,10/0,14/0,16 · B16 n/a · B18 0,10/0,13/0,15; referencia R01 original)
+  Variante_prueba_ABB_C49_cero     C83 = 37,3528564268 · INCOMPLETO (juicios del inversor). El entregable ABB
+                                   conserva C49 vacío y NO muestra valor: esta variante existe solo como prueba.

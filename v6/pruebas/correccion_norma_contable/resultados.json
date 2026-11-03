@@ -1,0 +1,295 @@
+{
+  "focused_cases": [
+    {
+      "name": "C_invisible_whitespace",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 17.8908417408599
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 17.8908417408599,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_empty",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_present",
+      "expected": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "B_empty",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 30.7047681225928
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 30.7047681225928,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "B_present",
+      "expected": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 30.7047681225928
+      },
+      "actual": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 30.7047681225928,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "C_empty",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 17.8908417408599
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 17.8908417408599,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "C_present",
+      "expected": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 17.8908417408599
+      },
+      "actual": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 17.8908417408599,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_spaces",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "B_formula_empty",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 30.7047681225928
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 30.7047681225928,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "C_formula_present",
+      "expected": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 17.8908417408599
+      },
+      "actual": {
+        "state": "LISTO",
+        "evidence": "documentada",
+        "value": 17.8908417408599,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_value_without_source",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "sin fuente",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "sin fuente",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_empty_estimate",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "falta norma contable",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "A_present_estimate",
+      "expected": {
+        "state": "LISTO · PROVISIONAL (1 estimaciones justificadas)",
+        "evidence": "estimación",
+        "value": 25.8903521530386
+      },
+      "actual": {
+        "state": "LISTO · PROVISIONAL (1 estimaciones justificadas)",
+        "evidence": "estimación",
+        "value": 25.8903521530386,
+        "errors": []
+      },
+      "passed": true
+    },
+    {
+      "name": "B_present_unverified",
+      "expected": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "no verificable",
+        "value": 30.7047681225928
+      },
+      "actual": {
+        "state": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+        "evidence": "no verificable",
+        "value": 30.7047681225928,
+        "errors": []
+      },
+      "passed": true
+    }
+  ],
+  "scope_preservation": {
+    "Ejemplo_V6.3_EmpresaX.xlsx": {
+      "changed_cells": [
+        "Control maestro!L206",
+        "Control maestro!A248",
+        "Control maestro!D248",
+        "Control maestro!D250"
+      ],
+      "unchanged_nonworksheet_parts": 21,
+      "inputs_and_financial_formulas_preserved": true
+    },
+    "Plantilla_V6.3.xlsx": {
+      "changed_cells": [
+        "Control maestro!L206",
+        "Control maestro!A248",
+        "Control maestro!D248",
+        "Control maestro!D250"
+      ],
+      "unchanged_nonworksheet_parts": 21,
+      "inputs_and_financial_formulas_preserved": true
+    },
+    "Ejemplo_ABB_V6.3.xlsx": {
+      "changed_cells": [
+        "Control maestro!L206",
+        "Control maestro!A248",
+        "Control maestro!D248",
+        "Control maestro!D250"
+      ],
+      "unchanged_nonworksheet_parts": 21,
+      "inputs_and_financial_formulas_preserved": true
+    },
+    "Ejemplo_migracion_Hermes_V6.3.xlsx": {
+      "changed_cells": [
+        "Control maestro!L206",
+        "Control maestro!A248",
+        "Control maestro!D248",
+        "Control maestro!D250"
+      ],
+      "unchanged_nonworksheet_parts": 21,
+      "inputs_and_financial_formulas_preserved": true
+    }
+  },
+  "integrity": {
+    "Ejemplo_V6.3_EmpresaX.xlsx": {
+      "failures": [],
+      "warnings": []
+    },
+    "Plantilla_V6.3.xlsx": {
+      "failures": [],
+      "warnings": []
+    },
+    "Ejemplo_ABB_V6.3.xlsx": {
+      "failures": [],
+      "warnings": []
+    },
+    "Ejemplo_migracion_Hermes_V6.3.xlsx": {
+      "failures": [],
+      "warnings": []
+    },
+    "guard_removed": {
+      "passed": true,
+      "failures": [
+        "Control maestro!L206: fórmula alterada → =IF(NOT(F206),\"—\",IF(I206=\"Pendiente de inversor\",\"hipótesis pendiente\",IF(I206="
+      ],
+      "warnings": []
+    },
+    "valuation_formula_changed": {
+      "passed": true,
+      "failures": [
+        "Análisis!C83: fórmula alterada → =0"
+      ],
+      "warnings": []
+    },
+    "legitimate_standard": {
+      "passed": true,
+      "failures": [],
+      "warnings": []
+    }
+  },
+  "recalculation_engine": "LibreOffice",
+  "native_excel_tested": false
+}

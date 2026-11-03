@@ -1,0 +1,37 @@
+{
+  "empresa": "Nombre de la empresa (como en Análisis!B3)",
+  "fecha_analisis": "2026-10-06",
+  "cubo": "VIGILAR",
+  "precio_de_si": 690,
+  "precio_de_si_regla": "mín(valor escenario malo B78, 0,75 × valor ponderado C83); el agente la declara, el script la recalcula",
+  "celdas": {
+    "C11": "Sí", "C12": "Sí", "C13": "No",
+    "C14": "Compounder",
+    "C17": "Sí", "C18": "Sí", "C19": "Sí",
+    "C20": "Incert. alta + riesgo bajo",
+    "C25": "Sí", "C27": "Estable",
+    "C51": "Sí", "C56": 0.09,
+    "C61": "No está claro",
+    "C62": "Sí",
+    "B65": "El viento de cola se frena", "C65": "Crece al ritmo de su mercado", "D65": "Gana cuota: el moat se ensancha",
+    "B66": "Una frase del escenario malo.", "C66": "Una frase del escenario normal.", "D66": "Una frase del escenario bueno.",
+    "B67": 0.02, "C67": 0.07, "D67": 0.12,
+    "B68": 0.015, "C68": 0.025, "D68": 0.03,
+    "B69": 0.2, "C69": 0.6, "D69": 0.2,
+    "C76": 0,
+    "C93": "Sí",
+    "C97": "Neutral", "C98": "Buena",
+    "B101": "Tesis en cinco frases como mucho.",
+    "B102": "Tesis inversa al nivel de la prescripción de hierro: los argumentos del No mejor que un bajista.",
+    "C103": "Sí",
+    "C104": "0% · Watchlist · precio de Sí ≈ 690 €"
+  },
+  "observaciones": {
+    "C11": "[Clase: fundamentada] [Confianza: alta] Apoyo: … (libro y página si cita a Munger) Lo sustituiría: …",
+    "C12": "…", "C13": "…", "C14": "…", "C17": "…", "C18": "…", "C19": "…", "C20": "…", "C25": "…", "C27": "…",
+    "C51": "…", "C56": "…", "C61": "…", "C62": "…",
+    "B65": "…", "C65": "…", "D65": "…", "B66": "…", "C66": "…", "D66": "…",
+    "B67": "…", "C67": "…", "D67": "…", "B68": "…", "C68": "…", "D68": "…", "B69": "…", "C69": "…", "D69": "…",
+    "C76": "…", "C93": "…", "C97": "…", "C98": "…", "B101": "…", "B102": "…", "C103": "…", "C104": "…"
+  }
+}

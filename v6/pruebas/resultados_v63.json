@@ -1,0 +1,6146 @@
+{
+ "version": "V6.3",
+ "entregables_probados": {
+  "Ejemplo_ABB_V6.3.xlsx": "5b1c66aa855d2708aa05ee524ca61b7a8888f0a4e68a7b3f03df8b080e90cd09",
+  "Ejemplo_V6.3_EmpresaX.xlsx": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+  "Ejemplo_migracion_Hermes_V6.3.xlsx": "9e944384f166a5407b6acbdc888e53fa22527926b9cd5f92f12806f5f94f2df4",
+  "Plantilla_V6.3.xlsx": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087"
+ },
+ "referencia": "/home/claude/v63/paquete/referencia/referencia_V6.3.json",
+ "total": 251,
+ "superadas": 251,
+ "fallidas": 0,
+ "no_ejecutadas": 0,
+ "no_ejecutadas_declaradas": [
+  "Excel real: deslizadores, colores, avisos de reparación y guardado/reapertura (solo LibreOffice 24.2 headless)",
+  "V37 frente a booleanos en Historia (LibreOffice los lee como números)",
+  "R03 migración desde Hermes_evaluada.xlsx y R08 ABB desde abb_fase1.json: insumos no entregados"
+ ],
+ "casos": [
+  {
+   "nombre": "N1_evidencias_receta_motorB",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: receta_evidencias",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «INCOMPLETAS»",
+     "obtenido": "INCOMPLETAS · datos 8 de 17 · hipótesis confirmadas 0 de 22 · 0 estimaciones · 0 no verificables · 8 hipótesis pendientes · 23 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas»",
+     "obtenido": "NO LISTO · evidencias incompletas (31 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_evidencias_receta_motorA",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: receta_evidencias",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 no verificables»",
+     "obtenido": "INCOMPLETAS · datos 14 de 19 · hipótesis confirmadas 0 de 24 · 0 estimaciones · 1 no verificables · 9 hipótesis pendientes · 19 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas»",
+     "obtenido": "NO LISTO · evidencias incompletas (29 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_solo_datos_documentados_B_no_basta",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «hipótesis confirmadas 0 de 22»",
+     "obtenido": "INCOMPLETAS · datos 17 de 17 · hipótesis confirmadas 0 de 22 · 0 estimaciones · 0 no verificables · 8 hipótesis pendientes · 14 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO»",
+     "obtenido": "NO LISTO · evidencias incompletas (22 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_datos_e_hipotesis_B_LISTO",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: documentar_B",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «documentadas 17 de 17 · hipótesis confirmadas 22 de 22»",
+     "obtenido": "documentadas 17 de 17 · hipótesis confirmadas 22 de 22 (declarado por el analista; Excel no comprueba el dato)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_datos_e_hipotesis_A_LISTO",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: documentar_A",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «documentadas 19 de 19 · hipótesis confirmadas 24 de 24»",
+     "obtenido": "documentadas 19 de 19 · hipótesis confirmadas 24 de 24 (declarado por el analista; Excel no comprueba el dato)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_datos_e_hipotesis_C_LISTO",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «documentadas 10 de 10 · hipótesis confirmadas 18 de 18»",
+     "obtenido": "documentadas 10 de 10 · hipótesis confirmadas 18 de 18 (declarado por el analista; Excel no comprueba el dato)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "17.8908417409",
+     "obtenido": 17.8908417409,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_receta_B_r_y_crecimiento_pendientes",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: receta_B_cobertura",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas»",
+     "obtenido": "NO LISTO · evidencias incompletas (26 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «INCOMPLETAS»",
+     "obtenido": "INCOMPLETAS · datos 13 de 17 · hipótesis confirmadas 0 de 22 · 0 estimaciones · 0 no verificables · 9 hipótesis pendientes · 17 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_receta_A_FCF_normalizado_no_verificable",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: receta_A_cobertura",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas»",
+     "obtenido": "NO LISTO · evidencias incompletas (30 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 no verificables»",
+     "obtenido": "INCOMPLETAS · datos 15 de 19 · hipótesis confirmadas 0 de 26 · 0 estimaciones · 1 no verificables · 9 hipótesis pendientes · 20 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "53.9956252725",
+     "obtenido": 53.9956252725,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C71",
+     "esperado": "contiene «Palancas C44»",
+     "obtenido": "Palancas C44 (FCF normalizado · Transitorio)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_receta_A_FCF_normalizado_estimacion_justificada",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: receta_A_estimacion_justificada",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «LISTO · PROVISIONAL (1 estimaciones»",
+     "obtenido": "LISTO · PROVISIONAL (1 estimaciones justificadas)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "53.9956252725",
+     "obtenido": 53.9956252725,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_exceso_de_caja_sin_confirmar",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "26.3903521530",
+     "obtenido": 26.390352153,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_hipotesis_marcada_como_hecho_es_incoherente",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Control maestro!L208",
+     "esperado": "contiene «incoherente»",
+     "obtenido": "incoherente: hipótesis marcada como hecho",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N4_hipotesis_sin_justificar",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N1_filas_121_124_restauradas",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Control maestro!B122",
+     "esperado": "'Historia!C20:L20'",
+     "obtenido": "Historia!C20:L20",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Control maestro!B123",
+     "esperado": "'Historia!C21:L21'",
+     "obtenido": "Historia!C21:L21",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Control maestro!B124",
+     "esperado": "'Historia!C22:L22'",
+     "obtenido": "Historia!C22:L22",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Control maestro!A121",
+     "esperado": "'Historia'",
+     "obtenido": "Historia",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Control maestro!C122",
+     "esperado": "'Acciones diluidas (mm)'",
+     "obtenido": "Acciones diluidas (mm)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N2_C58_cero_bloquea",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «conciliación de f no cuadra»",
+     "obtenido": "La conciliación de f no cuadra (Historia C81): la fórmula de Historia C58 o el bloque de conciliación (Historia 73–81) han sido alterados; restaura la plantilla o verifica el archivo con verificar_v63.py",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C81",
+     "esperado": "contiene «no cuadra»",
+     "obtenido": "⛔ TÉCNICO · la conciliación no cuadra",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N2_C58_formula_falsa_bloquea",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N2_conciliacion_no_evaluable_no_bloquea",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C8": null,
+    "Historia!D8": null,
+    "Historia!E8": null,
+    "Historia!F8": null,
+    "Historia!G8": null,
+    "Historia!H8": null,
+    "Historia!I8": null,
+    "Historia!J8": null,
+    "Historia!K8": null,
+    "Historia!L8": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Historia!C81",
+     "esperado": "'—'",
+     "obtenido": "—",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "no contiene «conciliación»",
+     "obtenido": "Motor A: faltan amortizaciones D&A (fila 8) en algún año de la ventana que calibra f (Historia, últimos 3 ejercicios); un hueco no vale cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_L22_deuda_negativa",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L22": -200
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «deuda BRUTA»",
+     "obtenido": "Deuda financiera negativa en Historia fila 22: la plantilla pide deuda BRUTA (corto + largo plazo, sin arrendamientos), no deuda neta; no admite negativos",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_L23_arrendamientos_negativos",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L23": -10
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_L24_caja_negativa",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L24": -5
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «Caja negativa»",
+     "obtenido": "Caja negativa en Historia fila 24: la caja es un saldo ≥ 0; un descubierto bancario va en la deuda (fila 22)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_E12_capex_negativo",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!E12": -3
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «Capex negativo»",
+     "obtenido": "Capex negativo en Historia fila 12: la plantilla pide el capex en positivo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_E8_DA_negativa_fuera_de_ventana",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C8": -1
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_circulante_negativo_permitido",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!E14": -3
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "un número",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_adquisiciones_negativas_permitidas",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!E13": -30
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "un número",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_CFO_negativo_permitido",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C11": -50
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_superavit_pensiones_es_cero_con_aviso",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L25": -40
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C65",
+     "esperado": "0.0000000000",
+     "obtenido": 0,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "aviso de superávit de pensiones en las causas activas",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "N3_deficit_pensiones_se_resta",
+   "familia": "1 · fallos nuevos",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L25": 40
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.3047681226",
+     "obtenido": 30.3047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C65",
+     "esperado": "40.0000000000",
+     "obtenido": 40,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A1_amortizaciones_ausentes",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C8": null,
+    "Historia!D8": null,
+    "Historia!E8": null,
+    "Historia!F8": null,
+    "Historia!G8": null,
+    "Historia!H8": null,
+    "Historia!I8": null,
+    "Historia!J8": null,
+    "Historia!K8": null,
+    "Historia!L8": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «amortizaciones»",
+     "obtenido": "Motor A: faltan amortizaciones D&A (fila 8) en algún año de la ventana que calibra f (Historia, últimos 3 ejercicios); un hueco no vale cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A2_amortizacion_parcial",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!L8": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «amortizaciones»",
+     "obtenido": "Motor A: faltan amortizaciones D&A (fila 8) en algún año de la ventana que calibra f (Historia, últimos 3 ejercicios); un hueco no vale cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B1_caja_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L24": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «caja del último año»",
+     "obtenido": "Motor B: falta la caja del último año (Historia L24); una caja desconocida no vale cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "C1_monedas_distintas_B",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Palancas!C48": "USD",
+    "Control maestro!H4": "EUR"
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «pesos de financiación»",
+     "obtenido": "Motor B: la capitalización está en USD y la deuda en EUR: los pesos de financiación no son comparables. Normaliza la capitalización a EUR y concilia el importe en Control maestro (la hoja no convierte divisas)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "C2_monedas_distintas_A_solo_lectura",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C48": "USD",
+    "Control maestro!H4": "EUR"
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C84",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B253",
+     "esperado": "False",
+     "obtenido": false,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A3_fila12_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C12": null,
+    "Historia!D12": null,
+    "Historia!E12": null,
+    "Historia!F12": null,
+    "Historia!G12": null,
+    "Historia!H12": null,
+    "Historia!I12": null,
+    "Historia!J12": null,
+    "Historia!K12": null,
+    "Historia!L12": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A3_fila14_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C14": null,
+    "Historia!D14": null,
+    "Historia!E14": null,
+    "Historia!F14": null,
+    "Historia!G14": null,
+    "Historia!H14": null,
+    "Historia!I14": null,
+    "Historia!J14": null,
+    "Historia!K14": null,
+    "Historia!L14": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B2_L22_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L22": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B2_L23_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L23": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B2_L25_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L25": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B2_L26_ausente",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L26": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "B3_ceros_explicitos_valen",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L23": 0,
+    "Historia!L25": 0,
+    "Historia!L26": 0
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "un número",
+     "obtenido": 30.3792524,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A4_C48_vacio",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C48": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «intereses en financiación»",
+     "obtenido": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "A5_C49_vacio",
+   "familia": "2 · fallos anteriores",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C49": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «arrendamientos»",
+     "obtenido": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E1_estimacion_justificada_provisional",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: estimacion_justificada",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «LISTO · PROVISIONAL (1 estimaciones»",
+     "obtenido": "LISTO · PROVISIONAL (1 estimaciones justificadas)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «PROVISIONAL»",
+     "obtenido": "PROVISIONAL · 1 estimación(es) justificada(s) · documentadas 16 de 17 · hipótesis confirmadas 22 de 22",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E2_estimacion_sin_justificar_pendiente",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: estimacion_sin_justificar",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E3_no_verificable_no_es_completa",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: no_verificable",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 no verificables»",
+     "obtenido": "INCOMPLETAS · datos 16 de 17 · hipótesis confirmadas 22 de 22 · 0 estimaciones · 1 no verificables · 0 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E4_no_aplicable_en_caja_indebido",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: no_aplicable_indebido",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 «No aplicable» indebido»",
+     "obtenido": "INCOMPLETAS · datos 16 de 17 · hipótesis confirmadas 22 de 22 · 0 estimaciones · 0 no verificables · 0 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 1 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E5_no_aplicable_en_entrada_no_usada_ok",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: no_aplicable_legitimo",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E6_fuente_pendiente_fila_124_cuenta",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: fuente_pendiente_fila_124",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 sin clasificar»",
+     "obtenido": "INCOMPLETAS · datos 16 de 17 · hipótesis confirmadas 22 de 22 · 0 estimaciones · 0 no verificables · 0 hipótesis pendientes · 1 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E7_hipotesis_pendiente_cuenta",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: hipotesis_pendiente",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 hipótesis pendientes»",
+     "obtenido": "INCOMPLETAS · datos 16 de 17 · hipótesis confirmadas 22 de 22 · 0 estimaciones · 0 no verificables · 1 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E8_rellenar_otras_celdas_no_confirma",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: rellenar_otras_no_convierte",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 hipótesis pendientes»",
+     "obtenido": "INCOMPLETAS · datos 16 de 17 · hipótesis confirmadas 22 de 22 · 0 estimaciones · 0 no verificables · 1 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E9_sin_motor_sin_entradas_aplicables",
+   "familia": "3 · evidencias",
+   "archivo_base": "Plantilla",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «sin entradas aplicables»",
+     "obtenido": "sin entradas aplicables: elige el motor en Análisis C62",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E10_ABB_conserva_pendientes",
+   "familia": "3 · evidencias",
+   "archivo_base": "ABB",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «Análisis C48, C49»",
+     "obtenido": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C49",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "empieza por «INCOMPLETAS»",
+     "obtenido": "INCOMPLETAS · datos 0 de 19 · hipótesis confirmadas 0 de 24 · 0 estimaciones · 0 no verificables · 9 hipótesis pendientes · 34 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E11_ABB_variante_prueba_C49_cero",
+   "familia": "3 · evidencias",
+   "archivo_base": "ABB",
+   "motor": "—",
+   "entradas": {
+    "Análisis!C49": 0
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "37.3528564268",
+     "obtenido": 37.3528564268,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "contiene «Filtro Pabrai»",
+     "obtenido": "Filtro Pabrai sin completar (Análisis C11:C13)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C65",
+     "esperado": "559.0000000000",
+     "obtenido": 559,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "E12_EmpresaX_sigue_ficticia",
+   "familia": "3 · evidencias",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!B3",
+     "esperado": "contiene «inventada»",
+     "obtenido": "Empresa X (inventada)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas»",
+     "obtenido": "NO LISTO · evidencias incompletas (43 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Panel!B3",
+     "esperado": "empieza por «Evidencias: INCOMPLETAS»",
+     "obtenido": "Evidencias: INCOMPLETAS · datos 0 de 19 · hipótesis confirmadas 0 de 24 · 0 estimaciones · 0 no verificables · 9 hipótesis pendientes · 34 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V1_plantilla_vacia",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "Plantilla",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Falta elegir el motor en Análisis C62",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V2_A_combinacion_D&A_y_capex",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!C8": null,
+    "Historia!D8": null,
+    "Historia!E8": null,
+    "Historia!F8": null,
+    "Historia!G8": null,
+    "Historia!H8": null,
+    "Historia!I8": null,
+    "Historia!J8": null,
+    "Historia!K8": null,
+    "Historia!L8": null,
+    "Historia!C12": null,
+    "Historia!D12": null,
+    "Historia!E12": null,
+    "Historia!F12": null,
+    "Historia!G12": null,
+    "Historia!H12": null,
+    "Historia!I12": null,
+    "Historia!J12": null,
+    "Historia!K12": null,
+    "Historia!L12": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Motor A: faltan amortizaciones D&A (fila 8) en algún año de la ventana que calibra f (Historia, últimos 3 ejercicios); un hueco no vale cero",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V3_A_combinacion_C50_y_B15",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C50": null,
+    "Palancas!B15": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Faltan datos del FCF base (Análisis C46, C47, C50 o C51)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V4_B_combinacion_caja_deuda_intereses",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L24": null,
+    "Historia!L22": null,
+    "Historia!L15": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Motor B: falta la deuda o los arrendamientos del último año (Historia L22, L23); escribe 0 si no hay",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V5_B_combinacion_moneda_y_caja",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Palancas!C48": null,
+    "Historia!L24": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Motor B: falta la caja del último año (Historia L24); una caja desconocida no vale cero",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V6_C_combinacion_patrimonio_beneficio",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": {
+    "Historia!L21": null,
+    "Historia!L9": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Motor C: faltan patrimonio o beneficio del último año (Historia L9, L21)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V7_C_combinacion_ROE_y_g",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": {
+    "Palancas!C15": null,
+    "Análisis!C68": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Faltan márgenes objetivo (Palancas B15:D15)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V8_parcial_tipo_impositivo_un_año",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!K10": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'INCOMPLETO'",
+     "obtenido": "INCOMPLETO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C52",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V9_texto_en_historia",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Historia!L8": "n/d"
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V10_C51_fuera_dominio",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C51": "Tal vez"
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V11_causa_legible_B15",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!B15": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Faltan márgenes objetivo (Palancas B15:D15)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V11_causa_legible_C16",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C16": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Faltan ventas por euro reinvertido (Palancas B16:D16)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "V11_causa_legible_D18",
+   "familia": "4 · vacía y combinaciones",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!D18": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B256",
+     "esperado": "texto, no un error",
+     "obtenido": "Faltan ROIC a largo plazo (Palancas B18:D18)",
+     "resultado": "OK"
+    },
+    {
+     "celda": "__libro__",
+     "esperado": "sin #VALUE!/#REF!/#DIV/0!/#NAME? (los #N/A de Motor!B141:E169 son los huecos de gráfico)",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "R1_motor_A",
+   "familia": "5 · referencias",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!B78",
+     "esperado": "15.1023915687",
+     "obtenido": 15.1023915687,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C78",
+     "esperado": "25.0689493251",
+     "obtenido": 25.0689493251,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!D78",
+     "esperado": "39.1425212211",
+     "obtenido": 39.1425212211,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "R2_motor_B",
+   "familia": "5 · referencias",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!B78",
+     "esperado": "17.3539528334",
+     "obtenido": 17.3539528334,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C78",
+     "esperado": "29.7144295704",
+     "obtenido": 29.7144295704,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!D78",
+     "esperado": "47.0265990684",
+     "obtenido": 47.0265990684,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "R3_motor_C_con_palancas_del_ejemplo_A",
+   "familia": "5 · referencias",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "17.8908417409",
+     "obtenido": 17.8908417409,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!B78",
+     "esperado": "10.9505167043",
+     "obtenido": 10.9505167043,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C78",
+     "esperado": "17.2492128343",
+     "obtenido": 17.2492128343,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!D78",
+     "esperado": "26.7560534971",
+     "obtenido": 26.7560534971,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "R4_motor_C_fixture_original_test_fill",
+   "familia": "5 · referencias",
+   "archivo_base": "EmpresaX",
+   "motor": "C_orig",
+   "entradas": "función: palancas_C_orig",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!B78",
+     "esperado": "8.3362525831",
+     "obtenido": 8.3362525831,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C78",
+     "esperado": "11.9777149618",
+     "obtenido": 11.9777149618,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!D78",
+     "esperado": "15.2293638877",
+     "obtenido": 15.2293638877,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C83",
+     "esperado": "11.8997522712",
+     "obtenido": 11.8997522712,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "R5_f_conciliada",
+   "familia": "5 · referencias",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Historia!C58",
+     "esperado": "0.0140000000",
+     "obtenido": 0.014,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C80",
+     "esperado": "0.0140000000",
+     "obtenido": 0.014,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Historia!C81",
+     "esperado": "contiene «cuadra»",
+     "obtenido": "✓ cuadra",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_A_ON_0",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_A_ON_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_A_OFF_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "25.8903521530",
+     "obtenido": 25.890352153,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_B_ON_0",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_B_ON_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_B_OFF_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "30.7047681226",
+     "obtenido": 30.7047681226,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_C_ON_0",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "17.8908417409",
+     "obtenido": 17.8908417409,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_C_ON_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "17.8908417409",
+     "obtenido": 17.8908417409,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S1_estudio_C_OFF_40",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "17.8908417409",
+     "obtenido": 17.8908417409,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S2_tasa_usuario_se_conserva_B",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C56",
+     "esperado": "0.0900000000",
+     "obtenido": 0.09,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Diagnóstico V6!C15",
+     "esperado": "0.0839952904",
+     "obtenido": 0.0839952904,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S3_C15_vacia_fuera_de_B",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Diagnóstico V6!C15",
+     "esperado": "'—'",
+     "obtenido": "—",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Diagnóstico V6!C16",
+     "esperado": "'—'",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S4_probabilidades_fuera",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!B69": -0.1,
+    "Análisis!C69": 1.1,
+    "Análisis!D69": 0.0
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S5_ponderado_equiprobable",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!B69": 0.3333333333333333,
+    "Análisis!C69": 0.3333333333333333,
+    "Análisis!D69": 0.3333333333333333
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "__libro__",
+     "esperado": "C83 = media de B78:D78",
+     "obtenido": "—",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S6_quiebra_150",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C22": 1.5
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S7_quiebra_30_recuperacion_sin_descontar",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C22": 0.3,
+    "Palancas!C23": 350
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!B78",
+     "esperado": "11.6216740981",
+     "obtenido": 11.6216740981,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S8_g_mayor_que_r",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C68": 0.12,
+    "Análisis!C56": 0.1
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'DATOS INVÁLIDOS'",
+     "obtenido": "DATOS INVÁLIDOS",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S9_precio_vacio_bloquea_lectura",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Análisis!C37": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C84",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Diagnóstico V6!C156",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Panel!M25",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S10_precio_referencia_k",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Diagnóstico V6!C158": 0.5
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Diagnóstico V6!C156",
+     "esperado": "12.9451760765",
+     "obtenido": 12.9451760765,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S11_salidas_dependientes_con_valor_bloqueado",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": {
+    "Historia!L24": null
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C84",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C86",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Diagnóstico V6!C156",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Panel!K20",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!B90",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!D92",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!A90",
+     "esperado": "texto, no un error",
+     "obtenido": "r operativa -2 pts (6.4 %)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S12_ADR_ratio_1_comparable",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C47": "ADR o ADS",
+    "Control maestro!D5": 1
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B253",
+     "esperado": "True",
+     "obtenido": true,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "S13_ADR_sin_ratio_no_comparable",
+   "familia": "6 · invariantes",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": {
+    "Palancas!C47": "ADR o ADS"
+   },
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B253",
+     "esperado": "False",
+     "obtenido": false,
+     "resultado": "OK"
+    },
+    {
+     "celda": "Análisis!C84",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "VIS_Plantilla_V6.3.xlsx",
+   "familia": "8 · visualización",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "bloques nuevos",
+     "esperado": "visibles, con tema y reglas de color",
+     "obtenido": "OK",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "VIS_Ejemplo_V6.3_EmpresaX.xlsx",
+   "familia": "8 · visualización",
+   "archivo_base": "Ejemplo_V6.3_EmpresaX.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "bloques nuevos",
+     "esperado": "visibles, con tema y reglas de color",
+     "obtenido": "OK",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "INT_Ejemplo_ABB_V6.3.xlsx",
+   "familia": "7 · integridad",
+   "archivo_base": "Ejemplo_ABB_V6.3.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "5b1c66aa855d2708aa05ee524ca61b7a8888f0a4e68a7b3f03df8b080e90cd09",
+   "comprobaciones": [
+    {
+     "celda": "libro completo",
+     "esperado": "ÍNTEGRO frente a V6.3 (30-oct-2026)",
+     "obtenido": "ÍNTEGRO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "INT_Ejemplo_V6.3_EmpresaX.xlsx",
+   "familia": "7 · integridad",
+   "archivo_base": "Ejemplo_V6.3_EmpresaX.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "libro completo",
+     "esperado": "ÍNTEGRO frente a V6.3 (30-oct-2026)",
+     "obtenido": "ÍNTEGRO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "INT_Ejemplo_migracion_Hermes_V6.3.xlsx",
+   "familia": "7 · integridad",
+   "archivo_base": "Ejemplo_migracion_Hermes_V6.3.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "9e944384f166a5407b6acbdc888e53fa22527926b9cd5f92f12806f5f94f2df4",
+   "comprobaciones": [
+    {
+     "celda": "libro completo",
+     "esperado": "ÍNTEGRO frente a V6.3 (30-oct-2026)",
+     "obtenido": "ÍNTEGRO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "INT_Plantilla_V6.3.xlsx",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": "—",
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "libro completo",
+     "esperado": "ÍNTEGRO frente a V6.3 (30-oct-2026)",
+     "obtenido": "ÍNTEGRO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "MAN_C58_cero",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": {
+    "Historia!C58": "=0"
+   },
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "Historia!C58",
+     "esperado": "ALTERADO y la celda nombrada",
+     "obtenido": [
+      "Historia!C58: fórmula alterada → =0"
+     ],
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "MAN_C83_cero",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": {
+    "Análisis!C83": "=0"
+   },
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "ALTERADO y la celda nombrada",
+     "obtenido": [
+      "Análisis!C83: fórmula alterada → =0"
+     ],
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "MAN_C83_valor",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": {
+    "Análisis!C83": 25.0
+   },
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "Análisis!C83",
+     "esperado": "ALTERADO y la celda nombrada",
+     "obtenido": [
+      "Análisis!C83: fórmula sustituida por el valor 25"
+     ],
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "MAN_V23_anulada",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": {
+    "Motor!E223": "=\"\""
+   },
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "Motor!E223",
+     "esperado": "ALTERADO y la celda nombrada",
+     "obtenido": [
+      "Motor!E223: fórmula alterada → =\"\""
+     ],
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "INT_entradas_legitimas_sin_falsos_positivos",
+   "familia": "7 · integridad",
+   "archivo_base": "Plantilla_V6.3.xlsx",
+   "motor": "—",
+   "entradas": "10 entradas rellenadas",
+   "sha256_entregable_base": "128f4a0f12088c13de237ea82c03c18614745b351a173964a43d3cd8782e9087",
+   "comprobaciones": [
+    {
+     "celda": "libro completo",
+     "esperado": "ÍNTEGRO",
+     "obtenido": "ÍNTEGRO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_precio",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_capitalizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_acciones",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_cfo_media",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_capex_media",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_int_fin_media",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_leases_media",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_sbc_media",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_anios",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_ventas",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_ebit",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_da",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_tipo",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_capex",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_h_circulante",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_moneda_cotizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_moneda_modelo",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_unidad",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_norma",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_motor",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_r",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_caso_especial",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_base_margen",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_anios_f",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_restar_sbc",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_crec_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_margen_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_s2c_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_roic_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_g_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_prob_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_crec_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_margen_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_s2c_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_roic_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_g_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_prob_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_crec_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_margen_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_s2c_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_roic_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_g_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_prob_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_precio",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_capitalizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_acciones",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_anios",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_ventas",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_ebit",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_tipo",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_intereses",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_deuda",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_arrend",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_caja",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_pensiones",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_h_minoritarios",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_moneda_cotizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_moneda_modelo",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_unidad",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_norma",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_motor",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_r",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_caso_especial",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_base_margen",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_crec_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_margen_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_s2c_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_roic_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_g_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_prob_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_crec_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_margen_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_s2c_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_roic_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_g_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_prob_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_crec_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_margen_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_s2c_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_roic_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_g_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_prob_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_B_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_precio",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_capitalizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_acciones",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_h_anios",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_h_beneficio",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_h_patrimonio",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_moneda_cotizacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_moneda_modelo",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_unidad",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_norma",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_motor",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_r",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_caso_especial",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_crec_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_margen_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_roic_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_g_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_prob_MALO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_crec_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_margen_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_roic_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_g_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_prob_NORMAL",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_crec_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_margen_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_roic_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_g_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_prob_BUENO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_base_C_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_A_p_quiebra",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_A_recuperacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_B_p_quiebra",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_B_recuperacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_B_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_C_p_quiebra",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_C_recuperacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_C_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_fcf_neg_A_naturaleza_fcf",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_fcf_neg_A_fcf_normalizado",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_fcf_neg_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_exceso_caja_A_exceso_caja",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_exceso_caja_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_A_ratio_adr",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_A_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_B_ratio_adr",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_B_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_B_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_C_ratio_adr",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_C_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_adr_C_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_A_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_A_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_B_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_B_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_C_causa_desviacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: f",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_desviacion_C_todo_confirmado_LISTO",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: _pos",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B255",
+     "esperado": "'COMPLETO Y VÁLIDO'",
+     "obtenido": "COMPLETO Y VÁLIDO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_no_aplicable_legitimo_DA_en_B",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_no_aplicable_legitimo_S2C_en_C",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_no_aplicable_indebido_r_en_C",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 «No aplicable» indebido»",
+     "obtenido": "INCOMPLETAS · datos 10 de 10 · hipótesis confirmadas 17 de 18 · 0 estimaciones · 0 no verificables · 0 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 1 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_no_verificable_crecimiento_en_A",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Motor!B269",
+     "esperado": "contiene «1 no verificables»",
+     "obtenido": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 23 de 24 · 0 estimaciones · 1 no verificables · 0 hipótesis pendientes · 0 sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_estimacion_sin_justificar_margen_en_B",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "B",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «NO LISTO · evidencias incompletas (1 pendientes)»",
+     "obtenido": "NO LISTO · evidencias incompletas (1 pendientes) · cálculo completo",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_estimacion_justificada_ROIC_en_C_provisional",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "C",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "empieza por «LISTO · PROVISIONAL (1 estimaciones»",
+     "obtenido": "LISTO · PROVISIONAL (1 estimaciones justificadas)",
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  },
+  {
+   "nombre": "COB_quiebra_vacia_no_exige_confirmacion",
+   "familia": "9 · cobertura",
+   "archivo_base": "EmpresaX",
+   "motor": "A",
+   "entradas": "función: <lambda>",
+   "sha256_entregable_base": "d99bc648f70f2e562172fbfda0961a6b8261f1be3336d269c55d5af47fadce1a",
+   "comprobaciones": [
+    {
+     "celda": "Motor!B266",
+     "esperado": "'LISTO'",
+     "obtenido": "LISTO",
+     "resultado": "OK"
+    },
+    {
+     "celda": "Palancas!C22",
+     "esperado": "sin valor",
+     "obtenido": null,
+     "resultado": "OK"
+    }
+   ],
+   "resultado": "SUPERADA"
+  }
+ ]
+}

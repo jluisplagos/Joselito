@@ -1,0 +1,28 @@
+ENTREGA ACTUAL: V6.3 con corrección de norma contable (30-oct-2026).
+Empezar por docs/Correccion_norma_contable.md.
+Usar los cuatro archivos de entregables/ y la referencia actual de referencia/.
+
+Los resultados y capturas de la entrega anterior se mantienen como antecedentes.
+La evidencia de esta corrección está en pruebas/correccion_norma_contable/.
+
+--- DESCRIPCIÓN DE LA ENTREGA ANTERIOR ---
+
+PLANTILLA V6.3 · paquete de entrega (30-oct-2026 · cobertura completa de evidencias)
+
+entregables/   Plantilla_V6.3.xlsx y los tres ejemplos (Empresa X inventada, ABB con datos reales y huecos
+               reales, Hermès migrado). Son los archivos probados: SHA-256 en IDENTIFICACION_V6_3.txt.
+referencia/    referencia_V6.3.json (fórmulas exactas, celdas fijas, validaciones, controles, gráficos) y
+               la lista de SHA-256. Para verificar un libro: scripts/verificar_v63.py libro.xlsx referencia/referencia_V6.3.json
+scripts/       construcción (construir_v63.py), verificación (generar_referencia.py, verificar_v63.py),
+               pruebas (run_tests_v63.py), contrato de relleno; V6.1/ con los scripts anteriores (test_fill.py = réplica Python).
+pruebas/       resultados_v63.json (251 casos: archivo, entradas, esperado, obtenido, estado),
+               relacion_independiente.json (traza + activación empírica, origen de la relación de entradas),
+               fixtures del motor B, los dos fixtures del motor C y la variante ABB C49=0, los libros manipulados
+               que el verificador rechaza, y capturas del Panel y del control de evidencias.
+docs/          Informe_V6_3.md (empezar aquí) · Matriz_cobertura_evidencias_V6_3.md · Evidencia_pruebas_V6_3.md ·
+               Convenciones_financieras_V6_3.md · Guia_de_uso_V6_3.md · Contrato_de_relleno_V6.3.csv ·
+               Replica_independiente_V6_2.md
+originales/    V6.1 (punto de partida) y V6.2 (versión auditada), sin tocar.
+
+NO PROBADO EN EXCEL REAL: todo el recálculo es LibreOffice 24.2.7.2. Deslizadores, colores, avisos de reparación
+y guardado/reapertura en Excel quedan pendientes y no se declaran superados.

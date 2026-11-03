@@ -1,0 +1,2337 @@
+{
+ "fuente": "Ejemplo_V6.3_EmpresaX.xlsx",
+ "salidas_vigiladas": [
+  "Análisis!B78",
+  "Análisis!C78",
+  "Análisis!D78",
+  "Análisis!C83",
+  "Análisis!C84",
+  "Análisis!C85",
+  "Análisis!C86",
+  "Motor!B252",
+  "Motor!B253",
+  "Motor!B254",
+  "Motor!B267",
+  "Diagnóstico V6!C156"
+ ],
+ "configuraciones": {
+  "base": {},
+  "quiebra": {
+   "Palancas!C22": 0.1,
+   "Palancas!C23": 50
+  },
+  "fcf_negativo_normalizado": {
+   "Análisis!C46": 0,
+   "Palancas!C43": "Transitorio",
+   "Palancas!C44": 200
+  },
+  "exceso_caja": {
+   "Análisis!C76": 50
+  },
+  "adr": {
+   "Palancas!C47": "ADR o ADS",
+   "Control maestro!D5": 1
+  },
+  "desviacion_capitalizacion": {
+   "Análisis!C41": 2860.0,
+   "Palancas!C47": "Básicas frente a diluidas"
+  },
+  "id_capitalizada": {
+   "Palancas!C9": "Sí",
+   "Palancas!C10": 5
+  }
+ },
+ "traza_estatica_editables_alcanzadas": [
+  "Análisis!B101",
+  "Análisis!B102",
+  "Análisis!B3",
+  "Análisis!B65",
+  "Análisis!B66",
+  "Análisis!B68",
+  "Análisis!B69",
+  "Análisis!C103",
+  "Análisis!C104",
+  "Análisis!C11",
+  "Análisis!C12",
+  "Análisis!C13",
+  "Análisis!C14",
+  "Análisis!C17",
+  "Análisis!C18",
+  "Análisis!C19",
+  "Análisis!C20",
+  "Análisis!C24",
+  "Análisis!C25",
+  "Análisis!C26",
+  "Análisis!C27",
+  "Análisis!C28",
+  "Análisis!C31",
+  "Análisis!C32",
+  "Análisis!C33",
+  "Análisis!C34",
+  "Análisis!C37",
+  "Análisis!C38",
+  "Análisis!C41",
+  "Análisis!C46",
+  "Análisis!C47",
+  "Análisis!C48",
+  "Análisis!C49",
+  "Análisis!C50",
+  "Análisis!C51",
+  "Análisis!C53",
+  "Análisis!C55",
+  "Análisis!C56",
+  "Análisis!C62",
+  "Análisis!C65",
+  "Análisis!C66",
+  "Análisis!C68",
+  "Análisis!C69",
+  "Análisis!C76",
+  "Análisis!C93",
+  "Análisis!C97",
+  "Análisis!C98",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!D65",
+  "Análisis!D66",
+  "Análisis!D68",
+  "Análisis!D69",
+  "Control maestro!D5",
+  "Control maestro!H4",
+  "Diagnóstico V6!C158",
+  "Diagnóstico V6!C179",
+  "Diagnóstico V6!C91",
+  "Diagnóstico V6!C92",
+  "Diagnóstico V6!C93",
+  "Diagnóstico V6!C94",
+  "Historia!C10",
+  "Historia!C11",
+  "Historia!C12",
+  "Historia!C13",
+  "Historia!C14",
+  "Historia!C15",
+  "Historia!C16",
+  "Historia!C17",
+  "Historia!C18",
+  "Historia!C19",
+  "Historia!C20",
+  "Historia!C21",
+  "Historia!C22",
+  "Historia!C23",
+  "Historia!C24",
+  "Historia!C25",
+  "Historia!C26",
+  "Historia!C5",
+  "Historia!C57",
+  "Historia!C6",
+  "Historia!C7",
+  "Historia!C8",
+  "Historia!C9",
+  "Historia!D10",
+  "Historia!D11",
+  "Historia!D12",
+  "Historia!D13",
+  "Historia!D14",
+  "Historia!D15",
+  "Historia!D16",
+  "Historia!D17",
+  "Historia!D18",
+  "Historia!D19",
+  "Historia!D20",
+  "Historia!D21",
+  "Historia!D22",
+  "Historia!D23",
+  "Historia!D24",
+  "Historia!D25",
+  "Historia!D26",
+  "Historia!D5",
+  "Historia!D6",
+  "Historia!D7",
+  "Historia!D8",
+  "Historia!D9",
+  "Historia!E10",
+  "Historia!E11",
+  "Historia!E12",
+  "Historia!E13",
+  "Historia!E14",
+  "Historia!E15",
+  "Historia!E16",
+  "Historia!E17",
+  "Historia!E18",
+  "Historia!E19",
+  "Historia!E20",
+  "Historia!E21",
+  "Historia!E22",
+  "Historia!E23",
+  "Historia!E24",
+  "Historia!E25",
+  "Historia!E26",
+  "Historia!E5",
+  "Historia!E6",
+  "Historia!E7",
+  "Historia!E8",
+  "Historia!E9",
+  "Historia!F10",
+  "Historia!F11",
+  "Historia!F12",
+  "Historia!F13",
+  "Historia!F14",
+  "Historia!F15",
+  "Historia!F16",
+  "Historia!F17",
+  "Historia!F18",
+  "Historia!F19",
+  "Historia!F20",
+  "Historia!F21",
+  "Historia!F22",
+  "Historia!F23",
+  "Historia!F24",
+  "Historia!F25",
+  "Historia!F26",
+  "Historia!F5",
+  "Historia!F6",
+  "Historia!F7",
+  "Historia!F8",
+  "Historia!F9",
+  "Historia!G10",
+  "Historia!G11",
+  "Historia!G12",
+  "Historia!G13",
+  "Historia!G14",
+  "Historia!G15",
+  "Historia!G16",
+  "Historia!G17",
+  "Historia!G18",
+  "Historia!G19",
+  "Historia!G20",
+  "Historia!G21",
+  "Historia!G22",
+  "Historia!G23",
+  "Historia!G24",
+  "Historia!G25",
+  "Historia!G26",
+  "Historia!G5",
+  "Historia!G6",
+  "Historia!G7",
+  "Historia!G8",
+  "Historia!G9",
+  "Historia!H10",
+  "Historia!H11",
+  "Historia!H12",
+  "Historia!H13",
+  "Historia!H14",
+  "Historia!H15",
+  "Historia!H16",
+  "Historia!H17",
+  "Historia!H18",
+  "Historia!H19",
+  "Historia!H20",
+  "Historia!H21",
+  "Historia!H22",
+  "Historia!H23",
+  "Historia!H24",
+  "Historia!H25",
+  "Historia!H26",
+  "Historia!H5",
+  "Historia!H6",
+  "Historia!H7",
+  "Historia!H8",
+  "Historia!H9",
+  "Historia!I10",
+  "Historia!I11",
+  "Historia!I12",
+  "Historia!I13",
+  "Historia!I14",
+  "Historia!I15",
+  "Historia!I16",
+  "Historia!I17",
+  "Historia!I18",
+  "Historia!I19",
+  "Historia!I20",
+  "Historia!I21",
+  "Historia!I22",
+  "Historia!I23",
+  "Historia!I24",
+  "Historia!I25",
+  "Historia!I26",
+  "Historia!I5",
+  "Historia!I6",
+  "Historia!I7",
+  "Historia!I8",
+  "Historia!I9",
+  "Historia!J10",
+  "Historia!J11",
+  "Historia!J12",
+  "Historia!J13",
+  "Historia!J14",
+  "Historia!J15",
+  "Historia!J16",
+  "Historia!J17",
+  "Historia!J18",
+  "Historia!J19",
+  "Historia!J20",
+  "Historia!J21",
+  "Historia!J22",
+  "Historia!J23",
+  "Historia!J24",
+  "Historia!J25",
+  "Historia!J26",
+  "Historia!J5",
+  "Historia!J6",
+  "Historia!J7",
+  "Historia!J8",
+  "Historia!J9",
+  "Historia!K10",
+  "Historia!K11",
+  "Historia!K12",
+  "Historia!K13",
+  "Historia!K14",
+  "Historia!K15",
+  "Historia!K16",
+  "Historia!K17",
+  "Historia!K18",
+  "Historia!K19",
+  "Historia!K20",
+  "Historia!K21",
+  "Historia!K22",
+  "Historia!K23",
+  "Historia!K24",
+  "Historia!K25",
+  "Historia!K26",
+  "Historia!K5",
+  "Historia!K6",
+  "Historia!K7",
+  "Historia!K8",
+  "Historia!K9",
+  "Historia!L10",
+  "Historia!L11",
+  "Historia!L12",
+  "Historia!L13",
+  "Historia!L14",
+  "Historia!L15",
+  "Historia!L16",
+  "Historia!L17",
+  "Historia!L18",
+  "Historia!L19",
+  "Historia!L20",
+  "Historia!L21",
+  "Historia!L22",
+  "Historia!L23",
+  "Historia!L24",
+  "Historia!L25",
+  "Historia!L26",
+  "Historia!L5",
+  "Historia!L6",
+  "Historia!L7",
+  "Historia!L8",
+  "Historia!L9",
+  "Palancas!A28",
+  "Palancas!A29",
+  "Palancas!A30",
+  "Palancas!A31",
+  "Palancas!A32",
+  "Palancas!A33",
+  "Palancas!A38",
+  "Palancas!A39",
+  "Palancas!A40",
+  "Palancas!B14",
+  "Palancas!B15",
+  "Palancas!B16",
+  "Palancas!B18",
+  "Palancas!B28",
+  "Palancas!B29",
+  "Palancas!B30",
+  "Palancas!B31",
+  "Palancas!B32",
+  "Palancas!B33",
+  "Palancas!C14",
+  "Palancas!C15",
+  "Palancas!C16",
+  "Palancas!C18",
+  "Palancas!C22",
+  "Palancas!C23",
+  "Palancas!C43",
+  "Palancas!C44",
+  "Palancas!C45",
+  "Palancas!C46",
+  "Palancas!C47",
+  "Palancas!C48",
+  "Palancas!C5",
+  "Palancas!C6",
+  "Palancas!C7",
+  "Palancas!C8",
+  "Palancas!D14",
+  "Palancas!D15",
+  "Palancas!D16",
+  "Palancas!D18",
+  "Panel!C6"
+ ],
+ "activacion_empirica": {
+  "Análisis!B68": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!B69": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C11": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C12": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C13": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C37": {
+   "A": {
+    "base": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ],
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ],
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86"
+    ],
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86"
+    ]
+   }
+  },
+  "Análisis!C41": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "adr": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C46": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C47": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C48": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C49": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C50": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C51": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C55": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C56": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C62": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C68": {
+   "A": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   }
+  },
+  "Análisis!C69": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!C76": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "exceso_caja": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Análisis!D68": {
+   "A": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   }
+  },
+  "Análisis!D69": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Control maestro!D5": {
+   "A": {
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!C57": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila10": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila12": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila14": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila15": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila21": {
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila22": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila23": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila24": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila25": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila26": {
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila5": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila6": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila7": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila8": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Historia!fila9": {
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!B14": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!B15": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!B16": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!B18": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ],
+    "id_capitalizada": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "id_capitalizada": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ],
+    "id_capitalizada": [
+     "Análisis!B78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!C14": {
+   "A": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84"
+    ]
+   }
+  },
+  "Palancas!C15": {
+   "A": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   }
+  },
+  "Palancas!C16": {
+   "A": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   }
+  },
+  "Palancas!C18": {
+   "A": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ],
+    "id_capitalizada": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267"
+    ],
+    "id_capitalizada": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ],
+    "id_capitalizada": [
+     "Análisis!C78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86"
+    ]
+   }
+  },
+  "Palancas!C22": {
+   "A": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ],
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!C23": {
+   "A": {
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "quiebra": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C86",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!C44": {
+   "A": {
+    "fcf_negativo_normalizado": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!C47": {
+   "A": {
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "desviacion_capitalizacion": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!C48": {
+   "A": {
+    "base": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "adr": [
+     "Análisis!B78",
+     "Análisis!C78",
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B252",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ],
+    "adr": [
+     "Análisis!C84",
+     "Análisis!C85",
+     "Análisis!C86",
+     "Motor!B253",
+     "Motor!B254",
+     "Motor!B267",
+     "Diagnóstico V6!C156"
+    ]
+   }
+  },
+  "Palancas!D14": {
+   "A": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   }
+  },
+  "Palancas!D15": {
+   "A": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   }
+  },
+  "Palancas!D16": {
+   "A": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   }
+  },
+  "Palancas!D18": {
+   "A": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ],
+    "id_capitalizada": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   },
+   "B": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ],
+    "id_capitalizada": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85",
+     "Motor!B267"
+    ]
+   },
+   "C": {
+    "base": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ],
+    "id_capitalizada": [
+     "Análisis!D78",
+     "Análisis!C83",
+     "Análisis!C84",
+     "Análisis!C85"
+    ]
+   }
+  }
+ },
+ "perturbadas_sin_efecto": [
+  "Análisis!B101",
+  "Análisis!B102",
+  "Análisis!B3",
+  "Análisis!B65",
+  "Análisis!B66",
+  "Análisis!C103",
+  "Análisis!C104",
+  "Análisis!C14",
+  "Análisis!C17",
+  "Análisis!C18",
+  "Análisis!C19",
+  "Análisis!C20",
+  "Análisis!C24",
+  "Análisis!C25",
+  "Análisis!C26",
+  "Análisis!C27",
+  "Análisis!C28",
+  "Análisis!C31",
+  "Análisis!C32",
+  "Análisis!C33",
+  "Análisis!C34",
+  "Análisis!C38",
+  "Análisis!C40",
+  "Análisis!C42",
+  "Análisis!C53",
+  "Análisis!C54",
+  "Análisis!C57",
+  "Análisis!C60",
+  "Análisis!C65",
+  "Análisis!C66",
+  "Análisis!C88",
+  "Análisis!C93",
+  "Análisis!C97",
+  "Análisis!C98",
+  "Análisis!D3",
+  "Análisis!D65",
+  "Análisis!D66",
+  "Control maestro!J4",
+  "Control maestro!L4",
+  "Diagnóstico V6!C158",
+  "Diagnóstico V6!C179",
+  "Diagnóstico V6!C91",
+  "Diagnóstico V6!C92",
+  "Diagnóstico V6!C93",
+  "Diagnóstico V6!C94",
+  "Historia!fila11",
+  "Historia!fila13",
+  "Historia!fila16",
+  "Historia!fila17",
+  "Historia!fila18",
+  "Historia!fila19",
+  "Historia!fila20",
+  "Palancas!A28",
+  "Palancas!A29",
+  "Palancas!A30",
+  "Palancas!A38",
+  "Palancas!A39",
+  "Palancas!A40",
+  "Palancas!B28",
+  "Palancas!B29",
+  "Palancas!B30",
+  "Palancas!C10",
+  "Palancas!C24",
+  "Palancas!C43",
+  "Palancas!C5",
+  "Palancas!C6",
+  "Palancas!C7",
+  "Palancas!C8",
+  "Palancas!C9",
+  "Panel!C6",
+  "Panel!E20",
+  "Panel!E21",
+  "Panel!E22",
+  "Panel!E23",
+  "Panel!E24",
+  "Panel!E25",
+  "Panel!F6"
+ ],
+ "recalculos": 492
+}

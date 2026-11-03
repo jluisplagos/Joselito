@@ -1,0 +1,30 @@
+{
+  "Ejemplo_V6.3_EmpresaX.xlsx": {
+    "Análisis!C83": 25.8903521530386,
+    "Motor!B266": "NO LISTO · evidencias incompletas (43 pendientes) · cálculo completo",
+    "Control maestro!L4": null,
+    "Control maestro!L206": "falta norma contable",
+    "Control maestro!D248": 34
+  },
+  "Ejemplo_migracion_Hermes_V6.3.xlsx": {
+    "Análisis!C83": null,
+    "Motor!B266": "NO LISTO · incompleto (9 pendientes)",
+    "Control maestro!L4": "IFRS",
+    "Control maestro!L206": "sin clasificar",
+    "Control maestro!D248": 27
+  },
+  "Ejemplo_ABB_V6.3.xlsx": {
+    "Análisis!C83": null,
+    "Motor!B266": "NO LISTO · incompleto (7 pendientes)",
+    "Control maestro!L4": "US GAAP",
+    "Control maestro!L206": "sin clasificar",
+    "Control maestro!D248": 34
+  },
+  "Plantilla_V6.3.xlsx": {
+    "Análisis!C83": null,
+    "Motor!B266": "NO LISTO · incompleto (22 pendientes)",
+    "Control maestro!L4": null,
+    "Control maestro!L206": "—",
+    "Control maestro!D248": 0
+  }
+}
