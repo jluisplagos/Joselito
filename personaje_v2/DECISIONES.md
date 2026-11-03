@@ -82,3 +82,7 @@ Ver `CAMBIOS_v2_1.md`. Dos reglas nuevas para los agentes (no calibrar a umbrale
 
 ## 2026-11-03 · Instalación v2.1 para Nike
 Base v2.0 recuperada del historial git (zip borrado de main en 5651dae) + superposición de `actualizacion_personaje_v2_1.zip`. El zip de actualización no lleva `config_v2.json`: se aplicó a mano lo que CAMBIOS_v2_1.md describe y autorizó José Luis (12:56): `convenciones.umbral_g4_roic_lp_sobre_tasa = 0.03`, `referencias_mecanicas.roic_lp_bueno_tope_sobre_c56 = 0.03`, `version_personaje = v2.1`. Rutas del kit: `../kit_pipeline_munger`.
+
+## 2026-11-03 · Nike: C48/C49 en US GAAP
+El pipeline paró en `pendiente_de_datos` (paso 7): `Análisis!C48/C49` vacías (V09). La fase 1 no traslada la Historia a esas celdas y la reclasificación de `rellenar_fase1_v63.py` solo cubre IFRS. Se escribió a mano en `fase1_metadatos.json → analisis` C48 = 0 y C49 = 0 con fuente y página (10K_2025 p.62 y p.90), apoyado en la Historia. Pendiente de mejora (no cambiado): que `fase1_historia.py` derive C48/C49 de la Historia automáticamente.
+Al reanudar con `--desde 2` el pipeline exige salidas de agente más nuevas que las ya consumidas. Como el cambio (C48/C49 = 0) no altera los textos ni el juicio de la extracción ni de la fase A (esta ya declaraba que el único bloqueo era ese dato), se reutilizan `extracto_v63.md` y `fase_a.json` sin cambio de contenido (`touch`); no se relanzaron esos agentes.

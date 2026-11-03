@@ -1,23 +1,135 @@
 [
  {
-  "dato": "evidencia Análisis!C48",
-  "que": "Intereses pagados clasificados en financiación · IFRS: no aplicable indebido",
-  "nivel": "necesario para LISTO·PROVISIONAL",
-  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
-  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
- },
- {
-  "dato": "evidencia Análisis!C49",
-  "que": "Principal de lease liabilities · IFRS 16: no aplicable indebido",
-  "nivel": "necesario para LISTO·PROVISIONAL",
-  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
-  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
- },
- {
   "dato": "Palancas!C24",
   "que": "tamaño del mercado año 10",
   "nivel": "no bloqueante",
   "origen_esperado": "extractos (solo con cifra de fuente primaria)",
   "nota": ""
+ },
+ {
+  "dato": "extracto_v63: Tamaño del mercado global de calzado y ropa deportiva en cifras: no encontrado en los textos (FY2016 a FY2025).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Crecimiento del mercado en cifras: no encontrado en los textos.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cuota de mercado de Nike en cifras, global, por región o por categoría, y su definición: no encontrado en los textos; solo la afirmación cualitativa de «largest",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Orden o peso de los competidores por región o categoría: no encontrado; solo la lista nominal del 10-K.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Gasto absoluto de I+D y porcentaje sobre ventas de FY2025: no encontrado; el 10-K de FY2025 lo incluye en operating overhead sin importe.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Plan de capacidad, capex anunciado por destino y capex previsto de FY2026: no encontrado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Adquisiciones recientes con precio y múltiplo (FY2023 a FY2025): no encontrado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Subida de precios de lista en porcentaje y elasticidad medida del volumen: no encontrado; solo el efecto de ASP en puntos sobre ingresos.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Importe cuantificado de los aranceles sobre el coste de ventas y fracción que se repercutirá al precio: no encontrado; solo la declaración cualitativa y «negati",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Guía numérica de FY2026 de ingresos, margen bruto, margen EBIT, capex y dividendo: no encontrado en el 10-K de FY2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Balance de cumplimiento de las metas de FY2025 hechas en 2020 y nuevas metas financieras posteriores: no encontrado en el 10-K de FY2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Ratios financieros numéricos en covenants de la deuda: no encontrado; solo covenants de limitación de venta de activos y deuda garantizada.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Coste medio ponderado de la deuda: no encontrado; solo cupones por emisión.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Pensiones de prestación definida y minoritarios como partida propia en FY2025: no encontrado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Ratios de capital regulatorio: no aplica a Nike.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Unidades absolutas de pares y de prendas vendidas, y ASP en dólares: no encontrado; solo variaciones porcentuales de unidades y puntos de ASP.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Futures orders posteriores a las de junio a noviembre de 2017: no encontrado; la empresa dejó de dar la cifra en los textos de FY2018 a FY2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Sell-through de mayoristas y antigüedad del inventario: no encontrado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Gasto de marketing por canal fuera de segmento: no encontrado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Documentos posteriores a FY2025 (10-K de FY2026 y 10-Q de FY2027): `datos_v63.md` cita cifras de esos documentos, pero no están en `texto/`; no pude citarlos de",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Fichero `etapa1/extracto.md`: no existe en la carpeta. La etapa 1 aparece solo como `etapa1/Nike_respuesta.md` y `etapa1/Nike_evaluada.xlsx`. Leí `Nike_respuest",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
  }
 ]

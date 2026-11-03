@@ -1,12 +1,13 @@
-# Comprobación de entrada · Nike_v63_datos.xlsx
+# Comprobación de entrada · Nike_v63_evaluada.xlsx
 
-- Íntegro (verificar_v63.py): True · estado técnico: INCOMPLETO (Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero) · estado del libro: NO LISTO · incompleto (7 pendientes) · comparable precio↔valor: True · años con ventas: 10
+- Íntegro (verificar_v63.py): True · estado técnico: INCOMPLETO (Faltan palancas de crecimiento (Palancas B14:D14)) · estado del libro: NO LISTO · incompleto (5 pendientes) · comparable precio↔valor: True · años con ventas: 10
 
 ## Motores calculables (simulación con palancas de prueba)
 
-- Motor A: NO calculable · reglas de nivel 1 que fallan: V09 INCOMPLETO: Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero
+- Motor A: CALCULABLE
 - Motor B: NO calculable · reglas de nivel 1 que fallan: V23 INCOMPLETO: Motor B: faltan pensiones o minoritarios del último año (Historia L25, L26); escribe 0 si no hay
 - Motor C: CALCULABLE
+- Motor elegido por la fase A: A → calculable
 
 ## BLOQUEANTE (el pipeline se detiene: pendiente_de_datos)
 
@@ -14,8 +15,7 @@
 
 ## Necesario para LISTO · PROVISIONAL (no para el valor)
 
-- evidencia Análisis!C48: Intereses pagados clasificados en financiación · IFRS: no aplicable indebido · de dónde: fase1_v63.json (fuente y página del dato) o etapa 1 · el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material
-- evidencia Análisis!C49: Principal de lease liabilities · IFRS 16: no aplicable indebido · de dónde: fase1_v63.json (fuente y página del dato) o etapa 1 · el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material
+- ninguno
 
 ## No bloqueante
 

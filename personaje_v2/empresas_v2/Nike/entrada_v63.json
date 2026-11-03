@@ -1,18 +1,16 @@
 {
- "libro": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/Nike_v63_datos.xlsx",
- "recalc": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/recalc/Nike_v63_datos.xlsx",
+ "libro": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/Nike_v63_evaluada.xlsx",
+ "recalc": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/recalc/Nike_v63_evaluada.xlsx",
  "integro": true,
  "estado_tecnico": "INCOMPLETO",
- "causa_tecnica": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
- "estado_libro": "NO LISTO · incompleto (7 pendientes)",
+ "causa_tecnica": "Faltan palancas de crecimiento (Palancas B14:D14)",
+ "estado_libro": "NO LISTO · incompleto (5 pendientes)",
  "comparable": true,
  "motores": {
   "A": {
-   "calculable": false,
-   "reglas_nivel_1_fallidas": [
-    "V09 INCOMPLETO: Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero"
-   ],
-   "C83_simulado": null
+   "calculable": true,
+   "reglas_nivel_1_fallidas": [],
+   "C83_simulado": 12.3268038982497
   },
   "B": {
    "calculable": false,
@@ -27,22 +25,9 @@
    "C83_simulado": 19.845845025723
   }
  },
- "motor_elegido": null,
+ "motor_elegido": "A",
  "bloqueantes": [],
- "necesarios_para_listo_provisional": [
-  {
-   "dato": "evidencia Análisis!C48",
-   "que": "Intereses pagados clasificados en financiación · IFRS: no aplicable indebido",
-   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
-   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
-  },
-  {
-   "dato": "evidencia Análisis!C49",
-   "que": "Principal de lease liabilities · IFRS 16: no aplicable indebido",
-   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
-   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
-  }
- ],
+ "necesarios_para_listo_provisional": [],
  "no_bloqueantes": [
   {
    "dato": "Palancas!C24",

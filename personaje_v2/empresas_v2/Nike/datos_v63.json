@@ -4,7 +4,7 @@
   "D3": "NKE",
   "B4": "Consumo discrecional · calzado, ropa y equipamiento deportivo",
   "D4": "2026-11-03",
-  "C7": 3,
+  "C7": 4,
   "D7": 7,
   "A6": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
   "C11": "Sí",
@@ -14,7 +14,7 @@
   "C17": "No",
   "C18": "Sí",
   "C19": "No",
-  "C20": "Incert. alta + riesgo bajo",
+  "C20": "Riesgo real alto",
   "C24": 0.187,
   "C25": "No",
   "C26": 1.08,
@@ -32,26 +32,26 @@
   "C42": 11.06,
   "C46": 4665,
   "C47": 642,
-  "C48": null,
-  "C49": null,
+  "C48": 0,
+  "C49": 0,
   "C50": 743,
   "C51": "Sí",
-  "C52": null,
+  "C52": 3280,
   "C53": 6903,
   "C54": 7893,
   "C55": 1487.6,
   "C56": 0.09,
   "C57": 0.0494,
-  "C59": null,
+  "C59": 0.184688043748446,
   "C60": -0.0192,
   "C61": "No está claro",
   "C62": "Sí",
-  "B65": "Pierde cuota frente a la competencia",
-  "C65": "Crece al ritmo de su mercado",
+  "B65": "Márgenes se comprimen (costes o precios)",
+  "C65": "Otra (explícala en tus palabras)",
   "D65": "Márgenes suben por escala o precios",
-  "B66": "La marca pierde tirón frente a los competidores que nombra el 10-K, China sigue con menos tráfico, promociones e inventario alto, Converse no vuelve, las rebajas se quedan y la caja libre tras SBC baja un 2 % al año desde 3.280 mm.",
-  "C66": "Norteamérica aguanta, China y Converse se estabilizan, las ventas crecen un 3-4 % y el margen EBIT vuelve hacia el 11-12 %: la caja libre tras SBC crece un 5 % al año.",
-  "D66": "Vuelven la innovación y la venta a precio completo, el margen EBIT regresa al 13-15 %, como en FY21-FY22 y las ventas crecen un 4-5 %: la caja libre tras SBC crece un 10 % al año.",
+  "B66": "La marca no recupera el precio: descuentos y mezcla siguen restando al precio medio, los aranceles suben el coste sin repercutirse y Converse, Jordan y China no vuelven; el margen se queda en el nivel bajo de FY2025 y la mejora que haya se la quedan el consumidor y los mayoristas, no Nike.",
+  "C66": "Recuperación parcial, no vuelta al pico: Nike limpia el canal y vuelve en parte al precio completo, las ventas crecen como su historia larga y el margen sube hacia su media de diez años sin llegar al máximo; la mejora de precio se reparte entre margen y más gasto en marca, y Nike se queda solo una parte.",
+  "D66": "Vuelve el tirón de la marca: venta a precio completo y menos descuentos suben el precio medio como en FY2023-FY2024 y el margen vuelve a los niveles altos de su historia (FY2021-FY2022); la mejora es de precio y mezcla, no de escala, y se la queda Nike.",
   "B67": null,
   "C67": null,
   "D67": null,
@@ -62,9 +62,9 @@
   "C69": 0.6,
   "D69": 0.2,
   "C76": 0,
-  "B78": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
-  "C78": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
-  "D78": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+  "B78": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "C78": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "D78": "Faltan palancas de crecimiento (Palancas B14:D14)",
   "C83": null,
   "C84": null,
   "C85": null,
@@ -87,7 +87,7 @@
    "D17": "✗ BANDERA",
    "D18": "✓ PASA",
    "D19": "⚠ REVISAR · depende de la tesis",
-   "D20": "✓ PASA",
+   "D20": "✗ BANDERA",
    "D24": "✓ PASA",
    "D25": "⚠ REVISAR · averigua por qué",
    "D26": "✓ PASA",
@@ -430,11 +430,11 @@
   ]
  },
  "palancas": {
-  "C5": null,
-  "C6": null,
+  "C5": "Madura",
+  "C6": "Ninguno",
   "C7": "Shoe",
-  "C8": null,
-  "C9": null,
+  "C8": "Último año",
+  "C9": "No",
   "C10": null,
   "B14": null,
   "C14": null,
@@ -539,20 +539,20 @@
     null
    ]
   ],
-  "C43": null,
+  "C43": "No aplica",
   "C44": null,
   "C45": "2026-11-02",
   "C46": "2025-05-31",
-  "C47": null,
+  "C47": "Ninguna",
   "C48": "USD"
  },
  "diagnostico": {
   "motor": "A",
-  "coherencia_tipo_motor": "—",
+  "coherencia_tipo_motor": "✓ PASA · tipo y motor coherentes",
   "V0": 46309,
   "m0": 0.087844695415578,
   "t": 0.14686,
-  "f": null,
+  "f": 0.0270838556498845,
   "B0": 13213,
   "roe0": 0.24362370392795,
   "r_operativa": "—",
@@ -694,13 +694,13 @@
    "fila49": [
     "Tipo de empresa frente a motor",
     null,
-    "—",
+    "✓ PASA · tipo y motor coherentes",
     null
    ],
    "fila50": [
     "Fugas al accionista (f) en un rango razonable",
     null,
-    "—",
+    "✓ PASA",
     null
    ]
   },
@@ -770,7 +770,7 @@
     null,
     null,
     null,
-    "Rentabilidad FCF"
+    "Rentabilidad FCF hoy: 5.6 %"
    ]
   ],
   "autocomprobaciones": [
@@ -828,15 +828,15 @@
    ],
    [
     "Tipo de empresa y caso especial elegidos",
-    "⛔ TÉCNICO · Falta la etapa o el caso especial (Palancas C5, C6)"
+    "✓ PASA"
    ],
    [
     "El motor calcula un valor en los tres escenarios",
-    "⛔ TÉCNICO · valor bloqueado: Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero"
+    "⛔ TÉCNICO · valor bloqueado: Faltan palancas de crecimiento (Palancas B14:D14)"
    ],
    [
     "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-    "NO LISTO · incompleto (7 pendientes)"
+    "NO LISTO · incompleto (5 pendientes)"
    ]
   ],
   "parametros": {
@@ -849,16 +849,14 @@
    "C179": 0.05
   },
   "causas_activas": [
-   "1. INCOMPLETO · Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
-   "2. INCOMPLETO · Faltan palancas de crecimiento (Palancas B14:D14)",
-   "3. INCOMPLETO · Faltan márgenes objetivo (Palancas B15:D15)",
-   "4. INCOMPLETO · Faltan ventas por euro reinvertido (Palancas B16:D16)",
-   "5. INCOMPLETO · Faltan ROIC a largo plazo (Palancas B18:D18)",
-   "6. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
-   "7. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
-   "8. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-   "9. INCOMPLETO · Falta la etapa o el caso especial (Palancas C5, C6)",
-   "10. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+   "1. INCOMPLETO · Faltan palancas de crecimiento (Palancas B14:D14)",
+   "2. INCOMPLETO · Faltan márgenes objetivo (Palancas B15:D15)",
+   "3. INCOMPLETO · Faltan ventas por euro reinvertido (Palancas B16:D16)",
+   "4. INCOMPLETO · Faltan ROIC a largo plazo (Palancas B18:D18)",
+   "5. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
+   "6. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
+   "7. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
+   "8. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
   ],
   "salto_anio_11": {
    "filas": [
@@ -1355,8 +1353,8 @@
    "C56": 0.368981323397115,
    "anios_fcf_base": 3,
    "C57": 3,
-   "f": null,
-   "C58": null,
+   "f": 0.0270838556498845,
+   "C58": 0.0270838556498845,
    "patrimonio_ultimo": 13213,
    "C59": 13213,
    "roe_ultimo": 0.24362370392795,
@@ -1404,14 +1402,14 @@
   "comparable_B253": true,
   "bloqueo_lectura_B254": true,
   "estado_tecnico_B255": "INCOMPLETO",
-  "causa_tecnica_B256": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+  "causa_tecnica_B256": "Faltan palancas de crecimiento (Palancas B14:D14)",
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
   "n_avisos_B260": 3,
-  "n_causas_B261": 10,
-  "estado_libro_B266": "NO LISTO · incompleto (7 pendientes)",
+  "n_causas_B261": 8,
+  "estado_libro_B266": "NO LISTO · incompleto (5 pendientes)",
   "lectura_precio_B267": null,
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
-  "evidencias_B269": "INCOMPLETAS · datos 17 de 19 · hipótesis confirmadas 0 de 24 · 1 estimaciones · 0 no verificables · 9 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 2 «No aplicable» indebido",
+  "evidencias_B269": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 0 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
   "dcf_inverso_monotono_B193": "—",
   "reglas": [
    {
@@ -1506,12 +1504,12 @@
     "id": "V09",
     "regla": "Datos del FCF base (Análisis C46–C51): tipo y dominio",
     "aplica": true,
-    "resultado": "INCOMPLETO",
-    "codigo": "INC|Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
-    "causa": "Faltan intereses en financiación o principal de arrendamientos (Análisis C48, C49): escribe 0 si la empresa no tiene; un vacío no es un cero",
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
     "nivel": 1,
-    "prioridad": 3,
-    "n_causa_activa": 1
+    "prioridad": 9,
+    "n_causa_activa": null
    },
    {
     "id": "V10",
@@ -1544,7 +1542,7 @@
     "causa": "Faltan palancas de crecimiento (Palancas B14:D14)",
     "nivel": 1,
     "prioridad": 3,
-    "n_causa_activa": 2
+    "n_causa_activa": 1
    },
    {
     "id": "V13",
@@ -1555,7 +1553,7 @@
     "causa": "Faltan márgenes objetivo (Palancas B15:D15)",
     "nivel": 1,
     "prioridad": 3,
-    "n_causa_activa": 3
+    "n_causa_activa": 2
    },
    {
     "id": "V14",
@@ -1566,7 +1564,7 @@
     "causa": "Faltan ventas por euro reinvertido (Palancas B16:D16)",
     "nivel": 1,
     "prioridad": 3,
-    "n_causa_activa": 4
+    "n_causa_activa": 3
    },
    {
     "id": "V15",
@@ -1588,7 +1586,7 @@
     "causa": "Faltan ROIC a largo plazo (Palancas B18:D18)",
     "nivel": 1,
     "prioridad": 3,
-    "n_causa_activa": 5
+    "n_causa_activa": 4
    },
    {
     "id": "V17",
@@ -1621,7 +1619,7 @@
     "causa": "Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
     "nivel": 1,
     "prioridad": 9,
-    "n_causa_activa": 6
+    "n_causa_activa": 5
    },
    {
     "id": "V20",
@@ -1720,7 +1718,7 @@
     "causa": "Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 7
+    "n_causa_activa": 6
    },
    {
     "id": "V30",
@@ -1742,7 +1740,7 @@
     "causa": "Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 8
+    "n_causa_activa": 7
    },
    {
     "id": "V32",
@@ -1847,12 +1845,12 @@
     "id": "C03",
     "regla": "Tipo de empresa (Palancas C5, C6)",
     "aplica": true,
-    "resultado": "INCOMPLETO",
-    "codigo": "INC|Falta la etapa o el caso especial (Palancas C5, C6)",
-    "causa": "Falta la etapa o el caso especial (Palancas C5, C6)",
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 9
+    "n_causa_activa": null
    },
    {
     "id": "C04",
@@ -1896,7 +1894,7 @@
     "causa": "Faltan 3 predicciones (Palancas A38:A40)",
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 10
+    "n_causa_activa": 8
    },
    {
     "id": "C08",
@@ -2033,8 +2031,8 @@
     "celda": "Análisis!C11",
     "concepto": "Entender el negocio en ≤5 frases",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2042,14 +2040,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia: paquete MOAT. Decisión del inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Vende calzado (30.538 mm en FY26), ropa (13.497) y equipamiento con la marca NIKE, Jordan y Converse. Paga el consumidor final, a través de mayoristas (27.453) o de NIKE Direct (17.720). Creo que paga por la marca y el producto, no por el coste. No fabrica: encarga a fabricantes por contrato, en calzado sobre todo en Vietnam, Indonesia y China. La caja sale del margen bruto (≈43 %) menos marketing (4.754) y estructura, con capex pequeño (≈1,5 % de ventas). C26 = 1,08: el beneficio se convierte en caja. Lo explico en cinco frases. Lo sustituiría: solo si apareciera una parte relevante del negocio fuera de la marca que no veo en el extracto."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: Sí → mantiene (misma_evidencia): con FY2025 se explica igual en cinco frases.\nApoyo: NIKE Brand vende calzado 29.510, ropa 12.965 y equipamiento 2.191 (extracto p. 36). Paga el consumidor, vía mayoristas 25.883 o NIKE Direct 18.783 (extracto p. 36). No fabrica: 97 fábricas contratadas de calzado en 11 países (extracto p. 6). La caja sale del margen bruto 42,7 % (extracto p. 35) menos demand creation 4.689 (extracto p. 38) y estructura, con capex de caja 430 (extracto p. 62). CFO ÷ beneficio 1,08 (C26).\nLo sustituiría: No si apareciera una parte relevante del negocio fuera de la marca que no veo en los documentos."
    },
    "22": {
     "celda": "Análisis!C12",
     "concepto": "Círculo de competencia",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2057,14 +2055,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia: paquete MOAT. Decisión del inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Las variables que deciden el valor a diez años son pocas y las puedo juzgar en rango: el tirón de la marca frente a On, Deckers, New Balance, Anta y Li Ning; la mezcla mayorista/Direct; si el margen bruto vuelve al 44-46 % o no; China. Lo que no sé predecir es la moda; no la predigo, la meto en el rango de escenarios. «It's not a competency if you don't know the edge of it» (TCI p.100; HIM): mi borde aquí es China y el negocio de estilo de vida. Lo sustituiría: No, y cubo Demasiado difícil, si la tesis pasara a depender de acertar qué producto se pone de moda o de que China vuelva."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Sí → mantiene (misma_evidencia): las variables que deciden el valor tienen serie y las juzgo en rango.\nApoyo: precio medio frente a descuentos (ASP en puntos por año, extracto p. 37), mezcla mayorista/Direct (58/42, extracto p. 37), margen bruto por segmento (extracto pp. 41-45) y margen EBIT de diez años entre 8,0 % y 15,6 % (Historia fila 29). La moda no la predigo: la meto en los escenarios. «It's not a competency if you don't know the edge of it» (TCI p.100; HIM): mi borde es China y los aranceles.\nLo sustituiría: No, y Demasiado difícil, si el valor pasara a depender de acertar qué producto se pone de moda o de la política arancelaria."
    },
    "23": {
     "celda": "Análisis!C13",
     "concepto": "Valor claro sin modelo complejo",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2072,14 +2070,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia: guía FY27 (BPA ajustado 1,15–1,35 USD vs 2,10 FY26) y FCF histórico vs actual. Regla acordada: si ver valor exige suponer recuperación, la respuesta honesta es \"No\".",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: A 34,61 $ el FCF base de la plantilla (3.280 mm tras SBC) da ≈6,4 % de rentabilidad. Pero C46 y C47 son la media FY24-FY26 e incluyen un FY24 de 5.813 mm tras SBC; FY26 fue 1.469 mm (≈2.150 si sumo los 684 de reembolso IEEPA cobrados tras el cierre). Además C47 (642) es capex en caja: con las adiciones no monetarias (184 en FY25 y 174 en FY26) el capex real es ≈760 y la base sería ≈3.160. Lo uso tal cual. Que esté barata depende de que 3.280 sea lo normal, que es justo lo que se discute. Si hace falta la hoja, C13 es No. Lo sustituiría: Sí por debajo de ≈22 $, donde el precio lo cubre el escenario malo sin hoja."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: No → mantiene (evidencia_nueva): con el precio de hoy, 39,12 (C37), tampoco se ve barata sin hoja.\nApoyo: FCF tras SBC de FY2026 1.469 (C40) sobre 58.195 (C41) = 2,5 %. Con la base de tres años 3.280 (C46) = 5,6 %, y esa base lleva la liberación de inventario de FY2024 (+908, extracto p. 62). Que esté barata depende de que el margen vuelva, que es lo que se discute. Si hace falta la hoja, C13 es No.\nLo sustituiría: Sí si el precio cayera hasta donde el FCF tras SBC de FY2026, sin recuperación, ya diera una rentabilidad clara frente a r."
    },
    "24": {
     "celda": "Análisis!C14",
     "concepto": "Tipo de oportunidad",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2087,14 +2085,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia MOAT: lectura propuesta [interpretación] \"Turnaround / situación especial\" sobre marca de calidad histórica. Afecta a D24 y D19.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: No es Compounder hoy: ingresos planos desde FY22 y márgenes cayendo. Es una marca de calidad (ROIC 18,7 % en un año malo, caja neta) en plena reestructuración: despidos en FY21, FY24 y FY26, Win Now, programa Pace hasta FY31, CEO desde 2024, COO desde 2025 y CFO nuevo en 2026. Si mi tesis necesitara que el arreglo funcione, sería Turnaround y el cubo No: «What is working poorly is usually either uncorrectable or 10 times harder to correct than you may think» (AIWTK p.12; HIM). La clasifico por el único caso en que la compraría: calidad a un precio que no paga el arreglo. Lo sustituiría: Turnaround / situación especial si el escenario malo dejara de sostener el precio de Sí, por ejemplo si NIKE Brand Norteamérica, que hoy crece, empezara a caer como Converse."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Calidad a precio razonable → mantiene (misma_evidencia): calidad demostrada en diez años, en pleno arreglo.\nApoyo: ROIC ≥ 21 % los diez años (Historia fila 33), pero ventas −9,8 % y margen 8,8 % en 2025 (Historia filas 28-29). La empresa dice que sus acciones 'will reignite brand momentum' (extracto p. 33): es un arreglo. «What is working poorly is usually either uncorrectable or 10 times harder to correct than you may think» (AIWTK p.12; HIM). La clasifico por el único caso en que la compraría: a un precio que no pague el arreglo.\nLo sustituiría: Turnaround / situación especial si mi tesis necesitara que el arreglo salga para no perder."
    },
    "25": {
     "celda": "Análisis!C17",
     "concepto": "Viento de cola duradero",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2102,14 +2100,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia MOAT: mercado global de ropa/calzado deportivo +3–6%/año (fuentes secundarias); Nike pierde cuota.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: No veo un viento de cola demostrable en el extracto. Ingresos 46.710 mm (FY22) frente a 46.398 (FY26); China −13 % en FY26 y −26 % en el T1 FY27; tráfico de NIKE Direct a la baja y digital de 9.600 a 8.600. El crecimiento de FY21-FY23 coincidió con el salto del digital (5.500 mm en FY20, 9.100 en FY21), que se ha dado la vuelta. El viento del sector no es foso de la empresa: «carefully examine each past success, looking for accidental, non causative factors» (PCA pp.548–549; HIM). Lo sustituiría: Sí con datos de cuota y de crecimiento del mercado de ropa deportiva que muestren una categoría que crece más que la economía y que Nike captura."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: No → mantiene (evidencia_nueva): diez años de ventas y ningún dato de mercado.\nApoyo: ningún documento da tamaño ni crecimiento del mercado (extracto secciones 1 y 9). CAGR de 3 años −0,3 % (Historia C45) frente a una mediana del sector de 6,0 %: si hay viento, Nike no lo capturó. El +19,1 % de 2021 (Historia fila 28) sale de la base de la pandemia. «carefully examine each past success, looking for accidental, non causative factors» (PCA pp.548–549; HIM).\nLo sustituiría: Sí con cifras de fuente primaria de un mercado que crezca más que la economía y que Nike capture."
    },
    "26": {
     "celda": "Análisis!C18",
     "concepto": "Ventaja competitiva sostenible",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2117,14 +2115,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia MOAT: marca y escala existen (mayor vendedor del mundo, 10-K FY26 p.6; MB ≥42,7% FY15–26); erosión: cuota −1,5 pp (GlobalData, sec.), valor de marca Interbrand −25,9% en 2025 (sec.), Gran China −13% FY26 y −26% Q1 FY27.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Dos fosos que el corpus reconoce: marca y escala en publicidad y patrocinio (demand creation 4.754 mm al año; contratos de patrocinio comprometidos ≈15.500). «advantages of scale are ungodly important» (PCA pp.174–177; HIM). Creo que ha pasado en parte la prueba del sobrino idiota: tras varios años de lo que leo como errores propios, aún tiene ROIC 18,7 %, margen bruto 42,9 %, caja neta y A+. «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). En contra: Converse (EBIT de 669 en FY22 a 18 en FY26) y Jordan (−16 % en FY25) me dicen que una marca se puede vaciar; «Many businesses that you thought were hugely advantaged can be hugely commoditized» (AIWTK p.130; HIM). Creo que el foso es real, más estrecho que en FY21. Lo sustituiría: No si NIKE Brand Norteamérica vuelve a caer con más promociones o si el margen bruto queda por debajo del 40 % de forma sostenida."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Sí → mantiene (evidencia_nueva): la Historia de diez años lo sostiene; el foso se estrecha.\nApoyo: ROIC nunca < 21 % en diez años (Historia fila 33), media 5 años 36,9 % (C55) frente a 15,3 % del sector (H18). Marca y escala: demand creation 4.689 (extracto p. 38), patrocinio comprometido 16.200 (extracto p. 50). «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). En contra: ROIC publicado de 48,8 % a 18,7 % FY21-FY26 (C24); Converse, EBIT de 676 a 240 (extracto p. 40).\nLo sustituiría: No si el ROIC publicado queda por debajo de r dos años o el margen bruto bajo el 40 %."
    },
    "27": {
     "celda": "Análisis!C19",
     "concepto": "Consistencia de crecimiento de ingresos/beneficios",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2132,14 +2130,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia FIN/MOAT: ingresos TACC FY19–26 +2,5% con caídas en FY20 (−4,4%) y FY25 (−9,8%); BPA diluido 2,49 → 2,10 (TACC −2,4%), caídas en 5 de 11 años FY16–26; guía FY27: ingresos −\"high-single digits\".",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Ingresos FY19-FY26 de 39.117 a 46.398 mm (≈2,5 % anual), con −10 % en FY25 y 0 % en FY26; BPA de 2,49 a 2,10 $. Respuesta literal: no es consistente. No lo atribuyo solo al ciclo: el 10-K describe acciones para corregir canal y producto (menos oferta de ciertos modelos de calzado, NIKE Digital reposicionado a precio completo), que leo como error propio. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM): el bache no la descalifica, pero tampoco la hace consistente. Lo sustituiría: Sí con dos años seguidos de crecimiento a moneda neutra con margen bruto estable o subiendo."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: No → mantiene (evidencia_nueva): diez años de Historia, no tres.\nApoyo: crecimiento −4,4 % (2020), +19,1 % (2021), +0,3 % (2024), −9,8 % (2025) (Historia fila 28). Beneficio neto 3.760 en 2016 y 3.219 en 2025 (Historia). BPA 2,16 frente a 3,73 (extracto p. 35). La empresa atribuye FY2025 a sus decisiones de producto y canal (extracto p. 32): no es un bache del sector. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM).\nLo sustituiría: Sí con dos años seguidos de crecimiento a moneda neutra y margen bruto estable o al alza."
    },
    "28": {
     "celda": "Análisis!C20",
     "concepto": "Riesgo vs incertidumbre",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2147,7 +2145,7 @@
     "K": null,
     "L": null,
     "M": "Evidencia: balance sólido (caja neta pequeña, A+/A2) pero earning power en caída (guía FY27) y riesgo de ejecución (CEO oct-24, CFO ago-26, programa Pace). Mide riesgo de pérdida permanente AL PRECIO PAGADO.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Incertidumbre alta sobre cuándo y cuánto vuelve el margen. Creo que el riesgo de pérdida permanente del negocio es bajo: caja e inversiones a corto ≈8.400 mm frente a deuda 7.893 (C33 = −0,10x), calificación A+/A2, capex pequeño, ningún cliente llega al 10 % de ventas. «Using [a stock's] volatility as a measure of risk is nuts» (TCI p.91; HIM). Riesgos que vigilo: cuatro fabricantes hacen ≈60 % del calzado; aranceles; reclamación aduanera de Bélgica no estimable. El precio no lo juzgo aquí: ya está en C13 y en el DCF. Lo sustituiría: Riesgo real alto si NIKE Brand entrara en la espiral de Converse o si los aranceles fueran permanentes sin poder repercutirlos."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Incert. alta + riesgo bajo → cambia (razonamiento_corregido): el v1 midió solvencia; la regla es pérdida permanente al precio pagado.\nApoyo: a 39,12 (C37) el FCF tras SBC de FY2026 rinde 2,5 % (C40, C41). Sin vuelta del margen (8,8 % en 2025, Historia fila 29; aranceles con impacto negativo esperado, extracto p. 33) la rentabilidad sería inadecuada para siempre. «Risk to us is 1) the risk of permanent loss of capital, or 2) the risk of inadequate return» (TCI p.91; HIM). La solvencia es buena (C33 = −0,10x).\nLo sustituiría: Incert. alta + riesgo bajo a un precio que el FCF sin recuperación ya justifique."
    },
    "29": {
     "celda": "Análisis!C24",
@@ -2168,8 +2166,8 @@
     "celda": "Análisis!C25",
     "concepto": "FCF creciente",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "FY2019–FY2026 + LTM",
     "unidad": "mm USD",
     "tipo_fuente": "10-K + 10-Q",
@@ -2177,7 +2175,7 @@
     "K": "https://www.sec.gov/Archives/edgar/data/0000320187/000032018726000193/nke-20260831.htm",
     "L": null,
     "M": "Evidencia (FIN): FCF reportado (CFO − capex) 4.784 (FY19) → 2.184 (FY26) / 2.105 (LTM), TACC −10,6%. FCF normalizado sin circulante 4.222 → 3.862 (−1,3%/año). FY26 deprimido por ~1.350 de partidas puntuales (684 IEEPA por cobrar, 528 impuestos puntuales, 142 despidos). Ninguna lectura es creciente.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: FCF (CFO − capex) 4.784 mm (FY19), 6.617 (FY24), 3.268 (FY25), 2.184 (FY26); tras SBC, 1.469 en FY26. T1 FY27: CFO 135. No crece. C31 = Sí lo confirma: cuentas a cobrar 4.717 a 5.931 (+26 %) con ventas planas; sin los 684 de IEEPA, +11 %, aún más rápido que ventas. Lo sustituiría: Sí si FY27 y FY28 vuelven a FCF tras SBC por encima de 3.500 mm sin liberar inventario ni cobrar partidas únicas."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: No → mantiene (evidencia_nueva): la fila 35 de Historia lo confirma.\nApoyo: FCF al accionista tras SBC 5.351 (2021), 3.792, 4.117, 5.813, 2.559 (2025) (Historia fila 35); FY2026 1.469 y LTM 1.417 (C40). El pico de 2024 lleva la liberación de inventario (+908, extracto p. 62). Cobros que crecen más que las ventas (C31 = Sí). Normalizado, no crece desde 2021.\nLo sustituiría: Sí si dos ejercicios seguidos superan el FCF tras SBC de 2023 (4.117) sin liberar circulante ni partidas únicas."
    },
    "31": {
     "celda": "Análisis!C26",
@@ -2198,8 +2196,8 @@
     "celda": "Análisis!C27",
     "concepto": "Tendencia de márgenes 5–10 años",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "FY2016–FY2026 + LTM",
     "unidad": "%",
     "tipo_fuente": "10-K (+ XBRL EDGAR FY16–18)",
@@ -2207,7 +2205,7 @@
     "K": null,
     "L": "p.63 (resultados) y p.39 (EBIT)",
     "M": "Evidencia (FIN/OPS): margen bruto 46,2% (FY16) → máx. 46,0% (FY22) → 42,9% (FY26) / 43,1% (LTM). Margen EBIT 15,5% (FY21) → 8,3% (FY26); sin extraordinarios cuantificados 9,1%. Guía FY27 implica ~5–6% (estimación). Métrica menos distorsionada: margen bruto. Propuesta de evidencia: \"Comprimiendo\".",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Margen EBIT 15,5 % (FY21) a 8,3 % (FY26); margen bruto 46,0 % (FY22) a 42,9 %. FY26 parece estable (+20 pb), pero incluye 986 mm de reembolso IEEPA y 385 de despidos: sin el IEEPA, el EBIT sería ≈2.860 (6,2 %). La empresa dice que las acciones en Sportswear y Jordan, con más descuentos, se extenderán más allá de FY27. Lo sustituiría: Estable si FY27 mantiene margen bruto ≥ 43 % sin partidas únicas."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: Comprimiendo → mantiene (evidencia_nueva): la fila 29 de diez años lo confirma.\nApoyo: margen EBIT 15,6 % (2021), 14,3 %, 11,5 %, 13,8 %, 8,8 % (2025) (Historia fila 29); media de diez años 12,4 % (C49). Margen bruto de 44,6 % a 42,7 % en FY2025 (extracto p. 35); el precio medio restó unos 180 pb (extracto p. 38) y la empresa espera impacto negativo de los aranceles en FY2026 (extracto p. 33).\nLo sustituiría: Estable si FY2027 vuelve a un margen bruto ≥ 44 % sin partidas únicas."
    },
    "33": {
     "celda": "Análisis!C28",
@@ -2394,13 +2392,13 @@
     "concepto": "Intereses pagados clasificados en financiación · IFRS",
     "naturaleza": "Dato objetivo / revisión IFRS",
     "E": "Listo para auditoría",
-    "F": "No aplicable",
-    "periodo": "FY2019–FY2026",
-    "unidad": "mm USD",
+    "F": "Rellenado y verificado",
+    "periodo": "FY2025",
+    "unidad": "USD millones",
     "tipo_fuente": "10-K",
-    "J": "Archivo aportado: 10-K FY2026 (nke-20260531.pdf)",
+    "J": "10K_2025.pdf; flujo de efectivo: bajo US GAAP los intereses pagados van en explotación y el bloque de financiación no tiene línea de intereses (Historia, intereses_financiacion)",
     "K": null,
-    "L": "p.66 (revelación suplementaria)",
+    "L": "62",
     "M": "US GAAP: intereses pagados (FY24–26: 381 / 389 / 323) ya están dentro del CFO; no hay línea en financiación. Restarlos otra vez los contaría dos veces. Celda vacía.",
     "N": "Confianza alta."
    },
@@ -2409,13 +2407,13 @@
     "concepto": "Principal de lease liabilities · IFRS 16",
     "naturaleza": "Dato objetivo / revisión IFRS",
     "E": "Listo para auditoría",
-    "F": "No aplicable",
-    "periodo": "FY2019–FY2026",
-    "unidad": "mm USD",
+    "F": "Rellenado y verificado",
+    "periodo": "FY2025",
+    "unidad": "USD millones",
     "tipo_fuente": "10-K",
-    "J": "Archivo aportado: 10-K FY2026 (nke-20260531.pdf)",
+    "J": "10K_2025.pdf; el flujo de financiación no tiene línea de principal de arrendamientos (los operativos van en explotación) y los arrendamientos financieros no son materiales (p. 90)",
     "K": null,
-    "L": "p.99–100 (nota de arrendamientos)",
+    "L": "90",
     "M": "Pagos de arrendamientos operativos (FY24–26: 613 / 647 / 668) dentro del CFO. Arrendamientos financieros \"not a material component\"; cota superior: todo \"Other financing activities\" 93 en FY26 (≤2,3% del FCF). Celda vacía.",
     "N": "Confianza alta."
    },
@@ -2453,8 +2451,8 @@
     "celda": "Análisis!C51",
     "concepto": "¿Restar SBC del FCF base?",
     "naturaleza": "Decisión del inversor / metodología elegida",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2462,7 +2460,7 @@
     "K": null,
     "L": null,
     "M": "SBC material (18,5% del FCF a 3 años; 32,7% LTM). Recompras pausadas desde Q1 FY26: hoy la SBC se traduce en dilución (+0,35% interanual). Recomendación provisional: Sí. Decisión del inversor.",
-    "N": "[Clase: convención] [Confianza: alta] Apoyo: SBC media 743 mm, ≈23 % del FCF base. «A stock option is both an expense and dilution» (PCA pp.126–127; HIM). Hay 76,8 m de opciones vivas con ejercicio medio de 96,44 $, muy fuera de dinero: supongo que la empresa tendrá que reponer incentivos con más RSU. Lo sustituiría: no lo cambiaría; es convención del ejercicio con evidencia."
+    "N": "[Clase: convención] [Confianza: alta]\nHereda: Sí → mantiene (misma_evidencia): convención del ejercicio con evidencia.\nApoyo: SBC 709 en 2025 (Historia) y 743 de media (C50), entre el 16,9 % y el 32,7 % del flujo antes de SBC según el periodo (C50). Opciones vivas 75,1 M a 97,99 de precio medio, casi sin valor intrínseco (extracto p. 79). «A stock option is both an expense and dilution» (PCA pp.126–127; HIM).\nLo sustituiría: nada; se resta siempre."
    },
    "50": {
     "celda": "Análisis!C53",
@@ -2513,8 +2511,8 @@
     "celda": "Análisis!C56",
     "concepto": "Rentabilidad exigida al accionista (r)",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2522,7 +2520,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Referencia: Treasury 10 años 5,27% (C57).",
-    "N": "[Clase: convención] [Confianza: media] Apoyo: C56 viene vacía; uso 0,09 por convención del ejercicio y lo digo. La tomo como la alternativa de un índice amplio de acciones, ≈3,7 puntos sobre el bono a 10 años de C57 (5,27 %). «it's your alternatives that matter. That's how we make all of our decisions» (PCA p.114; HIM). No la bajo para que salga el número. Con 0,11 el valor ponderado estimado bajaría de ≈42,7 a ≈32 $. Lo sustituiría: la r que fije el inversor."
+    "N": "[Clase: convención] [Confianza: media]\nHereda: 0,09 → mantiene (misma_evidencia): heredada, no se cambia (S-3).\nApoyo: representa la alternativa de un índice amplio de acciones, unos 4 puntos sobre el bono a 10 años (C57 = 4,94 %). Está por debajo de la r mínima de la hoja (10,2 %, Diagnóstico C17): lo informo y no la ajusto para que salga el número. «it's your alternatives that matter. That's how we make all of our decisions» (PCA p.114; HIM).\nLo sustituiría: la r que fije el inversor."
    },
    "54": {
     "celda": "Análisis!C57",
@@ -2558,8 +2556,8 @@
     "celda": "Análisis!C61",
     "concepto": "¿Recompras neutralizan la SBC?",
     "naturaleza": "Juicio asistido por datos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2567,14 +2565,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia (CAP): histórico SÍ (FY21–26 recompra neta 12.937 vs SBC 4.232; diluidas −8,0%). Actual NO (recompras ≈0 desde Q1 FY26; diluidas +0,35% interanual; programa de 18.000 con ≈5.900 restantes, reaprobado sin fecha en jun-2026). Orientación: \"No está claro\".",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Históricamente sí: acciones diluidas medias de 1.609 m (FY21) a 1.481 m (FY26), C60 = −1,9 % anual, a costa de unos 24.700 mm de recompras entre FY19 y FY25. Pero en FY26 solo 123 mm (pausadas) y en el T1 FY27 cero, mientras la SBC sigue en ≈715 mm al año. A 34,61 $, la misma SBC en dólares son más acciones. Lo sustituiría: Sí si reanudan recompras que superen las emisiones; No si las acciones diluidas suben dos años seguidos."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: No está claro → mantiene (evidencia_nueva): la serie de diez años y la pausa actual apuntan en sentidos opuestos.\nApoyo: acciones diluidas de 1.742,5 M (2016) a 1.487,6 M (2025) (Historia fila 20), C60 = −1,9 % anual. Pero recompras pausadas desde el T1 FY2026 y acciones +0,35 % interanual en el T1 FY2027 (C28); la empresa seguirá moderando recompras (extracto p. 49) con SBC de 700-800 al año (Historia).\nLo sustituiría: Sí si reanudan recompras que superen las emisiones; No si las diluidas suben dos años seguidos."
    },
    "57": {
     "celda": "Análisis!C62",
     "concepto": "Aplicabilidad del DCF simplificado / estabilidad financiación",
     "naturaleza": "Juicio metodológico del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2582,14 +2580,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia (BAL/FIN): financiación estable (deuda −16% en 5 años sin emisiones; vencimientos FY27 de 2.000; caja neta pequeña). US GAAP: intereses y alquileres ya en CFO. Problema principal: representatividad del FCF base (guía FY27 muy por debajo de las medias). Decisión del inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Caja neta, notas con cupón bajo (2,38-3,88 %; permutas a SOFR sobre 2.400 de nocional) con vencimientos manejables (2.000 mm en FY27, 1.500 en FY30) y líneas sin disponer de 3.000. El extracto no describe financiación a clientes: los mayoristas pagan a 90 días o menos. El DCF del flujo al accionista sirve. Lo sustituiría: No · financiación cambia mucho si se endeudaran para pagar dividendo o recomprar con caja que no generan."
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: Sí → mantiene (misma_evidencia): la financiación no cambia y el flujo al accionista aproxima bien.\nApoyo: caja neta (C33 = −0,10x), sin emisiones desde 2020 (C54), vencimientos de 1.000 en nov-2026 y mar-2027 (extracto p. 74), líneas de 3.000 sin disponer (extracto p. 73), arrendamientos 3.052 estables (extracto p. 90). Motor A. Hoy no es calculable: C48 y C49 vacías (entrada_v63.md); en US GAAP son 0 (Historia: intereses en financiación y principal de arrendamientos = 0 en los años con dato). No elijo el C, que es de bancos.\nLo sustituiría: No · financiación cambia mucho si se endeudaran para pagar dividendo o recomprar."
    },
    "58": {
     "celda": "Análisis!B65",
     "concepto": "MALO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2597,14 +2595,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Creo que es la fuerza que puede parar los resultados. No hay cifra de cuota en el extracto: es la hipótesis del escenario, no un hecho medido. La lista de competidores del 10-K crece: suma New Balance (FY23), Deckers y On (FY24), junto a adidas, Anta, ASICS, Li Ning, lululemon, Puma, Under Armour y V.F. El tráfico de NIKE Direct cae; China cae con menos tráfico en tiendas, promociones elevadas e inventario alto en el mercado; Converse −32 %. «it's important to know which competitor is most likely to do you in» (AIWTK p.131; HIM): el extracto no dice cuál de la lista es, y lo pido. Lo sustituiría: Márgenes se comprimen (costes o precios) si el problema principal pasara a ser aranceles permanentes más que cuota."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Pierde cuota frente a la competencia → cambia (evidencia_nueva): lo medible es el margen, no la cuota.\nApoyo: no hay cifra de cuota (extracto secciones 1 y 9). Sí hay: ASP del calzado −3 puntos (extracto p. 37), margen bruto −190 pb (extracto p. 38), aranceles con impacto negativo esperado (extracto p. 33), reservas de ventas de 1.282 a 1.834 (extracto p. 71). La pérdida de tirón frente a la lista de competidores (extracto p. 8) es la causa que supongo; el efecto que mueve el valor es el margen.\nLo sustituiría: Pierde cuota frente a la competencia con datos de cuota que muestren caída de volumen además de precio."
    },
    "59": {
     "celda": "Análisis!B66",
     "concepto": "MALO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2612,7 +2610,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Un −2 % anual deja la caja libre tras SBC en ≈2.700 mm en el año 10, algo por encima del FY26 ajustado por IEEPA (≈2.150). Es un malo real, no cosmético: el FCF tras SBC ya fue 970 en FY20 y 1.469 en FY26. «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM). Lo sustituiría: un malo más duro (−5 %) si FY27 cierra con FCF tras SBC por debajo de 1.500 sin efecto del circulante."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: «La marca pierde tirón…» → cambia (definicion_o_medicion_distinta): la V6.3 pide mecanismo y dueño de la mejora, no crecimiento del FCF.\nApoyo: precio medio a la baja (extracto p. 37), coste arancelario (extracto p. 33), Converse con EBIT de 676 a 240 (extracto p. 40), Jordan −16 % (extracto p. 36), margen bruto de China de 51,0 % a 46,0 % (extracto p. 43), mayoristas más concentrados: los tres mayores de EE. UU. pasan del 21 % al 25 % (extracto p. 5). Margen bajo ya visto: 8,0 % en 2020 y 8,8 % en 2025 (Historia fila 29).\nLo sustituiría: un malo más duro si FY2027 baja de 1.469 de FCF tras SBC (C40) sin efecto del circulante."
    },
    "60": {
     "celda": "Análisis!B67",
@@ -2663,8 +2661,8 @@
     "celda": "Análisis!C65",
     "concepto": "NORMAL: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2672,14 +2670,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Norteamérica ya crece (+5 % a moneda neutra, mayorista +14 %) y su EBIT subió de 4.735 a 5.376 mm. El escenario normal es que el resto se estabilice y el margen recupere parte de lo perdido, sin volver al pico. Lo sustituiría: Sigue como los últimos 5 años si FY27 y FY28 siguen planos en ventas."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Crece al ritmo de su mercado → cambia (razonamiento_corregido): ningún documento da el crecimiento del mercado.\nApoyo: Otra: recuperación parcial anclada en la historia propia, no en un mercado sin cifra (extracto sección 9). CAGR de diez años 4,1 % (Historia C47), margen medio 12,4 % (C49) frente a 8,8 % hoy (C48) y máximo 15,6 % (C51). Inventario estable, 7.519 a 7.489 (extracto p. 61): el canal no está atascado.\nLo sustituiría: Sigue como los últimos 5 años si FY2026-FY2027 confirman ventas planas; Crece al ritmo de su mercado con cifras de mercado de fuente primaria."
    },
    "64": {
     "celda": "Análisis!C66",
     "concepto": "NORMAL: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2687,7 +2685,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Componentes (supuestos míos; el extracto no trae volúmenes): unidades ≈1-2 % más precio ≈2 % dan ventas ≈3,5 %; el margen de caja libre tras SBC pasa de ≈7 % (base sobre ventas FY26) a ≈8 %. Año 10 ≈5.300 mm, en línea con FY21 (5.351) y por debajo de FY24 (5.813), con ventas mayores. Lo sustituiría: el escenario malo como normal si en FY28 el margen EBIT sigue por debajo del 10 %."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: «Norteamérica aguanta…» → cambia (definicion_o_medicion_distinta): mecanismo y reparto, sin cifras de palancas.\nApoyo: anclas propias: CAGR 4,1 % (Historia C47) y margen medio 12,4 % (C49). Inventario estable (extracto p. 61); tiendas comparables de EMEA +5 % (extracto p. 42) y APLA solo −3 % en ingresos a moneda neutra (extracto p. 40). La subida de demand creation de FY2025 (+9 %, extracto p. 38) dice que parte de la mejora se irá en gasto de marca.\nLo sustituiría: el malo como normal si en FY2027 el margen sigue en el nivel de 2025 sin partidas únicas."
    },
    "65": {
     "celda": "Análisis!C67",
@@ -2738,8 +2736,8 @@
     "celda": "Análisis!D65",
     "concepto": "BUENO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2747,14 +2745,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: La palanca grande no es el volumen sino el margen: margen bruto del 46 % (FY22) y EBIT del 12-15 % (FY21-FY24) ya se vieron con la misma marca. Creo que vender a precio completo (NIKE Digital reposicionado como plataforma a precio completo) y con menos rebajas lo devuelve. Lo sustituiría: Gana cuota: el moat se ensancha, si hubiera datos de cuota que mostraran que gana cuota, también en China."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Márgenes suben por escala o precios → mantiene (evidencia_nueva): la Historia muestra el nivel alto en cinco de diez años.\nApoyo: margen EBIT ≥ 13,8 % en 2016, 2017, 2021, 2022 y 2024 (Historia fila 29). En FY2024 el precio completo sumó unos 200 pb al margen bruto (10-K FY2024 en el extracto, PDF p. 39). La palanca es precio y mezcla, no escala: «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).\nLo sustituiría: Gana cuota: el moat se ensancha, con datos de cuota que mostraran ganancia de volumen."
    },
    "69": {
     "celda": "Análisis!D66",
     "concepto": "BUENO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2762,7 +2760,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Ventas ≈4,5 % anual (≈72.000 mm en el año 10) con margen de caja libre tras SBC ≈12 %, como el 11,3 % de FY24: año 10 ≈8.500 mm. El bueno tiene que poder ser bueno y la marca ya lo hizo en FY21 (≈12 %) y FY24 (11,3 %). Corrijo la frase de la celda: el EBIT del 13-15 % fue de FY21-FY22 (15,5 % y 14,7 %); FY23-FY24 quedaron en el 12-13 %. El valor (0,10) no cambia. Lo sustituiría: un bueno más corto si la recuperación del margen se queda en el 12-13 % EBIT."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: «Vuelven la innovación…» → cambia (definicion_o_medicion_distinta): mecanismo y dueño de la mejora, sin cifras de palancas.\nApoyo: ya pasó: en FY2023 el ASP del calzado sumó unos 7 puntos con unidades +13 % y en FY2024 unos 3 puntos (10-K FY2023 y FY2024 en el extracto, PDF pp. 37-38); el margen bruto de FY2024 subió 110 pb (PDF p. 39). Margen EBIT 15,6 % en 2021 y 14,3 % en 2022 (Historia fila 29). La mejora se la quedó Nike.\nLo sustituiría: un bueno más corto si la vuelta a precio completo no pasa del nivel de FY2023 (11,5 %, Historia)."
    },
    "70": {
     "celda": "Análisis!D67",
@@ -2858,8 +2856,8 @@
     "celda": "Análisis!C97",
     "concepto": "Insiders comprando o vendiendo",
     "naturaleza": "Dato objetivo con periodo definido",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "07/10/2025 – 07/10/2026",
     "unidad": "USD",
     "tipo_fuente": "Form 4 (EDGAR, primaria)",
@@ -2867,14 +2865,14 @@
     "K": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000320187&type=4",
     "L": null,
     "M": "ESCALADO: dos lecturas razonables dan veredictos distintos. Compras discrecionales (no 10b5-1): 8 operaciones de 6 personas (CEO dos veces) por 8,19 M$ en dic-2025 y abr-2026 → \"Comprando\". Ventas en mercado 7,72 M$ (72% de Parker con plan 10b5-1; resto pequeñas, casi todas 10b5-1) → en neto ≈ equilibrio → \"Neutral\".",
-    "N": "[Clase: técnico] [Confianza: baja] Apoyo: El extracto no trae compras ni ventas de insiders; solo que nadie adoptó ni terminó planes 10b5-1 en el T4 FY26 y el T1 FY27. C96 (1,1 %) parece no incluir a Swoosh, LLC (79 % de la Clase A, equivalente a ≈16 % de la Clase B; la constituyó Philip Knight, Presidente Emérito, y su hijo Travis Knight, consejero, tiene un papel significativo en la gestión de esas acciones). Creo que la familia Knight (Swoosh, LLC) carga con las consecuencias: «the system is responsible in proportion to the degree that the people who make the decisions bear the consequences» (AIWTK p.102; HIM). Sin el proxy no sé la remuneración ni sus criterios. Lo sustituiría: Comprando o Vendiendo con los formularios de operaciones de insiders del último año."
+    "N": "[Clase: técnico] [Confianza: baja]\nHereda: Neutral → mantiene (misma_evidencia): sigo sin hechos de compras o ventas de insiders en 12 meses.\nApoyo: solo propiedad: consejeros y directivos 1,1 % (C96); Swoosh, LLC con el 78,8 % de la Clase A, que elige 3/4 del consejo (C96). El 10-K avisa de que una venta grande del accionista principal podría deprimir la cotización (extracto p. 25). Rango: Neutral por defecto; Comprando o Vendiendo solo con Form 4. «the system is responsible in proportion to the degree that the people who make the decisions bear the consequences» (AIWTK p.102; HIM).\nLo sustituiría: los Form 4 de los últimos 12 meses."
    },
    "77": {
     "celda": "Análisis!C98",
     "concepto": "Asignación de capital de la dirección",
     "naturaleza": "Juicio del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2882,7 +2880,7 @@
     "K": null,
     "L": null,
     "M": "Evidencia (CAP): recompras ≈21.500 mm FY18–26 a 67–146 USD/acción, hoy 34,61 (programas −61%/−66% de valor); frenadas en FY25 y pausadas desde Q1 FY26 con el precio más bajo. Dividendo creciente (0,86 → 1,63) pero > FCF en FY26/LTM (110–115%). Deuda prudente, M&A pequeño. Orientación: entre \"Aceptable\" y \"Dudosa\".",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: «Proper allocation of capital is an investor's number one job» (TCI p.114; HIM). Entre FY19 y FY25 recompraron unos 24.700 mm; los dos programas a 111,82 $ y 97,57 $ de media; hoy la acción está a 34,61 $. Creo que compraron caro y pararon cuando abarató (FY26 a 67,63 $, T1 FY27 nada). Los objetivos de FY21 para FY25 (margen bruto en los altos 40, EBIT en los altos 10, ROIC por encima del 30 %) acabaron en 42,7 %, 8,2 % y 20,2 %. Reestructuraciones en FY21, FY24, FY26 y FY27-FY31: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM); las trato como gasto. A favor: sin adquisiciones caras (fondo de comercio 240), dividendo creciente 23 años seguidos según el comunicado de FY25, balance A+, y escriben las malas noticias. El equipo actual tiene poco historial en el cargo (CEO desde 2024, CFO nuevo en 2026). Lo sustituiría: Aceptable si el equipo nuevo recompra solo por debajo del valor y el Pace entrega ahorros sin nuevos cargos."
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: Dudosa → mantiene (evidencia_nueva): precios de recompra y metas incumplidas con página.\nApoyo: 122,6 M de acciones por unos 12.000 a 98,00 de media desde 2022; en FY2025, 37,6 M a 78,50 (extracto p. 49); hoy 39,12 (C37). Metas FY2025 incumplidas: EBIT 8,2 % frente a 'high teens', ROIC 20,2 % frente a más del 30 % (extracto sección 5). Reestructuraciones con cargos de 294 en FY2021 y 443 en FY2024 (extracto sección 3). «Proper allocation of capital is an investor's number one job» (TCI p.114; HIM). A favor: sin adquisiciones (Historia fila 13).\nLo sustituiría: Aceptable si recompran solo por debajo del valor y no hay más cargos de reestructuración."
    },
    "78": {
     "celda": "Análisis!B101",
@@ -3698,8 +3696,8 @@
     "celda": "Palancas!C5",
     "concepto": "Etapa del ciclo de vida",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3707,14 +3705,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: CAGR de diez años 4,1 % (Historia C47), de cinco 4,4 % (C46) y de tres −0,3 % (C45): crecimiento de economía madura, no de empresa en crecimiento. Reinversión neta pequeña o negativa (Historia fila de reinversión: −700 en 2024, 442 en 2025) y capex de caja 430 (extracto p. 62). Beneficio positivo los diez años (Historia). No es declive: las ventas de 2025 superan las de 2016 a 2021.\nLo sustituiría: En declive si FY2026-FY2027 caen otra vez sin recuperación; Madura en crecimiento con dos años por encima del 5 %."
    },
    "138": {
     "celda": "Palancas!C6",
     "concepto": "Caso especial",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3722,14 +3720,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: no es financiera ni regulada (extracto sección 7), ni emergente (EE. UU. 43 % de los ingresos, extracto p. 5), ni conglomerado (una familia de marcas, extracto p. 36). El foso es la marca, pero el tratamiento de intangibles de la hoja capitaliza la I+D, que Nike no publica (extracto p. 38; Historia fila de I+D vacía); la demand creation (4.689, extracto p. 38) va a gasto. Leo el ROIC algo inflado por eso y lo anoto. Coherente con el motor A.\nLo sustituiría: Intangibles (I+D, marca) si hubiera serie de I+D o la hoja capitalizara el gasto de marca."
    },
    "139": {
     "celda": "Palancas!C8",
     "concepto": "Base de partida del margen",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3737,14 +3735,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: el margen de 2025 (8,8 %, C48) no es ni el máximo ni el mínimo de la serie (8,0 % en 2020, C50; 15,6 % en 2021, C51). La empresa atribuye la caída a sus decisiones de producto y canal (extracto p. 32), no a un ciclo, y espera más presión de aranceles en FY2026 (extracto p. 33). Partir de la media (12,4 %, C49) daría por hecha la recuperación; la recuperación es materia de los escenarios.\nLo sustituiría: Media del ciclo si hubiera datos de que FY2025 fue un valle de todo el sector."
    },
    "140": {
     "celda": "Palancas!C9",
     "concepto": "I+D capitalizada en las anclas",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3752,14 +3750,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: Nike no publica el gasto de I+D: lo incluye en operating overhead sin importe (extracto p. 38; Historia fila de I+D vacía los diez años). Sin cifra no se puede saber si supera el 5 % de las ventas, y C6 no es Intangibles.\nLo sustituiría: Sí si un documento diera el gasto de I+D y superara el 5 % de las ventas."
    },
    "141": {
     "celda": "Palancas!C10",
     "concepto": "Vida útil de la I+D",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3767,7 +3765,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: no aplica: C9 = No y la regla de la plantilla deja C10 vacía. No hay serie de I+D que capitalizar (Historia fila de I+D vacía; extracto p. 38).\nLo sustituiría: 5 años (convención tecnología/industrial) si C9 pasara a Sí."
    },
    "142": {
     "celda": "Palancas!B14",
@@ -4133,8 +4131,8 @@
     "celda": "Palancas!C43",
     "concepto": "Naturaleza del FCF base ≤ 0 (motor A)",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4142,7 +4140,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: el FCF base es positivo: CFO medio 4.665 (C46) − capex medio 642 (C47) − SBC 743 (C50) = 3.280. C52 sale vacío porque faltan C48 y C49, que en US GAAP son 0 (Historia). Peor año reciente, FY2026: 1.469 tras SBC (C40), también positivo.\nLo sustituiría: Transitorio si el FCF base pasara a ser ≤ 0 por circulante."
    },
    "167": {
     "celda": "Palancas!C44",
@@ -4193,8 +4191,8 @@
     "celda": "Palancas!C47",
     "concepto": "Causa declarada de la diferencia precio × acciones frente a capitalización",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4202,7 +4200,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: la conciliación no lo pide: V22, V26 y V27 OK (datos_v63 sección 5). V28 solo avisa de fechas separadas (acciones de mayo-2025, precio de nov-2026); las diluidas del T1 FY2027 son 1.484,2 M, −0,1 % (C55): inmaterial. Anoto que Yahoo da 51.407 de capitalización frente a 58.195 (C41) y no lo explico.\nLo sustituiría: Fechas distintas u Otra si la hoja marcara desviación en Diagnóstico C91:C92."
    },
    "171": {
     "celda": "Palancas!C48",
@@ -4354,10 +4352,10 @@
     "motores": "A",
     "aplica": true,
     "condicion": "siempre en A (0 explícito si no hay)",
-    "clasificacion": "No aplicable",
-    "documento": "Archivo aportado: 10-K FY2026 (nke-20260531.pdf)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "10K_2025.pdf; flujo de efectivo: bajo US GAAP los intereses pagados van en explotación y el bloque de financiación no tiene línea de intereses (Historia, intereses_financiacion)",
     "justificada": true,
-    "estado_evidencia": "no aplicable indebido"
+    "estado_evidencia": "documentada"
    },
    {
     "fila_cm": 46,
@@ -4367,10 +4365,10 @@
     "motores": "A",
     "aplica": true,
     "condicion": "siempre en A (0 explícito si no hay)",
-    "clasificacion": "No aplicable",
-    "documento": "Archivo aportado: 10-K FY2026 (nke-20260531.pdf)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "10K_2025.pdf; el flujo de financiación no tiene línea de principal de arrendamientos (los operativos van en explotación) y los arrendamientos financieros no son materiales (p. 90)",
     "justificada": true,
-    "estado_evidencia": "no aplicable indebido"
+    "estado_evidencia": "documentada"
    },
    {
     "fila_cm": 48,
@@ -4653,10 +4651,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (elección del motor)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 53,
@@ -4666,10 +4664,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (r exigida; en B entra en la r operativa)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 138,
@@ -4679,10 +4677,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (aplicabilidad del motor: «Financiera» bloquea A y B)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 139,
@@ -4692,10 +4690,10 @@
     "motores": "A · B",
     "aplica": true,
     "condicion": "A y B (margen de partida: último año o media del ciclo)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 129,
@@ -4718,10 +4716,10 @@
     "motores": "A",
     "aplica": true,
     "condicion": "A, si la SBC (C50) no es 0",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 142,
@@ -5004,9 +5002,9 @@
     "motores": "A",
     "aplica": false,
     "condicion": "A, si el FCF base (Análisis C52) ≤ 0",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    },
    {
@@ -5030,24 +5028,24 @@
     "motores": "A · B · C",
     "aplica": false,
     "condicion": "si la desviación capitalización ÷ (precio × acciones) supera el umbral (Diagnóstico C91) o hay causa declarada",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    }
   ],
   "resumen": {
    "D240": 43,
    "D241": 19,
-   "D242": 17,
+   "D242": 19,
    "D243": 24,
    "D244": 0,
-   "D245": 1,
+   "D245": 6,
    "D246": 0,
-   "D247": 9,
-   "D248": 14,
-   "D249": 2,
-   "D250": "INCOMPLETAS · datos 17 de 19 · hipótesis confirmadas 0 de 24 · 1 estimaciones · 0 no verificables · 9 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 2 «No aplicable» indebido"
+   "D247": 6,
+   "D248": 12,
+   "D249": 0,
+   "D250": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 0 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
   }
  },
  "herencia": {

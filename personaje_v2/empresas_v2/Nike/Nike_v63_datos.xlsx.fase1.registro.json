@@ -6,7 +6,9 @@
   "Análisis!C37",
   "Análisis!C55",
   "Análisis!C41",
-  "Análisis!C57"
+  "Análisis!C57",
+  "Análisis!C48",
+  "Análisis!C49"
  ],
  "derivadas": [],
  "no_pisadas": [
@@ -18,5 +20,5 @@
  ],
  "convenciones": [],
  "avisos": [],
- "n_celdas": 459
+ "n_celdas": 473
 }

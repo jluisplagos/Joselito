@@ -438,7 +438,22 @@
    }
   }
  },
- "analisis": {},
+ "analisis": {
+  "C48": {
+   "valor": 0,
+   "fuente": "10K_2025.pdf; flujo de efectivo: bajo US GAAP los intereses pagados van en explotación y el bloque de financiación no tiene línea de intereses (Historia, intereses_financiacion)",
+   "pagina": 62,
+   "periodo": "FY2025",
+   "unidad": "USD millones"
+  },
+  "C49": {
+   "valor": 0,
+   "fuente": "10K_2025.pdf; el flujo de financiación no tiene línea de principal de arrendamientos (los operativos van en explotación) y los arrendamientos financieros no son materiales (p. 90)",
+   "pagina": 90,
+   "periodo": "FY2025",
+   "unidad": "USD millones"
+  }
+ },
  "_notas": [
   "Historia construida por scripts/fase1_historia.py (pieza 7); revisión completa en historia_revision.md.",
   "Acciones diluidas: es la media ponderada del FY2025 (1.487,6 M); no se halló un recuento posterior de acciones en circulación en el 10-K ni en la web.",

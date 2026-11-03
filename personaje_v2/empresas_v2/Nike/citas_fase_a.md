@@ -1,0 +1,308 @@
+- fase_a.empresa: NIKE, Inc.
+- fase_a.ticker: NKE
+- fase_a.fecha_analisis: 2026-11-03
+- fase_a.version_personaje: v2.0
+- fase_a.cinco_frases: Nike vende calzado, ropa y equipamiento con las marcas NIKE, Jordan y Converse; el calzado son dos tercios de NIKE Brand. Paga el consumidor final, a través de mayoristas (58 %) o de NIKE Direct (42 %). No fabrica: encarga a fábricas contratadas, sobre todo en Vietnam, Indonesia y China. Creo que el consumidor paga por la marca, que Nike sostiene con unos 4.700 millones al año de marketing y patrocinio. La caja sale del margen bruto, alrededor del 43 %, menos marca y estructura, con muy poco capital: capex de caja de 430 millones en FY2025.
+- fase_a.seis_preguntas.confio_en_la_gestion: En la integridad, sí con lo que tengo: el 10-K de FY2025 escribe las malas noticias y reconoce que sus propias acciones restan ventas y margen [10K_2025, PDF pp. 32-33]. En la capacidad, con dudas: metas de FY2025 muy incumplidas (EBIT 8,2 % frente a 'high teens', ROIC 20,2 % frente a más del 30 %) y recompras a 98,00 de media frente a 39,12 hoy [10K_2025, PDF p. 49]. No tengo la remuneración ni los criterios del bonus: lo pediría (proxy).
+- fase_a.seis_preguntas.puede_danar_reputacion: Riesgo moderado que no veo materializado: producción concentrada en fábricas contratadas (cuatro fabricantes hacen el 59 % del calzado [10K_2025, PDF p. 6]) y la reclamación de la aduana belga sin rango de pérdida estimable [10K_2025, PDF p. 90].
+- fase_a.seis_preguntas.que_puede_salir_mal: Que el precio medio siga cayendo por descuentos, que los aranceles no se repercutan, que China siga perdiendo margen y que el margen operativo se quede en el nivel de FY2025 años; mientras, el dividendo (2.300 pagados en FY2025 [10K_2025, PDF p. 62]) ya supera el FCF tras SBC de FY2026 (1.469, C40).
+- fase_a.seis_preguntas.lo_entiendo: Sí: una marca que vende calzado y ropa fabricados por terceros, a mayoristas y directo, y cobra por la marca.
+- fase_a.seis_preguntas.necesita_capital: No: capex de caja 430 en FY2025 [10K_2025, PDF p. 62] y reinversión neta pequeña o negativa en la Historia. Lo que sí necesita es gasto de marca: demand creation 4.689 [10K_2025, PDF p. 38] y 16.200 de patrocinio comprometido [10K_2025, PDF p. 50].
+- fase_a.seis_preguntas.que_caja_espero: Rango amplio: el FCF tras SBC ha ido de 970 (2020) a 5.813 (2024) (Historia fila 35); hoy está en la parte baja (1.469 en FY2026, C40). La caja normal depende de cuánto margen vuelva, y eso es lo que separa los tres escenarios.
+- fase_a.descalificadores[0].nombre: no puedo explicar de dónde viene la caja
+- fase_a.descalificadores[0].evidencia: Margen bruto 42,7 % [10K_2025, PDF p. 35] menos marca y estructura, capex 430 [10K_2025, PDF p. 62]; CFO ÷ beneficio 1,08 (C26).
+- fase_a.descalificadores[1].nombre: el valor depende de predecir macro, tipos, divisas o materias primas
+- fase_a.descalificadores[1].evidencia: Divisas y aranceles mueven el margen (coberturas con nocional 18.400 [10K_2025, PDF p. 83]; aranceles [10K_2025, PDF p. 33]), pero los meto en el rango de escenarios; no necesito acertarlos para que el malo sea calculable.
+- fase_a.descalificadores[2].nombre: cambio tecnológico que no deja juzgar el foso
+- fase_a.descalificadores[2].evidencia: El riesgo es de moda y de marca, no tecnológico; lo trato en el foso.
+- fase_a.descalificadores[3].nombre: gestión en la que no confío
+- fase_a.descalificadores[3].evidencia: Dudas de capacidad (metas de FY2025 incumplidas, recompras caras [10K_2025, PDF p. 49]), no de integridad: el 10-K cuenta lo malo [10K_2025, PDF pp. 32-33].
+- fase_a.descalificadores[4].nombre: deuda que mata
+- fase_a.descalificadores[4].evidencia: Caja neta (C33 = −0,10x), rating A+ de S&P [10K_2025, PDF p. 49], líneas de 3.000 sin disponer [10K_2025, PDF p. 73], vencimientos de 2.000 en doce meses [10K_2025, PDF p. 74].
+- fase_a.descalificadores[5].nombre: reinvierte toda la caja para mantenerse con retornos mediocres
+- fase_a.descalificadores[5].evidencia: Capex pequeño y ROIC ≥ 21 % los diez años (Historia fila 33).
+- fase_a.descalificadores[6].nombre: demasiadas piezas móviles
+- fase_a.descalificadores[6].evidencia: Un negocio de marca con cuatro segmentos geográficos y Converse [10K_2025, PDF p. 40]; nada financiero.
+- fase_a.descalificadores[7].nombre: sin historial
+- fase_a.descalificadores[7].evidencia: Diez años de Historia completos.
+- fase_a.descalificadores[8].nombre: reestructuración: «la nueva dirección lo arreglará»
+- fase_a.descalificadores[8].evidencia: Es el más cercano. La empresa está en un arreglo que cree que 'will reignite brand momentum' [10K_2025, PDF p. 33], con reestructuraciones en FY2021 y FY2024 [10K_2021, PDF p. 106; 10K_2025, PDF p. 91]. No lo marco porque la calidad está demostrada en diez años y solo la compraría a un precio que no necesite el arreglo; aplica a cualquier tesis que dependa de que el arreglo salga, y por eso el cubo no es Sí al precio de hoy.
+- fase_a.foso.tipo: Marca y escala en creación de demanda (marketing y patrocinio), que el corpus reconoce como marca y como ventaja de escala en publicidad; con poder de precio intermitente.
+- fase_a.foso.pruebas.sobrino_idiota: La pasa en parte: con lo que la propia empresa describe como acciones correctoras sobre su producto y su canal [10K_2025, PDF p. 32], el ROIC de 2025 fue 22 % (Historia fila 33) y el publicado de FY2026 18,7 % (C24), con caja neta. Aguanta errores; no los aguanta gratis: el margen EBIT bajó de 15,6 % a 8,8 % (Historia fila 29).
+- fase_a.foso.pruebas.duracion: Diez años con ROIC ≥ 21 % (Historia fila 33), pero el ROIC publicado cae cada año de FY2021 a FY2026 (48,8 % a 18,7 %, C24) y Converse enseña que una marca de la casa se puede vaciar (EBIT de 676 a 240 en dos años, [10K_2025, PDF p. 40]). Duradero, más estrecho; no sé cuánto dura su periodo al sol.
+- fase_a.foso.pruebas.quien_me_mata: El 10-K nombra once competidores sin ordenarlos [10K_2025, PDF p. 8]; no dice cuál hace más daño y lo pediría. Veo además un riesgo de canal: los tres mayores clientes de EE. UU. pasan del 21 % al 25 % y el 10-K advierte de más concentración minorista [10K_2025, PDF pp. 5, 14].
+- fase_a.foso.pruebas.empresa_o_nicho: De la empresa, no del nicho: ROIC medio de cinco años 36,9 % (C55) frente a 15,3 % del sector (H18) y margen medio 12,4 % frente a una mediana del sector de 6,2 % (cuartiles de Palancas). Son datos de otras empresas: contexto, no prueba.
+- fase_a.cubo_provisional: Vigilar
+- fase_a.celdas.C11: Sí
+- fase_a.celdas.C12: Sí
+- fase_a.celdas.C13: No
+- fase_a.celdas.C14: Calidad a precio razonable
+- fase_a.celdas.C17: No
+- fase_a.celdas.C18: Sí
+- fase_a.celdas.C19: No
+- fase_a.celdas.C20: Riesgo real alto
+- fase_a.celdas.C25: No
+- fase_a.celdas.C27: Comprimiendo
+- fase_a.celdas.C51: Sí
+- fase_a.celdas.C61: No está claro
+- fase_a.celdas.C62: Sí
+- fase_a.celdas.C97: Neutral
+- fase_a.celdas.C98: Dudosa
+- fase_a.celdas.Palancas!C5: Madura
+- fase_a.celdas.Palancas!C6: Ninguno
+- fase_a.celdas.Palancas!C8: Último año
+- fase_a.celdas.Palancas!C9: No
+- fase_a.celdas.Palancas!C43: No aplica
+- fase_a.celdas.Palancas!C47: Ninguna
+- fase_a.celdas.B65: Márgenes se comprimen (costes o precios)
+- fase_a.celdas.C65: Otra (explícala en tus palabras)
+- fase_a.celdas.D65: Márgenes suben por escala o precios
+- fase_a.celdas.B66: La marca no recupera el precio: descuentos y mezcla siguen restando al precio medio, los aranceles suben el coste sin repercutirse y Converse, Jordan y China no vuelven; el margen se queda en el nivel bajo de FY2025 y la mejora que haya se la quedan el consumidor y los mayoristas, no Nike.
+- fase_a.celdas.C66: Recuperación parcial, no vuelta al pico: Nike limpia el canal y vuelve en parte al precio completo, las ventas crecen como su historia larga y el margen sube hacia su media de diez años sin llegar al máximo; la mejora de precio se reparte entre margen y más gasto en marca, y Nike se queda solo una parte.
+- fase_a.celdas.D66: Vuelve el tirón de la marca: venta a precio completo y menos descuentos suben el precio medio como en FY2023-FY2024 y el margen vuelve a los niveles altos de su historia (FY2021-FY2022); la mejora es de precio y mezcla, no de escala, y se la queda Nike.
+- fase_a.herencia.C11.etapa1: Sí
+- fase_a.herencia.C11.decision: mantiene
+- fase_a.herencia.C11.motivo: misma_evidencia
+- fase_a.herencia.C11.evidencia_y_razonamiento: Revisé qué vende, quién paga y de dónde sale la caja con las cifras de FY2025: calzado 29.510, ropa 12.965 y equipamiento 2.191 [10K_2025, PDF p. 36]; mayoristas 25.883 y NIKE Direct 18.783 [10K_2025, PDF p. 36]; fabricación contratada [10K_2025, PDF p. 6]; margen bruto 42,7 % [10K_2025, PDF p. 35] y capex de caja 430 [10K_2025, PDF p. 62]. Se explica en cinco frases; la conclusión del v1 se sostiene.
+- fase_a.herencia.C12.etapa1: Sí
+- fase_a.herencia.C12.decision: mantiene
+- fase_a.herencia.C12.motivo: misma_evidencia
+- fase_a.herencia.C12.evidencia_y_razonamiento: Las variables que deciden el valor son el precio medio (descuentos frente a precio completo), la mezcla de canal, el margen bruto y China; todas tienen serie: ASP en puntos por año [10K_2025, PDF p. 37], margen bruto por segmento [10K_2025, PDF pp. 41-45], margen EBIT de diez años (Historia fila 29, entre 8,0 % y 15,6 %). Puedo juzgarlas en rango sin predecir la moda. El borde son China y los aranceles.
+- fase_a.herencia.C13.etapa1: No
+- fase_a.herencia.C13.decision: mantiene
+- fase_a.herencia.C13.motivo: evidencia_nueva
+- fase_a.herencia.C13.evidencia_y_razonamiento: Precio nuevo 39,12 (C37) frente a 34,61 del v1. FCF tras SBC de FY2026 1.469 (C40) sobre capitalización 58.195 (C41) = 2,5 %; con la base de tres años (3.280, C46) = 5,6 %, y esa base incluye la liberación de inventario de FY2024 (+908, [10K_2025, PDF p. 62]). Para ver que está barata necesito la hoja: No.
+- fase_a.herencia.C14.etapa1: Calidad a precio razonable
+- fase_a.herencia.C14.decision: mantiene
+- fase_a.herencia.C14.motivo: misma_evidencia
+- fase_a.herencia.C14.evidencia_y_razonamiento: No es Compounder: ventas FY2025 −9,8 % y margen 8,8 % (Historia filas 28-29), BPA 2,16 frente a 3,73 [10K_2025, PDF p. 35]. La empresa está en un arreglo declarado ('will reignite brand momentum', [10K_2025, PDF p. 33]) con reestructuraciones en FY2021 y FY2024 [10K_2021, PDF p. 106; 10K_2025, PDF p. 91]. La clasifico por el único caso en que la compraría: calidad a un precio que no necesite que el arreglo salga.
+- fase_a.herencia.C17.etapa1: No
+- fase_a.herencia.C17.decision: mantiene
+- fase_a.herencia.C17.motivo: evidencia_nueva
+- fase_a.herencia.C17.evidencia_y_razonamiento: Ningún documento da tamaño ni crecimiento del mercado (extracto_v63 secciones 1 y 9). Nike creció −0,3 % anual en tres años (Historia C45) mientras la mediana del sector Shoe creció 6,0 % (cuartiles de Palancas): si hay viento, Nike no lo ha capturado. El salto de FY2021 (+19,1 %, Historia fila 28) sale de la base de la pandemia, no de un viento demostrado.
+- fase_a.herencia.C18.etapa1: Sí
+- fase_a.herencia.C18.decision: mantiene
+- fase_a.herencia.C18.motivo: evidencia_nueva
+- fase_a.herencia.C18.evidencia_y_razonamiento: La Historia de diez años que el v1 no tenía: ROIC nunca por debajo del 21 % (Historia fila 33; mínimo 2020 y 2025), media de cinco años 36,9 % (C55) frente a r 0,09 y ROIC medio del sector 15,3 % (H18). Marca y escala en demand creation (4.689, [10K_2025, PDF p. 38]) y patrocinio (16.200 comprometidos, [10K_2025, PDF p. 50]). En contra: ROIC publicado de 48,8 % (FY21) a 18,7 % (FY26) (C24) y Converse de EBIT 676 a 240 [10K_2025, PDF p. 40]: foso real, más estrecho.
+- fase_a.herencia.C19.etapa1: No
+- fase_a.herencia.C19.decision: mantiene
+- fase_a.herencia.C19.motivo: evidencia_nueva
+- fase_a.herencia.C19.evidencia_y_razonamiento: Con diez años (Historia fila 28): −4,4 % en 2020, +19,1 % en 2021, +0,3 % en 2024, −9,8 % en 2025. Beneficio neto 3.760 en 2016 y 3.219 en 2025 (Historia). La empresa atribuye FY2025 a decisiones propias de producto y canal [10K_2025, PDF p. 32], no a un ciclo del sector: no lo trato como bache cíclico.
+- fase_a.herencia.C20.etapa1: Incert. alta + riesgo bajo
+- fase_a.herencia.C20.decision: cambia
+- fase_a.herencia.C20.motivo: razonamiento_corregido
+- fase_a.herencia.C20.evidencia_y_razonamiento: El v1 juzgó el riesgo del negocio (caja neta, A+): eso es solvencia, y la regla es pérdida permanente al precio pagado. A 39,12 (C37) el FCF tras SBC de FY2026 rinde 2,5 % (C40, C41); sin recuperación del margen (Historia 2025: 8,8 %; guía de aranceles negativa, [10K_2025, PDF p. 33]) la rentabilidad sería inadecuada de forma permanente. La solvencia sigue siendo buena (C33 = −0,10x).
+- fase_a.herencia.C25.etapa1: No
+- fase_a.herencia.C25.decision: mantiene
+- fase_a.herencia.C25.motivo: evidencia_nueva
+- fase_a.herencia.C25.evidencia_y_razonamiento: Historia fila 35 (FCF al accionista tras SBC): 5.351 en 2021, 3.792, 4.117, 5.813 y 2.559 en 2025; FY2026 1.469 y LTM 1.417 (C40). El pico de 2024 incluye la liberación de inventario (+908, [10K_2025, PDF p. 62]). Normalizado no crece desde 2021.
+- fase_a.herencia.C27.etapa1: Comprimiendo
+- fase_a.herencia.C27.decision: mantiene
+- fase_a.herencia.C27.motivo: evidencia_nueva
+- fase_a.herencia.C27.evidencia_y_razonamiento: Historia fila 29: margen EBIT 15,6 % (2021), 14,3 %, 11,5 %, 13,8 % y 8,8 % (2025), con media de diez años 12,4 % (C49). Margen bruto 44,6 % a 42,7 % en FY2025 [10K_2025, PDF p. 35] y la empresa espera un impacto negativo de los aranceles en FY2026 [10K_2025, PDF p. 33].
+- fase_a.herencia.C51.etapa1: Sí
+- fase_a.herencia.C51.decision: mantiene
+- fase_a.herencia.C51.motivo: misma_evidencia
+- fase_a.herencia.C51.evidencia_y_razonamiento: Convención del ejercicio con evidencia: SBC 709 en 2025 (Historia) y 743 de media (C50), 16,9-32,7 % del flujo antes de SBC según el periodo (C50). La SBC es coste y dilución.
+- fase_a.herencia.C56.decision: mantiene
+- fase_a.herencia.C56.motivo: misma_evidencia
+- fase_a.herencia.C56.evidencia_y_razonamiento: Heredada y no se cambia (S-3). Representa la alternativa de un índice amplio de acciones, unos 4 puntos sobre el bono a 10 años (C57 = 4,94 %). Está por debajo de la r mínima de la hoja (10,2 %, Diagnóstico C17): lo informo y no la ajusto.
+- fase_a.herencia.C61.etapa1: No está claro
+- fase_a.herencia.C61.decision: mantiene
+- fase_a.herencia.C61.motivo: evidencia_nueva
+- fase_a.herencia.C61.evidencia_y_razonamiento: Historia fila 20: acciones diluidas de 1.742,5 M (2016) a 1.487,6 M (2025), C60 = −1,9 % anual: históricamente sí. Ahora no: recompras pausadas desde el T1 FY2026 y acciones +0,35 % interanual en el T1 FY2027 (C28); la empresa dice que seguirá moderando las recompras [10K_2025, PDF p. 49] y la SBC sigue en unos 700-800 al año (Historia).
+- fase_a.herencia.C62.etapa1: Sí
+- fase_a.herencia.C62.decision: mantiene
+- fase_a.herencia.C62.motivo: misma_evidencia
+- fase_a.herencia.C62.evidencia_y_razonamiento: Financiación estable: caja neta (C33 = −0,10x), sin emisiones desde 2020 (C54), vencimientos de 1.000 en nov-2026 y 1.000 en mar-2027 [10K_2025, PDF p. 74], líneas de 3.000 sin disponer [10K_2025, PDF p. 73], arrendamientos 3.052 estables [10K_2025, PDF p. 90]. El flujo al accionista aproxima bien: motor A. Hoy no es calculable porque C48 y C49 están vacías (entrada_v63.md); deberían ser 0 en US GAAP (Historia filas de intereses en financiación y principal de arrendamientos = 0).
+- fase_a.herencia.C97.etapa1: Neutral
+- fase_a.herencia.C97.decision: mantiene
+- fase_a.herencia.C97.motivo: misma_evidencia
+- fase_a.herencia.C97.evidencia_y_razonamiento: Mis entradas no traen compras ni ventas de insiders en los últimos 12 meses: solo la propiedad de consejeros y directivos (1,1 %, C96) y Swoosh, LLC con el 78,8 % de la Clase A (C96). Sin hechos, Neutral es técnico.
+- fase_a.herencia.C98.etapa1: Dudosa
+- fase_a.herencia.C98.decision: mantiene
+- fase_a.herencia.C98.motivo: evidencia_nueva
+- fase_a.herencia.C98.evidencia_y_razonamiento: Recompró 122,6 M de acciones por unos 12.000 a 98,00 de media desde 2022 y en FY2025 37,6 M a 78,50 [10K_2025, PDF p. 49]; hoy cotiza a 39,12 (C37). Metas de FY2021 para FY2025 incumplidas: EBIT 'high teens' frente a 8,2 %, ROIC por encima del 30 % frente a 20,2 % [10K_2021, PDF p. 106; 10K_2025, PDF pp. 33-34]. A favor: sin adquisiciones (Historia fila 13 = 0; fondo de comercio 240, [10K_2025, PDF p. 61]).
+- fase_a.herencia.B65.etapa1: Pierde cuota frente a la competencia
+- fase_a.herencia.B65.decision: cambia
+- fase_a.herencia.B65.motivo: evidencia_nueva
+- fase_a.herencia.B65.evidencia_y_razonamiento: El extracto V6.3 no trae ninguna cifra de cuota (secciones 1 y 9), pero sí documenta lo que mueve el valor en el malo: el precio medio del calzado restó unos 3 puntos [10K_2025, PDF p. 37], el margen bruto cayó 190 pb [10K_2025, PDF p. 38] y la empresa espera un impacto negativo de los aranceles [10K_2025, PDF p. 33]. El malo medible es de margen, no de cuota.
+- fase_a.herencia.C65.etapa1: Crece al ritmo de su mercado
+- fase_a.herencia.C65.decision: cambia
+- fase_a.herencia.C65.motivo: razonamiento_corregido
+- fase_a.herencia.C65.evidencia_y_razonamiento: «Crece al ritmo de su mercado» supone conocer el crecimiento del mercado y ningún documento lo da (extracto_v63 secciones 1 y 9). Mi normal es una recuperación parcial anclada en la historia propia: CAGR de diez años 4,1 % (Historia C47) y margen medio 12,4 % (C49), por debajo del máximo 15,6 % (C51).
+- fase_a.herencia.D65.etapa1: Márgenes suben por escala o precios
+- fase_a.herencia.D65.decision: mantiene
+- fase_a.herencia.D65.motivo: evidencia_nueva
+- fase_a.herencia.D65.evidencia_y_razonamiento: Con diez años: margen EBIT de 13,8 % o más en cinco ejercicios (2016, 2017, 2021, 2022, 2024; Historia fila 29). En FY2024 el precio a precio completo sumó unos 200 pb al margen bruto [10K_2024, PDF p. 39]. La mejora del bueno es de precio y mezcla, no de escala.
+- fase_a.herencia.B66.etapa1: La marca pierde tirón frente a los competidores que nombra el 10-K, China sigue con menos tráfico, promociones e inventario alto, Converse no vuelve, las rebajas se quedan y la caja libre tras SBC baja un 2 % al año desde 3.280 mm.
+- fase_a.herencia.B66.decision: cambia
+- fase_a.herencia.B66.motivo: definicion_o_medicion_distinta
+- fase_a.herencia.B66.evidencia_y_razonamiento: La V6.3 no usa el crecimiento del FCF: la frase tiene que nombrar el mecanismo y quién se queda la mejora. Mecanismo: precio medio a la baja [10K_2025, PDF p. 37], coste arancelario [10K_2025, PDF p. 33], reservas de ventas de 1.282 a 1.834 [10K_2025, PDF p. 71] y mayoristas más concentrados (los tres mayores, 21 % a 25 % de EE. UU., [10K_2025, PDF p. 5]).
+- fase_a.herencia.C66.etapa1: Norteamérica aguanta, China y Converse se estabilizan, las ventas crecen un 3-4 % y el margen EBIT vuelve hacia el 11-12 %: la caja libre tras SBC crece un 5 % al año.
+- fase_a.herencia.C66.decision: cambia
+- fase_a.herencia.C66.motivo: definicion_o_medicion_distinta
+- fase_a.herencia.C66.evidencia_y_razonamiento: La V6.3 no usa el crecimiento del FCF y las cifras de palancas son de la fase B. Rehago la frase con el mecanismo (menos descuentos, inventario estable: 7.519 a 7.489, [10K_2025, PDF p. 61]) y el reparto de la mejora; anclas: CAGR 4,1 % (Historia C47) y margen medio 12,4 % (C49).
+- fase_a.herencia.D66.etapa1: Vuelven la innovación y la venta a precio completo, el margen EBIT regresa al 13-15 %, como en FY21-FY22 y las ventas crecen un 4-5 %: la caja libre tras SBC crece un 10 % al año.
+- fase_a.herencia.D66.decision: cambia
+- fase_a.herencia.D66.motivo: definicion_o_medicion_distinta
+- fase_a.herencia.D66.evidencia_y_razonamiento: La V6.3 no usa el crecimiento del FCF. Rehago la frase con el mecanismo (precio completo: en FY2023 el ASP del calzado sumó unos 7 puntos y en FY2024 unos 3, [10K_2023, PDF p. 37; 10K_2024, PDF p. 38]) y digo que la mejora se queda en Nike, como en FY2024 (margen bruto +110 pb, [10K_2024, PDF p. 39]).
+- fase_a.escenarios.MALO.historia: La marca no recupera el precio. Los descuentos y la mezcla de canal siguen restando al precio medio, los aranceles suben el coste de producto y no se repercuten, Converse y Jordan no vuelven y China sigue perdiendo margen. Nike gasta más en marca para defenderse y el margen operativo se queda en el nivel bajo de FY2025, como un suelo que dura y no como un bache.
+- fase_a.escenarios.MALO.mecanismo: Precio medio a la baja por descuentos y liquidación de inventario, coste arancelario sin repercutir y más demand creation: el margen bruto y el operativo se comprimen a la vez. Mayoristas más concentrados negocian mejor.
+- fase_a.escenarios.MALO.quien_se_queda_la_mejora: El consumidor (descuentos) y los mayoristas (devoluciones, descuentos y más poder de negociación); también los competidores que la lista del 10-K nombra, sin que el extracto diga cuál. Nike no.
+- fase_a.escenarios.MALO.que_lo_pararia: Dos ejercicios con ASP a precio completo sumando puntos y margen bruto de vuelta al 44 % o más sin partidas únicas; reservas de ventas que bajen hacia el nivel de FY2024.
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[0]: ASP del calzado −3 puntos y unidades −8 % en FY2025 [10K_2025, PDF p. 37]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[1]: margen bruto −190 pb, unos 180 pb por menor ASP [10K_2025, PDF p. 38]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[2]: impacto negativo esperado de los aranceles en el margen bruto de FY2026 [10K_2025, PDF p. 33]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[3]: reservas de ventas de 1.282 a 1.834 [10K_2025, PDF p. 71]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[4]: los tres mayores clientes de EE. UU. del 21 % al 25 % de las ventas en EE. UU. [10K_2025, PDF p. 5]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[5]: Converse: EBIT 676, 474, 240 en FY2023-FY2025 [10K_2025, PDF p. 40]; Jordan −16 % [10K_2025, PDF p. 36]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[6]: margen bruto de Greater China de 51,0 % a 46,0 % [10K_2025, PDF p. 43]
+- fase_a.escenarios.MALO.hechos_en_que_se_apoya[7]: margen EBIT 8,0 % en 2020 y 8,8 % en 2025 (Historia fila 29); FCF tras SBC FY2026 1.469 (Análisis C40)
+- fase_a.escenarios.NORMAL.historia: Recuperación parcial, no vuelta al pico. Nike limpia el canal, deja de liquidar con rebajas y vuelve en parte a vender a precio completo. Las ventas crecen como su historia larga y el margen sube hacia su media de diez años sin llegar al máximo. Los aranceles se mitigan solo en parte y la demand creation sigue alta.
+- fase_a.escenarios.NORMAL.mecanismo: Menos descuentos hacen que el precio medio deje de restar; unidades estables; el gasto de marca crece menos que las ventas y da algo de apalancamiento operativo.
+- fase_a.escenarios.NORMAL.quien_se_queda_la_mejora: Se reparte: parte de la mejora de precio se queda en margen y parte se va en gasto de marca y en condiciones a mayoristas. Nike se queda solo una parte.
+- fase_a.escenarios.NORMAL.que_lo_pararia: FY2026 y FY2027 con ventas planas y margen en el nivel de 2025; aranceles sin mitigar; China cayendo otro año.
+- fase_a.escenarios.NORMAL.hechos_en_que_se_apoya[0]: CAGR de ventas de diez años 4,1 % (Historia C47) y de cinco 4,4 % (Historia C46)
+- fase_a.escenarios.NORMAL.hechos_en_que_se_apoya[1]: margen EBIT medio de diez años 12,4 % (Historia C49) frente a 8,8 % en 2025 (C48)
+- fase_a.escenarios.NORMAL.hechos_en_que_se_apoya[2]: inventario estable, 7.519 a 7.489 [10K_2025, PDF p. 61]
+- fase_a.escenarios.NORMAL.hechos_en_que_se_apoya[3]: tiendas comparables de EMEA +5 % [10K_2025, PDF p. 42] y APLA solo −3 % en ingresos a moneda neutra [10K_2025, PDF p. 40]
+- fase_a.escenarios.NORMAL.hechos_en_que_se_apoya[4]: demand creation +9 % en FY2025 [10K_2025, PDF p. 38]
+- fase_a.escenarios.BUENO.historia: Vuelve el tirón de la marca. La venta a precio completo y menos descuentos suben el precio medio, como en FY2023 y FY2024, el digital deja de caer y el margen vuelve a los niveles altos de su historia, los de FY2021 y FY2022. La mejora es de precio y mezcla, no de escala.
+- fase_a.escenarios.BUENO.mecanismo: Poder de fijación de precio de la marca: el ASP suma puntos con unidades estables o al alza; la mezcla hacia precio completo y NIKE Direct sube el margen bruto, y la estructura no crece al mismo ritmo.
+- fase_a.escenarios.BUENO.quien_se_queda_la_mejora: Nike: en FY2024 la subida de precio a precio completo se quedó en margen bruto.
+- fase_a.escenarios.BUENO.que_lo_pararia: Competidores de la lista del 10-K que se queden con el consumidor, aranceles permanentes, más concentración minorista y China; y que la vuelta dependa de acertar la moda.
+- fase_a.escenarios.BUENO.hechos_en_que_se_apoya[0]: FY2023: ASP del calzado +7 puntos con unidades +13 % [10K_2023, PDF p. 37]
+- fase_a.escenarios.BUENO.hechos_en_que_se_apoya[1]: FY2024: ASP del calzado +3 puntos y ropa +9 puntos [10K_2024, PDF p. 38]; margen bruto 44,6 %, +110 pb, unos 200 pb por precio completo [10K_2024, PDF p. 39]
+- fase_a.escenarios.BUENO.hechos_en_que_se_apoya[2]: margen EBIT 15,6 % en 2021 y 14,3 % en 2022 (Historia fila 29); máximo de la serie 15,6 % (Historia C51)
+- fase_a.escenarios.BUENO.hechos_en_que_se_apoya[3]: ROIC nunca por debajo del 21 % en diez años (Historia fila 33)
+- fase_a.observaciones.C11: [Clase: fundamentada] [Confianza: alta]
+Hereda: Sí → mantiene (misma_evidencia): con FY2025 se explica igual en cinco frases.
+Apoyo: NIKE Brand vende calzado 29.510, ropa 12.965 y equipamiento 2.191 (extracto p. 36). Paga el consumidor, vía mayoristas 25.883 o NIKE Direct 18.783 (extracto p. 36). No fabrica: 97 fábricas contratadas de calzado en 11 países (extracto p. 6). La caja sale del margen bruto 42,7 % (extracto p. 35) menos demand creation 4.689 (extracto p. 38) y estructura, con capex de caja 430 (extracto p. 62). CFO ÷ beneficio 1,08 (C26).
+Lo sustituiría: No si apareciera una parte relevante del negocio fuera de la marca que no veo en los documentos.
+- fase_a.observaciones.C12: [Clase: fundamentada] [Confianza: media]
+Hereda: Sí → mantiene (misma_evidencia): las variables que deciden el valor tienen serie y las juzgo en rango.
+Apoyo: precio medio frente a descuentos (ASP en puntos por año, extracto p. 37), mezcla mayorista/Direct (58/42, extracto p. 37), margen bruto por segmento (extracto pp. 41-45) y margen EBIT de diez años entre 8,0 % y 15,6 % (Historia fila 29). La moda no la predigo: la meto en los escenarios. «It's not a competency if you don't know the edge of it» (TCI p.100; HIM): mi borde es China y los aranceles.
+Lo sustituiría: No, y Demasiado difícil, si el valor pasara a depender de acertar qué producto se pone de moda o de la política arancelaria.
+- fase_a.observaciones.C13: [Clase: fundamentada] [Confianza: alta]
+Hereda: No → mantiene (evidencia_nueva): con el precio de hoy, 39,12 (C37), tampoco se ve barata sin hoja.
+Apoyo: FCF tras SBC de FY2026 1.469 (C40) sobre 58.195 (C41) = 2,5 %. Con la base de tres años 3.280 (C46) = 5,6 %, y esa base lleva la liberación de inventario de FY2024 (+908, extracto p. 62). Que esté barata depende de que el margen vuelva, que es lo que se discute. Si hace falta la hoja, C13 es No.
+Lo sustituiría: Sí si el precio cayera hasta donde el FCF tras SBC de FY2026, sin recuperación, ya diera una rentabilidad clara frente a r.
+- fase_a.observaciones.C14: [Clase: fundamentada] [Confianza: media]
+Hereda: Calidad a precio razonable → mantiene (misma_evidencia): calidad demostrada en diez años, en pleno arreglo.
+Apoyo: ROIC ≥ 21 % los diez años (Historia fila 33), pero ventas −9,8 % y margen 8,8 % en 2025 (Historia filas 28-29). La empresa dice que sus acciones 'will reignite brand momentum' (extracto p. 33): es un arreglo. «What is working poorly is usually either uncorrectable or 10 times harder to correct than you may think» (AIWTK p.12; HIM). La clasifico por el único caso en que la compraría: a un precio que no pague el arreglo.
+Lo sustituiría: Turnaround / situación especial si mi tesis necesitara que el arreglo salga para no perder.
+- fase_a.observaciones.C17: [Clase: fundamentada] [Confianza: media]
+Hereda: No → mantiene (evidencia_nueva): diez años de ventas y ningún dato de mercado.
+Apoyo: ningún documento da tamaño ni crecimiento del mercado (extracto secciones 1 y 9). CAGR de 3 años −0,3 % (Historia C45) frente a una mediana del sector de 6,0 %: si hay viento, Nike no lo capturó. El +19,1 % de 2021 (Historia fila 28) sale de la base de la pandemia. «carefully examine each past success, looking for accidental, non causative factors» (PCA pp.548–549; HIM).
+Lo sustituiría: Sí con cifras de fuente primaria de un mercado que crezca más que la economía y que Nike capture.
+- fase_a.observaciones.C18: [Clase: fundamentada] [Confianza: media]
+Hereda: Sí → mantiene (evidencia_nueva): la Historia de diez años lo sostiene; el foso se estrecha.
+Apoyo: ROIC nunca < 21 % en diez años (Historia fila 33), media 5 años 36,9 % (C55) frente a 15,3 % del sector (H18). Marca y escala: demand creation 4.689 (extracto p. 38), patrocinio comprometido 16.200 (extracto p. 50). «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). En contra: ROIC publicado de 48,8 % a 18,7 % FY21-FY26 (C24); Converse, EBIT de 676 a 240 (extracto p. 40).
+Lo sustituiría: No si el ROIC publicado queda por debajo de r dos años o el margen bruto bajo el 40 %.
+- fase_a.observaciones.C19: [Clase: fundamentada] [Confianza: alta]
+Hereda: No → mantiene (evidencia_nueva): diez años de Historia, no tres.
+Apoyo: crecimiento −4,4 % (2020), +19,1 % (2021), +0,3 % (2024), −9,8 % (2025) (Historia fila 28). Beneficio neto 3.760 en 2016 y 3.219 en 2025 (Historia). BPA 2,16 frente a 3,73 (extracto p. 35). La empresa atribuye FY2025 a sus decisiones de producto y canal (extracto p. 32): no es un bache del sector. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM).
+Lo sustituiría: Sí con dos años seguidos de crecimiento a moneda neutra y margen bruto estable o al alza.
+- fase_a.observaciones.C20: [Clase: fundamentada] [Confianza: media]
+Hereda: Incert. alta + riesgo bajo → cambia (razonamiento_corregido): el v1 midió solvencia; la regla es pérdida permanente al precio pagado.
+Apoyo: a 39,12 (C37) el FCF tras SBC de FY2026 rinde 2,5 % (C40, C41). Sin vuelta del margen (8,8 % en 2025, Historia fila 29; aranceles con impacto negativo esperado, extracto p. 33) la rentabilidad sería inadecuada para siempre. «Risk to us is 1) the risk of permanent loss of capital, or 2) the risk of inadequate return» (TCI p.91; HIM). La solvencia es buena (C33 = −0,10x).
+Lo sustituiría: Incert. alta + riesgo bajo a un precio que el FCF sin recuperación ya justifique.
+- fase_a.observaciones.C25: [Clase: fundamentada] [Confianza: alta]
+Hereda: No → mantiene (evidencia_nueva): la fila 35 de Historia lo confirma.
+Apoyo: FCF al accionista tras SBC 5.351 (2021), 3.792, 4.117, 5.813, 2.559 (2025) (Historia fila 35); FY2026 1.469 y LTM 1.417 (C40). El pico de 2024 lleva la liberación de inventario (+908, extracto p. 62). Cobros que crecen más que las ventas (C31 = Sí). Normalizado, no crece desde 2021.
+Lo sustituiría: Sí si dos ejercicios seguidos superan el FCF tras SBC de 2023 (4.117) sin liberar circulante ni partidas únicas.
+- fase_a.observaciones.C27: [Clase: fundamentada] [Confianza: alta]
+Hereda: Comprimiendo → mantiene (evidencia_nueva): la fila 29 de diez años lo confirma.
+Apoyo: margen EBIT 15,6 % (2021), 14,3 %, 11,5 %, 13,8 %, 8,8 % (2025) (Historia fila 29); media de diez años 12,4 % (C49). Margen bruto de 44,6 % a 42,7 % en FY2025 (extracto p. 35); el precio medio restó unos 180 pb (extracto p. 38) y la empresa espera impacto negativo de los aranceles en FY2026 (extracto p. 33).
+Lo sustituiría: Estable si FY2027 vuelve a un margen bruto ≥ 44 % sin partidas únicas.
+- fase_a.observaciones.C51: [Clase: convención] [Confianza: alta]
+Hereda: Sí → mantiene (misma_evidencia): convención del ejercicio con evidencia.
+Apoyo: SBC 709 en 2025 (Historia) y 743 de media (C50), entre el 16,9 % y el 32,7 % del flujo antes de SBC según el periodo (C50). Opciones vivas 75,1 M a 97,99 de precio medio, casi sin valor intrínseco (extracto p. 79). «A stock option is both an expense and dilution» (PCA pp.126–127; HIM).
+Lo sustituiría: nada; se resta siempre.
+- fase_a.observaciones.C56: [Clase: convención] [Confianza: media]
+Hereda: 0,09 → mantiene (misma_evidencia): heredada, no se cambia (S-3).
+Apoyo: representa la alternativa de un índice amplio de acciones, unos 4 puntos sobre el bono a 10 años (C57 = 4,94 %). Está por debajo de la r mínima de la hoja (10,2 %, Diagnóstico C17): lo informo y no la ajusto para que salga el número. «it's your alternatives that matter. That's how we make all of our decisions» (PCA p.114; HIM).
+Lo sustituiría: la r que fije el inversor.
+- fase_a.observaciones.C61: [Clase: fundamentada] [Confianza: media]
+Hereda: No está claro → mantiene (evidencia_nueva): la serie de diez años y la pausa actual apuntan en sentidos opuestos.
+Apoyo: acciones diluidas de 1.742,5 M (2016) a 1.487,6 M (2025) (Historia fila 20), C60 = −1,9 % anual. Pero recompras pausadas desde el T1 FY2026 y acciones +0,35 % interanual en el T1 FY2027 (C28); la empresa seguirá moderando recompras (extracto p. 49) con SBC de 700-800 al año (Historia).
+Lo sustituiría: Sí si reanudan recompras que superen las emisiones; No si las diluidas suben dos años seguidos.
+- fase_a.observaciones.C62: [Clase: fundamentada] [Confianza: alta]
+Hereda: Sí → mantiene (misma_evidencia): la financiación no cambia y el flujo al accionista aproxima bien.
+Apoyo: caja neta (C33 = −0,10x), sin emisiones desde 2020 (C54), vencimientos de 1.000 en nov-2026 y mar-2027 (extracto p. 74), líneas de 3.000 sin disponer (extracto p. 73), arrendamientos 3.052 estables (extracto p. 90). Motor A. Hoy no es calculable: C48 y C49 vacías (entrada_v63.md); en US GAAP son 0 (Historia: intereses en financiación y principal de arrendamientos = 0 en los años con dato). No elijo el C, que es de bancos.
+Lo sustituiría: No · financiación cambia mucho si se endeudaran para pagar dividendo o recomprar.
+- fase_a.observaciones.C97: [Clase: técnico] [Confianza: baja]
+Hereda: Neutral → mantiene (misma_evidencia): sigo sin hechos de compras o ventas de insiders en 12 meses.
+Apoyo: solo propiedad: consejeros y directivos 1,1 % (C96); Swoosh, LLC con el 78,8 % de la Clase A, que elige 3/4 del consejo (C96). El 10-K avisa de que una venta grande del accionista principal podría deprimir la cotización (extracto p. 25). Rango: Neutral por defecto; Comprando o Vendiendo solo con Form 4. «the system is responsible in proportion to the degree that the people who make the decisions bear the consequences» (AIWTK p.102; HIM).
+Lo sustituiría: los Form 4 de los últimos 12 meses.
+- fase_a.observaciones.C98: [Clase: fundamentada] [Confianza: media]
+Hereda: Dudosa → mantiene (evidencia_nueva): precios de recompra y metas incumplidas con página.
+Apoyo: 122,6 M de acciones por unos 12.000 a 98,00 de media desde 2022; en FY2025, 37,6 M a 78,50 (extracto p. 49); hoy 39,12 (C37). Metas FY2025 incumplidas: EBIT 8,2 % frente a 'high teens', ROIC 20,2 % frente a más del 30 % (extracto sección 5). Reestructuraciones con cargos de 294 en FY2021 y 443 en FY2024 (extracto sección 3). «Proper allocation of capital is an investor's number one job» (TCI p.114; HIM). A favor: sin adquisiciones (Historia fila 13).
+Lo sustituiría: Aceptable si recompran solo por debajo del valor y no hay más cargos de reestructuración.
+- fase_a.observaciones.B65: [Clase: fundamentada] [Confianza: media]
+Hereda: Pierde cuota frente a la competencia → cambia (evidencia_nueva): lo medible es el margen, no la cuota.
+Apoyo: no hay cifra de cuota (extracto secciones 1 y 9). Sí hay: ASP del calzado −3 puntos (extracto p. 37), margen bruto −190 pb (extracto p. 38), aranceles con impacto negativo esperado (extracto p. 33), reservas de ventas de 1.282 a 1.834 (extracto p. 71). La pérdida de tirón frente a la lista de competidores (extracto p. 8) es la causa que supongo; el efecto que mueve el valor es el margen.
+Lo sustituiría: Pierde cuota frente a la competencia con datos de cuota que muestren caída de volumen además de precio.
+- fase_a.observaciones.C65: [Clase: fundamentada] [Confianza: media]
+Hereda: Crece al ritmo de su mercado → cambia (razonamiento_corregido): ningún documento da el crecimiento del mercado.
+Apoyo: Otra: recuperación parcial anclada en la historia propia, no en un mercado sin cifra (extracto sección 9). CAGR de diez años 4,1 % (Historia C47), margen medio 12,4 % (C49) frente a 8,8 % hoy (C48) y máximo 15,6 % (C51). Inventario estable, 7.519 a 7.489 (extracto p. 61): el canal no está atascado.
+Lo sustituiría: Sigue como los últimos 5 años si FY2026-FY2027 confirman ventas planas; Crece al ritmo de su mercado con cifras de mercado de fuente primaria.
+- fase_a.observaciones.D65: [Clase: fundamentada] [Confianza: media]
+Hereda: Márgenes suben por escala o precios → mantiene (evidencia_nueva): la Historia muestra el nivel alto en cinco de diez años.
+Apoyo: margen EBIT ≥ 13,8 % en 2016, 2017, 2021, 2022 y 2024 (Historia fila 29). En FY2024 el precio completo sumó unos 200 pb al margen bruto (10-K FY2024 en el extracto, PDF p. 39). La palanca es precio y mezcla, no escala: «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).
+Lo sustituiría: Gana cuota: el moat se ensancha, con datos de cuota que mostraran ganancia de volumen.
+- fase_a.observaciones.B66: [Clase: fundamentada] [Confianza: media]
+Hereda: «La marca pierde tirón…» → cambia (definicion_o_medicion_distinta): la V6.3 pide mecanismo y dueño de la mejora, no crecimiento del FCF.
+Apoyo: precio medio a la baja (extracto p. 37), coste arancelario (extracto p. 33), Converse con EBIT de 676 a 240 (extracto p. 40), Jordan −16 % (extracto p. 36), margen bruto de China de 51,0 % a 46,0 % (extracto p. 43), mayoristas más concentrados: los tres mayores de EE. UU. pasan del 21 % al 25 % (extracto p. 5). Margen bajo ya visto: 8,0 % en 2020 y 8,8 % en 2025 (Historia fila 29).
+Lo sustituiría: un malo más duro si FY2027 baja de 1.469 de FCF tras SBC (C40) sin efecto del circulante.
+- fase_a.observaciones.C66: [Clase: fundamentada] [Confianza: media]
+Hereda: «Norteamérica aguanta…» → cambia (definicion_o_medicion_distinta): mecanismo y reparto, sin cifras de palancas.
+Apoyo: anclas propias: CAGR 4,1 % (Historia C47) y margen medio 12,4 % (C49). Inventario estable (extracto p. 61); tiendas comparables de EMEA +5 % (extracto p. 42) y APLA solo −3 % en ingresos a moneda neutra (extracto p. 40). La subida de demand creation de FY2025 (+9 %, extracto p. 38) dice que parte de la mejora se irá en gasto de marca.
+Lo sustituiría: el malo como normal si en FY2027 el margen sigue en el nivel de 2025 sin partidas únicas.
+- fase_a.observaciones.D66: [Clase: fundamentada] [Confianza: media]
+Hereda: «Vuelven la innovación…» → cambia (definicion_o_medicion_distinta): mecanismo y dueño de la mejora, sin cifras de palancas.
+Apoyo: ya pasó: en FY2023 el ASP del calzado sumó unos 7 puntos con unidades +13 % y en FY2024 unos 3 puntos (10-K FY2023 y FY2024 en el extracto, PDF pp. 37-38); el margen bruto de FY2024 subió 110 pb (PDF p. 39). Margen EBIT 15,6 % en 2021 y 14,3 % en 2022 (Historia fila 29). La mejora se la quedó Nike.
+Lo sustituiría: un bueno más corto si la vuelta a precio completo no pasa del nivel de FY2023 (11,5 %, Historia).
+- fase_a.observaciones.Palancas!C5: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: CAGR de diez años 4,1 % (Historia C47), de cinco 4,4 % (C46) y de tres −0,3 % (C45): crecimiento de economía madura, no de empresa en crecimiento. Reinversión neta pequeña o negativa (Historia fila de reinversión: −700 en 2024, 442 en 2025) y capex de caja 430 (extracto p. 62). Beneficio positivo los diez años (Historia). No es declive: las ventas de 2025 superan las de 2016 a 2021.
+Lo sustituiría: En declive si FY2026-FY2027 caen otra vez sin recuperación; Madura en crecimiento con dos años por encima del 5 %.
+- fase_a.observaciones.Palancas!C6: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: no es financiera ni regulada (extracto sección 7), ni emergente (EE. UU. 43 % de los ingresos, extracto p. 5), ni conglomerado (una familia de marcas, extracto p. 36). El foso es la marca, pero el tratamiento de intangibles de la hoja capitaliza la I+D, que Nike no publica (extracto p. 38; Historia fila de I+D vacía); la demand creation (4.689, extracto p. 38) va a gasto. Leo el ROIC algo inflado por eso y lo anoto. Coherente con el motor A.
+Lo sustituiría: Intangibles (I+D, marca) si hubiera serie de I+D o la hoja capitalizara el gasto de marca.
+- fase_a.observaciones.Palancas!C8: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: el margen de 2025 (8,8 %, C48) no es ni el máximo ni el mínimo de la serie (8,0 % en 2020, C50; 15,6 % en 2021, C51). La empresa atribuye la caída a sus decisiones de producto y canal (extracto p. 32), no a un ciclo, y espera más presión de aranceles en FY2026 (extracto p. 33). Partir de la media (12,4 %, C49) daría por hecha la recuperación; la recuperación es materia de los escenarios.
+Lo sustituiría: Media del ciclo si hubiera datos de que FY2025 fue un valle de todo el sector.
+- fase_a.observaciones.Palancas!C9: [Clase: fundamentada] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: Nike no publica el gasto de I+D: lo incluye en operating overhead sin importe (extracto p. 38; Historia fila de I+D vacía los diez años). Sin cifra no se puede saber si supera el 5 % de las ventas, y C6 no es Intangibles.
+Lo sustituiría: Sí si un documento diera el gasto de I+D y superara el 5 % de las ventas.
+- fase_a.observaciones.Palancas!C10: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: no aplica: C9 = No y la regla de la plantilla deja C10 vacía. No hay serie de I+D que capitalizar (Historia fila de I+D vacía; extracto p. 38).
+Lo sustituiría: 5 años (convención tecnología/industrial) si C9 pasara a Sí.
+- fase_a.observaciones.Palancas!C43: [Clase: fundamentada] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: el FCF base es positivo: CFO medio 4.665 (C46) − capex medio 642 (C47) − SBC 743 (C50) = 3.280. C52 sale vacío porque faltan C48 y C49, que en US GAAP son 0 (Historia). Peor año reciente, FY2026: 1.469 tras SBC (C40), también positivo.
+Lo sustituiría: Transitorio si el FCF base pasara a ser ≤ 0 por circulante.
+- fase_a.observaciones.Palancas!C47: [Clase: fundamentada] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: la conciliación no lo pide: V22, V26 y V27 OK (datos_v63 sección 5). V28 solo avisa de fechas separadas (acciones de mayo-2025, precio de nov-2026); las diluidas del T1 FY2027 son 1.484,2 M, −0,1 % (C55): inmaterial. Anoto que Yahoo da 51.407 de capitalización frente a 58.195 (C41) y no lo explico.
+Lo sustituiría: Fechas distintas u Otra si la hoja marcara desviación en Diagnóstico C91:C92.
+- fase_a.lo_que_no_se[0]: Cuota de mercado por región y categoría, y cuál de los competidores del 10-K gana a costa de Nike [10K_2025, PDF p. 8]: no está en los documentos.
+- fase_a.lo_que_no_se[1]: Tamaño y crecimiento del mercado: no está en los documentos (extracto_v63 sección 9).
+- fase_a.lo_que_no_se[2]: Cuánto suben los aranceles el coste de ventas y qué parte se repercute: la empresa no lo cuantifica [10K_2025, PDF p. 33].
+- fase_a.lo_que_no_se[3]: El 10-K de FY2026 y el 10-Q del T1 FY2027 no están en texto/: las cifras de FY2026 que uso vienen de datos_v63.md sección 2, no de páginas que haya podido leer.
+- fase_a.lo_que_no_se[4]: Remuneración del equipo directivo y criterios del bonus (proxy): no está en mis entradas.
+- fase_a.lo_que_no_se[5]: Operaciones de insiders de los últimos 12 meses (Form 4): no están en mis entradas.
+- fase_a.lo_que_no_se[6]: Sell-through de mayoristas y antigüedad del inventario: no encontrados (extracto_v63 sección 9).
+- fase_a.lo_que_no_se[7]: Gasto de I+D: Nike no lo publica [10K_2025, PDF p. 38].
+- fase_a.lo_que_no_se[8]: La explicación de la diferencia entre la capitalización de C41 (58.195) y la de Yahoo (51.407).
+- fase_a.lo_que_no_se[9]: El extracto de la etapa 1 (etapa1/extracto.md) no existe en la carpeta: los hechos del v1 sobre FY2026 que no están en datos_v63.md no los uso.
+- fase_a.que_no_sabria_munger[0]: Si el tirón de una marca de moda deportiva vuelve: el corpus no tiene un caso de marca de calzado que encarga la fabricación a terceros.
+- fase_a.que_no_sabria_munger[1]: China: cuánto margen recupera un segmento que pasó de 51,0 % a 46,0 % de margen bruto [10K_2025, PDF p. 43].
+- fase_a.que_no_sabria_munger[2]: La política arancelaria: es macro y él no la predecía.
+- fase_a.que_no_sabria_munger[3]: Cuál de los once competidores es el que puede hacer más daño.
