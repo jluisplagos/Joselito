@@ -1,0 +1,506 @@
+{
+ "anio": 2021,
+ "archivo": "10K_2021.txt",
+ "fecha_cierre": "2021-05-31",
+ "moneda": "USD",
+ "unidad": "millones",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenues",
+     "impreso": "44,538",
+     "pagina": 135,
+     "linea": "Revenues $ 44,538 $ 37,403 $ 39,117"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenues",
+     "impreso": "37,403",
+     "pagina": 135,
+     "linea": "Revenues $ 44,538 $ 37,403 $ 39,117"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "6,661",
+     "pagina": 135,
+     "linea": "Income before income taxes 6,661 2,887 4,801",
+     "signo": 1
+    },
+    {
+     "concepto": "Interest expense (income), net",
+     "impreso": "262",
+     "pagina": 135,
+     "linea": "Interest expense (income), net 262 89 49",
+     "signo": 1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "2,887",
+     "pagina": 135,
+     "linea": "Income before income taxes 6,661 2,887 4,801",
+     "signo": 1
+    },
+    {
+     "concepto": "Interest expense (income), net",
+     "impreso": "89",
+     "pagina": 135,
+     "linea": "Interest expense (income), net 262 89 49",
+     "signo": 1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado (sin subtotal de resultado de explotación impreso): BAI + Interest expense (income), net; coincide con el EBIT de la compañía (6,923 y 2,976, página 109). 'Other (income) expense, net' (14 y 139; diferencias de cambio y otros) NO se ha sumado porque la compañía lo incluye en su EBIT."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Depreciation",
+     "impreso": "744",
+     "pagina": 138,
+     "linea": "Depreciation 744 721 705"
+    },
+    {
+     "concepto": "Amortization, impairment and other",
+     "impreso": "53",
+     "pagina": 138,
+     "linea": "Amortization, impairment and other 53 398 15"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Depreciation",
+     "impreso": "721",
+     "pagina": 138,
+     "linea": "Depreciation 744 721 705"
+    },
+    {
+     "concepto": "Amortization, impairment and other",
+     "impreso": "398",
+     "pagina": 138,
+     "linea": "Amortization, impairment and other 53 398 15"
+    }
+   ],
+   "cero": null,
+   "nota": "La línea 'Amortization, impairment and other' agrupa amortización, deterioros y otros; no se desglosa."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Net income",
+     "impreso": "5,727",
+     "pagina": 135,
+     "linea": "NET INCOME $ 5,727 $ 2,539 $ 4,029"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income",
+     "impreso": "2,539",
+     "pagina": 135,
+     "linea": "NET INCOME $ 5,727 $ 2,539 $ 4,029"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "934",
+     "pagina": 135,
+     "linea": "Income tax expense 934 348 772"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "348",
+     "pagina": 135,
+     "linea": "Income tax expense 934 348 772"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "6,661",
+     "pagina": 135,
+     "linea": "Income before income taxes 6,661 2,887 4,801"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "2,887",
+     "pagina": 135,
+     "linea": "Income before income taxes 6,661 2,887 4,801"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Cash provided (used) by operations",
+     "impreso": "6,657",
+     "pagina": 138,
+     "linea": "Cash provided (used) by operations 6,657 2,485 5,903"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash provided (used) by operations",
+     "impreso": "2,485",
+     "pagina": 138,
+     "linea": "Cash provided (used) by operations 6,657 2,485 5,903"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Additions to property, plant and equipment",
+     "impreso": "(695)",
+     "pagina": 138,
+     "linea": "Additions to property, plant and equipment (695) (1,086) (1,119)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Additions to property, plant and equipment",
+     "impreso": "(1,086)",
+     "pagina": 138,
+     "linea": "Additions to property, plant and equipment (695) (1,086) (1,119)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El estado de flujos no tiene línea de adquisiciones ni ventas de negocios (solo 'Other investing activities'); Nike no informa de compras de negocios en el ejercicio 2021",
+    "pagina": 138
+   },
+   "nota": "Año anterior: la venta de Hurley (dic. 2019) se declara no material (pág. 171) y va dentro de 'Other investing activities' (31); no se separa. El cero se da solo para el actual."
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "(Increase) decrease in accounts receivable",
+     "impreso": "(1,606)",
+     "pagina": 138,
+     "linea": "(Increase) decrease in accounts receivable (1,606) 1,239 (270)"
+    },
+    {
+     "concepto": "(Increase) decrease in inventories",
+     "impreso": "507",
+     "pagina": 138,
+     "linea": "(Increase) decrease in inventories 507 (1,854) (490)"
+    },
+    {
+     "concepto": "(Increase) decrease in prepaid expenses, ROU assets and other assets",
+     "impreso": "(182)",
+     "pagina": 138,
+     "linea": "other current and non-current assets (182) (654) (203)"
+    },
+    {
+     "concepto": "Increase (decrease) in accounts payable, accrued liabilities and other liabilities",
+     "impreso": "1,326",
+     "pagina": 138,
+     "linea": "and other current and non-current liabilities 1,326 24 1,525"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "(Increase) decrease in accounts receivable",
+     "impreso": "1,239",
+     "pagina": 138,
+     "linea": "(Increase) decrease in accounts receivable (1,606) 1,239 (270)"
+    },
+    {
+     "concepto": "(Increase) decrease in inventories",
+     "impreso": "(1,854)",
+     "pagina": 138,
+     "linea": "(Increase) decrease in inventories 507 (1,854) (490)"
+    },
+    {
+     "concepto": "(Increase) decrease in prepaid expenses, ROU assets and other assets",
+     "impreso": "(654)",
+     "pagina": 138,
+     "linea": "other current and non-current assets (182) (654) (203)"
+    },
+    {
+     "concepto": "Increase (decrease) in accounts payable, accrued liabilities and other liabilities",
+     "impreso": "24",
+     "pagina": 138,
+     "linea": "and other current and non-current liabilities 1,326 24 1,525"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest, net of capitalized interest",
+     "impreso": "293",
+     "pagina": 138,
+     "linea": "Interest, net of capitalized interest $ 293 $ 140 $ 153"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest, net of capitalized interest",
+     "impreso": "140",
+     "pagina": 138,
+     "linea": "Interest, net of capitalized interest $ 293 $ 140 $ 153"
+    }
+   ],
+   "cero": null,
+   "nota": "Intereses pagados netos de intereses capitalizados (información suplementaria); figuran en actividades de explotación."
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los intereses pagados forman parte del flujo de explotación (net income); el estado de flujos de financiación no tiene línea de intereses",
+    "pagina": 138
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "No hay línea de pagos de arrendamientos en financiación: Nike (US GAAP, ASC 842) tiene arrendamientos operativos cuyo pago va en explotación; los financieros no son materiales (pág. 169)",
+    "pagina": 138
+   },
+   "nota": null
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "Stock-based compensation",
+     "impreso": "611",
+     "pagina": 138,
+     "linea": "Stock-based compensation 611 429 325"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Stock-based compensation",
+     "impreso": "429",
+     "pagina": 138,
+     "linea": "Stock-based compensation 611 429 325"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe no cuantifica el gasto de I+D del año: solo dice que los costes de I+D están dentro de 'Operating overhead expense' (pág. 142)."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average common shares outstanding, diluted (millones)",
+     "impreso": "1,609.4",
+     "pagina": 135,
+     "linea": "Diluted 1,609.4 1,591.6 1,618.4"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average common shares outstanding, diluted (millones)",
+     "impreso": "1,591.6",
+     "pagina": 135,
+     "linea": "Diluted 1,609.4 1,591.6 1,618.4"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Total shareholders' equity",
+     "impreso": "12,767",
+     "pagina": 137,
+     "linea": "Total shareholders' equity 12,767 8,055"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Total shareholders' equity",
+     "impreso": "8,055",
+     "pagina": 137,
+     "linea": "Total shareholders' equity 12,767 8,055"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Notes payable",
+     "impreso": "2",
+     "pagina": 137,
+     "linea": "Notes payable 2 248"
+    },
+    {
+     "concepto": "Long-term debt",
+     "impreso": "9,413",
+     "pagina": 137,
+     "linea": "Long-term debt 9,413 9,406"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Current portion of long-term debt",
+     "impreso": "3",
+     "pagina": 137,
+     "linea": "Current portion of long-term debt $ — $ 3"
+    },
+    {
+     "concepto": "Notes payable",
+     "impreso": "248",
+     "pagina": 137,
+     "linea": "Notes payable 2 248"
+    },
+    {
+     "concepto": "Long-term debt",
+     "impreso": "9,406",
+     "pagina": 137,
+     "linea": "Long-term debt 9,413 9,406"
+    }
+   ],
+   "cero": null,
+   "nota": "Actual: porción corriente de deuda a largo plazo = '—' (cero, no se incluye). Arrendamientos financieros no materiales (pág. 169)."
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Current portion of operating lease liabilities",
+     "impreso": "467",
+     "pagina": 137,
+     "linea": "Current portion of operating lease liabilities 467 445"
+    },
+    {
+     "concepto": "Operating lease liabilities (no corriente)",
+     "impreso": "2,931",
+     "pagina": 137,
+     "linea": "Operating lease liabilities 2,931 2,913"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Current portion of operating lease liabilities",
+     "impreso": "445",
+     "pagina": 137,
+     "linea": "Current portion of operating lease liabilities 467 445"
+    },
+    {
+     "concepto": "Operating lease liabilities (no corriente)",
+     "impreso": "2,913",
+     "pagina": 137,
+     "linea": "Operating lease liabilities 2,931 2,913"
+    }
+   ],
+   "cero": null,
+   "nota": "US GAAP ASC 842: se recogen los pasivos por arrendamiento operativo (equivalente a NIIF 16 a efectos de esta partida)."
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and equivalents",
+     "impreso": "9,889",
+     "pagina": 137,
+     "linea": "Cash and equivalents $ 9,889 $ 8,348"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and equivalents",
+     "impreso": "8,348",
+     "pagina": 137,
+     "linea": "Cash and equivalents $ 9,889 $ 8,348"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Short-term investments",
+     "impreso": "3,587",
+     "pagina": 137,
+     "linea": "Short-term investments 3,587 439"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Short-term investments",
+     "impreso": "439",
+     "pagina": 137,
+     "linea": "Short-term investments 3,587 439"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Unfunded pension liabilities (millones)",
+     "impreso": "64",
+     "pagina": 158,
+     "linea": "generally government mandated. The liability related to the unfunded pension liabilities of the plans was $64 million and $79"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Unfunded pension liabilities (millones)",
+     "impreso": "79",
+     "pagina": 158,
+     "linea": "generally government mandated. The liability related to the unfunded pension liabilities of the plans was $64 million and $79"
+    }
+   ],
+   "cero": null,
+   "nota": "Pasivo por pensiones no financiadas; principalmente en 'Deferred income taxes and other liabilities'."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El balance no tiene línea de participaciones no dominantes; el patrimonio total es el de los accionistas",
+    "pagina": 137
+   },
+   "nota": null
+  }
+ }
+}

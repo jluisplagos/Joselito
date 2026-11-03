@@ -1,0 +1,501 @@
+{
+ "anio": 2019,
+ "archivo": "10K_2019.txt",
+ "fecha_cierre": "2019-05-31",
+ "moneda": "USD",
+ "unidad": "millones",
+ "reexpresion": "Ciertas cifras del ejercicio anterior se reclasificaron para ajustarse a la presentacion de 2019 sin efecto en resultados ni patrimonio (pag. 95). ASC 606 adoptado con metodo retrospectivo modificado: periodos anteriores no reexpresados (pag. 124).",
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenues",
+     "impreso": "39,117",
+     "pagina": 118,
+     "linea": "Revenues                                                                                $    39,117 $       36,397 $      34,350"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenues",
+     "impreso": "36,397",
+     "pagina": 118,
+     "linea": "Revenues                                                                                $    39,117 $       36,397 $      34,350"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "4,801",
+     "pagina": 118,
+     "linea": "Income before income taxes                                                                    4,801          4,325         4,886",
+     "signo": 1
+    },
+    {
+     "concepto": "Interest expense (income), net",
+     "impreso": "49",
+     "pagina": 118,
+     "linea": "Interest expense (income), net                                                                      49           54              59",
+     "signo": -1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "4,325",
+     "pagina": 118,
+     "linea": "Income before income taxes                                                                    4,801          4,325         4,886",
+     "signo": 1
+    },
+    {
+     "concepto": "Interest expense (income), net",
+     "impreso": "54",
+     "pagina": 118,
+     "linea": "Interest expense (income), net                                                                      49           54              59",
+     "signo": -1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado: la cuenta de resultados no imprime subtotal de explotacion. EBIT = BAI - Interest expense (income), net. La linea Other (income) expense, net (2019: (78); 2018: 66; principalmente divisas/otros) se ha dejado DENTRO del EBIT por no ser financiera estricta; alternativa: restarla tambien."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Depreciation",
+     "impreso": "705",
+     "pagina": 121,
+     "linea": "Depreciation                                                                                     705        747          706"
+    },
+    {
+     "concepto": "Amortization and other",
+     "impreso": "15",
+     "pagina": 121,
+     "linea": "Amortization and other                                                                            15         27           10"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Depreciation",
+     "impreso": "747",
+     "pagina": 121,
+     "linea": "Depreciation                                                                                     705        747          706"
+    },
+    {
+     "concepto": "Amortization and other",
+     "impreso": "27",
+     "pagina": 121,
+     "linea": "Amortization and other                                                                            15         27           10"
+    }
+   ],
+   "cero": null,
+   "nota": "Amortization and other incluye partidas menores no monetarias."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "NET INCOME",
+     "impreso": "4,029",
+     "pagina": 118,
+     "linea": "NET INCOME                                                                              $     4,029 $        1,933 $       4,240"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "NET INCOME",
+     "impreso": "1,933",
+     "pagina": 118,
+     "linea": "NET INCOME                                                                              $     4,029 $        1,933 $       4,240"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "772",
+     "pagina": 118,
+     "linea": "Income tax expense                                                                                 772       2,392              646"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "2,392",
+     "pagina": 118,
+     "linea": "Income tax expense                                                                                 772       2,392              646"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "4,801",
+     "pagina": 118,
+     "linea": "Income before income taxes                                                                    4,801          4,325         4,886"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income before income taxes",
+     "impreso": "4,325",
+     "pagina": 118,
+     "linea": "Income before income taxes                                                                    4,801          4,325         4,886"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Cash provided by operations",
+     "impreso": "5,903",
+     "pagina": 121,
+     "linea": "Cash provided by operations                                                                   5,903         4,955        3,846"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash provided by operations",
+     "impreso": "4,955",
+     "pagina": 121,
+     "linea": "Cash provided by operations                                                                   5,903         4,955        3,846"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Additions to property, plant and equipment",
+     "impreso": "(1,119)",
+     "pagina": 121,
+     "linea": "Additions to property, plant and equipment                                                  (1,119)        (1,028)     (1,105)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Additions to property, plant and equipment",
+     "impreso": "(1,028)",
+     "pagina": 121,
+     "linea": "Additions to property, plant and equipment                                                  (1,119)        (1,028)     (1,105)"
+    }
+   ],
+   "cero": null,
+   "nota": "No se netean los Disposals of PP&E (5 / 3). No hay compras de intangibles separadas."
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El estado de flujos no tiene linea de adquisiciones/ventas de negocios; solo 'Other investing activities' es '-' en 2019 (25 en 2018, sin detalle de adquisicion).",
+    "pagina": 121
+   },
+   "nota": null
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "(Increase) decrease in accounts receivable",
+     "impreso": "(270)",
+     "pagina": 121,
+     "linea": "(Increase) decrease in accounts receivable                                                   (270)          187         (426)"
+    },
+    {
+     "concepto": "(Increase) decrease in inventories",
+     "impreso": "(490)",
+     "pagina": 121,
+     "linea": "(Increase) decrease in inventories                                                           (490)         (255)        (231)"
+    },
+    {
+     "concepto": "(Increase) decrease in prepaid expenses and other current and non-current assets",
+     "impreso": "(203)",
+     "pagina": 121,
+     "linea": "(Increase) decrease in prepaid expenses and other current and non-current assets             (203)           35         (120)"
+    },
+    {
+     "concepto": "Increase (decrease) in accounts payable, accrued liabilities and other current and non-current liabilities",
+     "impreso": "1,525",
+     "pagina": 121,
+     "linea": "non-current liabilities                                                                     1,525         1,515         (158)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "(Increase) decrease in accounts receivable",
+     "impreso": "187",
+     "pagina": 121,
+     "linea": "(Increase) decrease in accounts receivable                                                   (270)          187         (426)"
+    },
+    {
+     "concepto": "(Increase) decrease in inventories",
+     "impreso": "(255)",
+     "pagina": 121,
+     "linea": "(Increase) decrease in inventories                                                           (490)         (255)        (231)"
+    },
+    {
+     "concepto": "(Increase) decrease in prepaid expenses and other current and non-current assets",
+     "impreso": "35",
+     "pagina": 121,
+     "linea": "(Increase) decrease in prepaid expenses and other current and non-current assets             (203)           35         (120)"
+    },
+    {
+     "concepto": "Increase (decrease) in accounts payable, accrued liabilities and other current and non-current liabilities",
+     "impreso": "1,515",
+     "pagina": 121,
+     "linea": "non-current liabilities                                                                     1,525         1,515         (158)"
+    }
+   ],
+   "cero": null,
+   "nota": "Excluye Deferred income taxes y Net foreign currency adjustments (ajustes no monetarios)."
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest, net of capitalized interest",
+     "impreso": "153",
+     "pagina": 121,
+     "linea": "Interest, net of capitalized interest                                                  $       153 $         125 $            98"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest, net of capitalized interest",
+     "impreso": "125",
+     "pagina": 121,
+     "linea": "Interest, net of capitalized interest                                                  $       153 $         125 $            98"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los intereses pagados figuran en el bloque de explotacion (el estado de flujos arranca de Net income) y no hay linea de intereses en financiacion.",
+    "pagina": 121
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Bajo US GAAP (ASC 840) en 2019 no hay pasivos NIIF 16. Los 'Payments on capital lease and other financing obligations' ((27) en 2019, (23) en 2018, pag. 121) corresponden a capital leases ya incluidos en deuda; no se duplican aqui.",
+    "pagina": 121
+   },
+   "nota": null
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "TOTAL STOCK-BASED COMPENSATION EXPENSE",
+     "impreso": "325",
+     "pagina": 140,
+     "linea": "TOTAL STOCK-BASED COMPENSATION EXPENSE                                                                       $          325 $           218 $           215"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "TOTAL STOCK-BASED COMPENSATION EXPENSE",
+     "impreso": "218",
+     "pagina": 140,
+     "linea": "TOTAL STOCK-BASED COMPENSATION EXPENSE                                                                       $          325 $           218 $           215"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El 10-K no informa el importe de I+D; solo dice que los costes de I+D estan dentro de Operating overhead expense (pag. 126)."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average common shares outstanding: Diluted (millones)",
+     "impreso": "1,618.4",
+     "pagina": 118,
+     "linea": "Diluted                                                                                1,618.4        1,659.1       1,692.0"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average common shares outstanding: Diluted (millones)",
+     "impreso": "1,659.1",
+     "pagina": 118,
+     "linea": "Diluted                                                                                1,618.4        1,659.1       1,692.0"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Total shareholders' equity",
+     "impreso": "9,040",
+     "pagina": 120,
+     "linea": "Total shareholders' equity                                                                                  9,040            9,812"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Total shareholders' equity",
+     "impreso": "9,812",
+     "pagina": 120,
+     "linea": "Total shareholders' equity                                                                                  9,040            9,812"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Current portion of long-term debt",
+     "impreso": "6",
+     "pagina": 120,
+     "linea": "Current portion of long-term debt                                                               $             6 $              6"
+    },
+    {
+     "concepto": "Notes payable",
+     "impreso": "9",
+     "pagina": 120,
+     "linea": "Notes payable                                                                                                 9              336"
+    },
+    {
+     "concepto": "Long-term debt",
+     "impreso": "3,464",
+     "pagina": 120,
+     "linea": "Long-term debt                                                                                         3,464            3,468"
+    },
+    {
+     "concepto": "Capital lease obligations (selected financial data)",
+     "impreso": "60",
+     "pagina": 90,
+     "linea": "Capital lease obligations                                                                   60             75            27            15                5"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Current portion of long-term debt",
+     "impreso": "6",
+     "pagina": 120,
+     "linea": "Current portion of long-term debt                                                               $             6 $              6"
+    },
+    {
+     "concepto": "Notes payable",
+     "impreso": "336",
+     "pagina": 120,
+     "linea": "Notes payable                                                                                                 9              336"
+    },
+    {
+     "concepto": "Long-term debt",
+     "impreso": "3,468",
+     "pagina": 120,
+     "linea": "Long-term debt                                                                                         3,464            3,468"
+    },
+    {
+     "concepto": "Capital lease obligations (selected financial data)",
+     "impreso": "75",
+     "pagina": 90,
+     "linea": "Capital lease obligations                                                                   60             75            27            15                5"
+    }
+   ],
+   "cero": null,
+   "nota": "Capital lease obligations (build-to-suit y otros financing obligations; no NIIF 16) solo figuran en la tabla de datos seleccionados (pag. 90), no en el balance; se incluyen como deuda por ser leasings financieros. Podrian estar parcialmente ya en otras lineas del balance (Accrued liabilities / Deferred income taxes and other liabilities)."
+  },
+  "arrendamientos": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Nike aplica ASC 840 en el ejercicio 2019 (US GAAP, mayo 2019): los arrendamientos operativos no estan en balance; el balance no tiene linea de pasivo por arrendamiento.",
+    "pagina": 120
+   },
+   "nota": null
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and equivalents",
+     "impreso": "4,466",
+     "pagina": 120,
+     "linea": "Cash and equivalents                                                                            $      4,466 $          4,249"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and equivalents",
+     "impreso": "4,249",
+     "pagina": 120,
+     "linea": "Cash and equivalents                                                                            $      4,466 $          4,249"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Short-term investments",
+     "impreso": "197",
+     "pagina": 120,
+     "linea": "Short-term investments                                                                                      197              996"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Short-term investments",
+     "impreso": "996",
+     "pagina": 120,
+     "linea": "Short-term investments                                                                                      197              996"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Unfunded pension liabilities 2019",
+     "impreso": "73",
+     "pagina": 142,
+     "linea": "are generally government mandated. The liability related to the unfunded pension liabilities of the plans was $73 million and $70"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Unfunded pension liabilities 2018",
+     "impreso": "70",
+     "pagina": 142,
+     "linea": "are generally government mandated. The liability related to the unfunded pension liabilities of the plans was $73 million and $70"
+    }
+   ],
+   "cero": null,
+   "nota": "Texto: 'was $73 million and $70 million at May 31, 2019 and 2018' (la cifra 70 esta en la linea siguiente del texto; se cita la misma linea)."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El balance no tiene linea de participaciones no dominantes; el patrimonio es solo el total shareholders' equity.",
+    "pagina": 120
+   },
+   "nota": null
+  }
+ }
+}

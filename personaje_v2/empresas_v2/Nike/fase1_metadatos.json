@@ -1,0 +1,34 @@
+{
+ "empresa": "NIKE, Inc.",
+ "ticker": "NKE",
+ "fecha_analisis": "2026-11-03",
+ "sector_texto": "Diseño, marketing y venta de calzado, ropa y equipamiento deportivo (marcas NIKE, Jordan y Converse)",
+ "moneda_modelo": "USD",
+ "norma_contable": "US GAAP",
+ "cierre_fiscal": "mayo",
+ "mercado": "NYSE",
+ "ratio_adr": null,
+ "sector_damodaran": "Shoe",
+ "precio": {"valor": 39.12, "moneda_cotizacion": "USD", "fecha": "2026-11-02", "fx": null, "fx_fecha": null,
+  "fuente": "Yahoo Finance (finance.yahoo.com/quote/NKE), cierre NYSE 4:00 PM EST del 2026-11-02: 39.12 USD (+1,16%); otra fuente mostraba 38.78 USD intradía el 2026-11-03 (rango del día 38.70-39.57, sesión sin cerrar); Finbold citaba ~37 USD el 2026-10-20"},
+ "acciones_diluidas": {"valor": 1487.6, "fecha": "2025-05-31", "fuente": "10-K ejercicio 2025 (FY cerrado 31-05-2025), Nota 10 Earnings per share: media ponderada de acciones diluidas", "pagina": 80},
+ "capitalizacion": {"valor": 58195, "fecha": "2026-11-02", "fuente": "Precio 39.12 USD x 1.487,6 M acciones diluidas del 10-K 2025; una fuente web daba ~58.110 M USD el 2026-11-03"},
+ "tasa_sin_riesgo": {"valor": 0.0494, "fuente": "Rendimiento Treasury EE.UU. a 10 años, 4,94% al cierre del 2026-10-30 (Forbes Advisor, Treasury Rates; coincide con StockMarketWatch/datos par yield del Tesoro). Rango visto en octubre 2026: 4,95%-5,36%; no se halló el dato del 2026-11-02/03"},
+ "geografia": [
+  {"pais": "United States", "pct": 0.4259, "nota": "Ingresos EE.UU. 19.725 M de 46.309 M (10-K 2025, Nota 15, pág. PDF 89); origen de la venta, incluye NIKE Brand y Converse"},
+  {"pais": "Región · Western Europe", "pct": 0.2647, "nota": "Segmento EMEA 12.257 M (Europa, Oriente Medio y África); se asigna a Europa Occidental por ser lo más parecido (convención del ejercicio)"},
+  {"pais": "China", "pct": 0.1422, "nota": "Segmento Greater China 6.586 M (incluye Hong Kong y Taiwán)"},
+  {"pais": "Región · Asia", "pct": 0.1350, "nota": "Segmento APLA (Asia Pacífico y Latinoamérica) 6.251 M; incluye Latinoamérica, que no se puede separar; se asigna a Asia (convención del ejercicio)"},
+  {"pais": "Región · North America", "pct": 0.0322, "nota": "Residuo 1.490 M = total 46.309 menos EE.UU. 19.725, EMEA, China y APLA: principalmente Canadá y otros ingresos de Converse, Global Brand Divisions y Corporate fuera de EE.UU.; aproximación"}
+ ],
+ "geografia_fuente": {"fuente": "10-K ejercicio 2025, Nota 15 (segmentos y ingresos por área geográfica) y tabla de segmentos año 2025", "pagina": 89},
+ "convenciones": {"caja_incluye_otros_activos_financieros": true, "motivo_caja": "Además de caja y equivalentes (7.464 M USD) mantiene inversiones a corto plazo líquidas (1.687 M USD, ~18% de la liquidez de 9.151 M) a 31-05-2025 (balance, pág. PDF 61); vencimiento medio de 96 días"},
+ "anios_fcf_base": 3,
+ "_notas": [
+  "Acciones diluidas: es la media ponderada del FY2025 (1.487,6 M); no se halló un recuento posterior de acciones en circulación en el 10-K ni en la web.",
+  "Precio: sin acceso a Yahoo/Investing/Treasury directamente (hosts bloqueados); datos tomados de resultados de búsqueda web que citan Yahoo Finance y Forbes. Cierre del 2026-11-02, no del 2026-11-03.",
+  "Tasa sin riesgo: último dato hallado 4,94% a 2026-10-30; el 10 años EE.UU. es muy volátil en octubre 2026 (máx. 5,36% el 7-oct).",
+  "Geografía: Nike no publica reparto por países salvo EE.UU.; las regiones se asignaron por convención y 3,2% es un residuo asignado a Región · North America.",
+  "Sector: 'Shoe' en Damodaran; Nike también vende ropa, pero el calzado es ~2/3 de ingresos."
+ ]
+}
