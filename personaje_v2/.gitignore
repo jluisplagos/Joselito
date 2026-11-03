@@ -1,0 +1,13 @@
+# personaje_v2 · lo que no debe ir al repositorio
+__pycache__/
+*.pyc
+.lo_perfil/
+# copias recalculadas por LibreOffice (pierden controles: nunca son entregables) y temporales de escritura
+recalc/
+**/recalc/
+*.tmp.xlsx
+con_cache.tmp.xlsx
+# carpetas de empresas reales: decide José Luis qué se sube (S-4); por defecto solo los entregables
+empresas_v2/*/texto/
+empresas_v2/*/pdf/
+corpus/pdf/

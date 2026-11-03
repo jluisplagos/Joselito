@@ -1,0 +1,22 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Envases de vidrio para alimentación y bebidas (materiales / packaging)",
+   "nuevo": "Fabricación y venta de envases de vidrio (botellas y tarros) para bebidas y alimentación, con plantas en España, Portugal, Reino Unido, Irlanda y Brasil"
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 446
+}

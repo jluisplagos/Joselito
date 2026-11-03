@@ -1,0 +1,346 @@
+{
+ "anio": 2024,
+ "fecha_cierre": "2024-12-31",
+ "moneda": "EUR",
+ "unidad": "kEUR (thousands of euros)",
+ "reexpresion": "Sí: cifras 2023 y balance 1 Jan 2023 reexpresados retroactivamente según IAS 8 por activos por impuestos diferidos (Suiza); beneficio 2023 213,968 (reportado 18.98 EUR/acción vs 18.82 reexpresado); el estado de flujos no se reexpresó (sin efecto en caja).",
+ "partidas": {
+  "ventas": {
+   "actual": {
+    "impreso": "1,193,529",
+    "pagina": 19,
+    "linea": "Sales revenues                                                                                                    1            1,193,529              1,125,838"
+   },
+   "anterior": {
+    "impreso": "1,125,838",
+    "pagina": 19,
+    "linea": "Sales revenues                                                                                                    1            1,193,529              1,125,838"
+   },
+   "nota": null
+  },
+  "ebit": {
+   "actual": {
+    "impreso": "314,198",
+    "pagina": 19,
+    "linea": "Earnings before financial result and taxes (EBIT)                                                                                314,198                277,001"
+   },
+   "anterior": {
+    "impreso": "277,001",
+    "pagina": 19,
+    "linea": "Earnings before financial result and taxes (EBIT)                                                                                314,198                277,001"
+   },
+   "nota": null
+  },
+  "da": {
+   "actual": {
+    "impreso": "37,394",
+    "pagina": 20,
+    "linea": "Depreciation and amortisation                                                   8, 9, 22     37,394     32,619"
+   },
+   "anterior": {
+    "impreso": "32,619",
+    "pagina": 20,
+    "linea": "Depreciation and amortisation                                                   8, 9, 22     37,394     32,619"
+   },
+   "nota": null
+  },
+  "beneficio_neto": {
+   "actual": {
+    "impreso": "250,530",
+    "pagina": 19,
+    "linea": "Profit or loss after taxes                                                                                                       250,530                213,968"
+   },
+   "anterior": {
+    "impreso": "213,968",
+    "pagina": 19,
+    "linea": "Profit or loss after taxes                                                                                                       250,530                213,968"
+   },
+   "nota": "No hay desglose accionistas/minoritarios; se toma Profit or loss after taxes (sin minoritarios en el balance). 2023 reexpresado (IAS 8)."
+  },
+  "impuestos": {
+   "actual": {
+    "impreso": "–75,386",
+    "pagina": 19,
+    "linea": "Income taxes                                                                                                      5              –75,386                –70,068"
+   },
+   "anterior": {
+    "impreso": "–70,068",
+    "pagina": 19,
+    "linea": "Income taxes                                                                                                      5              –75,386                –70,068"
+   },
+   "nota": null
+  },
+  "bai": {
+   "actual": {
+    "impreso": "325,916",
+    "pagina": 19,
+    "linea": "Earnings before taxes (EBT)                                                                                                      325,916                284,036"
+   },
+   "anterior": {
+    "impreso": "284,036",
+    "pagina": 19,
+    "linea": "Earnings before taxes (EBT)                                                                                                      325,916                284,036"
+   },
+   "nota": null
+  },
+  "cfo": {
+   "actual": {
+    "impreso": "283,064",
+    "pagina": 20,
+    "linea": "Cash flow from operating activities                                                  20    283,064    258,345"
+   },
+   "anterior": {
+    "impreso": "258,345",
+    "pagina": 20,
+    "linea": "Cash flow from operating activities                                                  20    283,064    258,345"
+   },
+   "nota": null
+  },
+  "capex": {
+   "actual": {
+    "impreso": "–31,618",
+    "pagina": 20,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment         8, 9    –31,618    –34,632"
+   },
+   "anterior": {
+    "impreso": "–34,632",
+    "pagina": 20,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment         8, 9    –31,618    –34,632"
+   },
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea (no hay pagos/cobros por compra o venta de negocios en el estado de flujos)"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories",
+     "impreso": "–482",
+     "pagina": 20,
+     "linea": "Inventories                                                                       10       –482      12,106"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "–23,625",
+     "pagina": 20,
+     "linea": "Trade accounts receivable and other assets                                 11, 12, 13    –23,625     –5,207"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "6,217",
+     "pagina": 20,
+     "linea": "Provisions                                                                        17       6,217      –395"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "18,481",
+     "pagina": 20,
+     "linea": "Trade accounts payable and other liabilities                                  18, 19      18,481     10,356"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories",
+     "impreso": "12,106",
+     "pagina": 20,
+     "linea": "Inventories                                                                       10       –482      12,106"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "–5,207",
+     "pagina": 20,
+     "linea": "Trade accounts receivable and other assets                                 11, 12, 13    –23,625     –5,207"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "–395",
+     "pagina": 20,
+     "linea": "Provisions                                                                        17       6,217      –395"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "10,356",
+     "pagina": 20,
+     "linea": "Trade accounts payable and other liabilities                                  18, 19      18,481     10,356"
+    }
+   ],
+   "nota": "Estado de flujos 'Changes in' (sin línea de 'Other assets/liabilities' separada: van con receivables/payables)."
+  },
+  "intereses": {
+   "actual": {
+    "impreso": "–1,389",
+    "pagina": 20,
+    "linea": "Interest paid                                                                                –1,389     –1,163"
+   },
+   "anterior": {
+    "impreso": "–1,163",
+    "pagina": 20,
+    "linea": "Interest paid                                                                                –1,389     –1,163"
+   },
+   "nota": "Intereses pagados figuran en actividades de financiación; intereses cobrados (11,066) en inversión."
+  },
+  "intereses_financiacion": {
+   "actual": {
+    "impreso": "–1,389",
+    "pagina": 20,
+    "linea": "Interest paid                                                                                –1,389     –1,163"
+   },
+   "anterior": {
+    "impreso": "–1,163",
+    "pagina": 20,
+    "linea": "Interest paid                                                                                –1,389     –1,163"
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": {
+    "impreso": "–11,277",
+    "pagina": 20,
+    "linea": "Payments for lease liabilities                                                              –11,277     –9,954"
+   },
+   "anterior": {
+    "impreso": "–9,954",
+    "pagina": 20,
+    "linea": "Payments for lease liabilities                                                              –11,277     –9,954"
+   },
+   "nota": null
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "nota": "Sin gasto reconocido: nota 27 (p.39) dice 'There was no share-based payment agreement in 2024'; plan de opciones de 2000 con tramos liquidados en efectivo en 2002 y 2006."
+  },
+  "id": {
+   "actual": {
+    "impreso": "66,986",
+    "pagina": 28,
+    "linea": "66,986 thousand euros in fiscal year 2024 (2023: 59,449"
+   },
+   "anterior": {
+    "impreso": "59,449",
+    "pagina": 28,
+    "linea": "66,986 thousand euros in fiscal year 2024 (2023: 59,449"
+   },
+   "nota": "Elegido el total de costes de I+D incl. capitalizados (nota 8). Alternativa: gasto I+D en cuenta de resultados 65,959 (2023: 52,594), p.19."
+  },
+  "acciones_diluidas": {
+   "actual": {
+    "impreso": "11,370,000",
+    "pagina": 19,
+    "linea": "Average number of shares (undiluted/diluted)                                                                                  11,370,000             11,370,000"
+   },
+   "anterior": {
+    "impreso": "11,370,000",
+    "pagina": 19,
+    "linea": "Average number of shares (undiluted/diluted)                                                                                  11,370,000             11,370,000"
+   },
+   "nota": null
+  },
+  "patrimonio": {
+   "actual": {
+    "impreso": "856,902",
+    "pagina": 19,
+    "linea": "Equity                                                                                                    856,902                 760,789"
+   },
+   "anterior": {
+    "impreso": "760,789",
+    "pagina": 19,
+    "linea": "Equity                                                                                                    856,902                 760,789"
+   },
+   "nota": "Equity total del balance; no hay minoritarios. 2023 reexpresado."
+  },
+  "deuda": {
+   "actual": {
+    "impreso": "–",
+    "pagina": 19,
+    "linea": "Financial debt                                                                                                    –"
+   },
+   "anterior": {
+    "impreso": "–",
+    "pagina": 19,
+    "linea": "Financial debt                                                                                                    –"
+   },
+   "nota": "Balance: Financial debt corriente '–' en 2024 y 2023 (944 en 1 Jan 2023); sin deuda financiera no corriente. Equivale a 0."
+  },
+  "arrendamientos": {
+   "actual": null,
+   "anterior": null,
+   "componentes_actual": [
+    {
+     "concepto": "Lease liabilities corriente",
+     "impreso": "9,412",
+     "pagina": 33,
+     "linea": "Lease liabilities                                                      9,412             8,497        20,385              19,581"
+    },
+    {
+     "concepto": "Lease liabilities no corriente",
+     "impreso": "20,385",
+     "pagina": 33,
+     "linea": "Lease liabilities                                                      9,412             8,497        20,385              19,581"
+    }
+   ],
+   "componentes_anterior": [
+    {
+     "concepto": "Lease liabilities corriente",
+     "impreso": "8,497",
+     "pagina": 33,
+     "linea": "Lease liabilities                                                      9,412             8,497        20,385              19,581"
+    },
+    {
+     "concepto": "Lease liabilities no corriente",
+     "impreso": "19,581",
+     "pagina": 33,
+     "linea": "Lease liabilities                                                      9,412             8,497        20,385              19,581"
+    }
+   ],
+   "nota": "No hay total impreso; suma corriente+no corriente (nota 18). 2024: 9,412+20,385; 2023: 8,497+19,581."
+  },
+  "caja": {
+   "actual": {
+    "impreso": "152,528",
+    "pagina": 19,
+    "linea": "Cash and cash equivalents                                                                 14               152,528                137,962"
+   },
+   "anterior": {
+    "impreso": "137,962",
+    "pagina": 19,
+    "linea": "Cash and cash equivalents                                                                 14               152,528                137,962"
+   },
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": {
+    "impreso": "348,870",
+    "pagina": 30,
+    "linea": "Deposits incl. interest receivable                                     348,870                264,707"
+   },
+   "anterior": {
+    "impreso": "264,707",
+    "pagina": 30,
+    "linea": "Deposits incl. interest receivable                                     348,870                264,707"
+   },
+   "nota": "Depósitos a plazo corrientes (nota 12). Other financial assets corrientes totales del balance: 350,002 (2023: 267,634), incluye derivados 551 y otros 581."
+  },
+  "pensiones": {
+   "actual": {
+    "impreso": "5,970",
+    "pagina": 19,
+    "linea": "Pension and similar obligations                                                           16                  5,970                 5,100"
+   },
+   "anterior": {
+    "impreso": "5,100",
+    "pagina": 19,
+    "linea": "Pension and similar obligations                                                           16                  5,970                 5,100"
+   },
+   "nota": null
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea de Non-controlling interests en el balance."
+  }
+ }
+}

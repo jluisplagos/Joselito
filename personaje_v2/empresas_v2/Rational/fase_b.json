@@ -1,0 +1,370 @@
+{
+ "motor": "A",
+ "palancas": {
+  "crecimiento_1_5": {
+   "MALO": {
+    "referencia_mecanica": -0.005,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.01,
+    "desviacion": 0.015,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia (−0,005) resta al CAGR de 5 años una σ de 0,145 inflada por 2020–2022; no describe esta historia. Mi MALO es el volumen de 2023–2024 (0 % y +3 %) sin precio y con el euro restando: unidades ≈ +1,5 %, precio y mezcla ≈ 0 o negativos (el cliente compra más barato; combi de Suzhou), divisa −0,5 a −1 punto; la posventa (31 %) sobre la base instalada sostiene ≈ +1 punto. Sale ≈ +1 %; rango 0–0,02. Es peor que cualquier quinquenio de la Historia, también el que contiene 2020 (2016–2021: +4,9 % anual).",
+    "apoyo": "Volumen 0 % en 2023 y +3 % en 2024 (extracto AR23 p. 22; AR24 p. 12); China −29 % en 2025 (extracto AR25 p. 15); ventas 2025 +6 % frente a +8 % a tipo constante (extracto AR25 p. 15); posventa 31 % (extracto AR25 p. 10); Historia fila 28.",
+    "lo_sustituiria": "0 si la posventa deja de crecer o el precio medio cae por la mezcla de Suzhou; 0,02 si 2026 da volumen de +5 % o más sin China."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.14,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.06,
+    "desviacion": -0.08,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es el CAGR de 5 años (C46 = 14,2 %), medido desde la base de 2020 (−23 %): es recuperación, no ritmo repetible. Por componentes: volumen de 2022–2025 (+12, 0, +3, +6) ≈ +5 %, precio ≈ +1 % (política de no subir salvo EE. UU. por aranceles), divisa neutra en media: ≈ 6 %; rango 0,045–0,07. Cuadra con 2024–2025 (+6,0 % y +5,5 %, Historia fila 28) y con el CAGR 2019–2025 (6,9 %). La guía de la dirección dice algo parecido; no la uso como fuente.",
+    "apoyo": "Historia C46 = 0,142 y C45 = 0,072; Historia fila 28 (2024 +6,0 %, 2025 +5,5 %); volumen (extracto AR23 p. 22; AR24 p. 12; AR25 p. 19); política de precios (extracto AR23 p. 14). El crecimiento histórico predice mal (GV, E4).",
+    "lo_sustituiria": "0,07 si 2026–2027 dan volumen de +6 % o más sin subida general; 0,045 si el volumen vuelve al 0–3 %."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.16,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.1,
+    "desviacion": -0.06,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia es el Q3 del sector (0,161), que acota una σ inflada por 2020–2022. Mi BUENO repite 2016–2019: ventas +11,2 % anual con precios casi quietos (Historia fila 28), ahora sobre una base doble, con el iVario a doble dígito y el combi de Suzhou abriendo Asia. Por componentes: volumen ≈ +8 %, mezcla iVario y posventa ≈ +1, precio ≈ +1 → ≈ 10 %; rango 0,08–0,12. No llego al 16 %: con cuota ~50 % y una penetración que la empresa estima quieta en ~25 % desde 2019, el crecimiento alto decae con el tamaño (GV, E4).",
+    "apoyo": "Historia fila 28 (2016–2019); iVario de 47 a 151 mm (extracto AR25 p. 187); Suzhou (extracto AR25 p. 13); Norteamérica +13 % (extracto AR25 p. 15); cuota ~50 % (extracto AR25 p. 4); penetración ~25 % (extracto AR19 p. 3; AR25 p. 4).",
+    "lo_sustituiria": "0,12 si Suzhou y el iVario crecen a doble dígito dos años seguidos; 0,08 si Suzhou canibaliza al iCombi."
+   }
+  },
+  "margen_objetivo": {
+   "MALO": {
+    "referencia_mecanica": 0.245,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.225,
+    "desviacion": -0.02,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es la media de la década (24,4 %), que no lleva arancel ni euro fuerte. Mi MALO es apalancamiento operativo al revés: costes operativos del 32,7 % de las ventas (411,3 de 1.259,6 mm) que crecen ≈ 3 % al año frente a ventas +1 % suben a ≈ 36 % en cinco años; con el margen bruto un punto abajo por aranceles (≈ 58 %), el EBIT queda ≈ 22 %. Elijo 0,225, entre 2021 (20,5 %) y 2022 (23,2 %); rango 0,20–0,24. Nadie se queda la mejora: la pérdida la absorbe la empresa y el cliente compra más barato.",
+    "apoyo": "Historia fila 29 (16,4 % en 2020; 20,5–23,2 % en 2021–2022); costes 411,3 mm, ventas y servicio 281,7 (extracto AR25 p. 16); margen bruto T3 2025 58,1 % por aranceles y fábrica solo en Europa (extracto AR25 p. 16; AR25 p. 22); 53 % de ventas en divisa (extracto AR25 p. 15).",
+    "lo_sustituiria": "0,20 si el margen bruto queda bajo el 57 % dos años; 0,24 si la posventa sostiene el margen en un año de volumen plano."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.265,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.26,
+    "desviacion": -0.005,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es el último año (26,4 %, C48). Lo dejo en 0,26, el 26 % de los años normales de la historia de la fase A: el arancel de EE. UU. sobre un fabricante solo europeo (Norteamérica 24 % de las ventas) ya bajó el margen bruto en el T3 2025, y la subida del 4–5 % en EE. UU. es guía, no hecho; la cuento a medias. La eficiencia compensa costes como en 2024–2025 (26,3 % y 26,4 %). Rango 0,245–0,27. La empresa conserva su margen; el cliente se queda la mejora del producto.",
+    "apoyo": "Historia C48 = 0,264 y fila 29; margen 2025 a tipo constante 27,4 % (extracto AR25 p. 16); T3 2025 58,1 % por aranceles (extracto AR25 p. 16); fábrica solo en Europa (extracto AR25 p. 22); Norteamérica 24 % (extracto AR25 p. 117); política de precios (extracto AR23 p. 14).",
+    "lo_sustituiria": "0,245 si el margen sin extraordinarios queda en ~24 % en 2026–2027; 0,265 si el arancel se compensa entero con precio sin perder volumen."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.265,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.27,
+    "desviacion": 0.005,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es el último año, porque el Q3 del sector (12,5 %) queda por debajo. Mi BUENO es escala sobre una red pagada: más volumen diluye los 281,7 mm de venta y servicio. La Historia lo acota: con ventas al +11 % (2016–2019) el margen fue 26,4–27,2 %, no más; el combi de Suzhou, más barato, resta por mezcla y la empresa no sube precios. 0,27 queda bajo el máximo (C51 = 27,2 %); rango 0,265–0,28. La empresa retiene solo parte de la escala; el resto va al cliente.",
+    "apoyo": "Historia C51 = 0,272 y fila 29 (2016–2019); margen 2025 a tipo constante 27,4 % (extracto AR25 p. 16); costes de venta y servicio 281,7 mm (extracto AR25 p. 16); Suzhou (extracto AR25 p. 13).",
+    "lo_sustituiria": "0,28 si el margen a tipo constante pasa del 27,5 % con Suzhou ya vendiendo; 0,265 si Suzhou rebaja el margen bruto."
+   }
+  },
+  "s2c": {
+   "MALO": {
+    "referencia_mecanica": 3.0,
+    "referencia_no_disponible_motivo": null,
+    "valor": 2.0,
+    "desviacion": -1.0,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia es 0,75 × 4,0. En el MALO la inversión comprometida no depende del volumen: capex 2026 de ≈ 40 mm con 33,5 ya contratados y el centro de Landsberg de ≈ 60 mm. Repartida sobre pocas ventas nuevas (≈ +64 mm en cinco años al +1 %), y sumado el circulante del 22 % de las ventas, da ≈ 1,5–2,5 € de ventas por euro reinvertido. Elijo 2,0. Rentabilidad marginal 2,0 × 0,225 × (1 − 0,235) ≈ 0,34. El importe absoluto es pequeño, porque crece poco.",
+    "apoyo": "Circulante 283 mm, 22 % de las ventas (extracto AR25 p. 187); capex 2026 y compromisos (extracto AR25 p. 18); Landsberg ≈ 60 mm (extracto AR25 p. 13); Historia C53 = 9,03.",
+    "lo_sustituiria": "3,0 si en el MALO la empresa aplaza Landsberg o reduce circulante; 1,5 si DSO y existencias siguen subiendo con ventas planas."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 4.0,
+    "referencia_no_disponible_motivo": null,
+    "valor": 3.5,
+    "desviacion": -0.5,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia no es el S2C histórico (C53 = 9,0) sino el tope del 2 × ROIC: 9,0 se mide sobre 2020–2025 y recoge la recuperación sin capital nuevo (aviso de la fase A). En la década 2016–2025 cada euro de reinversión neta trajo 3,6 € de ventas (646,5 / 178,7 mm, Historia filas de ventas y de reinversión neta), y el circulante del 22 % de las ventas pone un techo de ≈ 4,5 aunque el capex neto fuese cero. Elijo 3,5; rango 3,0–4,0. Rentabilidad marginal ≈ 0,70.",
+    "apoyo": "Historia C53 = 9,03 y C54 = 2,99; reinversión neta 2017–2025 = 178,7 mm para +646,5 mm de ventas (Historia); circulante 22 % (extracto AR25 p. 187); capex 2026 ≈ 40 mm (extracto AR25 p. 18) frente a amortización de 37,0 mm en 2025 (Historia).",
+    "lo_sustituiria": "4,0 si el circulante baja hacia el 20 % de las ventas; 3,0 si Landsberg y Suzhou piden más capex del previsto."
+   },
+   "BUENO": {
+    "referencia_mecanica": 4.0,
+    "referencia_no_disponible_motivo": null,
+    "valor": 3.9,
+    "desviacion": -0.1,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "Con más ventas nuevas la inversión fija ya hecha (Suzhou, Wittenheim, Landsberg) pesa menos por euro y me acerco al techo del circulante (≈ 4,5): al +10 % (≈ +770 mm en cinco años) con un 22 % de circulante y ≈ 30 mm de capex neto salen ≈ 3,9. Con 4,0 y margen 0,27 la rentabilidad marginal (0,83) pasaría de 2 × C55 (0,81) sin un hecho que diga que cada euro nuevo rinde más del doble que la historia; con 3,9 queda en 0,81. En contra: en 2016–2019, el periodo que copia el BUENO, el S2C fue 2,1; el BUENO es generoso en reinversión y lo digo.",
+    "apoyo": "Historia C55 = 0,407; reinversión neta 2017–2019 de 111,9 mm para +230,6 mm de ventas (Historia); circulante 22 % (extracto AR25 p. 187); Suzhou, Wittenheim y Landsberg (extracto AR25 p. 13).",
+    "lo_sustituiria": "3,0 si crecer al 10 % exige otra fábrica o más circulante, como en 2016–2019."
+   }
+  },
+  "g_perpetuo": {
+   "MALO": {
+    "referencia_mecanica": 0.015,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.015,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Referencia: NORMAL − 0,01. La mantengo: tras el frenazo queda la reposición de la base instalada y la posventa (31 % de las ventas), que crecen cerca de la inflación. No la bajo a 0,01: el MALO ya pone crecimiento, margen y S2C bajos y no castigo el mismo frenazo otra vez (PA, E6). Reinvierte g ÷ ROIC = 0,015 / 0,12 ≈ 13 % del NOPAT terminal.",
+    "apoyo": "Posventa 31 % y +5 % en 2025 (extracto AR25 p. 10; AR25 p. 15); tasa sin riesgo C57 = 0,0329; tasa del motor C56 = 0,09.",
+    "lo_sustituiria": "0,01 si el MALO pasa a ser pérdida de cuota frente a un competidor con nombre."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.025,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.025,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Referencia mín(0,025; rf = 0,0329). La mantengo: queda por debajo de rf (CV, E1) y de r = 0,09. Con ROIC 0,18 reinvierte g ÷ ROIC ≈ 14 % del NOPAT, y hay dónde: la empresa estima que solo ~25 % de 4,8 millones de cocinas usa combi. «If a thing can't go on forever, it will eventually stop» (PCA p.416; HIM).",
+    "apoyo": "Tasa sin riesgo C57 = 0,0329; clientes potenciales y penetración (extracto AR25 p. 4); capex 33,7 mm frente a amortización 37,0 mm en 2025 (Historia).",
+    "lo_sustituiria": "0,02 si el volumen se estanca varios años; nunca por encima de rf sin una cifra del crecimiento nominal de sus mercados."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.03,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.03,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Referencia mín(0,025 + 0,005; rf; 0,03) = 0,03, techo de la lista y por debajo de rf (0,0329). La mantengo: en el BUENO la ventaja dura más, pero no paso del techo. Reinvierte 0,03 / 0,22 ≈ 14 % del NOPAT. «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).",
+    "apoyo": "Tasa sin riesgo C57 = 0,0329; tasa del motor C56 = 0,09; iVario con 1,6 millones de clientes potenciales (extracto AR25 p. 22).",
+    "lo_sustituiria": "0,025 si el BUENO se apoya en precio y no en volumen."
+   }
+  },
+  "roic_lp": {
+   "MALO": {
+    "referencia_mecanica": 0.09,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.12,
+    "desviacion": 0.03,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia iguala ROIC y r: el foso desaparece del todo. En el MALO el foso se erosiona (viento frenado, competidor sin nombre que fuerza precio), pero no lo hago peor que la maquinaria media: lo llevo a la media del ROIC del sector (H18 = 0,118 → 0,12), que E2 admite como destino junto al coste de capital (CV, E2). Su peor año de la década, 2020 con ventas −23 %, dio 0,22 con I+D capitalizada. Salto del año 11: la rentabilidad marginal (≈ 0,34) cae a 0,12; es mi hipótesis de pérdida de ventaja.",
+    "apoyo": "Palancas H18 = 0,118; Historia serie roic_con_id (mínimo 0,225 en 2020) y C55 = 0,407; sin deuda bancaria desde 2023 (extracto AR25 p. 17).",
+    "lo_sustituiria": "0,09 si un competidor con nombre iguala la tecnología a menor precio; 0,15 si la posventa sostiene el retorno en un año de volumen plano."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.09,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.18,
+    "desviacion": 0.09,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "C18 = Sí. Supongo que en el año 11 el foso conserva parte de su exceso: 0,18, por debajo del peor año de la década (0,22 en 2020, con I+D capitalizada) y por encima de la media del sector (0,118); rango 0,12–0,22. No uso el 0,41 medio (C55): «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM). La hoja marcará el salto del año 11 (≈ 0,70 → 0,18): es mi hipótesis de erosión. Nota para la fase C: la fase A escribe «ROIC medio 54 % (C55)»; C55 es 0,407 con I+D capitalizada y el 54 % es la serie roic sin I+D.",
+    "apoyo": "Historia C55 = 0,407 y serie roic_con_id (0,22–0,85; 0,225 en 2020); Palancas H18 = 0,118; ROCE publicado 20–45 % en 2016–2025 (extracto AR25 p. 187); cuota ~50 % en 2016–2025 (extracto AR16 p. 3; AR25 p. 4).",
+    "lo_sustituiria": "0,22 si el margen bruto se mantiene en 59 % con Suzhou vendiendo; 0,12 si el ROCE publicado baja del 30 % dos años sin choque externo."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.19,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.22,
+    "desviacion": 0.03,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia es C56 + 0,10 (umbral de la plantilla). Subo a 0,22: en el BUENO el retorno perpetuo no baja del peor año de la década (2020: 0,22 con I+D capitalizada y ventas −23 %). Lo sostienen la posventa sobre la base instalada (31 %), una cuota ~50 % durante diez años y un margen bruto del 55–62 %. Supone que la ventaja dura al menos otros diez años después del año 10; es la desviación G4, justificada. Rango 0,19–0,30. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).",
+    "apoyo": "Historia serie roic_con_id (mínimo 0,225 en 2020) y C55 = 0,407; posventa 31 % (extracto AR25 p. 10); cuota (extracto AR16 p. 3; AR25 p. 4); margen bruto 55–62 % (extracto AR25 p. 187); I+D 6 % de las ventas (extracto AR25 p. 12).",
+    "lo_sustituiria": "0,19 si aparece un competidor con tecnología equivalente aunque el margen aguante; 0,25 si diez años más confirman el margen bruto sobre el 58 %."
+   }
+  },
+  "probabilidades": {
+   "MALO": {
+    "referencia_mecanica": 0.2,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.2,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,2 argumentada: el MALO es real (volumen 0 % en 2023, China −29 %, aranceles) pero 2025 dio volumen +6 %; no veo razón para subirlo sin repetir un año plano.",
+    "apoyo": "Volumen 0 % en 2023 (extracto AR23 p. 22) y +6 % en 2025 (extracto AR25 p. 19); China −29 % (extracto AR25 p. 15).",
+    "lo_sustituiria": "0,3 si 2026–2027 repiten un año de volumen plano o el margen sin extraordinarios queda en ~24 %."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.6,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.6,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,6: el NORMAL es el ritmo de 2024–2025 y el margen de los años normales, lo más repetido de la década.",
+    "apoyo": "Historia fila 28 (2024 +6,0 %, 2025 +5,5 %) y fila 29 (26,3 % y 26,4 %).",
+    "lo_sustituiria": "Se ajusta si cambian el MALO o el BUENO, para que sumen 1."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.2,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.2,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,2: el BUENO ya ocurrió (2016–2019) pero exige que Suzhou funcione, y aún no tiene ventas; no lo hago más probable que el MALO.",
+    "apoyo": "Historia fila 28 (2016–2019); Suzhou comercializa desde marzo de 2026 (extracto AR25 p. 13).",
+    "lo_sustituiria": "0,25 si el combi de Suzhou muestra ventas relevantes en 2026–2027 (y el MALO baja a 0,15)."
+   },
+   "argumento": "Mantengo 0,2/0,6/0,2. El MALO tiene sus piezas a la vista: volumen 0 % en 2023 (extracto AR23 p. 22), China −29 % en 2025 (extracto AR25 p. 15), aranceles en 2026 y una penetración que la empresa estima quieta en ~25 % desde 2019 (extracto AR19 p. 3; AR25 p. 4). El BUENO tiene precedente (+11,2 % anual en 2016–2019, Historia fila 28) y señales (iVario +12 % en unidades, Norteamérica +13 %; extracto AR25 p. 15), pero Suzhou aún no tiene ventas. Fuera del choque de 2020–2022 el margen se mueve en 26–27 % (Historia fila 29): el negocio es predecible. Ninguna evidencia pesa más que la otra, así que no sesgo, y no ajusto a la cotización. «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM)."
+  }
+ },
+ "quiebra": {
+  "C22": null,
+  "C23": null,
+  "disparadores": [],
+  "clase": "convención",
+  "porque": "Sin disparadores de la convención: deuda neta ÷ EBITDA C33 = −0,46 (< 4), la caja cubre la deuda a corto (C34 = Sí), etapa Madura en crecimiento (no Joven) y deuda + arrendamientos de 27,1 mm (Historia C64) frente a 3 × FCF base = 657,6 mm. Sin deuda bancaria desde 2023 y ratio de patrimonio del 80 % (extracto AR25 p. 17; AR25 p. 18). C22 y C23 vacíos (= 0). La r no lleva prima de quiebra y no la añado aquí. «Three things ruin people: drugs, liquor, and leverage» (TCI p.68; HIM): aquí falta la tercera."
+ },
+ "mercado": {
+  "C24": null,
+  "fuente": null
+ },
+ "exceso_caja": {
+  "C76": 200,
+  "clase": "fundamentada",
+  "porque": "Motor A. Caja claramente sobrante y sin doble cuenta: los ~11,5 mm de intereses cobrados van en el flujo de inversión y no están en el FCF base (C40), así que sumar la caja no los cuenta dos veces. A 30-jun-2026 la liquidez es de 431,7 mm (caja 205,98 + depósitos ≤ 12 meses y fondo monetario), con el dividendo de 2025 ya pagado el 5-may-2026 y nada comprometido (C53, nota). Resto 13,5 mm con controles de capital (China) y dejo una reserva operativa de ≈ 180–230 mm (más de medio año de costes operativos, 411,3 mm en 2025, extracto AR25 p. 16; además, 107,3 mm de líneas sin usar, extracto AR25 p. 17). Queda ≈ 190–240 mm; el tope es la caja literal C53 = 205,98. Pongo 200 (≈ 17,6 € por acción); rango 150–205. No resto arrendamientos ni pensiones: en el motor A el flujo ya va después de ellos."
+ },
+ "fcf_normalizado": {
+  "C44": null,
+  "clase": null,
+  "porque": "C43 = No aplica (fase A): C52 = 219,2 > 0, media 2023–2025 de un FCF al accionista positivo los diez años (Historia). C44 queda vacío por su regla."
+ },
+ "desviaciones_justificadas": [
+  {
+   "comprobacion": "G5",
+   "escenario": "todos",
+   "justificacion": "El margen objetivo de los tres escenarios (0,225/0,26/0,27) supera el Q3 del sector Machinery (12,5 %) porque es el margen de esta empresa, no del sector: diez años de margen EBIT entre 16,4 % y 27,2 % y media de 24,4 %, con margen bruto del 55–62 %. El mecanismo es foco en un nicho donde declara ~50 % de cuota, posventa recurrente (31 % de las ventas) sobre la base instalada y escala en venta y servicio. Quién se queda la mejora: en el NORMAL la empresa conserva su margen y el cliente la mejora del producto; en el BUENO la empresa retiene solo parte de la escala (no sube precios y Suzhou resta por mezcla), por eso no paso del máximo histórico C51; en el MALO la pérdida la absorbe la empresa. Ninguno supera C51 = 0,272.",
+   "hechos": [
+    "Historia C49 = 0,244, C50 = 0,164, C51 = 0,272 y fila 29",
+    "Palancas G15:I15 (Q3 del sector 0,125)",
+    "extracto AR25 p. 187 (margen bruto 55–62 % en 2016–2025)",
+    "extracto AR25 p. 10 (posventa 31 %)",
+    "extracto AR25 p. 4 (cuota ~50 %)",
+    "extracto AR23 p. 14 (política de no subir precios)"
+   ],
+   "clase": "fundamentada"
+  },
+  {
+   "comprobacion": "G4",
+   "escenario": "BUENO",
+   "justificacion": "ROIC a largo plazo del BUENO 0,22 > C56 + 0,10 = 0,19, con C18 = Sí. Cuánto dura: supongo que la ventaja dura al menos otros diez años después del año 10, porque ya ha durado los diez de la Historia sin bajar de 0,22 (ROIC con I+D capitalizada) ni en 2020, con ventas −23 %. Qué la sostiene: la posventa recurrente (31 % de las ventas) sobre la base instalada, una cuota declarada de ~50 % estable en 2016–2025, un margen bruto del 55–62 % en la década y una I+D del 6 % de las ventas. No uso el 0,407 medio (C55): el BUENO supone el peor año de la década como retorno perpetuo, no el medio.",
+   "hechos": [
+    "Historia C55 = 0,407 y serie roic_con_id (0,225 en 2020)",
+    "Análisis C18 = Sí",
+    "extracto AR25 p. 10 (posventa 31 %)",
+    "extracto AR16 p. 3 y AR25 p. 4 (cuota ~50 %)",
+    "extracto AR25 p. 187 (margen bruto y ROCE)",
+    "extracto AR25 p. 12 (I+D 6 %)"
+   ],
+   "clase": "fundamentada"
+  }
+ ],
+ "limite_del_modelo": {
+  "aplica": false,
+  "cual": null,
+  "porque": null
+ },
+ "herencia": {
+  "B68": {
+   "etapa1": 0.015,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Revisada la misma evidencia: el MALO sigue siendo frenazo de la sustitución, no pérdida de cuota con nombre; la posventa (31 %, extracto AR25 p. 10) crece con la base instalada cerca de la inflación. Coincide con la referencia mecánica; bajarla castigaría dos veces el frenazo ya puesto en crecimiento, margen y S2C."
+  },
+  "C68": {
+   "etapa1": 0.025,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "0,025 < rf (C57 = 0,0329) y < r = 0,09; con el ROIC terminal de 0,18 reinvierte ≈ 14 % del NOPAT, y la penetración estimada de ~25 % (extracto AR25 p. 4) deja dónde. La etapa 1 lo calculaba con el ROCE del 37 %; el razonamiento se sostiene con un ROIC terminal menor."
+  },
+  "D68": {
+   "etapa1": 0.03,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "0,03 es el techo de la lista y queda bajo rf (C57 = 0,0329); en el BUENO la ventaja dura más, pero no paso del techo. Mismo razonamiento que la etapa 1, con la tasa sin riesgo actual."
+  },
+  "B69": {
+   "etapa1": 0.2,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La Historia de diez años (filas 28 y 29) y el extracto no dan razón estructural para sesgar: el MALO tiene piezas visibles (volumen 0 % en 2023, extracto AR23 p. 22; China −29 %, extracto AR25 p. 15) y el 2025 da volumen +6 % (extracto AR25 p. 19). Mantengo 0,2."
+  },
+  "C69": {
+   "etapa1": 0.6,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "El NORMAL es el ritmo de 2024–2025 (Historia fila 28) y el margen de los años normales (fila 29), lo más repetido de la década; con 0,2 y 0,2 en los extremos suman 1."
+  },
+  "D69": {
+   "etapa1": 0.2,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "El BUENO ya ocurrió (+11,2 % anual en 2016–2019, Historia fila 28), pero Suzhou solo comercializa desde marzo de 2026 (extracto AR25 p. 13) y la penetración estimada no se mueve desde 2019 (extracto AR19 p. 3; AR25 p. 4): no lo hago más probable que el MALO."
+  },
+  "C76": {
+   "etapa1": 200,
+   "decision": "mantiene",
+   "motivo": "razonamiento_corregido",
+   "evidencia_y_razonamiento": "Mantengo 200 con el razonamiento corregido: la etapa 1 restaba los arrendamientos, y en el motor A no se resta deuda (el FCF base ya descuenta el principal de arrendamientos, C49). Liquidez a 30-jun-2026 de 431,7 mm con el dividendo ya pagado (C53, nota), menos 13,5 mm con controles de capital, menos una reserva operativa de ≈ 180–230 mm, deja ≈ 190–240 mm; el tope es C53 = 205,98."
+  }
+ },
+ "dos_errores": {
+  "mas_cerca_de": "pagar cualquier cosa",
+  "porque": "La calidad salta a la vista (margen EBIT del 26 % frente a un Q3 del sector del 12,5 %, ROIC con I+D de 0,41 frente a 0,12 del sector, sin deuda) y a 630 € el precio pide más de lo que da el NORMAL; la tentación es subir el BUENO o el ROIC terminal hasta que el número se acerque a la cotización. Por eso no usé el S2C de 9,0 ni el ROIC del 0,41 en el terminal, dejé el BUENO en el ritmo de 2016–2019 y mantuve 0,2/0,6/0,2. «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). El otro error existe: un MALO demasiado duro me haría regatear una empresa excepcional, «We left a lot of money on the table through early fretting» (TCI p.79; HIM); por eso el MALO no lleva g ni probabilidad castigadas otra vez."
+ },
+ "celdas": {
+  "Palancas!B14": 0.01,
+  "Palancas!C14": 0.06,
+  "Palancas!D14": 0.1,
+  "Palancas!B15": 0.225,
+  "Palancas!C15": 0.26,
+  "Palancas!D15": 0.27,
+  "Palancas!B16": 2.0,
+  "Palancas!C16": 3.5,
+  "Palancas!D16": 3.9,
+  "Palancas!B18": 0.12,
+  "Palancas!C18": 0.18,
+  "Palancas!D18": 0.22,
+  "B68": 0.015,
+  "C68": 0.025,
+  "D68": 0.03,
+  "B69": 0.2,
+  "C69": 0.6,
+  "D69": 0.2,
+  "Palancas!C22": null,
+  "Palancas!C23": null,
+  "Palancas!C24": null,
+  "Palancas!C44": null,
+  "C76": 200
+ },
+ "observaciones": {
+  "Palancas!B14": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: -0,005 (mín(NORMAL, máx(mín(Q1, NORMAL − σ), −0,10))). Decisión: 0,01. Desviación: +0,015 porque el volumen de 2023–2024 sin precio, con el euro restando y la posventa sosteniendo ≈ 1 punto da ≈ +1 %; la referencia resta una σ inflada por 2020–2022.\nApoyo: Volumen 0 % en 2023 y +3 % en 2024 (extracto AR23 p. 22; AR24 p. 12); China −29 % en 2025 (extracto AR25 p. 15); ventas 2025 +6 % frente a +8 % a tipo constante (extracto AR25 p. 15); posventa 31 % (extracto AR25 p. 10); Historia fila 28.\nLo sustituiría: 0 si la posventa deja de crecer o el precio medio cae por la mezcla de Suzhou; 0,02 si 2026 da volumen de +5 % o más sin China.",
+  "Palancas!C14": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,14 (CAGR 5 años C46 acotado a [Q1, Q3]). Decisión: 0,06. Desviación: −0,08 porque C46 mide desde la base de 2020 (−23 %); por componentes, volumen ≈ +5 % y precio ≈ +1 %, como 2024–2025 y el CAGR 2019–2025 (6,9 %).\nApoyo: Historia C46 = 0,142 y C45 = 0,072; Historia fila 28 (2024 +6,0 %, 2025 +5,5 %); volumen (extracto AR23 p. 22; AR24 p. 12; AR25 p. 19); política de precios (extracto AR23 p. 14). El crecimiento histórico predice mal (GV, E4).\nLo sustituiría: 0,07 si 2026–2027 dan volumen de +6 % o más sin subida general; 0,045 si el volumen vuelve al 0–3 %.",
+  "Palancas!D14": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,16 (máx(NORMAL, mín(NORMAL + σ, Q3, 1,5 × C46))). Decisión: 0,1. Desviación: −0,06 porque repite el +11,2 % de 2016–2019 sobre una base doble; con cuota ~50 % y penetración quieta no llego al Q3 del sector.\nApoyo: Historia fila 28 (2016–2019); iVario de 47 a 151 mm (extracto AR25 p. 187); Suzhou (extracto AR25 p. 13); Norteamérica +13 % (extracto AR25 p. 15); cuota ~50 % (extracto AR25 p. 4); penetración ~25 % (extracto AR19 p. 3; AR25 p. 4).\nLo sustituiría: 0,12 si Suzhou y el iVario crecen a doble dígito dos años seguidos; 0,08 si Suzhou canibaliza al iCombi.",
+  "Palancas!B15": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,245 (máx(mín(m0, media C49), mínimo C50)). Decisión: 0,225. Desviación: −0,02 porque costes de la red que crecen más que unas ventas planas y un punto de margen bruto por aranceles llevan el EBIT a ≈ 22 %, entre 2021 y 2022.\nApoyo: Historia fila 29 (16,4 % en 2020; 20,5–23,2 % en 2021–2022); costes 411,3 mm, ventas y servicio 281,7 (extracto AR25 p. 16); margen bruto T3 2025 58,1 % por aranceles y fábrica solo en Europa (extracto AR25 p. 16; AR25 p. 22); 53 % de ventas en divisa (extracto AR25 p. 15).\nLo sustituiría: 0,20 si el margen bruto queda bajo el 57 % dos años; 0,24 si la posventa sostiene el margen en un año de volumen plano.",
+  "Palancas!C15": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,265 (m0 = último año C48). Decisión: 0,26. Desviación: −0,005 porque el arancel sobre un fabricante solo europeo resta algo al 26,4 % de 2025 y la subida de precio en EE. UU. es guía, no hecho.\nApoyo: Historia C48 = 0,264 y fila 29; margen 2025 a tipo constante 27,4 % (extracto AR25 p. 16); T3 2025 58,1 % por aranceles (extracto AR25 p. 16); fábrica solo en Europa (extracto AR25 p. 22); Norteamérica 24 % (extracto AR25 p. 117); política de precios (extracto AR23 p. 14).\nLo sustituiría: 0,245 si el margen sin extraordinarios queda en ~24 % en 2026–2027; 0,265 si el arancel se compensa entero con precio sin perder volumen.",
+  "Palancas!D15": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,265 (máx(m0, mín(C51, Q3 sector))). Decisión: 0,27. Desviación: +0,005 porque la escala sobre la red sube el margen hacia el de 2016–2019 (26,4–27,2 %), sin pasar del máximo porque Suzhou resta por mezcla.\nApoyo: Historia C51 = 0,272 y fila 29 (2016–2019); margen 2025 a tipo constante 27,4 % (extracto AR25 p. 16); costes de venta y servicio 281,7 mm (extracto AR25 p. 16); Suzhou (extracto AR25 p. 13).\nLo sustituiría: 0,28 si el margen a tipo constante pasa del 27,5 % con Suzhou ya vendiendo; 0,265 si Suzhou rebaja el margen bruto.",
+  "Palancas!B16": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 3 (0,75 × NORMAL). Decisión: 2. Desviación: −1 porque la inversión ya comprometida (Landsberg, capex 2026) se reparte sobre pocas ventas nuevas y el circulante sigue siendo el 22 % de las ventas.\nApoyo: Circulante 283 mm, 22 % de las ventas (extracto AR25 p. 187); capex 2026 y compromisos (extracto AR25 p. 18); Landsberg ≈ 60 mm (extracto AR25 p. 13); Historia C53 = 9,03.\nLo sustituiría: 3,0 si en el MALO la empresa aplaza Landsberg o reduce circulante; 1,5 si DSO y existencias siguen subiendo con ventas planas.",
+  "Palancas!C16": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 4 (C53 con tope de rentabilidad marginal ≤ 2 × C55). Decisión: 3,5. Desviación: −0,5 porque en la década 2016–2025 cada euro reinvertido trajo 3,6 € de ventas y el circulante del 22 % pone un techo de ≈ 4,5; C53 recoge la recuperación de 2020.\nApoyo: Historia C53 = 9,03 y C54 = 2,99; reinversión neta 2017–2025 = 178,7 mm para +646,5 mm de ventas (Historia); circulante 22 % (extracto AR25 p. 187); capex 2026 ≈ 40 mm (extracto AR25 p. 18) frente a amortización de 37,0 mm en 2025 (Historia).\nLo sustituiría: 4,0 si el circulante baja hacia el 20 % de las ventas; 3,0 si Landsberg y Suzhou piden más capex del previsto.",
+  "Palancas!D16": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 4 (1,25 × NORMAL con el mismo tope). Decisión: 3,9. Desviación: −0,1 porque la inversión fija ya hecha pesa menos con más ventas y el S2C se acerca al techo del circulante; en 2016–2019 fue 2,1, así que es generoso.\nApoyo: Historia C55 = 0,407; reinversión neta 2017–2019 de 111,9 mm para +230,6 mm de ventas (Historia); circulante 22 % (extracto AR25 p. 187); Suzhou, Wittenheim y Landsberg (extracto AR25 p. 13).\nLo sustituiría: 3,0 si crecer al 10 % exige otra fábrica o más circulante, como en 2016–2019.",
+  "Palancas!B18": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,09 (tasa del motor). Decisión: 0,12. Desviación: +0,03 porque el foso se erosiona hasta la media del sector, no hasta desaparecer; su peor año (2020) dio 0,22.\nApoyo: Palancas H18 = 0,118; Historia serie roic_con_id (mínimo 0,225 en 2020) y C55 = 0,407; sin deuda bancaria desde 2023 (extracto AR25 p. 17).\nLo sustituiría: 0,09 si un competidor con nombre iguala la tecnología a menor precio; 0,15 si la posventa sostiene el retorno en un año de volumen plano.",
+  "Palancas!C18": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,09 (tasa del motor). Decisión: 0,18. Desviación: +0,09 porque C18 = Sí: el foso conserva parte de su exceso en el año 11, por debajo del peor año de la década (0,22) y por encima del sector (0,118).\nApoyo: Historia C55 = 0,407 y serie roic_con_id (0,22–0,85; 0,225 en 2020); Palancas H18 = 0,118; ROCE publicado 20–45 % en 2016–2025 (extracto AR25 p. 187); cuota ~50 % en 2016–2025 (extracto AR16 p. 3; AR25 p. 4).\nLo sustituiría: 0,22 si el margen bruto se mantiene en 59 % con Suzhou vendiendo; 0,12 si el ROCE publicado baja del 30 % dos años sin choque externo.",
+  "Palancas!D18": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,19 (mín(C55; C56 + 0,10)). Decisión: 0,22. Desviación: +0,03 porque en el BUENO el retorno perpetuo no baja del peor año de la década (0,22 en 2020); supone diez años más de ventaja.\nApoyo: Historia serie roic_con_id (mínimo 0,225 en 2020) y C55 = 0,407; posventa 31 % (extracto AR25 p. 10); cuota (extracto AR16 p. 3; AR25 p. 4); margen bruto 55–62 % (extracto AR25 p. 187); I+D 6 % de las ventas (extracto AR25 p. 12).\nLo sustituiría: 0,19 si aparece un competidor con tecnología equivalente aunque el margen aguante; 0,25 si diez años más confirman el margen bruto sobre el 58 %.",
+  "B68": "[Clase: convención] [Confianza: media]\nHereda: 0,015 → mantiene (misma_evidencia): la reposición de la base instalada y la posventa crecen cerca de la inflación; bajarla castigaría el mismo frenazo otra vez.\nReferencia mecánica: 0,015 (NORMAL − 0,01). Decisión: 0,015. Desviación: ninguna porque la reposición de la base instalada y la posventa crecen cerca de la inflación; bajarla castigaría el mismo frenazo otra vez.\nApoyo: Posventa 31 % y +5 % en 2025 (extracto AR25 p. 10; AR25 p. 15); tasa sin riesgo C57 = 0,0329; tasa del motor C56 = 0,09.\nLo sustituiría: 0,01 si el MALO pasa a ser pérdida de cuota frente a un competidor con nombre.",
+  "C68": "[Clase: convención] [Confianza: media]\nHereda: 0,025 → mantiene (misma_evidencia): queda por debajo de rf y de r, y la reinversión terminal (≈ 14 % del NOPAT) cabe en un negocio con penetración estimada del 25 %.\nReferencia mecánica: 0,025 (mín(0,025; rf)). Decisión: 0,025. Desviación: ninguna porque queda por debajo de rf y de r, y la reinversión terminal (≈ 14 % del NOPAT) cabe en un negocio con penetración estimada del 25 %.\nApoyo: Tasa sin riesgo C57 = 0,0329; clientes potenciales y penetración (extracto AR25 p. 4); capex 33,7 mm frente a amortización 37,0 mm en 2025 (Historia).\nLo sustituiría: 0,02 si el volumen se estanca varios años; nunca por encima de rf sin una cifra del crecimiento nominal de sus mercados.",
+  "D68": "[Clase: convención] [Confianza: media]\nHereda: 0,03 → mantiene (misma_evidencia): techo de la lista, bajo rf; la ventaja dura más en el BUENO pero no paso del techo.\nReferencia mecánica: 0,03 (mín(NORMAL + 0,005; rf; 0,03)). Decisión: 0,03. Desviación: ninguna porque techo de la lista, bajo rf; la ventaja dura más en el BUENO pero no paso del techo.\nApoyo: Tasa sin riesgo C57 = 0,0329; tasa del motor C56 = 0,09; iVario con 1,6 millones de clientes potenciales (extracto AR25 p. 22).\nLo sustituiría: 0,025 si el BUENO se apoya en precio y no en volumen.",
+  "B69": "[Clase: convención] [Confianza: media]\nHereda: 0,2 → mantiene (evidencia_nueva): el MALO es real pero 2025 dio volumen +6 %; sin otro año plano no lo subo.\nReferencia mecánica: 0,2 (convención 0,2/0,6/0,2). Decisión: 0,2. Desviación: ninguna porque el MALO es real pero 2025 dio volumen +6 %; sin otro año plano no lo subo.\nApoyo: Volumen 0 % en 2023 (extracto AR23 p. 22) y +6 % en 2025 (extracto AR25 p. 19); China −29 % (extracto AR25 p. 15).\nLo sustituiría: 0,3 si 2026–2027 repiten un año de volumen plano o el margen sin extraordinarios queda en ~24 %.",
+  "C69": "[Clase: convención] [Confianza: media]\nHereda: 0,6 → mantiene (misma_evidencia): es lo más repetido de la década.\nReferencia mecánica: 0,6 (convención 0,2/0,6/0,2). Decisión: 0,6. Desviación: ninguna porque es lo más repetido de la década.\nApoyo: Historia fila 28 (2024 +6,0 %, 2025 +5,5 %) y fila 29 (26,3 % y 26,4 %).\nLo sustituiría: Se ajusta si cambian el MALO o el BUENO, para que sumen 1.",
+  "D69": "[Clase: convención] [Confianza: media]\nHereda: 0,2 → mantiene (evidencia_nueva): ya ocurrió en 2016–2019 pero depende de Suzhou, sin ventas aún.\nReferencia mecánica: 0,2 (convención 0,2/0,6/0,2). Decisión: 0,2. Desviación: ninguna porque ya ocurrió en 2016–2019 pero depende de Suzhou, sin ventas aún.\nApoyo: Historia fila 28 (2016–2019); Suzhou comercializa desde marzo de 2026 (extracto AR25 p. 13).\nLo sustituiría: 0,25 si el combi de Suzhou muestra ventas relevantes en 2026–2027 (y el MALO baja a 0,15).",
+  "Palancas!C22": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: vacío (= 0) sin disparadores. Decisión: vacío. Desviación: ninguna porque no hay disparador: C33 = −0,46 (< 4), C34 = Sí, no es Joven y deuda + arrendamientos (27,1 mm) < 3 × FCF base.\nApoyo: Historia C64 = 27,1 y fila de deuda (0 desde 2023); ratio de patrimonio 80 % (extracto AR25 p. 18); líneas sin usar 107,3 mm (extracto AR25 p. 17). «Three things ruin people: drugs, liquor, and leverage» (TCI p.68; HIM).\nLo sustituiría: 0,05 si tomase deuda relevante (adquisición o recompra apalancada) y C33 pasara de 4.",
+  "Palancas!C23": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: vacío (= 0), porque C22 está vacío. Decisión: vacío. Desviación: ninguna porque sin probabilidad de quiebra no hay recuperación que estimar.\nApoyo: C22 vacío sin disparadores (C33 = −0,46; C34 = Sí); sin deuda bancaria (extracto AR25 p. 17).\nLo sustituiría: 0 explícito si C22 llegara a 0,05.",
+  "Palancas!C24": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: no disponible: solo con cifra de fuente primaria en los extractos. Decisión: vacío. Desviación: sin referencia porque el extracto solo trae el mercado de equipos de restauración de una consultora externa (Future Market Insights), no el de combi, y la cuota del ~50 % no tiene denominador.\nApoyo: mercado de 46.000 millones USD citado de un tercero (extracto AR25 p. 14); cuota sin denominador (extracto AR25 p. 4); 4,8 millones de clientes potenciales, estimación propia (extracto AR25 p. 4).\nLo sustituiría: el tamaño del mercado de combi en importe, publicado por la empresa, como techo del BUENO.",
+  "Palancas!C44": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: no aplica (C43 = No aplica). Decisión: vacío. Desviación: sin referencia porque el FCF base no es transitorio ni extraordinario: C52 = 219,2 > 0.\nApoyo: C52 = 219,2, media 2023–2025; FCF al accionista positivo los diez años, mínimo 50,0 mm en 2020 (Historia fila 35).\nLo sustituiría: solo un C52 ≤ 0, que la Historia no muestra en ningún año.",
+  "C76": "[Clase: fundamentada] [Confianza: media]\nHereda: 200 → mantiene (razonamiento_corregido): mismo valor, sin restar arrendamientos, que en el motor A ya están en el flujo.\nReferencia mecánica: 0 (regla del inversor). Decisión: 200. Desviación: +200 porque a 30-jun-2026 hay 431,7 mm de liquidez con el dividendo ya pagado; menos 13,5 mm con controles de capital y una reserva de ≈ 180–230 mm quedan ≈ 190–240; el tope es C53.\nApoyo: C53 = 205,98 y su nota (liquidez 431,7); intereses cobrados (~11,5 mm) fuera del FCF (C40): no hay doble cuenta; costes operativos 411,3 mm (extracto AR25 p. 16); líneas sin usar 107,3 mm (extracto AR25 p. 17). Rango 150–205. «Excess cash is an advantage, not a disadvantage» (TCI p.141; HIM).\nLo sustituiría: 0 si la caja se usara fuera del núcleo; 150 si la reserva necesaria fuese mayor."
+ }
+}

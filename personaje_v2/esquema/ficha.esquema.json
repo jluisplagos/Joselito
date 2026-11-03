@@ -1,0 +1,765 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "ficha.json (Anexo D §D.7)",
+ "type": "object",
+ "required": [
+  "empresa",
+  "ticker",
+  "fecha",
+  "moneda",
+  "versiones",
+  "hashes",
+  "estado_analisis",
+  "causa_si_no_concluido",
+  "etapa1",
+  "cubo",
+  "cubo_cualitativo_fase_a",
+  "decision",
+  "insumos_decision_cartera",
+  "motor",
+  "escenarios",
+  "valor_ponderado",
+  "precio",
+  "escalera",
+  "fundamento_material",
+  "comprobacion_conjunta",
+  "revision_datos_ausentes",
+  "estado_libro",
+  "estado_evidencias",
+  "palanca_mas_influyente",
+  "semaforos",
+  "salto_anio_11",
+  "peso_terminal",
+  "cambios_vs_etapa1",
+  "predicciones",
+  "incertidumbre_pendiente",
+  "que_lo_resolveria",
+  "cambiaria_de_cubo",
+  "autocomprobacion",
+  "recuento_clases",
+  "desviaciones_justificadas",
+  "avisos",
+  "confianza_global",
+  "que_falta",
+  "citas"
+ ],
+ "properties": {
+  "empresa": {
+   "type": "string",
+   "minLength": 1
+  },
+  "ticker": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "fecha": {
+   "type": "string",
+   "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+  },
+  "moneda": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "versiones": {
+   "type": "object",
+   "properties": {
+    "personaje": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "plantilla": {
+     "type": "string",
+     "const": "V6.3"
+    },
+    "gramatica": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "referencias_mecanicas": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "config": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "personaje",
+    "plantilla",
+    "gramatica",
+    "referencias_mecanicas",
+    "config"
+   ]
+  },
+  "hashes": {
+   "type": "object",
+   "properties": {
+    "libro_entrada": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "libro_evaluado": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "libro_entrada",
+    "libro_evaluado"
+   ]
+  },
+  "estado_analisis": {
+   "type": "string",
+   "enum": [
+    "concluido",
+    "pendiente_de_datos",
+    "pendiente_de_investigacion",
+    "modelo_no_aplicable",
+    "no_entregable"
+   ]
+  },
+  "causa_si_no_concluido": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "tipo": {
+     "type": "string",
+     "enum": [
+      "falta_de_datos",
+      "incertidumbre_no_acotada",
+      "limite_del_modelo",
+      "fallo_de_implementacion"
+     ]
+    },
+    "detalle": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "tipo",
+    "detalle"
+   ]
+  },
+  "etapa1": {
+   "type": "object",
+   "properties": {
+    "cubo": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "precio_de_si": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "fecha": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "r": {
+     "type": [
+      "number",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "cubo",
+    "precio_de_si",
+    "fecha",
+    "r"
+   ]
+  },
+  "cubo": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "Sí",
+    "Vigilar",
+    "No",
+    "Demasiado difícil",
+    null
+   ]
+  },
+  "cubo_cualitativo_fase_a": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "Sí",
+    "Vigilar",
+    "No",
+    "Demasiado difícil",
+    null
+   ]
+  },
+  "decision": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "accion": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "comprar",
+      "esperar",
+      "descartar",
+      "demasiado_dificil",
+      null
+     ]
+    },
+    "precio_objetivo": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "condicion": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "accion",
+    "precio_objetivo",
+    "condicion"
+   ]
+  },
+  "insumos_decision_cartera": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "motor": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "A",
+    "B",
+    "C",
+    null
+   ]
+  },
+  "escenarios": {
+   "type": "object",
+   "properties": {
+    "MALO": {
+     "type": "object",
+     "properties": {
+      "historia": {},
+      "probabilidad": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "valor_accion": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "palancas": {
+       "type": "object"
+      }
+     },
+     "required": [
+      "historia",
+      "probabilidad",
+      "valor_accion",
+      "palancas"
+     ]
+    },
+    "NORMAL": {
+     "type": "object",
+     "properties": {
+      "historia": {},
+      "probabilidad": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "valor_accion": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "palancas": {
+       "type": "object"
+      }
+     },
+     "required": [
+      "historia",
+      "probabilidad",
+      "valor_accion",
+      "palancas"
+     ]
+    },
+    "BUENO": {
+     "type": "object",
+     "properties": {
+      "historia": {},
+      "probabilidad": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "valor_accion": {
+       "type": [
+        "number",
+        "null"
+       ]
+      },
+      "palancas": {
+       "type": "object"
+      }
+     },
+     "required": [
+      "historia",
+      "probabilidad",
+      "valor_accion",
+      "palancas"
+     ]
+    }
+   },
+   "required": [
+    "MALO",
+    "NORMAL",
+    "BUENO"
+   ]
+  },
+  "valor_ponderado": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "precio": {
+   "type": [
+    "number",
+    "null"
+   ]
+  },
+  "escalera": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "convencion": {
+     "type": "string",
+     "minLength": 1
+    },
+    "precio_si": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "precio_escenario_malo": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "ponderado": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "zona": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "convencion"
+   ]
+  },
+  "fundamento_material": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "comprobacion_conjunta": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "revision_datos_ausentes": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "estado_libro": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "estado_evidencias": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "palanca_mas_influyente": {
+   "type": "object",
+   "properties": {
+    "nombre": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "nota": {
+     "type": "string",
+     "pattern": "información, no criterio"
+    }
+   },
+   "required": [
+    "nombre",
+    "nota"
+   ]
+  },
+  "semaforos": {
+   "type": [
+    "object",
+    "array",
+    "null"
+   ]
+  },
+  "salto_anio_11": {
+   "type": [
+    "object",
+    "array",
+    "null"
+   ]
+  },
+  "peso_terminal": {
+   "type": [
+    "array",
+    "null"
+   ]
+  },
+  "cambios_vs_etapa1": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "celda": {
+      "type": "string",
+      "minLength": 1
+     },
+     "antes": {},
+     "despues": {},
+     "decision": {
+      "type": "string",
+      "enum": [
+       "mantiene",
+       "cambia"
+      ]
+     },
+     "motivo": {
+      "type": "string",
+      "minLength": 1
+     },
+     "evidencia_y_razonamiento": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "celda",
+     "antes",
+     "despues",
+     "decision",
+     "motivo",
+     "evidencia_y_razonamiento"
+    ]
+   }
+  },
+  "predicciones": {
+   "type": [
+    "array",
+    "null"
+   ],
+   "items": {
+    "type": "object",
+    "properties": {
+     "texto": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "fecha": {
+      "type": [
+       "string",
+       "null"
+      ]
+     },
+     "prob": {
+      "type": [
+       "number",
+       "null"
+      ]
+     },
+     "resultado": {}
+    },
+    "required": [
+     "texto",
+     "fecha",
+     "prob",
+     "resultado"
+    ]
+   }
+  },
+  "incertidumbre_pendiente": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "que_lo_resolveria": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "cambiaria_de_cubo": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "autocomprobacion": {
+   "type": [
+    "array",
+    "null"
+   ]
+  },
+  "recuento_clases": {
+   "type": "object",
+   "properties": {
+    "fundamentada": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "convencion": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "tecnico": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "sin_juicio": {
+     "type": "integer",
+     "minimum": 0
+    }
+   },
+   "required": [
+    "fundamentada",
+    "convencion",
+    "tecnico",
+    "sin_juicio"
+   ]
+  },
+  "desviaciones_justificadas": {
+   "type": "object",
+   "properties": {
+    "n": {
+     "type": "integer",
+     "minimum": 0
+    },
+    "lista": {
+     "type": "array"
+    }
+   },
+   "required": [
+    "n",
+    "lista"
+   ]
+  },
+  "avisos": {
+   "type": "array"
+  },
+  "confianza_global": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "alta",
+    "media",
+    "baja",
+    null
+   ]
+  },
+  "que_falta": {
+   "type": "object"
+  },
+  "citas": {
+   "type": "object",
+   "properties": {
+    "munger": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    },
+    "damodaran": {
+     "type": [
+      "integer",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "munger",
+    "damodaran"
+   ]
+  }
+ },
+ "allOf": [
+  {
+   "if": {
+    "properties": {
+     "estado_analisis": {
+      "const": "concluido"
+     }
+    }
+   },
+   "then": {
+    "properties": {
+     "cubo": {
+      "type": "string"
+     },
+     "decision": {
+      "type": "object",
+      "properties": {
+       "accion": {
+        "type": "string"
+       }
+      }
+     },
+     "escalera": {
+      "type": "object"
+     },
+     "insumos_decision_cartera": {
+      "type": "object"
+     },
+     "predicciones": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3
+     }
+    }
+   }
+  },
+  {
+   "if": {
+    "properties": {
+     "estado_analisis": {
+      "enum": [
+       "pendiente_de_datos",
+       "pendiente_de_investigacion",
+       "modelo_no_aplicable",
+       "no_entregable"
+      ]
+     }
+    }
+   },
+   "then": {
+    "properties": {
+     "causa_si_no_concluido": {
+      "type": "object"
+     },
+     "cubo": {
+      "not": {
+       "const": "Sí"
+      }
+     }
+    }
+   }
+  },
+  {
+   "if": {
+    "properties": {
+     "estado_analisis": {
+      "const": "modelo_no_aplicable"
+     }
+    }
+   },
+   "then": {
+    "properties": {
+     "decision": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "accion": {
+        "not": {
+         "enum": [
+          "comprar",
+          "esperar"
+         ]
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ ]
+}

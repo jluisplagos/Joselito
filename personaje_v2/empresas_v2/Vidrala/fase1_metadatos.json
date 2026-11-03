@@ -1,0 +1,68 @@
+{
+ "empresa": "Vidrala, S.A.",
+ "ticker": "VID",
+ "fecha_analisis": "2026-11-03",
+ "sector_texto": "Fabricación y venta de envases de vidrio (botellas y tarros) para bebidas y alimentación, con plantas en España, Portugal, Reino Unido, Irlanda y Brasil",
+ "moneda_modelo": "EUR",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "diciembre",
+ "mercado": "Bolsas de Madrid y Bilbao (Mercado Continuo, BME)",
+ "ratio_adr": null,
+ "sector_damodaran": "Packaging & Container",
+ "precio": {
+  "valor": 87.9,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-11-03",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "Bolsamanía, cotización Vidrala (https://www.bolsamania.com/accion/vidrala), 03/11/2026 10:13; rango del día 87,20-88,00 EUR, -0,45% sobre el cierre anterior. Sin otra fuente contrastada. Hora: 10:13 (hora de España)."
+ },
+ "acciones_diluidas": {
+  "valor": 35.206,
+  "fecha": "2025-12-31",
+  "fuente": "Cuentas consolidadas 2025, nota 27 (beneficio por acción): promedio ponderado 35.205.947 acciones; 35.206.258 acciones emitidas a 31-dic-2025; sin instrumentos dilutivos; autocartera 23.400 acciones",
+  "pagina": "PDF 76 (CF_2025)"
+ },
+ "capitalizacion": {
+  "valor": 3094.6,
+  "fecha": "2026-11-03",
+  "fuente": "Precio 87,90 EUR x 35,206 millones de acciones"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0329,
+  "fuente": "Bund alemán a 10 años, 3,29 % (dpa-AFX vía ariva.de, 02-11-2026 17:34): tasa sin riesgo del euro. El bono español a 10 años (3,94 %, Trading Economics, 02-11-2026) lleva prima de riesgo país, que la plantilla ya suma aparte en «Riesgo país»; usarlo contaría ese riesgo dos veces (corrección del orquestador)."
+ },
+ "geografia": [
+  {
+   "pais": "Región · Western Europe",
+   "pct": 0.487,
+   "nota": "Segmento Vidrala Europe (España, Portugal; mercados de península ibérica, Francia, Bélgica y Alemania): 714,9 M EUR de 1.467,3. Sin desglose por país; se agrupa como Europa occidental."
+  },
+  {
+   "pais": "United Kingdom",
+   "pct": 0.391,
+   "nota": "Segmento Reino Unido e Irlanda (Encirc): 574,1 M EUR; el informe no separa Irlanda, se asigna todo a Reino Unido."
+  },
+  {
+   "pais": "Brazil",
+   "pct": 0.122,
+   "nota": "Segmento Brasil (Vidroporto): 178,3 M EUR."
+  }
+ ],
+ "geografia_fuente": {
+  "fuente": "Cuentas consolidadas 2025, nota 4 (información por segmentos, ingresos 2025); cada segmento abastece su mercado geográfico",
+  "pagina": "PDF 27 (CF_2025)"
+ },
+ "convenciones": {
+  "caja_incluye_otros_activos_financieros": false,
+  "motivo_caja": "El balance 2025 solo tiene caja y equivalentes de 108,4 M EUR; los otros activos financieros son no corrientes y mínimos (1,4 M EUR), sin depósitos a plazo corrientes materiales (PDF 4)."
+ },
+ "anios_fcf_base": 3,
+ "_notas": [
+  "La geografía es por segmento operativo (ubicación de plantas, que abastecen su mercado local), no por ubicación exacta del cliente; el informe no da desglose por países.",
+  "Irlanda incluida en Reino Unido; Europe agrupado como Western Europe sin desglose España/Francia/Portugal/Alemania.",
+  "Precio de una única fuente web (Bolsamanía, intradía a las 10:13); no se contrastó con la web de BME.",
+  "Rentabilidad del bono: Trading Economics 2 nov 2026 (cierre de la sesión anterior); no se obtuvo dato del 3 nov.",
+  "Acciones: la empresa no tiene instrumentos dilutivos; se usa el promedio ponderado/emitidas 35,206 M (autocartera de 23.400 acciones ignorada por inmaterial)."
+ ]
+}

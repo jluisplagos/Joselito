@@ -1,0 +1,457 @@
+{
+ "anio": 2016,
+ "archivo": "CF_2016.txt",
+ "fecha_cierre": "2016-12-31",
+ "moneda": "EUR",
+ "unidad": "miles",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Ingresos ordinarios",
+     "impreso": "773.570",
+     "pagina": 6,
+     "linea": "Ingresos ordinarios                                                            22            773.570     803.365"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Ingresos ordinarios",
+     "impreso": "803.365",
+     "pagina": 6,
+     "linea": "Ingresos ordinarios                                                            22            773.570     803.365"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "La cuenta de resultados no presenta línea de EBIT. Derivable como BAI + gastos financieros - ingresos financieros = 93.039 (2016) y 86.287 (2015) miles, coincidente con EBIT 93,0 y 86,3 M EUR de las cifras relevantes del informe de gestión (p.86); no se registra por no estar impreso en miles en los estados."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Amortizaciones",
+     "impreso": "75.557",
+     "pagina": 9,
+     "linea": "Amortizaciones                                                                     6y7        75.557      75.062"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Amortizaciones",
+     "impreso": "75.062",
+     "pagina": 9,
+     "linea": "Amortizaciones                                                                     6y7        75.557      75.062"
+    }
+   ],
+   "cero": null,
+   "nota": "Deterioro de activos no corrientes (2.116 en 2016; (346) en 2015) va en línea aparte y no se incluye."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Beneficio atribuible a la dominante",
+     "impreso": "67.671",
+     "pagina": 6,
+     "linea": "de instrumentos de patrimonio neto de la dominante                                          67.671      60.860"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Beneficio atribuible a la dominante",
+     "impreso": "60.860",
+     "pagina": 6,
+     "linea": "de instrumentos de patrimonio neto de la dominante                                          67.671      60.860"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Gasto por impuesto sobre las ganancias",
+     "impreso": "(16.571)",
+     "pagina": 6,
+     "linea": "Gasto por impuesto sobre las ganancias                                          9             (16.571)    (14.763)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Gasto por impuesto sobre las ganancias",
+     "impreso": "(14.763)",
+     "pagina": 6,
+     "linea": "Gasto por impuesto sobre las ganancias                                          9             (16.571)    (14.763)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Beneficio antes de impuestos",
+     "impreso": "84.242",
+     "pagina": 6,
+     "linea": "de actividades continuadas                                                                  84.242      75.623"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Beneficio antes de impuestos",
+     "impreso": "75.623",
+     "pagina": 6,
+     "linea": "de actividades continuadas                                                                  84.242      75.623"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Efectivo neto generado por actividades de explotación",
+     "impreso": "157.604",
+     "pagina": 9,
+     "linea": "Efectivo neto generado por las actividades de explotación                                 157.604     138.517"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Efectivo neto generado por actividades de explotación",
+     "impreso": "138.517",
+     "pagina": 9,
+     "linea": "Efectivo neto generado por las actividades de explotación                                 157.604     138.517"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Pagos adquisición inmovilizado material",
+     "impreso": "(51.364)",
+     "pagina": 9,
+     "linea": "Pagos por la adquisición de inmovilizado material                                             (51.364)    (58.931)"
+    },
+    {
+     "concepto": "Pagos adquisición activos intangibles",
+     "impreso": "(3.540)",
+     "pagina": 9,
+     "linea": "Pagos por la adquisición de activos intangibles                                                (3.540)       (569)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Pagos adquisición inmovilizado material",
+     "impreso": "(58.931)",
+     "pagina": 9,
+     "linea": "Pagos por la adquisición de inmovilizado material                                             (51.364)    (58.931)"
+    },
+    {
+     "concepto": "Pagos adquisición activos intangibles",
+     "impreso": "(569)",
+     "pagina": 9,
+     "linea": "Pagos por la adquisición de activos intangibles                                                (3.540)       (569)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": [
+    {
+     "concepto": "Adquisición de empresa del grupo (sin importe en 2016)",
+     "impreso": "-",
+     "pagina": 9,
+     "linea": "conjuntamente (Nota 3 y 5)                                                                        -   (403.191)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Adquisición de empresa del grupo (Encirc)",
+     "impreso": "(403.191)",
+     "pagina": 9,
+     "linea": "conjuntamente (Nota 3 y 5)                                                                        -   (403.191)"
+    }
+   ],
+   "cero": null,
+   "nota": "2016 sin importe ('-'); no hay cobros por venta de negocios."
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Existencias",
+     "impreso": "14.418",
+     "pagina": 9,
+     "linea": "Existencias                                                                                    14.418      (1.440)"
+    },
+    {
+     "concepto": "Deudores comerciales y otras cuentas a cobrar",
+     "impreso": "5.422",
+     "pagina": 9,
+     "linea": "Deudores comerciales y otras cuentas a cobrar                                                   5.422     (44.770)"
+    },
+    {
+     "concepto": "Acreedores comerciales y otras cuentas a pagar",
+     "impreso": "(3.362)",
+     "pagina": 9,
+     "linea": "Acreedores comerciales y otras cuentas a pagar                                                 (3.362)     22.302"
+    },
+    {
+     "concepto": "Pagos de provisiones",
+     "impreso": "(388)",
+     "pagina": 9,
+     "linea": "Pagos de provisiones                                                                             (388)      3.188"
+    },
+    {
+     "concepto": "Otros pasivos corrientes",
+     "impreso": "(10.000)",
+     "pagina": 9,
+     "linea": "Otros pasivos corrientes                                                                      (10.000)          -"
+    },
+    {
+     "concepto": "Efecto diferencias de conversión en el capital circulante",
+     "impreso": "(11.690)",
+     "pagina": 9,
+     "linea": "sociedades extranjeras                                                                     (11.690)    15.138"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Existencias",
+     "impreso": "(1.440)",
+     "pagina": 9,
+     "linea": "Existencias                                                                                    14.418      (1.440)"
+    },
+    {
+     "concepto": "Deudores comerciales y otras cuentas a cobrar",
+     "impreso": "(44.770)",
+     "pagina": 9,
+     "linea": "Deudores comerciales y otras cuentas a cobrar                                                   5.422     (44.770)"
+    },
+    {
+     "concepto": "Acreedores comerciales y otras cuentas a pagar",
+     "impreso": "22.302",
+     "pagina": 9,
+     "linea": "Acreedores comerciales y otras cuentas a pagar                                                 (3.362)     22.302"
+    },
+    {
+     "concepto": "Pagos de provisiones",
+     "impreso": "3.188",
+     "pagina": 9,
+     "linea": "Pagos de provisiones                                                                             (388)      3.188"
+    },
+    {
+     "concepto": "Otros pasivos corrientes",
+     "impreso": "-",
+     "pagina": 9,
+     "linea": "Otros pasivos corrientes                                                                      (10.000)          -"
+    },
+    {
+     "concepto": "Efecto diferencias de conversión en el capital circulante",
+     "impreso": "15.138",
+     "pagina": 9,
+     "linea": "sociedades extranjeras                                                                     (11.690)    15.138"
+    }
+   ],
+   "cero": null,
+   "nota": "Existencias: la línea de 'Existencias' en el flujo es la primera con ese texto en p.9 (la de variaciones de capital circulante)."
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Pagos de intereses",
+     "impreso": "(9.776)",
+     "pagina": 9,
+     "linea": "Pagos de intereses                                                                             (9.776)    (10.313)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Pagos de intereses",
+     "impreso": "(10.313)",
+     "pagina": 9,
+     "linea": "Pagos de intereses                                                                             (9.776)    (10.313)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los pagos de intereses figuran en actividades de explotación; el bloque de financiación no tiene línea de intereses",
+    "pagina": 9
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Informe previo a NIIF 16: sin pasivos por arrendamiento; el estado de flujos de financiación no tiene línea de pagos de arrendamiento",
+    "pagina": 9
+   },
+   "nota": null
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "No se localiza gasto por pagos basados en acciones en el texto; no se puede demostrar que no exista plan, por lo que se deja desconocido."
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe no cuantifica el gasto de I+D reconocido en resultados (solo costes de desarrollo capitalizados, nota 7, p.43: entradas 116 en 2016)."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Número medio ponderado de acciones ordinarias en circulación (no hay acciones potenciales dilusivas)",
+     "impreso": "24.753.059",
+     "pagina": 77,
+     "linea": "ordinarias en circulación al 31 de diciembre    24.753.059      24.787.502"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Número medio ponderado de acciones ordinarias en circulación",
+     "impreso": "24.787.502",
+     "pagina": 77,
+     "linea": "ordinarias en circulación al 31 de diciembre    24.753.059      24.787.502"
+    }
+   ],
+   "cero": null,
+   "nota": "Cifra en unidades de acciones (no miles). La nota 26(a) en p.76 muestra 24.728 y 24.787 miles, inconsistente con 24.753.059 de p.77; se toma el desglose de p.77. La sociedad no tiene acciones potenciales dilusivas."
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Patrimonio atribuido a la dominante",
+     "impreso": "474.934",
+     "pagina": 5,
+     "linea": "patrimonio neto de la dominante                                                        474.934      476.536"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Patrimonio atribuido a la dominante",
+     "impreso": "476.536",
+     "pagina": 5,
+     "linea": "patrimonio neto de la dominante                                                        474.934      476.536"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Pasivos financieros con entidades de crédito no corrientes",
+     "impreso": "310.288",
+     "pagina": 5,
+     "linea": "Pasivos financieros con entidades de crédito                             15                  310.288      415.832"
+    },
+    {
+     "concepto": "Pasivos financieros con entidades de crédito corrientes",
+     "impreso": "12.402",
+     "pagina": 5,
+     "linea": "Pasivos financieros con entidades de crédito                             15                   12.402        4.050"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Pasivos financieros con entidades de crédito no corrientes",
+     "impreso": "415.832",
+     "pagina": 5,
+     "linea": "Pasivos financieros con entidades de crédito                             15                  310.288      415.832"
+    },
+    {
+     "concepto": "Pasivos financieros con entidades de crédito corrientes",
+     "impreso": "4.050",
+     "pagina": 5,
+     "linea": "Pasivos financieros con entidades de crédito                             15                   12.402        4.050"
+    }
+   ],
+   "cero": null,
+   "nota": "Incluye otros pasivos financieros (préstamos de organismos oficiales sin interés: 10.599 + 1.275 en 2016) e intereses devengados, nota 15 p.60. Los derivados no se incluyen."
+  },
+  "arrendamientos": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Informe previo a NIIF 16; el balance no tiene pasivos por arrendamiento (solo arrendamientos operativos con cuota a gasto, nota 3(f))",
+    "pagina": 5
+   },
+   "nota": null
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Efectivo y otros medios líquidos equivalentes",
+     "impreso": "424",
+     "pagina": 4,
+     "linea": "Efectivo y otros medios líquidos equivalentes                                                   424      15.720"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Efectivo y otros medios líquidos equivalentes",
+     "impreso": "15.720",
+     "pagina": 4,
+     "linea": "Efectivo y otros medios líquidos equivalentes                                                   424      15.720"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El activo corriente del balance no contiene depósitos ni inversiones financieras temporales (solo derivados, otros activos corrientes y efectivo); 'Otros activos financieros' de 287 es no corriente",
+    "pagina": 4
+   },
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Provisión Personal (planes de prestaciones definidas y otras obligaciones con empleados)",
+     "impreso": "5.099",
+     "pagina": 72,
+     "linea": "Al 31 de diciembre de 2016              5.307          5.099              1.349     11.755"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Provisión Personal",
+     "impreso": "952",
+     "pagina": 72,
+     "linea": "Al 31 de diciembre de 2015              2.481            952                338      3.771"
+    }
+   ],
+   "cero": null,
+   "nota": "La provisión de personal incluye planes de prestación definida de Encirc (UK) y otras obligaciones con empleados; no se desglosa el neto solo de pensiones."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El balance no tiene línea de participaciones no dominantes y el beneficio del ejercicio coincide con el atribuible a la dominante",
+    "pagina": 5
+   },
+   "nota": null
+  }
+ }
+}

@@ -1,0 +1,13 @@
+Citas textuales comprobadas: 46 | referencias sueltas: 25
+
+FRAGMENTOS NO ENCONTRADOS (0):
+
+FRAGMENTOS SOLO APROXIMADOS, ≥85 % de palabras en una entrada (0):
+
+PÁGINA NO COINCIDE (0):
+
+REFERENCIAS SUELTAS CON PÁGINA INEXISTENTE (0):
+
+CITAS A UN CORPUS AUSENTE o sin documento identificable, no comprobables (0):
+
+RESULTADO: PASS

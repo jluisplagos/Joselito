@@ -1,0 +1,1074 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "fase_c.json (Anexo D §D.6; dos turnos)",
+ "type": "object",
+ "required": [
+  "turno",
+  "una_sola_historia",
+  "lo_que_dice_la_hoja",
+  "desviaciones_justificadas",
+  "autocomprobacion",
+  "revisar_palancas",
+  "instrucciones_revision",
+  "limite_del_modelo",
+  "cubo_provisional",
+  "conclusion_provisional",
+  "revision_datos_ausentes",
+  "fundamento_material",
+  "celdas_corregidas"
+ ],
+ "properties": {
+  "turno": {
+   "type": "integer",
+   "enum": [
+    1,
+    2
+   ]
+  },
+  "una_sola_historia": {
+   "type": "object",
+   "properties": {
+    "coherente": {
+     "type": "boolean"
+    },
+    "incoherencias": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     }
+    }
+   },
+   "required": [
+    "coherente",
+    "incoherencias"
+   ]
+  },
+  "lo_que_dice_la_hoja": {
+   "type": "object"
+  },
+  "desviaciones_justificadas": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "comprobacion": {
+      "type": "string",
+      "pattern": "^G[0-9]+[ab]?$"
+     },
+     "escenario": {
+      "type": "string",
+      "minLength": 1
+     },
+     "justificacion": {
+      "type": "string",
+      "minLength": 40
+     },
+     "hechos": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 1
+     },
+     "clase": {
+      "type": "string",
+      "enum": [
+       "fundamentada",
+       "convención"
+      ]
+     }
+    },
+    "required": [
+     "comprobacion",
+     "escenario",
+     "justificacion",
+     "hechos",
+     "clase"
+    ]
+   }
+  },
+  "autocomprobacion": {
+   "type": "array",
+   "minItems": 10,
+   "maxItems": 10,
+   "items": {
+    "type": "object",
+    "properties": {
+     "sesgo": {
+      "type": "string",
+      "minLength": 5
+     },
+     "hallazgo": {
+      "type": "string",
+      "minLength": 15
+     },
+     "cambio": {
+      "type": "string",
+      "minLength": 8
+     }
+    },
+    "required": [
+     "sesgo",
+     "hallazgo",
+     "cambio"
+    ]
+   }
+  },
+  "revisar_palancas": {
+   "type": "boolean"
+  },
+  "instrucciones_revision": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "limite_del_modelo": {
+   "type": "object",
+   "properties": {
+    "aplica": {
+     "type": "boolean"
+    },
+    "cual": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "L1",
+      "L2",
+      "L3",
+      null
+     ]
+    },
+    "porque": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "aplica"
+   ]
+  },
+  "cubo_provisional": {
+   "type": "string",
+   "enum": [
+    "Sí",
+    "Vigilar",
+    "No",
+    "Demasiado difícil"
+   ]
+  },
+  "conclusion_provisional": {
+   "type": "string",
+   "enum": [
+    "comprar",
+    "esperar",
+    "descartar",
+    "demasiado_dificil"
+   ]
+  },
+  "revision_datos_ausentes": {
+   "type": "object",
+   "properties": {
+    "revisados": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "dato": {
+        "type": "string",
+        "minLength": 1
+       },
+       "que_falta": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "conclusion_afectada": {
+        "type": "string",
+        "minLength": 1
+       },
+       "material_para_conclusion_favorable": {
+        "type": "boolean"
+       },
+       "porque": {
+        "type": "string",
+        "minLength": 15
+       }
+      },
+      "required": [
+       "dato",
+       "conclusion_afectada",
+       "material_para_conclusion_favorable",
+       "porque"
+      ]
+     }
+    },
+    "alguno_material": {
+     "type": "boolean"
+    }
+   },
+   "required": [
+    "revisados",
+    "alguno_material"
+   ]
+  },
+  "fundamento_material": {
+   "type": "object",
+   "properties": {
+    "hipotesis_sin_fundamento": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "properties": {
+       "celda": {
+        "type": "string",
+        "minLength": 1
+       },
+       "hipotesis": {
+        "type": "string",
+        "minLength": 1
+       },
+       "clase": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "porque_sin_fundamento": {
+        "type": "string",
+        "minLength": 1
+       },
+       "alternativas_defendibles": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "properties": {
+         "hay_base": {
+          "type": "boolean"
+         },
+         "rango": {},
+         "evidencia": {
+          "type": "string",
+          "minLength": 20
+         }
+        },
+        "required": [
+         "hay_base",
+         "rango",
+         "evidencia"
+        ]
+       }
+      },
+      "required": [
+       "celda",
+       "hipotesis",
+       "porque_sin_fundamento"
+      ]
+     }
+    },
+    "comprobacion_conjunta": {
+     "type": "object",
+     "properties": {
+      "procede": {
+       "type": "boolean"
+      },
+      "combinacion": {
+       "type": [
+        "object",
+        "null"
+       ],
+       "propertyNames": {
+        "pattern": "^(Análisis!|Palancas!)?[A-Z]{1,2}[0-9]{1,3}$"
+       },
+       "additionalProperties": {
+        "type": "number"
+       }
+      },
+      "coherencia_economica": {
+       "type": [
+        "string",
+        "null"
+       ]
+      },
+      "sobrevive": {
+       "type": [
+        "boolean",
+        "null"
+       ]
+      }
+     },
+     "required": [
+      "procede",
+      "combinacion",
+      "coherencia_economica",
+      "sobrevive"
+     ]
+    },
+    "resultado": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "sin_limitacion",
+      "comprobacion_conjunta_superada",
+      "pendiente_de_investigacion",
+      "no_procede",
+      null
+     ]
+    },
+    "hipotesis_que_mas_condiciona": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "que_lo_resolveria": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "hipotesis_sin_fundamento",
+    "comprobacion_conjunta",
+    "resultado"
+   ]
+  },
+  "celdas_corregidas": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "object",
+    "properties": {
+     "antes": {},
+     "despues": {},
+     "motivo": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "antes",
+     "despues",
+     "motivo"
+    ]
+   }
+  },
+  "estado_analisis": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "concluido",
+    "pendiente_de_investigacion",
+    "modelo_no_aplicable",
+    "pendiente_de_datos",
+    null
+   ]
+  },
+  "cubo_final": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "Sí",
+    "Vigilar",
+    "No",
+    "Demasiado difícil",
+    null
+   ]
+  },
+  "escalera": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "decision": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "accion": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "comprar",
+      "esperar",
+      "descartar",
+      "demasiado_dificil",
+      null
+     ]
+    },
+    "precio_objetivo": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "condicion": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "condiciones_revision": {
+     "type": "object",
+     "properties": {
+      "al_alza": {
+       "type": "string",
+       "minLength": 1
+      },
+      "a_la_baja": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "al_alza",
+      "a_la_baja"
+     ]
+    }
+   },
+   "required": [
+    "accion",
+    "precio_objetivo",
+    "condicion",
+    "condiciones_revision"
+   ]
+  },
+  "insumos_decision_cartera": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "precio_actual": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "zona": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "precio_de_si": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "precio_escenario_malo": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "ponderado": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "distancia_a_precio_si": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "distancia_a_malo": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "fundamento": {
+     "type": "string",
+     "minLength": 1
+    },
+    "datos_ausentes_materiales": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "descalificadores_considerados": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "r": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "r_minima": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "palanca_mas_influyente": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "precio_actual",
+    "zona",
+    "precio_de_si",
+    "precio_escenario_malo",
+    "ponderado",
+    "fundamento",
+    "datos_ausentes_materiales",
+    "descalificadores_considerados",
+    "r",
+    "r_minima",
+    "palanca_mas_influyente"
+   ]
+  },
+  "herencia": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "comparacion_etapa_1": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "cubo_v1": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "precio_de_si_v1": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "cubo_v2": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "precio_de_si_v2": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "por_que_difieren": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "cubo_v1",
+    "precio_de_si_v1",
+    "cubo_v2",
+    "precio_de_si_v2",
+    "por_que_difieren"
+   ]
+  },
+  "celdas": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "cambiaria_de_cubo": {
+   "type": [
+    "object",
+    "null"
+   ],
+   "properties": {
+    "a_si": {
+     "type": "string",
+     "minLength": 1
+    },
+    "a_no": {
+     "type": "string",
+     "minLength": 1
+    },
+    "a_demasiado_dificil": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "a_si",
+    "a_no",
+    "a_demasiado_dificil"
+   ]
+  },
+  "observaciones": {
+   "type": [
+    "object",
+    "null"
+   ]
+  },
+  "confianza_global": {
+   "type": [
+    "string",
+    "null"
+   ],
+   "enum": [
+    "alta",
+    "media",
+    "baja",
+    null
+   ]
+  }
+ },
+ "if": {
+  "properties": {
+   "turno": {
+    "const": 2
+   },
+   "limite_del_modelo": {
+    "properties": {
+     "aplica": {
+      "const": false
+     }
+    }
+   }
+  },
+  "required": [
+   "turno",
+   "limite_del_modelo"
+  ]
+ },
+ "then": {
+  "required": [
+   "estado_analisis",
+   "cubo_final",
+   "escalera",
+   "decision",
+   "insumos_decision_cartera",
+   "herencia",
+   "comparacion_etapa_1",
+   "celdas",
+   "cambiaria_de_cubo",
+   "observaciones",
+   "confianza_global"
+  ],
+  "properties": {
+   "estado_analisis": {
+    "type": "string"
+   },
+   "cubo_final": {
+    "type": "string"
+   },
+   "decision": {
+    "type": "object"
+   },
+   "insumos_decision_cartera": {
+    "type": "object"
+   },
+   "herencia": {
+    "type": "object",
+    "properties": {
+     "C93": {
+      "type": "object",
+      "properties": {
+       "etapa1": {},
+       "decision": {
+        "type": "string",
+        "enum": [
+         "mantiene",
+         "cambia"
+        ]
+       },
+       "motivo": {
+        "type": "string",
+        "enum": [
+         "misma_evidencia",
+         "evidencia_nueva",
+         "razonamiento_corregido",
+         "definicion_o_medicion_distinta"
+        ]
+       },
+       "evidencia_y_razonamiento": {
+        "type": "string",
+        "minLength": 20
+       }
+      },
+      "required": [
+       "etapa1",
+       "decision",
+       "motivo",
+       "evidencia_y_razonamiento"
+      ]
+     },
+     "B101": {
+      "type": "object",
+      "properties": {
+       "etapa1": {},
+       "decision": {
+        "type": "string",
+        "enum": [
+         "mantiene",
+         "cambia"
+        ]
+       },
+       "motivo": {
+        "type": "string",
+        "enum": [
+         "misma_evidencia",
+         "evidencia_nueva",
+         "razonamiento_corregido",
+         "definicion_o_medicion_distinta"
+        ]
+       },
+       "evidencia_y_razonamiento": {
+        "type": "string",
+        "minLength": 20
+       }
+      },
+      "required": [
+       "etapa1",
+       "decision",
+       "motivo",
+       "evidencia_y_razonamiento"
+      ]
+     },
+     "B102": {
+      "type": "object",
+      "properties": {
+       "etapa1": {},
+       "decision": {
+        "type": "string",
+        "enum": [
+         "mantiene",
+         "cambia"
+        ]
+       },
+       "motivo": {
+        "type": "string",
+        "enum": [
+         "misma_evidencia",
+         "evidencia_nueva",
+         "razonamiento_corregido",
+         "definicion_o_medicion_distinta"
+        ]
+       },
+       "evidencia_y_razonamiento": {
+        "type": "string",
+        "minLength": 20
+       }
+      },
+      "required": [
+       "etapa1",
+       "decision",
+       "motivo",
+       "evidencia_y_razonamiento"
+      ]
+     },
+     "C103": {
+      "type": "object",
+      "properties": {
+       "etapa1": {},
+       "decision": {
+        "type": "string",
+        "enum": [
+         "mantiene",
+         "cambia"
+        ]
+       },
+       "motivo": {
+        "type": "string",
+        "enum": [
+         "misma_evidencia",
+         "evidencia_nueva",
+         "razonamiento_corregido",
+         "definicion_o_medicion_distinta"
+        ]
+       },
+       "evidencia_y_razonamiento": {
+        "type": "string",
+        "minLength": 20
+       }
+      },
+      "required": [
+       "etapa1",
+       "decision",
+       "motivo",
+       "evidencia_y_razonamiento"
+      ]
+     },
+     "C104": {
+      "type": "object",
+      "properties": {
+       "etapa1": {},
+       "decision": {
+        "type": "string",
+        "enum": [
+         "mantiene",
+         "cambia"
+        ]
+       },
+       "motivo": {
+        "type": "string",
+        "enum": [
+         "misma_evidencia",
+         "evidencia_nueva",
+         "razonamiento_corregido",
+         "definicion_o_medicion_distinta"
+        ]
+       },
+       "evidencia_y_razonamiento": {
+        "type": "string",
+        "minLength": 20
+       }
+      },
+      "required": [
+       "etapa1",
+       "decision",
+       "motivo",
+       "evidencia_y_razonamiento"
+      ]
+     }
+    },
+    "required": [
+     "C93",
+     "B101",
+     "B102",
+     "C103",
+     "C104"
+    ],
+    "additionalProperties": false
+   },
+   "comparacion_etapa_1": {
+    "type": "object"
+   },
+   "celdas": {
+    "type": "object",
+    "properties": {
+     "C93": {
+      "type": "string",
+      "enum": [
+       "Sí",
+       "No",
+       "No lo sé"
+      ]
+     },
+     "C103": {
+      "type": "string",
+      "enum": [
+       "Sí",
+       "No"
+      ]
+     },
+     "C104": {
+      "type": "string",
+      "pattern": "^Pendiente de decisión de cartera",
+      "not": {
+       "pattern": "%"
+      }
+     },
+     "B101": {
+      "type": "string",
+      "minLength": 20
+     },
+     "B102": {
+      "type": "string",
+      "minLength": 20
+     },
+     "Palancas!A38": {
+      "type": "string",
+      "minLength": 20
+     },
+     "Palancas!B38": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+     },
+     "Palancas!C38": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+     },
+     "Palancas!A39": {
+      "type": "string",
+      "minLength": 20
+     },
+     "Palancas!B39": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+     },
+     "Palancas!C39": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+     },
+     "Palancas!A40": {
+      "type": "string",
+      "minLength": 20
+     },
+     "Palancas!B40": {
+      "type": "string",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+     },
+     "Palancas!C40": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+     },
+     "Diagnóstico V6!B222": {
+      "type": "string",
+      "minLength": 20
+     },
+     "Diagnóstico V6!B223": {
+      "type": "string",
+      "minLength": 20
+     }
+    },
+    "required": [
+     "C93",
+     "C103",
+     "C104",
+     "B101",
+     "B102",
+     "Palancas!A38",
+     "Palancas!B38",
+     "Palancas!C38",
+     "Palancas!A39",
+     "Palancas!B39",
+     "Palancas!C39",
+     "Palancas!A40",
+     "Palancas!B40",
+     "Palancas!C40",
+     "Diagnóstico V6!B222",
+     "Diagnóstico V6!B223"
+    ],
+    "additionalProperties": false
+   },
+   "cambiaria_de_cubo": {
+    "type": "object"
+   },
+   "observaciones": {
+    "type": "object",
+    "properties": {
+     "C93": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "C103": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "C104": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "B101": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "B102": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!A38": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!B38": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!C38": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!A39": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!B39": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!C39": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!A40": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!B40": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     },
+     "Palancas!C40": {
+      "type": "string",
+      "minLength": 30,
+      "maxLength": 900
+     }
+    },
+    "required": [
+     "C93",
+     "C103",
+     "C104",
+     "B101",
+     "B102",
+     "Palancas!A38",
+     "Palancas!B38",
+     "Palancas!C38",
+     "Palancas!A39",
+     "Palancas!B39",
+     "Palancas!C39",
+     "Palancas!A40",
+     "Palancas!B40",
+     "Palancas!C40"
+    ],
+    "additionalProperties": false
+   },
+   "confianza_global": {
+    "type": "string"
+   }
+  }
+ }
+}

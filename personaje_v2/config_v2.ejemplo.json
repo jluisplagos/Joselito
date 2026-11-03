@@ -1,0 +1,146 @@
+{
+ "_nota": "Las rutas relativas se resuelven desde la carpeta de este archivo (personaje_v2/); scripts/config_v2.py las convierte en absolutas. En el repositorio basta con apuntar plantilla.* al paquete V6.3 y kit_v1.* al kit v1.3 (S-4); `bash scripts/comprobar_entorno.sh` dice qué ruta falta. Este ejemplo supone personaje_v2/ en la raíz del repositorio, junto a kit_pipeline_munger/ (kit v1.3) y v6/ (paquete V6.3 descomprimido, como sale del zip): cambia los prefijos ../kit_pipeline_munger y ../v6 si viven en otro sitio.",
+ "version_config": "0.2.2",
+ "version_gramatica": "0.2.1",
+ "version_referencias_mecanicas": "0.2.1",
+ "version_personaje": "v2.0",
+ "plantilla": {
+  "archivo": "../v6/entregables/Plantilla_V6.3.xlsx",
+  "referencia": "../v6/referencia/referencia_V6.3.json",
+  "verificador": "../v6/scripts/verificar_v63.py",
+  "scripts_v63": "../v6/scripts",
+  "add_sliders": "../v6/scripts/add_sliders.py",
+  "patch_base": "../v6/scripts/patch_v62_base.py",
+  "ejemplo_empresa_x": "../v6/entregables/Ejemplo_V6.3_EmpresaX.xlsx",
+  "docs": "../v6/docs"
+ },
+ "kit_v1": {
+  "carpeta": "../kit_pipeline_munger",
+  "corpus_munger": "../kit_pipeline_munger/munger.md",
+  "scripts": "../kit_pipeline_munger/scripts"
+ },
+ "corpus": {
+  "damodaran": "corpus/damodaran.md",
+  "codigos_damodaran": {
+   "NN": "Numbers and Narrative",
+   "GV": "Growth and Value",
+   "MR": "Measuring Returns",
+   "CV": "Closure in Valuation",
+   "PA": "Probabilistic Approaches",
+   "UD": "Ups and Downs",
+   "FS": "Financial Service Firms"
+  }
+ },
+ "convenciones": {
+  "_nota": "Convenciones del ejercicio (categoría [C] del Anexo B §B.0). Ninguna se atribuye a Damodaran.",
+  "k_asimetria": 3,
+  "escalera": "convención experimental; su suficiencia inversora no está demostrada (D11)",
+  "r_por_defecto": 0.09,
+  "probabilidades_referencia": {
+   "MALO": 0.2,
+   "NORMAL": 0.6,
+   "BUENO": 0.2
+  },
+  "s2c_banda": 0.25,
+  "quiebra_con_disparador": 0.05,
+  "quiebra_disparadores": {
+   "deuda_neta_ebitda_mayor_que": 4,
+   "caja_no_cubre_deuda_corto": true,
+   "etapa_joven": true,
+   "deuda_mas_arrendamientos_sobre_fcf_base_mayor_que": 3
+  },
+  "sbc_material": 0.1,
+  "id_capitalizada_umbral_ventas": 0.05,
+  "vida_util_id": {
+   "software": 3,
+   "tecnologia_industrial": 5,
+   "farmacia": 10
+  },
+  "predicciones_meses": [
+   12,
+   24
+  ],
+  "umbral_salto_anio_11": 0.05,
+  "observacion_max_caracteres": 900,
+  "redondeo": {
+   "crecimiento": 0.005,
+   "margen": 0.005,
+   "s2c": 0.1,
+   "roic": 0.01
+  },
+  "variabilidad_precio_si_pct": 15,
+  "referencias_mecanicas": {
+   "sigma_minima_crecimiento_si_pocas_tasas": 0.03,
+   "suelo_crecimiento_malo": -0.1,
+   "g_perpetuo_sin_rf": 0.025,
+   "tope_rentabilidad_marginal_sobre_roic_hist": 2.0,
+   "roic_lp_bueno_tope_sobre_c56": 0.1
+  }
+ },
+ "c104": {
+  "prefijo": "Pendiente de decisión de cartera",
+  "conclusiones_del_personaje": [
+   "comprar al precio actual",
+   "esperar: precio de Sí ≤ P",
+   "descartar (No)",
+   "demasiado difícil",
+   "sin conclusión (pendiente de investigación)",
+   "sin conclusión (pendiente de datos: <celdas>)"
+  ],
+  "_nota": "Ningún porcentaje en C104, tampoco «0 %»: toda asignación de cartera es de José Luis (D16, S-18 resuelto el 2-nov-2026)."
+ },
+ "modelos": {
+  "redaccion_personaje": {
+   "modelo": "el más capaz disponible (fable si lo hay; si no, opus)",
+   "esfuerzo": "alto"
+  },
+  "extraccion_v63": {
+   "modelo": "sonnet",
+   "esfuerzo": "medio"
+  },
+  "fase_a": {
+   "modelo": "opus",
+   "esfuerzo": "alto"
+  },
+  "fase_b": {
+   "modelo": "opus",
+   "esfuerzo": "alto"
+  },
+  "fase_c": {
+   "modelo": "opus",
+   "esfuerzo": "alto",
+   "turnos": 2
+  },
+  "verificacion": {
+   "modelo": "opus",
+   "esfuerzo": "medio"
+  },
+  "correccion": {
+   "modelo": "opus",
+   "esfuerzo": "alto"
+  }
+ },
+ "limites": {
+  "_nota": "correcciones = pasadas adicionales después de la primera; 2 correcciones = 3 pasadas en total. Agotar un límite NUNCA aprueba: el análisis termina en no_entregable con diagnostico.md (D17, D18).",
+  "max_correcciones_fase_b": 2,
+  "max_vueltas_fase_c_a_b": 1,
+  "max_vueltas_fase_b_a_a_por_limite_del_modelo": 1,
+  "max_correcciones_auditoria": 2,
+  "extracto_v63_max_palabras": 10000,
+  "pasadas_completas_max_en_claude_code": 3,
+  "al_agotar": "no_entregable",
+  "max_correcciones_fase_c": 2,
+  "max_correcciones_esquema": 2
+ },
+ "estados_analisis": [
+  "concluido",
+  "pendiente_de_datos",
+  "pendiente_de_investigacion",
+  "modelo_no_aplicable",
+  "no_entregable"
+ ],
+ "recalc": {
+  "perfil": ".lo_perfil",
+  "perfil_por_empresa": true
+ }
+}

@@ -1,0 +1,106 @@
+[
+ {
+  "dato": "evidencia Análisis!C48",
+  "que": "Intereses pagados clasificados en financiación · IFRS: no aplicable indebido",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "Palancas!C24",
+  "que": "tamaño del mercado año 10",
+  "nivel": "no bloqueante",
+  "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+  "nota": ""
+ },
+ {
+  "dato": "extracto_v63: Tamaño del mercado del envase de vidrio (por región o global) y crecimiento del mercado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cuota de mercado de Vidrala en ninguno de sus mercados, ni la definición que usaría.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Nombres de competidores distintos de Verallia (comprador de Italia) y su peso.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: EBITDA por segmento y margen EBITDA por segmento (solo hay ingresos, amortización y beneficio antes de impuestos por segmento).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Porcentaje de ventas por país (solo España, 431,2 millones, y el porcentaje de libra y real de 2024).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Desglose de la variación de ventas en precio, volumen y mezcla; toneladas o unidades vendidas.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Importe de subidas de precio y su efecto sobre el volumen.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Capex previsto para 2026 y siguientes; capex por destino salvo la descripción cualitativa (hornos, autogeneración).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Gasto total en I+D y su porcentaje de ventas.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Múltiplo de adquisición publicado por la empresa para Toro, Vidroporto o la venta de Italia.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Guía numérica de ventas, margen, capex y deuda para 2026 y objetivos numéricos anteriores para verificar su cumplimiento.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Calificación crediticia (rating) y covenants con sus umbrales.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cartera de pedidos y utilización de la capacidad.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Informe de gestión consolidado en español o en inglés dentro de CF_2025.txt (solo aparece el título de portada en la página 1); el informe integrado AR_2025.txt",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Efecto cuantificado del Pilar Dos.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ }
+]

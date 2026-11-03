@@ -1,0 +1,499 @@
+{
+ "anio": 2024,
+ "archivo": "CF_2024.txt",
+ "fecha_cierre": "2024-12-31",
+ "moneda": "EUR",
+ "unidad": "miles",
+ "reexpresion": "Balance 2023 reexpresado por la asignacion definitiva del precio de compra de Vidroporto (Brasil); cuenta de resultados y flujos 2023 reexpresados por la venta del segmento Italia, reclasificado a operaciones discontinuadas (nota 2(b)).",
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenues",
+     "impreso": "1,588,267",
+     "pagina": 4,
+     "linea": "Revenues 4 & 22 1,588,267 1,427,473"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenues",
+     "impreso": "1,427,473",
+     "pagina": 4,
+     "linea": "Revenues 4 & 22 1,588,267 1,427,473"
+    }
+   ],
+   "cero": null,
+   "nota": "Excluye Servicios prestados (2,910 / 721) y Otros ingresos. 2023 reexpresado por la venta del segmento Italia (operaciones discontinuadas)."
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Profit loss from operating activities",
+     "impreso": "331,008",
+     "pagina": 4,
+     "linea": "Profit loss from operating activities 331,008 267,508"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit loss from operating activities",
+     "impreso": "267,508",
+     "pagina": 4,
+     "linea": "Profit loss from operating activities 331,008 267,508"
+    }
+   ],
+   "cero": null,
+   "nota": "Operaciones continuadas; 2023 reexpresado (Italia a discontinuadas)."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Amortisation and depreciation",
+     "impreso": "117,720",
+     "pagina": 4,
+     "linea": "Amortisation and depreciation 7&8 117,720 87,210"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Amortisation and depreciation",
+     "impreso": "87,210",
+     "pagina": 4,
+     "linea": "Amortisation and depreciation 7&8 117,720 87,210"
+    }
+   ],
+   "cero": null,
+   "nota": "El deterioro de activos no corrientes (5,231 / 5,659) va en linea aparte y NO se incluye. 2024 incluye 4,768 de amortizacion de derechos de uso."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Profit for the year attributable to equity holders of the Parent",
+     "impreso": "298,315",
+     "pagina": 4,
+     "linea": "Profit for the year attributable to equity holders of the Parent 298,315 233,395"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit for the year attributable to equity holders of the Parent",
+     "impreso": "233,395",
+     "pagina": 4,
+     "linea": "Profit for the year attributable to equity holders of the Parent 298,315 233,395"
+    }
+   ],
+   "cero": null,
+   "nota": "Incluye operaciones discontinuadas (60,065 en 2024; 19,559 en 2023). Continuadas: 238,250 / 213,836."
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "(64,968)",
+     "pagina": 4,
+     "linea": "Income tax expense 10 (64,968) (54,813)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "(54,813)",
+     "pagina": 4,
+     "linea": "Income tax expense 10 (64,968) (54,813)"
+    }
+   ],
+   "cero": null,
+   "nota": "Solo operaciones continuadas."
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Profit before income tax from continuing operations",
+     "impreso": "303,218",
+     "pagina": 4,
+     "linea": "Profit before income tax from continuing operations 303,218 268,649"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit before income tax from continuing operations",
+     "impreso": "268,649",
+     "pagina": 4,
+     "linea": "Profit before income tax from continuing operations 303,218 268,649"
+    }
+   ],
+   "cero": null,
+   "nota": "Solo operaciones continuadas."
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Net cash from operating activities",
+     "impreso": "362,516",
+     "pagina": 7,
+     "linea": "Net cash from operating activities 362,516 263,437"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net cash from operating activities",
+     "impreso": "263,437",
+     "pagina": 7,
+     "linea": "Net cash from operating activities 362,516 263,437"
+    }
+   ],
+   "cero": null,
+   "nota": "Incluye flujos de operaciones discontinuadas (nota: 11,558 en 2024; 26,732 en 2023). Los subtotales intermedios impresos del estado de flujos (240,195 / 158,414) no cuadran con las lineas; el total 362,516 si cuadra: 538,510 de ajustes -84,994 -32,100 +11,200 -70,100."
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Payments for property, plant and equipment (impreso como 'Payments from sale')",
+     "impreso": "(160,063)",
+     "pagina": 7,
+     "linea": "Payments from sale of property, plant and equipment (160,063) (143,848)"
+    },
+    {
+     "concepto": "Payments for other intangible assets (impreso como 'Payments from sale')",
+     "impreso": "(8,737)",
+     "pagina": 7,
+     "linea": "Payments from sale of other intangible assets (8,737) (7,852)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Payments for property, plant and equipment",
+     "impreso": "(143,848)",
+     "pagina": 7,
+     "linea": "Payments from sale of property, plant and equipment (160,063) (143,848)"
+    },
+    {
+     "concepto": "Payments for other intangible assets",
+     "impreso": "(7,852)",
+     "pagina": 7,
+     "linea": "Payments from sale of other intangible assets (8,737) (7,852)"
+    }
+   ],
+   "cero": null,
+   "nota": "Las lineas se titulan 'Payments from sale of...' pero son salidas de caja (inversion)."
+  },
+  "adquisiciones": {
+   "actual": [
+    {
+     "concepto": "Acquisition of a subsidiary, net of cash acquired",
+     "impreso": "-",
+     "pagina": 7,
+     "linea": "Acquisition of a subsidiary, net of cash acquired - (254,086)"
+    },
+    {
+     "concepto": "Cash flows from loss of control of subsidiaries (cobro venta Italia)",
+     "impreso": "230,000",
+     "pagina": 7,
+     "linea": "Cash flows from loss of control of subsidiaries 230,000 -"
+    },
+    {
+     "concepto": "Other effects of disposal",
+     "impreso": "11,668",
+     "pagina": 7,
+     "linea": "Other effects of disposal 11,668 -"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Acquisition of a subsidiary, net of cash acquired (Vidroporto)",
+     "impreso": "(254,086)",
+     "pagina": 7,
+     "linea": "Acquisition of a subsidiary, net of cash acquired - (254,086)"
+    }
+   ],
+   "cero": null,
+   "nota": "2024 neto = cobros por venta de Italia (230,000 + 11,668 otros efectos de la venta). Aparte, 'Acquisition of companies accounted for using the equity method' (6,000) NO incluido (no es dependiente). Dudoso si 'Other effects of disposal' pertenece a la venta."
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Subtotal de variacion de capital circulante (inventories 36,800; receivables (15,655); payables 3,916; other current liabilities (106,417); translation effect (3,638))",
+     "impreso": "(84,994)",
+     "pagina": 7,
+     "linea": "Cash used in operating activities (84,994) (78,805)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Subtotal de variacion de capital circulante (inventories (83,925); receivables (34,457); payables (6,068); other current liabilities 47,199; translation (1,554))",
+     "impreso": "(78,805)",
+     "pagina": 7,
+     "linea": "Cash used in operating activities (84,994) (78,805)"
+    }
+   ],
+   "cero": null,
+   "nota": "Se da el subtotal impreso 'Cash used in operating activities' porque la linea 'Other current liabilities' 2024 sale con el parentesis mal impreso ('106,417)'). El subtotal cuadra exactamente con la suma de las cinco lineas en ambos anos. Incluye el efecto de conversion (-3,638 / -1,554)."
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "(32,100)",
+     "pagina": 7,
+     "linea": "Interest paid (32,100) (12,320)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "(12,320)",
+     "pagina": 7,
+     "linea": "Interest paid (32,100) (12,320)"
+    }
+   ],
+   "cero": null,
+   "nota": "Intereses cobrados aparte (11,200 / 7,774) en explotacion."
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los intereses pagados figuran en actividades de explotacion; el bloque de financiacion no tiene linea de intereses",
+    "pagina": 7
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": [
+    {
+     "concepto": "Lease liability payments (movimiento del pasivo por arrendamiento)",
+     "impreso": "(6,117)",
+     "pagina": 56,
+     "linea": "Payments (6,117) (5,861)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Lease liability payments",
+     "impreso": "(5,861)",
+     "pagina": 56,
+     "linea": "Payments (6,117) (5,861)"
+    }
+   ],
+   "cero": null,
+   "nota": "El estado de flujos NO tiene linea de arrendamientos; el pago procede de la nota 8 (movimiento del pasivo; puede incluir intereses 2,179 / 2,131, que se acumulan aparte). No se ve en que linea de financiacion va (probable 'Payments of loans and borrowings' o 'Payments from other debts'): riesgo de doble conteo."
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "No hay plan de pagos en acciones en el texto; no se encontro evidencia explicita de 'cero', asi que null."
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe no cifra el gasto de I+D reconocido en resultados (solo activos intangibles 'R&D')."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average number of ordinary shares outstanding (thousands); sin acciones potenciales dilutivas",
+     "impreso": "33,692",
+     "pagina": 81,
+     "linea": "outstanding (thousands) 33,692 32,263"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average number of ordinary shares outstanding (thousands)",
+     "impreso": "32,263",
+     "pagina": 81,
+     "linea": "outstanding (thousands) 33,692 32,263"
+    }
+   ],
+   "cero": null,
+   "nota": "Miles de acciones (nota 27: 'The Company has no dilutive potential ordinary shares', pag. 82). Dato 2023 sin ajustar por la ampliacion de capital de abril 2024 (BPA 2023 ajustado 6.89)."
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Equity attributed to equity holders of the Parent",
+     "impreso": "1,309,830",
+     "pagina": 3,
+     "linea": "Equity attributed to equity holders of the Parent 1,309,830 1,224,332"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Equity attributed to equity holders of the Parent",
+     "impreso": "1,224,332",
+     "pagina": 3,
+     "linea": "Equity attributed to equity holders of the Parent 1,309,830 1,224,332"
+    }
+   ],
+   "cero": null,
+   "nota": "2023 reexpresado."
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Loans and borrowings no corriente",
+     "impreso": "198,508",
+     "pagina": 71,
+     "linea": "Loans and borrowings 198,508 42,108 310,089 145,802"
+    },
+    {
+     "concepto": "Loans and borrowings corriente",
+     "impreso": "42,108",
+     "pagina": 71,
+     "linea": "Loans and borrowings 198,508 42,108 310,089 145,802"
+    },
+    {
+     "concepto": "Finance Lease - Others no corriente",
+     "impreso": "60,365",
+     "pagina": 71,
+     "linea": "Finance Lease - Others 60,365 60,857 278"
+    },
+    {
+     "concepto": "Other financial liabilities no corriente",
+     "impreso": "472",
+     "pagina": 71,
+     "linea": "Other financial liabilities 472 45,146 1.062 34,220"
+    },
+    {
+     "concepto": "Other financial liabilities corriente (incl. 45 M pagares MARF)",
+     "impreso": "45,146",
+     "pagina": 71,
+     "linea": "Other financial liabilities 472 45,146 1.062 34,220"
+    },
+    {
+     "concepto": "Accrued interest corriente",
+     "impreso": "1,809",
+     "pagina": 71,
+     "linea": "Accrued interest - 1,809 - 1,358"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Loans and borrowings no corriente",
+     "impreso": "310,089",
+     "pagina": 71,
+     "linea": "Loans and borrowings 198,508 42,108 310,089 145,802"
+    },
+    {
+     "concepto": "Loans and borrowings corriente",
+     "impreso": "145,802",
+     "pagina": 71,
+     "linea": "Loans and borrowings 198,508 42,108 310,089 145,802"
+    },
+    {
+     "concepto": "Finance Lease - Others no corriente",
+     "impreso": "60,857",
+     "pagina": 71,
+     "linea": "Finance Lease - Others 60,365 60,857 278"
+    },
+    {
+     "concepto": "Finance Lease - Others corriente",
+     "impreso": "278",
+     "pagina": 71,
+     "linea": "Finance Lease - Others 60,365 60,857 278"
+    },
+    {
+     "concepto": "Other financial liabilities no corriente",
+     "impreso": "1.062",
+     "pagina": 71,
+     "linea": "Other financial liabilities 472 45,146 1.062 34,220"
+    },
+    {
+     "concepto": "Other financial liabilities corriente",
+     "impreso": "34,220",
+     "pagina": 71,
+     "linea": "Other financial liabilities 472 45,146 1.062 34,220"
+    },
+    {
+     "concepto": "Accrued interest corriente",
+     "impreso": "1,358",
+     "pagina": 71,
+     "linea": "Accrued interest - 1,809 - 1,358"
+    }
+   ],
+   "cero": null,
+   "nota": "Nota 16 (total 393,312 = balance 300,624+92,688) menos 'Finance Lease - NIIF 16' (44,904). Incluye 'Finance Lease - Others' (60,365): arrendamiento financiero no IFRS 16 tratado como deuda; si se considera arrendamiento, restar."
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Lease liability final balance (NIIF 16)",
+     "impreso": "44,904",
+     "pagina": 56,
+     "linea": "Final balance at 12/31 44,904 45,382"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Lease liability final balance (NIIF 16)",
+     "impreso": "45,382",
+     "pagina": 56,
+     "linea": "Final balance at 12/31 44,904 45,382"
+    }
+   ],
+   "cero": null,
+   "nota": "41,279 no corriente + 3,625 corriente (2023: 42,269 + 3,113)."
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "100,094",
+     "pagina": 2,
+     "linea": "Cash and cash equivalents 100,094 81,506"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "81,506",
+     "pagina": 2,
+     "linea": "Cash and cash equivalents 100,094 81,506"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El activo corriente (pag. 2) no tiene inversiones financieras temporales ni depositos; solo hay 'Other financial assets' no corriente (1,570) y derivados",
+    "pagina": 2
+   },
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Personnel provision (planes de beneficio definido UK y otras obligaciones con empleados)",
+     "impreso": "6,053",
+     "pagina": 77,
+     "linea": "At 31 December 2024 50,699 6,053 11,258 68,010"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Personnel provision",
+     "impreso": "4,355",
+     "pagina": 77,
+     "linea": "At 31 December 2023 70,658 4,355 13,380 88,393"
+    }
+   ],
+   "cero": null,
+   "nota": "Provision de personal: incluye ademas de las pensiones/medico post-empleo (Encirc, UK) otras obligaciones con empleados (retribucion variable); el informe no separa el deficit neto."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El patrimonio solo muestra 'Equity attributed to equity holders of the Parent' (1,309,830 = activos 2,308,172 - pasivos 998,342); no hay linea de participaciones no dominantes",
+    "pagina": 3
+   },
+   "nota": null
+  }
+ }
+}
