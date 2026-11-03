@@ -3,9 +3,9 @@
  "convencion": "escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento",
  "copia_de_prueba": false,
  "V": [
-  13.913425028571,
-  24.863136444699,
-  40.7124063375276
+  10.2217860715938,
+  25.9235946188264,
+  38.699535665818
  ],
  "p": [
   0.3,
@@ -13,23 +13,23 @@
   0.2
  ],
  "precio": 39.12,
- "P_estrella": 20.685082509730577,
- "precio_si": 20.685082509730577,
+ "P_estrella": 18.68831994188201,
+ "precio_si": 18.68831994188201,
  "tope_normal_aplicado": false,
- "precio_escenario_malo": 13.913425028571,
+ "precio_escenario_malo": 10.2217860715938,
  "nota_malo": "no es un suelo de valor ni la pérdida máxima posible (D11)",
- "ponderado": 24.7480769984263,
+ "ponderado": 23.7682402640549,
  "zona": "caro",
- "G": 6.094491733043615,
- "L": 2.031497244347873,
- "g_impl_actual": 0.1359561843960254,
- "g_impl_si": -0.00868289902767458,
+ "G": 7.619880483259392,
+ "L": 2.5399601610864635,
+ "g_impl_actual": 0.1251128186733645,
+ "g_impl_si": -0.04242866845039687,
  "tabla_dcf_inverso_ok": true,
  "coincide_C86": true,
- "C156_regla_antigua": 13.913425028571,
+ "C156_regla_antigua": 10.2217860715938,
  "distancias": {
-  "a_precio_si": 0.4712402221439014,
-  "a_malo": 0.6443398510078988
+  "a_precio_si": 0.5222822100745907,
+  "a_malo": 0.7387069000103835
  },
  "aviso_tasa_descuento_mas_influyente": false,
  "notas": [

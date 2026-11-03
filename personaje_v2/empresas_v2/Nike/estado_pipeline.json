@@ -1,5 +1,5 @@
 {
- "paso": 8,
+ "paso": 10,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -74,20 +74,30 @@
   "2026-11-03T17:52:29 · paso 10 · formato de fase_c.json: corrección 1 a fase_c_turno1",
   "  $ python3 validar_esquema.py fase_c.json fase_c --turno 1 --salida esquema_fase_c.json.txt → 0 · VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)",
   "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_c.md fase_c.md → 0 · RESULTADO: PASS",
-  "2026-11-03T17:53:19 · paso 8 · fase C pide revisar_palancas: vuelve a la fase B una sola vez"
+  "2026-11-03T17:53:19 · paso 8 · fase C pide revisar_palancas: vuelve a la fase B una sola vez",
+  "  $ python3 validar_esquema.py fase_b.json fase_b --salida esquema_fase_b.json.txt → 0 · VÁLIDO · fase_b.json contra fase_b.esquema.json",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_b.md fase_b.md → 0 · RESULTADO: PASS",
+  "  $ python3 comprobar_gramatica.py Nike --antes-de-recalculo → 0 · código 0 · errores 0 · límites 0 · desviaciones 3 (sin justificar 0) · avisos 0 → gramatica.md",
+  "  $ python3 fase_a_celdas.py fase_b.json B celdas_B.json → 0 · OK: 92 celdas (incluidas E/F/N de Control maestro) → /home/user/Joselito/personaje_v2/empresas_v2/Nike/celdas_B.json",
+  "  $ python3 escribir_v63.py Nike_v63_evaluada.xlsx Nike_v63_evaluada.xlsx.tmp.xlsx --celdas celdas_B.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py Nike_v63_evaluada.xlsx Nike_v63_datos.xlsx --fases A,B → 0 · PASS: 0 errores · 48 celdas correctas · fases ['A', 'B'] · motor A",
+  "  $ bash recalc.sh Nike_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Nike/recalc/Nike_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Nike/.lo_perfil)",
+  "  $ python3 leer_resultados.py Nike_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Nike/resultados.json · motor A · estado INCOMPLETO · libro NO LISTO · incompleto (1 pendientes)",
+  "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 39.12 · esc. MALO 10.2217860715938 · precio de Sí 18.6883 (P* 18.6883) · ponderado 23.7682 · zona caro",
+  "  $ python3 comprobar_gramatica.py Nike --tras-recalculo → 0 · código 0 · errores 0 · límites 0 · desviaciones 6 (sin justificar 0) · avisos 3 → gramatica.md"
  ],
  "motor": "A",
  "fase_b_escrita": true,
  "fase_c_escrita": false,
- "esperando": "8:fase_b.json",
+ "esperando": "10:fase_c.json",
  "inicio": "2026-11-03T17:12:46",
- "esperando_desde": 1793728399.614176,
+ "esperando_desde": 1793728787.350321,
  "consumidos": {
   "extracto_v63.md": 1793727138.9225616,
   "fase_a.json": 1793727133.7825618,
-  "fase_b.json": 1793727570.494552,
+  "fase_b.json": 1793728727.7725413,
   "fase_c.json": 1793728387.6931074
  },
- "motivo_correccion": "la fase C pide revisar palancas: Una sola vuelta a la fase B. No se toca ninguna celda de la fase A. (1) Palancas!B15 (margen del MALO, hoy 0,08): BAJAR y re-derivar desde hechos dentro de 0,06–0,08. La Observación lee el IEEPA al revés: el reembolso infla FY2026, y sin él el margen EBIT de FY2026 es ≈6,1 % (Análisis C42: 11,06x frente a 14,1x sin reembolso; con C33, EBITDA LTM ≈4.600 y reembolso ≈1.000), ≈7,7 % si solo se descue",
+ "motivo_correccion": "la fase B ya revisó las palancas en la única vuelta C→B admitida (§4.5): el libro está recalculado con las palancas nuevas; otro revisar_palancas termina en no_entregable",
  "ficha_valida": true
 }

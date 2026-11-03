@@ -16,24 +16,24 @@
 - fase_b.palancas.crecimiento_1_5.BUENO.lo_sustituiria: 0,065 si FY2027 y FY2028 crecen más del 7 % con unidades y ASP al alza; 0,04 si el rebote no llega en FY2027.
 - fase_b.palancas.margen_objetivo.MALO.clase: fundamentada
 - fase_b.palancas.margen_objetivo.MALO.confianza: media
-- fase_b.palancas.margen_objetivo.MALO.porque: El MALO deja el margen en el suelo de FY2025 y le añade lo que FY2025 aún no tenía: aranceles sin repercutir, que la empresa espera que resten margen bruto en FY2026 sin cuantificarlos (extracto p. 33), y más demand creation para defender la marca (+9 % en FY2025, extracto p. 38). Eso lo lleva al mínimo de la serie, 8,0 % (2020, Historia C50), no al 8,8 % de 2025. La referencia (0,09) es el último año redondeado y supone que el arancel se absorbe sin coste. No tomo FY2026 como suelo: su EBIT lleva el reembolso IEEPA (Análisis C42).
-- fase_b.palancas.margen_objetivo.MALO.apoyo: Margen EBIT 8,0 % (2020) y 8,8 % (2025), Historia fila 29 y C50; FY2025: margen bruto −190 pb, unos 180 pb por menor ASP (extracto p. 38); reservas de ventas de 1.282 a 1.834 (extracto p. 71); aranceles sin cuantificar (extracto p. 33).
-- fase_b.palancas.margen_objetivo.MALO.lo_sustituiria: 0,09 si la empresa cuantifica el arancel y lo repercute en precio; 0,07 si FY2027 cierra con margen EBIT por debajo del 8 % sin partidas únicas.
+- fase_b.palancas.margen_objetivo.MALO.porque: El MALO de la fase A es el margen que se queda en el suelo con los aranceles sin repercutir, y ese estado ya está publicado: es FY2026 sin el reembolso IEEPA. El reembolso infla FY2026, no lo rebaja: con él el margen EBIT fue 8,3 %; sin los 986 del reembolso, el EBIT es ≈2.860, un 6,2 % (Análisis C27; coherente con C42, 11,06x frente a 14,1x sin reembolso, y C33). Le quito los 385 de despidos de FY2026, que no son el mecanismo: ≈7,0 %. Pero las reestructuraciones se repiten (FY2021, FY2024, FY2026 y Pace hasta FY2031, Análisis C98; 443 en FY2024, extracto p. 94): su media de FY2024–FY2026, ≈276 al año, resta ≈0,6 puntos. Queda ≈6,4 %, que redondeo a 0,065. El 8,0 % de 2020 (Historia C50) no sirve de suelo porque entonces no había aranceles. No uso la guía de FY2027.
+- fase_b.palancas.margen_objetivo.MALO.apoyo: Análisis C27: margen EBIT 8,3 % en FY2026 con 986 de reembolso IEEPA y 385 de despidos; sin el IEEPA ≈2.860 (6,2 %); Análisis C42 (11,06x; 14,1x sin reembolso; 11,7x descontando un cuarto) y C33; reestructuración de FY2024, 443 (extracto p. 94; p. 91); ventas FY2026 46.398 (Análisis C17); Historia C50 = 0,080 (2020).
+- fase_b.palancas.margen_objetivo.MALO.lo_sustituiria: 0,07 si FY2027 cierra sin cargos de reestructuración y con el arancel de FY2026 sin repercutir; 0,08 si la empresa repercute el arancel en precio; 0,06 si hay cargos de reestructuración cada año.
 - fase_b.palancas.margen_objetivo.NORMAL.clase: fundamentada
 - fase_b.palancas.margen_objetivo.NORMAL.confianza: media
-- fase_b.palancas.margen_objetivo.NORMAL.porque: Recuperación parcial: al dejar de liquidar, el margen bruto vuelve hacia el 43,5 % de FY2023 (extracto p. 35), unos 80–130 pb sobre el 42,7 %, y la estructura crece menos que las ventas; la demand creation sigue alta y el arancel se mitiga solo en parte. Queda entre 2025 (8,8 %) y 2023 (11,5 %) y por debajo de la media de diez años (12,4 %, Historia C49), porque Nike se queda solo una parte de la mejora. La referencia (0,09) es no recuperar nada, que es mi MALO.
+- fase_b.palancas.margen_objetivo.NORMAL.porque: Recuperación parcial: al dejar de liquidar, el margen bruto vuelve hacia el 43,5 % de FY2023 (extracto p. 35), unos 80–130 pb sobre el 42,7 %, y la estructura crece menos que las ventas; la demand creation sigue alta y el arancel se mitiga solo en parte. Queda entre 2025 (8,8 %) y 2023 (11,5 %) y por debajo de la media de diez años (12,4 % en Historia C49; ≈12,2 % con el EBIT de 2024 corregido, historia_revision.md), porque Nike se queda solo una parte de la mejora. La referencia (0,09) es no recuperar nada. No la cambio en esta vuelta: la fase C no la pide.
 - fase_b.palancas.margen_objetivo.NORMAL.apoyo: Margen EBIT 11,5 % (2023) y 8,8 % (2025), Historia fila 29; media 12,4 % (Historia C49); margen bruto 43,5 % (FY2023), 44,6 % (FY2024) y 42,7 % (FY2025) (extracto p. 35); demand creation +9 % (extracto p. 38).
 - fase_b.palancas.margen_objetivo.NORMAL.lo_sustituiria: 0,12 si FY2027 recupera un margen bruto ≥ 44 % sin partidas únicas; 0,09 si FY2027 sigue en el nivel de 2025.
 - fase_b.palancas.margen_objetivo.BUENO.clase: fundamentada
 - fase_b.palancas.margen_objetivo.BUENO.confianza: media
-- fase_b.palancas.margen_objetivo.BUENO.porque: Vuelve el precio completo, como en FY2024: el margen bruto subió 110 pb, con unos 200 pb por precio completo neto de descuentos (extracto p. 39), y el margen EBIT fue 13,8 % (Historia fila 29). La mejora es de precio y mezcla y se la queda Nike. No llego al 15,6 % de 2021 (Historia C51): los aranceles son un coste que en 2021–2022 no existía (extracto p. 33). Supera el Q3 del sector (11,2 %): lo justifico en G5 con hechos de esta empresa.
-- fase_b.palancas.margen_objetivo.BUENO.apoyo: Margen EBIT 15,6 % (2021), 14,3 % (2022) y 13,8 % (2024), Historia fila 29; máximo 15,6 % (Historia C51); margen bruto 44,6 % en FY2024 (extracto p. 39). «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).
-- fase_b.palancas.margen_objetivo.BUENO.lo_sustituiria: 0,15 si el arancel se repercute entero y el margen bruto pasa del 46 %; 0,12 si la recuperación se queda en un margen bruto del 44 %.
+- fase_b.palancas.margen_objetivo.BUENO.porque: La fase A ancla el BUENO en los niveles de 2021–2022 (15,6 % y 14,3 %, Historia fila 29; media ≈14,9 %) con la vuelta del precio completo. Le resto un coste que en 2021–2022 no existía: el arancel, ≈2,1 puntos de ventas si lo mido por el reembolso IEEPA de FY2026 (986 sobre 46.398, Análisis C27). No lo repercuto aparte: la subida de precio (≈200 pb de margen bruto en FY2024, extracto p. 39) es la palanca que devuelve el margen de 2021–2022 y no se cuenta dos veces. ≈12,8 %, que redondeo a 0,13. Retiro el apoyo del 13,8 % de FY2024: es un error de signo de la Historia (EBIT 6.311 en el 10-K de 2024, 12,3 %; publicado 6.539, 12,7 %, extracto p. 40; historia_revision.md). Supera el Q3 del sector (11,2 %): G5 justificada con hechos de esta empresa.
+- fase_b.palancas.margen_objetivo.BUENO.apoyo: Margen EBIT 15,6 % (2021) y 14,3 % (2022), Historia fila 29; máximo 15,6 % (Historia C51); reembolso IEEPA 986 y ventas 46.398 (Análisis C27, C17); FY2024 margen bruto +110 pb, ~200 por precio completo (extracto p. 39); EBIT publicado FY2024 6.539, 12,7 % (extracto p. 40). «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).
+- fase_b.palancas.margen_objetivo.BUENO.lo_sustituiria: 0,14 si la empresa repercute en precio la mitad del arancel; 0,125 si el BUENO solo llega al FY2024 real (12,7 %).
 - fase_b.palancas.s2c.MALO.clase: fundamentada
 - fase_b.palancas.s2c.MALO.confianza: media
-- fase_b.palancas.s2c.MALO.porque: Copio la banda de la referencia porque los hechos van en esa dirección: en el MALO cada euro de ventas pide más circulante, porque los cobros ya crecen más que las ventas (DSO de 29 a 41 días, Análisis C31) y pesa más el canal mayorista con crédito (58 %, extracto p. 37). Con ventas a −1 % la reinversión es casi nula y el S2C mueve poco el valor.
-- fase_b.palancas.s2c.MALO.apoyo: S2C marginal propio 4,96 (Historia C53) y medio 3,07 (Historia C54); cobros +25,7 % con ventas +0,2 % en FY2026 (Análisis C31); 3,7 = 0,75 × la referencia del NORMAL (banda del ejercicio).
-- fase_b.palancas.s2c.MALO.lo_sustituiria: 3,0 (el S2C medio, Historia C54) si inventario y cobros siguen creciendo más que las ventas en FY2027.
+- fase_b.palancas.s2c.MALO.porque: Corrijo el porqué: con ventas que caen (−1 % anual), la reinversión es Δventas ÷ S2C y sale negativa, así que un S2C bajo libera capital más deprisa y favorece al MALO. Los hechos dicen que Nike no libera capital cuando vende menos: en FY2025 las ventas cayeron 9,8 % (Historia fila 28) con el inventario plano (7.519 → 7.489, extracto p. 61), y en FY2026 los cobros subieron 25,7 % con ventas +0,2 % (DSO 29 → 41 días, Análisis C31). El capital es pegajoso a la baja: tomo el S2C marginal propio, 4,96 (Historia C53), redondeado a 5,0. La referencia (0,75 × NORMAL) es una banda del ejercicio sin hecho detrás. Rentabilidad marginal 5,0 × 0,065 × (1 − 0,147) ≈ 0,28.
+- fase_b.palancas.s2c.MALO.apoyo: Historia C53 = 4,96; ventas −9,8 % en 2025 (Historia fila 28) con inventario 7.519 → 7.489 (extracto p. 61); cobros +25,7 % con ventas +0,2 % y DSO 29 → 41 días (Análisis C31).
+- fase_b.palancas.s2c.MALO.lo_sustituiria: 3,7 si FY2027 baja ventas y a la vez inventario y cobros en la misma proporción.
 - fase_b.palancas.s2c.NORMAL.clase: fundamentada
 - fase_b.palancas.s2c.NORMAL.confianza: media
 - fase_b.palancas.s2c.NORMAL.porque: Es la historia propia: S2C marginal 4,96 (Historia C53). Nike no fabrica (fábricas contratadas, extracto p. 6) y su capex de caja es pequeño (430 en FY2025) frente a una amortización de 775 (extracto p. 62); la recuperación parcial no pide más capital por euro que la década pasada. Rentabilidad marginal 5,0 × 0,105 × (1 − 0,147) ≈ 0,45.
@@ -41,8 +41,8 @@
 - fase_b.palancas.s2c.NORMAL.lo_sustituiria: 4,0 si el giro a mayoristas mantiene el DSO por encima de 40 días dos años; 6,0 si el inventario baja con ventas al alza.
 - fase_b.palancas.s2c.BUENO.clase: fundamentada
 - fase_b.palancas.s2c.BUENO.confianza: media
-- fase_b.palancas.s2c.BUENO.porque: El crecimiento del BUENO es de precio y mezcla: el ASP sube sin unidades nuevas que fabricar o almacenar, como en FY2024 (ASP del calzado +3 puntos con unidades −2 %, extracto p. 38). Un euro de ventas que viene de precio pide poco capital. Rentabilidad marginal 6,2 × 0,135 × (1 − 0,147) ≈ 0,71: alta, y de la misma familia que el ROIC de los años de margen alto (49 % en 2021, Historia fila 33).
-- fase_b.palancas.s2c.BUENO.apoyo: FY2024: ASP +3 puntos y unidades −2 % (extracto p. 38); capex 430 (extracto p. 62); S2C marginal 4,96 (Historia C53); ROIC 49,3 % (2021) y 40,7 % (2024), Historia fila 33.
+- fase_b.palancas.s2c.BUENO.porque: El crecimiento del BUENO es de precio y mezcla: el ASP sube sin unidades nuevas que fabricar o almacenar, como en FY2024 (ASP del calzado +3 puntos con unidades −2 %, extracto p. 38). Un euro de ventas que viene de precio pide poco capital. Rentabilidad marginal 6,2 × 0,13 × (1 − 0,147) ≈ 0,69: alta, y por encima del mejor ROIC de la década (51,6 % en 2019, Historia fila 33), lo que dejo dicho como optimismo del S2C; su efecto en el valor es pequeño.
+- fase_b.palancas.s2c.BUENO.apoyo: FY2024: ASP +3 puntos y unidades −2 % (extracto p. 38); capex 430 (extracto p. 62); S2C marginal 4,96 (Historia C53); ROIC 51,6 % (2019) y 49,3 % (2021), Historia fila 33.
 - fase_b.palancas.s2c.BUENO.lo_sustituiria: 5,0 si el BUENO llega por unidades (más fábricas contratadas e inventario) y no por precio.
 - fase_b.palancas.g_perpetuo.MALO.clase: fundamentada
 - fase_b.palancas.g_perpetuo.MALO.confianza: media
@@ -51,7 +51,7 @@
 - fase_b.palancas.g_perpetuo.MALO.lo_sustituiria: 0,015 si FY2027–FY2028 vuelven a crecer en unidades.
 - fase_b.palancas.g_perpetuo.NORMAL.clase: fundamentada
 - fase_b.palancas.g_perpetuo.NORMAL.confianza: media
-- fase_b.palancas.g_perpetuo.NORMAL.porque: Crecimiento nominal de una empresa madura: por debajo de su CAGR de diez años (4,1 %, Historia C47) y de la tasa sin riesgo (4,94 %, Análisis C57). Con ROIC terminal 0,12 reinvierte g ÷ ROIC ≈ 21 % del beneficio, que su capex pequeño permite.
+- fase_b.palancas.g_perpetuo.NORMAL.porque: Crecimiento nominal de una empresa madura: por debajo de su CAGR de diez años (4,1 %, Historia C47) y de la tasa sin riesgo (4,94 %, Análisis C57). Con ROIC terminal 0,15 reinvierte g ÷ ROIC ≈ 17 % del beneficio, que su capex pequeño permite.
 - fase_b.palancas.g_perpetuo.NORMAL.apoyo: Historia C47 = 4,1 %; Análisis C57 = 0,0494; capex 430 (extracto p. 62); 57 % de las ventas fuera de EE. UU. (extracto p. 6). g ≤ tasa sin riesgo como orientación (CV; E1).
 - fase_b.palancas.g_perpetuo.NORMAL.lo_sustituiria: 0,02 si el ROIC publicado baja del 15 % dos años seguidos (Análisis C24).
 - fase_b.palancas.g_perpetuo.BUENO.clase: convención
@@ -61,23 +61,23 @@
 - fase_b.palancas.g_perpetuo.BUENO.lo_sustituiria: 0,025 si el BUENO dependiera de China (margen bruto de 51,0 % a 46,0 %, extracto p. 43).
 - fase_b.palancas.roic_lp.MALO.clase: fundamentada
 - fase_b.palancas.roic_lp.MALO.confianza: media
-- fase_b.palancas.roic_lp.MALO.porque: En el MALO la ventaja se agota: sin rentabilidad en exceso a perpetuidad. Lo sostiene la tendencia, no el nivel: el ROIC publicado cae cada año de FY2021 a FY2026, de 48,8 % a 18,7 % (Análisis C24), y Converse enseña que una marca de la casa se vacía (EBIT 676 → 240, extracto p. 40). Con 8 % de margen el ROIC propio aún fue 21–22 % (Historia fila 33): el salto del año 11 frente a la rentabilidad marginal (≈0,25) es mi hipótesis de pérdida de la marca, y la escribo así.
-- fase_b.palancas.roic_lp.MALO.apoyo: ROIC publicado 48,8 → 18,7 % (Análisis C24); Converse (extracto p. 40); ROIC 21,3 % (2020) y 22,4 % (2025), Historia fila 33. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).
+- fase_b.palancas.roic_lp.MALO.porque: En el MALO la ventaja se agota: sin rentabilidad en exceso a perpetuidad. Lo sostiene la tendencia, no el nivel: el ROIC publicado cae cada año de FY2021 a FY2026, de 48,8 % a 18,7 % (Análisis C24), y Converse enseña que una marca de la casa se vacía (EBIT 676 → 240, extracto p. 40). Salto del año 11: rentabilidad marginal 5,0 × 0,065 × (1 − 0,147) ≈ 0,277 frente a 0,09, un salto de ≈0,187. Lo que se pierde en el año 11 es la marca como fuente de rentabilidad sobre el capital nuevo; en los años 1–10 esa rentabilidad apenas actúa porque las ventas caen y la reinversión es negativa: el salto es sobre todo aritmética de una empresa que encoge. Con 8 % de margen el ROIC propio aún fue 21–22 % (Historia fila 33): la tasa es mi hipótesis de pérdida de la marca, y la escribo así.
+- fase_b.palancas.roic_lp.MALO.apoyo: ROIC publicado 48,8 → 18,7 % (Análisis C24); Converse (extracto p. 40); ROIC 21,3 % (2020) y 22,4 % (2025), Historia fila 33. «We don't think because it's never happened that it won't» (AIWTK p.55; HIM).
 - fase_b.palancas.roic_lp.MALO.lo_sustituiria: 0,12 si dos años de margen bajo no llevan el ROIC publicado por debajo del 18 % (Análisis C24).
 - fase_b.palancas.roic_lp.NORMAL.clase: fundamentada
-- fase_b.palancas.roic_lp.NORMAL.confianza: media
-- fase_b.palancas.roic_lp.NORMAL.porque: El foso existe pero se estrecha (C18 = Sí en la fase A): dejo 3 puntos de rentabilidad en exceso a perpetuidad, lo que el criterio admite como mucho (MR pp. 62–63; E2), y no más porque no sé cuánto dura su periodo al sol. La referencia (0,09) supone que el foso desaparece también en el NORMAL, y eso contradice diez años de ROIC ≥ 21 % (Historia fila 33). Leo ese ROIC inflado: el gasto de marca (4.689, extracto p. 38) va a resultados y no al capital.
-- fase_b.palancas.roic_lp.NORMAL.apoyo: ROIC ≥ 21 % en 2016–2025 (Historia fila 33); media de cinco años 36,9 % (Historia C55); 18,7 % en FY2026 (Análisis C24); demand creation 4.689 (extracto p. 38); patrocinio comprometido 16.200 (extracto p. 50).
-- fase_b.palancas.roic_lp.NORMAL.lo_sustituiria: 0,09 si el ROIC publicado baja del 15 % dos años seguidos; 0,15 si vuelve al 25 % con el margen recuperado.
+- fase_b.palancas.roic_lp.NORMAL.confianza: baja
+- fase_b.palancas.roic_lp.NORMAL.porque: Re-derivo la cifra desde hechos y no desde el umbral. En el NORMAL el foso existe y se estrecha (C18 = Sí): en el año 11 Nike rinde sobre el capital nuevo lo que rinde el competidor medio del sector, 15,3 % (ROIC medio del sector, H18). No lo dejo más abajo porque ni en el peor año de la serie (FY2026, margen 8,3 %) el ROIC publicado bajó del 18,7 % (Análisis C24), y el NORMAL termina con margen 10,5 %. No lo dejo en su nivel propio (ROIC ≥ 21 % en 2016–2025, Historia fila 33) porque la serie publicada cae cinco años seguidos y Converse muestra que una marca de la casa se vacía (extracto p. 40); además ese ROIC está inflado porque el gasto de marca (4.689, extracto p. 38) no está en el capital. Cruza G4 (C56 + 0,03 = 0,12): justificado con la duración y lo que la sostiene. Salto del año 11: 0,448 − 0,15 ≈ 0,298. Queda igual que el BUENO (D18).
+- fase_b.palancas.roic_lp.NORMAL.apoyo: ROIC medio del sector 15,3 % (H18, datos_v63 sección 4); ROIC publicado 48,8 → 18,7 % FY2021–FY2026 (Análisis C24); ROIC ≥ 21 % en 2016–2025 (Historia fila 33); Converse EBIT 676 → 240 (extracto p. 40); demand creation 4.689 (extracto p. 38); patrocinio comprometido 16.200 (extracto p. 50).
+- fase_b.palancas.roic_lp.NORMAL.lo_sustituiria: 0,12 si el ROIC publicado baja del 15 % dos años seguidos (Análisis C24); 0,18 si vuelve al 25 % con el margen recuperado.
 - fase_b.palancas.roic_lp.BUENO.clase: fundamentada
 - fase_b.palancas.roic_lp.BUENO.confianza: baja
-- fase_b.palancas.roic_lp.BUENO.porque: En el BUENO vuelve el poder de precio y el foso dura más allá del año 10, como ya duró los diez años de la Historia: ROIC ≥ 21 % incluso en la pandemia y en FY2025 (Historia fila 33). Pongo 0,15, seis puntos sobre r y muy por debajo de su peor año, porque el ROIC propio está inflado por un gasto de marca que no se capitaliza y porque los grandes récords se diluyen. Supera r + 0,03: lo justifico en G4 con la duración y lo que la sostiene.
-- fase_b.palancas.roic_lp.BUENO.apoyo: Historia fila 33 y C55 (0,369); demand creation 4.689 (extracto p. 38) y patrocinio comprometido 16.200 (extracto p. 50); fondo de comercio 240, sin adquisiciones (extracto p. 61). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
+- fase_b.palancas.roic_lp.BUENO.porque: En el BUENO vuelve el poder de precio y el foso dura más allá del año 10, como ya duró los diez años de la Historia: ROIC ≥ 21 % incluso en la pandemia y en FY2025 (Historia fila 33). Pongo 0,15, seis puntos sobre r y muy por debajo de su peor año, porque el ROIC propio está inflado por un gasto de marca que no se capitaliza y porque los grandes récords se diluyen. Salto del año 11: 6,2 × 0,13 × (1 − 0,147) ≈ 0,688 frente a 0,15, ≈0,538: en los años 1–10 crece por precio y mezcla, que apenas piden capital; esa mejora es finita y desde el año 11 crecer es volumen. Tras re-derivar C18 queda igual que el NORMAL: la diferencia entre escenarios está en el margen y el S2C. No cambio D18 en esta vuelta (no me la piden); si la fase C quiere separarlos, los hechos del BUENO apuntan a 0,18 (ROIC publicado 31,5 % y 34,9 % en FY2023–FY2024, Análisis C24). Supera r + 0,03: G4 justificada.
+- fase_b.palancas.roic_lp.BUENO.apoyo: Historia fila 33 y C55 (0,369; ≈0,36 con el EBIT de 2024 corregido, historia_revision.md); Análisis C24; demand creation 4.689 (extracto p. 38) y patrocinio comprometido 16.200 (extracto p. 50); fondo de comercio 240, sin adquisiciones (extracto p. 61). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
 - fase_b.palancas.roic_lp.BUENO.lo_sustituiria: 0,12 si el margen vuelve pero el ROIC publicado no pasa del 25 %; 0,18 con cinco años de ROIC publicado por encima del 30 %.
 - fase_b.palancas.probabilidades.MALO.clase: fundamentada
 - fase_b.palancas.probabilidades.MALO.confianza: media
-- fase_b.palancas.probabilidades.MALO.porque: Muevo 0,1 del NORMAL al MALO. El MALO es que el margen se quede donde ya está: 2025 cerró en 8,8 % (Historia fila 29), el ROIC publicado siguió cayendo en FY2026 (18,7 %, Análisis C24) y la guía de FY2027 apunta a un beneficio inferior a cualquier media histórica (Análisis C46; guía, no hecho). Partir dentro del escenario hace más probable quedarse que lo que dice la frecuencia de la década (2 de 10 años con margen ≤ 9 %: 2020 y 2025).
-- fase_b.palancas.probabilidades.MALO.apoyo: Margen EBIT 8,0 % (2020) y 8,8 % (2025), Historia fila 29; ROIC publicado FY2021–FY2026 (Análisis C24); guía FY2027 (Análisis C46). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).
+- fase_b.palancas.probabilidades.MALO.porque: Muevo 0,1 del NORMAL al MALO. El MALO es el estado que ya se publicó: FY2026 sin el reembolso IEEPA tuvo un margen EBIT de ≈6,2 % (Análisis C27), 2025 cerró en 8,8 % (Historia fila 29) y el ROIC publicado siguió cayendo en FY2026 (18,7 %, Análisis C24). Partir dentro del escenario hace más probable quedarse que lo que dice la frecuencia de la década.
+- fase_b.palancas.probabilidades.MALO.apoyo: Análisis C27 (FY2026 sin IEEPA ≈6,2 %); margen EBIT 8,0 % (2020) y 8,8 % (2025), Historia fila 29; ROIC publicado FY2021–FY2026 (Análisis C24). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).
 - fase_b.palancas.probabilidades.MALO.lo_sustituiria: 0,2 si FY2027 cierra con margen bruto ≥ 44 % sin partidas únicas; 0,4 si FY2027 cierra con margen EBIT por debajo del 8 %.
 - fase_b.palancas.probabilidades.NORMAL.clase: fundamentada
 - fase_b.palancas.probabilidades.NORMAL.confianza: media
@@ -86,10 +86,10 @@
 - fase_b.palancas.probabilidades.NORMAL.lo_sustituiria: 0,6 si FY2027 muestra el ASP sumando y margen bruto al alza; 0,4 si sube el MALO.
 - fase_b.palancas.probabilidades.BUENO.clase: fundamentada
 - fase_b.palancas.probabilidades.BUENO.confianza: media
-- fase_b.palancas.probabilidades.BUENO.porque: Lo mantengo: 2 de los 9 años con dato (2017 y 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13,5 %, que es lo que pide mi BUENO (Historia filas 28–29). No le doy más que al MALO.
+- fase_b.palancas.probabilidades.BUENO.porque: Lo mantengo: 2 de los 9 años con dato (2017 y 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13 %, que es lo que pide mi BUENO (Historia filas 28–29; 2024 tuvo 12,3 % con el EBIT corregido y creció 0,3 %). No le doy más que al MALO.
 - fase_b.palancas.probabilidades.BUENO.apoyo: Crecimiento 6,1 % y margen 13,8 % en 2017; 19,1 % y 15,6 % en 2021 (Historia filas 28–29).
 - fase_b.palancas.probabilidades.BUENO.lo_sustituiria: 0,1 si en dos años no hay señal de venta a precio completo (ASP restando en FY2027).
-- fase_b.palancas.probabilidades.argumento: Referencia 0,2/0,6/0,2 (convención del ejercicio). La muevo a 0,3/0,5/0,2 porque el punto de partida ya está dentro del MALO: margen 8,8 % en 2025 (Historia fila 29), ROIC publicado cayendo hasta FY2026 (Análisis C24) y una guía de FY2027 por debajo de cualquier media (Análisis C46). El BUENO queda en su frecuencia de la década (2 de 9 años, Historia filas 28–29) y por debajo del MALO. No es doble castigo: el MALO dice cuánto, la probabilidad dice cuán probable, y la r (C56) no lleva prima por este riesgo ni hay quiebra en C22. Los tres escenarios cubren el rango de la década (margen 8,0–15,6 %), por eso suman 1 (PA; E6).
+- fase_b.palancas.probabilidades.argumento: Referencia 0,2/0,6/0,2 (convención del ejercicio). La muevo a 0,3/0,5/0,2 porque el punto de partida ya está dentro del MALO: FY2026 sin reembolso IEEPA ≈6,2 % (Análisis C27), margen 8,8 % en 2025 (Historia fila 29) y ROIC publicado cayendo hasta FY2026 (Análisis C24). El BUENO queda en su frecuencia de la década (2 de 9 años, Historia filas 28–29) y por debajo del MALO. No es doble castigo: el MALO dice cuánto, la probabilidad dice cuán probable, y la r (C56) no lleva prima por este riesgo ni hay quiebra en C22. Los tres escenarios cubren el rango que va de FY2026 sin reembolso a 2021–2022 menos aranceles (margen 6,5–13 %), por eso suman 1 (PA; E6).
 - fase_b.quiebra.clase: fundamentada
 - fase_b.quiebra.porque: La referencia (0,05) la dispara una regla mecánica: deuda + arrendamientos (Historia C64 = 11.018) > 3 × FCF base (3.280). La regla no mira la caja: con 9.151 de caja e inversiones a corto (Historia C66) la deuda neta con arrendamientos es ≈1.870, por debajo de 3 × FCF. No hay causa concreta de apalancamiento ni de liquidez: deuda neta ÷ EBITDA −0,10x (Análisis C33), la caja cubre la deuda a corto 1,76x (Análisis C34), A+ y líneas de 3.000 sin disponer (extracto p. 49, p. 73), sin covenants de ratio (extracto p. 49), sin emisiones desde 2020 (Análisis C54). Por eso C22 queda vacía (= 0) y C23 también; no declaro disparador. El riesgo de Nike es de pérdida permanente por margen (C20), y ese ya está en el MALO y en su probabilidad: no lo cuento otra vez como quiebra (PA; E6).
 - fase_b.exceso_caja.clase: fundamentada
@@ -97,41 +97,79 @@
 - fase_b.fcf_normalizado.porque: No aplica: la fase A declaró C43 = No aplica porque el FCF base es positivo (3.280 = 4.665 − 642 − 743, Análisis C52). Observo que esa base de tres años lleva la liberación de inventario de FY2024 (+908, extracto p. 62) y que el FCF tras SBC de FY2026 fue 1.469 (Análisis C40); no cambio la base (no es mía) y lo dejo dicho para la fase C, que puede devolverlo a la fase A si lo cree material.
 - fase_b.desviaciones_justificadas[0].comprobacion: G5
 - fase_b.desviaciones_justificadas[0].escenario: BUENO
-- fase_b.desviaciones_justificadas[0].justificacion: Margen objetivo del BUENO 0,135 por encima del Q3 del sector (0,112) y por debajo del máximo propio (0,156). Mecanismo: precio y mezcla. En FY2024 el margen bruto subió 110 pb, con unos 200 pb por precio completo neto de descuentos («strategic pricing actions»), y el margen EBIT fue 13,8 %; en 2021–2022 fue 15,6 % y 14,3 %. Quién se queda la mejora: Nike, porque es precio y no volumen (unidades de calzado −2 % en FY2024 con ASP +3 puntos). No llego al máximo de 2021 porque los aranceles son un coste nuevo que la empresa espera que reste margen bruto. El Q3 del sector es un dato de otras empresas; esta empresa ya hizo cinco de diez años por encima de 13,5 %.
-- fase_b.desviaciones_justificadas[0].hechos[0]: Historia fila 29: margen EBIT 15,6 % (2021), 14,3 % (2022), 13,8 % (2024), 13,9 % (2016), 13,8 % (2017)
+- fase_b.desviaciones_justificadas[0].justificacion: Margen objetivo del BUENO 0,13, por encima del Q3 del sector (0,112) y por debajo del máximo propio (0,156). Mecanismo: precio y mezcla. El BUENO devuelve el margen de 2021–2022 (15,6 % y 14,3 %, media ≈14,9 %) y le resta un arancel que entonces no existía, ≈2,1 puntos de ventas (el reembolso IEEPA de FY2026, 986 sobre 46.398). La palanca de precio está probada en esta empresa: en FY2024 el precio completo neto de descuentos sumó unos 200 pb de margen bruto con unidades de calzado −2 %. Quién se queda la mejora: Nike, porque es precio y no volumen. Retiro el apoyo del 13,8 % de FY2024, que era un error de signo de la Historia (6.311 en el 10-K de 2024, 12,3 %; publicado 12,7 %). Cuatro de diez años propios quedaron en 13 % o más (2016, 2017, 2021 y 2022); el Q3 del sector es un dato de otras empresas.
+- fase_b.desviaciones_justificadas[0].hechos[0]: Historia fila 29: margen EBIT 13,9 % (2016), 13,8 % (2017), 15,6 % (2021), 14,3 % (2022)
 - fase_b.desviaciones_justificadas[0].hechos[1]: Historia C51: máximo 0,156
-- fase_b.desviaciones_justificadas[0].hechos[2]: extracto p. 39: FY2024 margen bruto +110 pb, ~200 pb por precio completo neto de descuentos
-- fase_b.desviaciones_justificadas[0].hechos[3]: extracto p. 38: FY2024 ASP del calzado +3 puntos con unidades −2 %
-- fase_b.desviaciones_justificadas[0].hechos[4]: extracto p. 33: impacto negativo esperado de los aranceles en el margen bruto
+- fase_b.desviaciones_justificadas[0].hechos[2]: Análisis C27: reembolso IEEPA de 986 en FY2026; Análisis C17: ventas FY2026 46.398
+- fase_b.desviaciones_justificadas[0].hechos[3]: extracto p. 39: FY2024 margen bruto +110 pb, ~200 pb por precio completo neto de descuentos
+- fase_b.desviaciones_justificadas[0].hechos[4]: extracto p. 38: FY2024 ASP del calzado +3 puntos con unidades −2 %
+- fase_b.desviaciones_justificadas[0].hechos[5]: extracto p. 40: EBIT publicado FY2024 6.539, 12,7 % (historia_revision.md: 6.311 en el 10-K de 2024)
 - fase_b.desviaciones_justificadas[0].clase: fundamentada
 - fase_b.desviaciones_justificadas[1].comprobacion: G4
-- fase_b.desviaciones_justificadas[1].escenario: BUENO
-- fase_b.desviaciones_justificadas[1].justificacion: ROIC a largo plazo del BUENO 0,15, tres puntos por encima de C56 + 0,03 (0,12), con C18 = Sí. Qué la sostiene: marca y escala en creación de demanda (4.689 de demand creation al año y 16.200 de patrocinio comprometido), que en el BUENO recupera el poder de precio. Cuánto dura: en el BUENO, más allá del año 10, porque ya duró los diez años observados: ROIC ≥ 21 % todos los años de 2016 a 2025, incluidos la pandemia (21,3 %) y FY2025 (22,4 %), sin adquisiciones que lo compren. Lo dejo muy por debajo de su peor año porque el ROIC propio está inflado: el gasto de marca va a resultados y no al capital, y el ROIC publicado ha caído de 48,8 % a 18,7 % en cinco años. Es el escenario con probabilidad 0,2 y confianza baja.
-- fase_b.desviaciones_justificadas[1].hechos[0]: Historia fila 33: ROIC 2016–2025 entre 21,3 % y 51,6 %
-- fase_b.desviaciones_justificadas[1].hechos[1]: Historia C55: ROIC medio de cinco años 0,369
-- fase_b.desviaciones_justificadas[1].hechos[2]: Análisis C24: ROIC publicado 48,8 % (FY2021) a 18,7 % (FY2026)
+- fase_b.desviaciones_justificadas[1].escenario: NORMAL
+- fase_b.desviaciones_justificadas[1].justificacion: ROIC a largo plazo del NORMAL 0,15, tres puntos por encima de C56 + 0,03 (0,12), con C18 = Sí. Sale de un hecho y no del umbral: es el ROIC medio del sector (15,3 %). Qué lo sostiene: la marca y la escala en creación de demanda (4.689 de demand creation al año, 16.200 de patrocinio comprometido), una economía de marca que el sector comparte. Cuánto dura: el NORMAL no supone que Nike conserve su ventaja propia (ROIC ≥ 21 % en 2016–2025), sino que desde el año 11 rinda como el competidor medio, que es un estado del sector y no un logro de la empresa; por eso puede durar a perpetuidad sin pedir que la marca gane. No lo bajo porque ni en el peor año de la serie (FY2026, margen 8,3 %) el ROIC publicado bajó del 18,7 %; no lo subo porque la serie cae cinco años seguidos y Converse muestra que una marca de la casa se vacía.
+- fase_b.desviaciones_justificadas[1].hechos[0]: H18 (datos_v63 sección 4): ROIC medio del sector 0,153
+- fase_b.desviaciones_justificadas[1].hechos[1]: Análisis C24: ROIC publicado 48,8 % (FY2021) a 18,7 % (FY2026), caída cada año
+- fase_b.desviaciones_justificadas[1].hechos[2]: Historia fila 33: ROIC 21,3 %–51,6 % en 2016–2025
 - fase_b.desviaciones_justificadas[1].hechos[3]: extracto p. 38: demand creation 4.689
 - fase_b.desviaciones_justificadas[1].hechos[4]: extracto p. 50: compromisos de patrocinio 16.200
-- fase_b.desviaciones_justificadas[1].hechos[5]: extracto p. 61: fondo de comercio 240
+- fase_b.desviaciones_justificadas[1].hechos[5]: extracto p. 40: EBIT de Converse 676 → 240
 - fase_b.desviaciones_justificadas[1].clase: fundamentada
+- fase_b.desviaciones_justificadas[2].comprobacion: G4
+- fase_b.desviaciones_justificadas[2].escenario: BUENO
+- fase_b.desviaciones_justificadas[2].justificacion: ROIC a largo plazo del BUENO 0,15, tres puntos por encima de C56 + 0,03 (0,12), con C18 = Sí. Qué la sostiene: marca y escala en creación de demanda (4.689 de demand creation al año y 16.200 de patrocinio comprometido), que en el BUENO recupera el poder de precio. Cuánto dura: en el BUENO, más allá del año 10, porque ya duró los diez años observados: ROIC ≥ 21 % todos los años de 2016 a 2025, incluidos la pandemia (21,3 %) y FY2025 (22,4 %), sin adquisiciones que lo compren. Lo dejo muy por debajo de su peor año porque el ROIC propio está inflado: el gasto de marca va a resultados y no al capital, y el ROIC publicado ha caído de 48,8 % a 18,7 % en cinco años. Queda igual que el NORMAL re-derivado (ROIC medio del sector); la diferencia del BUENO está en el margen y en el S2C. Probabilidad 0,2 y confianza baja.
+- fase_b.desviaciones_justificadas[2].hechos[0]: Historia fila 33: ROIC 2016–2025 entre 21,3 % y 51,6 %
+- fase_b.desviaciones_justificadas[2].hechos[1]: Historia C55: ROIC medio de cinco años 0,369 (≈0,36 con el EBIT de 2024 corregido, historia_revision.md)
+- fase_b.desviaciones_justificadas[2].hechos[2]: Análisis C24: ROIC publicado 48,8 % (FY2021) a 18,7 % (FY2026)
+- fase_b.desviaciones_justificadas[2].hechos[3]: extracto p. 38: demand creation 4.689
+- fase_b.desviaciones_justificadas[2].hechos[4]: extracto p. 50: compromisos de patrocinio 16.200
+- fase_b.desviaciones_justificadas[2].hechos[5]: extracto p. 61: fondo de comercio 240
+- fase_b.desviaciones_justificadas[2].clase: fundamentada
+- fase_b.desviaciones_justificadas[3].comprobacion: G8
+- fase_b.desviaciones_justificadas[3].escenario: MALO
+- fase_b.desviaciones_justificadas[3].justificacion: Salto del año 11 de ≈0,187: rentabilidad marginal 5,0 × 0,065 × (1 − 0,147) ≈ 0,277 en los años 1–10 frente a un ROIC terminal en la tasa del motor (0,09), que es la convención del ejercicio. Lo que se pierde en el año 11 es la marca como fuente de rentabilidad sobre el capital nuevo: en el MALO el precio no vuelve, los descuentos y los aranceles se quedan y, a partir del año 11, crecer deja de crear valor, como ya le pasó a Converse dentro de la propia casa. En los años 1–10 la rentabilidad marginal apenas actúa porque las ventas caen y la reinversión es negativa: el salto es sobre todo aritmética de una empresa que encoge. La Historia nunca mostró un ROIC de Nike en la tasa (21–22 % incluso con márgenes del 8 %), y por eso es el MALO: «We don't think because it's never happened that it won't» (AIWTK p.55; HIM).
+- fase_b.desviaciones_justificadas[3].hechos[0]: Análisis C24: ROIC publicado 48,8 % (FY2021) → 18,7 % (FY2026), caída cada año
+- fase_b.desviaciones_justificadas[3].hechos[1]: extracto p. 40: EBIT de Converse 676, 474 y 240 en FY2023–FY2025
+- fase_b.desviaciones_justificadas[3].hechos[2]: Historia fila 33: ROIC 21,3 % (2020) y 22,4 % (2025) con márgenes de 8,0 % y 8,8 %
+- fase_b.desviaciones_justificadas[3].hechos[3]: Historia C52: tipo impositivo 0,147; Palancas!B15 = 0,065 y B16 = 5,0
+- fase_b.desviaciones_justificadas[3].clase: convención
+- fase_b.desviaciones_justificadas[4].comprobacion: G8
+- fase_b.desviaciones_justificadas[4].escenario: NORMAL
+- fase_b.desviaciones_justificadas[4].justificacion: Salto de ≈0,298: rentabilidad marginal 5,0 × 0,105 × (1 − 0,147) ≈ 0,448 en los años 1–10 frente a un ROIC terminal de 0,15. En los años 1–10 el NORMAL recupera precio y vuelve a crecer como su historia larga sobre una red que ya existe: Nike no fabrica, su capex de 430 está por debajo de la amortización de 775 y su S2C marginal propio es 4,96; cada euro nuevo rinde como la década. En el año 11 el foso se ha estrechado hasta el del competidor medio del sector (15,3 %): la serie publicada del ROIC cae cinco años seguidos, la lista de competidores del 10-K crece y la marca pide cada año más demand creation. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).
+- fase_b.desviaciones_justificadas[4].hechos[0]: Historia C53: S2C marginal 4,96
+- fase_b.desviaciones_justificadas[4].hechos[1]: extracto p. 62: capex 430 y amortización 775
+- fase_b.desviaciones_justificadas[4].hechos[2]: extracto p. 6: fábricas contratadas, Nike no fabrica
+- fase_b.desviaciones_justificadas[4].hechos[3]: Historia fila 33: ROIC 21–52 % en 2016–2025
+- fase_b.desviaciones_justificadas[4].hechos[4]: Análisis C24: ROIC publicado 48,8 % → 18,7 % en FY2021–FY2026
+- fase_b.desviaciones_justificadas[4].hechos[5]: extracto p. 38: demand creation 4.689, +9 % en FY2025
+- fase_b.desviaciones_justificadas[4].hechos[6]: H18 (datos_v63 sección 4): ROIC medio del sector 0,153
+- fase_b.desviaciones_justificadas[4].clase: fundamentada
+- fase_b.desviaciones_justificadas[5].comprobacion: G8
+- fase_b.desviaciones_justificadas[5].escenario: BUENO
+- fase_b.desviaciones_justificadas[5].justificacion: Salto de ≈0,538: rentabilidad marginal 6,2 × 0,13 × (1 − 0,147) ≈ 0,688 frente a un ROIC terminal de 0,15. En los años 1–10 el BUENO crece sobre todo por precio y mezcla, que apenas piden capital: en FY2024 el ASP del calzado sumó 3 puntos con unidades −2 % y el margen bruto subió 110 pb, unos 200 por precio completo. Esa mejora por precio es finita: a partir del año 11 el precio ya ha vuelto y lo que queda es crecer por volumen, que pide capital a una rentabilidad más normal; la marca sigue seis puntos por encima de la tasa porque en este escenario el foso dura. Advierto que 0,688 supera el mejor ROIC de la década (51,6 % en 2019): el S2C del BUENO es optimista, pero su efecto en el valor es pequeño.
+- fase_b.desviaciones_justificadas[5].hechos[0]: extracto p. 38: FY2024 ASP del calzado +3 puntos con unidades −2 %
+- fase_b.desviaciones_justificadas[5].hechos[1]: extracto p. 39: FY2024 margen bruto +110 pb, ~200 por precio completo neto de descuentos
+- fase_b.desviaciones_justificadas[5].hechos[2]: Historia fila 33: ROIC máximo 51,6 % (2019) y 49,3 % (2021)
+- fase_b.desviaciones_justificadas[5].hechos[3]: extracto p. 50: patrocinio comprometido 16.200
+- fase_b.desviaciones_justificadas[5].clase: fundamentada
 - fase_b.herencia.B68.decision: mantiene
 - fase_b.herencia.B68.motivo: misma_evidencia
 - fase_b.herencia.B68.evidencia_y_razonamiento: Revisé las ventas nominales (46.710 en 2022, 46.309 en 2025, Historia; FY2026 +0,2 %, Análisis C31) y Converse (−18 %, extracto p. 46): en el MALO la marca pierde tirón y un 1 % nominal es decrecer en términos reales. Sostiene la conclusión del v1; con ROIC terminal = r, g apenas mueve el valor.
 - fase_b.herencia.C68.decision: mantiene
 - fase_b.herencia.C68.motivo: misma_evidencia
-- fase_b.herencia.C68.evidencia_y_razonamiento: Revisé el CAGR de diez años (4,1 %, Historia C47), la tasa sin riesgo (4,94 %, Análisis C57) y el capex (430, extracto p. 62): 2,5 % queda por debajo de los dos y la reinversión terminal (g ÷ ROIC ≈ 21 % con 0,12) es asumible. Sostiene la conclusión del v1.
+- fase_b.herencia.C68.evidencia_y_razonamiento: Revisé el CAGR de diez años (4,1 %, Historia C47), la tasa sin riesgo (4,94 %, Análisis C57) y el capex (430, extracto p. 62): 2,5 % queda por debajo de los dos y la reinversión terminal (g ÷ ROIC ≈ 17 % con 0,15) es asumible. Sostiene la conclusión del v1.
 - fase_b.herencia.D68.decision: mantiene
 - fase_b.herencia.D68.motivo: misma_evidencia
 - fase_b.herencia.D68.evidencia_y_razonamiento: Revisé la tasa sin riesgo (4,94 %, Análisis C57) y el CAGR de diez años (4,1 %, Historia C47): el techo de la lista queda por debajo de ambos y ni con la marca recuperada crece deprisa para siempre. Sostiene la conclusión del v1.
 - fase_b.herencia.B69.decision: cambia
 - fase_b.herencia.B69.motivo: evidencia_nueva
-- fase_b.herencia.B69.evidencia_y_razonamiento: La Historia de diez años que el v1 no tenía (margen 8,0 % en 2020 y 8,8 % en 2025, fila 29) y la serie del ROIC publicado (48,8 → 18,7 %, Análisis C24) muestran que el punto de partida ya está dentro del MALO; la guía de FY2027 (Análisis C46) apunta abajo. Subo a 0,3. No es doble castigo: la r no lleva prima por este riesgo y C22 queda vacía.
+- fase_b.herencia.B69.evidencia_y_razonamiento: La Historia de diez años que el v1 no tenía (margen 8,0 % en 2020 y 8,8 % en 2025, fila 29), FY2026 sin el reembolso IEEPA (≈6,2 %, Análisis C27) y la serie del ROIC publicado (48,8 → 18,7 %, Análisis C24) muestran que el punto de partida ya está dentro del MALO. Subo a 0,3. No es doble castigo: la r no lleva prima por este riesgo y C22 queda vacía.
 - fase_b.herencia.C69.decision: cambia
 - fase_b.herencia.C69.motivo: evidencia_nueva
 - fase_b.herencia.C69.evidencia_y_razonamiento: Cede al MALO el 0,1 que este gana por la misma evidencia nueva (Historia fila 29; Análisis C24). Sigue siendo el escenario más probable porque el margen ya volvió tras 2020 (15,6 % en 2021, Historia fila 29).
 - fase_b.herencia.D69.decision: mantiene
 - fase_b.herencia.D69.motivo: misma_evidencia
-- fase_b.herencia.D69.evidencia_y_razonamiento: Revisada con la Historia: 2 de 9 años con dato (2017 y 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13,5 % (filas 28–29), que es lo que pide el BUENO; 0,2 se sostiene y no supera al MALO.
+- fase_b.herencia.D69.evidencia_y_razonamiento: Revisada con la Historia: 2 de 9 años con dato (2017 y 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13 % (filas 28–29; 2024 queda fuera con el EBIT corregido), que es lo que pide el BUENO; 0,2 se sostiene y no supera al MALO.
 - fase_b.herencia.C76.decision: mantiene
 - fase_b.herencia.C76.motivo: misma_evidencia
 - fase_b.herencia.C76.evidencia_y_razonamiento: Revisé la caja (6.903, con 613 de dividendos pendientes, Análisis C53), la deuda (7.893, Análisis C54), los vencimientos de 2.000 en doce meses (extracto p. 74) y dónde van los intereses cobrados (explotación, US GAAP; 404 en FY2025, extracto p. 72): sumar la caja los contaría dos veces y no es claramente sobrante.
@@ -154,9 +192,9 @@ Apoyo: FY2023 ASP calzado +7 puntos, unidades +13 % (extracto p. 37, 10-K 2023);
 Lo sustituiría: 0,065 si FY2027 y FY2028 crecen más del 7 %; 0,04 si el rebote no llega en FY2027.
 - fase_b.observaciones.Palancas!B15: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
-Referencia mecánica: 0,09 (m0 = último año). Decisión: 0,08. Desviación: −0,01 porque el MALO añade al suelo de FY2025 los aranceles sin repercutir y más demand creation, y eso lo lleva al mínimo de la serie (2020). FY2026 no sirve de suelo: lleva el reembolso IEEPA (Análisis C42).
-Apoyo: margen EBIT 8,0 % (2020) y 8,8 % (2025), Historia fila 29 y C50; margen bruto FY2025 −190 pb, ~180 por ASP (extracto p. 38); aranceles (extracto p. 33); reservas de ventas 1.282 → 1.834 (extracto p. 71).
-Lo sustituiría: 0,09 si el arancel se cuantifica y se repercute; 0,07 si FY2027 cierra por debajo del 8 % sin partidas únicas.
+Referencia mecánica: 0,09 (m0 = último año). Decisión: 0,065. Desviación: −0,025 porque el MALO (aranceles sin repercutir) es FY2026 sin el reembolso IEEPA, que lo inflaba: sin los 986, EBIT ≈2.860 (6,2 %); sin los 385 de despidos, ≈7,0 %; las reestructuraciones se repiten (443 en FY2024, 385 en FY2026): resto ≈0,6 puntos, ≈6,4 %. El 8,0 % de 2020 no tenía aranceles.
+Apoyo: Análisis C27 (8,3 % con reembolso); Análisis C42 (11,06x; 14,1x sin reembolso) y C33; reestructuración FY2024 (extracto p. 94); Historia C50.
+Lo sustituiría: 0,07 si FY2027 cierra sin cargos de reestructuración; 0,08 si el arancel se repercute en precio; 0,06 si hay cargos cada año.
 - fase_b.observaciones.Palancas!C15: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
 Referencia mecánica: 0,09 (m0). Decisión: 0,105. Desviación: +0,015 porque la recuperación parcial devuelve el margen bruto hacia el 43,5 % de FY2023 y la estructura crece menos que las ventas; queda bajo la media de diez años porque la mejora se reparte con marca y mayoristas.
@@ -164,14 +202,14 @@ Apoyo: margen EBIT 11,5 % (2023), 8,8 % (2025), Historia fila 29; media 12,4 % (
 Lo sustituiría: 0,12 si FY2027 recupera margen bruto ≥ 44 % sin partidas únicas; 0,09 si FY2027 sigue en el nivel de 2025.
 - fase_b.observaciones.Palancas!D15: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
-Referencia mecánica: 0,11 (mín(máximo, Q3 sector)). Decisión: 0,135. Desviación: +0,025 porque vuelve el precio completo como en FY2024 (margen EBIT 13,8 %) y la mejora se la queda Nike; no llego al 15,6 % de 2021 por los aranceles. Supera el Q3 del sector: G5 justificada.
-Apoyo: margen EBIT 15,6 / 14,3 / 13,8 % en 2021, 2022 y 2024 (Historia fila 29; máximo C51); FY2024 margen bruto +110 pb, ~200 por precio completo (extracto p. 39). «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).
-Lo sustituiría: 0,15 si el arancel se repercute entero; 0,12 si el margen bruto se queda en el 44 %.
+Referencia mecánica: 0,11 (mín(máximo, Q3 sector)). Decisión: 0,13. Desviación: +0,02 porque el BUENO devuelve el margen de 2021–2022 (media ≈14,9 %) menos un arancel que entonces no existía, ≈2,1 puntos (reembolso IEEPA 986 sobre 46.398); el precio que devuelve ese margen no se cuenta dos veces. Retiro el 13,8 % de FY2024, error de signo de la Historia (real 12,3 %; publicado 12,7 %). Supera el Q3: G5 justificada.
+Apoyo: margen EBIT 15,6 y 14,3 % en 2021–2022 (Historia fila 29; C51); Análisis C27, C17; FY2024 ~200 pb por precio (extracto p. 39); EBIT FY2024 6.539 (extracto p. 40).
+Lo sustituiría: 0,14 si se repercute la mitad del arancel; 0,125 si el BUENO solo llega al FY2024 real.
 - fase_b.observaciones.Palancas!B16: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
-Referencia mecánica: 3,7 (0,75 × NORMAL). Decisión: 3,7. Desviación: ninguna porque los hechos van en esa dirección: en el MALO cada euro de ventas pide más circulante (cobros que crecen más que las ventas, más peso mayorista).
-Apoyo: S2C marginal 4,96 (Historia C53) y medio 3,07 (Historia C54); cobros +25,7 % con ventas +0,2 % en FY2026, DSO 29 → 41 días (Análisis C31); mayoristas 58 % (extracto p. 37).
-Lo sustituiría: 3,0 (Historia C54) si inventario y cobros siguen creciendo más que las ventas en FY2027.
+Referencia mecánica: 3,7 (0,75 × NORMAL). Decisión: 5,0. Desviación: +1,3 porque con ventas que caen la reinversión (Δventas ÷ S2C) es negativa y un S2C bajo liberaría capital deprisa; Nike no lo libera al vender menos: en 2025 las ventas cayeron 9,8 % con el inventario plano y en FY2026 los cobros subieron 25,7 % con ventas +0,2 %. Tomo su S2C marginal propio.
+Apoyo: Historia C53 = 4,96; Historia fila 28; inventario 7.519 → 7.489 (extracto p. 61); DSO 29 → 41 días (Análisis C31).
+Lo sustituiría: 3,7 si FY2027 baja ventas con inventario y cobros en la misma proporción.
 - fase_b.observaciones.Palancas!C16: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
 Referencia mecánica: 5,0 (Historia C53 con tope). Decisión: 5,0. Desviación: ninguna porque es la historia propia y nada en la recuperación parcial pide más capital por euro: Nike no fabrica y su capex es pequeño. Rentabilidad marginal ≈0,45.
@@ -179,24 +217,24 @@ Apoyo: Historia C53 = 4,96; capex 430 y D&A 775 (extracto p. 62); fábricas cont
 Lo sustituiría: 4,0 si el DSO sigue por encima de 40 días dos años; 6,0 si el inventario baja con ventas al alza.
 - fase_b.observaciones.Palancas!D16: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
-Referencia mecánica: 6,2 (1,25 × NORMAL con tope). Decisión: 6,2. Desviación: ninguna porque el crecimiento del BUENO es de precio y mezcla y apenas pide capital. Rentabilidad marginal 6,2 × 0,135 × (1 − 0,147) ≈ 0,71, de la familia del ROIC de los años de margen alto.
-Apoyo: FY2024 ASP calzado +3 puntos con unidades −2 % (extracto p. 38); capex 430 (extracto p. 62); ROIC 49,3 % (2021) y 40,7 % (2024), Historia fila 33.
+Referencia mecánica: 6,2 (1,25 × NORMAL con tope). Decisión: 6,2. Desviación: ninguna porque el crecimiento del BUENO es de precio y mezcla y apenas pide capital. Rentabilidad marginal 6,2 × 0,13 × (1 − 0,147) ≈ 0,69, por encima del mejor ROIC de la década: lo dejo dicho como optimismo; efecto pequeño.
+Apoyo: FY2024 ASP calzado +3 puntos con unidades −2 % (extracto p. 38); capex 430 (extracto p. 62); ROIC 51,6 % (2019) y 49,3 % (2021), Historia fila 33.
 Lo sustituiría: 5,0 si el BUENO llega por unidades y no por precio.
 - fase_b.observaciones.Palancas!B18: [Clase: fundamentada] [Confianza: media]
 Hereda: nueva en V6.3.
-Referencia mecánica: 0,09 (tasa del motor). Decisión: 0,09. Desviación: ninguna porque en el MALO la ventaja se agota: lo sostiene la tendencia del ROIC publicado y el caso Converse. El salto del año 11 (≈0,25 frente a la rentabilidad marginal) es mi hipótesis de pérdida de la marca.
-Apoyo: ROIC publicado 48,8 → 18,7 % FY2021–FY2026 (Análisis C24); Converse EBIT 676 → 240 (extracto p. 40); ROIC 21–22 % aun con margen 8 % (Historia fila 33). «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).
+Referencia mecánica: 0,09 (tasa del motor). Decisión: 0,09. Desviación: ninguna porque en el MALO la ventaja se agota: lo sostienen la tendencia del ROIC publicado y Converse. Salto del año 11 (G8): 0,277 − 0,09 ≈ 0,187; en el año 11 se pierde la marca como fuente de rentabilidad del capital nuevo, y en los años 1–10 la reinversión es negativa: el salto es sobre todo aritmética de una empresa que encoge.
+Apoyo: ROIC publicado 48,8 → 18,7 % FY2021–FY2026 (Análisis C24); Converse EBIT 676 → 240 (extracto p. 40); ROIC 21–22 % aun con margen 8 % (Historia fila 33).
 Lo sustituiría: 0,12 si dos años de margen bajo no llevan el ROIC publicado por debajo del 18 %.
-- fase_b.observaciones.Palancas!C18: [Clase: fundamentada] [Confianza: media]
+- fase_b.observaciones.Palancas!C18: [Clase: fundamentada] [Confianza: baja]
 Hereda: nueva en V6.3.
-Referencia mecánica: 0,09 (tasa del motor). Decisión: 0,12. Desviación: +0,03 porque el foso existe y se estrecha (C18 = Sí): dejo 3 puntos de exceso a perpetuidad, lo más que admite el criterio (MR pp. 62–63; E2), y no más porque no sé cuánto dura. Lo leo inflado: el gasto de marca no está en el capital.
-Apoyo: ROIC ≥ 21 % en 2016–2025 (Historia fila 33); media 36,9 % (Historia C55); 18,7 % en FY2026 (Análisis C24); demand creation 4.689 (extracto p. 38); patrocinio 16.200 (extracto p. 50).
-Lo sustituiría: 0,09 si el ROIC publicado baja del 15 % dos años seguidos; 0,15 si vuelve al 25 % con el margen recuperado.
+Referencia mecánica: 0,09 (tasa del motor). Decisión: 0,15. Desviación: +0,06 porque el foso se estrecha (C18 = Sí) hasta el del competidor medio: ROIC medio del sector 15,3 % (H18); ni en FY2026 bajó el publicado del 18,7 %, y no lo dejo en el propio porque la serie cae cinco años y Converse se vació. G4 justificada. Salto del año 11 (G8): 0,448 − 0,15 ≈ 0,298: desde el año 11 el capital nuevo rinde como el sector, no como la década.
+Apoyo: H18 (datos_v63 sección 4); Análisis C24; ROIC ≥ 21 % en 2016–2025 (Historia fila 33); Converse (extracto p. 40); demand creation 4.689 (extracto p. 38).
+Lo sustituiría: 0,12 si el ROIC publicado baja del 15 % dos años; 0,18 si vuelve al 25 % con el margen recuperado.
 - fase_b.observaciones.Palancas!D18: [Clase: fundamentada] [Confianza: baja]
 Hereda: nueva en V6.3.
-Referencia mecánica: 0,12 (mín(ROIC 5a, C56 + 0,03)). Decisión: 0,15. Desviación: +0,03 porque en el BUENO vuelve el poder de precio y el foso dura más allá del año 10, como duró los diez de la Historia; me quedo muy por debajo de su peor año porque el ROIC está inflado por el gasto de marca. G4 justificada.
-Apoyo: ROIC ≥ 21 % incluso en 2020 y 2025 (Historia fila 33), media 0,369 (Historia C55); demand creation 4.689 (extracto p. 38); patrocinio 16.200 (extracto p. 50). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
-Lo sustituiría: 0,12 si el ROIC publicado no pasa del 25 % con el margen recuperado.
+Referencia mecánica: 0,12 (mín(ROIC 5a, C56 + 0,03)). Decisión: 0,15. Desviación: +0,03 porque en el BUENO el foso dura más allá del año 10, como duró los diez de la Historia; me quedo muy por debajo de su peor año porque el ROIC está inflado por el gasto de marca. G4 justificada. Salto del año 11 (G8): 0,688 − 0,15 ≈ 0,538: la mejora por precio es finita y desde el año 11 crecer es volumen. Igual que C18: el BUENO se separa en margen y S2C.
+Apoyo: ROIC ≥ 21 % incluso en 2020 y 2025 (Historia fila 33); Análisis C24; patrocinio 16.200 (extracto p. 50). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
+Lo sustituiría: 0,18 con cinco años de ROIC publicado por encima del 30 %.
 - fase_b.observaciones.Palancas!C22: [Clase: fundamentada] [Confianza: alta]
 Hereda: nueva en V6.3.
 Referencia mecánica: 0,05 (disparador: deuda + arrendamientos 11.018 > 3 × FCF base 3.280). Decisión: vacío (= 0). Desviación: −0,05 porque el disparador mecánico ignora la caja: la caja (9.151, Historia C66) deja la deuda neta con arrendamientos en ≈1.870, bajo 3 × FCF; no hay causa concreta de liquidez.
@@ -224,7 +262,7 @@ Apoyo: ventas 46.710 (2022) y 46.309 (2025), Historia; FY2026 +0,2 % (Análisis 
 Lo sustituiría: 0,015 si FY2027–FY2028 vuelven a crecer en unidades.
 - fase_b.observaciones.C68: [Clase: fundamentada] [Confianza: media]
 Hereda: 0,025 → mantiene (misma_evidencia): crecimiento nominal de madura con reinversión baja.
-Referencia mecánica: 0,025 (mín(0,025; rf)). Decisión: 0,025. Desviación: ninguna porque queda bajo el CAGR de diez años y bajo la tasa sin riesgo; con ROIC 0,12 reinvierte ≈21 % del beneficio.
+Referencia mecánica: 0,025 (mín(0,025; rf)). Decisión: 0,025. Desviación: ninguna porque queda bajo el CAGR de diez años y bajo la tasa sin riesgo; con ROIC 0,15 reinvierte ≈17 % del beneficio.
 Apoyo: Historia C47 = 4,1 %; Análisis C57 = 0,0494; capex 430 (extracto p. 62); g ≤ rf como orientación (CV; E1).
 Lo sustituiría: 0,02 si el ROIC publicado baja del 15 % dos años (Análisis C24).
 - fase_b.observaciones.D68: [Clase: convención] [Confianza: media]
@@ -233,10 +271,10 @@ Referencia mecánica: 0,03 (mín(NORMAL + 0,005; rf; 0,03)). Decisión: 0,03. De
 Apoyo: Análisis C57 = 0,0494; Historia C47 = 4,1 %; 57 % de ventas fuera de EE. UU. (extracto p. 6). «all man's desired geometric progressions, if a high rate of growth is chosen, at last come to grief on a finite earth» (PCA p.394; HIM).
 Lo sustituiría: 0,025 si el BUENO dependiera de China (extracto p. 43).
 - fase_b.observaciones.B69: [Clase: fundamentada] [Confianza: media]
-Hereda: 0,2 → cambia (evidencia_nueva): la Historia de diez años y la serie de ROIC muestran que el punto de partida ya está en el MALO.
-Referencia mecánica: 0,2 (convención). Decisión: 0,3. Desviación: +0,1 porque partir dentro del escenario hace más probable quedarse que la frecuencia de la década (2 de 10 años con margen ≤ 9 %).
-Apoyo: margen 8,0 % (2020) y 8,8 % (2025), Historia fila 29; ROIC publicado 48,8 → 18,7 % (Análisis C24); guía FY2027 por debajo de cualquier media (Análisis C46, guía).
-Lo sustituiría: 0,2 si FY2027 cierra con margen bruto ≥ 44 %; 0,4 si cierra con margen EBIT < 8 %.
+Hereda: 0,2 → cambia (evidencia_nueva): la Historia de diez años, FY2026 sin reembolso y la serie de ROIC muestran que el punto de partida ya está en el MALO.
+Referencia mecánica: 0,2 (convención). Decisión: 0,3. Desviación: +0,1 porque partir dentro del escenario hace más probable quedarse que la frecuencia de la década.
+Apoyo: FY2026 sin IEEPA ≈6,2 % (Análisis C27); margen 8,0 % (2020) y 8,8 % (2025), Historia fila 29; ROIC publicado 48,8 → 18,7 % (Análisis C24).
+Lo sustituiría: 0,2 si FY2027 cierra con margen bruto ≥ 44 %; 0,4 si cierra con margen EBIT < 7 % sin partidas únicas.
 - fase_b.observaciones.C69: [Clase: fundamentada] [Confianza: media]
 Hereda: 0,6 → cambia (evidencia_nueva): cede al MALO lo que este gana; suma 0,3 + 0,5 + 0,2 = 1.
 Referencia mecánica: 0,6 (convención). Decisión: 0,5. Desviación: −0,1 porque la recuperación parcial sigue siendo lo más probable (el margen volvió tras 2020), pero aún no hay un año de vuelta.
@@ -244,7 +282,7 @@ Apoyo: margen 8,0 % (2020) → 15,6 % (2021), Historia fila 29; inventario estab
 Lo sustituiría: 0,6 si FY2027 muestra el ASP sumando y margen bruto al alza.
 - fase_b.observaciones.D69: [Clase: fundamentada] [Confianza: media]
 Hereda: 0,2 → mantiene (misma_evidencia): el BUENO ya ocurrió en la década con esa frecuencia.
-Referencia mecánica: 0,2 (convención). Decisión: 0,2. Desviación: ninguna porque 2 de 9 años con dato (2017, 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13,5 %; no supera al MALO.
+Referencia mecánica: 0,2 (convención). Decisión: 0,2. Desviación: ninguna porque 2 de 9 años con dato (2017, 2021) tuvieron a la vez crecimiento ≥ 5 % y margen ≥ 13 %; no supera al MALO.
 Apoyo: 2017: +6,1 % y 13,8 %; 2021: +19,1 % y 15,6 % (Historia filas 28–29).
 Lo sustituiría: 0,1 si en dos años no hay señal de venta a precio completo.
 - fase_b.observaciones.C76: [Clase: fundamentada] [Confianza: media]

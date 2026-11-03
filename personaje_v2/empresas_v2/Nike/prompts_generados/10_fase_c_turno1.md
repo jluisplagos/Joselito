@@ -11,7 +11,7 @@ Rutas:
 - corpus Damodaran (damodaran.md, si existe): /home/user/Joselito/personaje_v2/corpus/damodaran.md
 - modelo y esfuerzo previstos (config_v2.json → modelos): {"modelo": "opus", "esfuerzo": "alto", "turnos": 2}
 
-**CORRECCIÓN pedida por el pipeline:** citas de fase_c.json o fase_c.md que no superan verify_quotes_v2.py (cita literal, página o principio↔página; ver citas_fase_c.txt): [.quefalta: cuota de mercado de nike en cifras, global, por región o por categoría fasec.revisiondatosausentes.revisados]  <- «largest | [.conclusionafectada: c18 (duración del foso) y palancas!c18:d18; narrativa b65:b66 fasec.revisiondatosausentes.revisados]  <- «largest | [.porque: la cuota diría si la caída es de precio o de pérdida de terreno, y eso pesaría en el roic terminal y en p(malo). para esperar con precio objetivo no es material: el foso lo juzgo con
+**CORRECCIÓN pedida por el pipeline:** la fase B ya revisó las palancas en la única vuelta C→B admitida (§4.5): el libro está recalculado con las palancas nuevas; otro revisar_palancas termina en no_entregable
 
 ---
 
