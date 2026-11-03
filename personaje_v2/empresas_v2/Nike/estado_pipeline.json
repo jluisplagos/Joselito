@@ -6,7 +6,8 @@
   "fase_c": 0,
   "auditoria": 0,
   "vueltas_c_a_b": 0,
-  "vueltas_b_a_a": 0
+  "vueltas_b_a_a": 0,
+  "esquema_fase_c_turno1": 1
  },
  "historial": [
   "  $ bash comprobar_entorno.sh → 0 · autotest precio_de_si: PASA (5 casos + propiedades)",
@@ -67,19 +68,23 @@
   "  $ bash recalc.sh Nike_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Nike/recalc/Nike_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Nike/.lo_perfil)",
   "  $ python3 leer_resultados.py Nike_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Nike/resultados.json · motor A · estado INCOMPLETO · libro NO LISTO · incompleto (1 pendientes)",
   "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 39.12 · esc. MALO 13.913425028571 · precio de Sí 20.6851 (P* 20.6851) · ponderado 24.7481 · zona caro",
-  "  $ python3 comprobar_gramatica.py Nike --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 5 (sin justificar 3) · avisos 3 → gramatica.md"
+  "  $ python3 comprobar_gramatica.py Nike --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 5 (sin justificar 3) · avisos 3 → gramatica.md",
+  "  $ python3 validar_esquema.py fase_c.json fase_c --turno 1 --salida esquema_fase_c.json.txt → 0 · VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_c.md fase_c.md → 1 · RESULTADO: FAIL (87)",
+  "2026-11-03T17:52:29 · paso 10 · formato de fase_c.json: corrección 1 a fase_c_turno1"
  ],
  "motor": "A",
  "fase_b_escrita": true,
  "fase_c_escrita": false,
  "esperando": "10:fase_c.json",
  "inicio": "2026-11-03T17:12:46",
- "esperando_desde": 1793727625.968876,
+ "esperando_desde": 1793728349.576532,
  "consumidos": {
   "extracto_v63.md": 1793727138.9225616,
   "fase_a.json": 1793727133.7825618,
-  "fase_b.json": 1793727570.494552
+  "fase_b.json": 1793727570.494552,
+  "fase_c.json": 1793728281.1625357
  },
- "motivo_correccion": null,
+ "motivo_correccion": "citas de fase_c.json o fase_c.md que no superan verify_quotes_v2.py (cita literal, página o principio↔página; ver citas_fase_c.txt): [.quefalta: cuota de mercado de nike en cifras, global, por región o por categoría fasec.revisiondatosausentes.revisados]  <- «largest | [.conclusionafectada: c18 (duración del foso) y palancas!c18:d18; narrativa b65:b66 fasec.revisiondatosausentes.revisados]  <- «largest | [.porque: la cuota diría si la caída es de precio o de pérdida de terreno, y eso pesaría en el roic terminal y en p(malo). para esperar con precio objetivo no es material: el foso lo juzgo con",
  "ficha_valida": true
 }
