@@ -1,0 +1,22 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Consumo discrecional · calzado, ropa y equipamiento deportivo",
+   "nuevo": "Diseño, marketing y venta de calzado, ropa y equipamiento deportivo (marcas NIKE, Jordan y Converse)"
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 459
+}

@@ -1,0 +1,23 @@
+[
+ {
+  "dato": "evidencia Análisis!C48",
+  "que": "Intereses pagados clasificados en financiación · IFRS: no aplicable indebido",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "evidencia Análisis!C49",
+  "que": "Principal de lease liabilities · IFRS 16: no aplicable indebido",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "Palancas!C24",
+  "que": "tamaño del mercado año 10",
+  "nivel": "no bloqueante",
+  "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+  "nota": ""
+ }
+]

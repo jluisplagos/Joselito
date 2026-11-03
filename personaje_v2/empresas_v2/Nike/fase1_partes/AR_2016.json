@@ -156,7 +156,7 @@
    "actual": [
     {
      "concepto": "Cash provided by operations",
-     "impreso": "096",
+     "impreso": "3,096",
      "pagina": 49,
      "linea": "Cash provided by operations 3,096 4,680 3,013"
     }
@@ -383,7 +383,7 @@
     },
     {
      "concepto": "Capital lease obligations",
-     "impreso": "(4)",
+     "impreso": "15",
      "pagina": 19,
      "linea": "Capital lease obligations(4) 15 5 74 81 —"
     }
@@ -409,7 +409,7 @@
     },
     {
      "concepto": "Capital lease obligations",
-     "impreso": "15",
+     "impreso": "5",
      "pagina": 19,
      "linea": "Capital lease obligations(4) 15 5 74 81 —"
     }
