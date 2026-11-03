@@ -1,0 +1,1 @@
+VÁLIDO · fase_b.json contra fase_b.esquema.json

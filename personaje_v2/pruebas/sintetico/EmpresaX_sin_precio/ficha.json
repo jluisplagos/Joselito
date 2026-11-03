@@ -1,0 +1,246 @@
+{
+ "empresa": "Empresa X (inventada)",
+ "ticker": "EMPX",
+ "fecha": "2026-10-20",
+ "moneda": "EUR",
+ "versiones": {
+  "personaje": "v2.0",
+  "plantilla": "V6.3",
+  "gramatica": "0.2.1",
+  "referencias_mecanicas": "0.2.1",
+  "config": "0.2.2"
+ },
+ "hashes": {
+  "libro_entrada": "e529d4718e327a24d232022861cee64e9f76c8237e91d9416f2c9a07f91d1db5",
+  "libro_evaluado": null
+ },
+ "estado_analisis": "pendiente_de_datos",
+ "causa_si_no_concluido": {
+  "tipo": "falta_de_datos",
+  "detalle": "bloqueante en la entrada: Análisis!C37: precio actual (en la moneda del modelo); Historia / datos: ningún motor calcula con los datos presentes",
+  "comprobacion": null,
+  "categoria": null
+ },
+ "etapa1": {
+  "cubo": null,
+  "cubo_juicio": null,
+  "precio_de_si": null,
+  "fecha": null,
+  "r": null
+ },
+ "cubo": null,
+ "cubo_cualitativo_fase_a": null,
+ "decision": null,
+ "insumos_decision_cartera": null,
+ "motor": null,
+ "escenarios": {
+  "MALO": {
+   "historia": null,
+   "frase": null,
+   "probabilidad": null,
+   "valor_accion": null,
+   "palancas": {
+    "g15": null,
+    "m_obj": null,
+    "s2c": null,
+    "g_inf": null,
+    "roic_lp": null
+   }
+  },
+  "NORMAL": {
+   "historia": null,
+   "frase": null,
+   "probabilidad": null,
+   "valor_accion": null,
+   "palancas": {
+    "g15": null,
+    "m_obj": null,
+    "s2c": null,
+    "g_inf": null,
+    "roic_lp": null
+   }
+  },
+  "BUENO": {
+   "historia": null,
+   "frase": null,
+   "probabilidad": null,
+   "valor_accion": null,
+   "palancas": {
+    "g15": null,
+    "m_obj": null,
+    "s2c": null,
+    "g_inf": null,
+    "roic_lp": null
+   }
+  }
+ },
+ "valor_ponderado": null,
+ "precio": null,
+ "escalera": null,
+ "fundamento_material": null,
+ "comprobacion_conjunta": null,
+ "revision_datos_ausentes": null,
+ "estado_libro": null,
+ "estado_evidencias": null,
+ "palanca_mas_influyente": {
+  "nombre": null,
+  "nota": "información, no criterio (D10)"
+ },
+ "semaforos": null,
+ "salto_anio_11": null,
+ "peso_terminal": null,
+ "cambios_vs_etapa1": [],
+ "n_cambios_vs_etapa1": 0,
+ "predicciones": null,
+ "incertidumbre_pendiente": null,
+ "que_lo_resolveria": null,
+ "cambiaria_de_cubo": null,
+ "autocomprobacion": null,
+ "recuento_clases": {
+  "fundamentada": 0,
+  "convencion": 0,
+  "tecnico": 0,
+  "sin_juicio": 0
+ },
+ "desviaciones_justificadas": {
+  "n": 0,
+  "lista": []
+ },
+ "avisos": [],
+ "confianza_global": null,
+ "que_falta": {
+  "bloqueantes": [
+   {
+    "dato": "Análisis!C37",
+    "que": "precio actual (en la moneda del modelo)",
+    "origen_esperado": "fase1_v63.json (precio con fecha y, si hace falta, tipo de cambio)",
+    "nota": ""
+   },
+   {
+    "dato": "Historia / datos",
+    "que": "ningún motor calcula con los datos presentes",
+    "origen_esperado": "fase1_v63.json (Contrato_de_relleno_V6.3.csv)",
+    "nota": "A: V06 INCOMPLETO: Falta el precio (Análisis C37) · B: V06 INCOMPLETO: Falta el precio (Análisis C37) · C: V06 INCOMPLETO: Falta el precio (Análisis C37)"
+   }
+  ],
+  "necesarios_para_listo_provisional": [
+   {
+    "dato": "evidencia Análisis!C46",
+    "que": "Caja de las operaciones (media 3–5 años): no verificable",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C47",
+    "que": "Capex (positivo; media 3–5 años): no verificable",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C48",
+    "que": "Intereses pagados clasificados en financiación · IFRS: no verificable",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C49",
+    "que": "Principal de lease liabilities · IFRS 16: no verificable",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C50",
+    "que": "Stock-based compensation (SBC): no verificable",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   }
+  ],
+  "no_bloqueantes": [
+   {
+    "dato": "Palancas!C24",
+    "que": "tamaño del mercado año 10",
+    "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+    "nota": ""
+   },
+   {
+    "dato": "Análisis!C88",
+    "que": "P/FCF histórico",
+    "origen_esperado": "fase1_v63.json",
+    "nota": ""
+   },
+   {
+    "dato": "Análisis!C38",
+    "que": "valor intrínseco de fuente externa (contraste)",
+    "origen_esperado": "fase1_v63.json (opcional)",
+    "nota": ""
+   }
+  ],
+  "datos_ausentes": [
+   {
+    "dato": "evidencia Análisis!C46",
+    "que": "Caja de las operaciones (media 3–5 años): no verificable",
+    "nivel": "necesario para LISTO·PROVISIONAL",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C47",
+    "que": "Capex (positivo; media 3–5 años): no verificable",
+    "nivel": "necesario para LISTO·PROVISIONAL",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C48",
+    "que": "Intereses pagados clasificados en financiación · IFRS: no verificable",
+    "nivel": "necesario para LISTO·PROVISIONAL",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C49",
+    "que": "Principal de lease liabilities · IFRS 16: no verificable",
+    "nivel": "necesario para LISTO·PROVISIONAL",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "evidencia Análisis!C50",
+    "que": "Stock-based compensation (SBC): no verificable",
+    "nivel": "necesario para LISTO·PROVISIONAL",
+    "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+    "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+   },
+   {
+    "dato": "Palancas!C24",
+    "que": "tamaño del mercado año 10",
+    "nivel": "no bloqueante",
+    "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+    "nota": ""
+   },
+   {
+    "dato": "Análisis!C88",
+    "que": "P/FCF histórico",
+    "nivel": "no bloqueante",
+    "origen_esperado": "fase1_v63.json",
+    "nota": ""
+   },
+   {
+    "dato": "Análisis!C38",
+    "que": "valor intrínseco de fuente externa (contraste)",
+    "nivel": "no bloqueante",
+    "origen_esperado": "fase1_v63.json (opcional)",
+    "nota": ""
+   }
+  ]
+ },
+ "citas": {
+  "munger": 0,
+  "damodaran": 0
+ },
+ "dos_errores": null,
+ "seis_preguntas": null,
+ "descalificadores": null,
+ "foso": null,
+ "comparacion_etapa_1": null
+}

@@ -1,0 +1,42 @@
+{
+ "paso": 6,
+ "estado_analisis": "modelo_no_aplicable",
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 0,
+  "auditoria": 0,
+  "vueltas_c_a_b": 0,
+  "vueltas_b_a_a": 0
+ },
+ "historial": [
+  "  $ bash comprobar_entorno.sh → 0 · autotest precio_de_si: PASA (5 casos + propiedades)",
+  "  $ python3 migrar_v53_a_v63.py EmpresaX_limite_evaluada.xlsx Plantilla_V6.3.xlsx EmpresaX_limite_v63_base.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 rellenar_fase1_v63.py EmpresaX_limite_v63_base.xlsx fase1_v63.json EmpresaX_limite_v63_datos.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_entrada_v63.py EmpresaX_limite_v63_datos.xlsx EmpresaX_limite → 0 · OK: 0 bloqueantes · 5 necesarios para LISTO·PROVISIONAL · 3 no bloqueantes · motores calculables: ['A', 'B', 'C']",
+  "  $ python3 volcar_datos_v63.py EmpresaX_limite_v63_datos.xlsx EmpresaX_limite → 0 · OK: datos_v63.md (3362 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_limite",
+  "  $ python3 validar_esquema.py fase_a.json fase_a --salida esquema_fase_a.json.txt → 0 · VÁLIDO · fase_a.json contra fase_a.esquema.json",
+  "  $ python3 fase_a_celdas.py fase_a.json A celdas_A.json → 0 · OK: 116 celdas (incluidas E/F/N de Control maestro) → /home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_limite/celdas_A.json",
+  "  $ python3 escribir_v63.py EmpresaX_limite_v63_datos.xlsx EmpresaX_limite_v63_evaluada.xlsx --celdas celdas_A.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py EmpresaX_limite_v63_evaluada.xlsx EmpresaX_limite_v63_datos.xlsx --fases A → 0 · PASS: 0 errores · 29 celdas correctas · fases ['A'] · motor A",
+  "  $ python3 verificar_v63.py EmpresaX_limite_v63_evaluada.xlsx referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py EmpresaX_limite_v63_evaluada.xlsx EmpresaX_limite_v63_datos.xlsx --fases A --motor A → 0 · PASS: 0 errores · 29 celdas correctas · fases ['A'] · motor A",
+  "  $ python3 diagnostico.py EmpresaX_limite --estado modelo_no_aplicable --tipo limite_del_modelo --detalle otro método (sintético) --paso 6 --comprobacion L3 --categoria límite del modelo --que-hace-falta otro método (sintético) --desde-paso 6 → 0 · diagnóstico escrito: modelo_no_aplicable · limite_del_modelo · paso 6",
+  "  $ python3 ficha.py EmpresaX_limite --estado modelo_no_aplicable → 0 · OK: ficha.json · estado modelo_no_aplicable · cubo None · acción None",
+  "  $ python3 validar_esquema.py ficha.json ficha --salida esquema_ficha.json.txt → 0 · VÁLIDO · ficha.json contra ficha.esquema.json",
+  "  $ python3 informe.py EmpresaX_limite → 0 · OK: informe.md (13 secciones)",
+  "  $ python3 resumen.py EmpresaX_limite resumen_v2.csv → 0 · OK: fila de Empresa X (inventada) en /home/user/Joselito/personaje_v2/pruebas/sintetico/resumen_v2.csv",
+  "2026-11-03T11:41:17 · paso 6 · FIN · estado modelo_no_aplicable · limite_del_modelo: otro método (sintético)"
+ ],
+ "motor": "A",
+ "fase_b_escrita": false,
+ "fase_c_escrita": false,
+ "esperando": null,
+ "inicio": "2026-11-03T11:40:56",
+ "esperando_desde": 1793706073.362035,
+ "consumidos": {
+  "extracto_v63.md": 1793706073.3034155,
+  "fase_a.json": 1793706073.3720386
+ },
+ "motivo_correccion": null,
+ "ficha_valida": true
+}

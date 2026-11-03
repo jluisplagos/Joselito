@@ -2,7 +2,7 @@
  {
   "prueba": "1a escribir una celda de cada tipo en la plantilla",
   "ok": true,
-  "detalle": "OK: 8 celdas escritas en /tmp/claude-0/-home-claude/3503ef25-50f5-5da7-a2bb-15f09b7294f9/scratchpad/personaje_v2/pruebas/salida_pieza1/plantilla_1.xlsx (10964 cachés de fórmula borradas)"
+  "detalle": "OK: 8 celdas escritas en /home/user/Joselito/personaje_v2/pruebas/salida_pieza1/plantilla_1.xlsx (10964 cachés de fórmula borradas)"
  },
  {
   "prueba": "1b verificar_v63.py = 0 tras escribir",

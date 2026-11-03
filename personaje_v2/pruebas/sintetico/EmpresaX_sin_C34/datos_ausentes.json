@@ -1,0 +1,77 @@
+[
+ {
+  "dato": "Análisis!C34",
+  "que": "la caja cubre la deuda a corto (comprobación C08 de la hoja)",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json o derivado de Historia (rellenar_fase1_v63.py)",
+  "nota": ""
+ },
+ {
+  "dato": "evidencia Análisis!C46",
+  "que": "Caja de las operaciones (media 3–5 años): no verificable",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "evidencia Análisis!C47",
+  "que": "Capex (positivo; media 3–5 años): no verificable",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "evidencia Análisis!C48",
+  "que": "Intereses pagados clasificados en financiación · IFRS: no verificable",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "evidencia Análisis!C49",
+  "que": "Principal de lease liabilities · IFRS 16: no verificable",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "evidencia Análisis!C50",
+  "que": "Stock-based compensation (SBC): no verificable",
+  "nivel": "necesario para LISTO·PROVISIONAL",
+  "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+  "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+ },
+ {
+  "dato": "Palancas!C24",
+  "que": "tamaño del mercado año 10",
+  "nivel": "no bloqueante",
+  "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+  "nota": ""
+ },
+ {
+  "dato": "Análisis!C88",
+  "que": "P/FCF histórico",
+  "nivel": "no bloqueante",
+  "origen_esperado": "fase1_v63.json",
+  "nota": ""
+ },
+ {
+  "dato": "Análisis!C38",
+  "que": "valor intrínseco de fuente externa (contraste)",
+  "nivel": "no bloqueante",
+  "origen_esperado": "fase1_v63.json (opcional)",
+  "nota": ""
+ },
+ {
+  "dato": "extracto_v63: Tamaño del mercado (no publicado)",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cuota de mercado",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ }
+]

@@ -1,0 +1,5516 @@
+{
+ "analisis": {
+  "B3": "Empresa X (inventada)",
+  "D3": "EMPX",
+  "B4": null,
+  "D4": "2026-10-20",
+  "C7": 0,
+  "D7": 1,
+  "A6": "INCOMPLETA · faltan 5 · Faltan palancas de crecimiento (Palancas B14:D14)",
+  "C11": "Sí",
+  "C12": "Sí",
+  "C13": "Sí",
+  "C14": "Calidad a precio razonable",
+  "C17": "Sí",
+  "C18": "Sí",
+  "C19": "Sí",
+  "C20": "Incert. alta + riesgo bajo",
+  "C24": 0.18,
+  "C25": "Sí",
+  "C26": 1.1,
+  "C27": "Estable",
+  "C28": "Estable",
+  "C31": "No",
+  "C32": 0.12,
+  "C33": 0.8,
+  "C34": "Sí",
+  "C37": 8,
+  "C38": null,
+  "C39": null,
+  "C40": null,
+  "C41": 800,
+  "C42": null,
+  "C46": 169.78,
+  "C47": 74.22,
+  "C48": 7.42,
+  "C49": 3.71,
+  "C50": 4.64,
+  "C51": "Sí",
+  "C52": 79.79,
+  "C53": 100,
+  "C54": 60,
+  "C55": 100,
+  "C56": 0.09,
+  "C57": 0.03,
+  "C59": 0.0549567689209996,
+  "C60": null,
+  "C61": "No está claro",
+  "C62": "Sí",
+  "B65": "El viento de cola se frena",
+  "C65": "Crece al ritmo de su mercado",
+  "D65": "Gana cuota: el moat se ensancha",
+  "B66": "El mercado se enfría y la empresa crece al 3 % con el margen de siempre.",
+  "C66": "Crece como su mercado, al 8 %, y mantiene el margen del 20 %.",
+  "D66": "Gana cuota y el margen sube dos puntos por escala; la mejora se la queda la empresa.",
+  "B67": null,
+  "C67": null,
+  "D67": null,
+  "B68": 0.015,
+  "C68": 0.025,
+  "D68": 0.03,
+  "B69": 0.2,
+  "C69": 0.6,
+  "D69": 0.2,
+  "C76": 0,
+  "B78": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "C78": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "D78": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "C83": null,
+  "C84": null,
+  "C85": null,
+  "C86": null,
+  "C87": null,
+  "C88": null,
+  "C93": "Sí",
+  "C96": null,
+  "C97": "Neutral",
+  "C98": "Buena",
+  "B101": "Tesis v1.",
+  "B102": "Tesis inversa v1.",
+  "C103": "Sí",
+  "C104": "0% · Vigilar · precio de Sí ≈ 15",
+  "veredictos": {
+   "D11": "✓ PASA",
+   "D12": "✓ PASA",
+   "D13": "✓ PASA",
+   "D14": "—",
+   "D17": "✓ PASA",
+   "D18": "✓ PASA",
+   "D19": "✓ PASA",
+   "D20": "✓ PASA",
+   "D24": "✓ PASA",
+   "D25": "✓ PASA",
+   "D26": "✓ PASA",
+   "D27": "✓ PASA · estables",
+   "D28": "ℹ ESTABLE",
+   "D31": "✓ PASA",
+   "D32": "ℹ BAJO",
+   "D33": "✓ PASA",
+   "D34": "✓ PASA",
+   "D84": "—",
+   "D85": "—",
+   "D86": "—",
+   "D93": "✓ PASA · terminal coherente"
+  },
+  "tabla_dcf_inverso": [
+   [
+    -0.1,
+    null
+   ],
+   [
+    -0.095,
+    null
+   ],
+   [
+    -0.09,
+    null
+   ],
+   [
+    -0.085,
+    null
+   ],
+   [
+    -0.08,
+    null
+   ],
+   [
+    -0.075,
+    null
+   ],
+   [
+    -0.07,
+    null
+   ],
+   [
+    -0.065,
+    null
+   ],
+   [
+    -0.06,
+    null
+   ],
+   [
+    -0.055,
+    null
+   ],
+   [
+    -0.05,
+    null
+   ],
+   [
+    -0.045,
+    null
+   ],
+   [
+    -0.04,
+    null
+   ],
+   [
+    -0.035,
+    null
+   ],
+   [
+    -0.03,
+    null
+   ],
+   [
+    -0.025,
+    null
+   ],
+   [
+    -0.02,
+    null
+   ],
+   [
+    -0.015,
+    null
+   ],
+   [
+    -0.01,
+    null
+   ],
+   [
+    -0.005,
+    null
+   ],
+   [
+    0,
+    null
+   ],
+   [
+    0.00499999999999999,
+    null
+   ],
+   [
+    0.01,
+    null
+   ],
+   [
+    0.015,
+    null
+   ],
+   [
+    0.02,
+    null
+   ],
+   [
+    0.025,
+    null
+   ],
+   [
+    0.03,
+    null
+   ],
+   [
+    0.035,
+    null
+   ],
+   [
+    0.04,
+    null
+   ],
+   [
+    0.045,
+    null
+   ],
+   [
+    0.05,
+    null
+   ],
+   [
+    0.055,
+    null
+   ],
+   [
+    0.06,
+    null
+   ],
+   [
+    0.065,
+    null
+   ],
+   [
+    0.07,
+    null
+   ],
+   [
+    0.075,
+    null
+   ],
+   [
+    0.08,
+    null
+   ],
+   [
+    0.085,
+    null
+   ],
+   [
+    0.09,
+    null
+   ],
+   [
+    0.095,
+    null
+   ],
+   [
+    0.1,
+    null
+   ],
+   [
+    0.105,
+    null
+   ],
+   [
+    0.11,
+    null
+   ],
+   [
+    0.115,
+    null
+   ],
+   [
+    0.12,
+    null
+   ],
+   [
+    0.125,
+    null
+   ],
+   [
+    0.13,
+    null
+   ],
+   [
+    0.135,
+    null
+   ],
+   [
+    0.14,
+    null
+   ],
+   [
+    0.145,
+    null
+   ],
+   [
+    0.15,
+    null
+   ],
+   [
+    0.155,
+    null
+   ],
+   [
+    0.16,
+    null
+   ],
+   [
+    0.165,
+    null
+   ],
+   [
+    0.17,
+    null
+   ],
+   [
+    0.175,
+    null
+   ],
+   [
+    0.18,
+    null
+   ],
+   [
+    0.185,
+    null
+   ],
+   [
+    0.19,
+    null
+   ],
+   [
+    0.195,
+    null
+   ],
+   [
+    0.2,
+    null
+   ],
+   [
+    0.205,
+    null
+   ],
+   [
+    0.21,
+    null
+   ],
+   [
+    0.215,
+    null
+   ],
+   [
+    0.22,
+    null
+   ],
+   [
+    0.225,
+    null
+   ],
+   [
+    0.23,
+    null
+   ],
+   [
+    0.235,
+    null
+   ],
+   [
+    0.24,
+    null
+   ],
+   [
+    0.245,
+    null
+   ],
+   [
+    0.25,
+    null
+   ],
+   [
+    0.255,
+    null
+   ],
+   [
+    0.26,
+    null
+   ],
+   [
+    0.265,
+    null
+   ],
+   [
+    0.27,
+    null
+   ],
+   [
+    0.275,
+    null
+   ],
+   [
+    0.28,
+    null
+   ],
+   [
+    0.285,
+    null
+   ],
+   [
+    0.29,
+    null
+   ],
+   [
+    0.295,
+    null
+   ],
+   [
+    0.3,
+    null
+   ]
+  ]
+ },
+ "palancas": {
+  "C5": "Madura en crecimiento",
+  "C6": "Ninguno",
+  "C7": "Machinery",
+  "C8": "Último año",
+  "C9": "No",
+  "C10": null,
+  "B14": null,
+  "C14": null,
+  "D14": null,
+  "B15": null,
+  "C15": null,
+  "D15": null,
+  "B16": null,
+  "C16": null,
+  "D16": null,
+  "B17": 0.015,
+  "C17": 0.025,
+  "D17": 0.03,
+  "B18": null,
+  "C18": null,
+  "D18": null,
+  "C22": null,
+  "C23": null,
+  "C24": null,
+  "etiquetas": {
+   "fila14": "Crecimiento de ventas · años 1–5",
+   "fila15": "Margen operativo objetivo (año 5)",
+   "fila16": "Ventas por euro reinvertido (S2C)",
+   "fila18": "ROIC a largo plazo (tras el año 10)"
+  },
+  "media_propia": {
+   "crecimiento": 0.0800000000000001,
+   "margen": 0.2,
+   "s2c_marginal": 1.48148148148148,
+   "roic": 0.2,
+   "s2c_medio": 1.33333333333333
+  },
+  "sector": {
+   "crecimiento_q1": 0.0311,
+   "crecimiento_mediana": 0.0797,
+   "crecimiento_q3": 0.161,
+   "margen_q1": -0.000145348837209302,
+   "margen_mediana": 0.0645940721649485,
+   "margen_q3": 0.125493291239148,
+   "roic_media": 0.118351200008183,
+   "s2c_medio_q1": 0.718225887334931,
+   "s2c_medio_mediana": 1.17725976857287,
+   "s2c_medio_q3": 1.78241949521323,
+   "g_pista_min": 0.01,
+   "g_pista_max": 0.03
+  },
+  "geografia": [
+   [
+    "Germany",
+    0.6,
+    0,
+    0
+   ],
+   [
+    "Brazil",
+    0.3,
+    0.0309838973115995,
+    0.00929516919347986
+   ],
+   [
+    "United States",
+    0.1,
+    0.00218635367819471,
+    0.000218635367819471
+   ],
+   [
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null,
+    null
+   ]
+  ],
+  "predicciones": [
+   [
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null,
+    null
+   ],
+   [
+    null,
+    null,
+    null,
+    null
+   ]
+  ],
+  "C43": "No aplica",
+  "C44": null,
+  "C45": "2026-10-20",
+  "C46": "2026-09-30",
+  "C47": "Ninguna",
+  "C48": "EUR"
+ },
+ "diagnostico": {
+  "motor": "A",
+  "coherencia_tipo_motor": "✓ PASA · tipo y motor coherentes",
+  "V0": 1000,
+  "m0": 0.2,
+  "t": 0.25,
+  "f": 0.0139966830951207,
+  "B0": 600,
+  "roe0": 0.2375,
+  "r_operativa": "—",
+  "pasivos_netos_B": "—",
+  "r_minima": 0.0815138045612993,
+  "r_vs_minima": "✓ PASA · r ≥ r mínima",
+  "por_escenario": {
+   "ventas_anio_10": [
+    null,
+    null,
+    null
+   ],
+   "fcf_anio_1": [
+    null,
+    null,
+    null
+   ],
+   "fcf_anio_10": [
+    null,
+    null,
+    null
+   ],
+   "crecimiento_fcf_implicito": [
+    null,
+    null,
+    null
+   ],
+   "valor_anios_1_10": [
+    null,
+    null,
+    null
+   ],
+   "valor_para_siempre": [
+    null,
+    null,
+    null
+   ],
+   "peso_terminal": [
+    null,
+    null,
+    null
+   ],
+   "ajuste": [
+    null,
+    null,
+    null
+   ],
+   "valor_antes_quiebra": [
+    null,
+    null,
+    null
+   ],
+   "valor_final": [
+    null,
+    null,
+    null
+   ],
+   "valor_por_accion": [
+    null,
+    null,
+    null
+   ],
+   "valor_sin_crecimiento": [
+    null,
+    null,
+    null
+   ],
+   "valor_del_crecimiento": [
+    null,
+    null,
+    null
+   ],
+   "roic_marginal_implicito": [
+    null,
+    null,
+    null
+   ],
+   "cuota_implicita": [
+    null,
+    null,
+    null
+   ]
+  },
+  "semaforos": {
+   "fila40": [
+    "Crecimiento frente al sector y a su historia",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila41": [
+    "Margen frente a su máximo y al sector",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila42": [
+    "ROIC marginal frente a su historia",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila43": [
+    "ROIC (o ROE) a largo plazo",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila44": [
+    "Peso del «para siempre»",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila45": [
+    "Cuota de mercado implícita",
+    "—",
+    "—",
+    "—"
+   ],
+   "fila46": [
+    "S2C medio frente al sector",
+    null,
+    "✓ PASA",
+    null
+   ],
+   "fila47": [
+    "Orden de los escenarios (MALO ≤ NORMAL ≤ BUENO)",
+    null,
+    "—",
+    null
+   ],
+   "fila48": [
+    "Tu r frente a la r mínima",
+    null,
+    "✓ PASA · r ≥ r mínima",
+    null
+   ],
+   "fila49": [
+    "Tipo de empresa frente a motor",
+    null,
+    "✓ PASA · tipo y motor coherentes",
+    null
+   ],
+   "fila50": [
+    "Fugas al accionista (f) en un rango razonable",
+    null,
+    "✓ PASA",
+    null
+   ]
+  },
+  "cuanto_pagas_por_crecer": [
+   [
+    "Valor sin crecimiento (por acción)",
+    null,
+    null,
+    null
+   ],
+   [
+    "Precio actual",
+    null,
+    null,
+    null
+   ],
+   [
+    "Lo que pagas por crecimiento = precio − valor sin crecimiento",
+    null,
+    null,
+    null
+   ],
+   [
+    "Lo que vale el crecimiento (y la mejora de margen) en tu NORMAL",
+    null,
+    null,
+    null
+   ],
+   [
+    "Pagas ÷ vale",
+    null,
+    null,
+    "—"
+   ]
+  ],
+  "multiplos": [
+   [
+    "PER (precio ÷ beneficio)",
+    null,
+    null,
+    null,
+    "Crecimiento"
+   ],
+   [
+    "Precio ÷ valor contable",
+    null,
+    3.37239613502045,
+    null,
+    "ROE último: 23.8 %"
+   ],
+   [
+    "EV ÷ ventas",
+    null,
+    2.61374944179941,
+    null,
+    "Margen tras impuestos"
+   ],
+   [
+    "EV ÷ EBITDA",
+    null,
+    16.8840897964881,
+    null,
+    "Tasa de reinversión"
+   ],
+   [
+    "Precio ÷ FCF base",
+    null,
+    null,
+    null,
+    "Rentabilidad FCF hoy: 10.0 %"
+   ]
+  ],
+  "autocomprobaciones": [
+   [
+    "Historia: al menos 5 años con ventas",
+    "✓ PASA"
+   ],
+   [
+    "Historia: el año más reciente está en la columna L",
+    "✓ PASA"
+   ],
+   [
+    "Los años de la media del FCF caben en la historia",
+    "✓ PASA"
+   ],
+   [
+    "Las probabilidades suman 100 %",
+    "✓ PASA"
+   ],
+   [
+    "g para siempre < tasa de descuento en los tres escenarios",
+    "✓ PASA"
+   ],
+   [
+    "S2C > 0 en los tres escenarios (motores A y B)",
+    "⛔ TÉCNICO · Faltan ventas por euro reinvertido (Palancas B16:D16)"
+   ],
+   [
+    "ROIC a largo plazo > g en los tres escenarios",
+    "⛔ TÉCNICO · Faltan ROIC a largo plazo (Palancas B18:D18)"
+   ],
+   [
+    "Los países suman 100 % (si has rellenado alguno)",
+    "✓ PASA"
+   ],
+   [
+    "La SBC se resta del FCF base (Análisis C51)",
+    "✓ PASA"
+   ],
+   [
+    "El exceso de caja no supera la caja del balance",
+    "No aplica"
+   ],
+   [
+    "El DCF inverso es utilizable",
+    "⛔ TÉCNICO · valor bloqueado"
+   ],
+   [
+    "Modo estudio apagado y ajustes a cero",
+    "✓ PASA"
+   ],
+   [
+    "Las tres predicciones están escritas",
+    "⛔ TÉCNICO · Faltan 3 predicciones (Palancas A38:A40)"
+   ],
+   [
+    "Tipo de empresa y caso especial elegidos",
+    "✓ PASA"
+   ],
+   [
+    "El motor calcula un valor en los tres escenarios",
+    "⛔ TÉCNICO · valor bloqueado: Faltan palancas de crecimiento (Palancas B14:D14)"
+   ],
+   [
+    "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
+    "NO LISTO · incompleto (5 pendientes)"
+   ]
+  ],
+  "parametros": {
+   "C91": 0.05,
+   "C92": 0.25,
+   "C93": 90,
+   "C94": 18,
+   "C156": null,
+   "C158": 0.75,
+   "C179": 0.05
+  },
+  "causas_activas": [
+   "1. INCOMPLETO · Faltan palancas de crecimiento (Palancas B14:D14)",
+   "2. INCOMPLETO · Faltan márgenes objetivo (Palancas B15:D15)",
+   "3. INCOMPLETO · Faltan ventas por euro reinvertido (Palancas B16:D16)",
+   "4. INCOMPLETO · Faltan ROIC a largo plazo (Palancas B18:D18)",
+   "5. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
+   "6. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
+   "7. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+  ],
+  "salto_anio_11": {
+   "filas": [
+    [
+     "  10 · COHERENCIA DE LA TRANSICIÓN AL TERMINAL (años 10 → 11)",
+     null,
+     null,
+     null
+    ],
+    [
+     "Concepto",
+     "MALO",
+     "NORMAL",
+     "BUENO"
+    ],
+    [
+     "Rentabilidad marginal implícita en los años 1–10 (S2C × margen objetivo × (1 − t))",
+     null,
+     null,
+     null
+    ],
+    [
+     "ROIC o ROE a largo plazo que usa el terminal (Palancas B18:D18)",
+     null,
+     null,
+     null
+    ],
+    [
+     "Salto en el año 11 (puntos; positivo = la rentabilidad marginal cae al pasar al terminal)",
+     null,
+     null,
+     null
+    ],
+    [
+     "Umbral del aviso (puntos; ajustable)",
+     null,
+     0.05,
+     null
+    ],
+    [
+     "Durante los años 1–10 cada euro reinvertido rinde S2C × margen × (1 − t). El terminal usa el ROIC a largo plazo y reinvierte g ÷ ROIC. Si los dos no coinciden, en el año 11 cambia la rentabilidad del capital sin que nada lo diga: es una hipótesis tuya sobre la pérdida (o ganancia) de ventaja competitiva, y conviene escribirla en la tesis.",
+     null,
+     null,
+     null
+    ]
+   ]
+  },
+  "tornado": {
+   "rotulos": [
+    "Crecimiento 1–5 (±2 pts)",
+    "Margen / ROE objetivo (±2 pts)",
+    "S2C (±0,3)",
+    "g perpetuo (±0,5 pts)",
+    "ROIC / ROE largo plazo (±5 pts)",
+    "Tasa de descuento (±1 pt)"
+   ],
+   "efectos": [
+    [
+     0,
+     null
+    ],
+    [
+     0,
+     null
+    ],
+    [
+     0,
+     null
+    ],
+    [
+     0,
+     null
+    ],
+    [
+     0,
+     null
+    ],
+    [
+     0,
+     null
+    ]
+   ],
+   "mas_influyente": "Crecimiento 1–5 (±2 pts)",
+   "B222": null,
+   "B223": null
+  },
+  "precio_referencia_hoja": null
+ },
+ "historia": {
+  "partidas": {
+   "anio": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+   ],
+   "ventas": [
+    500.248967131459,
+    540.268884501976,
+    583.490395262134,
+    630.169626883105,
+    680.583197033753,
+    735.029852796453,
+    793.83224102017,
+    857.338820301783,
+    925.925925925926,
+    1000
+   ],
+   "ebit": [
+    100.049793426292,
+    108.053776900395,
+    116.698079052427,
+    126.033925376621,
+    136.116639406751,
+    147.005970559291,
+    158.766448204034,
+    171.467764060357,
+    185.185185185185,
+    200
+   ],
+   "da": [
+    20.0099586852584,
+    21.610755380079,
+    23.3396158104854,
+    25.2067850753242,
+    27.2233278813501,
+    29.4011941118581,
+    31.7532896408068,
+    34.2935528120713,
+    37.037037037037,
+    40
+   ],
+   "beneficio_neto": [
+    71.2854778162329,
+    76.9883160415315,
+    83.1473813248541,
+    89.7991718308424,
+    96.9831055773098,
+    104.741754023495,
+    113.121094345374,
+    122.170781893004,
+    131.944444444445,
+    142.5
+   ],
+   "tipo_impositivo": [
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25,
+    0.25
+   ],
+   "cfo": [
+    91.545560985057,
+    98.8692058638616,
+    106.778742332971,
+    115.321041719608,
+    124.546725057177,
+    134.510463061751,
+    145.271300106691,
+    156.893004115226,
+    169.444444444444,
+    183
+   ],
+   "capex": [
+    40.0199173705167,
+    43.2215107601581,
+    46.6792316209707,
+    50.4135701506484,
+    54.4466557627002,
+    58.8023882237163,
+    63.5065792816136,
+    68.5871056241427,
+    74.0740740740741,
+    80
+   ],
+   "adquisiciones": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "circulante": [
+    5.00248967131459,
+    5.40268884501976,
+    5.83490395262134,
+    6.30169626883105,
+    6.80583197033753,
+    7.35029852796453,
+    7.9383224102017,
+    8.57338820301783,
+    9.25925925925926,
+    10
+   ],
+   "intereses": [
+    5.00248967131459,
+    5.40268884501976,
+    5.83490395262134,
+    6.30169626883105,
+    6.80583197033753,
+    7.35029852796453,
+    7.9383224102017,
+    8.57338820301783,
+    9.25925925925926,
+    10
+   ],
+   "intereses_financiacion": [
+    4.00199173705167,
+    4.32215107601581,
+    4.66792316209707,
+    5.04135701506484,
+    5.44466557627002,
+    5.88023882237163,
+    6.35065792816136,
+    6.85871056241427,
+    7.40740740740741,
+    8
+   ],
+   "arrendamientos_principal": [
+    2.00099586852584,
+    2.1610755380079,
+    2.33396158104854,
+    2.52067850753242,
+    2.72233278813501,
+    2.94011941118581,
+    3.17532896408068,
+    3.42935528120713,
+    3.7037037037037,
+    4
+   ],
+   "sbc": [
+    2.5012448356573,
+    2.70134442250988,
+    2.91745197631067,
+    3.15084813441552,
+    3.40291598516876,
+    3.67514926398227,
+    3.96916120510085,
+    4.28669410150892,
+    4.62962962962963,
+    5
+   ],
+   "id": [
+    15.0074690139438,
+    16.2080665350593,
+    17.504711857864,
+    18.9050888064931,
+    20.4174959110126,
+    22.0508955838936,
+    23.8149672306051,
+    25.7201646090535,
+    27.7777777777778,
+    30
+   ],
+   "acciones_diluidas": [
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100,
+    100
+   ],
+   "patrimonio": [
+    300.149380278875,
+    324.161330701185,
+    350.09423715728,
+    378.101776129863,
+    408.349918220252,
+    441.017911677872,
+    476.299344612102,
+    514.40329218107,
+    555.555555555556,
+    600
+   ],
+   "deuda": [
+    100.049793426292,
+    108.053776900395,
+    116.698079052427,
+    126.033925376621,
+    136.116639406751,
+    147.005970559291,
+    158.766448204034,
+    171.467764060357,
+    185.185185185185,
+    200
+   ],
+   "arrendamientos": [
+    25.012448356573,
+    27.0134442250988,
+    29.1745197631067,
+    31.5084813441552,
+    34.0291598516876,
+    36.7514926398227,
+    39.6916120510085,
+    42.8669410150892,
+    46.2962962962963,
+    50
+   ],
+   "caja": [
+    50.0248967131459,
+    54.0268884501976,
+    58.3490395262134,
+    63.0169626883105,
+    68.0583197033753,
+    73.5029852796453,
+    79.383224102017,
+    85.7338820301783,
+    92.5925925925926,
+    100
+   ],
+   "pensiones": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "minoritarios": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  "series": {
+   "crecimiento_ventas": [
+    null,
+    0.0800000000000005,
+    0.0799999999999999,
+    0.0800000000000005,
+    0.0799999999999992,
+    0.0799999999999999,
+    0.080000000000001,
+    0.0799999999999992,
+    0.0800000000000003,
+    0.0799999999999999
+   ],
+   "margen_ebit": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.200000000000001,
+    0.200000000000001,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ],
+   "reinversion_neta_organica": [
+    25.0124483565729,
+    27.0134442250989,
+    29.1745197631066,
+    31.5084813441553,
+    34.0291598516876,
+    36.7514926398227,
+    39.6916120510085,
+    42.8669410150892,
+    46.2962962962964,
+    50
+   ],
+   "reinversion_neta_total": [
+    25.0124483565729,
+    27.0134442250989,
+    29.1745197631066,
+    31.5084813441553,
+    34.0291598516876,
+    36.7514926398227,
+    39.6916120510085,
+    42.8669410150892,
+    46.2962962962964,
+    50
+   ],
+   "capital_invertido": [
+    375.186725348594,
+    405.201663376481,
+    437.6177964466,
+    472.627220162329,
+    510.437397775315,
+    551.27238959734,
+    595.374180765127,
+    643.004115226338,
+    694.444444444445,
+    750
+   ],
+   "roic": [
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.2
+   ],
+   "roe": [
+    0.2375,
+    0.2375,
+    0.2375,
+    0.2375,
+    0.2375,
+    0.237500000000001,
+    0.2375,
+    0.2375,
+    0.237500000000001,
+    0.2375
+   ],
+   "fcf_accionista": [
+    43.0214111733055,
+    46.4631240671699,
+    50.180173992544,
+    54.1945879119468,
+    58.530154944903,
+    63.212567340495,
+    68.2695727277345,
+    73.731138545953,
+    79.6296296296292,
+    86
+   ],
+   "roic_con_id": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ]
+  },
+  "anclas": {
+   "anios_con_ventas": 10,
+   "C43": 10,
+   "ventas_ultimo": 1000,
+   "C44": 1000,
+   "cagr_3": 0.0799999999999999,
+   "C45": 0.0799999999999999,
+   "cagr_5": 0.0800000000000001,
+   "C46": 0.0800000000000001,
+   "cagr_serie": 0.0800000000000001,
+   "C47": 0.0800000000000001,
+   "margen_ultimo": 0.2,
+   "C48": 0.2,
+   "margen_medio": 0.2,
+   "C49": 0.2,
+   "margen_min": 0.2,
+   "C50": 0.2,
+   "margen_max": 0.200000000000001,
+   "C51": 0.200000000000001,
+   "tipo_impositivo_5": 0.25,
+   "C52": 0.25,
+   "s2c_marginal": 1.48148148148148,
+   "C53": 1.48148148148148,
+   "s2c_medio": 1.33333333333333,
+   "C54": 1.33333333333333,
+   "roic_medio_5": 0.2,
+   "C55": 0.2,
+   "roe_medio_5": 0.2375,
+   "C56": 0.2375,
+   "anios_fcf_base": 3,
+   "C57": 3,
+   "f": 0.0139966830951207,
+   "C58": 0.0139966830951207,
+   "patrimonio_ultimo": 600,
+   "C59": 600,
+   "roe_ultimo": 0.2375,
+   "C60": 0.2375,
+   "beneficio_ultimo": 142.5,
+   "C61": 142.5,
+   "ebitda_ultimo": 240,
+   "C62": 240,
+   "coste_deuda": 0.0415384615384616,
+   "C63": 0.0415384615384616,
+   "deuda_mas_arr": 250,
+   "C64": 250,
+   "pensiones_mas_minor": 0,
+   "C65": 0,
+   "caja_ultimo": 100,
+   "C66": 100
+  },
+  "notas": {
+   "anio": null,
+   "ventas": "Empresa X (inventada): informe anual sintético",
+   "ebit": "Empresa X (inventada): informe anual sintético",
+   "da": "Empresa X (inventada): informe anual sintético",
+   "beneficio_neto": "Empresa X (inventada): informe anual sintético",
+   "tipo_impositivo": "Empresa X (inventada): informe anual sintético",
+   "cfo": "Empresa X (inventada): informe anual sintético",
+   "capex": "Empresa X (inventada): informe anual sintético",
+   "adquisiciones": "Empresa X (inventada): informe anual sintético",
+   "circulante": "Empresa X (inventada): informe anual sintético",
+   "intereses": "Empresa X (inventada): informe anual sintético",
+   "intereses_financiacion": "Empresa X (inventada): informe anual sintético",
+   "arrendamientos_principal": "Empresa X (inventada): informe anual sintético",
+   "sbc": "Empresa X (inventada): informe anual sintético",
+   "id": "Empresa X (inventada): informe anual sintético",
+   "acciones_diluidas": "Empresa X (inventada): informe anual sintético",
+   "patrimonio": "Empresa X (inventada): informe anual sintético",
+   "deuda": "Empresa X (inventada): informe anual sintético",
+   "arrendamientos": "Empresa X (inventada): informe anual sintético",
+   "caja": "Empresa X (inventada): informe anual sintético",
+   "pensiones": "Empresa X (inventada): informe anual sintético",
+   "minoritarios": "Empresa X (inventada): informe anual sintético"
+  }
+ },
+ "motor": {
+  "bloqueo_valor_B252": true,
+  "comparable_B253": true,
+  "bloqueo_lectura_B254": true,
+  "estado_tecnico_B255": "INCOMPLETO",
+  "causa_tecnica_B256": "Faltan palancas de crecimiento (Palancas B14:D14)",
+  "estado_inversion_B258": "DENTRO DEL CÍRCULO",
+  "n_avisos_B260": 2,
+  "n_causas_B261": 7,
+  "estado_libro_B266": "NO LISTO · incompleto (5 pendientes)",
+  "lectura_precio_B267": null,
+  "veredicto_B268": "INCOMPLETA · faltan 5 · Faltan palancas de crecimiento (Palancas B14:D14)",
+  "evidencias_B269": "INCOMPLETAS · datos 14 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 5 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+  "dcf_inverso_monotono_B193": "—",
+  "reglas": [
+   {
+    "id": "V01",
+    "regla": "Motor elegido (Análisis C62)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V02",
+    "regla": "Historia: al menos 5 ejercicios con ventas",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V03",
+    "regla": "Historia: el año más reciente en la columna L",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V04",
+    "regla": "Historia: años consecutivos y sin huecos",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V05",
+    "regla": "Años de la media del FCF base (Historia C57) · motor A",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V06",
+    "regla": "Precio actual (Análisis C37)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V07",
+    "regla": "Acciones diluidas (Análisis C55)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V08",
+    "regla": "Rentabilidad exigida r (Análisis C56)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V09",
+    "regla": "Datos del FCF base (Análisis C46–C51): tipo y dominio",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V10",
+    "regla": "FCF base ≤ 0 · motor A",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V11",
+    "regla": "Tipo de empresa frente a motor (Palancas C6)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V12",
+    "regla": "Crecimiento años 1–5 (Palancas B14:D14)",
+    "aplica": true,
+    "resultado": "INCOMPLETO",
+    "codigo": "INC|Faltan palancas de crecimiento (Palancas B14:D14)",
+    "causa": "Faltan palancas de crecimiento (Palancas B14:D14)",
+    "nivel": 1,
+    "prioridad": 3,
+    "n_causa_activa": 1
+   },
+   {
+    "id": "V13",
+    "regla": "Margen o ROE objetivo (Palancas B15:D15)",
+    "aplica": true,
+    "resultado": "INCOMPLETO",
+    "codigo": "INC|Faltan márgenes objetivo (Palancas B15:D15)",
+    "causa": "Faltan márgenes objetivo (Palancas B15:D15)",
+    "nivel": 1,
+    "prioridad": 3,
+    "n_causa_activa": 2
+   },
+   {
+    "id": "V14",
+    "regla": "Ventas por euro reinvertido (Palancas B16:D16) · motores A y B",
+    "aplica": true,
+    "resultado": "INCOMPLETO",
+    "codigo": "INC|Faltan ventas por euro reinvertido (Palancas B16:D16)",
+    "causa": "Faltan ventas por euro reinvertido (Palancas B16:D16)",
+    "nivel": 1,
+    "prioridad": 3,
+    "n_causa_activa": 3
+   },
+   {
+    "id": "V15",
+    "regla": "g para siempre (Análisis B68:D68)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V16",
+    "regla": "ROIC o ROE a largo plazo (Palancas B18:D18)",
+    "aplica": true,
+    "resultado": "INCOMPLETO",
+    "codigo": "INC|Faltan ROIC a largo plazo (Palancas B18:D18)",
+    "causa": "Faltan ROIC a largo plazo (Palancas B18:D18)",
+    "nivel": 1,
+    "prioridad": 3,
+    "n_causa_activa": 4
+   },
+   {
+    "id": "V17",
+    "regla": "Probabilidades de los escenarios (Análisis B69:D69)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V18",
+    "regla": "Tipo impositivo medio (Historia C52) · motores A y B",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V19",
+    "regla": "Probabilidad de quiebra (Palancas C22)",
+    "aplica": true,
+    "resultado": "AVISO",
+    "codigo": "AVI|Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
+    "causa": "Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": 5
+   },
+   {
+    "id": "V20",
+    "regla": "Recuperación si quiebra (Palancas C23)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V21",
+    "regla": "Historia de cada escenario (Análisis B65:D65)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V22",
+    "regla": "Capitalización (Análisis C41)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V23",
+    "regla": "Deuda y r operativa · motor B",
+    "aplica": false,
+    "resultado": "N/A",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V24",
+    "regla": "Patrimonio y ROE de partida · motor C",
+    "aplica": false,
+    "resultado": "N/A",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V25",
+    "regla": "Moneda de cotización frente a moneda del modelo",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 2,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V26",
+    "regla": "ADR: unidad cotizada frente a la unidad del valor",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 2,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V27",
+    "regla": "Conciliación: capitalización ≈ precio × acciones",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 2,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V28",
+    "regla": "Fechas del precio y de las acciones",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V30",
+    "regla": "Los países suman 100 %",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V31",
+    "regla": "Vigencia de las tablas de sector y país",
+    "aplica": true,
+    "resultado": "AVISO",
+    "codigo": "AVI|Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
+    "causa": "Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": 6
+   },
+   {
+    "id": "V32",
+    "regla": "Ventas o patrimonio del último año > 0 (Historia L6 / L21)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V33",
+    "regla": "EBIT del último año (Historia L7) · motores A y B",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V34",
+    "regla": "Exceso de caja no operativo (Análisis C76)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 2,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V37",
+    "regla": "Historia: solo números en C5:L26",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V38",
+    "regla": "Valor de la fuente externa (Análisis C38)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V39",
+    "regla": "Celdas de salida intactas (sin sobrescribir)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V35",
+    "regla": "Motor calculable (red de seguridad)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 1,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C01",
+    "regla": "Identificación (Análisis B3, D3)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C02",
+    "regla": "Filtro Pabrai (Análisis C11:C13)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C03",
+    "regla": "Tipo de empresa (Palancas C5, C6)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C04",
+    "regla": "Sector de Damodaran (Palancas C7)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C05",
+    "regla": "Tesis y tesis inversa (Análisis B101, B102)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C06",
+    "regla": "Gestión (Análisis C97, C98)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C07",
+    "regla": "Predicciones (Palancas A38:A40)",
+    "aplica": true,
+    "resultado": "INCOMPLETO",
+    "codigo": "INC|Faltan 3 predicciones (Palancas A38:A40)",
+    "causa": "Faltan 3 predicciones (Palancas A38:A40)",
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": 7
+   },
+   {
+    "id": "C08",
+    "regla": "Etapas 1 y 2 de Análisis (13 respuestas)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C09",
+    "regla": "Escenarios en tus palabras (Análisis B66:D66)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "C10",
+    "regla": "Cierre (Análisis C14, C93, C103, C104)",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V29",
+    "regla": "DCF inverso utilizable",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   },
+   {
+    "id": "V36",
+    "regla": "Valor por acción positivo en los tres escenarios",
+    "aplica": true,
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
+    "nivel": 3,
+    "prioridad": 9,
+    "n_causa_activa": null
+   }
+  ]
+ },
+ "control_maestro": {
+  "cabecera": {
+   "H4_moneda": "EUR",
+   "J4_unidad": "mm",
+   "L4_norma": "IFRS",
+   "N4_cierre": "diciembre",
+   "B5_mercado": null,
+   "D5_ratio_adr": null,
+   "F5_periodo": null,
+   "J5_fx": null,
+   "L5_revision": "2026-11-03",
+   "N5_responsable": "fase 1 v2 (rellenar_fase1_v63.py)"
+  },
+  "filas": {
+   "17": {
+    "celda": "Análisis!B3",
+    "concepto": "Empresa",
+    "naturaleza": "Dato objetivo / identificación",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (identificación)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B3"
+   },
+   "18": {
+    "celda": "Análisis!D3",
+    "concepto": "Ticker / cotización",
+    "naturaleza": "Dato objetivo / identificación",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (identificación)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D3"
+   },
+   "19": {
+    "celda": "Análisis!B4",
+    "concepto": "Sector",
+    "naturaleza": "Dato objetivo / identificación",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B4"
+   },
+   "20": {
+    "celda": "Análisis!D4",
+    "concepto": "Fecha de análisis",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (fecha de análisis)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D4"
+   },
+   "21": {
+    "celda": "Análisis!C11",
+    "concepto": "Entender el negocio en ≤5 frases",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "22": {
+    "celda": "Análisis!C12",
+    "concepto": "Círculo de competencia",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "23": {
+    "celda": "Análisis!C13",
+    "concepto": "Valor claro sin modelo complejo",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: No → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "24": {
+    "celda": "Análisis!C14",
+    "concepto": "Tipo de oportunidad",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Compounder → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "25": {
+    "celda": "Análisis!C17",
+    "concepto": "Viento de cola duradero",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "26": {
+    "celda": "Análisis!C18",
+    "concepto": "Ventaja competitiva sostenible",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "27": {
+    "celda": "Análisis!C19",
+    "concepto": "Consistencia de crecimiento de ingresos/beneficios",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "28": {
+    "celda": "Análisis!C20",
+    "concepto": "Riesgo vs incertidumbre",
+    "naturaleza": "Juicio del inversor / cualitativo",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Incert. alta + riesgo bajo → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "29": {
+    "celda": "Análisis!C24",
+    "concepto": "ROIC / ROCE",
+    "naturaleza": "Dato objetivo condicionado a definición",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C24"
+   },
+   "30": {
+    "celda": "Análisis!C25",
+    "concepto": "FCF creciente",
+    "naturaleza": "Juicio asistido por históricos",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "31": {
+    "celda": "Análisis!C26",
+    "concepto": "CFO ÷ beneficio neto",
+    "naturaleza": "Dato objetivo / cálculo verificable",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C26"
+   },
+   "32": {
+    "celda": "Análisis!C27",
+    "concepto": "Tendencia de márgenes 5–10 años",
+    "naturaleza": "Juicio asistido por históricos",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Estable → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "33": {
+    "celda": "Análisis!C28",
+    "concepto": "Dilución / recompra / estabilidad",
+    "naturaleza": "Dato histórico con clasificación",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C28"
+   },
+   "34": {
+    "celda": "Análisis!C31",
+    "concepto": "Cobros o inventario crecen más rápido que ingresos",
+    "naturaleza": "Dato objetivo / comparación histórica",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C31"
+   },
+   "35": {
+    "celda": "Análisis!C32",
+    "concepto": "Goodwill ÷ activo total",
+    "naturaleza": "Dato objetivo / cálculo verificable",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C32"
+   },
+   "36": {
+    "celda": "Análisis!C33",
+    "concepto": "Deuda neta ÷ EBITDA",
+    "naturaleza": "Dato objetivo condicionado a definición",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C33"
+   },
+   "37": {
+    "celda": "Análisis!C34",
+    "concepto": "Caja cubre deuda a corto plazo",
+    "naturaleza": "Dato objetivo / balance",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C34"
+   },
+   "38": {
+    "celda": "Análisis!C37",
+    "concepto": "Precio actual",
+    "naturaleza": "Dato objetivo de mercado",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "cotización de cierre (sintética)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "fecha 2026-10-20 · moneda de cotización EUR"
+   },
+   "39": {
+    "celda": "Análisis!C38",
+    "concepto": "Valor intrínseco de una fuente externa (opcional)",
+    "naturaleza": "Referencia externa secundaria",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C38"
+   },
+   "40": {
+    "celda": "Análisis!C40",
+    "concepto": "FCF para FCF Yield",
+    "naturaleza": "Dato objetivo condicionado a periodo",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C40"
+   },
+   "41": {
+    "celda": "Análisis!C41",
+    "concepto": "Capitalización bursátil",
+    "naturaleza": "Dato objetivo de mercado",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2026-10-20",
+    "unidad": "mm",
+    "tipo_fuente": null,
+    "J": "precio × acciones (sintético)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C41"
+   },
+   "42": {
+    "celda": "Análisis!C42",
+    "concepto": "EV / EBITDA",
+    "naturaleza": "Dato objetivo condicionado a periodo/definición",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C42"
+   },
+   "43": {
+    "celda": "Análisis!C46",
+    "concepto": "Caja de las operaciones (media 3–5 años)",
+    "naturaleza": "Dato objetivo / cash flow",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C46"
+   },
+   "44": {
+    "celda": "Análisis!C47",
+    "concepto": "Capex (positivo; media 3–5 años)",
+    "naturaleza": "Dato objetivo / cash flow",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C47"
+   },
+   "45": {
+    "celda": "Análisis!C48",
+    "concepto": "Intereses pagados clasificados en financiación · IFRS",
+    "naturaleza": "Dato objetivo / revisión IFRS",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C48"
+   },
+   "46": {
+    "celda": "Análisis!C49",
+    "concepto": "Principal de lease liabilities · IFRS 16",
+    "naturaleza": "Dato objetivo / revisión IFRS",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C49"
+   },
+   "47": {
+    "celda": "CONTROL",
+    "concepto": "Otros pagos relacionados con leases fuera de CFO",
+    "naturaleza": "Dato objetivo / revisión IFRS",
+    "E": "Pendiente de investigación",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "No existe fila específica en el motor. Si es material y debe ajustarse, documentar exactamente dónde se incorporó sin crear un hardcode oculto."
+   },
+   "48": {
+    "celda": "Análisis!C50",
+    "concepto": "Stock-based compensation (SBC)",
+    "naturaleza": "Dato objetivo / cash flow",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C50"
+   },
+   "49": {
+    "celda": "Análisis!C51",
+    "concepto": "¿Restar SBC del FCF base?",
+    "naturaleza": "Decisión del inversor / metodología elegida",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "50": {
+    "celda": "Análisis!C53",
+    "concepto": "Caja y equivalentes",
+    "naturaleza": "Dato objetivo / balance",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C53"
+   },
+   "51": {
+    "celda": "Análisis!C54",
+    "concepto": "Deuda total",
+    "naturaleza": "Dato objetivo / balance",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C54"
+   },
+   "52": {
+    "celda": "Análisis!C55",
+    "concepto": "Acciones diluidas",
+    "naturaleza": "Dato objetivo condicionado a definición",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2026-09-30",
+    "unidad": "mm",
+    "tipo_fuente": null,
+    "J": "informe anual sintético, nota de capital",
+    "K": null,
+    "L": "12",
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C55"
+   },
+   "53": {
+    "celda": "Análisis!C56",
+    "concepto": "Rentabilidad exigida al accionista (r)",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: 0.09 → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "54": {
+    "celda": "Análisis!C57",
+    "concepto": "Tasa sin riesgo 10 años · misma moneda",
+    "naturaleza": "Dato objetivo de mercado",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "bono a 10 años (sintético)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C57"
+   },
+   "55": {
+    "celda": "Análisis!C60",
+    "concepto": "CAGR de acciones diluidas 3–5 años",
+    "naturaleza": "Dato objetivo / cálculo histórico",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C60"
+   },
+   "56": {
+    "celda": "Análisis!C61",
+    "concepto": "¿Recompras neutralizan la SBC?",
+    "naturaleza": "Juicio asistido por datos",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: No está claro → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "57": {
+    "celda": "Análisis!C62",
+    "concepto": "Aplicabilidad del DCF simplificado / estabilidad financiación",
+    "naturaleza": "Juicio metodológico del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "58": {
+    "celda": "Análisis!B65",
+    "concepto": "MALO: ¿qué tiene que pasar?",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: El viento de cola se frena → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "59": {
+    "celda": "Análisis!B66",
+    "concepto": "MALO: descripción en una frase",
+    "naturaleza": "Decisión del inversor / narrativa",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: malo v1 → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "60": {
+    "celda": "Análisis!B67",
+    "concepto": "MALO: crecimiento FCF años 1–10 (V6: calculado)",
+    "naturaleza": "Automático V6",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "HEREDADO · V5.3 (fórmula en V6.3): [Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B67"
+   },
+   "61": {
+    "celda": "Análisis!B68",
+    "concepto": "MALO: crecimiento terminal desde año 11",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B68"
+   },
+   "62": {
+    "celda": "Análisis!B69",
+    "concepto": "MALO: probabilidad",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B69"
+   },
+   "63": {
+    "celda": "Análisis!C65",
+    "concepto": "NORMAL: ¿qué tiene que pasar?",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Crece al ritmo de su mercado → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "64": {
+    "celda": "Análisis!C66",
+    "concepto": "NORMAL: descripción en una frase",
+    "naturaleza": "Decisión del inversor / narrativa",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: normal v1 → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "65": {
+    "celda": "Análisis!C67",
+    "concepto": "NORMAL: crecimiento FCF años 1–10 (V6: calculado)",
+    "naturaleza": "Automático V6",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "HEREDADO · V5.3 (fórmula en V6.3): [Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C67"
+   },
+   "66": {
+    "celda": "Análisis!C68",
+    "concepto": "NORMAL: crecimiento terminal desde año 11",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C68"
+   },
+   "67": {
+    "celda": "Análisis!C69",
+    "concepto": "NORMAL: probabilidad",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C69"
+   },
+   "68": {
+    "celda": "Análisis!D65",
+    "concepto": "BUENO: ¿qué tiene que pasar?",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Gana cuota: el moat se ensancha → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "69": {
+    "celda": "Análisis!D66",
+    "concepto": "BUENO: descripción en una frase",
+    "naturaleza": "Decisión del inversor / narrativa",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: bueno v1 → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "70": {
+    "celda": "Análisis!D67",
+    "concepto": "BUENO: crecimiento FCF años 1–10 (V6: calculado)",
+    "naturaleza": "Automático V6",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "HEREDADO · V5.3 (fórmula en V6.3): [Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D67"
+   },
+   "71": {
+    "celda": "Análisis!D68",
+    "concepto": "BUENO: crecimiento terminal desde año 11",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D68"
+   },
+   "72": {
+    "celda": "Análisis!D69",
+    "concepto": "BUENO: probabilidad",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D69"
+   },
+   "73": {
+    "celda": "Análisis!C88",
+    "concepto": "P/FCF histórico para contraste del múltiplo terminal",
+    "naturaleza": "Dato objetivo condicionado a periodo",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C88"
+   },
+   "74": {
+    "celda": "Análisis!C93",
+    "concepto": "Sostenibilidad del g terminal NORMAL",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C93"
+   },
+   "75": {
+    "celda": "Análisis!C96",
+    "concepto": "% de insiders",
+    "naturaleza": "Dato objetivo / ownership",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C96"
+   },
+   "76": {
+    "celda": "Análisis!C97",
+    "concepto": "Insiders comprando o vendiendo",
+    "naturaleza": "Dato objetivo con periodo definido",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Neutral → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "77": {
+    "celda": "Análisis!C98",
+    "concepto": "Asignación de capital de la dirección",
+    "naturaleza": "Juicio del inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Buena → mantiene (misma_evidencia): la Historia la sostiene. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "78": {
+    "celda": "Análisis!B101",
+    "concepto": "Tesis en ≤5 frases",
+    "naturaleza": "Decisión del inversor / narrativa",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B101"
+   },
+   "79": {
+    "celda": "Análisis!B102",
+    "concepto": "Tesis inversa",
+    "naturaleza": "Decisión del inversor / narrativa",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B102"
+   },
+   "80": {
+    "celda": "Análisis!C103",
+    "concepto": "Categoría «nunca vender»",
+    "naturaleza": "Decisión del inversor",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C103"
+   },
+   "81": {
+    "celda": "Análisis!C104",
+    "concepto": "Tamaño de posición (%)",
+    "naturaleza": "Decisión del inversor / cartera",
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C104"
+   },
+   "82": {
+    "celda": "Análisis!C76",
+    "concepto": "Exceso de caja no operativa (opcional)",
+    "naturaleza": "Juicio del inversor / balance",
+    "E": "Listo para auditoría",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C76"
+   },
+   "85": {
+    "celda": "Comprobación",
+    "concepto": "Estado",
+    "naturaleza": "Evidencia / resultado",
+    "E": "Acción necesaria",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "86": {
+    "celda": "Revisar #REF!, rangos, referencias absolutas/relativas y fórmulas alteradas.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "87": {
+    "celda": "Comprobar signos originales vs convención de la plantilla y escala miles/mm.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "88": {
+    "celda": "Confirmar FY/LTM y años exactos usados en medias, ratios y mercado.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "89": {
+    "celda": "Toda la valoración debe estar en una moneda coherente; documentar conversiones.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "90": {
+    "celda": "Verificar CFO − Capex − intereses/leases fuera de CFO − SBC según decisión C51.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "91": {
+    "celda": "Comprobar descuento año a año y uso coherente de r.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "92": {
+    "celda": "Comprobar FCF año 10, crecimiento terminal y descuento al presente.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "93": {
+    "celda": "Verificar el valor terminal del motor: flujo del año 11 (con reinversión g ÷ ROIC) ÷ (r − g), y que r > g.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "94": {
+    "celda": "Motores A y C: el FCF ya es del accionista y la deuda no se resta. Motor B: se descuenta el flujo operativo y se restan deuda, arrendamientos, pensiones y minoritarios (Diagnóstico V6).",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "95": {
+    "celda": "Los tres escenarios deben sumar exactamente 100% para calcular el ponderado.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "96": {
+    "celda": "Comprobar que usa el g NORMAL y que el rango de búsqueda no limita la conclusión.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "97": {
+    "celda": "Validar r ±2 pts y g terminal ±0,5 pts; caso base debe reconciliar con el valor ponderado.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "98": {
+    "celda": "Buscar circularidades y referencias recursivas inesperadas.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "99": {
+    "celda": "Detectar números incrustados donde debería existir una referencia o un input documentado.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "100": {
+    "celda": "Confirmar clasificación de intereses pagados en CFO/financiación y ajuste C48.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "101": {
+    "celda": "Confirmar principal de lease liabilities, intereses de leases y otros pagos relevantes fuera de CFO.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "102": {
+    "celda": "Cada input relevante debe terminar en una de las cuatro categorías de auditoría final.",
+    "concepto": "Pendiente",
+    "naturaleza": null,
+    "E": null,
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "106": {
+    "celda": "Celda",
+    "concepto": "Concepto",
+    "naturaleza": "Naturaleza",
+    "E": "Estado de trabajo",
+    "F": "Clasificación final (declarada por el analista; Excel no comprueba el dato)",
+    "periodo": "Periodo",
+    "unidad": "Unidad / moneda",
+    "tipo_fuente": "Tipo de fuente",
+    "J": "Documento / emisor (fuente declarada)",
+    "K": "URL",
+    "L": "Página / nota",
+    "M": "Ajuste / criterio",
+    "N": "Observaciones"
+   },
+   "107": {
+    "celda": "Historia!C5:L5",
+    "concepto": "Año fiscal (ej. 2025)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (años de la Historia; fuente en cada partida)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "108": {
+    "celda": "Historia!C6:L6",
+    "concepto": "Ventas",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "109": {
+    "celda": "Historia!C7:L7",
+    "concepto": "Resultado operativo (EBIT)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "110": {
+    "celda": "Historia!C8:L8",
+    "concepto": "Amortizaciones (D&A)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "111": {
+    "celda": "Historia!C9:L9",
+    "concepto": "Beneficio neto atribuible",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "112": {
+    "celda": "Historia!C10:L10",
+    "concepto": "Tipo impositivo efectivo",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "113": {
+    "celda": "Historia!C11:L11",
+    "concepto": "Caja de las operaciones (CFO)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "114": {
+    "celda": "Historia!C12:L12",
+    "concepto": "Capex (positivo)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "115": {
+    "celda": "Historia!C13:L13",
+    "concepto": "Adquisiciones netas (positivo)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "116": {
+    "celda": "Historia!C14:L14",
+    "concepto": "Aumento del circulante (+ consume caja)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "117": {
+    "celda": "Historia!C15:L15",
+    "concepto": "Intereses pagados (total)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "118": {
+    "celda": "Historia!C16:L16",
+    "concepto": "Intereses pagados en financiación (IFRS)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "119": {
+    "celda": "Historia!C17:L17",
+    "concepto": "Principal de arrendamientos (IFRS 16)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "120": {
+    "celda": "Historia!C18:L18",
+    "concepto": "SBC (compensación en acciones)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "121": {
+    "celda": "Historia!C19:L19",
+    "concepto": "I+D (gasto del año)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "122": {
+    "celda": "Historia!C20:L20",
+    "concepto": "Acciones diluidas (mm)",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "123": {
+    "celda": "Historia!C21:L21",
+    "concepto": "Patrimonio neto atribuible",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "124": {
+    "celda": "Historia!C22:L22",
+    "concepto": "Deuda financiera",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "125": {
+    "celda": "Historia!C23:L23",
+    "concepto": "Pasivo por arrendamientos",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "126": {
+    "celda": "Historia!C24:L24",
+    "concepto": "Caja y equivalentes",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "127": {
+    "celda": "Historia!C25:L25",
+    "concepto": "Déficit neto de pensiones",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "128": {
+    "celda": "Historia!C26:L26",
+    "concepto": "Minoritarios",
+    "naturaleza": "Dato objetivo / serie histórica",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": "2016–2025",
+    "unidad": "mm EUR",
+    "tipo_fuente": null,
+    "J": "Empresa X (inventada): informe anual sintético",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "129": {
+    "celda": "Historia!C57",
+    "concepto": "Años de la media del FCF base",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: convención] [Confianza: alta] Años de la media del FCF base = 3: los mismos años que C46–C50 (fase1_v63.json / etapa 1). La fase A puede corregirlo."
+   },
+   "130": {
+    "celda": "Palancas!C7",
+    "concepto": "Sector de Damodaran",
+    "naturaleza": "Dato objetivo / clasificación",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "131": {
+    "celda": "Palancas!A28:B28",
+    "concepto": "Dónde vende · fila 1 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "132": {
+    "celda": "Palancas!A29:B29",
+    "concepto": "Dónde vende · fila 2 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "133": {
+    "celda": "Palancas!A30:B30",
+    "concepto": "Dónde vende · fila 3 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Listo para auditoría",
+    "F": "Dato no verificable",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "134": {
+    "celda": "Palancas!A31:B31",
+    "concepto": "Dónde vende · fila 4 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Pendiente de investigación",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "135": {
+    "celda": "Palancas!A32:B32",
+    "concepto": "Dónde vende · fila 5 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Pendiente de investigación",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "136": {
+    "celda": "Palancas!A33:B33",
+    "concepto": "Dónde vende · fila 6 (país y %)",
+    "naturaleza": "Dato objetivo / reparto de ventas",
+    "E": "Pendiente de investigación",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "137": {
+    "celda": "Palancas!C5",
+    "concepto": "Etapa del ciclo de vida",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "138": {
+    "celda": "Palancas!C6",
+    "concepto": "Caso especial",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "139": {
+    "celda": "Palancas!C8",
+    "concepto": "Base de partida del margen",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "140": {
+    "celda": "Palancas!C9",
+    "concepto": "I+D capitalizada en las anclas",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "141": {
+    "celda": "Palancas!C10",
+    "concepto": "Vida útil de la I+D",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "142": {
+    "celda": "Palancas!B14",
+    "concepto": "MALO: crecimiento años 1–5",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "143": {
+    "celda": "Palancas!B15",
+    "concepto": "MALO: margen (o ROE) objetivo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "144": {
+    "celda": "Palancas!B16",
+    "concepto": "MALO: ventas por euro reinvertido",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "145": {
+    "celda": "Palancas!B18",
+    "concepto": "MALO: ROIC a largo plazo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "146": {
+    "celda": "Palancas!C14",
+    "concepto": "NORMAL: crecimiento años 1–5",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "147": {
+    "celda": "Palancas!C15",
+    "concepto": "NORMAL: margen (o ROE) objetivo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "148": {
+    "celda": "Palancas!C16",
+    "concepto": "NORMAL: ventas por euro reinvertido",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "149": {
+    "celda": "Palancas!C18",
+    "concepto": "NORMAL: ROIC a largo plazo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "150": {
+    "celda": "Palancas!D14",
+    "concepto": "BUENO: crecimiento años 1–5",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "151": {
+    "celda": "Palancas!D15",
+    "concepto": "BUENO: margen (o ROE) objetivo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "152": {
+    "celda": "Palancas!D16",
+    "concepto": "BUENO: ventas por euro reinvertido",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "153": {
+    "celda": "Palancas!D18",
+    "concepto": "BUENO: ROIC a largo plazo",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "154": {
+    "celda": "Palancas!C22",
+    "concepto": "Probabilidad de quiebra",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "155": {
+    "celda": "Palancas!C23",
+    "concepto": "Recuperación si quiebra",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "156": {
+    "celda": "Palancas!C24",
+    "concepto": "Tamaño del mercado año 10",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "157": {
+    "celda": "Palancas!A38",
+    "concepto": "Predicción 1",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "158": {
+    "celda": "Palancas!B38",
+    "concepto": "Predicción 1: fecha",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "159": {
+    "celda": "Palancas!C38",
+    "concepto": "Predicción 1: probabilidad",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "160": {
+    "celda": "Palancas!A39",
+    "concepto": "Predicción 2",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "161": {
+    "celda": "Palancas!B39",
+    "concepto": "Predicción 2: fecha",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "162": {
+    "celda": "Palancas!C39",
+    "concepto": "Predicción 2: probabilidad",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "163": {
+    "celda": "Palancas!A40",
+    "concepto": "Predicción 3",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "164": {
+    "celda": "Palancas!B40",
+    "concepto": "Predicción 3: fecha",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "165": {
+    "celda": "Palancas!C40",
+    "concepto": "Predicción 3: probabilidad",
+    "naturaleza": "Juicio del inversor / V6",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "166": {
+    "celda": "Palancas!C43",
+    "concepto": "Naturaleza del FCF base ≤ 0 (motor A)",
+    "naturaleza": "Juicio del inversor / V6.1",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "167": {
+    "celda": "Palancas!C44",
+    "concepto": "FCF base normalizado (mm)",
+    "naturaleza": "Juicio del inversor / V6.1 · documentar el cálculo",
+    "E": "Pendiente de inversor",
+    "F": null,
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "168": {
+    "celda": "Palancas!C45",
+    "concepto": "Fecha del precio (Análisis C37)",
+    "naturaleza": "Dato objetivo / metadata V6.1",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "169": {
+    "celda": "Palancas!C46",
+    "concepto": "Fecha de las acciones diluidas (Análisis C55)",
+    "naturaleza": "Dato objetivo / metadata V6.1",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "170": {
+    "celda": "Palancas!C47",
+    "concepto": "Causa declarada de la diferencia precio × acciones frente a capitalización",
+    "naturaleza": "Juicio del inversor / V6.1",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": null,
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe."
+   },
+   "171": {
+    "celda": "Palancas!C48",
+    "concepto": "Moneda de cotización (comparabilidad con Control maestro H4)",
+    "naturaleza": "Dato objetivo / metadata V6.1",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "172": {
+    "celda": "'Control maestro'!H4",
+    "concepto": "Moneda base del modelo (la usan las comprobaciones de moneda)",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "173": {
+    "celda": "'Control maestro'!D5",
+    "concepto": "Ratio ADR/ADS = acciones ordinarias por cada ADR (número; 1 = el precio ya es por acción). Obligatorio si la causa declarada es «ADR o ADS»",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "174": {
+    "celda": "'Control maestro'!J4",
+    "concepto": "Unidad financiera de todos los importes (mm, miles…)",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   },
+   "175": {
+    "celda": "'Control maestro'!L4",
+    "concepto": "Norma contable (IFRS, US GAAP, Otro)",
+    "naturaleza": "Dato objetivo / metadata",
+    "E": "Listo para auditoría",
+    "F": "Rellenado y verificado",
+    "periodo": null,
+    "unidad": null,
+    "tipo_fuente": null,
+    "J": "fase1_v63.json (metadatos)",
+    "K": null,
+    "L": null,
+    "M": null,
+    "N": null
+   }
+  },
+  "inventario": [
+   {
+    "fila_cm": 38,
+    "celda": "Análisis!C37",
+    "concepto": "Precio actual",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (lectura del precio)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "cotización de cierre (sintética)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 41,
+    "celda": "Análisis!C41",
+    "concepto": "Capitalización bursátil",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (bloquea el valor si falta; peso de financiación en B)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "precio × acciones (sintético)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 52,
+    "celda": "Análisis!C55",
+    "concepto": "Acciones diluidas",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "informe anual sintético, nota de capital",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 43,
+    "celda": "Análisis!C46",
+    "concepto": "Caja de las operaciones (media 3–5 años)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "siempre en A (FCF base)",
+    "clasificacion": "Dato no verificable",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "no verificable"
+   },
+   {
+    "fila_cm": 44,
+    "celda": "Análisis!C47",
+    "concepto": "Capex (positivo; media 3–5 años)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "siempre en A",
+    "clasificacion": "Dato no verificable",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "no verificable"
+   },
+   {
+    "fila_cm": 45,
+    "celda": "Análisis!C48",
+    "concepto": "Intereses pagados clasificados en financiación · IFRS",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "siempre en A (0 explícito si no hay)",
+    "clasificacion": "Dato no verificable",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "no verificable"
+   },
+   {
+    "fila_cm": 46,
+    "celda": "Análisis!C49",
+    "concepto": "Principal de lease liabilities · IFRS 16",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "siempre en A (0 explícito si no hay)",
+    "clasificacion": "Dato no verificable",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "no verificable"
+   },
+   {
+    "fila_cm": 48,
+    "celda": "Análisis!C50",
+    "concepto": "Stock-based compensation (SBC)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "siempre en A (0 explícito si no hay)",
+    "clasificacion": "Dato no verificable",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "no verificable"
+   },
+   {
+    "fila_cm": 107,
+    "celda": "Historia!C5:L5",
+    "concepto": "Año fiscal (ej. 2025)",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (años consecutivos, el último en L)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (años de la Historia; fuente en cada partida)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 108,
+    "celda": "Historia!C6:L6",
+    "concepto": "Ventas",
+    "tipo": "dato",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 109,
+    "celda": "Historia!C7:L7",
+    "concepto": "Resultado operativo (EBIT)",
+    "tipo": "dato",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 110,
+    "celda": "Historia!C8:L8",
+    "concepto": "Amortizaciones (D&A)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "A",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 111,
+    "celda": "Historia!C9:L9",
+    "concepto": "Beneficio neto atribuible",
+    "tipo": "dato",
+    "motores": "C",
+    "aplica": false,
+    "condicion": "C",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 112,
+    "celda": "Historia!C10:L10",
+    "concepto": "Tipo impositivo efectivo",
+    "tipo": "dato",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 114,
+    "celda": "Historia!C12:L12",
+    "concepto": "Capex (positivo)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "A",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 116,
+    "celda": "Historia!C14:L14",
+    "concepto": "Aumento del circulante (+ consume caja)",
+    "tipo": "dato",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "A",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 117,
+    "celda": "Historia!C15:L15",
+    "concepto": "Intereses pagados (total)",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 123,
+    "celda": "Historia!C21:L21",
+    "concepto": "Patrimonio neto atribuible",
+    "tipo": "dato",
+    "motores": "C",
+    "aplica": false,
+    "condicion": "C",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 124,
+    "celda": "Historia!C22:L22",
+    "concepto": "Deuda financiera",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 125,
+    "celda": "Historia!C23:L23",
+    "concepto": "Pasivo por arrendamientos",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 126,
+    "celda": "Historia!C24:L24",
+    "concepto": "Caja y equivalentes",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 127,
+    "celda": "Historia!C25:L25",
+    "concepto": "Déficit neto de pensiones",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 128,
+    "celda": "Historia!C26:L26",
+    "concepto": "Minoritarios",
+    "tipo": "dato",
+    "motores": "B",
+    "aplica": false,
+    "condicion": "B",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "Empresa X (inventada): informe anual sintético",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 171,
+    "celda": "Palancas!C48",
+    "concepto": "Moneda de cotización (comparabilidad con Control maestro H4)",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (comparabilidad; en B también el valor)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (metadatos)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 172,
+    "celda": "'Control maestro'!H4",
+    "concepto": "Moneda base del modelo (la usan las comprobaciones de moneda)",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (metadatos)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 173,
+    "celda": "'Control maestro'!D5",
+    "concepto": "Ratio ADR/ADS = acciones ordinarias por cada ADR (número; 1 = el precio ya es por acción). Obligatorio si la causa declarada es «ADR o ADS»",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": false,
+    "condicion": "si Palancas C47 = «ADR o ADS» o D5 informado",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (metadatos)",
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 174,
+    "celda": "'Control maestro'!J4",
+    "concepto": "Unidad financiera de todos los importes (mm, miles…)",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (metadato: sin él ninguna cifra se interpreta)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (metadatos)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 175,
+    "celda": "'Control maestro'!L4",
+    "concepto": "Norma contable (IFRS, US GAAP, Otro)",
+    "tipo": "dato",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (metadato: IFRS / US GAAP cambia intereses y arrendamientos)",
+    "clasificacion": "Rellenado y verificado",
+    "documento": "fase1_v63.json (metadatos)",
+    "justificada": true,
+    "estado_evidencia": "documentada"
+   },
+   {
+    "fila_cm": 57,
+    "celda": "Análisis!C62",
+    "concepto": "Aplicabilidad del DCF simplificado / estabilidad financiación",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (elección del motor)",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 53,
+    "celda": "Análisis!C56",
+    "concepto": "Rentabilidad exigida al accionista (r)",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (r exigida; en B entra en la r operativa)",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 138,
+    "celda": "Palancas!C6",
+    "concepto": "Caso especial",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (aplicabilidad del motor: «Financiera» bloquea A y B)",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 139,
+    "celda": "Palancas!C8",
+    "concepto": "Base de partida del margen",
+    "tipo": "hipótesis",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B (margen de partida: último año o media del ciclo)",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 129,
+    "celda": "Historia!C57",
+    "concepto": "Años de la media del FCF base",
+    "tipo": "hipótesis",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "A (ventana que calibra f)",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 49,
+    "celda": "Análisis!C51",
+    "concepto": "¿Restar SBC del FCF base?",
+    "tipo": "hipótesis",
+    "motores": "A",
+    "aplica": true,
+    "condicion": "A, si la SBC (C50) no es 0",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "estimación"
+   },
+   {
+    "fila_cm": 142,
+    "celda": "Palancas!B14",
+    "concepto": "MALO: crecimiento años 1–5",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 143,
+    "celda": "Palancas!B15",
+    "concepto": "MALO: margen (o ROE) objetivo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (margen objetivo; ROE objetivo en C)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 144,
+    "celda": "Palancas!B16",
+    "concepto": "MALO: ventas por euro reinvertido",
+    "tipo": "hipótesis",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B (reinversión)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 145,
+    "celda": "Palancas!B18",
+    "concepto": "MALO: ROIC a largo plazo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (rentabilidad terminal)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 61,
+    "celda": "Análisis!B68",
+    "concepto": "MALO: crecimiento terminal desde año 11",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (crecimiento terminal)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 62,
+    "celda": "Análisis!B69",
+    "concepto": "MALO: probabilidad",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (ponderación)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 146,
+    "celda": "Palancas!C14",
+    "concepto": "NORMAL: crecimiento años 1–5",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 147,
+    "celda": "Palancas!C15",
+    "concepto": "NORMAL: margen (o ROE) objetivo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (margen objetivo; ROE objetivo en C)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 148,
+    "celda": "Palancas!C16",
+    "concepto": "NORMAL: ventas por euro reinvertido",
+    "tipo": "hipótesis",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B (reinversión)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 149,
+    "celda": "Palancas!C18",
+    "concepto": "NORMAL: ROIC a largo plazo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (rentabilidad terminal)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 66,
+    "celda": "Análisis!C68",
+    "concepto": "NORMAL: crecimiento terminal desde año 11",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (crecimiento terminal)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 67,
+    "celda": "Análisis!C69",
+    "concepto": "NORMAL: probabilidad",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (ponderación)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 150,
+    "celda": "Palancas!D14",
+    "concepto": "BUENO: crecimiento años 1–5",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 151,
+    "celda": "Palancas!D15",
+    "concepto": "BUENO: margen (o ROE) objetivo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (margen objetivo; ROE objetivo en C)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 152,
+    "celda": "Palancas!D16",
+    "concepto": "BUENO: ventas por euro reinvertido",
+    "tipo": "hipótesis",
+    "motores": "A · B",
+    "aplica": true,
+    "condicion": "A y B (reinversión)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 153,
+    "celda": "Palancas!D18",
+    "concepto": "BUENO: ROIC a largo plazo",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (rentabilidad terminal)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "sin clasificar"
+   },
+   {
+    "fila_cm": 71,
+    "celda": "Análisis!D68",
+    "concepto": "BUENO: crecimiento terminal desde año 11",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (crecimiento terminal)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 72,
+    "celda": "Análisis!D69",
+    "concepto": "BUENO: probabilidad",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": true,
+    "condicion": "siempre (ponderación)",
+    "clasificacion": "Pendiente de inversor",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "hipótesis pendiente"
+   },
+   {
+    "fila_cm": 154,
+    "celda": "Palancas!C22",
+    "concepto": "Probabilidad de quiebra",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": false,
+    "condicion": "si está informada y es > 0 (vacía = 0 por convención, con aviso)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 155,
+    "celda": "Palancas!C23",
+    "concepto": "Recuperación si quiebra",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": false,
+    "condicion": "si la probabilidad de quiebra es > 0",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 82,
+    "celda": "Análisis!C76",
+    "concepto": "Exceso de caja no operativa (opcional)",
+    "tipo": "hipótesis",
+    "motores": "A",
+    "aplica": false,
+    "condicion": "A, si está informado y no es 0",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 166,
+    "celda": "Palancas!C43",
+    "concepto": "Naturaleza del FCF base ≤ 0 (motor A)",
+    "tipo": "hipótesis",
+    "motores": "A",
+    "aplica": false,
+    "condicion": "A, si el FCF base (Análisis C52) ≤ 0",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 167,
+    "celda": "Palancas!C44",
+    "concepto": "FCF base normalizado (mm)",
+    "tipo": "hipótesis",
+    "motores": "A",
+    "aplica": false,
+    "condicion": "A, si C52 ≤ 0 y la naturaleza es Transitorio o Extraordinario (calibra f)",
+    "clasificacion": null,
+    "documento": null,
+    "justificada": false,
+    "estado_evidencia": "—"
+   },
+   {
+    "fila_cm": 170,
+    "celda": "Palancas!C47",
+    "concepto": "Causa declarada de la diferencia precio × acciones frente a capitalización",
+    "tipo": "hipótesis",
+    "motores": "A · B · C",
+    "aplica": false,
+    "condicion": "si la desviación capitalización ÷ (precio × acciones) supera el umbral (Diagnóstico C91) o hay causa declarada",
+    "clasificacion": "Estimación declarada",
+    "documento": null,
+    "justificada": true,
+    "estado_evidencia": "—"
+   }
+  ],
+  "resumen": {
+   "D240": 43,
+   "D241": 19,
+   "D242": 14,
+   "D243": 24,
+   "D244": 0,
+   "D245": 6,
+   "D246": 5,
+   "D247": 6,
+   "D248": 12,
+   "D249": 0,
+   "D250": "INCOMPLETAS · datos 14 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 5 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
+  }
+ },
+ "herencia": {
+  "existe": true,
+  "libro": "EmpresaX_repetir_evaluada.xlsx",
+  "celdas": {
+   "C11": "Sí",
+   "C12": "Sí",
+   "C13": "No",
+   "C14": "Compounder",
+   "C17": "Sí",
+   "C18": "Sí",
+   "C19": "Sí",
+   "C20": "Incert. alta + riesgo bajo",
+   "C25": "Sí",
+   "C27": "Estable",
+   "C51": "Sí",
+   "C56": 0.09,
+   "C61": "No está claro",
+   "C62": "Sí",
+   "B65": "El viento de cola se frena",
+   "C65": "Crece al ritmo de su mercado",
+   "D65": "Gana cuota: el moat se ensancha",
+   "B66": "malo v1",
+   "C66": "normal v1",
+   "D66": "bueno v1",
+   "B67": 0.02,
+   "C67": 0.07,
+   "D67": 0.12,
+   "B68": 0.015,
+   "C68": 0.025,
+   "D68": 0.03,
+   "B69": 0.2,
+   "C69": 0.6,
+   "D69": 0.2,
+   "C76": 0,
+   "C93": "Sí",
+   "C97": "Neutral",
+   "C98": "Buena",
+   "B101": "Tesis v1.",
+   "B102": "Tesis inversa v1.",
+   "C103": "Sí",
+   "C104": "0% · Vigilar · precio de Sí ≈ 15"
+  },
+  "datos": {
+   "B3": "Empresa X (inventada)",
+   "D3": "EMPX",
+   "B4": null,
+   "D4": "2026-09-01",
+   "C24": 0.18,
+   "C26": 1.1,
+   "C28": "Estable",
+   "C31": "No",
+   "C32": 0.12,
+   "C33": 0.8,
+   "C34": "Sí",
+   "C37": 20,
+   "C38": null,
+   "C40": null,
+   "C41": 2000,
+   "C42": null,
+   "C46": 169.78,
+   "C47": 74.22,
+   "C48": 7.42,
+   "C49": 3.71,
+   "C50": 4.64,
+   "C52": null,
+   "C53": 100,
+   "C54": 60,
+   "C55": 100,
+   "C57": 0.03,
+   "C60": null,
+   "C88": null,
+   "C96": null
+  },
+  "observaciones": {
+   "B3": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B3",
+    "fila": 17
+   },
+   "D3": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D3",
+    "fila": 18
+   },
+   "B4": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B4",
+    "fila": 19
+   },
+   "D4": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D4",
+    "fila": 20
+   },
+   "C11": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C11",
+    "fila": 21
+   },
+   "C12": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C12",
+    "fila": 22
+   },
+   "C13": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C13",
+    "fila": 23
+   },
+   "C14": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C14",
+    "fila": 24
+   },
+   "C17": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C17",
+    "fila": 25
+   },
+   "C18": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C18",
+    "fila": 26
+   },
+   "C19": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C19",
+    "fila": 27
+   },
+   "C20": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C20",
+    "fila": 28
+   },
+   "C24": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C24",
+    "fila": 29
+   },
+   "C25": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C25",
+    "fila": 30
+   },
+   "C26": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C26",
+    "fila": 31
+   },
+   "C27": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C27",
+    "fila": 32
+   },
+   "C28": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C28",
+    "fila": 33
+   },
+   "C31": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C31",
+    "fila": 34
+   },
+   "C32": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C32",
+    "fila": 35
+   },
+   "C33": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C33",
+    "fila": 36
+   },
+   "C34": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C34",
+    "fila": 37
+   },
+   "C37": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C37",
+    "fila": 38
+   },
+   "C38": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C38",
+    "fila": 39
+   },
+   "C40": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C40",
+    "fila": 40
+   },
+   "C41": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C41",
+    "fila": 41
+   },
+   "C42": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C42",
+    "fila": 42
+   },
+   "C46": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C46",
+    "fila": 43
+   },
+   "C47": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C47",
+    "fila": 44
+   },
+   "C48": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C48",
+    "fila": 45
+   },
+   "C49": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C49",
+    "fila": 46
+   },
+   "C50": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C50",
+    "fila": 48
+   },
+   "C51": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C51",
+    "fila": 49
+   },
+   "C53": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C53",
+    "fila": 50
+   },
+   "C54": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C54",
+    "fila": 51
+   },
+   "C55": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C55",
+    "fila": 52
+   },
+   "C56": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C56",
+    "fila": 53
+   },
+   "C57": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C57",
+    "fila": 54
+   },
+   "C60": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C60",
+    "fila": 55
+   },
+   "C61": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C61",
+    "fila": 56
+   },
+   "C62": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C62",
+    "fila": 57
+   },
+   "B65": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B65",
+    "fila": 58
+   },
+   "B66": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B66",
+    "fila": 59
+   },
+   "B67": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B67",
+    "fila": 60
+   },
+   "B68": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B68",
+    "fila": 61
+   },
+   "B69": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B69",
+    "fila": 62
+   },
+   "C65": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C65",
+    "fila": 63
+   },
+   "C66": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C66",
+    "fila": 64
+   },
+   "C67": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C67",
+    "fila": 65
+   },
+   "C68": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C68",
+    "fila": 66
+   },
+   "C69": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C69",
+    "fila": 67
+   },
+   "D65": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D65",
+    "fila": 68
+   },
+   "D66": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D66",
+    "fila": 69
+   },
+   "D67": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D67",
+    "fila": 70
+   },
+   "D68": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D68",
+    "fila": 71
+   },
+   "D69": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!D69",
+    "fila": 72
+   },
+   "C88": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C88",
+    "fila": 73
+   },
+   "C93": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C93",
+    "fila": 74
+   },
+   "C96": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C96",
+    "fila": 75
+   },
+   "C97": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C97",
+    "fila": 76
+   },
+   "C98": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C98",
+    "fila": 77
+   },
+   "B101": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B101",
+    "fila": 78
+   },
+   "B102": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!B102",
+    "fila": 79
+   },
+   "C103": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C103",
+    "fila": 80
+   },
+   "C104": {
+    "E": "Listo para auditoría",
+    "F": "Pendiente de inversor",
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C104",
+    "fila": 81
+   },
+   "C76": {
+    "E": "Listo para auditoría",
+    "F": null,
+    "N": "[Clase: fundamentada] [Confianza: media] obs v1 de Análisis!C76",
+    "fila": 82
+   }
+  }
+ }
+}

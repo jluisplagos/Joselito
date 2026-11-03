@@ -1,0 +1,497 @@
+{
+ "_nota": "EJEMPLO SINTÉTICO construido desde Ejemplo_V6.3_EmpresaX.xlsx (empresa inventada). Sirve para probar rellenar_fase1_v63.py y el esquema; no es una empresa real.",
+ "empresa": "Empresa X (inventada)",
+ "ticker": "EMPX",
+ "fecha_analisis": "2026-10-20",
+ "sector_texto": null,
+ "moneda_modelo": "EUR",
+ "unidad": "mm",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "diciembre",
+ "mercado": null,
+ "ratio_adr": null,
+ "sector_damodaran": "Machinery",
+ "historia": {
+  "anios": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "partidas": {
+   "ventas": {
+    "valores": [
+     500.248967131459,
+     540.268884501976,
+     583.490395262134,
+     630.169626883105,
+     680.583197033753,
+     735.029852796453,
+     793.83224102017,
+     857.338820301783,
+     925.925925925926,
+     1000
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "ebit": {
+    "valores": [
+     100.049793426292,
+     108.053776900395,
+     116.698079052427,
+     126.033925376621,
+     136.116639406751,
+     147.005970559291,
+     158.766448204034,
+     171.467764060357,
+     185.185185185185,
+     200
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "da": {
+    "valores": [
+     20.0099586852584,
+     21.610755380079,
+     23.3396158104854,
+     25.2067850753242,
+     27.2233278813501,
+     29.4011941118581,
+     31.7532896408068,
+     34.2935528120713,
+     37.037037037037,
+     40
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "beneficio_neto": {
+    "valores": [
+     71.2854778162329,
+     76.9883160415315,
+     83.1473813248541,
+     89.7991718308424,
+     96.9831055773098,
+     104.741754023495,
+     113.121094345374,
+     122.170781893004,
+     131.944444444445,
+     142.5
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "tipo_impositivo": {
+    "valores": [
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.25
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "cfo": {
+    "valores": [
+     91.545560985057,
+     98.8692058638616,
+     106.778742332971,
+     115.321041719608,
+     124.546725057177,
+     134.510463061751,
+     145.271300106691,
+     156.893004115226,
+     169.444444444444,
+     183
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "capex": {
+    "valores": [
+     40.0199173705167,
+     43.2215107601581,
+     46.6792316209707,
+     50.4135701506484,
+     54.4466557627002,
+     58.8023882237163,
+     63.5065792816136,
+     68.5871056241427,
+     74.0740740740741,
+     80
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "adquisiciones": {
+    "valores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "circulante": {
+    "valores": [
+     5.00248967131459,
+     5.40268884501976,
+     5.83490395262134,
+     6.30169626883105,
+     6.80583197033753,
+     7.35029852796453,
+     7.9383224102017,
+     8.57338820301783,
+     9.25925925925926,
+     10
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "intereses": {
+    "valores": [
+     5.00248967131459,
+     5.40268884501976,
+     5.83490395262134,
+     6.30169626883105,
+     6.80583197033753,
+     7.35029852796453,
+     7.9383224102017,
+     8.57338820301783,
+     9.25925925925926,
+     10
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "intereses_financiacion": {
+    "valores": [
+     4.00199173705167,
+     4.32215107601581,
+     4.66792316209707,
+     5.04135701506484,
+     5.44466557627002,
+     5.88023882237163,
+     6.35065792816136,
+     6.85871056241427,
+     7.40740740740741,
+     8
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "arrendamientos_principal": {
+    "valores": [
+     2.00099586852584,
+     2.1610755380079,
+     2.33396158104854,
+     2.52067850753242,
+     2.72233278813501,
+     2.94011941118581,
+     3.17532896408068,
+     3.42935528120713,
+     3.7037037037037,
+     4
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "sbc": {
+    "valores": [
+     2.5012448356573,
+     2.70134442250988,
+     2.91745197631067,
+     3.15084813441552,
+     3.40291598516876,
+     3.67514926398227,
+     3.96916120510085,
+     4.28669410150892,
+     4.62962962962963,
+     5
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "id": {
+    "valores": [
+     15.0074690139438,
+     16.2080665350593,
+     17.504711857864,
+     18.9050888064931,
+     20.4174959110126,
+     22.0508955838936,
+     23.8149672306051,
+     25.7201646090535,
+     27.7777777777778,
+     30
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "acciones_diluidas": {
+    "valores": [
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100,
+     100
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "patrimonio": {
+    "valores": [
+     300.149380278875,
+     324.161330701185,
+     350.09423715728,
+     378.101776129863,
+     408.349918220252,
+     441.017911677872,
+     476.299344612102,
+     514.40329218107,
+     555.555555555556,
+     600
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "deuda": {
+    "valores": [
+     100.049793426292,
+     108.053776900395,
+     116.698079052427,
+     126.033925376621,
+     136.116639406751,
+     147.005970559291,
+     158.766448204034,
+     171.467764060357,
+     185.185185185185,
+     200
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "arrendamientos": {
+    "valores": [
+     25.012448356573,
+     27.0134442250988,
+     29.1745197631067,
+     31.5084813441552,
+     34.0291598516876,
+     36.7514926398227,
+     39.6916120510085,
+     42.8669410150892,
+     46.2962962962963,
+     50
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "caja": {
+    "valores": [
+     50.0248967131459,
+     54.0268884501976,
+     58.3490395262134,
+     63.0169626883105,
+     68.0583197033753,
+     73.5029852796453,
+     79.383224102017,
+     85.7338820301783,
+     92.5925925925926,
+     100
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "pensiones": {
+    "valores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   },
+   "minoritarios": {
+    "valores": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "fuente": "Empresa X (inventada): informe anual sintético",
+    "pagina": null,
+    "nota": null
+   }
+  }
+ },
+ "anios_fcf_base": 3,
+ "precio": {
+  "valor": 8,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-10-20",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "cotización de cierre (sintética)"
+ },
+ "acciones_diluidas": {
+  "valor": 100,
+  "fecha": "2026-09-30",
+  "fuente": "informe anual sintético, nota de capital",
+  "pagina": "12"
+ },
+ "capitalizacion": {
+  "valor": 800,
+  "fecha": "2026-10-20",
+  "fuente": "precio × acciones (sintético)"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.03,
+  "fuente": "bono a 10 años (sintético)"
+ },
+ "analisis": {
+  "C24": {
+   "valor": 0.18,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C26": {
+   "valor": 1.1,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C28": {
+   "valor": "Estable",
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C31": {
+   "valor": "No",
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C32": {
+   "valor": 0.12,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C33": {
+   "valor": 0.8,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C34": {
+   "valor": "Sí",
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C46": {
+   "valor": 169.77914951989,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C47": {
+   "valor": 74.2203932327389,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C48": {
+   "valor": 7.42203932327389,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C49": {
+   "valor": 3.71101966163695,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C50": {
+   "valor": 4.63877457704618,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C53": {
+   "valor": 100,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  },
+  "C54": {
+   "valor": 200,
+   "fuente": "informe anual sintético",
+   "pagina": null
+  }
+ },
+ "geografia": [
+  {
+   "pais": "Germany",
+   "pct": 0.6
+  },
+  {
+   "pais": "Brazil",
+   "pct": 0.3
+  },
+  {
+   "pais": "United States",
+   "pct": 0.1
+  }
+ ]
+}

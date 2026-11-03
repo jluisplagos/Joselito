@@ -1,0 +1,104 @@
+{
+ "libro": "/home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_sin_precio/EmpresaX_sin_precio_v63_datos.xlsx",
+ "recalc": "/home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_sin_precio/recalc/EmpresaX_sin_precio_v63_datos.xlsx",
+ "integro": true,
+ "estado_tecnico": "INCOMPLETO",
+ "causa_tecnica": "Falta el precio (Análisis C37)",
+ "estado_libro": "NO LISTO · incompleto (7 pendientes)",
+ "comparable": true,
+ "motores": {
+  "A": {
+   "calculable": false,
+   "reglas_nivel_1_fallidas": [
+    "V06 INCOMPLETO: Falta el precio (Análisis C37)"
+   ],
+   "C83_simulado": null
+  },
+  "B": {
+   "calculable": false,
+   "reglas_nivel_1_fallidas": [
+    "V06 INCOMPLETO: Falta el precio (Análisis C37)"
+   ],
+   "C83_simulado": null
+  },
+  "C": {
+   "calculable": false,
+   "reglas_nivel_1_fallidas": [
+    "V06 INCOMPLETO: Falta el precio (Análisis C37)"
+   ],
+   "C83_simulado": null
+  }
+ },
+ "motor_elegido": null,
+ "bloqueantes": [
+  {
+   "dato": "Análisis!C37",
+   "que": "precio actual (en la moneda del modelo)",
+   "origen_esperado": "fase1_v63.json (precio con fecha y, si hace falta, tipo de cambio)",
+   "nota": ""
+  },
+  {
+   "dato": "Historia / datos",
+   "que": "ningún motor calcula con los datos presentes",
+   "origen_esperado": "fase1_v63.json (Contrato_de_relleno_V6.3.csv)",
+   "nota": "A: V06 INCOMPLETO: Falta el precio (Análisis C37) · B: V06 INCOMPLETO: Falta el precio (Análisis C37) · C: V06 INCOMPLETO: Falta el precio (Análisis C37)"
+  }
+ ],
+ "necesarios_para_listo_provisional": [
+  {
+   "dato": "evidencia Análisis!C46",
+   "que": "Caja de las operaciones (media 3–5 años): no verificable",
+   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+  },
+  {
+   "dato": "evidencia Análisis!C47",
+   "que": "Capex (positivo; media 3–5 años): no verificable",
+   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+  },
+  {
+   "dato": "evidencia Análisis!C48",
+   "que": "Intereses pagados clasificados en financiación · IFRS: no verificable",
+   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+  },
+  {
+   "dato": "evidencia Análisis!C49",
+   "que": "Principal de lease liabilities · IFRS 16: no verificable",
+   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+  },
+  {
+   "dato": "evidencia Análisis!C50",
+   "que": "Stock-based compensation (SBC): no verificable",
+   "origen_esperado": "fase1_v63.json (fuente y página del dato) o etapa 1",
+   "nota": "el dato está pero su clasificación/documento no permite LISTO·PROVISIONAL; la fase C juzga si es material"
+  }
+ ],
+ "no_bloqueantes": [
+  {
+   "dato": "Palancas!C24",
+   "que": "tamaño del mercado año 10",
+   "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+   "nota": ""
+  },
+  {
+   "dato": "Análisis!C88",
+   "que": "P/FCF histórico",
+   "origen_esperado": "fase1_v63.json",
+   "nota": ""
+  },
+  {
+   "dato": "Análisis!C38",
+   "que": "valor intrínseco de fuente externa (contraste)",
+   "origen_esperado": "fase1_v63.json (opcional)",
+   "nota": ""
+  }
+ ],
+ "avisos": [
+  "V19 AVISO: Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
+  "V31 AVISO: Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha"
+ ],
+ "anios_con_ventas": 10
+}
