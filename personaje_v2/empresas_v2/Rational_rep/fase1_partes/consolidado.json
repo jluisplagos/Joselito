@@ -1,0 +1,1526 @@
+{
+ "tabla": {
+  "ventas": {
+   "2016": 613010.0,
+   "2017": 702100.0,
+   "2018": 777859.0,
+   "2019": 843633.0,
+   "2020": 649587.0,
+   "2021": 779734.0,
+   "2022": 1022345.0,
+   "2023": 1125838.0,
+   "2024": 1193529.0,
+   "2025": 1259558.0
+  },
+  "ebit": {
+   "2016": 166511.0,
+   "2017": 187568.0,
+   "2018": 205012.0,
+   "2019": 223375.0,
+   "2020": 106806.0,
+   "2021": 160134.0,
+   "2022": 237510.0,
+   "2023": 277001.0,
+   "2024": 314198.0,
+   "2025": 332552.0
+  },
+  "da": {
+   "2016": 9900.0,
+   "2017": 11827.0,
+   "2018": 13977.0,
+   "2019": 24983.0,
+   "2020": 29278.0,
+   "2021": 30314.0,
+   "2022": 30918.0,
+   "2023": 32619.0,
+   "2024": 37394.0,
+   "2025": 37014.0
+  },
+  "beneficio_neto": {
+   "2016": 127107.0,
+   "2017": 143001.0,
+   "2018": 157310.0,
+   "2019": 171590.0,
+   "2020": 80096.0,
+   "2021": 123663.0,
+   "2022": 185722.0,
+   "2023": 215762.0,
+   "2024": 250530.0,
+   "2025": 253847.0
+  },
+  "impuestos": {
+   "2016": -38761.0,
+   "2017": -44047.0,
+   "2018": -46852.0,
+   "2019": -53519.0,
+   "2020": -22281.0,
+   "2021": -35197.0,
+   "2022": -52021.0,
+   "2023": -68274.0,
+   "2024": -75386.0,
+   "2025": -87236.0
+  },
+  "bai": {
+   "2016": 165868.0,
+   "2017": 187048.0,
+   "2018": 204162.0,
+   "2019": 225109.0,
+   "2020": 102377.0,
+   "2021": 158860.0,
+   "2022": 237743.0,
+   "2023": 284036.0,
+   "2024": 325916.0,
+   "2025": 341084.0
+  },
+  "cfo": {
+   "2016": 129490.0,
+   "2017": 145936.0,
+   "2018": 144326.0,
+   "2019": 198638.0,
+   "2020": 92690.0,
+   "2021": 171710.0,
+   "2022": 160618.0,
+   "2023": 258345.0,
+   "2024": 283064.0,
+   "2025": 253079.0
+  },
+  "capex": {
+   "2016": -24592.0,
+   "2017": -34224.0,
+   "2018": -46166.0,
+   "2019": -40674.0,
+   "2020": -33397.0,
+   "2021": -25820.0,
+   "2022": -37184.0,
+   "2023": -34632.0,
+   "2024": -31618.0,
+   "2025": -33704.0
+  },
+  "adquisiciones": {
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null,
+   "2025": null
+  },
+  "intereses": {
+   "2016": -826.0,
+   "2017": -765.0,
+   "2018": -239.0,
+   "2019": -273.0,
+   "2020": -243.0,
+   "2021": -227.0,
+   "2022": -647.0,
+   "2023": 1163.0,
+   "2024": -1389.0,
+   "2025": -1393.0
+  },
+  "intereses_financiacion": {
+   "2016": -826.0,
+   "2017": -765.0,
+   "2018": -239.0,
+   "2019": -273.0,
+   "2020": -243.0,
+   "2021": -227.0,
+   "2022": -647.0,
+   "2023": 1163.0,
+   "2024": -1389.0,
+   "2025": -1393.0
+  },
+  "arrendamientos_principal": {
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": -8580.0,
+   "2020": -9082.0,
+   "2021": -8533.0,
+   "2022": -9078.0,
+   "2023": -9954.0,
+   "2024": -11277.0,
+   "2025": -11812.0
+  },
+  "sbc": {
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null,
+   "2025": null
+  },
+  "id": {
+   "2016": -28842.0,
+   "2017": -33200.0,
+   "2018": -38097.0,
+   "2019": -42017.0,
+   "2020": -41671.0,
+   "2021": -45119.0,
+   "2022": -44750.0,
+   "2023": -52594.0,
+   "2024": 66986.0,
+   "2025": 75774.0
+  },
+  "acciones_diluidas": {
+   "2016": 11370000.0,
+   "2017": 11370000.0,
+   "2018": 11370000.0,
+   "2019": 11370000.0,
+   "2020": 11370000.0,
+   "2021": 11370000.0,
+   "2022": 11370000.0,
+   "2023": 11370000.0,
+   "2024": 11370000.0,
+   "2025": 11370000.0
+  },
+  "patrimonio": {
+   "2016": 396958.0,
+   "2017": 424527.0,
+   "2018": 455514.0,
+   "2019": 517368.0,
+   "2020": 535091.0,
+   "2021": 603330.0,
+   "2022": 676240.0,
+   "2023": 738605.0,
+   "2024": 856902.0,
+   "2025": 940793.0
+  },
+  "deuda": {
+   "2016": 27793.0,
+   "2017": 14247.0,
+   "2018": 11918.0,
+   "2019": 9584.0,
+   "2020": 4676.0,
+   "2021": 2125.0,
+   "2022": 944.0,
+   "2023": 0.0,
+   "2024": 0.0,
+   "2025": null
+  },
+  "arrendamientos": {
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": 17104.0,
+   "2020": 18076.0,
+   "2021": 17468.0,
+   "2022": 18053.0,
+   "2023": 28078.0,
+   "2024": 29797.0,
+   "2025": 27144.0
+  },
+  "caja": {
+   "2016": 102452.0,
+   "2017": 196214.0,
+   "2018": 156766.0,
+   "2019": 181390.0,
+   "2020": 231128.0,
+   "2021": 253695.0,
+   "2022": 207901.0,
+   "2023": 137962.0,
+   "2024": 152528.0,
+   "2025": 186318.0
+  },
+  "otros_activos_financieros": {
+   "2016": 175700.0,
+   "2017": 70734.0,
+   "2018": 86278.0,
+   "2019": 100955.0,
+   "2020": 25928.0,
+   "2021": 84877.0,
+   "2022": 133757.0,
+   "2023": 267634.0,
+   "2024": 348870.0,
+   "2025": 359724.0
+  },
+  "pensiones": {
+   "2016": 3223.0,
+   "2017": 3000.0,
+   "2018": 4706.0,
+   "2019": 6188.0,
+   "2020": 6508.0,
+   "2021": 5785.0,
+   "2022": 4025.0,
+   "2023": 5100.0,
+   "2024": 5970.0,
+   "2025": 6461.0
+  },
+  "minoritarios": {
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null,
+   "2025": null
+  },
+  "circulante": {
+   "2016": 5265.0,
+   "2017": 9104.0,
+   "2018": 28150.0,
+   "2019": 4326.0,
+   "2020": -4869.0,
+   "2021": -10016.0,
+   "2022": 69498.0,
+   "2023": -16860.0,
+   "2024": -591.0,
+   "2025": 31465.0
+  }
+ },
+ "fuentes": {
+  "ventas": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    null
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    null
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    36,
+    null
+   ],
+   "2023": [
+    36,
+    null
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    102,
+    null
+   ]
+  },
+  "ebit": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    null
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    null
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    36,
+    null
+   ],
+   "2023": [
+    36,
+    null
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    102,
+    null
+   ]
+  },
+  "da": {
+   "2016": [
+    80,
+    null
+   ],
+   "2017": [
+    72,
+    null
+   ],
+   "2018": [
+    72,
+    null
+   ],
+   "2019": [
+    72,
+    null
+   ],
+   "2020": [
+    40,
+    null
+   ],
+   "2021": [
+    44,
+    "Línea única D&A del estado de flujos (notas 8, 9, 23)."
+   ],
+   "2022": [
+    38,
+    null
+   ],
+   "2023": [
+    38,
+    null
+   ],
+   "2024": [
+    20,
+    null
+   ],
+   "2025": [
+    104,
+    null
+   ]
+  },
+  "beneficio_neto": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    "No hay minoritarios; el beneficio tras impuestos es íntegramente atribuible a los accionistas de la dominante."
+   ],
+   "2018": [
+    70,
+    "Sin minoritarios; todo el beneficio es de los accionistas de la dominante (EPS se calcula sobre este beneficio)."
+   ],
+   "2019": [
+    70,
+    "Sin minoritarios en el informe: el resultado después de impuestos es íntegramente atribuible a los accionistas de RATIONAL AG (EPS 15.09 = 171,590/11,370,000)."
+   ],
+   "2020": [
+    39,
+    "No hay minoritarios: todo el beneficio es atribuible a los accionistas de la dominante."
+   ],
+   "2021": [
+    43,
+    "Sin minoritarios: todo atribuible a accionistas de la dominante."
+   ],
+   "2022": [
+    36,
+    "Sin minoritarios; toda la utilidad es atribuible a los accionistas."
+   ],
+   "2023": [
+    36,
+    "Profit or loss after taxes; no hay minoritarios, todo atribuible a accionistas de RATIONAL AG"
+   ],
+   "2024": [
+    19,
+    "No hay desglose accionistas/minoritarios; se toma Profit or loss after taxes (sin minoritarios en el balance). 2023 reexpresado (IAS 8)."
+   ],
+   "2025": [
+    102,
+    "Sin minoritarios: la utilidad tras impuestos es toda de los accionistas de la dominante."
+   ]
+  },
+  "impuestos": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    null
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    null
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    36,
+    null
+   ],
+   "2023": [
+    36,
+    null
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    102,
+    null
+   ]
+  },
+  "bai": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    null
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    null
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    36,
+    null
+   ],
+   "2023": [
+    36,
+    null
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    102,
+    null
+   ]
+  },
+  "cfo": {
+   "2016": [
+    80,
+    null
+   ],
+   "2017": [
+    72,
+    null
+   ],
+   "2018": [
+    72,
+    null
+   ],
+   "2019": [
+    72,
+    null
+   ],
+   "2020": [
+    40,
+    null
+   ],
+   "2021": [
+    44,
+    null
+   ],
+   "2022": [
+    38,
+    "2021 reexpresado (IAS 8.14); 171,710 antes del ajuste."
+   ],
+   "2023": [
+    38,
+    null
+   ],
+   "2024": [
+    20,
+    null
+   ],
+   "2025": [
+    104,
+    null
+   ]
+  },
+  "capex": {
+   "2016": [
+    80,
+    null
+   ],
+   "2017": [
+    72,
+    null
+   ],
+   "2018": [
+    72,
+    null
+   ],
+   "2019": [
+    72,
+    null
+   ],
+   "2020": [
+    40,
+    null
+   ],
+   "2021": [
+    44,
+    null
+   ],
+   "2022": [
+    38,
+    null
+   ],
+   "2023": [
+    38,
+    null
+   ],
+   "2024": [
+    20,
+    null
+   ],
+   "2025": [
+    104,
+    null
+   ]
+  },
+  "adquisiciones": {
+   "2016": [
+    null,
+    "sin línea"
+   ],
+   "2017": [
+    null,
+    "sin línea"
+   ],
+   "2018": [
+    null,
+    "sin línea"
+   ],
+   "2019": [
+    null,
+    "sin línea: el estado de flujos no tiene pagos/cobros por compra o venta de negocios."
+   ],
+   "2020": [
+    null,
+    "sin línea (no hay pagos por compra ni cobros por venta de negocios en el estado de flujos)"
+   ],
+   "2021": [
+    null,
+    "sin línea: el estado de flujos no tiene pagos/cobros por compra o venta de negocios."
+   ],
+   "2022": [
+    null,
+    "sin línea"
+   ],
+   "2023": [
+    null,
+    "sin línea (no hay pagos/cobros por compra o venta de negocios en el estado de flujos)"
+   ],
+   "2024": [
+    null,
+    "sin línea (no hay pagos/cobros por compra o venta de negocios en el estado de flujos)"
+   ],
+   "2025": [
+    null,
+    "sin línea (no hay compra/venta de negocios en el estado de flujos)"
+   ]
+  },
+  "intereses": {
+   "2016": [
+    80,
+    "Interest paid, en actividades de financiación"
+   ],
+   "2017": [
+    72,
+    "Intereses pagados figuran en actividades de financiación."
+   ],
+   "2018": [
+    72,
+    "Total de intereses pagados según el estado de flujos (único importe; figura en financiación). Los intereses cobrados (389/348) van en inversión."
+   ],
+   "2019": [
+    72,
+    "Intereses pagados del estado de flujos (en financiación). El informe indica 0.3 m EUR pagados; los intereses de arrendamientos (448 kEUR de gasto, nota 21) no se muestran por separado en el flujo."
+   ],
+   "2020": [
+    40,
+    "Único importe de intereses pagados que figura en el estado de flujos (en financiación). Los intereses recibidos (401) van en inversión; 'Net interest' 338 es solo ajuste en operaciones."
+   ],
+   "2021": [
+    44,
+    "Único importe de intereses pagados impreso; figura en financiación. El pago de intereses por arrendamientos (gasto 389 / 437, nota 23) está dentro de 'Payments for lease liabilities'. Intereses recibidos 264/401 en inversión."
+   ],
+   "2022": [
+    38,
+    "Intereses pagados en financiación; intereses cobrados (488/264) en inversión. 2021 reexpresado (antes -227)."
+   ],
+   "2023": [
+    38,
+    "Interest paid solo figura en financiación; intereses recibidos (5,560/488) van en inversión"
+   ],
+   "2024": [
+    20,
+    "Intereses pagados figuran en actividades de financiación; intereses cobrados (11,066) en inversión."
+   ],
+   "2025": [
+    104,
+    "Intereses pagados clasificados en financiación (la nota 20 lo confirma)."
+   ]
+  },
+  "intereses_financiacion": {
+   "2016": [
+    80,
+    null
+   ],
+   "2017": [
+    72,
+    null
+   ],
+   "2018": [
+    72,
+    null
+   ],
+   "2019": [
+    72,
+    "Interest paid figura dentro de Cash flow from financing activities."
+   ],
+   "2020": [
+    40,
+    null
+   ],
+   "2021": [
+    44,
+    null
+   ],
+   "2022": [
+    38,
+    null
+   ],
+   "2023": [
+    38,
+    null
+   ],
+   "2024": [
+    20,
+    null
+   ],
+   "2025": [
+    104,
+    null
+   ]
+  },
+  "arrendamientos_principal": {
+   "2016": [
+    null,
+    "sin línea (pre IFRS 16)"
+   ],
+   "2017": [
+    null,
+    "Antes de IFRS 16 (aplicable desde 2019): sin línea en el estado de flujos"
+   ],
+   "2018": [
+    null,
+    "No existe línea (pre-IFRS 16; solo arrendamientos operativos, IFRS 16 desde 2019)."
+   ],
+   "2019": [
+    72,
+    "2019 primer año IFRS 16; en 2018 la línea muestra '-' (sin arrendamientos financieros). El pago de 8,580 se presenta en financiación (puede incluir intereses de arrendamiento; no desglosado)."
+   ],
+   "2020": [
+    40,
+    "Línea 'Payments for lease liabilities' (según nota 21 incluye pagos de principal e intereses de arrendamientos; no se desglosa)."
+   ],
+   "2021": [
+    44,
+    "Línea única; según nota 19 incluye intereses y principal de arrendamientos (no se separa)."
+   ],
+   "2022": [
+    38,
+    "Línea única 'Payments for lease liabilities' (principal; intereses van en Interest paid)."
+   ],
+   "2023": [
+    38,
+    "Payments for lease liabilities"
+   ],
+   "2024": [
+    20,
+    null
+   ],
+   "2025": [
+    104,
+    "Línea 'Payments for lease liabilities' del estado de flujos; la nota 20 muestra -12,981 / -12,458 (incluye intereses de arrendamiento)."
+   ]
+  },
+  "sbc": {
+   "2016": [
+    null,
+    "sin gasto: la nota 35 dice 'There was no share-based payment agreement in 2016' (p.116)"
+   ],
+   "2017": [
+    null,
+    "Sin gasto: nota 26 indica que no hubo ningún acuerdo de pagos basados en acciones en 2017 (plan de opciones del año 2000, liquidado en efectivo, sin nuevas tranchas)."
+   ],
+   "2018": [
+    null,
+    "Nota 27: no hubo acuerdo de pagos basados en acciones en 2018; plan de opciones de 2000 liquidado en efectivo, sin gasto impreso."
+   ],
+   "2019": [
+    null,
+    "Nota 26: plan de opciones de 2000 liquidado en efectivo; 'There was no share-based payment agreement in 2019'; no se informa gasto por pagos basados en acciones en 2019/2018."
+   ],
+   "2020": [
+    null,
+    "Nota 28: 'There was no share-based payment agreement in 2020' (plan de opciones de 2000, quedan derechos sobre 131,000 acciones); no se informa gasto. Valor null."
+   ],
+   "2021": [
+    null,
+    "Nota 28: plan de opciones 2000 liquidado en efectivo (tramos 2002 y 2006); 'no share-based payment agreement in 2021'. Sin gasto impreso."
+   ],
+   "2022": [
+    null,
+    "Sin gasto reconocido: nota 28 dice que no hubo acuerdo de pago basado en acciones en 2022 (plan de opciones liquidado en efectivo, 2002/2006)."
+   ],
+   "2023": [
+    null,
+    "Nota 28: plan de opciones antiguo liquidado en efectivo (2002, 2006); 'There was no share-based payment agreement in 2023'; sin gasto reportado"
+   ],
+   "2024": [
+    null,
+    "Sin gasto reconocido: nota 27 (p.39) dice 'There was no share-based payment agreement in 2024'; plan de opciones de 2000 con tramos liquidados en efectivo en 2002 y 2006."
+   ],
+   "2025": [
+    null,
+    "Plan de opciones (nota 27) liquidado en efectivo, sin acuerdo nuevo en 2025; sin gasto cuantificado en el informe."
+   ]
+  },
+  "id": {
+   "2016": [
+    78,
+    null
+   ],
+   "2017": [
+    70,
+    "Línea de la cuenta de resultados (gasto R&D). El informe de auditoría cita costes totales de desarrollo de 33.8 millones EUR (incl. capitalizados 0.6 M) en 2017."
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    "Elegida la línea de la cuenta de resultados (gasto reconocido). El informe de gestión indica gasto total en I+D de 42.7 m EUR (2018: 38.8 m), del cual 42.0 m (38.1 m) reconocido en resultados."
+   ],
+   "2020": [
+    39,
+    "Gasto en I+D de la cuenta de resultados (impreso negativo)."
+   ],
+   "2021": [
+    43,
+    "Gasto en cuenta de resultados; el total con capitalizado fue 48.2 mEUR (informe auditor, p. 66+)."
+   ],
+   "2022": [
+    36,
+    "Gasto en cuenta de resultados. El total de I+D incluyendo capitalizado fue 53,108 kEUR (2021: 48,207), nota 8 p.52."
+   ],
+   "2023": [
+    36,
+    "R&D expenses de la cuenta de resultados (impresos en negativo). Total I+D incl. capitalizado: 59,449 (2023) y 53,108 (2022), nota 8, p.53"
+   ],
+   "2024": [
+    28,
+    "Elegido el total de costes de I+D incl. capitalizados (nota 8). Alternativa: gasto I+D en cuenta de resultados 65,959 (2023: 52,594), p.19."
+   ],
+   "2025": [
+    102,
+    "Cuenta de resultados: 75,774 / 65,959. La nota 8 dice 'Total R&D costs' 75,774 (2024: 66,986) incl. 1,027 capitalizado en 2024."
+   ]
+  },
+  "acciones_diluidas": {
+   "2016": [
+    78,
+    "Average number of shares (undiluted/diluted)"
+   ],
+   "2017": [
+    70,
+    null
+   ],
+   "2018": [
+    70,
+    null
+   ],
+   "2019": [
+    70,
+    "Número medio de acciones no diluido = diluido."
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    36,
+    "Media ponderada no diluida/diluida (idéntica)."
+   ],
+   "2023": [
+    36,
+    "Average number of shares (undiluted/diluted)"
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    102,
+    null
+   ]
+  },
+  "patrimonio": {
+   "2016": [
+    79,
+    "Equity total; no se muestra línea de minoritarios"
+   ],
+   "2017": [
+    71,
+    "Equity total del balance; sin minoritarios."
+   ],
+   "2018": [
+    71,
+    "Equity total del balance; no hay minoritarios, por tanto todo atribuible a la dominante."
+   ],
+   "2019": [
+    71,
+    "Equity total del balance; no hay minoritarios, por tanto todo atribuible a los accionistas."
+   ],
+   "2020": [
+    39,
+    "Sin minoritarios: equity total = atribuible a la dominante."
+   ],
+   "2021": [
+    43,
+    "Equity total del balance; no hay minoritarios."
+   ],
+   "2022": [
+    37,
+    "Sin minoritarios."
+   ],
+   "2023": [
+    37,
+    null
+   ],
+   "2024": [
+    19,
+    "Equity total del balance; no hay minoritarios. 2023 reexpresado."
+   ],
+   "2025": [
+    103,
+    "Sin minoritarios: Equity total = atribuible a la dominante."
+   ]
+  },
+  "deuda": {
+   "2016": [
+    79,
+    "deuda = suma de ambas líneas (sin arrendamientos)"
+   ],
+   "2017": [
+    71,
+    "Deuda = no corriente + corriente (8,937+5,310=14,247; 2016: 20,747+7,046=27,793). Sin arrendamientos financieros."
+   ],
+   "2018": [
+    97,
+    "Nota 17 (Liabilities to banks, carrying amount): 11,918 = 6,306 no corriente + 5,612 corriente (balance p.71). 2017: 14,247 = 8,937 + 5,310."
+   ],
+   "2019": [
+    71,
+    "Financial debt no corriente + corriente (balance); suma 2019 = 9,584; 2018 = 11,918 (kEUR). No incluye arrendamientos."
+   ],
+   "2020": [
+    39,
+    "Financial debt no corriente (2,126; 2019: 3,676) + corriente (2,550; 2019: 5,908) = 4,676 (2019: 9,584), sin arrendamientos. Suma calculada, no impresa en el balance."
+   ],
+   "2021": [
+    43,
+    "Deuda = no corriente + corriente (Financial debt, nota 18). 2021: 944 + 1,181 = 2,125; 2020: 2,126 + 2,550 = 4,676 (suma derivada, no impresa)."
+   ],
+   "2022": [
+    37,
+    "2022: corriente 944, no corriente '-' = 944. 2021: 1,181 + 944 = 2,125. Sin arrendamientos."
+   ],
+   "2023": [
+    37,
+    "Financial debt corriente (liabilities to banks); 2023 impreso '–' (cero); sin deuda no corriente"
+   ],
+   "2024": [
+    19,
+    "Balance: Financial debt corriente '–' en 2024 y 2023 (944 en 1 Jan 2023); sin deuda financiera no corriente. Equivale a 0."
+   ],
+   "2025": [
+    null,
+    "Sin deuda financiera bancaria; las únicas 'Other financial liabilities' financieras son arrendamientos. Liabilities to banks = 0 en la serie plurianual (p. ~ tabla 10 años)."
+   ]
+  },
+  "arrendamientos": {
+   "2016": [
+    null,
+    "sin línea de pasivos por arrendamiento en el balance"
+   ],
+   "2017": [
+    null,
+    "Sin línea de pasivos por arrendamiento en el balance (pre-IFRS 16; solo arrendamientos operativos fuera de balance)."
+   ],
+   "2018": [
+    null,
+    "Sin pasivos por arrendamiento en balance (solo arrendamientos operativos; IFRS 16 desde 2019)."
+   ],
+   "2019": [
+    96,
+    "Lease liabilities (nota 17): no corriente 10,554 + corriente 6,550 = 17,104 kEUR (2019; están dentro de Other financial liabilities del balance). Primera aplicación IFRS 16: pasivo al 1 enero 2019 = 14,729. 2018: sin pasivos por arrendamiento (null)."
+   ],
+   "2020": [
+    52,
+    "Nota 19: corriente 6,766 (2019: 6,550) + no corriente 11,310 (2019: 10,554) = 18,076 (2019: 17,104). Suma calculada."
+   ],
+   "2021": [
+    56,
+    "Nota 19, columnas corriente 2021/2020 y no corriente 2021/2020: 2021 = 6,719 + 10,749; 2020 = 6,766 + 11,310 (sumas derivadas). Integrados en Other financial liabilities del balance."
+   ],
+   "2022": [
+    62,
+    "Nota 19, columnas: corriente 2022/2021 y no corriente 2022/2021. Total 2022 18,053; 2021 17,468 (suma mía de importes impresos)."
+   ],
+   "2023": [
+    63,
+    "Nota 19: corriente + no corriente (2023: 8,497+19,581=28,078; 2022: 6,630+11,423=18,053)"
+   ],
+   "2024": [
+    33,
+    "No hay total impreso; suma corriente+no corriente (nota 18). 2024: 9,412+20,385; 2023: 8,497+19,581."
+   ],
+   "2025": [
+    130,
+    "Corriente + no corriente (nota 18). Totales 27,144 (2025) y 29,797 (2024) según tabla de nota 20."
+   ]
+  },
+  "caja": {
+   "2016": [
+    79,
+    null
+   ],
+   "2017": [
+    71,
+    null
+   ],
+   "2018": [
+    71,
+    null
+   ],
+   "2019": [
+    71,
+    null
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    37,
+    null
+   ],
+   "2023": [
+    37,
+    null
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    103,
+    null
+   ]
+  },
+  "otros_activos_financieros": {
+   "2016": [
+    79,
+    "Además 'Financial assets' no corriente 8,000 (2015: 0) en p.79, no incluido"
+   ],
+   "2017": [
+    71,
+    "Depósitos corrientes (fixed-term deposits). Aparte hay depósitos no corrientes en «Financial assets»: 2,500 (2016: 8,000), no incluidos."
+   ],
+   "2018": [
+    71,
+    "Other financial assets corrientes (depósitos a plazo y otras inversiones financieras); no sumados a la caja."
+   ],
+   "2019": [
+    71,
+    "Other financial assets corrientes del balance (incluye depósitos a plazo y otras inversiones financieras, no se suman a caja)."
+   ],
+   "2020": [
+    39,
+    "Other financial assets corrientes (incluye depósitos a plazo 24,851 [2019: 49,596], derivados, y en 2019 acciones y fondos 50,290; nota 12). Se informa el total corriente del balance; no incluye los no corrientes (1,145; 2019: 1,330)."
+   ],
+   "2021": [
+    43,
+    "Other financial assets corrientes (incluye depósitos a plazo; 'Change in fixed deposits' en flujos); la composición exacta no se desglosó aquí."
+   ],
+   "2022": [
+    37,
+    "Corriente (incluye depósitos a plazo 130,405/84,282 y derivados 3,352/595 según nota 22). No corriente aparte: 1,158/1,040."
+   ],
+   "2023": [
+    37,
+    "Other financial assets corrientes (principalmente depósitos a plazo fijo); no corrientes 1,680/1,158 aparte"
+   ],
+   "2024": [
+    30,
+    "Depósitos a plazo corrientes (nota 12). Other financial assets corrientes totales del balance: 350,002 (2023: 267,634), incluye derivados 551 y otros 581."
+   ],
+   "2025": [
+    103,
+    "Balance, activos financieros corrientes (depósitos 353,059 + fondos 5,000 + derivados 1,015 + otros 649, nota 12); incluye derivados y 'otros'."
+   ]
+  },
+  "pensiones": {
+   "2016": [
+    79,
+    "Provisions for pensions"
+   ],
+   "2017": [
+    71,
+    null
+   ],
+   "2018": [
+    71,
+    null
+   ],
+   "2019": [
+    71,
+    "Pension plans and similar obligations (no corriente)."
+   ],
+   "2020": [
+    39,
+    null
+   ],
+   "2021": [
+    43,
+    null
+   ],
+   "2022": [
+    37,
+    null
+   ],
+   "2023": [
+    37,
+    "Pension and similar obligations (no corriente)"
+   ],
+   "2024": [
+    19,
+    null
+   ],
+   "2025": [
+    103,
+    null
+   ]
+  },
+  "minoritarios": {
+   "2016": [
+    null,
+    "sin línea"
+   ],
+   "2017": [
+    null,
+    "sin línea (no hay intereses minoritarios en el balance)"
+   ],
+   "2018": [
+    null,
+    "sin línea (no hay non-controlling interests en el balance)"
+   ],
+   "2019": [
+    null,
+    "sin línea: el balance no presenta non-controlling interests."
+   ],
+   "2020": [
+    null,
+    "sin línea (no hay Non-controlling interests en el balance)"
+   ],
+   "2021": [
+    null,
+    "sin línea de Non-controlling interests en el balance."
+   ],
+   "2022": [
+    null,
+    "sin línea"
+   ],
+   "2023": [
+    null,
+    "sin línea en el balance"
+   ],
+   "2024": [
+    null,
+    "sin línea de Non-controlling interests en el balance."
+   ],
+   "2025": [
+    null,
+    "sin línea (no hay participaciones no dominantes)"
+   ]
+  },
+  "circulante": {
+   "2016": [
+    80,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2017": [
+    72,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2018": [
+    72,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2019": [
+    72,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2020": [
+    40,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2021": [
+    44,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2022": [
+    38,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2023": [
+    38,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2024": [
+    20,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ],
+   "2025": [
+    104,
+    "Inventories; Trade accounts receivable and other assets; Provisions; Trade accounts payable and other liabilities"
+   ]
+  }
+ },
+ "comparativos": {
+  "ventas": {
+   "2015": 564231.0,
+   "2016": 613010.0,
+   "2017": 702100.0,
+   "2018": 777859.0,
+   "2019": 843633.0,
+   "2020": 649587.0,
+   "2021": 779734.0,
+   "2022": 1022345.0,
+   "2023": 1125838.0,
+   "2024": 1193529.0
+  },
+  "ebit": {
+   "2015": 160205.0,
+   "2016": 166511.0,
+   "2017": 187568.0,
+   "2018": 205012.0,
+   "2019": 223375.0,
+   "2020": 106806.0,
+   "2021": 160134.0,
+   "2022": 237510.0,
+   "2023": 277001.0,
+   "2024": 314198.0
+  },
+  "da": {
+   "2015": 8765.0,
+   "2016": 9900.0,
+   "2017": 11827.0,
+   "2018": 13977.0,
+   "2019": 24983.0,
+   "2020": 29278.0,
+   "2021": 30314.0,
+   "2022": 30918.0,
+   "2023": 32619.0,
+   "2024": 37394.0
+  },
+  "beneficio_neto": {
+   "2015": 121789.0,
+   "2016": 127107.0,
+   "2017": 143001.0,
+   "2018": 157310.0,
+   "2019": 171590.0,
+   "2020": 80096.0,
+   "2021": 123663.0,
+   "2022": 185722.0,
+   "2023": 213968.0,
+   "2024": 250530.0
+  },
+  "impuestos": {
+   "2015": -37902.0,
+   "2016": -38761.0,
+   "2017": -44047.0,
+   "2018": -46852.0,
+   "2019": -53519.0,
+   "2020": -22281.0,
+   "2021": -35197.0,
+   "2022": -52021.0,
+   "2023": -70068.0,
+   "2024": -75386.0
+  },
+  "bai": {
+   "2015": 159691.0,
+   "2016": 165868.0,
+   "2017": 187048.0,
+   "2018": 204162.0,
+   "2019": 225109.0,
+   "2020": 102377.0,
+   "2021": 158860.0,
+   "2022": 237743.0,
+   "2023": 284036.0,
+   "2024": 325916.0
+  },
+  "cfo": {
+   "2015": 142957.0,
+   "2016": 129490.0,
+   "2017": 145936.0,
+   "2018": 144326.0,
+   "2019": 198638.0,
+   "2020": 92690.0,
+   "2021": 172101.0,
+   "2022": 160618.0,
+   "2023": 258345.0,
+   "2024": 283064.0
+  },
+  "capex": {
+   "2015": -19432.0,
+   "2016": -24592.0,
+   "2017": -34224.0,
+   "2018": -46166.0,
+   "2019": -40674.0,
+   "2020": -33397.0,
+   "2021": -25820.0,
+   "2022": -37184.0,
+   "2023": -34632.0,
+   "2024": -31618.0
+  },
+  "adquisiciones": {
+   "2015": null,
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null
+  },
+  "intereses": {
+   "2015": -1035.0,
+   "2016": -826.0,
+   "2017": -765.0,
+   "2018": -239.0,
+   "2019": -273.0,
+   "2020": -243.0,
+   "2021": -618.0,
+   "2022": 647.0,
+   "2023": -1163.0,
+   "2024": -1389.0
+  },
+  "intereses_financiacion": {
+   "2015": -1035.0,
+   "2016": -826.0,
+   "2017": -765.0,
+   "2018": -239.0,
+   "2019": -273.0,
+   "2020": -243.0,
+   "2021": -618.0,
+   "2022": 647.0,
+   "2023": -1163.0,
+   "2024": -1389.0
+  },
+  "arrendamientos_principal": {
+   "2015": null,
+   "2016": null,
+   "2017": null,
+   "2018": 0.0,
+   "2019": -8580.0,
+   "2020": -9082.0,
+   "2021": -8533.0,
+   "2022": -9078.0,
+   "2023": -9954.0,
+   "2024": -11277.0
+  },
+  "sbc": {
+   "2015": null,
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null
+  },
+  "id": {
+   "2015": -23585.0,
+   "2016": -28842.0,
+   "2017": -33200.0,
+   "2018": -38097.0,
+   "2019": -42017.0,
+   "2020": -41671.0,
+   "2021": -45119.0,
+   "2022": -44750.0,
+   "2023": 59449.0,
+   "2024": 65959.0
+  },
+  "acciones_diluidas": {
+   "2015": 11370000.0,
+   "2016": 11370000.0,
+   "2017": 11370000.0,
+   "2018": 11370000.0,
+   "2019": 11370000.0,
+   "2020": 11370000.0,
+   "2021": 11370000.0,
+   "2022": 11370000.0,
+   "2023": 11370000.0,
+   "2024": 11370000.0
+  },
+  "patrimonio": {
+   "2015": 356107.0,
+   "2016": 396958.0,
+   "2017": 424527.0,
+   "2018": 455514.0,
+   "2019": 517368.0,
+   "2020": 535091.0,
+   "2021": 603330.0,
+   "2022": 676240.0,
+   "2023": 760789.0,
+   "2024": 856902.0
+  },
+  "deuda": {
+   "2015": 28435.0,
+   "2016": 27793.0,
+   "2017": 14247.0,
+   "2018": 11918.0,
+   "2019": 9584.0,
+   "2020": 4676.0,
+   "2021": 2125.0,
+   "2022": 944.0,
+   "2023": 0.0,
+   "2024": null
+  },
+  "arrendamientos": {
+   "2015": null,
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": 17104.0,
+   "2020": 18076.0,
+   "2021": 17468.0,
+   "2022": 18053.0,
+   "2023": 28078.0,
+   "2024": 29797.0
+  },
+  "caja": {
+   "2015": 156122.0,
+   "2016": 102452.0,
+   "2017": 196214.0,
+   "2018": 156766.0,
+   "2019": 181390.0,
+   "2020": 231128.0,
+   "2021": 253695.0,
+   "2022": 207901.0,
+   "2023": 137962.0,
+   "2024": 152528.0
+  },
+  "otros_activos_financieros": {
+   "2015": 110900.0,
+   "2016": 175700.0,
+   "2017": 72019.0,
+   "2018": 86278.0,
+   "2019": 100955.0,
+   "2020": 25928.0,
+   "2021": 84877.0,
+   "2022": 133757.0,
+   "2023": 264707.0,
+   "2024": 350002.0
+  },
+  "pensiones": {
+   "2015": 2597.0,
+   "2016": 3223.0,
+   "2017": 4542.0,
+   "2018": 4706.0,
+   "2019": 6188.0,
+   "2020": 6508.0,
+   "2021": 5785.0,
+   "2022": 4025.0,
+   "2023": 5100.0,
+   "2024": 5970.0
+  },
+  "minoritarios": {
+   "2015": null,
+   "2016": null,
+   "2017": null,
+   "2018": null,
+   "2019": null,
+   "2020": null,
+   "2021": null,
+   "2022": null,
+   "2023": null,
+   "2024": null
+  },
+  "circulante": {
+   "2015": -9259.0,
+   "2016": 5265.0,
+   "2017": 9104.0,
+   "2018": 28150.0,
+   "2019": 4326.0,
+   "2020": -4869.0,
+   "2021": -10634.0,
+   "2022": 69498.0,
+   "2023": -16860.0,
+   "2024": -591.0
+  }
+ }
+}

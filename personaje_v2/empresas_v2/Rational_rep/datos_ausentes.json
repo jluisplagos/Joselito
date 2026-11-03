@@ -1,0 +1,87 @@
+[
+ {
+  "dato": "Palancas!C24",
+  "que": "tamaño del mercado año 10",
+  "nivel": "no bloqueante",
+  "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+  "nota": ""
+ },
+ {
+  "dato": "extracto_v63: Tamaño del mercado de combi y sistemas de cocción multifuncionales en importe (la empresa solo cita el mercado de equipos de restauración, de una fuente externa",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cuota de mercado por país o región con serie histórica.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Nombres de competidores y su cuota o tamaño.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Margen EBIT por segmento regional como porcentaje (solo importes de EBIT y ventas por segmento).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Importe total invertido en la planta de Suzhou.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Coste medio de la deuda (no hay deuda bancaria).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Tasa de descuento (WACC) del test de deterioro del goodwill.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Importe de aranceles capitalizados en existencias a 31-12-2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cartera de pedidos al cierre de 2025 en unidades de sistemas de cocción.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Elasticidad de la demanda al precio o volumen por producto tras las subidas.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Efecto del precio frente a volumen y mezcla en 2024 y 2025 en puntos porcentuales (solo para 2022 y 2023).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Ratios de capital regulatorios y límites regulatorios a la distribución (no aplica).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Rating de agencia externa (la empresa dice que no lo tiene).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ }
+]

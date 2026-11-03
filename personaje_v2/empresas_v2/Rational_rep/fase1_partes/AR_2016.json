@@ -1,0 +1,334 @@
+{
+ "anio": 2016,
+ "fecha_cierre": "31 Dec 2016",
+ "moneda": "EUR",
+ "unidad": "kEUR",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": {
+    "impreso": "613,010",
+    "pagina": 78,
+    "linea": "Sales revenues 1 613,010 564,231"
+   },
+   "anterior": {
+    "impreso": "564,231",
+    "pagina": 78,
+    "linea": "Sales revenues 1 613,010 564,231"
+   },
+   "nota": null
+  },
+  "ebit": {
+   "actual": {
+    "impreso": "166,511",
+    "pagina": 78,
+    "linea": "Earnings before interest and taxes (EBIT) 166,511 160,205"
+   },
+   "anterior": {
+    "impreso": "160,205",
+    "pagina": 78,
+    "linea": "Earnings before interest and taxes (EBIT) 166,511 160,205"
+   },
+   "nota": null
+  },
+  "da": {
+   "actual": {
+    "impreso": "9,900",
+    "pagina": 80,
+    "linea": "Depreciation and amortisation 9,900 8,765"
+   },
+   "anterior": {
+    "impreso": "8,765",
+    "pagina": 80,
+    "linea": "Depreciation and amortisation 9,900 8,765"
+   },
+   "nota": null
+  },
+  "beneficio_neto": {
+   "actual": {
+    "impreso": "127,107",
+    "pagina": 78,
+    "linea": "Profit or loss after taxes 127,107 121,789"
+   },
+   "anterior": {
+    "impreso": "121,789",
+    "pagina": 78,
+    "linea": "Profit or loss after taxes 127,107 121,789"
+   },
+   "nota": null
+  },
+  "impuestos": {
+   "actual": {
+    "impreso": "−38,761",
+    "pagina": 78,
+    "linea": "Income taxes 9 −38,761 −37,902"
+   },
+   "anterior": {
+    "impreso": "−37,902",
+    "pagina": 78,
+    "linea": "Income taxes 9 −38,761 −37,902"
+   },
+   "nota": null
+  },
+  "bai": {
+   "actual": {
+    "impreso": "165,868",
+    "pagina": 78,
+    "linea": "Earnings before taxes (EBT) 165,868 159,691"
+   },
+   "anterior": {
+    "impreso": "159,691",
+    "pagina": 78,
+    "linea": "Earnings before taxes (EBT) 165,868 159,691"
+   },
+   "nota": null
+  },
+  "cfo": {
+   "actual": {
+    "impreso": "129,490",
+    "pagina": 80,
+    "linea": "Cash flow from operating activities 29 129,490 142,957"
+   },
+   "anterior": {
+    "impreso": "142,957",
+    "pagina": 80,
+    "linea": "Cash flow from operating activities 29 129,490 142,957"
+   },
+   "nota": null
+  },
+  "capex": {
+   "actual": {
+    "impreso": "−24,592",
+    "pagina": 80,
+    "linea": "Investments in intangible assets and property, plant and equipment 12, 14 −24,592 −19,432"
+   },
+   "anterior": {
+    "impreso": "−19,432",
+    "pagina": 80,
+    "linea": "Investments in intangible assets and property, plant and equipment 12, 14 −24,592 −19,432"
+   },
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories",
+     "impreso": "−8,265",
+     "pagina": 80,
+     "linea": "Inventories −8,265 −660"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "−12,898",
+     "pagina": 80,
+     "linea": "Trade accounts receivable and other assets −12,898 −6,657"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "3,767",
+     "pagina": 80,
+     "linea": "Provisions 3,767 10,242"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "12,131",
+     "pagina": 80,
+     "linea": "Trade accounts payable and other liabilities 12,131 6,334"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories",
+     "impreso": "−660",
+     "pagina": 80,
+     "linea": "Inventories −8,265 −660"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "−6,657",
+     "pagina": 80,
+     "linea": "Trade accounts receivable and other assets −12,898 −6,657"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "10,242",
+     "pagina": 80,
+     "linea": "Provisions 3,767 10,242"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "6,334",
+     "pagina": 80,
+     "linea": "Trade accounts payable and other liabilities 12,131 6,334"
+    }
+   ],
+   "nota": null
+  },
+  "intereses": {
+   "actual": {
+    "impreso": "−826",
+    "pagina": 80,
+    "linea": "Interest paid −826 −1,035"
+   },
+   "anterior": {
+    "impreso": "−1,035",
+    "pagina": 80,
+    "linea": "Interest paid −826 −1,035"
+   },
+   "nota": "Interest paid, en actividades de financiación"
+  },
+  "intereses_financiacion": {
+   "actual": {
+    "impreso": "−826",
+    "pagina": 80,
+    "linea": "Interest paid −826 −1,035"
+   },
+   "anterior": {
+    "impreso": "−1,035",
+    "pagina": 80,
+    "linea": "Interest paid −826 −1,035"
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea (pre IFRS 16)"
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin gasto: la nota 35 dice 'There was no share-based payment agreement in 2016' (p.116)"
+  },
+  "id": {
+   "actual": {
+    "impreso": "−28,842",
+    "pagina": 78,
+    "linea": "Research and development expenses 4 −28,842 −23,585"
+   },
+   "anterior": {
+    "impreso": "−23,585",
+    "pagina": 78,
+    "linea": "Research and development expenses 4 −28,842 −23,585"
+   },
+   "nota": null
+  },
+  "acciones_diluidas": {
+   "actual": {
+    "impreso": "11,370,000",
+    "pagina": 78,
+    "linea": "Average number of shares (undiluted/diluted) 11,370,000 11,370,000"
+   },
+   "anterior": {
+    "impreso": "11,370,000",
+    "pagina": 78,
+    "linea": "Average number of shares (undiluted/diluted) 11,370,000 11,370,000"
+   },
+   "nota": "Average number of shares (undiluted/diluted)"
+  },
+  "patrimonio": {
+   "actual": {
+    "impreso": "396,958",
+    "pagina": 79,
+    "linea": "Equity 396,958 356,107"
+   },
+   "anterior": {
+    "impreso": "356,107",
+    "pagina": 79,
+    "linea": "Equity 396,958 356,107"
+   },
+   "nota": "Equity total; no se muestra línea de minoritarios"
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Non-current liabilities to banks",
+     "impreso": "20,747",
+     "pagina": 79,
+     "linea": "Non-current liabilities to banks 25 20,747 21,769"
+    },
+    {
+     "concepto": "Current liabilities to banks",
+     "impreso": "7,046",
+     "pagina": 79,
+     "linea": "Current liabilities to banks 25 7,046 6,666"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Non-current liabilities to banks",
+     "impreso": "21,769",
+     "pagina": 79,
+     "linea": "Non-current liabilities to banks 25 20,747 21,769"
+    },
+    {
+     "concepto": "Current liabilities to banks",
+     "impreso": "6,666",
+     "pagina": 79,
+     "linea": "Current liabilities to banks 25 7,046 6,666"
+    }
+   ],
+   "nota": "deuda = suma de ambas líneas (sin arrendamientos)"
+  },
+  "arrendamientos": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea de pasivos por arrendamiento en el balance"
+  },
+  "caja": {
+   "actual": {
+    "impreso": "102,452",
+    "pagina": 79,
+    "linea": "Cash and cash equivalents 20 102,452 156,122"
+   },
+   "anterior": {
+    "impreso": "156,122",
+    "pagina": 79,
+    "linea": "Cash and cash equivalents 20 102,452 156,122"
+   },
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Deposits with maturities of more than 3 months",
+     "impreso": "175,700",
+     "pagina": 79,
+     "linea": "Deposits with maturities of more than 3 months 19 175,700 110,900"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Deposits with maturities of more than 3 months",
+     "impreso": "110,900",
+     "pagina": 79,
+     "linea": "Deposits with maturities of more than 3 months 19 175,700 110,900"
+    }
+   ],
+   "nota": "Además 'Financial assets' no corriente 8,000 (2015: 0) en p.79, no incluido"
+  },
+  "pensiones": {
+   "actual": {
+    "impreso": "3,223",
+    "pagina": 79,
+    "linea": "Provisions for pensions 22 3,223 2,597"
+   },
+   "anterior": {
+    "impreso": "2,597",
+    "pagina": 79,
+    "linea": "Provisions for pensions 22 3,223 2,597"
+   },
+   "nota": "Provisions for pensions"
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea"
+  }
+ }
+}

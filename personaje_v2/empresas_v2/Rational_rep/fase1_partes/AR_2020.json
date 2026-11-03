@@ -1,0 +1,326 @@
+{
+ "anio": 2020,
+ "fecha_cierre": "2020-12-31",
+ "moneda": "EUR",
+ "unidad": "kEUR",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": {
+    "impreso": "649,587",
+    "pagina": 39,
+    "linea": "Sales revenues                                                         1      649,587      843,633"
+   },
+   "anterior": {
+    "impreso": "843,633",
+    "pagina": 39,
+    "linea": "Sales revenues                                                         1      649,587      843,633"
+   },
+   "nota": null
+  },
+  "ebit": {
+   "actual": {
+    "impreso": "106,806",
+    "pagina": 39,
+    "linea": "Earnings before financial result and taxes (EBIT)                             106,806      223,375"
+   },
+   "anterior": {
+    "impreso": "223,375",
+    "pagina": 39,
+    "linea": "Earnings before financial result and taxes (EBIT)                             106,806      223,375"
+   },
+   "nota": null
+  },
+  "da": {
+   "actual": {
+    "impreso": "29,278",
+    "pagina": 40,
+    "linea": "Depreciation and amortisation                                                         29,278     24,983"
+   },
+   "anterior": {
+    "impreso": "24,983",
+    "pagina": 40,
+    "linea": "Depreciation and amortisation                                                         29,278     24,983"
+   },
+   "nota": null
+  },
+  "beneficio_neto": {
+   "actual": {
+    "impreso": "80,096",
+    "pagina": 39,
+    "linea": "Profit or loss after taxes                                                     80,096      171,590"
+   },
+   "anterior": {
+    "impreso": "171,590",
+    "pagina": 39,
+    "linea": "Profit or loss after taxes                                                     80,096      171,590"
+   },
+   "nota": "No hay minoritarios: todo el beneficio es atribuible a los accionistas de la dominante."
+  },
+  "impuestos": {
+   "actual": {
+    "impreso": "–22,281",
+    "pagina": 39,
+    "linea": "Income taxes                                                           5      –22,281      –53,519"
+   },
+   "anterior": {
+    "impreso": "–53,519",
+    "pagina": 39,
+    "linea": "Income taxes                                                           5      –22,281      –53,519"
+   },
+   "nota": null
+  },
+  "bai": {
+   "actual": {
+    "impreso": "102,377",
+    "pagina": 39,
+    "linea": "Earnings before taxes (EBT)                                                   102,377      225,109"
+   },
+   "anterior": {
+    "impreso": "225,109",
+    "pagina": 39,
+    "linea": "Earnings before taxes (EBT)                                                   102,377      225,109"
+   },
+   "nota": null
+  },
+  "cfo": {
+   "actual": {
+    "impreso": "92,690",
+    "pagina": 40,
+    "linea": "Cash flow from operating activities                                                   92,690    198,638"
+   },
+   "anterior": {
+    "impreso": "198,638",
+    "pagina": 40,
+    "linea": "Cash flow from operating activities                                                   92,690    198,638"
+   },
+   "nota": null
+  },
+  "capex": {
+   "actual": {
+    "impreso": "–33,397",
+    "pagina": 40,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment          –33,397    –40,674"
+   },
+   "anterior": {
+    "impreso": "–40,674",
+    "pagina": 40,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment          –33,397    –40,674"
+   },
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea (no hay pagos por compra ni cobros por venta de negocios en el estado de flujos)"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories",
+     "impreso": "–7,854",
+     "pagina": 40,
+     "linea": "Inventories                                                                         –7,854     –8,582"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "36,045",
+     "pagina": 40,
+     "linea": "Trade accounts receivable and other assets                                          36,045     –2,279"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "-9,340",
+     "pagina": 40,
+     "linea": "Provisions                                                                          -9,340      1,132"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "–13,982",
+     "pagina": 40,
+     "linea": "Trade accounts payable and other liabilities                                       –13,982      5,403"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories",
+     "impreso": "–8,582",
+     "pagina": 40,
+     "linea": "Inventories                                                                         –7,854     –8,582"
+    },
+    {
+     "concepto": "Trade accounts receivable and other assets",
+     "impreso": "–2,279",
+     "pagina": 40,
+     "linea": "Trade accounts receivable and other assets                                          36,045     –2,279"
+    },
+    {
+     "concepto": "Provisions",
+     "impreso": "1,132",
+     "pagina": 40,
+     "linea": "Provisions                                                                          -9,340      1,132"
+    },
+    {
+     "concepto": "Trade accounts payable and other liabilities",
+     "impreso": "5,403",
+     "pagina": 40,
+     "linea": "Trade accounts payable and other liabilities                                       –13,982      5,403"
+    }
+   ],
+   "nota": "Variaciones bajo 'Changes in'. Provisions 2020 impreso con guion corto '-9,340' (2019: '1,132')."
+  },
+  "intereses": {
+   "actual": {
+    "impreso": "–243",
+    "pagina": 40,
+    "linea": "Interest paid                                                                          –243       –273"
+   },
+   "anterior": {
+    "impreso": "–273",
+    "pagina": 40,
+    "linea": "Interest paid                                                                          –243       –273"
+   },
+   "nota": "Único importe de intereses pagados que figura en el estado de flujos (en financiación). Los intereses recibidos (401) van en inversión; 'Net interest' 338 es solo ajuste en operaciones."
+  },
+  "intereses_financiacion": {
+   "actual": {
+    "impreso": "–243",
+    "pagina": 40,
+    "linea": "Interest paid                                                                          –243       –273"
+   },
+   "anterior": {
+    "impreso": "–273",
+    "pagina": 40,
+    "linea": "Interest paid                                                                          –243       –273"
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": {
+    "impreso": "–9,082",
+    "pagina": 40,
+    "linea": "Payments for lease liabilities                                                        –9,082     –8,580"
+   },
+   "anterior": {
+    "impreso": "–8,580",
+    "pagina": 40,
+    "linea": "Payments for lease liabilities                                                        –9,082     –8,580"
+   },
+   "nota": "Línea 'Payments for lease liabilities' (según nota 21 incluye pagos de principal e intereses de arrendamientos; no se desglosa)."
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "nota": "Nota 28: 'There was no share-based payment agreement in 2020' (plan de opciones de 2000, quedan derechos sobre 131,000 acciones); no se informa gasto. Valor null."
+  },
+  "id": {
+   "actual": {
+    "impreso": "–41,671",
+    "pagina": 39,
+    "linea": "Research and development expenses                                             –41,671      –42,017"
+   },
+   "anterior": {
+    "impreso": "–42,017",
+    "pagina": 39,
+    "linea": "Research and development expenses                                             –41,671      –42,017"
+   },
+   "nota": "Gasto en I+D de la cuenta de resultados (impreso negativo)."
+  },
+  "acciones_diluidas": {
+   "actual": {
+    "impreso": "11,370,000",
+    "pagina": 39,
+    "linea": "Average number of shares (basic/diluted)                                    11,370,000   11,370,000"
+   },
+   "anterior": {
+    "impreso": "11,370,000",
+    "pagina": 39,
+    "linea": "Average number of shares (basic/diluted)                                    11,370,000   11,370,000"
+   },
+   "nota": null
+  },
+  "patrimonio": {
+   "actual": {
+    "impreso": "535,091",
+    "pagina": 39,
+    "linea": "Equity                                                                                                               535,091      517,368"
+   },
+   "anterior": {
+    "impreso": "517,368",
+    "pagina": 39,
+    "linea": "Equity                                                                                                               535,091      517,368"
+   },
+   "nota": "Sin minoritarios: equity total = atribuible a la dominante."
+  },
+  "deuda": {
+   "actual": {
+    "impreso": "2,126 + 2,550",
+    "pagina": 39,
+    "linea": "Financial debt                                                                                     18                  2,126        3,676 || Financial debt                                                                                     18                  2,550        5,908"
+   },
+   "anterior": {
+    "impreso": "3,676 + 5,908",
+    "pagina": 39,
+    "linea": "Financial debt                                                                                     18                  2,126        3,676 || Financial debt                                                                                     18                  2,550        5,908"
+   },
+   "nota": "Financial debt no corriente (2,126; 2019: 3,676) + corriente (2,550; 2019: 5,908) = 4,676 (2019: 9,584), sin arrendamientos. Suma calculada, no impresa en el balance."
+  },
+  "arrendamientos": {
+   "actual": {
+    "impreso": "6,766 + 11,310",
+    "pagina": 52,
+    "linea": "Lease liabilities                                                      6,766             6,550        11,310              10,554"
+   },
+   "anterior": {
+    "impreso": "6,550 + 10,554",
+    "pagina": 52,
+    "linea": "Lease liabilities                                                      6,766             6,550        11,310              10,554"
+   },
+   "nota": "Nota 19: corriente 6,766 (2019: 6,550) + no corriente 11,310 (2019: 10,554) = 18,076 (2019: 17,104). Suma calculada."
+  },
+  "caja": {
+   "actual": {
+    "impreso": "231,128",
+    "pagina": 39,
+    "linea": "Cash and cash equivalents                                                                          14                231,128      181,390"
+   },
+   "anterior": {
+    "impreso": "181,390",
+    "pagina": 39,
+    "linea": "Cash and cash equivalents                                                                          14                231,128      181,390"
+   },
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": {
+    "impreso": "25,928",
+    "pagina": 39,
+    "linea": "Other financial assets                                                                             12                 25,928      100,955"
+   },
+   "anterior": {
+    "impreso": "100,955",
+    "pagina": 39,
+    "linea": "Other financial assets                                                                             12                 25,928      100,955"
+   },
+   "nota": "Other financial assets corrientes (incluye depósitos a plazo 24,851 [2019: 49,596], derivados, y en 2019 acciones y fondos 50,290; nota 12). Se informa el total corriente del balance; no incluye los no corrientes (1,145; 2019: 1,330)."
+  },
+  "pensiones": {
+   "actual": {
+    "impreso": "6,508",
+    "pagina": 39,
+    "linea": "Pension and similar obligations                                                                    16                  6,508        6,188"
+   },
+   "anterior": {
+    "impreso": "6,188",
+    "pagina": 39,
+    "linea": "Pension and similar obligations                                                                    16                  6,508        6,188"
+   },
+   "nota": null
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea (no hay Non-controlling interests en el balance)"
+  }
+ }
+}

@@ -1,0 +1,552 @@
+{
+ "turno": 2,
+ "una_sola_historia": {
+  "coherente": true,
+  "incoherencias": [
+   "Cifra mal atribuida en la fase A: fase_a.md (§3) y las Observaciones de C14 y C18 dan un «ROIC medio de cinco años del 54 % (C55)», pero Historia C55 vale 0,41 porque la I+D está capitalizada (Palancas C9 = Sí); el 54 % es la media 2021–2025 de la fila de ROIC sin I+D. La fase B usa bien 0,41. No cambia C14 ni C18: las dos medidas superan con mucho la r (0,09) y el ROIC del sector (0,12, H18).",
+   "C14 = Compounder frente a lo que modelan las palancas: la hoja da una tasa de reinversión del 7 % en el año 1 (Análisis, tabla de múltiplos), la empresa reparte el 70–90 % [AR_2025, PDF p. 5; AR_2025, PDF p. 17] y el crecimiento del NORMAL vale 105,95 € de 360,81 €. Es un negocio de alta rentabilidad que reparte, no uno que reinvierte a alta rentabilidad. Tensión de etiqueta: Análisis D14 no tiene veredicto y no mueve valor ni conclusión; la anoto y no reescribo una celda de la fase A.",
+   "C17 = Sí (viento de cola) con la penetración publicada en ~25 % desde 2019 [AR_2019, PDF p. 3; AR_2025, PDF p. 4]: el viento que usan las palancas es el de las unidades de 2024–2025 (+3 % y +6 % [AR_2025, PDF p. 15]), no el de la penetración. A cuota constante (~50 % cada año desde 2016 [AR_2025, PDF p. 4]) el crecimiento de Rational es el de su nicho. Se resuelve con palabras: C17 se lee como viento del sector a cuota constante, y la tesis del turno 2 lo dirá así.",
+   "Palancas!C15 (NORMAL 0,26) en el borde alto del objetivo de la dirección (25–26 % [AR_2025, PDF p. 5]) y por encima del margen del primer semestre de 2026 sin el reembolso de aranceles (24,3 %, Observación heredada de C27 en datos_v63.md §6), que la fase B no pesó. No muevo la palanca: es un semestre con un coste arancelario que la empresa compensa con subidas del 4–5 % en EE. UU. [AR_2025, PDF p. 20], y la condición de cambio ya escrita en C15 (≈24 % en 2026 y 2027) no se ha cumplido. Con 0,245 el ponderado bajaría del orden de 10–15 € (tornado: margen ±2 puntos = ±25,6 €) y la zona seguiría siendo caro.",
+   "La narrativa del MALO (B65:B66) es sustitución frenada, no pérdida de cuota: la fase A descartó «Pierde cuota frente a la competencia» porque no conoce al competidor, aunque la propia empresa declara el riesgo de que un competidor la alcance o lance una tecnología superior (Observación heredada de C12 en datos_v63.md §6). No cambia la zona (el precio supera el BUENO); sí condiciona el precio de Sí, que depende sobre todo del MALO. Queda ligado a la hipótesis sin base de Palancas!C18 y a B222.",
+   "Resuelta en la vuelta a la fase B: la cita de la regla g ≤ tasa sin riesgo (E1) pasa de «(CV p. 10, E1)» a «(CV p. 5, E1)» en el porqué de la g del NORMAL, en la Observación de C68 y en fase_b.md. Ningún valor cambió: el libro recalculado da los mismos B78:D78, C83 y precio.json (precio de Sí 320,83).",
+   "Cita de Damodaran con página errónea en la Observación de Palancas!C22 (fase B, quiebra): dice «(PA p. 4, E6: sin doble cuenta)», pero PA p. 4 trata de que las probabilidades suman 1 solo si los escenarios cubren el rango; la doble cuenta del riesgo en escenarios está en Probabilistic Approaches p. 9 (damodaran.md, «Escenarios: doble cuenta del riesgo»). Lo correcto es «(PA p. 9, E6: sin doble cuenta)». No cambia ningún valor: C22 sigue vacío porque no hay disparador (C33 = −0,46, C34 = Sí, Historia fila 22). La única vuelta a la fase B ya está gastada (vueltas_c_a_b = 1): la anoto aquí y en celdas_corregidas con despues = antes.",
+   "Cita de Damodaran que mezcla dos criterios en la Observación de Palancas!B18 (fase B): «(CV p. 10, E2–E3)». CV p. 10 sostiene E2 (convergencia del retorno), pero E3 (el crecimiento solo crea valor con retorno por encima del coste) está en Closure in Valuation pp. 13, 15 y 23 (trazabilidad_damodaran.md, E3). Lo correcto es «(CV p. 10, E2; CV p. 13, E3)». No cambia el valor (B18 = 0,09, la tasa del motor) ni la clase. Sin vuelta posible a la fase B: anotada aquí y en celdas_corregidas con despues = antes."
+  ]
+ },
+ "lo_que_dice_la_hoja": {
+  "valores": {
+   "MALO_B78": 232.72,
+   "NORMAL_C78": 360.81,
+   "BUENO_D78": 465.26,
+   "ponderado_C83": 356.08,
+   "precio_C37": 630
+  },
+  "escalera_leida_de_precio_json": {
+   "precio_escenario_malo": 232.72,
+   "precio_de_si": 320.83,
+   "ponderado": 356.08,
+   "zona": "caro",
+   "distancia_a_precio_si": 0.49,
+   "distancia_a_malo": 0.63,
+   "tope_normal_aplicado": false,
+   "regla_antigua_C156": 232.72,
+   "nota": "convención experimental del ejercicio (D11, k = 3): la leo, no la recalculo; la zona no mide riesgo ni fundamento"
+  },
+  "semaforos_relevantes": [
+   "Margen frente a su máximo y al sector (fila 41): REVISAR en los tres escenarios porque superan el Q3 de Machinery (0,125); ninguno supera el máximo propio (0,272). G5 justificada en la fase B.",
+   "ROIC marginal frente a su historia (fila 42): PASA; el BUENO (0,811) está justo en el tope de 2 × C55.",
+   "Peso del «para siempre» (fila 44): PASA en los tres (43 %, 53 %, 58 %): G16 no aparece.",
+   "Cuota de mercado implícita (fila 45): sin cálculo porque Palancas!C24 está vacío; G17 no aplica.",
+   "S2C medio frente al sector (fila 46): REVISAR (propio 2,99 frente a Q3 de 1,78); es otra medida que la palanca (aviso A1).",
+   "r frente a r mínima (fila 48): 0,09 frente a 0,0903; r heredada (aviso A2).",
+   "Análisis D84 «poco margen», D85 «asimetría débil» y D86 «> BUENO»: el precio exige más que mi escenario bueno.",
+   "Autocomprobación «ROIC a largo plazo > g»: REVISAR por el salto del año 11 (G8, regla V16).",
+   "Análisis D93: «terminal coherente»."
+  ],
+  "peso_terminal": {
+   "MALO": 0.43,
+   "NORMAL": 0.53,
+   "BUENO": 0.58
+  },
+  "peso_terminal_NORMAL": 0.53,
+  "salto_anio_11": {
+   "MALO": 0.331,
+   "NORMAL": 0.546,
+   "BUENO": 0.621,
+   "explicacion": "En los años 1–10 cada euro reinvertido rinde S2C × margen × (1 − t): 0,421 / 0,696 / 0,811. Desde el año 11 el capital nuevo rinde el ROIC terminal: 0,09 / 0,15 / 0,19, y la reinversión es g ÷ ROIC (≈17 % / 17 % / 16 % del beneficio). El terminal no recorta el margen del negocio que ya existe: solo pone precio al capital nuevo. El salto es mi hipótesis de que el crecimiento después del año 10 se compra en los segmentos baratos y en mercados con competencia local, donde la ventaja es menor (Asia Norte ≈17,8 % de margen EBIT frente a EMEA ≈27,9 % en 2025 [AR_2025, PDF p. 141], cálculo mío). Con un ROIC terminal igual al histórico (0,41) el valor subiría, no bajaría: la hipótesis es prudente."
+  },
+  "dcf_inverso": "A 630 € el precio descuenta un crecimiento de ventas del 16,9 % anual en los años 1–5 con el resto de palancas del NORMAL (C86; tabla monótona, B193 PASA): casi el doble de mi BUENO (0,09), más que el CAGR de cinco años de Historia C46 (14,2 %, inflado por la recuperación y ~18 puntos de precio) y el triple del NORMAL (0,055). El precio de Sí (320,83 €) descuenta un 3,0 %.",
+  "cuanto_pagas_por_crecer": "Valor sin crecimiento 254,86 €; a 630 € pago 375,14 € por crecer; el crecimiento del NORMAL vale 105,95 €: pago 3,5 veces lo que vale.",
+  "crecimiento_fcf_implicito": {
+   "MALO": -0.008,
+   "NORMAL": 0.048,
+   "BUENO": 0.079,
+   "fcf_anio_10": {
+    "MALO": 216.3,
+    "NORMAL": 360.6,
+    "BUENO": 469.2
+   }
+  },
+  "valor_del_crecimiento": {
+   "MALO": -22.14,
+   "NORMAL": 105.95,
+   "BUENO": 210.4,
+   "nota": "en el MALO es negativo porque el margen baja de 0,264 a 0,22: lo duro del MALO está en el margen, como dice su historia"
+  },
+  "tornado_euros_sobre_ponderado": {
+   "Tasa de descuento (±1 pt)": 61.57,
+   "Crecimiento 1–5 (±2 pts)": 36.62,
+   "Margen / ROE objetivo (±2 pts)": 25.55,
+   "ROIC / ROE largo plazo (±5 pts)": 19.17,
+   "g perpetuo (±0,5 pts)": 10.6,
+   "S2C (±0,3)": 1.1
+  },
+  "palanca_mas_influyente": "Tasa de descuento (±1 pt): ±61,6 € (17 % del ponderado). El valor depende sobre todo de la rentabilidad exigida, que es heredada.",
+  "estado_tecnico": "COMPLETO Y VÁLIDO (B255) y libro LISTO · PROVISIONAL (24 estimaciones justificadas) tras el recálculo de la vuelta C→B; B252 y B254 falsos: el valor no está bloqueado.",
+  "veredicto_hoja_A6": "A6 dice «DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)»; mi cubo provisional es Vigilar porque C13 = No por precio, no por calidad (regla 4 de la sección 17).",
+  "nota": "el tornado es información, no criterio"
+ },
+ "desviaciones_justificadas": [
+  {
+   "comprobacion": "G8",
+   "escenario": "MALO",
+   "justificacion": "Salto de 0,331 (0,421 → 0,09). En los años 1–10 las pocas ventas nuevas del MALO (≈1 % al año) caen sobre la red y la capacidad que ya existen, y cada euro reinvertido rinde 2,5 × 0,22 × 0,765 ≈ 0,42. Desde el año 11 la ventaja ya no se extiende al capital nuevo: la sustitución está agotada (penetración publicada en ~25 % desde 2019), el precio tiene techo (volumen 0 % en 2023 tras subir ~8 puntos) y cualquier crecimiento adicional se disputa con ~100 fabricantes a rentabilidad de mercado. El negocio existente conserva su margen del 22 % en el terminal; solo el capital nuevo (g ÷ ROIC ≈ 17 % del beneficio) rinde r. Es la convención del ejercicio para el MALO (ROIC terminal = tasa del motor; CV, E2–E3) leída como pérdida de ventaja en el año 11; no cambio la clase de B18.",
+   "hechos": [
+    "Diagnóstico V6 bloque 10: rentabilidad marginal 0,421 frente a Palancas!B18 = 0,09 (resultados.json, salto_anio_11)",
+    "Penetración ~25 % de los clientes potenciales desde 2019 [AR_2019, PDF p. 3; AR_2025, PDF p. 4]",
+    "Volumen 0 % en 2023 tras subidas de ~10 y ~8 puntos [AR_2023, PDF p. 22; AR_2023, PDF p. 14]",
+    "~100 fabricantes competidores sin nombre [AR_2025, PDF p. 11]",
+    "Reinversión terminal = Análisis B68 ÷ Palancas!B18 = 0,015 ÷ 0,09 ≈ 17 % del beneficio"
+   ],
+   "clase": "convención"
+  },
+  {
+   "comprobacion": "G8",
+   "escenario": "NORMAL",
+   "justificacion": "Salto de 0,546 (0,696 → 0,15). En los años 1–10 el NORMAL vende más unidades sobre la red de 32 filiales y la capacidad construida; el capital nuevo es sobre todo circulante (22 % de las ventas) y la década da un S2C ≈ 3,6, así que cada euro rinde 3,5 × 0,26 × 0,765 ≈ 0,70. Después del año 10 el crecimiento tiene que venir de los clientes que en siete años no han adoptado el combi y de los segmentos de menor poder adquisitivo (para eso se hizo Suzhou), donde el cliente busca proveedores más baratos y el margen es menor: Asia Norte ganó ≈17,8 % de EBIT en 2025 frente a ≈27,9 % en EMEA. Ahí el capital nuevo rinde 0,15: por encima de r porque la posventa sobre la base instalada y la red siguen, muy por debajo de 0,70 porque la ventaja técnica pesa menos cuando se compite en precio. El terminal no recorta el margen del 26 % del negocio existente; solo pone precio a la reinversión (g ÷ ROIC ≈ 17 %). Con ROIC 0,41 la reinversión bajaría al 6 % y el valor subiría: la hipótesis no infla el valor.",
+   "hechos": [
+    "Diagnóstico V6 bloque 10: rentabilidad marginal 0,696 frente a Palancas!C18 = 0,15 (resultados.json)",
+    "S2C de la década ≈3,6: Δventas 2016–2025 647 m (Historia fila 6) ÷ reinversión neta 2017–2025 179 m (Historia fila 30), cálculo mío; circulante 22 % de las ventas [AR_2025, PDF p. 187]",
+    "EBIT por segmento 2025: Asia Norte 17,7 m sobre 99,3 m (≈17,8 %; ≈20,3 % en 2024) y EMEA 145,0 m sobre 519,5 m (≈27,9 %) [AR_2025, PDF p. 141], cálculo mío",
+    "Combi de Suzhou para clientes con menor poder adquisitivo [AR_2025, PDF p. 13]; la restauración busca proveedores más baratos [AR_2025, PDF p. 14]",
+    "Penetración ~25 % de 4,8 millones de clientes potenciales [AR_2025, PDF p. 4]",
+    "Reinversión terminal = Análisis C68 ÷ Palancas!C18 = 0,025 ÷ 0,15 ≈ 17 %"
+   ],
+   "clase": "fundamentada"
+  },
+  {
+   "comprobacion": "G8",
+   "escenario": "BUENO",
+   "justificacion": "Salto de 0,621 (0,811 → 0,19). En los años 1–10 el BUENO llena capacidad recién construida (Suzhou terminada en enero de 2026, nave de Wittenheim desde octubre de 2025) y reparte la I+D y la red sobre más unidades: cada euro rinde 4,0 × 0,265 × 0,765 ≈ 0,81, el tope de 2 × C55. Cuando esa capacidad está llena, el crecimiento del año 11 en adelante pide plantas y red nuevas y viene del combi de entrada, que supongo con menos margen por aparato: el capital nuevo rinde 0,19, diez puntos sobre la tasa y por debajo del peor año de la década (0,22 con I+D en 2020). La ventaja que se pierde en el año 11 es la de la capacidad ya pagada, no la marca ni la posventa, que siguen en el margen del terminal.",
+   "hechos": [
+    "Diagnóstico V6 bloque 10: rentabilidad marginal 0,811 frente a Palancas!D18 = 0,19 (resultados.json); tope 2 × Historia C55 = 0,81",
+    "Suzhou terminada en enero de 2026 y Wittenheim en la nave nueva desde octubre de 2025 [AR_2025, PDF p. 13]",
+    "ROIC con I+D 0,22 en 2020, el peor de 2016–2025, frente a una media de cinco años de 0,41 (Historia C55; serie roic_con_id de datos_v63.md §3)",
+    "I+D 6 % de las ventas y más de 600 patentes, solicitudes y diseños [AR_2025, PDF p. 12]",
+    "Reinversión terminal = Análisis D68 ÷ Palancas!D18 = 0,03 ÷ 0,19 ≈ 16 %"
+   ],
+   "clase": "fundamentada"
+  }
+ ],
+ "autocomprobacion": [
+  {
+   "sesgo": "anclaje en la etapa 1",
+   "hallazgo": "Se mantienen 18 de las 22 heredadas de la fase A (las 4 que cambian son narrativas) y las 7 de la fase B. Las miré una a una contra la Historia: las palancas no se anclan (MALO 233 / NORMAL 361 / BUENO 465 € frente a ≈288 / 413 / 583 € de la etapa 1, todos más bajos) y el cubo coincide porque el precio sigue por encima de todo el rango. Donde sí veo inercia es en C14 = Compounder: la etapa 1 ya escribía que el compounding llega «más por el dividendo que por la reinversión» y la hoja da una reinversión del 7 % en el año 1.",
+   "cambio": "Ninguna celda cambia: C14 es de la fase A y no mueve valor ni conclusión (D14 sin veredicto). Queda en incoherencias y en celdas_corregidas con despues = antes; la tesis del turno 2 dirá «negocio de alta rentabilidad que reparte»."
+  },
+  {
+   "sesgo": "anclaje en el precio o en la fuente externa",
+   "hallazgo": "Los tres valores quedan lejos de 630 € (el BUENO, un 26 % por debajo) y las desviaciones de la fase B frente a las referencias van a la baja (C14 0,14 → 0,055; C16 4,0 → 3,5), no hacia la cotización. El Fair Value externo (C38) no entra en ninguna palanca. Miré también el anclaje al revés, alejarme del precio por rechazo: con la referencia mecánica del NORMAL (0,14) la tabla del DCF inverso da ≈546 €, aún por debajo de 630.",
+   "cambio": "Ninguno: ni la cotización ni la fuente externa movieron una palanca, y la zona no depende de mis rebajas."
+  },
+  {
+   "sesgo": "consistencia y compromiso",
+   "hallazgo": "La fase A fijó Vigilar antes de los números. Compruebo que la fase B no ajustó palancas para que saliera caro: el precio exige un 16,9 % anual de ventas en los años 1–5 (C86); con la referencia del BUENO (0,16) y el resto del NORMAL la tabla da ≈603 €, todavía por debajo de 630. La zona caro no la fabrican mis desviaciones. Lo que sí depende de ellas es el precio de Sí, y ahí la duración del foso (C18) no tiene base.",
+   "cambio": "Ninguno en el cubo; el precio objetivo queda provisional, condicionado a Palancas!C18 (fundamento material)."
+  },
+  {
+   "sesgo": "historia bonita / viento de cola atribuido a la empresa",
+   "hallazgo": "La cuota publicada es ~50 % todos los años desde 2016 [AR_2025, PDF p. 4]: a cuota constante, las unidades de 2024–2025 que sostienen el NORMAL (+3 % y +6 %) son la marea del nicho, no mérito ganado a rivales; y la penetración publicada (~25 % desde 2019) no muestra que la marea suba. Lo que sí es de la empresa es el margen a igualdad de marea: 26 % de EBIT frente a un Q3 del sector del 12,5 % (Palancas I15) y la posventa del ~31 %.",
+   "cambio": "Ninguna palanca: el NORMAL ya no extrapola la recuperación ni el precio (0,055 frente a 0,14). En la tesis del turno 2 separo marea (unidades) de empresa (margen, posventa)."
+  },
+  {
+   "sesgo": "optimismo del BUENO frente a la tasa base",
+   "hallazgo": "El BUENO lleva las ventas a 2.519 m en el año 10, el doble de 2025. Si las ventas siguieran a los usuarios a cuota constante, doblar pediría pasar de ~25 % a cerca del 50 % de penetración, cifra que la empresa no ha movido en siete años (cuenta gruesa: la reposición y la posventa no siguen solo a usuarios nuevos). Su S2C (4,0) supera el de la década (≈3,6, Historia filas 6 y 30) y su rentabilidad marginal (0,81) está en el tope de 2 × C55: es la única palanca del BUENO por encima de su medida de diez años. El crecimiento (0,09) sí está dentro de lo vivido en 2017–2018 (+14,5 % y +10,8 %, Historia fila 28).",
+   "cambio": "Ninguna palanca: el BUENO pesa 0,2, el S2C mueve ±1,1 € (tornado) y el precio está por encima del BUENO de todos modos. Palancas!D18 entra en la lista sin fundamento y D14 queda con confianza baja."
+  },
+  {
+   "sesgo": "doble castigo del mismo riesgo",
+   "hallazgo": "Sin deuda no hay castigo de balance repetido: C22 vacío, r heredada sin prima añadida, el MALO castiga margen y no quiebra. Miré si la erosión del foso se cuenta dos veces en el NORMAL: margen 0,26 (costes y aranceles), S2C 3,5 (la década en vez de la recuperación) y ROIC 0,15 (duración) son tres mecanismos distintos. La única prudencia acumulada es el tope de C76: 200 m con 431,7 m de liquidez deja fuera entre 18 y 68 m según la reserva (2–6 € por acción); es la regla N5 (C76 ≤ C53), no un castigo.",
+   "cambio": "Ninguno; con esos 2–6 € el ponderado seguiría muy por debajo de 630."
+  },
+  {
+   "sesgo": "disponibilidad (lo vívido del extracto)",
+   "hallazgo": "Lo más vívido del extracto es China −29 % y el margen bruto del T3 2025 (58,1 %) por aranceles. China va dentro de Asia Norte, ~8 % de las ventas [AR_2025, PDF p. 11]: la caída del segmento (−19,5 m [AR_2025, PDF p. 141]) restó ≈1,6 puntos al crecimiento de un año, no de cinco. Los aranceles quitan ~1 punto de margen bruto en 2026, compensado con subidas del 4–5 % en EE. UU. según la guía [AR_2025, PDF p. 20]. El MALO no se apoya en ellos sino en la Historia: margen de 2021–2022 (fila 29) y volumen de 2023.",
+   "cambio": "Ninguno en palancas; en la tesis reduzco China a lo que pesa."
+  },
+  {
+   "sesgo": "autoridad (guía de la dirección como hecho)",
+   "hallazgo": "Ninguna palanca copia la guía, pero varios apoyos usan estimaciones de la dirección como si fueran hechos: cuota ~50 % sin denominador, 4,8 millones de clientes potenciales y ~25 % de uso [AR_2025, PDF p. 4], en C18, C68 y D14. Y el margen del NORMAL (0,26) cae en el borde alto del objetivo de la dirección (25–26 % [AR_2025, PDF p. 5]); lo construí con la Historia, pero la guía de 2026 apunta abajo (EBIT que crece menos que las ventas [AR_2025, PDF p. 20]).",
+   "cambio": "Palancas!C18 entra en hipótesis sin fundamento en parte por esto. C15 no se mueve: anotado en incoherencias con su condición de cambio."
+  },
+  {
+   "sesgo": "¿el MALO es de verdad malo?",
+   "hallazgo": "Como estancamiento es real: FCF del año 10 (216 m) por debajo del FCF base (219 m), margen 0,22 (la zona de 2021–2022), ROIC terminal = r y valor de 233 €, un 9 % por debajo del valor sin crecimiento (255 €). No es pérdida de cuota: no modela un competidor que iguale la tecnología, riesgo que la propia empresa declara (Observación heredada de C12 en datos_v63.md §6), ni un margen como el de 2020 (16,4 %).",
+   "cambio": "No muevo palancas: no tengo un hecho para dimensionar una pérdida de cuota y bajar el margen sin él sería inventar. Consecuencia: el precio de Sí, que depende sobre todo del MALO, queda provisional y condicionado a Palancas!C18 (B222)."
+  },
+  {
+   "sesgo": "lo no numerable que pesa y no está en las palancas",
+   "hallazgo": "Tres cosas: el control en bloques familiares (pacto del 31,6 % y U. Meister 15,6 %) y el derecho de W. Kurtz a nombrar dos miembros del Aufsichtsrat (C96); las reservas de remuneración que la etapa 1 recogía (voto del 77,7 %, dos tasas del bonus) y que no están en estos extractos; y una cultura de un solo negocio que recortó el dividendo en 2019–2020 antes que endeudarse. Ninguna cambia un flujo; las tres cambian cuánto me fío de que la caja (539 m, 46 % del activo [AR_2025, PDF p. 17]) no se malgaste.",
+   "cambio": "Escritas en fase_a.md §5 y en lo_que_no_se; irán a la tesis inversa (B102) del turno 2. No se traducen a palancas."
+  }
+ ],
+ "revisar_palancas": false,
+ "instrucciones_revision": null,
+ "limite_del_modelo": {
+  "aplica": false,
+  "cual": null,
+  "porque": "El motor A calcula los tres escenarios con FCF base positivo los diez años (Historia fila 35), sin deuda y sin ser financiera; la gramática no da ningún límite (L1–L3) ni error."
+ },
+ "cubo_provisional": "Vigilar",
+ "conclusion_provisional": "esperar",
+ "orden_de_mando": [
+  "1 · bloqueo: ninguno (gramática con 0 errores; estado técnico COMPLETO Y VÁLIDO; B252 y B254 falsos)",
+  "2 · límite del modelo: ninguno (motor A válido)",
+  "3 · descalificador: ninguno de la sección 2 aplica; el competidor desconocido es frontera del círculo, no descalificador",
+  "4 · dato ausente material: ninguno (14 revisados; ninguno puede volver favorable una acción que cotiza por encima de su BUENO)",
+  "5 · fundamento material: lista no vacía, conclusión no favorable → no_procede; Palancas!C18 y D18 sin base → precio objetivo provisional",
+  "6 · zona: caro (630 € > ponderado 356,08 €) → esperar, con precio de Sí ≤ 320,83 € provisional"
+ ],
+ "fundamento_material": {
+  "hipotesis_sin_fundamento": [
+   {
+    "celda": "Análisis!B69:D69",
+    "hipotesis": "probabilidades 0,2 / 0,6 / 0,2",
+    "clase": "convención",
+    "porque_sin_fundamento": "La Observación cita hechos de los dos lados para no mover el peso, pero ninguno fija el nivel: es la referencia del ejercicio sin frecuencia observada ni mecanismo que la sostenga. Y el precio de Sí depende mucho de p(MALO), porque toda la pérdida esperada viene del MALO.",
+    "alternativas_defendibles": {
+     "hay_base": true,
+     "rango": {
+      "MALO": [
+       0.1,
+       0.3
+      ],
+      "NORMAL": [
+       0.4,
+       0.6
+      ],
+      "BUENO": [
+       0.1,
+       0.3
+      ]
+     },
+     "evidencia": "p(MALO), techo 0,3: en diez ejercicios (Historia filas 28 y 29, 2016–2025, con el volumen de [AR_2023, PDF p. 22]) tres tuvieron al menos uno de los dos síntomas del MALO, margen EBIT ≤ 22 % o volumen plano: 2020 (ventas −23 %, margen 16,4 %), 2021 (margen 20,5 %) y 2023 (volumen 0 %). Acota por arriba porque dar al MALO más peso que la frecuencia de cualquiera de sus síntomas sería suponer un deterioro que la década no muestra. Suelo 0,1: solo 2020 tuvo los dos a la vez; acota por abajo porque el MALO ya ocurrió una vez en diez años y 2023 mostró su mecanismo (volumen 0 % tras subir precio [AR_2023, PDF p. 14]). p(BUENO), suelo 0,1: solo 2017 juntó crecimiento ≥ 9 % (14,5 %) y margen ≥ 26,5 % (26,7 %), en años sin subidas generales de precio [AR_2023, PDF p. 14]; acota por abajo porque ocurrió. Techo 0,3: tres ejercicios (2016 margen 27,2 %; 2017; 2018 +10,8 %) cumplieron al menos una condición sin precio ni recuperación; 2021–2022 no cuentan porque su crecimiento fue recuperación de 2020 y ~10 puntos de precio [AR_2022, PDF p. 13] (contándolos saldría 0,4). NORMAL: el resto, con valores de la lista que sumen 1. El valor actual (0,2 / 0,6 / 0,2) está dentro; el extremo desfavorable es 0,3 / 0,6 / 0,1."
+    }
+   },
+   {
+    "celda": "Palancas!C18",
+    "hipotesis": "ROIC a largo plazo del NORMAL 0,15: cuánto de la ventaja sobrevive al año 10",
+    "clase": "fundamentada",
+    "porque_sin_fundamento": "Los hechos de la Observación (ROIC 0,28–0,87, cuota ~50 %, margen bruto 55–62 %) prueban que hoy gana mucho más que r; ninguno dice cuánto de esa ventaja dura después del año 10. «Una quinta parte del exceso actual» es una regla mía sin hecho detrás, con confianza baja, y la cuota que la sostiene es una estimación de la dirección sin denominador. Es la hipótesis del salto del año 11 (0,70 → 0,15).",
+    "alternativas_defendibles": {
+     "hay_base": false,
+     "rango": null,
+     "evidencia": "No hay base para acotarla con hechos de esta empresa: el ROIC medio del sector (Palancas H18 = 0,12) es dato de otras empresas; C56 + 0,10 = 0,19 es un umbral de la plantilla; r = 0,09 es la convención del caso sin ventaja, no un hecho de Rational; y el peor ROIC de la década (0,22 con I+D en 2020) habla de un año de pandemia, no de lo que rinde el capital nuevo después del año 10. Haría falta: (1) los competidores principales por región, con su precio relativo y su cuota (pregunta a Relación con Inversores); (2) la cuota por país con serie; (3) el margen EBIT por segmento 2016–2025 de las notas de segmentos de los informes anuales, para ver si la ventaja se erosiona donde la competencia es local (en 2025, Asia Norte ≈17,8 % frente a EMEA ≈27,9 % [AR_2025, PDF p. 141], cálculo mío)."
+    }
+   },
+   {
+    "celda": "Palancas!D18",
+    "hipotesis": "ROIC a largo plazo del BUENO 0,19",
+    "clase": "fundamentada",
+    "porque_sin_fundamento": "0,19 es la referencia mecánica, mín(C55; C56 + 0,10): el nivel lo fija un umbral de la plantilla. La Observación solo añade que queda por debajo del peor año (0,22), que es un techo de un año, no un hecho sobre la duración del foso.",
+    "alternativas_defendibles": {
+     "hay_base": false,
+     "rango": null,
+     "evidencia": "Misma laguna que Palancas!C18: ningún hecho de esta empresa dice qué rinde el capital nuevo del BUENO después del año 10. El umbral C56 + 0,10 no es un techo económico y el ROIC del sector (0,12) no es un suelo de Rational. Haría falta lo mismo que para C18 y, además, las primeras ventas y el margen del combi de Suzhou (informes de 2026–2027) para saber si el crecimiento del BUENO viene con menos margen por aparato."
+    }
+   }
+  ],
+  "revisadas_con_fundamento": [
+   "Palancas!B14:D14, B15:D15, B16:D16: fundamentadas, cada Observación cita filas de Historia y páginas del extracto (componentes de unidades y precio, margen 2020–2025, capital invertido y reinversión de la década).",
+   "Análisis!B68:D68: convención con hechos (rf 0,0329 en C57 como techo; reparto del 70–90 % [AR_2025, PDF p. 17] que cabe con la reinversión g ÷ ROIC).",
+   "Palancas!B18: convención del ejercicio (ROIC terminal = tasa del motor) con hechos del MALO; es la definición del caso sin ventaja.",
+   "Palancas!C22 y C23: convención con hechos (C33 = −0,46, C34 = Sí, deuda más arrendamientos 27,1 m en Historia C64): sin disparador.",
+   "Análisis!C76: fundamentada (liquidez 431,7 m, C53 = 205,98 m, intereses cobrados en inversión); rango 150–205.",
+   "Palancas!C44: no aplica (C43 = No aplica, FCF positivo diez años, Historia fila 35).",
+   "C62 (motor A), Palancas!C6 (Ninguno) y C8 (Último año): con hechos de Historia y extracto.",
+   "Narrativas B65:D66: mecanismo, dueño de la mejora y «qué lo pararía» con páginas del extracto; ninguna genérica (la falta de pérdida de cuota en el MALO queda ligada a C18)."
+  ],
+  "comprobacion_conjunta": {
+   "procede": false,
+   "combinacion": null,
+   "coherencia_economica": null,
+   "sobrevive": null
+  },
+  "resultado": "no_procede",
+  "precio_objetivo_provisional": {
+   "aplica": true,
+   "condicionado_por": "Palancas!C18 (y D18): duración de la ventaja después del año 10"
+  },
+  "hipotesis_que_mas_condiciona": "Palancas!C18 · ROIC a largo plazo del NORMAL (0,15): cuánto de la ventaja dura después del año 10 y, con ello, si el MALO debería ser pérdida de cuota y no solo sustitución frenada. Condiciona el precio de Sí (320,83 €, provisional); no condiciona esperar a 630 €.",
+  "que_lo_resolveria": "Tres datos concretos: (1) los nombres de los competidores principales por región, con su cuota y su precio relativo frente al iCombi (pregunta a Relación con Inversores de Rational); (2) la cuota por país o región con serie, que la empresa no publica; (3) el margen EBIT por segmento regional 2016–2025, calculable con las tablas de EBIT y ventas de la nota de segmentos de cada informe anual ([AR_2025, PDF p. 141] para 2024–2025), para ver si el margen cae donde la competencia es local y el cliente compra barato."
+ },
+ "celdas_corregidas": {
+  "C14": {
+   "antes": "Compounder",
+   "despues": "Compounder",
+   "motivo": "Revisada: con reinversión del 7 % en el año 1 y reparto del 70–90 %, «Calidad a precio razonable» describiría mejor lo que modelan las palancas; es celda de la fase A, sin veredicto en D14 y sin efecto en valor ni conclusión. La anoto en incoherencias y no la reescribo."
+  },
+  "C17": {
+   "antes": "Sí",
+   "despues": "Sí",
+   "motivo": "Revisada frente a la penetración publicada (~25 % desde 2019 [AR_2025, PDF p. 4]): se sostiene como viento del sector a cuota constante (unidades +3 % y +6 % en 2024–2025), no como mérito de la empresa."
+  },
+  "C18": {
+   "antes": "Sí",
+   "despues": "Sí",
+   "motivo": "Revisada: la fase A cita un ROIC medio de cinco años del 54 % como C55, pero C55 = 0,41 con la I+D capitalizada; con cualquiera de las dos medidas el foso de hoy se sostiene (r = 0,09, sector 0,12). Su duración tras el año 10 es la hipótesis sin base de Palancas!C18."
+  },
+  "Palancas!C15": {
+   "antes": 0.26,
+   "despues": 0.26,
+   "motivo": "Revisada frente al objetivo de la dirección (25–26 % [AR_2025, PDF p. 5]) y al margen del primer semestre de 2026 sin reembolso (24,3 %, Observación heredada de C27): no se cumple aún la condición de cambio de su Observación (≈24 % en 2026 y 2027) y no altera la zona."
+  },
+  "Palancas!C18": {
+   "antes": 0.15,
+   "despues": 0.15,
+   "motivo": "Revisada: sin hechos que acoten la duración de la ventaja tras el año 10; no pido moverla porque no hay un valor mejor fundado que ponga en su lugar. Va a la lista sin fundamento y el precio objetivo queda provisional."
+  },
+  "C68": {
+   "antes": 0.025,
+   "despues": 0.025,
+   "motivo": "Revisada tras la vuelta a la fase B: el valor se sostiene (bajo rf = 0,0329, C57) y la cita de E1 de su Observación ya es (CV p. 5, E1). Sin cambio de valor."
+  },
+  "Palancas!C22": {
+   "antes": null,
+   "despues": null,
+   "motivo": "Valor correcto (vacío = 0: sin disparador; C33 = −0,46, C34 = Sí). Solo su Observación cita mal la página de E6: debe decir (PA p. 9, E6: sin doble cuenta), no PA p. 4. No puedo corregirla: la vuelta a la fase B está gastada."
+  },
+  "Palancas!B18": {
+   "antes": 0.09,
+   "despues": 0.09,
+   "motivo": "Valor correcto (ROIC terminal del MALO = tasa del motor, convención con hechos). Su Observación atribuye E3 a CV p. 10; E3 está en CV p. 13 (y pp. 15, 23): debe decir (CV p. 10, E2; CV p. 13, E3). No puedo corregirla: la vuelta a la fase B está gastada."
+  }
+ },
+ "estado_analisis": "concluido",
+ "cubo_final": "Vigilar",
+ "escalera": {
+  "de": "precio.json",
+  "convencion": "escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento",
+  "precio_actual": 630,
+  "precio_escenario_malo": 232.72,
+  "precio_de_si": 320.83,
+  "P_estrella": 320.83,
+  "tope_normal_aplicado": false,
+  "ponderado": 356.08,
+  "zona": "caro",
+  "distancias": {
+   "a_precio_si": 0.4907,
+   "a_malo": 0.6306
+  },
+  "g_implicito_precio_actual": 0.169,
+  "g_implicito_precio_de_si": 0.0304,
+  "regla_antigua_C156": 232.72,
+  "nota": "el precio del escenario MALO no es un suelo de valor ni la pérdida máxima posible; precio de Sí provisional (Palancas!C18 y D18 sin base); sin comprobación conjunta, no hay rango bajo combinación"
+ },
+ "decision": {
+  "accion": "esperar",
+  "precio_objetivo": 320.83,
+  "condicion": "Precio objetivo provisional, condicionado a Palancas!C18 (cuánto de la ventaja dura después del año 10). Antes de comprar cerca de 320,83 € tendría que resolver B223: competidores por región, cuota por país y margen EBIT por segmento 2016–2025.",
+  "condiciones_revision": {
+   "al_alza": "Subiría el precio de Sí si los datos de B223 muestran que la ventaja aguanta donde la competencia es local (margen EBIT de Asia Norte acercándose al de EMEA, cuota por país estable frente a competidores nombrados sin tecnología igual: C18 hacia 0,19), o si 2026–2027 dan volumen de +6 % o más sin subida general de precio y margen EBIT sin extraordinarios del 26 % o más (C14 hacia 0,065).",
+   "a_la_baja": "Bajaría si el margen EBIT sin extraordinarios queda en torno al 24 % en 2026 y 2027 (C15 a 0,245), si el volumen vuelve a 0–3 % sin causa externa (C14 a 0,04 y p(MALO) a 0,25–0,3), o si aparece un competidor con tecnología igual y menor precio (un MALO de pérdida de cuota y C18 a 0,09–0,12)."
+  }
+ },
+ "insumos_decision_cartera": {
+  "precio_actual": 630,
+  "zona": "caro",
+  "precio_de_si": 320.83,
+  "precio_escenario_malo": 232.72,
+  "ponderado": 356.08,
+  "distancia_a_precio_si": 0.4907,
+  "distancia_a_malo": 0.6306,
+  "fundamento": "precio de Sí provisional: Palancas!C18 y D18 (duración de la ventaja tras el año 10) sin base para acotarlas; probabilidades acotadas por frecuencias de la Historia; comprobación conjunta no procede porque la conclusión no es favorable",
+  "datos_ausentes_materiales": [],
+  "descalificadores_considerados": [
+   "no puedo explicar de dónde viene la caja (no aplica)",
+   "el valor depende de predecir macro, tipos, divisas o materias primas (no aplica)",
+   "cambio tecnológico que no me deja juzgar si el foso dura (no aplica)",
+   "gestión en la que no confío (no aplica)",
+   "deuda que puede matar la empresa en un mal año (no aplica)",
+   "reinvierte toda la caja solo para mantenerse, con retornos mediocres (no aplica)",
+   "demasiadas piezas móviles (no aplica)",
+   "sin historial: start-up, salida a bolsa reciente u operación promocionada (no aplica)",
+   "reestructuración o «la nueva dirección lo arreglará» (no aplica)"
+  ],
+  "r": 0.09,
+  "r_minima": 0.0903,
+  "palanca_mas_influyente": "Tasa de descuento (±1 pt): ±61,6 € sobre el ponderado; información, no criterio"
+ },
+ "herencia": {
+  "C93": {
+   "etapa1": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "El bloque 10 de la V6.3 (salto del año 11) y el peso del terminal (53 %, fila 44, PASA) no existían en la etapa 1. Con ROIC terminal 0,15 el 2,5 % pide reinvertir ≈17 % del beneficio y la empresa reparte el 70–90 % [AR_2025, PDF p. 17]; aun con ROIC = r bastaría ≈28 %. g queda bajo rf (C57 = 0,0329). Sostenible."
+  },
+  "B101": {
+   "etapa1": "Rational vende hornos combinados (iCombi), iVario e iHexagon a cocinas profesionales y cobra además un 31 % de sus ventas en posventa. Gana porque solo hace cocción térmica para cocinas grandes, con una cuota que la empresa sitúa en el 50 %, margen bruto del 59 % y ROCE del 37 % sin deuda bancaria. La dirección es estable, publica cada año su previsión frente al resultado y reparte en torno al 70 % del beneficio. El crecimiento se ha frenado de un 10 % anual (2012–2019) a un 6 % que creo repetible. A 566,5 € pago el escenario bueno; la compraría hacia 288 € (estimación).",
+   "decision": "cambia",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La Historia de diez años (filas 28, 29 y C55), la escalera de precio.json y el DCF inverso (C86 = 0,169) sustituyen la estimación de 288 €; la tesis nueva separa la marea del nicho (unidades a cuota constante, penetración en ~25 % desde 2019 [AR_2025, PDF p. 4]) de lo que es de la empresa (margen, posventa) y dice qué no sé (Palancas!C18)."
+  },
+  "B102": {
+   "etapa1": "1) El crecimiento ya no es el de antes: sin las subidas de precio de 2022–2023 (unos 10 y 8 puntos de las ventas), el volumen creció 0 % en 2023 y 3 % en 2024, por debajo de lo que la propia empresa había previsto; Asia Norte cayó un 16 % y China un 29 % en 2025, y leo el combi de entrada fabricado en Suzhou como reconocimiento de que su gama no bastaba allí. 2) El poder de precio tiene techo: tras subir precios el volumen se paró, el informe de 2024 habla de efectos retardados de esas subidas y en 2025 bajó el precio de la mayoría de productos de limpieza. 3) No sé quién la mata: los informes no nombran a ningún competidor; la empresa califica de alta la probabilidad del riesgo competitivo y rebajó su impacto de alto a bajo en un año con su propio análisis; un competidor fusionado con más escala o una tecnología superior es el riesgo que ella misma declara. 4) Más de la mitad de las ventas es en divisa (53 %) y un euro un 10 % más fuerte resta un 14 % al EBIT; el margen EBIT del primer semestre de 2026 sin el reembolso de aranceles fue del 24,3 %, frente al 26 % de 2024–2025. 5) Gobierno: la aprobación del informe de remuneración bajó al 77,7 %, se subieron los límites de remuneración, el informe de 2025 da dos tasas distintas del bonus (110 % y 170 %), los ejecutivos no están obligados a tener acciones y el presidente, cofundador, se nombró a sí mismo y a su hijo en el consejo de supervisión. 6) Y el precio: a unas 25 veces el beneficio y un 3,4 % de rendimiento FCF, la cotización ya descuenta en torno a un 10 % anual de crecimiento durante diez años; si se cumple el escenario normal, el valor queda un 27 % por debajo del precio y rindo menos que la alternativa del 9 %.",
+   "decision": "cambia",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Mantengo los argumentos de volumen, techo de precio, competidor desconocido y precio, y añado hechos que la etapa 1 no usó: margen EBIT por segmento (Asia Norte ≈17,8 % frente a EMEA ≈27,9 % [AR_2025, PDF p. 141]), costes que crecen más que las ventas [AR_2025, PDF p. 19], margen bruto de 62 % a 59 % [AR_2025, PDF p. 187] y el DCF inverso (C86). Las reservas de remuneración quedan como no verificadas en estos extractos."
+  },
+  "C103": {
+   "etapa1": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Reviso la misma evidencia de propiedad del negocio: un solo negocio con margen EBIT del 26–27 % en ocho de diez años (Historia fila 29), sin deuda (fila 22) y posventa del ~31 % [AR_2025, PDF p. 15]. Comprada a buen precio no la vendería por valoración; la duda sobre la duración (C18) es razón para no comprar caro, no para vender un negocio así."
+  },
+  "C104": {
+   "etapa1": "0% · Watchlist · precio de Sí ≈ 288 € (estimado; el script recalcula)",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "La V6.3 no admite tamaño de posición (D16: lo decide José Luis) y el precio de Sí sale de la escalera de precio.json (k = 3, convención experimental D11): 320,83 € frente a ≈288 € estimados con la regla antigua; con la regla antigua y mis escenarios saldría 232,72 € (C156)."
+  }
+ },
+ "comparacion_etapa_1": {
+  "cubo_v1": "Vigilar",
+  "precio_de_si_v1": 288,
+  "cubo_v2": "Vigilar",
+  "precio_de_si_v2": 320.83,
+  "por_que_difieren": "El cubo coincide por la misma razón: buen negocio a un precio que paga más que el escenario bueno (566,5 € entonces, 630 € hoy). El precio de Sí sube de ≈288 € a 320,83 € por la regla, no por optimismo: v1 usaba mín(MALO, 0,75 × ponderado) sobre una estimación de la fórmula; v2 usa la escalera k = 3 sobre tres escenarios de palancas. Mis escenarios v2 son más bajos que los de v1 (233 / 361 / 465 € frente a ≈288 / 413 / 583 €) porque el MALO lleva el margen a 0,22 con ROIC terminal = r, el NORMAL crece un 5,5 % de ventas sin extrapolar el precio de 2022–2023 y el BUENO no pasa del margen del último año; con la regla antigua v2 daría 232,72 € (C156). La tesis v1 decía «crecimiento repetible del 6 %»; la v2 dice que ese crecimiento es la marea del nicho a cuota constante y que no sé cuánto dura la ventaja tras el año 10. v1 escribía un tamaño de posición en C104; v2 no lo hace (D16)."
+ },
+ "celdas": {
+  "C93": "Sí",
+  "C103": "Sí",
+  "C104": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 320.83 (provisional, condicionado a Palancas!C18) · zona caro · precio de Sí ≤ 320.83 · precio esc. MALO 232.72 · ponderado 356.08 · fundamento pendiente de investigación solo para el precio de Sí (Palancas!C18 y D18 sin base)",
+  "B101": "Rational vende sistemas de cocción a cocinas profesionales (iCombi 1.108 m e iVario 151 m de ventas en 2025) y sobre la base instalada cobra una posventa del ~31 % de las ventas [AR_2025, PDF p. 15]. Gana porque hace una sola cosa con una cuota que ella sitúa en ~50 % desde 2016: margen EBIT del 26–27 % en ocho de diez años (Historia fila 29), ROIC con I+D de 0,41 de media en cinco años (Historia C55), sin deuda bancaria, sin adquisiciones y sin dilución. Su crecimiento es la marea de su nicho a cuota constante: unidades 0 %, +3 % y +6 % en 2023–2025 y penetración publicada en ~25 % desde 2019 [AR_2025, PDF p. 4], así que mi NORMAL crece un 5,5 % con margen 0,26 y una ventaja que se erosiona tras el año 10 (ROIC terminal 0,15). Con eso vale unos 361 € (ponderado 356,08 €), y a 630 € el precio descuenta un 16,9 % anual de ventas durante cinco años (C86), más que mi escenario bueno. Espero: la compraría a 320,83 € o menos, precio provisional mientras no sepa cuánto dura la ventaja (Palancas!C18).",
+  "B102": "1) El crecimiento fue precio y recuperación: el CAGR de cinco años (14,2 %, Historia C46) lleva ~10 y ~8 puntos de subidas de precio [AR_2022, PDF p. 13; AR_2023, PDF p. 14]; sin ellas el volumen hizo 0 % en 2023 y +3 % en 2024, por debajo de la guía [AR_2023, PDF p. 22; AR_2024, PDF p. 12], y la penetración publicada lleva en ~25 % desde 2019 mientras los clientes potenciales pasaron de más de 3 a 4,8 millones [AR_2016, PDF p. 2; AR_2025, PDF p. 4]: la sustitución no avanza. 2) El poder de precio tiene techo: tras subir, el volumen se paró; en 2025 bajó el precio de casi todos los productos de cuidado [AR_2024, PDF p. 12]; la restauración busca proveedores más baratos [AR_2025, PDF p. 14] y el combi de entrada de Suzhou [AR_2025, PDF p. 13] reconoce que la gama no llegaba abajo. 3) No sé quién la mata: ~100 fabricantes y ninguno nombrado [AR_2025, PDF p. 11]; donde compite en precio el foso parece la mitad: Asia Norte ganó ≈17,8 % de EBIT en 2025 (≈20,3 % en 2024) frente a ≈27,9 % en EMEA [AR_2025, PDF p. 141]. 4) Los costes corren más que las ventas: costes operativos +7 % frente a ventas +6 % en 2024 y 2025 [AR_2024, PDF p. 12; AR_2025, PDF p. 19], plantilla de 1.713 a 2.838 y margen bruto de 62 % a 59 % en diez años [AR_2025, PDF p. 187]; el margen del primer semestre de 2026 sin el reembolso de aranceles fue 24,3 % (Observación heredada de C27) y la guía de 2026 dice que el EBIT crecerá menos que las ventas [AR_2025, PDF p. 20]; el 53 % de las ventas es en divisa con fabricación solo en Europa [AR_2025, PDF p. 15]. 5) Gobierno: bloques familiares del 31,6 % y 15,6 %, un accionista que nombra dos miembros del Aufsichtsrat y ejecutivos sin participación individual encontrada (C96); las reservas de remuneración de la etapa 1 no las he verificado aquí. 6) Y el precio: 630 € son ~28 veces el BPA de 22,33 € [AR_2025, PDF p. 187] y un 3,1 % de FCF (C52 sobre C41); descuentan un 16,9 % anual de ventas cinco años (C86), y el escenario bueno (465 €) queda un 26 % por debajo; pago 3,5 veces lo que vale el crecimiento del NORMAL. Aun a 321 €, mi MALO (233 €) no incluye pérdida de cuota: con el margen de 2020 (16,4 %, Historia fila 29) valdría menos.",
+  "Palancas!A38": "Las ventas del Grupo en el ejercicio 2027 serán de al menos 1.375 millones de euros (≈4,5 % anual sobre los 1.259,6 m de 2025), según el informe anual 2027.",
+  "Palancas!B38": "2028-03-31",
+  "Palancas!C38": 0.65,
+  "Palancas!A39": "El margen EBIT del Grupo en el ejercicio 2027 estará entre el 24,5 % y el 27,5 % (EBIT ÷ ventas del informe anual 2027).",
+  "Palancas!B39": "2028-03-31",
+  "Palancas!C39": 0.7,
+  "Palancas!A40": "En el ejercicio 2027 el margen EBIT del segmento Asia Norte (EBIT ÷ ventas de la nota de segmentos) seguirá al menos 5 puntos por debajo del de EMEA.",
+  "Palancas!B40": "2028-03-31",
+  "Palancas!C40": 0.7,
+  "Diagnóstico V6!B222": "Palancas!C18, ROIC a largo plazo del NORMAL (0,15): cuánto de la ventaja dura después del año 10 y, con ello, si el MALO debería ser pérdida de cuota y no solo sustitución frenada. No hay hechos de Rational que la acoten (también D18, 0,19). No condiciona esperar a 630 €; condiciona el precio de Sí, que queda provisional.",
+  "Diagnóstico V6!B223": "(1) Los competidores principales por región, con su cuota y su precio frente al iCombi: pregunta a Relación con Inversores de Rational. (2) La cuota por país o región con serie histórica, que el informe no publica. (3) El margen EBIT por segmento 2016–2025 con las tablas de EBIT y ventas de la nota de segmentos de cada informe anual ([AR_2025, PDF p. 141] para 2024–2025), para ver si cae donde la competencia es local."
+ },
+ "cambiaria_de_cubo": {
+  "a_si": "Cotización en 320,83 € o menos con tres cosas a la vez: los datos de B223 acotan C18 (competidores nombrados sin tecnología igual, cuota por país estable, margen de Asia Norte sin seguir cayendo); el NORMAL sigue en pie en 2026–2027 (volumen de +4 % o más y margen EBIT sin extraordinarios del 25 % o más); y ningún cambio de gestión o de asignación de capital (sin adquisiciones fuera del núcleo ni deuda).",
+  "a_no": "Un competidor nombrado con tecnología igual y menor precio que gane cuota; margen EBIT sin extraordinarios por debajo del 22 % dos años sin causa externa, o margen bruto por debajo del 55 % de forma sostenida; o una asignación de capital que rompa el historial (adquisición grande fuera de la cocción profesional, deuda para recomprar).",
+  "a_demasiado_dificil": "Que los datos de B223 muestren que la ventaja depende de algo que cambia deprisa (software, conectividad) y que no sé juzgar, o que la cuota del ~50 % resulte no sostenerse con ningún denominador y no haya forma razonable de acotar la duración del foso."
+ },
+ "observaciones": {
+  "C93": "[Clase: fundamentada] [Confianza: media]\nHereda: Sí → mantiene (evidencia_nueva): el bloque 10 de la V6.3 deja ver la transición al terminal.\nApoyo: g NORMAL 0,025 (Análisis C68) bajo rf 0,0329 (C57) y bajo r; con ROIC terminal 0,15 la reinversión es g ÷ ROIC ≈ 17 % del beneficio y hoy reparte el 70–90 % [AR_2025, PDF p. 17]; aun con ROIC = r bastaría ≈28 %. Peso del terminal 53 % (fila 44, PASA). El salto del año 11 (0,70 → 0,15) es pérdida de ventaja en el capital nuevo, no falta de crecimiento: el 2,5 % nominal no la necesita. Hay dónde: ~75 % de los clientes potenciales sin combi [AR_2025, PDF p. 4]. «If a thing can't go on forever, it will eventually stop» (PCA p.416; HIM).\nLo sustituiría: No lo sé si la penetración publicada baja o el volumen queda en 0–3 % varios años.",
+  "C103": "[Clase: fundamentada] [Confianza: media]\nHereda: Sí → mantiene (misma_evidencia): es propiedad del negocio, no de si se compra.\nApoyo: un solo negocio con margen EBIT del 26–27 % en ocho de diez años (Historia fila 29), ROIC con I+D de 0,22 en su peor año, sin deuda bancaria desde 2023 (fila 22), sin adquisiciones ni dilución (filas 13 y 20) y posventa del ~31 % sobre la base instalada [AR_2025, PDF p. 15]. Comprada a buen precio, la razón para vender sería el negocio, no la valoración: «if you can buy a few great companies then you can sit on your ass» (PCA pp.85–86; HIM). La duda sobre la duración (Palancas!C18) es razón para no pagar caro, no para vender.\nLo sustituiría: No si un competidor iguala la tecnología a menor precio o el margen bruto queda bajo el 55 % de forma sostenida.",
+  "C104": "[Clase: convención] [Confianza: alta]\nHereda: Watchlist con tamaño de posición y precio de Sí ≈ 288 € estimado → cambia (definicion_o_medicion_distinta): la V6.3 no admite tamaño de posición (D16) y el precio de Sí sale de la escalera (k = 3, convención experimental D11).\nApoyo: precio.json: precio de Sí 320,83 (P*, sin tope del NORMAL), precio esc. MALO 232,72, ponderado 356,08; zona caro a 630 € (C37). Provisional: Palancas!C18 y D18 sin base y un MALO sin pérdida de cuota. Regla antigua (C156): 232,72. El tamaño es de José Luis. «Missing out on some opportunity never bothers us» (TCI p.57; HIM).\nLo sustituiría: el precio de Sí cambia si los datos de B223 mueven C18 o si 2026–2027 mueven el margen o el volumen del NORMAL.",
+  "B101": "[Clase: fundamentada] [Confianza: media]\nHereda: tesis v1 (… la compraría hacia 288 €) → cambia (evidencia_nueva): la Historia de diez años, la escalera y el DCF inverso de la V6.3 sustituyen la estimación.\nApoyo: ventas y posventa [AR_2025, PDF p. 15]; margen (Historia fila 29) y ROIC (C55); penetración [AR_2025, PDF p. 4]; C86 = 0,169; precio.json. Separa la marea del nicho (unidades a cuota constante) de lo que es de la empresa (margen, posventa) y dice qué no sé (Palancas!C18).\nLo sustituiría: si 2026–2027 cambian el volumen o el margen del NORMAL, o si B223 resuelve C18.",
+  "B102": "[Clase: fundamentada] [Confianza: media]\nHereda: tesis inversa v1 en seis puntos → cambia (evidencia_nueva): mantiene volumen, techo de precio, competidor y precio, y añade margen por segmento, costes, margen bruto y DCF inverso.\nApoyo: cada punto lleva celda o página: [AR_2023, PDF p. 22; AR_2024, PDF p. 12]; [AR_2025, PDF p. 141]; [AR_2025, PDF p. 19]; [AR_2025, PDF p. 187]; C86; Historia C46 y fila 29. Las reservas de remuneración de la etapa 1 quedan como no verificadas. «I'm not entitled to have an opinion unless I can state the arguments against my position better than the people who are in opposition» (PCA pp.467–468; HIM).\nLo sustituiría: un argumento contrario mejor, con hechos, va aquí.",
+  "Palancas!A38": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: el NORMAL de ventas (0,055, Palancas C14) sobre 1.259,6 m (Historia fila 6) da ≈1.402 m en 2027; el umbral de 1.375 m equivale a ≈4,5 % anual, el ritmo de unidades de 2024–2025 (+3 % y +6 % [AR_2025, PDF p. 15]). Falsable con la cifra de ventas del informe anual 2027.\nLo sustituiría: si no se cumple sin causa externa, C14 baja hacia 0,04 y p(MALO) sube.",
+  "Palancas!B38": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: 2028-03-31, cuando suele estar publicado el informe anual del ejercicio anterior (el de 2025 trae la serie de diez años [AR_2025, PDF p. 187]); dentro de la ventana de 12–24 meses desde Análisis D4 (2026-11-03).\nLo sustituiría: la fecha real de publicación del informe anual 2027.",
+  "Palancas!C38": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: 0,65 dado el NORMAL: el NORMAL lleva a ≈1.402 m, con ~2 puntos de holgura sobre el umbral en dos años; el euro puede restar en torno a un punto al año (53 % de ventas en divisa, ventas +6 % reportado frente a ≈+8 % a tipo constante en 2025 [AR_2025, PDF p. 15]).\nLo sustituiría: 0,5 si 2026 cierra con ventas por debajo de +4 %.",
+  "Palancas!A39": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: el NORMAL lleva el margen a 0,26 en el año 5 (Palancas C15) desde 0,264 (Historia C48); 2023–2025 hicieron 24,6 %, 26,3 % y 26,4 % (fila 29); la guía de 2026 es 25–26 % [AR_2025, PDF p. 20]. La banda de 24,5–27,5 % es el NORMAL con ±1,5 puntos. Falsable con EBIT y ventas del informe anual 2027.\nLo sustituiría: por debajo de 24,5 %, C15 baja a 0,245 y el MALO gana peso.",
+  "Palancas!B39": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: 2028-03-31, publicación habitual del informe anual 2027 con la cuenta de resultados (EBIT y ventas, como [AR_2025, PDF p. 187]); dentro de 12–24 meses desde Análisis D4 (2026-11-03).\nLo sustituiría: la fecha real de publicación del informe anual 2027.",
+  "Palancas!C39": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: 0,7 dado el NORMAL: siete de diez años quedaron en 24,5–27,5 % (Historia fila 29: fuera 2020–2022); los riesgos dentro del NORMAL son aranceles y euro (margen 27,4 % a tipo constante frente a 26,4 % en 2025 [AR_2025, PDF p. 16]) y el 24,3 % del primer semestre de 2026 sin reembolso (Observación heredada de C27).\nLo sustituiría: 0,55 si 2026 cierra por debajo del 25 % sin extraordinarios.",
+  "Palancas!A40": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nApoyo: es la prueba del mecanismo del salto del año 11: la ventaja pesa menos donde la competencia es local y el cliente compra barato. En 2025 Asia Norte hizo ≈17,8 % (17,7 m sobre 99,3 m) y EMEA ≈27,9 % (145,0 sobre 519,5); en 2024, ≈20,3 % frente a ≈26,8 % [AR_2025, PDF p. 141], cálculo mío. Falsable con la nota de segmentos del informe anual 2027 (si cambian los segmentos, no se cumple).\nLo sustituiría: si la diferencia baja de 5 puntos con Suzhou vendiendo, C18 sube hacia 0,19.",
+  "Palancas!B40": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nApoyo: 2028-03-31, publicación habitual del informe anual 2027 con la nota de segmentos (como [AR_2025, PDF p. 141] para 2025); dentro de 12–24 meses desde Análisis D4 (2026-11-03).\nLo sustituiría: la fecha real de publicación del informe anual 2027.",
+  "Palancas!C40": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nApoyo: 0,7 dado el NORMAL: la diferencia fue de ≈6,5 puntos en 2024 y ≈10 en 2025 [AR_2025, PDF p. 141]; el NORMAL no supone que Suzhou cierre la brecha en dos años (sin ventas publicadas [AR_2025, PDF p. 13]). Confianza baja: solo tengo dos años de la serie.\nLo sustituiría: 0,5 si el informe 2026 muestra la brecha por debajo de 7 puntos."
+ },
+ "confianza_global": "media",
+ "revision_datos_ausentes": {
+  "revisados": [
+   {
+    "dato": "Palancas!C24",
+    "que_falta": "tamaño del mercado en el año 10 con cifra de fuente primaria",
+    "conclusion_afectada": "Palancas!C24 y la comprobación G17 (cuota implícita, Diagnóstico fila 45), que no se calcula; techo del BUENO (Palancas!D14)",
+    "material_para_conclusion_favorable": false,
+    "porque": "La única cifra es el mercado de equipos de restauración de Future Market Insights [AR_2025, PDF p. 14], otro mercado y fuente externa. Serviría de techo del BUENO, no de apoyo de ninguna conclusión favorable: a 630 € el precio ya supera el valor del BUENO (465,26 €), así que ningún tamaño de mercado vuelve favorable la conclusión de hoy. Solo podría rebajar el BUENO (peso 0,2) y con él el precio de Sí, que se da como tope («≤») y ya queda provisional por Palancas!C18."
+   },
+   {
+    "dato": "extracto_v63: Tamaño del mercado de combi y sistemas de cocción multifuncionales en importe (la empresa solo cita el mercado de equipos de restauración, de una fuente externa",
+    "que_falta": "mercado del combi en euros y denominador de la cuota del ~50 %",
+    "conclusion_afectada": "lectura de la cuota en C18 (foso) y techo del BUENO (Palancas!D14); ninguna cifra de la hoja lo usa",
+    "material_para_conclusion_favorable": false,
+    "porque": "Lo único primario es el recuento de la empresa: 4,8 millones de clientes potenciales y ~25 % de uso [AR_2025, PDF p. 4], en unidades. Basta para ver que el BUENO (ventas ×2 en diez años) pide que la penetración suba, cosa que la cifra publicada no hace desde 2019; eso ya está en D14 (confianza baja) y en la autocomprobación. No cambia esperar: el precio está por encima del BUENO con o sin el importe del mercado."
+   },
+   {
+    "dato": "extracto_v63: Cuota de mercado por país o región con serie histórica.",
+    "que_falta": "cuota por país o región, con serie",
+    "conclusion_afectada": "Palancas!C18:D18 (ROIC terminal, hipótesis sin base) y la elección del MALO (B65:B66: sustitución frenada en vez de pérdida de cuota)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el dato que diría dónde se erosiona la ventaja (Asia Norte −16 % en 2025 [AR_2025, PDF p. 15]). Mueve el precio de Sí, no la conclusión de hoy: con 630 € por encima del BUENO, ningún ROIC terminal razonable lo cambia (tornado: ROIC a largo plazo ±5 puntos = ±19 € en el ponderado). Por eso el precio objetivo queda provisional, condicionado a C18, y el dato va a B223. Si la cotización se acercara a 321 €, pasaría a ser condición previa a comprar."
+   },
+   {
+    "dato": "extracto_v63: Nombres de competidores y su cuota o tamaño.",
+    "que_falta": "quién es el competidor que más daño puede hacer, su tecnología, su precio y su cuota",
+    "conclusion_afectada": "C12 (frontera del círculo), Palancas!C18:D18 y la narrativa del MALO (B65:B66)",
+    "material_para_conclusion_favorable": false,
+    "porque": "La empresa cuenta ~100 fabricantes y no nombra a ninguno [AR_2025, PDF p. 11]. Diez años de cuota ~50 % y margen EBIT del 26–27 % (Historia fila 29) dicen que hasta hoy ninguno la ha dañado; lo que no sé es el futuro, y eso está en C18 sin base. No impide esperar: no hay nombre posible que haga barata una acción que cotiza por encima de su BUENO. Sí condiciona el precio de Sí (provisional) y sería condición antes de comprar cerca de él."
+   },
+   {
+    "dato": "extracto_v63: Margen EBIT por segmento regional como porcentaje (solo importes de EBIT y ventas por segmento).",
+    "que_falta": "solo la división: el extracto trae EBIT y ventas por segmento de 2025 y 2024",
+    "conclusion_afectada": "apoyo de la justificación G8 del NORMAL y de Palancas!B15 (MALO); la serie larga resolvería C18",
+    "material_para_conclusion_favorable": false,
+    "porque": "Con los importes de [AR_2025, PDF p. 141] (cálculo mío): Asia Norte ≈17,8 % en 2025 (≈20,3 % en 2024), EMEA ≈27,9 %, Norteamérica ≈26,5 % (≈29,2 %), DACH ≈23,7 %. El dato existe para dos años y ya lo uso; la serie 2016–2025 de las notas de segmentos es parte de lo que resolvería C18 (B223). No es material para esperar."
+   },
+   {
+    "dato": "extracto_v63: Importe total invertido en la planta de Suzhou.",
+    "que_falta": "cuánto costó Suzhou",
+    "conclusion_afectada": "Palancas!B16:D16 (S2C) y C98 (asignación de capital)",
+    "material_para_conclusion_favorable": false,
+    "porque": "El capex total ya está en Historia fila 12 (33,7 m en 2025) y el de 2026 se conoce (~40 m, 33,5 comprometidos [AR_2025, PDF p. 18]): Suzhou va dentro. El S2C es la palanca que menos pesa (tornado: ±0,3 = ±1,1 € en el ponderado). No cambia ni la zona ni el precio de Sí de forma apreciable."
+   },
+   {
+    "dato": "extracto_v63: Coste medio de la deuda (no hay deuda bancaria).",
+    "que_falta": "coste medio de la deuda",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "Motor A (C62 = Sí) con deuda bancaria 0 desde 2023 (Historia fila 22): el flujo va después de intereses y no hay deuda que valorar. La r (C56) es heredada y no depende de él; la r operativa del motor B (C15) no se usa."
+   },
+   {
+    "dato": "extracto_v63: Tasa de descuento (WACC) del test de deterioro del goodwill.",
+    "que_falta": "WACC que usa la empresa en el test de deterioro",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "La r es la del inversor, heredada (C56 = 0,09, S-3), y no la ajusto a la de la empresa: «it's your alternatives that matter» (PCA p.114; HIM). El goodwill es casi nulo (C32 = 0,00036) y viene de Wittenheim en 1993 sin deterioro [AR_2025, PDF p. 121]: no hay ningún activo cuyo valor dependa de ese WACC."
+   },
+   {
+    "dato": "extracto_v63: Importe de aranceles capitalizados en existencias a 31-12-2025.",
+    "que_falta": "arancel capitalizado en existencias a fin de 2025",
+    "conclusion_afectada": "margen de 2026 (predicciones del turno 2) y lectura de C25/C31; no el margen objetivo del año 5 (Palancas!B15:D15)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es un efecto de un año: el coste pasa de existencias a resultados en 2026. El margen objetivo es del año 5 y el FCF base es la media 2023–2025 (C52 = 219,2 m), que no cambia; el reembolso de 13,9 m ya está identificado en C40. No mueve ni la zona ni el precio de Sí."
+   },
+   {
+    "dato": "extracto_v63: Cartera de pedidos al cierre de 2025 en unidades de sistemas de cocción.",
+    "que_falta": "cartera de pedidos en unidades a 31-12-2025",
+    "conclusion_afectada": "solo las predicciones del turno 2 (Palancas!A38:A40)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Las palancas son medias de cinco años. La cartera osciló entre 100 y 120 m durante 2025 [AR_2025, PDF p. 15], unas cinco semanas de ventas: habla de 2026, no del año 5 ni del terminal."
+   },
+   {
+    "dato": "extracto_v63: Elasticidad de la demanda al precio o volumen por producto tras las subidas.",
+    "que_falta": "elasticidad publicada por producto",
+    "conclusion_afectada": "narrativa del MALO (techo del precio) y Palancas!C14 (≈1 punto de precio y mezcla en el NORMAL)",
+    "material_para_conclusion_favorable": false,
+    "porque": "El hecho observable existe: tras subir ~10 y ~8 puntos [AR_2022, PDF p. 13; AR_2023, PDF p. 14] el volumen pasó de +12 % a 0 % [AR_2022, PDF p. 21; AR_2023, PDF p. 22]. Ningún escenario supone subidas generales. La cifra exacta no cambia ni la zona ni el orden de los escenarios."
+   },
+   {
+    "dato": "extracto_v63: Efecto del precio frente a volumen y mezcla en 2024 y 2025 en puntos porcentuales (solo para 2022 y 2023).",
+    "que_falta": "reparto publicado entre precio, volumen y mezcla en 2024–2025",
+    "conclusion_afectada": "Palancas!C14 (descomposición unidades + precio del NORMAL)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Las unidades publicadas (+3 % y +6 % [AR_2025, PDF p. 15]) y las ventas (+6,0 % y +5,5 %, Historia fila 28) dejan un residuo de precio, mezcla y divisa de ≈+3 y ≈−0,5 puntos. El NORMAL (0,055) usa las ventas totales de esos dos años; no depende de cómo se reparta el residuo."
+   },
+   {
+    "dato": "extracto_v63: Ratios de capital regulatorios y límites regulatorios a la distribución (no aplica).",
+    "que_falta": "no aplica: no es financiera ni regulada",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "Caso especial Ninguno (Palancas!C6) y motor A: no hay capital regulatorio que limite el reparto (E9 solo rige el motor C). El dato no existe para esta empresa y su ausencia no afecta a nada."
+   },
+   {
+    "dato": "extracto_v63: Rating de agencia externa (la empresa dice que no lo tiene).",
+    "que_falta": "calificación de agencia (no tiene)",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "Sin deuda bancaria ni en mercado; bancos y aseguradoras de crédito le dan entre AAA y A- [AR_2025, PDF p. 17]; líneas sin usar de 107 m sin covenants [AR_2025, PDF p. 137]. C22 sigue vacío sin disparadores (C33 = −0,46; C34 = Sí)."
+   }
+  ],
+  "alguno_material": false
+ }
+}

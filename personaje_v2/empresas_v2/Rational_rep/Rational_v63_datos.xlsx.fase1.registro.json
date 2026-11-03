@@ -1,0 +1,22 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Bienes de equipo · sistemas de cocción para cocinas profesionales",
+   "nuevo": "Equipos de cocina profesional (hornos combinados iCombi e iVario) y posventa"
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 463
+}

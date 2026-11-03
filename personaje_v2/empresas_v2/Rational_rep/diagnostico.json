@@ -1,0 +1,233 @@
+{
+ "empresa": "RATIONAL AG",
+ "fecha": "2026-11-03",
+ "estado_analisis": "no_entregable",
+ "causa": {
+  "tipo": "fallo_de_implementacion",
+  "detalle": "auditoría en REPETIR tras agotar las correcciones (nunca se aprueba por agotamiento)",
+  "comprobacion": null,
+  "categoria": null
+ },
+ "paso_en_que_se_detuvo": 13,
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 1,
+  "auditoria": 3,
+  "vueltas_c_a_b": 1,
+  "vueltas_b_a_a": 0
+ },
+ "lo_que_sigue_valido": {
+  "libro": "íntegro: True · estado técnico INCOMPLETO · motores calculables ['A', 'B', 'C']",
+  "cubo_cualitativo": "Vigilar",
+  "descalificadores": "ninguno aplica",
+  "gestion": {
+   "C97": "Neutral",
+   "C98": "Buena"
+  },
+  "seis_preguntas": true,
+  "celdas_fase_a": [
+   "B65",
+   "B66",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C25",
+   "C27",
+   "C51",
+   "C56",
+   "C61",
+   "C62",
+   "C65",
+   "C66",
+   "C97",
+   "C98",
+   "D65",
+   "D66",
+   "Palancas!C10",
+   "Palancas!C43",
+   "Palancas!C47",
+   "Palancas!C5",
+   "Palancas!C6",
+   "Palancas!C8",
+   "Palancas!C9"
+  ],
+  "palancas_fase_b": "escritas",
+  "fase_c": {
+   "cubo_final": "Vigilar",
+   "estado_analisis": "concluido"
+  },
+  "revision_datos_ausentes": {
+   "revisados": [
+    {
+     "dato": "Palancas!C24",
+     "que_falta": "tamaño del mercado en el año 10 con cifra de fuente primaria",
+     "conclusion_afectada": "Palancas!C24 y la comprobación G17 (cuota implícita, Diagnóstico fila 45), que no se calcula; techo del BUENO (Palancas!D14)",
+     "material_para_conclusion_favorable": false,
+     "porque": "La única cifra es el mercado de equipos de restauración de Future Market Insights [AR_2025, PDF p. 14], otro mercado y fuente externa. Serviría de techo del BUENO, no de apoyo de ninguna conclusión favorable: a 630 € el precio ya supera el valor del BUENO (465,26 €), así que ningún tamaño de mercado vuelve favorable la conclusión de hoy. Solo podría rebajar el BUENO (peso 0,2) y con él el precio de Sí, que se da como tope («≤») y ya queda provisional por Palancas!C18."
+    },
+    {
+     "dato": "extracto_v63: Tamaño del mercado de combi y sistemas de cocción multifuncionales en importe (la empresa solo cita el mercado de equipos de restauración, de una fuente externa",
+     "que_falta": "mercado del combi en euros y denominador de la cuota del ~50 %",
+     "conclusion_afectada": "lectura de la cuota en C18 (foso) y techo del BUENO (Palancas!D14); ninguna cifra de la hoja lo usa",
+     "material_para_conclusion_favorable": false,
+     "porque": "Lo único primario es el recuento de la empresa: 4,8 millones de clientes potenciales y ~25 % de uso [AR_2025, PDF p. 4], en unidades. Basta para ver que el BUENO (ventas ×2 en diez años) pide que la penetración suba, cosa que la cifra publicada no hace desde 2019; eso ya está en D14 (confianza baja) y en la autocomprobación. No cambia esperar: el precio está por encima del BUENO con o sin el importe del mercado."
+    },
+    {
+     "dato": "extracto_v63: Cuota de mercado por país o región con serie histórica.",
+     "que_falta": "cuota por país o región, con serie",
+     "conclusion_afectada": "Palancas!C18:D18 (ROIC terminal, hipótesis sin base) y la elección del MALO (B65:B66: sustitución frenada en vez de pérdida de cuota)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Es el dato que diría dónde se erosiona la ventaja (Asia Norte −16 % en 2025 [AR_2025, PDF p. 15]). Mueve el precio de Sí, no la conclusión de hoy: con 630 € por encima del BUENO, ningún ROIC terminal razonable lo cambia (tornado: ROIC a largo plazo ±5 puntos = ±19 € en el ponderado). Por eso el precio objetivo queda provisional, condicionado a C18, y el dato va a B223. Si la cotización se acercara a 321 €, pasaría a ser condición previa a comprar."
+    },
+    {
+     "dato": "extracto_v63: Nombres de competidores y su cuota o tamaño.",
+     "que_falta": "quién es el competidor que más daño puede hacer, su tecnología, su precio y su cuota",
+     "conclusion_afectada": "C12 (frontera del círculo), Palancas!C18:D18 y la narrativa del MALO (B65:B66)",
+     "material_para_conclusion_favorable": false,
+     "porque": "La empresa cuenta ~100 fabricantes y no nombra a ninguno [AR_2025, PDF p. 11]. Diez años de cuota ~50 % y margen EBIT del 26–27 % (Historia fila 29) dicen que hasta hoy ninguno la ha dañado; lo que no sé es el futuro, y eso está en C18 sin base. No impide esperar: no hay nombre posible que haga barata una acción que cotiza por encima de su BUENO. Sí condiciona el precio de Sí (provisional) y sería condición antes de comprar cerca de él."
+    },
+    {
+     "dato": "extracto_v63: Margen EBIT por segmento regional como porcentaje (solo importes de EBIT y ventas por segmento).",
+     "que_falta": "solo la división: el extracto trae EBIT y ventas por segmento de 2025 y 2024",
+     "conclusion_afectada": "apoyo de la justificación G8 del NORMAL y de Palancas!B15 (MALO); la serie larga resolvería C18",
+     "material_para_conclusion_favorable": false,
+     "porque": "Con los importes de [AR_2025, PDF p. 141] (cálculo mío): Asia Norte ≈17,8 % en 2025 (≈20,3 % en 2024), EMEA ≈27,9 %, Norteamérica ≈26,5 % (≈29,2 %), DACH ≈23,7 %. El dato existe para dos años y ya lo uso; la serie 2016–2025 de las notas de segmentos es parte de lo que resolvería C18 (B223). No es material para esperar."
+    },
+    {
+     "dato": "extracto_v63: Importe total invertido en la planta de Suzhou.",
+     "que_falta": "cuánto costó Suzhou",
+     "conclusion_afectada": "Palancas!B16:D16 (S2C) y C98 (asignación de capital)",
+     "material_para_conclusion_favorable": false,
+     "porque": "El capex total ya está en Historia fila 12 (33,7 m en 2025) y el de 2026 se conoce (~40 m, 33,5 comprometidos [AR_2025, PDF p. 18]): Suzhou va dentro. El S2C es la palanca que menos pesa (tornado: ±0,3 = ±1,1 € en el ponderado). No cambia ni la zona ni el precio de Sí de forma apreciable."
+    },
+    {
+     "dato": "extracto_v63: Coste medio de la deuda (no hay deuda bancaria).",
+     "que_falta": "coste medio de la deuda",
+     "conclusion_afectada": "ninguna celda de juicio",
+     "material_para_conclusion_favorable": false,
+     "porque": "Motor A (C62 = Sí) con deuda bancaria 0 desde 2023 (Historia fila 22): el flujo va después de intereses y no hay deuda que valorar. La r (C56) es heredada y no depende de él; la r operativa del motor B (C15) no se usa."
+    },
+    {
+     "dato": "extracto_v63: Tasa de descuento (WACC) del test de deterioro del goodwill.",
+     "que_falta": "WACC que usa la empresa en el test de deterioro",
+     "conclusion_afectada": "ninguna celda de juicio",
+     "material_para_conclusion_favorable": false,
+     "porque": "La r es la del inversor, heredada (C56 = 0,09, S-3), y no la ajusto a la de la empresa: «it's your alternatives that matter» (PCA p.114; HIM). El goodwill es casi nulo (C32 = 0,00036) y viene de Wittenheim en 1993 sin deterioro [AR_2025, PDF p. 121]: no hay ningún activo cuyo valor dependa de ese WACC."
+    },
+    {
+     "dato": "extracto_v63: Importe de aranceles capitalizados en existencias a 31-12-2025.",
+     "que_falta": "arancel capitalizado en existencias a fin de 2025",
+     "conclusion_afectada": "margen de 2026 (predicciones del turno 2) y lectura de C25/C31; no el margen objetivo del año 5 (Palancas!B15:D15)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Es un efecto de un año: el coste pasa de existencias a resultados en 2026. El margen objetivo es del año 5 y el FCF base es la media 2023–2025 (C52 = 219,2 m), que no cambia; el reembolso de 13,9 m ya está identificado en C40. No mueve ni la zona ni el precio de Sí."
+    },
+    {
+     "dato": "extracto_v63: Cartera de pedidos al cierre de 2025 en unidades de sistemas de cocción.",
+     "que_falta": "cartera de pedidos en unidades a 31-12-2025",
+     "conclusion_afectada": "solo las predicciones del turno 2 (Palancas!A38:A40)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Las palancas son medias de cinco años. La cartera osciló entre 100 y 120 m durante 2025 [AR_2025, PDF p. 15], unas cinco semanas de ventas: habla de 2026, no del año 5 ni del terminal."
+    },
+    {
+     "dato": "extracto_v63: Elasticidad de la demanda al precio o volumen por producto tras las subidas.",
+     "que_falta": "elasticidad publicada por producto",
+     "conclusion_afectada": "narrativa del MALO (techo del precio) y Palancas!C14 (≈1 punto de precio y mezcla en el NORMAL)",
+     "material_para_conclusion_favorable": false,
+     "porque": "El hecho observable existe: tras subir ~10 y ~8 puntos [AR_2022, PDF p. 13; AR_2023, PDF p. 14] el volumen pasó de +12 % a 0 % [AR_2022, PDF p. 21; AR_2023, PDF p. 22]. Ningún escenario supone subidas generales. La cifra exacta no cambia ni la zona ni el orden de los escenarios."
+    },
+    {
+     "dato": "extracto_v63: Efecto del precio frente a volumen y mezcla en 2024 y 2025 en puntos porcentuales (solo para 2022 y 2023).",
+     "que_falta": "reparto publicado entre precio, volumen y mezcla en 2024–2025",
+     "conclusion_afectada": "Palancas!C14 (descomposición unidades + precio del NORMAL)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Las unidades publicadas (+3 % y +6 % [AR_2025, PDF p. 15]) y las ventas (+6,0 % y +5,5 %, Historia fila 28) dejan un residuo de precio, mezcla y divisa de ≈+3 y ≈−0,5 puntos. El NORMAL (0,055) usa las ventas totales de esos dos años; no depende de cómo se reparta el residuo."
+    },
+    {
+     "dato": "extracto_v63: Ratios de capital regulatorios y límites regulatorios a la distribución (no aplica).",
+     "que_falta": "no aplica: no es financiera ni regulada",
+     "conclusion_afectada": "ninguna celda de juicio",
+     "material_para_conclusion_favorable": false,
+     "porque": "Caso especial Ninguno (Palancas!C6) y motor A: no hay capital regulatorio que limite el reparto (E9 solo rige el motor C). El dato no existe para esta empresa y su ausencia no afecta a nada."
+    },
+    {
+     "dato": "extracto_v63: Rating de agencia externa (la empresa dice que no lo tiene).",
+     "que_falta": "calificación de agencia (no tiene)",
+     "conclusion_afectada": "ninguna celda de juicio",
+     "material_para_conclusion_favorable": false,
+     "porque": "Sin deuda bancaria ni en mercado; bancos y aseguradoras de crédito le dan entre AAA y A- [AR_2025, PDF p. 17]; líneas sin usar de 107 m sin covenants [AR_2025, PDF p. 137]. C22 sigue vacío sin disparadores (C33 = −0,46; C34 = Sí)."
+    }
+   ],
+   "alguno_material": false
+  },
+  "hipotesis_sin_fundamento": [
+   "Análisis!B69:D69",
+   "Palancas!C18",
+   "Palancas!D18"
+  ]
+ },
+ "lo_que_no_es_valido": [
+  "todo lo posterior al paso 13"
+ ],
+ "para_continuar": {
+  "que_hace_falta": "auditoría en REPETIR tras agotar las correcciones (nunca se aprueba por agotamiento)",
+  "desde_que_paso": 10,
+  "quien": "Claude Code"
+ },
+ "archivos": [
+  "ESPERANDO.md",
+  "INSTRUCCIONES_EXTRACCION_ANIO.md",
+  "Rational_rep_v63_base.xlsx",
+  "Rational_rep_v63_base.xlsx.conciliacion.json",
+  "Rational_rep_v63_datos.xlsx",
+  "Rational_rep_v63_datos.xlsx.fase1.registro.json",
+  "Rational_rep_v63_evaluada.xlsx",
+  "Rational_v63_base.xlsx.conciliacion.json",
+  "Rational_v63_datos.xlsx.fase1.registro.json",
+  "auditoria.md",
+  "celdas_A.json",
+  "celdas_B.json",
+  "celdas_C.json",
+  "datos_ausentes.json",
+  "datos_v63.json",
+  "datos_v63.md",
+  "diagnostico.json.anterior",
+  "diagnostico.md.anterior",
+  "entrada_v63.json",
+  "entrada_v63.md",
+  "esquema_fase_a.json.txt",
+  "esquema_fase_b.json.txt",
+  "esquema_fase_c.json.txt",
+  "esquema_ficha.json.txt",
+  "estado_pipeline.json",
+  "extracto_v63.md",
+  "fase1_v63.json",
+  "fase_a.json",
+  "fase_a.md",
+  "fase_b.json",
+  "fase_b.md",
+  "fase_c.json",
+  "fase_c.md",
+  "ficha.json",
+  "gramatica.json",
+  "gramatica.md",
+  "informe.md",
+  "observaciones_para_citas.md",
+  "precio.json",
+  "referencias_mecanicas.json",
+  "resultados.json",
+  "verificacion_c86.txt",
+  "verificacion_cache.txt",
+  "verificacion_celdas.json",
+  "verificacion_celdas.txt",
+  "verificacion_citas.txt",
+  "verificacion_esquemas.txt",
+  "verificacion_estado_libro.txt",
+  "verificacion_gramatica.txt",
+  "verificacion_integridad.txt"
+ ]
+}
