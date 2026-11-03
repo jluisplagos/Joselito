@@ -183,3 +183,115 @@
 - fase_c.celdas_corregidas.C14.antes: Calidad a precio razonable
 - fase_c.celdas_corregidas.C14.despues: Calidad a precio razonable
 - fase_c.celdas_corregidas.C14.motivo: Revisada (es de la fase A y no la reescribo): el precio de Sí queda por encima del valor del MALO. Lo resuelvo con palabras en la tesis (no pagar las metas de la dirección); no impide la conclusión provisional esperar.
+- fase_c.estado_analisis: concluido
+- fase_c.cubo_final: Vigilar
+- fase_c.escalera.de: precio.json
+- fase_c.escalera.zona: caro
+- fase_c.escalera.nota: convención experimental del ejercicio (D11); el MALO no es un suelo de valor; la zona no mide riesgo ni fundamento
+- fase_c.decision.accion: esperar
+- fase_c.decision.condiciones_revision.al_alza: Recalcular al alza el precio de Sí si el 10-K de FY2027 muestra un margen EBIT ≥ 9 % sin partidas únicas y un margen bruto ≥ 44 % (el NORMAL en marcha: p(MALO) a 0,2 y C15 hacia 0,12), o si el ROIC publicado vuelve por encima del 25 % (C18 hacia 0,18).
+- fase_c.decision.condiciones_revision.a_la_baja: Recalcular a la baja si FY2027 cierra con un margen EBIT por debajo del 6,5 % sin partidas únicas o con unidades a la baja (p(MALO) a 0,4), si el ROIC publicado baja del 15 % dos años, o si el dividendo pasa a financiarse con deuda.
+- fase_c.insumos_decision_cartera.zona: caro
+- fase_c.insumos_decision_cartera.fundamento: una hipótesis de fundamento débil (Palancas!C18, ROIC terminal del NORMAL), acotada con hechos de Nike entre 0,09 y 0,18 (precio de Sí 17,80–18,91); comprobación conjunta no procede porque la conclusión no es favorable
+- fase_c.insumos_decision_cartera.descalificadores_considerados[0]: reestructuración y que la nueva dirección lo arregle: no lo marco porque no pago las metas de la dirección, pero el precio de Sí queda por encima del MALO (C14 vigilada)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[1]: macro (aranceles y divisas): dentro del rango de escenarios, no predicha
+- fase_c.insumos_decision_cartera.descalificadores_considerados[2]: deuda: no aplica (caja neta, A+, sin covenants de ratio)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[3]: gestión en la que no confío: integridad sí, capacidad dudosa (C98)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[4]: reinversión de toda la caja con retornos mediocres: no (capex por debajo de la amortización, ROIC ≥ 21 %)
+- fase_c.insumos_decision_cartera.palanca_mas_influyente: Margen / ROE objetivo (±2 pts) (información, no criterio)
+- fase_c.herencia.C93.etapa1: Sí
+- fase_c.herencia.C93.decision: mantiene
+- fase_c.herencia.C93.motivo: evidencia_nueva
+- fase_c.herencia.C93.evidencia_y_razonamiento: Revisé el g del NORMAL (0,025) contra la tasa sin riesgo (4,94 %, Análisis C57), el CAGR de diez años (4,1 %, Historia C47), la reinversión terminal (≈17 % con ROIC 0,15), el peso del terminal (52 %) y el salto del año 11 (0,298), que el v1 no veía: sostienen el Sí.
+- fase_c.herencia.B101.etapa1: Nike es, según su 10-K, el mayor vendedor de calzado y ropa deportiva del mundo: encarga la fabricación a terceros y creo que gana con la marca y con su escala en publicidad y patrocinio. Incluso en un mal año rinde un 19 % sobre el capital y tiene caja neta. Leo sus últimos años como errores propios (canal, producto, recompras caras), con menos tráfico en NIKE Direct y una China con menos tráfico, más promociones e inventario alto. A 34,61 $ creo que el precio ya paga parte de la recuperación. La compraría por debajo de unos 22,5 $, donde no necesito que la reestructuración funcione.
+- fase_c.herencia.B101.decision: cambia
+- fase_c.herencia.B101.motivo: evidencia_nueva
+- fase_c.herencia.B101.evidencia_y_razonamiento: La reescribo con la Historia de diez años (ROIC ≥ 21 %, margen de 15,6 % a 8,8 %), FY2026 sin reembolso (≈6,2 %, Análisis C27), el precio de hoy (39,12 en vez de 34,61) y el precio de Sí de la escalera (18,69 en vez de ≈22,5). La idea central se mantiene: no pagar el arreglo.
+- fase_c.herencia.B102.etapa1: La marca no es el foso que parece: Converse pasó de 669 mm de EBIT en FY22 a 18 en FY26, Jordan cae y Greater China, el segmento de mayor margen bruto en FY26, cae un 13 % en FY26 y un 26 % en el T1 FY27 a moneda neutra, con menos tráfico en tiendas, promociones e inventario alto en el mercado. El propio 10-K habla de competencia intensa y del riesgo de no anticipar las preferencias del consumidor, y no deja de sumar competidores a su lista: New Balance en FY23, Deckers y On en FY24. La dirección promete por cuarta vez: objetivos de FY21 incumplidos (EBIT del 8,2 % frente a los altos 10), ‘strategy is working’ en FY23, Win Now y ahora Pace hasta FY31; trato cada reestructuración como un gasto que se repite. El FCF base de 3.280 mm incluye el FY24, cuando el inventario bajó de 8.454 a 7.519 mm; la caja real tras SBC de FY26 es 1.469 mm, el T1 FY27 trae CFO de 135 mm y el dividendo pagado (2.407 mm) ya supera el FCF antes de SBC (2.184 mm). Con aranceles, rebajas y más gasto en marca, el margen EBIT puede quedarse en el 7-8 % años; la empresa recompró unos 24.700 mm con precios medios de 111,82 y 97,57 $ en sus dos programas, y hoy no veo caja sobrante para recomprar barata.
+- fase_c.herencia.B102.decision: cambia
+- fase_c.herencia.B102.motivo: evidencia_nueva
+- fase_c.herencia.B102.evidencia_y_razonamiento: La reescribo con las metas de FY2021 y sus resultados con página (extracto p. 33), Converse y China con página (extracto pp. 40, 43), la guía de FY2027 tratada como guía (Análisis C46) y la caja de FY2026 frente al dividendo (Análisis C40; extracto p. 62).
+- fase_c.herencia.C103.etapa1: No
+- fase_c.herencia.C103.decision: mantiene
+- fase_c.herencia.C103.motivo: misma_evidencia
+- fase_c.herencia.C103.evidencia_y_razonamiento: Revisé la caída del ROIC publicado (48,8 % → 18,7 %, Análisis C24), Converse (extracto p. 40) y la lista creciente de competidores (extracto p. 8): sigue sin ser un negocio para sentarse encima diez años sin mirar.
+- fase_c.herencia.C104.etapa1: 0% · Watchlist · precio de Sí ≈ 22,5 $ (estimación)
+- fase_c.herencia.C104.decision: cambia
+- fase_c.herencia.C104.motivo: definicion_o_medicion_distinta
+- fase_c.herencia.C104.evidencia_y_razonamiento: La V6.3 prohíbe el tamaño de posición (D16) y fija el texto de C104 con la escalera de precio.json (k = 3), no con mín(MALO; 0,75 × ponderado): precio de Sí 18,69, MALO 10,22, ponderado 23,77.
+- fase_c.comparacion_etapa_1.cubo_v1: Vigilar
+- fase_c.comparacion_etapa_1.cubo_v2: Vigilar
+- fase_c.comparacion_etapa_1.por_que_difieren: El cubo es el mismo por la misma razón: buen negocio sin margen al precio. El precio de Sí baja de ≈22,5 a 18,69 por tres motivos. (1) El método: el v1 tomaba el valor del MALO de un FCF que caía un 2 % al año desde 3.280; la v2 usa la escalera k = 3 sobre tres valores por palancas. (2) El MALO es más duro y mejor medido: el v1 partía de una base de FCF que lleva la liberación de inventario de FY2024 (+908, extracto p. 62); la v2 parte del margen y deja el del MALO en 6,5 %, el FY2026 sin reembolso. (3) p(MALO) sube de 0,2 a 0,3 con la Historia de diez años. El v1 también sobrestimaba el BUENO (≈64,7 frente a 38,70) porque crecía el FCF un 10 % anual. Además, el v1 medía C20 por solvencia, y la v2 la mide por pérdida permanente al precio pagado (Riesgo real alto). Diferencia sin blandura: el v1 se apoyó en una base de caja inflada.
+- fase_c.celdas.C93: Sí
+- fase_c.celdas.C103: No
+- fase_c.celdas.C104: Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 18.69 · zona caro · precio de Sí ≤ 18.69 · precio esc. MALO 10.22 · ponderado 23.77 · fundamento: una hipótesis de fundamento débil acotada con hechos (Palancas!C18), sin comprobación conjunta porque la conclusión no es favorable
+- fase_c.celdas.B101: Nike vende calzado y ropa con las marcas NIKE, Jordan y Converse, no fabrica (97 fábricas contratadas, extracto p. 6) y gana con la marca y su escala en creación de demanda: su ROIC nunca bajó del 21 % en 2016–2025 (Historia fila 33) y tiene caja neta (Análisis C33). Sus últimos años son errores propios y no del ciclo: el margen EBIT bajó del 15,6 % (2021) al 8,8 % (2025), el ROIC publicado del 48,8 % al 18,7 % (Análisis C24) y FY2026 se quedó en ≈6,2 % sin el reembolso IEEPA (Análisis C27, C42). Con mis tres escenarios (10,22 / 25,92 / 38,70 por acción), el precio de 39,12 está por encima incluso del BUENO: paga una vuelta completa de la marca que no está demostrada. La compraría por debajo de 18.69, donde la ganancia esperada triplica la pérdida esperada sin pagar las metas de la dirección; hasta entonces, Vigilar.
+- fase_c.celdas.B102: El foso puede no ser el que fue. Converse ya se vació dentro de la casa (EBIT 676 → 240 entre FY2023 y FY2025, extracto p. 40); China, el segmento de más margen, perdió 5 puntos de margen bruto (51,0 % → 46,0 %, extracto p. 43); y el 10-K nombra once competidores sin decir cuál gana (extracto p. 8). La dirección no cumplió sus metas: prometió para FY2025 un EBIT de los altos 10 y un ROIC por encima del 30 %, y entregó 8,2 % y 20,2 % (extracto p. 33). Repite reestructuraciones (cargos de 443 en FY2024, extracto p. 91) y recompró a 98,00 de media para pararse cuando la acción abarató (extracto p. 49; Análisis C28). La caja ya no paga lo que reparte: 2.300 de dividendos en FY2025 (extracto p. 62) frente a un FCF tras SBC de 1.469 en FY2026 (Análisis C40). La guía de FY2027 (BPA 1,15–1,35) implica un ROIC del 10–12 % (Análisis C24, C46), y los cobros crecen más que las ventas (DSO 29 → 41 días, Análisis C31). Si el margen se queda en el 6–7 % de FY2026 sin reembolso, el MALO (10,22) es lo normal, y ni el precio de Sí ofrece margen frente a él.
+- fase_c.celdas.Palancas!A38: Las ventas del primer semestre de FY2028 (seis meses cerrados el 30-nov-2027, 10-Q del segundo trimestre de FY2028) superan a las del primer semestre de FY2027 que publique ese mismo 10-Q como comparativo.
+- fase_c.celdas.Palancas!B38: 2028-01-15
+- fase_c.celdas.Palancas!A39: El margen EBIT de FY2028 (EBIT publicado ÷ ingresos del 10-K de FY2028, ejercicio cerrado el 31-may-2028) es igual o superior al 8,0 %.
+- fase_c.celdas.Palancas!B39: 2028-07-31
+- fase_c.celdas.Palancas!A40: En FY2028 el flujo de caja de explotación menos las adiciones de inmovilizado (estado de flujos del 10-K de FY2028) es mayor que los dividendos pagados en el ejercicio.
+- fase_c.celdas.Palancas!B40: 2028-07-31
+- fase_c.celdas.Diagnóstico V6!B222: Palancas!C18: ROIC terminal del NORMAL de 0,15, anclado en el ROIC medio del sector (15,3 %) y no en un hecho de Nike. Con hechos propios cabe entre 0,09 y 0,18, y el precio de Sí iría de 17,80 a 18,91. Detrás, la incertidumbre de la que más depende la conclusión a mi juicio: cuánto margen recupera Nike con aranceles que no cuantifica (B15 y C15).
+- fase_c.celdas.Diagnóstico V6!B223: El ROIC publicado de FY2027 y FY2028 con la definición de Análisis C24 (10-K, sección de medidas no GAAP): si se sostiene por encima del 18 % con el margen recuperándose, el NORMAL merece el techo; si baja del 15 %, el suelo. Para el margen: el 10-K de FY2027 con el margen EBIT sin partidas únicas y el coste de los aranceles separado del reembolso IEEPA, y una pregunta a Relación con Inversores sobre cuánto suman los aranceles en el coste de ventas y qué parte se repercute en el precio de venta.
+- fase_c.cambiaria_de_cubo.a_si: Un precio por debajo de 18.69 recalculado con un 10-K de FY2027 que confirme el NORMAL (margen EBIT ≥ 8 % sin partidas únicas, dividendo cubierto por el FCF), sin un descalificador nuevo y con C14 sosteniéndose (que el precio de Sí no necesite las metas de la dirección).
+- fase_c.cambiaria_de_cubo.a_no: Dos ejercicios (FY2027 y FY2028) con margen EBIT por debajo del 6,5 % sin partidas únicas y unidades a la baja: el MALO como lo normal. O un ROIC publicado por debajo del 12 %, o un dividendo pagado con deuda. Entonces C18 = No o C14 = Turnaround, y la tesis dependería del arreglo.
+- fase_c.cambiaria_de_cubo.a_demasiado_dificil: Que la vuelta del margen pase a depender de acertar la moda del producto o de la política arancelaria (macro): por ejemplo, si los aranceles dominan el margen y la empresa no los cuantifica, o si China, el segmento de más margen, decide el resultado sin datos de cuota para juzgarlo.
+- fase_c.observaciones.C93: [Clase: fundamentada] [Confianza: media]
+Hereda: Sí → mantiene (evidencia_nueva): con la Historia de diez años y lo que calcula la hoja, el g del NORMAL sigue siendo sostenible.
+Apoyo: g 0,025, por debajo de la tasa sin riesgo (4,94 %, Análisis C57) y del CAGR de diez años (4,1 %, Historia C47). Con un ROIC terminal de 0,15, la reinversión terminal es ≈17 % del beneficio, y el capex de 430 está por debajo de la amortización (extracto p. 62). Peso del terminal del NORMAL 52 % y salto del año 11 de 0,298, justificado (G8): no hay dónde se esconda el valor. g ≤ rf como orientación (CV; E1).
+Lo sustituiría: No lo sé si el ROIC publicado baja del 15 % dos años seguidos (Análisis C24).
+- fase_c.observaciones.C103: [Clase: fundamentada] [Confianza: media]
+Hereda: No → mantiene (misma_evidencia): un foso de marca que se estrecha no es para sentarse encima.
+Apoyo: es propiedad del negocio, no de si lo compro. ROIC publicado de 48,8 % a 18,7 % en cinco años (Análisis C24); Converse se vació (extracto p. 40); once competidores en el 10-K (extracto p. 8). “if you can buy a few great companies then you can sit on your ass” (PCA pp.85–86; HIM): Nike hoy no lo demuestra.
+Lo sustituiría: Sí tras cinco años de ROIC publicado por encima del 25 % con el margen EBIT por encima del 12 %.
+- fase_c.observaciones.C104: [Clase: convención] [Confianza: alta]
+Hereda: lista de seguimiento con precio de Sí ≈ 22,5 (v1) → cambia (definicion_o_medicion_distinta): la V6.3 no admite tamaño de posición (D16), y el precio de Sí sale de la escalera k = 3 de precio.json.
+Apoyo: precio.json: precio de Sí 18.69, precio esc. MALO 10.22, ponderado 23.77, zona caro con el precio a 39,12 (Análisis C37). La escalera es convención experimental del ejercicio (D11). La posición es de José Luis: “adapt your strategy to your own nature” (DR pp.306–307; HIM).
+Lo sustituiría: el precio de Sí que dé el recálculo con el 10-K de FY2027.
+- fase_c.observaciones.B101: [Clase: fundamentada] [Confianza: media]
+Hereda: tesis del v1 (comprar por debajo de ≈22,5) → cambia (evidencia_nueva): Historia de diez años, FY2026 sin reembolso IEEPA y precio de 39,12 en vez de 34,61.
+Apoyo: ROIC ≥ 21 % (Historia fila 33); margen 15,6 % → 8,8 % (fila 29); Análisis C24, C27, C33, C42; escalera de precio.json. “We have to have a price that makes sense and gives a margin of safety considering the normal vicissitudes of life” (TCI p.29; HIM).
+Lo sustituiría: un 10-K de FY2027 con margen EBIT por debajo del 6,5 % sin partidas únicas; entonces la tesis pasa a ser la de B102.
+- fase_c.observaciones.B102: [Clase: fundamentada] [Confianza: media]
+Hereda: tesis inversa del v1 → cambia (evidencia_nueva): la reescribo con las metas incumplidas con página, FY2026 sin reembolso y la guía de FY2027 como guía.
+Apoyo: extracto pp. 8, 33, 40, 43, 49, 62, 91; Análisis C24, C28, C31, C40, C46. Los dos argumentos que más pesan: que el margen de FY2026 sin reembolso sea la nueva normalidad, y que el dividendo ya no lo cubra la caja. “I'm not entitled to have an opinion unless I can state the arguments against my position better than the people who are in opposition” (PCA pp.467–468; HIM).
+Lo sustituiría: un FY2027 con margen EBIT ≥ 9 % sin partidas únicas y dividendo cubierto por el FCF.
+- fase_c.observaciones.Palancas!A38: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: el NORMAL crece un 3,5 % anual (Palancas!C14) desde un FY2026 plano (+0,2 %, Análisis C31). Es falsable con el 10-Q del T2 de FY2028, que trae el comparativo del semestre anterior. Sobre el negocio, no sobre la acción.
+Lo sustituiría: si el primer semestre de FY2028 cae, el NORMAL no está en marcha y p(MALO) sube.
+- fase_c.observaciones.Palancas!B38: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: el T2 de FY2028 cierra el 30-nov-2027 y Nike publica su 10-Q a primeros de enero; 2028-01-15 cae dentro de los 12–24 meses desde Análisis D4 (2026-11-03). Horizonte de convención del ejercicio.
+Lo sustituiría: la fecha real de presentación del 10-Q si se retrasa.
+- fase_c.observaciones.Palancas!C38: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: dado el NORMAL, que vuelve a crecer como su historia (4,1 %, Historia C47), lo más probable es que un semestre con dos años de recuperación supere al anterior. Dejo 0,3 para el ruido de un semestre: China cayó en el T1 FY2027 y FY2025 fue −9,8 % (Historia fila 28).
+Lo sustituiría: 0,8 si el T1 de FY2028 ya crece; 0,5 si FY2027 cierra con caída de ventas.
+- fase_c.observaciones.Palancas!A39: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: en el NORMAL el margen pasa del 8,8 % de 2025 al 10,5 % en el año 5 (Palancas!C15); FY2028 es el año 3. El 8,0 % es el mínimo de la década (Historia C50) y queda por encima del ≈6,2 % de FY2026 sin reembolso (Análisis C27). Falsable con el EBIT publicado del 10-K.
+Lo sustituiría: si FY2028 queda por debajo del 8 %, el MALO pasa a ser lo normal (B15 como escenario central).
+- fase_c.observaciones.Palancas!B39: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: FY2028 cierra el 31-may-2028 y Nike presenta el 10-K a finales de julio; 2028-07-31 cae dentro de los 12–24 meses desde Análisis D4 (2026-11-03).
+Lo sustituiría: la fecha real de presentación del 10-K.
+- fase_c.observaciones.Palancas!C39: [Clase: fundamentada] [Confianza: baja]
+Hereda: nueva en V6.3.
+Apoyo: aun dentro del NORMAL, pasar de ≈6,2 % (FY2026 sin reembolso, Análisis C27) a 8 % en dos años exige que el arancel se mitigue y las rebajas cedan; la guía de FY2027 apunta abajo (Análisis C46, guía). Tras 2020 el margen volvió de 8,0 % a 15,6 % en un año (Historia fila 29), pero entonces no había aranceles. Por eso 0,55, no más.
+Lo sustituiría: 0,7 si FY2027 cierra por encima del 7 % sin partidas únicas; 0,4 si cierra por debajo del 6 %.
+- fase_c.observaciones.Palancas!A40: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: en FY2026 el FCF antes de SBC (2.184) no cubrió el dividendo; en FY2025 se pagaron 2.300 (extracto p. 62; Análisis C40). En el NORMAL el FCF tras SBC del año 3 ronda 2.500 (motor, resultados.json) y antes de SBC ≈3.200: lo cubre. Es lo no numerable de la sección 16 convertido en dato.
+Lo sustituiría: si no lo cubre, la asignación de capital empeora (C98) y la tesis inversa gana.
+- fase_c.observaciones.Palancas!B40: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: el estado de flujos de FY2028 sale en el 10-K de finales de julio de 2028; 2028-07-31 está dentro de los 12–24 meses desde Análisis D4.
+Lo sustituiría: la fecha real de presentación del 10-K.
+- fase_c.observaciones.Palancas!C40: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: con el NORMAL (margen ≈9,8 % en el año 3 y capex de ≈430–800, extracto p. 62; Historia fila de capex), el FCF antes de SBC supera los ≈2.400 de dividendo, pero con poco colchón; el circulante ya restó 1.627 en el LTM (Análisis C46). 0,6.
+Lo sustituiría: 0,75 si FY2027 ya cubre el dividendo; 0,4 si el circulante sigue consumiendo caja en FY2027.
+- fase_c.confianza_global: media

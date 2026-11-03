@@ -19,7 +19,7 @@
   "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
  },
  {
-  "dato": "extracto_v63: Cuota de mercado de Nike en cifras, global, por región o por categoría, y su definición: no encontrado en los textos; solo la afirmación cualitativa de «largest",
+  "dato": "extracto_v63: Cuota de mercado de Nike en cifras, global, por región o por categoría, y su definición: no encontrado en los textos; solo la afirmación cualitativa de",
   "nivel": "no bloqueante",
   "origen_esperado": "informes de la empresa (fase 1 / extracción)",
   "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
@@ -55,7 +55,7 @@
   "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
  },
  {
-  "dato": "extracto_v63: Importe cuantificado de los aranceles sobre el coste de ventas y fracción que se repercutirá al precio: no encontrado; solo la declaración cualitativa y «negati",
+  "dato": "extracto_v63: Importe cuantificado de los aranceles sobre el coste de ventas y fracción que se repercutirá al precio: no encontrado; solo la declaración cualitativa y",
   "nivel": "no bloqueante",
   "origen_esperado": "informes de la empresa (fase 1 / extracción)",
   "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"

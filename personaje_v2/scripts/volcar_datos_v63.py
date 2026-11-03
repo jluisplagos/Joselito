@@ -35,6 +35,14 @@ ETIQUETAS = {"B3": "Empresa", "D3": "Ticker", "B4": "Sector (texto libre)", "D4"
              "C88": "P/FCF histórico", "C96": "Fecha de la evidencia de gestión"}
 
 
+
+def _sin_comilla_abierta(t):
+    """Si el corte a 160 caracteres deja una « sin su » (cita truncada), se quita desde esa « (DECISIONES 3-nov-2026, Nike):
+    verify_quotes_v2.py emparejaba la « abierta con la siguiente » de otro texto y daba decenas de citas «no encontradas»."""
+    while t.count("«") > t.count("»"):
+        t = t[:t.rindex("«")].rstrip()
+    return t
+
 def fmt(x):
     if x is None:
         return "—"
@@ -191,7 +199,7 @@ def main():
             for linea in m.group(1).strip().splitlines():
                 linea = linea.strip(" -*·\t")
                 if linea and len(linea) > 3 and linea[0] != "#" and ("extracto_v63: " + linea) not in ya:
-                    datos_ausentes.append({"dato": "extracto_v63: " + linea[:160], "nivel": "no bloqueante", "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+                    datos_ausentes.append({"dato": "extracto_v63: " + _sin_comilla_abierta(linea[:160]), "nivel": "no bloqueante", "origen_esperado": "informes de la empresa (fase 1 / extracción)",
                                            "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"})
             json.dump(datos_ausentes, open(da_path, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     json.dump(t, open(os.path.join(a.carpeta, "datos_v63.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1, default=str)

@@ -1,0 +1,12 @@
+{
+ "evaluado": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/Nike_v63_evaluada.xlsx",
+ "entrada": "/home/user/Joselito/personaje_v2/empresas_v2/Nike/Nike_v63_datos.xlsx",
+ "fases": [
+  "A",
+  "B",
+  "C"
+ ],
+ "motor": "A",
+ "errores": [],
+ "n_ok": 64
+}

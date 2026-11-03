@@ -1,4 +1,4 @@
-# Gramática · modo tras · motor A · código 0
+# Gramática · modo tras (con fase C) · motor A · código 0
 
 Categorías (D17): **error** bloquea y ninguna explicación lo aprueba · **límite del modelo** vuelve a la fase A · **desviación** exige evidencia y razonamiento específicos en `desviaciones_justificadas` (justificación ≥ 40 caracteres, `hechos` no vacío, clase fundamentada o convención) · **aviso** informa.
 

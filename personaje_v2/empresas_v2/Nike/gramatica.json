@@ -1,6 +1,6 @@
 {
  "modo": "tras",
- "con_fase_c": false,
+ "con_fase_c": true,
  "motor": "A",
  "codigo": 0,
  "hallazgos": [

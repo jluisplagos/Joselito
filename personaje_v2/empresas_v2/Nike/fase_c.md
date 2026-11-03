@@ -1,4 +1,4 @@
-# NIKE, Inc. (NKE) · fase C · turno 1 (tras la vuelta a la fase B) · 2026-11-03
+# NIKE, Inc. (NKE) · fase C · turnos 1 y 2 · 2026-11-03
 
 **Motor y escalera.** Motor A, r 0,09 (heredada; la r mínima es 0,102). El libro está recalculado con las palancas que la fase B revisó en la única vuelta C→B. La escalera de `precio.json` es una convención experimental (k = 3):
 
@@ -112,3 +112,81 @@ Como la conclusión no es favorable, `resultado = no_procede` y no hago la compr
 
 - **De la lista:** C18. Lo resolvería el ROIC publicado de FY2027–FY2028 con la definición de C24.
 - **A mi juicio, entre las hipótesis fundamentadas:** cuánto margen recupera Nike sin el arancel (B15 y C15). Lo resolverían el 10-K de FY2027, con el margen sin partidas únicas y el arancel separado del reembolso, y la pregunta a Relación con Inversores sobre el coste de los aranceles y qué parte se repercute.
+
+## 9. Comprobación conjunta y cierre (turno 2)
+
+`comprobacion_conjunta.json` no existe, porque la comprobación no procedía con una conclusión no favorable. Por eso `sobrevive = null` y `resultado = no_procede`.
+
+El cierre sigue el mapa de la sección 15:
+
+- **Estado:** `concluido`, provisional hasta la auditoría.
+- **Cubo:** Vigilar.
+- **Acción:** esperar.
+- **Precio objetivo:** el precio de Sí de `precio.json`, 18,69.
+- **Condición:** ninguna, porque la zona es caro. La condición solo hace falta cuando el precio ya cumple la regla.
+
+Si C18 se mueve dentro de su rango defendible, el precio de Sí queda entre 17,80 y 18,91.
+
+C104: Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 18.69 · zona caro · precio de Sí ≤ 18.69 · precio esc. MALO 10.22 · ponderado 23.77 · fundamento: una hipótesis de fundamento débil acotada con hechos (Palancas!C18), sin comprobación conjunta porque la conclusión no es favorable.
+
+C93 = Sí. El g del NORMAL es 0,025. Queda por debajo de la tasa sin riesgo y del CAGR de diez años. La reinversión terminal es de ≈17 %. El peso del terminal es del 52 %, y el salto del año 11 está justificado. C103 = No: un foso de marca que se estrecha no es para sentarse encima.
+
+## 10. Tesis (B101)
+
+Nike vende calzado y ropa con las marcas NIKE, Jordan y Converse. No fabrica: tiene 97 fábricas contratadas (extracto p. 6). Gana con la marca y con su escala en creación de demanda. Su ROIC nunca bajó del 21 % en 2016–2025 (Historia fila 33) y tiene caja neta (Análisis C33).
+
+Sus últimos años son errores propios, no del ciclo:
+
+- el margen EBIT bajó del 15,6 % de 2021 al 8,8 % de 2025;
+- el ROIC publicado cayó del 48,8 % al 18,7 % (Análisis C24);
+- FY2026 se quedó en ≈6,2 % sin el reembolso IEEPA (Análisis C27, C42).
+
+Mis tres escenarios valen 10,22, 25,92 y 38,70 por acción. A 39,12, el precio está por encima incluso del BUENO: paga una vuelta completa de la marca que no está demostrada. La compraría por debajo de 18,69. Ahí la ganancia esperada triplica la pérdida esperada sin pagar las metas de la dirección. Hasta entonces, Vigilar.
+
+“We have to have a price that makes sense and gives a margin of safety considering the normal vicissitudes of life” (TCI p.29; HIM).
+
+## 11. Tesis inversa (B102)
+
+El foso puede no ser el que fue:
+
+- **Una marca de la casa ya se vació.** El EBIT de Converse cayó de 676 a 240 entre FY2023 y FY2025 (extracto p. 40).
+- **China pierde margen.** Es el segmento de más margen y perdió 5 puntos de margen bruto, del 51,0 % al 46,0 % (extracto p. 43).
+- **No se sabe quién gana.** El 10-K nombra once competidores sin decir cuál de ellos gana (extracto p. 8).
+
+La dirección no cumple lo que promete:
+
+- **Metas incumplidas.** Para FY2025 prometió un EBIT de los altos 10 y un ROIC por encima del 30 %. Entregó un 8,2 % y un 20,2 % (extracto p. 33).
+- **Reestructuraciones que se repiten.** En FY2024 hubo cargos de 443 (extracto p. 91).
+- **Recompras caras.** Recompró a 98,00 de media y paró cuando la acción abarató (extracto p. 49; Análisis C28).
+
+La caja ya no paga lo que reparte:
+
+- **Dividendo sin cubrir.** En FY2025 pagó 2.300 de dividendos (extracto p. 62), y el FCF tras SBC de FY2026 fue de 1.469 (Análisis C40).
+- **La guía apunta abajo.** La guía de FY2027 implica un ROIC del 10–12 % (Análisis C24, C46).
+- **Cobros que crecen más que las ventas.** El DSO pasó de 29 a 41 días (Análisis C31).
+
+Si el margen se queda en el 6–7 % de FY2026 sin el reembolso, el MALO (10,22) pasa a ser lo normal. Entonces ni el precio de Sí ofrece margen frente a él. “I'm not entitled to have an opinion unless I can state the arguments against my position better than the people who are in opposition” (PCA pp.467–468; HIM).
+
+## 12. Predicciones (dado el NORMAL)
+
+| | Predicción | Fecha | Probabilidad |
+|---|---|---|---|
+| A38 | Las ventas del primer semestre de FY2028 (10-Q del T2) superan a las del primer semestre de FY2027 | 2028-01-15 | 0,7 |
+| A39 | El margen EBIT publicado de FY2028 es igual o superior al 8,0 % | 2028-07-31 | 0,55 |
+| A40 | En FY2028, el flujo de explotación menos las adiciones de inmovilizado supera los dividendos pagados | 2028-07-31 | 0,6 |
+
+## 13. Qué me haría cambiar de cubo
+
+- **A Sí:** un precio por debajo de 18,69, recalculado con un 10-K de FY2027 que confirme el NORMAL. Eso es un margen EBIT ≥ 8 % sin partidas únicas y el dividendo cubierto. Además, sin un descalificador nuevo.
+- **A No:** que FY2027 y FY2028 cierren con un margen por debajo del 6,5 % y unidades a la baja. También un ROIC publicado por debajo del 12 % o un dividendo pagado con deuda. Entonces la tesis dependería del arreglo (C14 = Turnaround).
+- **A Demasiado difícil:** que la vuelta pase a depender de acertar la moda o la política arancelaria, o de China sin datos de cuota.
+
+## 14. Comparación con la etapa 1
+
+El cubo es el mismo, Vigilar, por la misma razón: buen negocio sin margen al precio. El precio de Sí baja de ≈22,5 a 18,69 por tres motivos:
+
+1. **El método.** El v1 usaba el valor del MALO a partir de un FCF que caía desde 3.280. La v2 usa la escalera k = 3 sobre tres valores calculados por palancas.
+2. **El MALO es más duro y está mejor medido.** El v1 partía de una base de FCF que incluía la liberación de inventario de FY2024 (+908, extracto p. 62). La v2 deja el margen del MALO en el 6,5 % de FY2026 sin el reembolso.
+3. **p(MALO) sube de 0,2 a 0,3** con la Historia de diez años.
+
+El v1 también sobrestimaba el BUENO (≈64,7 frente a 38,70). Además, C20 pasa de medir la solvencia a medir la pérdida permanente al precio pagado.
