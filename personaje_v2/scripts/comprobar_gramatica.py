@@ -225,16 +225,17 @@ class Gramatica:
                 self.add("G3", "desviación", f"g para siempre {e} = {g} > rf {rf} (E1)", e, requiere_justificacion=True, consecuencia="justificar con el crecimiento nominal esperado de la economía donde vende")
             if g is not None and not en_lista(g, LISTA_G):
                 self.add("G10a", "error", f"g para siempre {e} = {g} fuera de la lista", e, consecuencia="corregir")
-        # --- G4 ROIC LP ---
+        # --- G4 ROIC LP --- (umbral v2.1: config convenciones.umbral_g4_roic_lp_sobre_tasa, 0,03 por MR pp. 62–63)
+        u4 = float(self.cfg.get("convenciones", {}).get("umbral_g4_roic_lp_sobre_tasa", 0.10))
         for e in ESC:
             r_lp = V["roic_lp"][e]
-            if r_lp is not None and c56a is not None and r_lp > c56a + 0.10 + 1e-9:
+            if r_lp is not None and c56a is not None and r_lp > c56a + u4 + 1e-9:
                 if c18 != "Sí":
-                    self.add("G4", "desviación", f"ROIC/ROE largo plazo {e} = {r_lp} > C56 + 0,10 = {c56a + 0.10:.3f} con C18 (foso) = {c18!r}: no justificable sin foso", e,
+                    self.add("G4", "desviación", f"ROIC/ROE largo plazo {e} = {r_lp} > C56 + {u4:.2f} = {c56a + u4:.3f} con C18 (foso) = {c18!r}: no justificable sin foso", e,
                              requiere_justificacion=True, consecuencia="con foso ≠ Sí no hay justificación posible: bajar el ROIC")
                     self.h[-1]["justificada"] = False
                 else:
-                    self.add("G4", "desviación", f"ROIC/ROE largo plazo {e} = {r_lp} > C56 + 0,10 = {c56a + 0.10:.3f} (E2; umbral de la plantilla)", e,
+                    self.add("G4", "desviación", f"ROIC/ROE largo plazo {e} = {r_lp} > C56 + {u4:.2f} = {c56a + u4:.3f} (E2: MR pp. 62–63, exceso a perpetuidad de 2–3 puntos como mucho)", e,
                              requiere_justificacion=True, consecuencia="justificar cuánto dura la ventaja y qué la sostiene")
         # --- G5 margen ---
         for e in ESC:

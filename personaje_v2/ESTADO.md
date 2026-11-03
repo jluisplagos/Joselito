@@ -88,3 +88,7 @@ Encargo vigente: **versión 0.2.1** (2-nov-2026). **Dos empresas reales hechas: 
 5. Revisión final de la trazabilidad de Damodaran por un agente independiente (no hecha).
 
 6. Instalar en el repositorio con `PROMPT_CLAUDE_CODE.md` (José Luis sube el zip; Claude Code instala, pasa las pruebas y sigue con más empresas y la variabilidad).
+
+## 3-nov-2026 (tarde) · v2.1
+- Prueba de variabilidad de Rational hecha en Claude Code con la v2.0: misma conclusión, precio de Sí −4,8 %, `no_entregable` por citas (ver DECISIONES). Dada por válida.
+- v2.1 preparada y probada aquí (17/17, 30/30): ver `CAMBIOS_v2_1.md`. Pendiente: instalarla en el repositorio y, si José Luis quiere, una prueba de variabilidad con la v2.1 (p. ej. Vidrala).

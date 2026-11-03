@@ -69,12 +69,13 @@
    "roic": 0.01
   },
   "variabilidad_precio_si_pct": 15,
+  "umbral_g4_roic_lp_sobre_tasa": 0.03,
   "referencias_mecanicas": {
    "sigma_minima_crecimiento_si_pocas_tasas": 0.03,
    "suelo_crecimiento_malo": -0.1,
    "g_perpetuo_sin_rf": 0.025,
    "tope_rentabilidad_marginal_sobre_roic_hist": 2.0,
-   "roic_lp_bueno_tope_sobre_c56": 0.1
+   "roic_lp_bueno_tope_sobre_c56": 0.03
   }
  },
  "c104": {

@@ -40,3 +40,6 @@ El orquestador te pasa `gramatica.md` con la pregunta concreta (motor incoherent
 
 ## Si es una corrección de formato (esquema del Anexo D, claves de celdas u Observaciones)
 El orquestador te dice qué campo falla (`esquema_fase_a.json.txt` o el mensaje de `fase_a_celdas.py` / `comprobar_celdas_v2.py`). Corrige exactamente eso sin cambiar el juicio, reescribe `fase_a.json` entero y responde con la lista de cambios. Hay dos correcciones de formato como máximo; la tercera termina en `no_entregable`.
+
+## Citas de Damodaran (v2.1)
+Si citas un principio de Damodaran con página, usa SOLO una página de `{RAIZ_CORPUS}/paginas_principios.json` para ese principio y ese documento (formato «(CV p. 5; E1)»). Una página que exista pero no sostenga el principio cuenta como error: el pipeline lo comprueba en cuanto entregas (`verify_quotes_v2.py`) y te devuelve la salida. Antes de terminar, ejecuta tú `python3 {RAIZ}/scripts/verify_quotes_v2.py --corpus <munger.md> --corpus {RAIZ_CORPUS}/damodaran.md --paginas-estrictas` sobre tu .md y sobre un volcado de los textos de tu JSON, y corrige hasta PASS. Si no necesitas la página, cita solo documento y principio: «(CV; E1)».

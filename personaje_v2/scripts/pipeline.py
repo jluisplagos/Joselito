@@ -203,6 +203,39 @@ class Pipeline:
         self.log(f"formato de {archivo}: corrección {self.st['intentos'][clave]} a {nombre}")
         return "continuar"
 
+    def citas_fase(self, archivo, paso, nombre):
+        """v2.1: comprueba las citas de una fase en cuanto llega su salida (su .md y todos los textos de su JSON), con páginas
+        estrictas y principio↔página de Damodaran (verify_quotes_v2.py). Un fallo vuelve al mismo agente como corrección de
+        formato: así se corrige en la fase que lo escribió, y no lo descubre la auditoría cuando ya no hay vuelta (prueba de
+        variabilidad de Rational, 3-nov-2026). Devuelve None, "continuar" o "fin"."""
+        base = archivo.rsplit(".", 1)[0]
+        tmp = self.p(f"citas_{base}.md")
+        try:
+            d = json.load(open(self.p(archivo), encoding="utf-8"))
+        except Exception:
+            return None  # el esquema ya lo habría rechazado
+        lineas = []
+
+        def hojas(x, ruta):
+            if isinstance(x, dict):
+                for k, v in x.items():
+                    hojas(v, f"{ruta}.{k}")
+            elif isinstance(x, list):
+                for i, v in enumerate(x):
+                    hojas(v, f"{ruta}[{i}]")
+            elif isinstance(x, str) and x.strip():
+                lineas.append(f"- {ruta}: {x}")
+        hojas(d, base)
+        open(tmp, "w", encoding="utf-8").write("\n".join(lineas) + "\n")
+        textos = [tmp] + ([self.p(base + ".md")] if os.path.exists(self.p(base + ".md")) else [])
+        cmd = [PY, self.script("verify_quotes_v2.py"), "--corpus", self.cfg.get("kit_v1", {}).get("corpus_munger", ""), "--corpus", self.cfg.get("corpus", {}).get("damodaran", ""), "--paginas-estrictas"] + textos
+        rc, out = self.run(cmd)
+        open(self.p(f"citas_{base}.txt"), "w", encoding="utf-8").write(out)
+        if rc == 0:
+            return None
+        malos = [l for l in out.splitlines() if l.startswith("  ")][:20]
+        return self.correccion_formato(archivo, paso, nombre, f"citas de {archivo} o {base}.md que no superan verify_quotes_v2.py (cita literal, página o principio↔página; ver citas_{base}.txt): " + " | ".join(m.strip() for m in malos))
+
     def pedir_correccion(self, paso, nombre, salida, motivo):
         self.st["esperando"] = f"{paso}:{salida}"
         self.st["esperando_desde"] = dt.datetime.now().timestamp()
@@ -215,6 +248,7 @@ class Pipeline:
         plantilla = os.path.join(AQUI, "..", "prompts", f"{nombre}.md")
         texto = open(plantilla, encoding="utf-8").read() if os.path.exists(plantilla) else f"(prompt de {nombre}: pendiente de la pieza 4)"
         texto = texto.replace("{CARPETA}", self.c).replace("{EMPRESA}", self.E)
+        texto = texto.replace("{RAIZ_CORPUS}", os.path.dirname(self.cfg.get("corpus", {}).get("damodaran", "") or os.path.join(AQUI, "..", "corpus", "x"))).replace("{RAIZ}", os.path.abspath(os.path.join(AQUI, "..")))
         raiz = os.path.abspath(os.path.join(AQUI, ".."))
         rutas = [f"carpeta de la empresa: {self.c}", f"raíz del personaje v2 (personaje_munger_v2.md, ANEXO_*.md, ENCARGO_personaje_v2.md, scripts/, esquema/): {raiz}",
                  f"corpus Munger (munger.md): {self.cfg.get('kit_v1', {}).get('corpus_munger', '')}", f"corpus Damodaran (damodaran.md, si existe): {self.cfg.get('corpus', {}).get('damodaran', '')}",
@@ -324,6 +358,11 @@ class Pipeline:
                     continue
                 if v == "fin":
                     return
+                v = self.citas_fase("fase_a.json", 6, "fase_a")
+                if v == "continuar":
+                    continue
+                if v == "fin":
+                    return
                 fa = json.load(open(self.p("fase_a.json"), encoding="utf-8"))
                 motor = {"Sí": "A", "No · financiación cambia mucho": "B", "No · banco o aseguradora": "C"}.get((fa.get("celdas") or {}).get("C62"))
                 st["motor"] = motor
@@ -368,6 +407,11 @@ class Pipeline:
                 self.agente(8, "fase_b", "fase_b.json", ["fase_a.json", "datos_v63.md", "referencias_mecanicas.json", "extracto_v63.md", "gramatica.md (si hay corrección)"],
                             alternativas=[f"fase_b.intento{n + 1}.json"] if n else [])
                 v = self.validar_esquema("fase_b.json", "fase_b", 8, "fase_b")
+                if v == "continuar":
+                    continue
+                if v == "fin":
+                    return
+                v = self.citas_fase("fase_b.json", 8, "fase_b")
                 if v == "continuar":
                     continue
                 if v == "fin":
@@ -454,6 +498,11 @@ class Pipeline:
                         continue
                     if v == "fin":
                         return
+                    v = self.citas_fase("fase_c.json", 10, "fase_c_turno1")
+                    if v == "continuar":
+                        continue
+                    if v == "fin":
+                        return
                     fc = json.load(open(self.p("fase_c.json"), encoding="utf-8"))
                     if fc.get("revisar_palancas"):
                         if st["intentos"]["vueltas_c_a_b"] >= self.lim.get("max_vueltas_fase_c_a_b", 1):
@@ -495,6 +544,11 @@ class Pipeline:
                 self.agente(10, "fase_c_turno2", "fase_c.json", ["fase_c.json (turno 1)", "comprobacion_conjunta.json (si existe)"],
                             alternativas=[f"fase_c.turno2.intento{n + 1}.json"] if n else ["fase_c.turno2.json"])
                 v = self.validar_esquema("fase_c.json", "fase_c", 10, "fase_c_turno2", turno=2)
+                if v == "continuar":
+                    continue
+                if v == "fin":
+                    return
+                v = self.citas_fase("fase_c.json", 10, "fase_c_turno2")
                 if v == "continuar":
                     continue
                 if v == "fin":

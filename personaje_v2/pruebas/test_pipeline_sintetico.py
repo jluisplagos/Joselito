@@ -225,7 +225,9 @@ def t_sin_base():
 if __name__ == "__main__":
     os.makedirs(os.path.join(BASE, "_origen"), exist_ok=True)
     if not os.path.exists(os.path.join(BASE, "_origen", "EmpresaX_v53_evaluada_sintetica.xlsx")):
-        shutil.copy("/tmp/rt/X_v53_evaluada_sintetica.xlsx", os.path.join(BASE, "_origen", "EmpresaX_v53_evaluada_sintetica.xlsx"))
+        # el libro de partida viene en el paquete (pruebas/sintetico/_origen/); sin él la prueba no puede correr
+        print("FALTA pruebas/sintetico/_origen/EmpresaX_v53_evaluada_sintetica.xlsx (va en el paquete del repositorio)")
+        sys.exit(2)
     pruebas = {"completa": t_pasada_completa, "favorable": t_favorable, "sobrevive": t_favorable_sobrevive, "abstencion": t_abstencion, "bloqueo": t_bloqueo, "limite": t_limite, "datos_ausentes": t_datos_ausentes, "sin_base": t_sin_base, "auditoria_repetir": t_auditoria_repetir}
     sel = sys.argv[1:] or list(pruebas)
     for n in sel:

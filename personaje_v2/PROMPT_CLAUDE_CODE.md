@@ -31,7 +31,7 @@ Para la empresa `<E>` necesito de mí: la carpeta de la etapa 1 (`<E>_evaluada.x
 3. Resultado en `empresas_v2/<E>/`: `<E>_v63_evaluada.xlsx`, `informe.md`, `ficha.json`, `auditoria.md`, `historia_revision.md`. Dame en cuatro líneas: estado, cubo, acción, precio de Sí, precio, y lo que la auditoría o las fases marcaron como dudoso.
 
 ## 3. Prueba de variabilidad (cuando te la pida)
-Copia `empresas_v2/Rational/` a `empresas_v2/Rational_rep/` **sin** `fase_a.*`, `fase_b.*`, `fase_c.*`, `auditoria.md`, `estado_pipeline.json`, `ESPERANDO.md`, `prompts_generados/` ni los libros `*_v63_*.xlsx`, y ejecuta el bucle del punto 2 con agentes nuevos. Compara con el original: motor, cubo, acción, palancas por escenario, probabilidades, precio de Sí. Escribe la comparación en `personaje_v2/pruebas/variabilidad_Rational.md`.
+Crea `empresas_v2/<E>_rep/` copiando de `empresas_v2/<E>/` **solo las entradas**: `etapa1/`, `pdf/`, `texto/`, `fase1_partes/`, `fase1_v63.json`, `fase1_metadatos.json`, `fase1_fuentes.json`, `fase1_decisiones.json` (si existe) e `historia_revision.md`. Nada más (ni salidas de fases, ni libros, ni `ficha`, `celdas_*`, `gramatica.*`, `resultados.json`, `precio.json`, `verificacion_*`). Ejecuta el bucle del punto 2 con agentes nuevos. Compara con el original: motor, cubo, acción, palancas por escenario, probabilidades, precio de Sí y estado final. Escribe la comparación en `personaje_v2/pruebas/variabilidad_<E>.md`.
 
 ## 4. Commit
 Cuando te lo pida: `git add personaje_v2/` **sin** `empresas_v2/*/pdf/`, `empresas_v2/*/texto/`, `empresas_v2/*/recalc/`, `corpus/pdf/` (están en `.gitignore`), commit con un mensaje que diga qué empresas se analizaron y su estado final, y push a una rama nueva (no a la principal).

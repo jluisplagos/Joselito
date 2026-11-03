@@ -248,7 +248,7 @@ def calcular(d, config):
         out["palancas"]["roic_lp"] = {"NORMAL": n_ref, "MALO": m_ref, "BUENO": b_ref, "referencia_no_disponible_motivo": motivo_b,
                                       "regla": "NORMAL = MALO = tasa del motor (convención: sin retornos en exceso a perpetuidad como caso neutro; no una ley); BUENO = mín(ROIC medio 5a, Análisis!C56 + 0,10), y la tasa si el histórico es menor",
                                       "anclas_usadas": {"tasa_del_motor": tasa, "roic_hist": hist, "C56": c56a, "sector_roic_media_H18_solo_contexto": num(sec.get("roic_media"))},
-                                      "criterio_relacionado": "E2, E3; I2 (reinversión terminal g ÷ ROIC); el +0,10 es umbral de la plantilla", "notas": nota}
+                                      "criterio_relacionado": "E2, E3; I2 (reinversión terminal g ÷ ROIC); el tope sobre la tasa es config referencias_mecanicas.roic_lp_bueno_tope_sobre_c56 (0,03 desde v2.1, MR pp. 62–63)", "notas": nota}
 
     # ---------- probabilidades, quiebra, exceso de caja, mercado ----------
     out["palancas"]["probabilidades"] = {"NORMAL": p_ref["NORMAL"], "MALO": p_ref["MALO"], "BUENO": p_ref["BUENO"], "referencia_no_disponible_motivo": None,

@@ -18,7 +18,7 @@ Uso:
 Sale con 0 si no hay fragmentos ausentes ni páginas erróneas (con --strict también falla si hay
 referencias sueltas cuya página no existe en el corpus, o fragmentos solo aproximados).
 """
-import argparse, os, re, sys
+import argparse, json, os, re, sys
 
 BOOKS = {
     "DR": "Damn Right!", "PCA": "Poor Charlie's Almanack", "TCI": "The Complete Investor", "AIWTK": "All I Want to Know",
@@ -93,6 +93,7 @@ def main():
     ap.add_argument("--corpus", action="append", required=True, help="corpus (repetible: munger.md y damodaran.md)")
     ap.add_argument("--strict", action="store_true")
     ap.add_argument("--paginas-estrictas", action="store_true", help="una referencia suelta con página inexistente cuenta como fallo (sin exigir literalidad perfecta de los fragmentos)")
+    ap.add_argument("--mapa-principios", help="JSON principio → documento → páginas (por defecto corpus/paginas_principios.json)")
     ap.add_argument("textos", nargs="*", help="textos a comprobar (posicionales)")
     a = ap.parse_args()
     textos = a.text + a.textos
@@ -175,9 +176,33 @@ def main():
         tramo = text[max(0, m.start() - 60):m.end()]
         if not re.search(BOOK_RE, tramo):
             sin_corpus.append(("Damodaran (sin documento)", int(m.group(1)), int(m.group(1)), "cita sin código ni título del paper"))
+    # v2.1: una referencia que nombra un principio del Anexo B (E1–E9, I1–I3) y un documento de Damodaran con página tiene que
+    # caer en una página donde el texto sostiene ese principio (corpus/paginas_principios.json, ±1 página). Visto en la prueba de
+    # variabilidad de Rational: «(CV p. 10, E1)» pasaba porque la página existe, aunque E1 está en CV pp. 4–5.
+    fuera = []
+    mapa_p = a.mapa_principios or os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "corpus", "paginas_principios.json")
+    if os.path.exists(mapa_p):
+        mapa = {k: v for k, v in json.load(open(mapa_p, encoding="utf-8")).items() if not k.startswith("_")}
+        inv = {v: k for k, v in BOOKS.items() if len(k) <= 3}
+        for m in re.finditer(r"\(([^()]{0,400})\)", text):
+            grupo = m.group(1)
+            prs = [x for x in re.findall(r"(?<![A-Za-z0-9])([EI][1-9])(?![0-9])", grupo) if x in mapa]
+            if not prs:
+                continue
+            refs = [(inv.get(b), x, y) for (b, x, y) in parse_text_cites(grupo) if inv.get(b) in ("NN", "GV", "MR", "CV", "PA", "UD", "FS")]
+            if not refs:
+                continue
+            # cada principio nombrado tiene que estar sostenido por alguna de las páginas del paréntesis
+            for pr in prs:
+                if not any(doc in mapa[pr] and any(abs(p - q) <= 1 for p in range(x, y + 1) for q in mapa[pr][doc]) for (doc, x, y) in refs):
+                    doc, x, y = refs[0]
+                    fuera.append((doc, x, y, pr, grupo[:80]))
+    print(f"\nPRINCIPIO CITADO EN UNA PÁGINA QUE NO LO SOSTIENE ({len(fuera)}):")
+    for doc, x, y, prs, g in fuera:
+        print(f"  {doc} p. {x}{'-' + str(y) if y != x else ''} con {prs}  <- ({g})")
     print(f"\nCITAS A UN CORPUS AUSENTE o sin documento identificable, no comprobables ({len(sin_corpus)}):")
     for b, x, y, q in sin_corpus: print(f"  {b} {x}-{y}  <- {q}")
-    bad = len(missing) + len(page_bad) + len(sin_corpus) + (len(loose_bad) if (a.strict or a.paginas_estrictas) else 0) + (len(approx) if a.strict else 0)
+    bad = len(fuera) + len(missing) + len(page_bad) + len(sin_corpus) + (len(loose_bad) if (a.strict or a.paginas_estrictas) else 0) + (len(approx) if a.strict else 0)
     print("\nRESULTADO:", "PASS" if bad == 0 else f"FAIL ({bad})")
     sys.exit(0 if bad == 0 else 1)
 
