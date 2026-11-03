@@ -92,3 +92,6 @@ Encargo vigente: **versión 0.2.1** (2-nov-2026). **Dos empresas reales hechas: 
 ## 3-nov-2026 (tarde) · v2.1
 - Prueba de variabilidad de Rational hecha en Claude Code con la v2.0: misma conclusión, precio de Sí −4,8 %, `no_entregable` por citas (ver DECISIONES). Dada por válida.
 - v2.1 preparada y probada aquí (17/17, 30/30): ver `CAMBIOS_v2_1.md`. Pendiente: instalarla en el repositorio y, si José Luis quiere, una prueba de variabilidad con la v2.1 (p. ej. Vidrala).
+
+## Nike (3-nov-2026, personaje v2.1)
+concluido · Vigilar · esperar · precio de Sí 18,69 $ (precio 39,12 $, zona caro) · auditoría APROBADO. Dudoso: EBIT de la Historia con definición mixta entre años (2024: 7.089 en la Historia frente a 6.311 del 10-K, según la auditoría); C18 (ROIC terminal del NORMAL) sin fundamento propio; faltan el 10-K de FY2026 y el 10-Q de FY2027 (se usan cifras de la etapa 1). Ver DECISIONES.md (C48/C49 en US GAAP; comilla abierta en volcar_datos_v63).

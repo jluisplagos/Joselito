@@ -2,7 +2,7 @@
 
 ## 1. Estado, cubo y conclusión
 
-**Estado `no_entregable` · cubo Vigilar · acción ninguna** · precio 39.12 USD · zona caro · precio de Sí 18.69 · precio esc. MALO 10.22 · ponderado 23.77
+**Estado `concluido` · cubo Vigilar · acción esperar** · precio 39.12 USD · zona caro · precio de Sí 18.69 · precio esc. MALO 10.22 · ponderado 23.77 · precio objetivo 18.69
 
 ## 2. Qué cambió respecto a la etapa 1 y por qué
 

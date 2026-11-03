@@ -14,13 +14,8 @@
   "libro_entrada": "3beaed8f94d13df53d0416b48a9a27439e397518cdb0add21f79924d99c008d6",
   "libro_evaluado": "bfbf25b11c94f9895b48727b8110208cb67c632189ec2b3646b515a4fc8ccf3d"
  },
- "estado_analisis": "no_entregable",
- "causa_si_no_concluido": {
-  "tipo": "fallo_de_implementacion",
-  "detalle": "verificar_todo.sh con FAIL: FAIL · verify_quotes_v2.py (Munger y Damodaran; textos y Observaciones; páginas estrictas; corpus ausente = fallo) (código 1)",
-  "comprobacion": null,
-  "categoria": null
- },
+ "estado_analisis": "concluido",
+ "causa_si_no_concluido": null,
  "etapa1": {
   "cubo": "0% · Watchlist · precio de Sí ≈ 22,5 $ (estimación)",
   "cubo_juicio": null,
@@ -28,9 +23,17 @@
   "fecha": null,
   "r": 0.09
  },
- "cubo": null,
+ "cubo": "Vigilar",
  "cubo_cualitativo_fase_a": "Vigilar",
- "decision": null,
+ "decision": {
+  "accion": "esperar",
+  "precio_objetivo": 18.69,
+  "condicion": null,
+  "condiciones_revision": {
+   "al_alza": "Recalcular al alza el precio de Sí si el 10-K de FY2027 muestra un margen EBIT ≥ 9 % sin partidas únicas y un margen bruto ≥ 44 % (el NORMAL en marcha: p(MALO) a 0,2 y C15 hacia 0,12), o si el ROIC publicado vuelve por encima del 25 % (C18 hacia 0,18).",
+   "a_la_baja": "Recalcular a la baja si FY2027 cierra con un margen EBIT por debajo del 6,5 % sin partidas únicas o con unidades a la baja (p(MALO) a 0,4), si el ROIC publicado baja del 15 % dos años, o si el dividendo pasa a financiarse con deuda."
+  }
+ },
  "insumos_decision_cartera": {
   "precio_actual": 39.12,
   "zona": "caro",
