@@ -11,3 +11,8 @@ con_cache.tmp.xlsx
 empresas_v2/*/texto/
 empresas_v2/*/pdf/
 corpus/pdf/
+
+# resultados de las pruebas (se regeneran; _origen/ sí se versiona)
+pruebas/sintetico/*
+!pruebas/sintetico/_origen/
+pruebas/salida_pieza1/

@@ -1,3 +1,0 @@
-OK: 10291 fórmulas con valor guardado → /home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_sin_C34/con_cache.tmp.xlsx
-con_cache.tmp.xlsx · SHA-256 d9d5ed7b56b96bdb… · referencia V6.3 · corrección norma contable (origen 8381a6cd7b1d798f…)
-VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos

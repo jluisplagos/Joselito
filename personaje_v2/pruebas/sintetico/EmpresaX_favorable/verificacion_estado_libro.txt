@@ -1,2 +1,0 @@
-estado del libro: 'NO LISTO · evidencias incompletas (5 pendientes) · cálculo completo' · técnico: 'COMPLETO Y VÁLIDO' · fase B escrita: True · fase C escrita: True · estado del análisis: None · faltan (C08/metadatos): ['evidencia Análisis!C46', 'evidencia Análisis!C47', 'evidencia Análisis!C48', 'evidencia Análisis!C49', 'evidencia Análisis!C50']
-reglas no OK: []
