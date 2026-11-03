@@ -1,0 +1,255 @@
+{
+ "empresa": "Vidrala, S.A.",
+ "fecha": "2026-11-03",
+ "estado_analisis": "no_entregable",
+ "causa": {
+  "tipo": "fallo_de_implementacion",
+  "detalle": "verificar_todo.sh con FAIL: FAIL · estado del libro esperado (§7.3) (código 1)",
+  "comprobacion": null,
+  "categoria": null
+ },
+ "paso_en_que_se_detuvo": 12,
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 0,
+  "auditoria": 0,
+  "vueltas_c_a_b": 0,
+  "vueltas_b_a_a": 0
+ },
+ "lo_que_sigue_valido": {
+  "libro": "íntegro: True · estado técnico INCOMPLETO · motores calculables ['A', 'B', 'C']",
+  "cubo_cualitativo": "Vigilar",
+  "descalificadores": "ninguno aplica",
+  "gestion": {
+   "C97": "Comprando",
+   "C98": "Buena"
+  },
+  "seis_preguntas": true,
+  "celdas_fase_a": [
+   "B65",
+   "B66",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C25",
+   "C27",
+   "C51",
+   "C56",
+   "C61",
+   "C62",
+   "C65",
+   "C66",
+   "C97",
+   "C98",
+   "D65",
+   "D66",
+   "Palancas!C10",
+   "Palancas!C43",
+   "Palancas!C47",
+   "Palancas!C5",
+   "Palancas!C6",
+   "Palancas!C8",
+   "Palancas!C9"
+  ],
+  "palancas_fase_b": "escritas",
+  "fase_c": {
+   "cubo_final": "Vigilar",
+   "estado_analisis": "concluido"
+  },
+  "revision_datos_ausentes": {
+   "revisados": [
+    {
+     "dato": "evidencia Análisis!C48",
+     "que_falta": "la clasificación documental de C48 (intereses en financiación = 0, marcada «No aplicable»), que impide LISTO·PROVISIONAL",
+     "conclusion_afectada": "ninguna celda de juicio; solo el estado de evidencias del libro (D249, un «No aplicable» indebido)",
+     "material_para_conclusion_favorable": false,
+     "porque": "el dato es correcto: los diez estados de flujos llevan los intereses pagados en explotación (Historia, fila de intereses en financiación a 0 con nota en cada año), así que el FCF base de 161,2 mm (C52) ya va después de intereses y el motor A no cambia; falta un rótulo, no una cifra"
+    },
+    {
+     "dato": "Palancas!C24",
+     "que_falta": "tamaño del mercado en el año 10",
+     "conclusion_afectada": "cuota implícita (semáforo fila 45 y G17, sin calcular) y techo del BUENO (D14)",
+     "material_para_conclusion_favorable": false,
+     "porque": "el precio de Sí (54,67) se forma con el MALO y el NORMAL; el NORMAL crece 3 % (volumen ≈1 % más precio ligado al coste más Chile) y no necesita ganar cuota por construcción; el único escenario que podría pedir más mercado del que existe es el BUENO, que pesa 0,2 y vale 77,69, por debajo del precio actual"
+    },
+    {
+     "dato": "extracto_v63: Tamaño del mercado del envase de vidrio (por región o global) y crecimiento del mercado.",
+     "que_falta": "tamaño y crecimiento del mercado del vidrio",
+     "conclusion_afectada": "C17 (viento de cola = No), C65 (crece al ritmo de su mercado) y C14 NORMAL",
+     "material_para_conclusion_favorable": false,
+     "porque": "C17 = No se sostiene en lo que dice la propia empresa (demanda débil [AR_2025, PDF p.3], por debajo de las medias históricas [AR_2025, PDF p.9], orgánico −5,4 % [AR_2025, PDF p.13]); una cifra de mercado confirmaría o no el 1 % de volumen del NORMAL, cuyo efecto en el valor es pequeño (tornado de crecimiento ±2,30 € por ±2 puntos)"
+    },
+    {
+     "dato": "extracto_v63: Cuota de mercado de Vidrala en ninguno de sus mercados, ni la definición que usaría.",
+     "que_falta": "cuota de mercado en cada mercado",
+     "conclusion_afectada": "C18 (foso, confianza baja), Palancas!C18 (cuánto dura el exceso de rentabilidad en el NORMAL) y p(MALO)",
+     "material_para_conclusion_favorable": false,
+     "porque": "a 54,67 pago 1,5 € por encima del valor sin crecimiento (53,13): la conclusión depende del margen normalizado y de la duración del exceso, que la Historia mide con diez años de ROIC ≥ 9,4 % y margen ≥ 12 % (filas 29 y 33), resultado de la competencia sea cual sea la cuota; el MALO ya valora la pérdida del exceso (B18 = r) y la comprobación conjunta prueba el ROIC del NORMAL en el suelo de su rango. Es lo primero que pediría (B223)"
+    },
+    {
+     "dato": "extracto_v63: Nombres de competidores distintos de Verallia (comprador de Italia) y su peso.",
+     "que_falta": "quién es el competidor que más daño puede hacer y su peso",
+     "conclusion_afectada": "C12 (borde del círculo), C18 (prueba «quién me mata») y Palancas!C18",
+     "material_para_conclusion_favorable": false,
+     "porque": "es el borde declarado del círculo en la fase A, no un hueco escondido; los diez años de ROIC y margen de la Historia (filas 29 y 33), con el choque de 2022 dentro (I29 13,7 %, I33 12,5 %), ya muestran lo que la competencia ha permitido, y el precio de Sí apenas paga crecimiento ni foso. Si los datos mostraran un rival que añade capacidad o baja precio para llenar hornos, el cubo iría a Demasiado difícil (fase A): es condición de revisión, no requisito de esta conclusión"
+    },
+    {
+     "dato": "extracto_v63: EBITDA por segmento y margen EBITDA por segmento (solo hay ingresos, amortización y beneficio antes de impuestos por segmento).",
+     "que_falta": "EBITDA y margen por segmento",
+     "conclusion_afectada": "D15 (margen BUENO, con Brasil a ≈33 % antes de intereses por lectura mía), D66 y C98",
+     "material_para_conclusion_favorable": false,
+     "porque": "el beneficio antes de impuestos más el gasto financiero por segmento [CF_2025, PDF p.27] da una aproximación del resultado de explotación de Brasil; el margen del NORMAL es el del grupo en la media del ciclo (Historia C49), no se construye por segmentos; solo afina el BUENO, que pesa 0,2"
+    },
+    {
+     "dato": "extracto_v63: Porcentaje de ventas por país (solo España, 431,2 millones, y el porcentaje de libra y real de 2024).",
+     "que_falta": "reparto de ventas por país",
+     "conclusion_afectada": "Palancas A28:B33 (prima país) y g de C68:D68 por la inflación de cada zona",
+     "material_para_conclusion_favorable": false,
+     "porque": "los ingresos por segmento [CF_2025, PDF p.27] y el 48,8 % de ventas en libra y real de 2024 [AR_2025, PDF p.26] dan el reparto regional que usa la hoja; dentro de Vidrala Europe la inflación supuesta es la misma (2,0 % [CF_2025, PDF p.49]) y r es heredada (S-3)"
+    },
+    {
+     "dato": "extracto_v63: Desglose de la variación de ventas en precio, volumen y mezcla; toneladas o unidades vendidas.",
+     "que_falta": "precio, volumen y mezcla; toneladas vendidas",
+     "conclusion_afectada": "componentes del crecimiento B14:D14, C17, C19 y la probabilidad del MALO",
+     "material_para_conclusion_favorable": false,
+     "porque": "el NORMAL (3 %) se contrasta con el CAGR de tres años (Historia C45, 2,9 %) y con el supuesto de la empresa [CF_2025, PDF p.48-49]; el valor es poco sensible al crecimiento (±2,30 € por ±2 puntos) porque el euro nuevo rinde 0,136; el desglose sí sería el mejor dato para p(MALO) y por eso está en que_lo_resolveria"
+    },
+    {
+     "dato": "extracto_v63: Importe de subidas de precio y su efecto sobre el volumen.",
+     "que_falta": "cuánto subió el precio y qué volumen perdió",
+     "conclusion_afectada": "C18 (poder de precio), B15 (mecanismo del MALO) y B69",
+     "material_para_conclusion_favorable": false,
+     "porque": "el resultado neto del traslado de costes está en la fila 29 de diez años (19,7 % → 13,7 % → 20,8 %, G29, I29, K29), que es lo que usan el margen del MALO y el rango de p(MALO); el importe explicaría el mecanismo, no cambiaría esos límites"
+    },
+    {
+     "dato": "extracto_v63: Capex previsto para 2026 y siguientes; capex por destino salvo la descripción cualitativa (hornos, autogeneración).",
+     "que_falta": "plan de capex 2026+ y su destino",
+     "conclusion_afectada": "S2C B16:D16, C25 y la liberación de capital del MALO",
+     "material_para_conclusion_favorable": false,
+     "porque": "las obras en curso (208,5 mm) y los compromisos (66,6 mm) [CF_2025, PDF p.43, 45] y la reinversión de 2021–2025 (Historia H30:L30) acotan el S2C; todo el rango defendible del NORMAL (0,93–1,3) mueve el precio de Sí entre ≈54,4 y ≈55,5 € según mi réplica: no impide fijar el precio objetivo"
+    },
+    {
+     "dato": "extracto_v63: Gasto total en I+D y su porcentaje de ventas.",
+     "que_falta": "gasto total de I+D",
+     "conclusion_afectada": "Palancas C9 (No) y C10 (vacía)",
+     "material_para_conclusion_favorable": false,
+     "porque": "el desarrollo capitalizado son 433 miles de euros de altas en 2025 [CF_2025, PDF p.46-47], menos del 0,1 % de las ventas; aunque el gasto total fuera diez veces mayor quedaría muy lejos del 5 % que pediría capitalizarlo, y C6 no es Intangibles"
+    },
+    {
+     "dato": "extracto_v63: Múltiplo de adquisición publicado por la empresa para Toro, Vidroporto o la venta de Italia.",
+     "que_falta": "múltiplos oficiales de las operaciones",
+     "conclusion_afectada": "C98 (asignación de capital = Buena)",
+     "material_para_conclusion_favorable": false,
+     "porque": "los múltiplos se calculan con cifras del extracto: Vidroporto 384 mm sobre 55,5 mm de EBITDA pro forma ≈6,9 veces [CF_2025, PDF p.29-31] y Toro ≈77 mm sobre ≈12 mm ≈6,4 veces [CF_2025, PDF p.78]; C98 se juzga por el ROIC después de cada compra (Historia fila 33), no por el múltiplo publicado"
+    },
+    {
+     "dato": "extracto_v63: Guía numérica de ventas, margen, capex y deuda para 2026 y objetivos numéricos anteriores para verificar su cumplimiento.",
+     "que_falta": "guía numérica y objetivos previos",
+     "conclusion_afectada": "ninguna celda de juicio; solo la lectura de la credibilidad de la dirección (C98) y las predicciones del turno 2",
+     "material_para_conclusion_favorable": false,
+     "porque": "no uso la guía como hecho (sección 3 del personaje): las palancas salen de la Historia y la guía del test de deterioro [CF_2025, PDF p.48-49] es solo contraste; su ausencia no cambia ninguna cifra"
+    },
+    {
+     "dato": "extracto_v63: Calificación crediticia (rating) y covenants con sus umbrales.",
+     "que_falta": "rating y umbrales de covenants",
+     "conclusion_afectada": "Palancas C22 (quiebra 0 frente a 0,05 de referencia por C34 = No)",
+     "material_para_conclusion_favorable": false,
+     "porque": "la empresa vigila deuda neta/EBITDA, deuda neta/patrimonio y EBITDA/gastos financieros [CF_2025, PDF p.62] con deuda neta de 0,2x a cierre de 2025 [AR_2025, PDF p.11] y 0,69x a 30-jun-2026 (C33), 258 mm de líneas sin disponer [CF_2025, PDF p.69] y préstamos bilaterales que vencen entre 2027 y 2032 [CF_2025, PDF p.67]; ningún hecho sugiere un umbral que muerda con esa deuda"
+    },
+    {
+     "dato": "extracto_v63: Cartera de pedidos y utilización de la capacidad.",
+     "que_falta": "cartera de pedidos y utilización de hornos",
+     "conclusion_afectada": "D14 y D16 (el BUENO llena capacidad), la justificación de G8 y el mecanismo del MALO (hornos que empujan a llenar capacidad, B66)",
+     "material_para_conclusion_favorable": false,
+     "porque": "afecta sobre todo al BUENO, que pesa 0,2 y vale menos que el precio; con un S2C del BUENO de 1,0 en lugar de 1,3 el precio de Sí bajaría ≈0,5 € (réplica mía). El MALO no depende de este dato: su margen sale de la fila 29"
+    },
+    {
+     "dato": "extracto_v63: Informe de gestión consolidado en español o en inglés dentro de CF_2025.txt (solo aparece el título de portada en la página 1); el informe integrado AR_2025.txt",
+     "que_falta": "el informe de gestión consolidado de 2025 como documento separado",
+     "conclusion_afectada": "juicio de foso y gestión (C18, C98) en la fase A",
+     "material_para_conclusion_favorable": false,
+     "porque": "el informe integrado AR_2025 trae lo que la fase A necesitaba del informe de gestión: demanda y mercados [AR_2025, PDF p.3, 9], evolución y puentes de ventas y EBITDA [AR_2025, PDF p.13-15], dividendos y recompra [AR_2025, PDF p.18], energía y precios [AR_2025, PDF p.23], divisas y financiación [AR_2025, PDF p.26-30]; con las cuentas consolidadas (CF_2025) el juicio de foso y gestión tiene informe anual"
+    },
+    {
+     "dato": "extracto_v63: Efecto cuantificado del Pilar Dos.",
+     "que_falta": "efecto del impuesto mínimo global",
+     "conclusion_afectada": "ninguna celda de juicio; el tipo impositivo t (Historia C52, 20,0 %) es dato",
+     "material_para_conclusion_favorable": false,
+     "porque": "el Pilar Dos fija un mínimo del 15 % y el tipo efectivo del grupo fue de 20,4–24,3 % en 2023–2025 (Historia, fila de tipo impositivo); un punto más de t restaría alrededor de un 1 % del valor, sin efecto sobre la zona ni sobre el precio objetivo"
+    }
+   ],
+   "alguno_material": false
+  },
+  "hipotesis_sin_fundamento": [
+   "B69:D69",
+   "Palancas!C18"
+  ]
+ },
+ "lo_que_no_es_valido": [
+  "todo lo posterior al paso 12"
+ ],
+ "para_continuar": {
+  "que_hace_falta": "ver verificacion_*.txt en la carpeta",
+  "desde_que_paso": 12,
+  "quien": "Claude Code"
+ },
+ "archivos": [
+  "ESPERANDO_FASE1.md",
+  "Vidrala_v63_base.xlsx",
+  "Vidrala_v63_base.xlsx.conciliacion.json",
+  "Vidrala_v63_datos.xlsx",
+  "Vidrala_v63_datos.xlsx.fase1.registro.json",
+  "Vidrala_v63_evaluada.xlsx",
+  "celdas_A.json",
+  "celdas_B.json",
+  "celdas_C.json",
+  "comprobacion_conjunta.json",
+  "datos_ausentes.json",
+  "datos_v63.json",
+  "datos_v63.md",
+  "diagnostico.json.anterior",
+  "diagnostico.md.anterior",
+  "entrada_v63.json",
+  "entrada_v63.md",
+  "esquema_fase_a.json.txt",
+  "esquema_fase_b.json.txt",
+  "esquema_fase_c.json.txt",
+  "esquema_ficha.json.txt",
+  "estado_pipeline.json",
+  "extracto_v63.md",
+  "fase1_decisiones.json",
+  "fase1_fuentes.json",
+  "fase1_listas.md",
+  "fase1_metadatos.json",
+  "fase1_v63.json",
+  "fase_a.json",
+  "fase_a.md",
+  "fase_b.json",
+  "fase_b.md",
+  "fase_c.json",
+  "fase_c.md",
+  "ficha.json",
+  "gramatica.json",
+  "gramatica.md",
+  "historia_revision.md",
+  "informe.md",
+  "observaciones_para_citas.md",
+  "precio.json",
+  "referencias_mecanicas.json",
+  "resultados.json",
+  "verificacion_c86.txt",
+  "verificacion_cache.txt",
+  "verificacion_celdas.json",
+  "verificacion_celdas.txt",
+  "verificacion_citas.txt",
+  "verificacion_esquemas.txt",
+  "verificacion_estado_libro.txt",
+  "verificacion_gramatica.txt",
+  "verificacion_integridad.txt"
+ ]
+}

@@ -1,0 +1,504 @@
+{
+ "anio": 2022,
+ "archivo": "CF_2022.txt",
+ "fecha_cierre": "2022-12-31",
+ "moneda": "EUR",
+ "unidad": "miles",
+ "reexpresion": "2021 reexpresado (Nota 2b, p.9): ingresos y gastos de CO2 y coste electrico reclasificados de 'Other income'/'Other expenses' a 'Merchandise, raw materials and consumables used'.",
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenues",
+     "impreso": "1,345,610",
+     "pagina": 4,
+     "linea": "Revenues 4 & 21 1,345,610 1,084,166"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenues",
+     "impreso": "1,084,166",
+     "pagina": 4,
+     "linea": "Revenues 4 & 21 1,345,610 1,084,166"
+    }
+   ],
+   "cero": null,
+   "nota": "2021 reexpresado (Nota 2: CO2 reclasificado; no afecta a Revenues)."
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Profit loss from operating activities",
+     "impreso": "184,214",
+     "pagina": 4,
+     "linea": "Profit loss from operating activities 184,214 178,573"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit loss from operating activities",
+     "impreso": "178,573",
+     "pagina": 4,
+     "linea": "Profit loss from operating activities 184,214 178,573"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Amortisation and depreciation",
+     "impreso": "85,460",
+     "pagina": 7,
+     "linea": "Amortisation and depreciation 6&7 85,460 86,284"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Amortisation and depreciation",
+     "impreso": "86,284",
+     "pagina": 7,
+     "linea": "Amortisation and depreciation 6&7 85,460 86,284"
+    }
+   ],
+   "cero": null,
+   "nota": "Excluye 'Impairment of non-current assets' (724 / 2,840), que va en línea aparte."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Profit attributable to equity holders of the Parent",
+     "impreso": "153,686",
+     "pagina": 4,
+     "linea": "Profit for the year attributable to equity holders of the Parent 153,686 145,157"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit attributable to equity holders of the Parent",
+     "impreso": "145,157",
+     "pagina": 4,
+     "linea": "Profit for the year attributable to equity holders of the Parent 153,686 145,157"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "(34,062)",
+     "pagina": 4,
+     "linea": "Income tax expense 9 (34,062) (27,357)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax expense",
+     "impreso": "(27,357)",
+     "pagina": 4,
+     "linea": "Income tax expense 9 (34,062) (27,357)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Profit before income tax from continuing operations",
+     "impreso": "187,748",
+     "pagina": 4,
+     "linea": "Profit before income tax from continuing operations 187,748 172,514"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit before income tax from continuing operations",
+     "impreso": "172,514",
+     "pagina": 4,
+     "linea": "Profit before income tax from continuing operations 187,748 172,514"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Net cash from operating activities",
+     "impreso": "114,123",
+     "pagina": 7,
+     "linea": "Net cash from operating activities 114,123 280,749"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net cash from operating activities",
+     "impreso": "280,749",
+     "pagina": 7,
+     "linea": "Net cash from operating activities 114,123 280,749"
+    }
+   ],
+   "cero": null,
+   "nota": "Subtotal 'Cash used in operating activities' (117,546)/1,749 es previo a intereses e impuestos."
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Payments PP&E",
+     "impreso": "(117,296)",
+     "pagina": 7,
+     "linea": "Payments from sale of property, plant and equipment (117,296) (107.604)"
+    },
+    {
+     "concepto": "Payments other intangible",
+     "impreso": "(2,904)",
+     "pagina": 7,
+     "linea": "Payments from sale of other intangible assets (2,904) (2,196)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Payments PP&E",
+     "impreso": "(107.604)",
+     "pagina": 7,
+     "linea": "Payments from sale of property, plant and equipment (117,296) (107.604)"
+    },
+    {
+     "concepto": "Payments other intangible",
+     "impreso": "(2,196)",
+     "pagina": 7,
+     "linea": "Payments from sale of other intangible assets (2,904) (2,196)"
+    }
+   ],
+   "cero": null,
+   "nota": "Las etiquetas impresas dicen 'Payments from sale of' pero son pagos por adquisicion (investing negativo). 2021 impreso con punto: (107.604)."
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El estado de flujos de inversion solo tiene pagos de PP&E e intangibles; sin linea de adquisiciones ni ventas de negocios.",
+    "pagina": 7
+   },
+   "nota": null
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories",
+     "impreso": "(85,880)",
+     "pagina": 7,
+     "linea": "Inventories (85,880) 7,126"
+    },
+    {
+     "concepto": "Trade and other receivables",
+     "impreso": "(82,341)",
+     "pagina": 7,
+     "linea": "Trade and other receivables (82,341) (13,476)"
+    },
+    {
+     "concepto": "Trade and other payables",
+     "impreso": "132,341",
+     "pagina": 7,
+     "linea": "Trade and other payables 132,341 38,522"
+    },
+    {
+     "concepto": "Other current liabilities",
+     "impreso": "(84,515)",
+     "pagina": 7,
+     "linea": "Other current liabilities (84,515) (26,962)"
+    },
+    {
+     "concepto": "Effect of translation differences on operating assets and liabilities",
+     "impreso": "2,686",
+     "pagina": 7,
+     "linea": "of foreign operations 2,686 (3,461)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories",
+     "impreso": "7,126",
+     "pagina": 7,
+     "linea": "Inventories (85,880) 7,126"
+    },
+    {
+     "concepto": "Trade and other receivables",
+     "impreso": "(13,476)",
+     "pagina": 7,
+     "linea": "Trade and other receivables (82,341) (13,476)"
+    },
+    {
+     "concepto": "Trade and other payables",
+     "impreso": "38,522",
+     "pagina": 7,
+     "linea": "Trade and other payables 132,341 38,522"
+    },
+    {
+     "concepto": "Other current liabilities",
+     "impreso": "(26,962)",
+     "pagina": 7,
+     "linea": "Other current liabilities (84,515) (26,962)"
+    },
+    {
+     "concepto": "Effect of translation differences on operating assets and liabilities",
+     "impreso": "(3,461)",
+     "pagina": 7,
+     "linea": "of foreign operations 2,686 (3,461)"
+    }
+   ],
+   "cero": null,
+   "nota": "Incluye el efecto de diferencias de conversion (2,686 / (3,461)), impreso dentro del bloque 'Changes in working capital'. 'Changes in provisions' (6,553)/41,988 esta en el bloque de ajustes y se excluye."
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "(4,070)",
+     "pagina": 7,
+     "linea": "Interest paid (4,070) (3,260)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "(3,260)",
+     "pagina": 7,
+     "linea": "Interest paid (4,070) (3,260)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los intereses pagados figuran en actividades de explotacion; financiacion no tiene linea de intereses.",
+    "pagina": 7
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "Sin linea de pagos de arrendamiento en el estado de flujos; podrian estar en 'Payments of loans and borrowings' (24,500)/(28,043) o 'Payments from other debts' (22,063)/(85,000). Desconocido."
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "No se encontro gasto por pagos basados en acciones ni nota de plan en el texto; no se puede demostrar cero."
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe no cifra el gasto de I+D del ejercicio (solo politica contable y columna R&D del inmovilizado)."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average ordinary shares outstanding (thousands)",
+     "impreso": "30,942",
+     "pagina": 70,
+     "linea": "outstanding (thousands) 30,942 29,742"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average ordinary shares outstanding (thousands)",
+     "impreso": "29,742",
+     "pagina": 70,
+     "linea": "outstanding (thousands) 30,942 29,742"
+    }
+   ],
+   "cero": null,
+   "nota": "Miles de acciones. Diluido = basico: 'The Company has no dilutive potential ordinary shares' (p.70). Cifra 2021 sin ajustar por la ampliacion liberada de dic-2022."
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Equity attributed to equity holders of the Parent",
+     "impreso": "1,033,624",
+     "pagina": 3,
+     "linea": "Equity attributed to equity holders of the Parent 1,033,624 966,902"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Equity attributed to equity holders of the Parent",
+     "impreso": "966,902",
+     "pagina": 3,
+     "linea": "Equity attributed to equity holders of the Parent 1,033,624 966,902"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Loans and borrowings non-current",
+     "impreso": "209,500",
+     "pagina": 60,
+     "linea": "Loans and borrowings 209,500 4,874 161,500 6,370"
+    },
+    {
+     "concepto": "Loans and borrowings current",
+     "impreso": "4,874",
+     "pagina": 60,
+     "linea": "Loans and borrowings 209,500 4,874 161,500 6,370"
+    },
+    {
+     "concepto": "Other financial liabilities non-current",
+     "impreso": "1.600",
+     "pagina": 60,
+     "linea": "Other financial liabilities 1.600 44,697 2,041 66,895"
+    },
+    {
+     "concepto": "Other financial liabilities current",
+     "impreso": "44,697",
+     "pagina": 60,
+     "linea": "Other financial liabilities 1.600 44,697 2,041 66,895"
+    },
+    {
+     "concepto": "Accrued interest current",
+     "impreso": "244",
+     "pagina": 60,
+     "linea": "Accrued interest - 244 - 136"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Loans and borrowings non-current",
+     "impreso": "161,500",
+     "pagina": 60,
+     "linea": "Loans and borrowings 209,500 4,874 161,500 6,370"
+    },
+    {
+     "concepto": "Loans and borrowings current",
+     "impreso": "6,370",
+     "pagina": 60,
+     "linea": "Loans and borrowings 209,500 4,874 161,500 6,370"
+    },
+    {
+     "concepto": "Other financial liabilities non-current",
+     "impreso": "2,041",
+     "pagina": 60,
+     "linea": "Other financial liabilities 1.600 44,697 2,041 66,895"
+    },
+    {
+     "concepto": "Other financial liabilities current",
+     "impreso": "66,895",
+     "pagina": 60,
+     "linea": "Other financial liabilities 1.600 44,697 2,041 66,895"
+    },
+    {
+     "concepto": "Accrued interest current",
+     "impreso": "136",
+     "pagina": 60,
+     "linea": "Accrued interest - 244 - 136"
+    }
+   ],
+   "cero": null,
+   "nota": "Nota 15 (miles EUR). Excluye Finance Lease. 'Other financial liabilities' (44,697 corriente) incluido como deuda con coste por estar en Loans and borrowings del balance; su naturaleza no se detalla. Cada columna de la tabla cuadra con el balance (273,464+50,089)."
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Finance lease non-current",
+     "impreso": "62,364",
+     "pagina": 60,
+     "linea": "Finance Lease 62,364 274 20,462 212"
+    },
+    {
+     "concepto": "Finance lease current",
+     "impreso": "274",
+     "pagina": 60,
+     "linea": "Finance Lease 62,364 274 20,462 212"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Finance lease non-current",
+     "impreso": "20,462",
+     "pagina": 60,
+     "linea": "Finance Lease 62,364 274 20,462 212"
+    },
+    {
+     "concepto": "Finance lease current",
+     "impreso": "212",
+     "pagina": 60,
+     "linea": "Finance Lease 62,364 274 20,462 212"
+    }
+   ],
+   "cero": null,
+   "nota": "Finance lease de la Nota 15 (sale & leaseback en 2022)."
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "154,029",
+     "pagina": 2,
+     "linea": "Cash and cash equivalents 154,029 160,540"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "160,540",
+     "pagina": 2,
+     "linea": "Cash and cash equivalents 154,029 160,540"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El balance no tiene activos financieros corrientes distintos de caja (solo 'Other financial assets' no corriente de 33).",
+    "pagina": 2
+   },
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Personnel provision (defined benefit) at 31 Dec 2022",
+     "impreso": "262",
+     "pagina": 65,
+     "linea": "At 31 December 2022 71,485 262 791 72,538"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Personnel provision (defined benefit) at 31 Dec 2021",
+     "impreso": "6,342",
+     "pagina": 65,
+     "linea": "At 31 December 2021 62,541 6,342 10,208 79,091"
+    }
+   ],
+   "cero": null,
+   "nota": "Columna 'Personnel' de la Nota 18 (planes de prestacion definida UK y otras obligaciones con empleados)."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El balance no presenta participaciones no dominantes; todo el patrimonio es de la dominante y resultado total atribuido a la Parent.",
+    "pagina": 3
+   },
+   "nota": null
+  }
+ }
+}

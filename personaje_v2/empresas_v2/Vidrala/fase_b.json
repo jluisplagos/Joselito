@@ -1,0 +1,385 @@
+{
+ "motor": "A",
+ "palancas": {
+  "crecimiento_1_5": {
+   "MALO": {
+    "referencia_mecanica": -0.01,
+    "referencia_no_disponible_motivo": null,
+    "valor": -0.01,
+    "desviacion": 0.0,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Copio la referencia porque mis componentes dan lo mismo: precio a la baja cuando el gas baja y las fórmulas trasladan el ahorro, volumen plano o a la baja, y Chile, que suma alrededor de un punto al año durante cinco años. La referencia sale de la σ de una serie con compras y con el salto de precio de 2022; la mía sale de componentes y llega al mismo sitio.",
+    "apoyo": "Bajadas de precio supuestas en 2026 en Europe y Encirc y precios ligados al coste desde 2027 [CF_2025, PDF p.48]; gas supuesto de 39,9 a 23,3 en 2029 [CF_2025, PDF p.50]; orgánico −5,4 % en 2025 [AR_2025, PDF p.13]; real −8 % de media en 2025 [CF_2025, PDF p.42]; Toro con ventas de ≈70 mm, un 4,8 % de las de 2025 (Historia L6) [CF_2025, PDF p.78].",
+    "lo_sustituiria": "−0,02 si 2026 cierra con una caída orgánica de ventas como la de 2025 sin contar Chile; 0 si los precios de 2026 no bajan."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.08,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.03,
+    "desviacion": -0.05,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es el CAGR de cinco años (Historia C46, 8,2 %), que lleva dentro la compra de Vidroporto (178,3 mm de ventas en 2025) y el salto de precio de 2022 (+24,1 %, I28): ninguno de los dos se repite. Por componentes: volumen ≈1 %, precio que sigue al coste (baja en 2026 y luego sigue el coste ponderado) ≈1 % y Chile ≈1 punto al año. Sale ≈3 %, en línea con el CAGR de tres años (C45, 2,9 %). Lo repetible es menor que lo reportado.",
+    "apoyo": "Historia C46, C45, I28; Brasil 178,3 mm de ventas en 2025 [CF_2025, PDF p.27]; supuestos de la dirección en sus pruebas de deterioro (guía, la contrasto y no la copio): volumen +1 % y CAGR de ventas 1,6 % [CF_2025, PDF p.48-49]; IPC a largo plazo 2,0 % en Europa y Reino Unido [CF_2025, PDF p.49]; Toro ≈70 mm de ventas [CF_2025, PDF p.78].",
+    "lo_sustituiria": "0,04 si la empresa publicara volumen creciendo al 2 % de forma sostenida; 0,02 si Chile no se integra o el real sigue cayendo."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.105,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.055,
+    "desviacion": -0.05,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia (NORMAL de la serie más una σ, acotada al Q3) pide un crecimiento por encima del Q3 del sector sin decir de dónde. Mi BUENO, por componentes: volumen ≈2 % llenando capacidad en Europa y Brasil, precio en torno a la inflación (2-2,5 %; 4 % en Brasil) y Chile ≈1 punto al año: ≈5,5 %. El BUENO de esta empresa es de margen y de Latinoamérica, no de volumen europeo; se reinvierte en capacidad ya instalada y en Toro.",
+    "apoyo": "Volumen supuesto +2 % en Vidroporto [CF_2025, PDF p.49]; demanda por debajo de las medias históricas, que leo como capacidad por llenar [AR_2025, PDF p.9]; IPC de 2,0 a 4,3 % [CF_2025, PDF p.49]; Toro, ≈145.000 t de capacidad y ≈70 mm de ventas [CF_2025, PDF p.78]; CAGR de la serie 7,4 % con dos compras dentro (Historia C47, fila 13).",
+    "lo_sustituiria": "0,07 si Brasil y Chile crecen en euros dos años seguidos; 0,045 si el real sigue cayendo."
+   }
+  },
+  "margen_objetivo": {
+   "MALO": {
+    "referencia_mecanica": 0.17,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.14,
+    "desviacion": -0.03,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia del MALO es la media del ciclo, la misma que la del NORMAL: un MALO así sería un NORMAL con otro nombre. Mi MALO es la historia de la fase A: el ahorro de energía se va al cliente y la demanda débil empuja a llenar hornos, y el margen vuelve a la zona de 2021-2022 para quedarse. 0,14 está entre 2022 (13,7 %) y 2018 (15,4 %), por encima del mínimo de diez años (12,0 %, de 2016, antes de la escala actual).",
+    "apoyo": "Historia I29 13,7 %, H29 16,5 %, E29 15,4 %, C50 12,0 %; bajadas de precio en 2026 y precios ligados al coste desde 2027 [CF_2025, PDF p.48]; Brasil con exceso de oferta [AR_2025, PDF p.9]; demanda débil [AR_2025, PDF p.3].",
+    "lo_sustituiria": "0,13 si 2026-2027 bajan del 15 % sin choque de energía; 0,15 si el margen aguanta por encima del 18 % con el gas ya a la baja."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.17,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.17,
+    "desviacion": 0.0,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Mantengo la media del ciclo (Historia C49, 16,9 %): diez años con un valle de energía y dos picos dentro. No subo a la media de 2019-2025 (≈18 %) porque el ahorro de energía va casi todo al cliente por las fórmulas, la amortización sube con la renovación de hornos (de 87 a 133 mm en dos años) y Toro entra con menos margen que el grupo. La mejora de 2024-2025 no se queda en casa.",
+    "apoyo": "Historia C49, J8 y L8 (amortización 87,2 → 132,9 mm), fila 29; precios ligados al coste desde 2027 [CF_2025, PDF p.48]; Toro: EBITDA ≈12 mm sobre ventas ≈70 mm (≈17 %) [CF_2025, PDF p.78] frente a un margen EBITDA del grupo del 30,1 % [AR_2025, PDF p.15]; Q3 del sector 9,4 % (Palancas I15).",
+    "lo_sustituiria": "0,18 si 2026-2027 sostienen ≥ 19 % con el gas a la baja y las bajadas de precio ya aplicadas; 0,16 si 2026 baja del 17 %."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.17,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.19,
+    "desviacion": 0.02,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia del BUENO no sube de la media porque el Q3 del sector (9,4 %) está por debajo de ella; con esa regla el BUENO no podría ser bueno. Mi BUENO: la autogeneración abarata la energía más deprisa de lo que las fórmulas trasladan el ahorro y Brasil, con más margen que el grupo, pesa más. 0,19 es la parte baja de 2023-2025 (18,7-20,8 %), por debajo del máximo de diez años (C51).",
+    "apoyo": "Historia J29:L29, C51 20,8 %; triplicar la electricidad propia hacia 2028 (guía) [AR_2025, PDF p.37]; cogeneración que cubre el 30 % del consumo de Derrylin [AR_2025, PDF p.48]; Brasil 2025: beneficio antes de impuestos de 39,5 mm más 18,9 mm de gasto financiero sobre 178,3 mm de ventas [CF_2025, PDF p.27], ≈33 % antes de intereses (lectura mía).",
+    "lo_sustituiria": "0,20 si 2026-2027 superan el 20,8 % con el gas a la baja; 0,18 si Brasil sigue perdiendo ventas en euros."
+   }
+  },
+  "s2c": {
+   "MALO": {
+    "referencia_mecanica": 1.2,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.8,
+    "desviacion": -0.4,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "En el MALO el euro nuevo rinde lo que pide el inversor y no más: 0,8 × 0,14 × (1 − 0,20) ≈ 0,09 = r (E3: el crecimiento no crea valor). Es 0,75 × mi NORMAL, la misma banda que usa la referencia. Aviso: con ventas a la baja en los años 1-5 un S2C bajo libera más capital; lo acepto porque en los años 6-10 el crecimiento vuelve a ser positivo y el efecto neto es pequeño.",
+    "apoyo": "Historia C52 (t = 20,0 %); reinversión orgánica 2021-2025 de 295 mm (H30:L30) para ≈300 mm de ventas sin Brasil (L6 − G6 − 178,3 mm [CF_2025, PDF p.27]); capex 1,4 veces la amortización en 2025 con ventas a la baja (L12, L8, L28); costes de descarbonización que no se trasladan al cliente [AR_2025, PDF p.37].",
+    "lo_sustituiria": "1,0 si el capex de 2026-2027 vuelve a la amortización con las ventas planas."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 1.5,
+    "referencia_no_disponible_motivo": null,
+    "valor": 1.0,
+    "desviacion": -0.5,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "La referencia es Historia C53 (1,55), que divide el aumento de ventas de 2020-2025 por una reinversión neta rebajada por la venta de Italia (−318 mm en 2024, K31) y que incluye Brasil comprado. Sin compras ni ventas de negocios sale ≈1,0: 295 mm de reinversión orgánica para ≈300 mm de ventas sin Brasil. Hacia delante, renovación de hornos, descarbonización que no se cobra y Chile (VE ≈77 mm por ≈70 mm de ventas) no dan más. Rentabilidad marginal ≈0,136, la del ROIC histórico (C55).",
+    "apoyo": "Historia C53, K31, H30:L30, G6, L6, C55; Brasil 178,3 mm [CF_2025, PDF p.27]; Toro [CF_2025, PDF p.78]; obras en curso 208,5 mm y compromisos de compra 66,6 mm [CF_2025, PDF p.43, 45]; altas «principalmente renovación de hornos» [CF_2025, PDF p.44].",
+    "lo_sustituiria": "1,3 si el capex vuelve a la amortización y las ventas crecen; 0,8 si el capex de descarbonización sigue en 1,4 veces la amortización sin crecer ventas."
+   },
+   "BUENO": {
+    "referencia_mecanica": 1.9,
+    "referencia_no_disponible_motivo": null,
+    "valor": 1.3,
+    "desviacion": -0.6,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia (1,25 × 1,5) con mi margen de 0,19 daría una rentabilidad marginal de 0,29, por encima de 2 × C55. En mi BUENO el volumen llena capacidad ociosa en Europa y Brasil, que pide menos capital por euro de ventas que el NORMAL, pero la autogeneración es capital que baja costes sin añadir ventas. 1,3 queda entre lo orgánico (≈1,0) y C53 (1,55): rentabilidad marginal ≈0,20.",
+    "apoyo": "Historia C53, H30:L30, C55; demanda por debajo de las medias históricas [AR_2025, PDF p.9]; exceso de oferta en Brasil [AR_2025, PDF p.9]; triplicar la electricidad propia hacia 2028 (guía) [AR_2025, PDF p.37]; Toro con ≈145.000 t de capacidad [CF_2025, PDF p.78].",
+    "lo_sustituiria": "1,5 si los volúmenes publicados crecen sin capex de capacidad; 1,1 si la autogeneración exige capex sin bajar el coste."
+   }
+  },
+  "g_perpetuo": {
+   "MALO": {
+    "referencia_mecanica": 0.015,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.015,
+    "desviacion": 0.0,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Copio la referencia con fundamento: crecimiento nominal por debajo de la inflación de largo plazo (2 %), un volumen que encoge despacio. No la bajo más porque en mi MALO el ROIC terminal es r (0,09): crecer a r no añade valor (GV, CV, E3) y bajar g castigaría otra vez lo que ya está en el margen.",
+    "apoyo": "IPC a largo plazo 2,0 % en Europa y Reino Unido y 4,0 % en Brasil (supuesto de la dirección) [CF_2025, PDF p.49]; demanda por debajo de las medias históricas [AR_2025, PDF p.9]; rf 3,29 % (Análisis C57); ROIC terminal del MALO 0,09 (Palancas B18).",
+    "lo_sustituiria": "0,01 si apareciera sustitución del vidrio con el volumen cayendo de forma sostenida."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.025,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.02,
+    "desviacion": -0.005,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Inflación sin crecimiento real a perpetuidad: Europa occidental y Reino Unido son el 88 % de las ventas, con IPC de largo plazo del 2,0 %; Brasil (12 %, 4 %) añade algo, y el precio sigue al coste, no a la inflación. Nada crece deprisa para siempre: «all man's desired geometric progressions, if a high rate of growth is chosen, at last come to grief on a finite earth» (PCA p.394; HIM).",
+    "apoyo": "Reparto geográfico 48,7 % / 39,1 % / 12,2 % (Palancas A28:B33); IPC [CF_2025, PDF p.49]; la dirección usa 1-3 % a perpetuidad (solo contraste) [CF_2025, PDF p.48-49]; g < rf de 3,29 % (Análisis C57; CV, E1).",
+    "lo_sustituiria": "0,025 si Brasil y Chile pasan de un tercio de las ventas; 0,015 si el volumen europeo cae varios años seguidos."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.03,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.025,
+    "desviacion": -0.005,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Algo más que el NORMAL por el peso de Latinoamérica (inflación del 4 %), pero sin crecimiento real perpetuo en Europa: 0,03 supondría crecer para siempre casi a la tasa sin riesgo con el 88 % de las ventas en mercados maduros.",
+    "apoyo": "Palancas A28:B33; IPC 2,0 % en Europa y Reino Unido y 4,0 % en Brasil [CF_2025, PDF p.49]; Toro ≈70 mm de ventas [CF_2025, PDF p.78]; Análisis C57 3,29 % (CV, E1).",
+    "lo_sustituiria": "0,03 si Latinoamérica supera un tercio de las ventas creciendo en euros."
+   }
+  },
+  "roic_lp": {
+   "MALO": {
+    "referencia_mecanica": 0.09,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.09,
+    "desviacion": 0.0,
+    "clase": "fundamentada",
+    "confianza": "media",
+    "porque": "Copio la referencia con fundamento: en el MALO el foso se reduce a la escala regional y el retorno converge a r (CV, MR, E2). No bajo de r porque en diez años el ROIC nunca bajó de 9,4 %, ni en 2016-2017 ni con el choque de energía de 2022 (12,5 %). Con la rentabilidad marginal del MALO (≈0,09) no hay salto en el año 11.",
+    "apoyo": "Historia fila 33: C33 9,4 %, I33 12,5 %; Análisis C56 0,09; ROIC medio del sector 9,3 % (Palancas H18). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).",
+    "lo_sustituiria": "0,08 si el ROIC baja de r dos años seguidos sin choque de energía."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.09,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.11,
+    "desviacion": 0.02,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "La referencia supone que la ventaja desaparece a perpetuidad. Leo un foso estrecho que ha durado diez años: ROIC entre 9,4 % y 16,2 %, media de cinco años de 13,8 %, margen mínimo de 12,0 % frente a un Q3 del sector de 9,4 %. Conservo menos de la mitad del exceso (2 de 4,8 puntos) porque la descarbonización no se cobra y no sé quién me mata. Rentabilidad marginal ≈0,136: salto del año 11 de ≈2,6 puntos, que es la erosión que supongo.",
+    "apoyo": "Historia fila 33, C55, C50; Palancas I15 y H18; descarbonización no trasladada al cliente [AR_2025, PDF p.37]; solo se nombra a Verallia [CF_2025, PDF p.31]. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).",
+    "lo_sustituiria": "0,09 si datos de cuota muestran pérdida o el ROIC baja del 11 % con energía normal; 0,12 si cinco años más lo sostienen por encima del 13 %."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.14,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.14,
+    "desviacion": 0.0,
+    "clase": "fundamentada",
+    "confianza": "baja",
+    "porque": "Copio la referencia con fundamento: es el ROIC medio de cinco años (Historia C55), que la empresa ya ha logrado. Más sería suponer que la ventaja de la autogeneración dura siempre. El salto del año 11 (≈0,198 − 0,14 ≈ 5,8 puntos) es mi hipótesis: los competidores igualan la energía propia después del año 10 y el retorno vuelve a su histórico.",
+    "apoyo": "Historia C55, fila 33 (K33 16,2 %); triplicar la electricidad propia hacia 2028 (guía) [AR_2025, PDF p.37]; los precios siguen al coste desde 2027 [CF_2025, PDF p.48]. «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).",
+    "lo_sustituiria": "0,16 si cinco años más sostienen el ROIC por encima del 15 % con energía normal; 0,12 si Brasil y Chile diluyen el retorno."
+   }
+  },
+  "probabilidades": {
+   "MALO": {
+    "referencia_mecanica": 0.2,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.2,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,2 con argumento: el MALO es real (ya pasó en 2022 y la empresa supone bajadas de precio en 2026) pero no más probable que el BUENO por la historia de diez años; subirlo contaría dos veces la normalización del margen.",
+    "apoyo": "Historia fila 29 (C29, D29, I29 ≤ 14,2 %; G29, K29, L29 ≥ 19,7 %); bajadas de precio en 2026 [CF_2025, PDF p.48].",
+    "lo_sustituiria": "0,25 si 2026 confirma bajadas de precio con el margen por debajo del 17 %."
+   },
+   "NORMAL": {
+    "referencia_mecanica": 0.6,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.6,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,6: el NORMAL es la media de diez años del margen y el volumen maduro que la propia empresa supone; los tres escenarios cubren el rango observado (12,0-20,8 %) y suman 1.",
+    "apoyo": "Historia C49, C50, C51; volumen +1 % (guía) [CF_2025, PDF p.48-49].",
+    "lo_sustituiria": "0,55 si subo el MALO a 0,25."
+   },
+   "BUENO": {
+    "referencia_mecanica": 0.2,
+    "referencia_no_disponible_motivo": null,
+    "valor": 0.2,
+    "desviacion": 0.0,
+    "clase": "convención",
+    "confianza": "media",
+    "porque": "Convención 0,2: el BUENO tiene base (autogeneración, Brasil con más margen) y también freno (real, exceso de oferta en Brasil, precios ligados al coste); no hay razón estructural para subirlo ni para bajarlo.",
+    "apoyo": "Historia K29, L29; [AR_2025, PDF p.37]; real −20 % en 2024 y −8 % de media en 2025 [CF_2025, PDF p.42].",
+    "lo_sustituiria": "0,15 si Brasil y Chile no crecen en euros en 2026-2027."
+   },
+   "argumento": "Mantengo 0,2/0,6/0,2. En la fila 29 de Historia hay tres años en la zona de mi MALO (2016, 2017 y 2022, ≤ 14,2 %) y tres en la de mi BUENO (2020, 2024 y 2025, ≥ 19,7 %): la historia no inclina hacia ningún lado. Subir el MALO porque el margen está arriba contaría dos veces la normalización que ya hace el NORMAL (0,17 frente al 19,9 % de 2025, L29) (PA, E6); subir el BUENO no tiene una razón estructural escrita: Brasil tiene exceso de oferta [AR_2025, PDF p.9] y los precios siguen al coste desde 2027 [CF_2025, PDF p.48]. Las frecuencias anuales no miden la probabilidad de un nivel permanente: por eso la clase es convención, no fundamentada."
+  }
+ },
+ "quiebra": {
+  "C22": 0,
+  "C23": 0,
+  "disparadores": [
+   "Análisis!C34 = No (la caja no cubre la deuda a corto a 30-jun-2026): considerado y argumentado; no lleva a probabilidad de quiebra"
+  ],
+  "clase": "fundamentada",
+  "porque": "Hay un disparador mecánico (Análisis C34 = No) y lo argumento: la deuda corriente se multiplicó por 3,6 en el semestre por emisiones a corto que financiaron recompras (52,7 mm), dividendos (43,3) y Chile (23,6), no por falta de caja del negocio (Control maestro, C34). Deuda neta 0,69x EBITDA (C33), líneas sin disponer de 258 mm a 31-dic-2025 [CF_2025, PDF p.69], CFO de 380 mm (Historia L11) y diez años de EBIT positivo con ROIC ≥ 9,4 % (Historia filas 7 y 33). Un 0,05 sería un recorte del valor sin causa económica: el riesgo de esta empresa está en el margen y ya está en el MALO (PA, E6). Me desvío de la convención (0,05) a 0 y escribo la recuperación 0. Lo que no tengo: vencimientos y líneas disponibles a 30-jun-2026."
+ },
+ "mercado": {
+  "C24": null,
+  "fuente": null
+ },
+ "exceso_caja": {
+  "C76": 0,
+  "clase": "fundamentada",
+  "porque": "Caja de 109,4 mm a 30-jun-2026 (Análisis C53), de la que ≈16,5 mm eran el dividendo complementario pagado el 15-jul-2026; caja operativa estimada en 29-44 mm, un 2-3 % de las ventas (Control maestro, C76, etapa 1); deuda con arrendamientos de 409,6 mm (C54). Los intereses cobrados van dentro del flujo de explotación (Historia fila 15, nota de 2024): sumar caja los contaría dos veces. No hay caja claramente sobrante: 0, igual que la referencia, y ≤ C53."
+ },
+ "fcf_normalizado": {
+  "C44": null,
+  "clase": "fundamentada",
+  "porque": "La fase A fijó Palancas!C43 = No aplica: el FCF base es positivo (Análisis C52 = 161,2 mm, media 2023-2025) y la fila 35 solo es negativa en 2022 (I35, −6,1 mm). C44 solo se informa con Transitorio o Extraordinario. Que la base esté hecha con márgenes de arriba (J29:L29) lo recojo en el margen objetivo del NORMAL (0,17) y no cambiando la base del FCF."
+ },
+ "desviaciones_justificadas": [
+  {
+   "comprobacion": "G5",
+   "escenario": "MALO",
+   "clase": "fundamentada",
+   "justificacion": "El margen del MALO (0,14) queda por encima del Q3 del sector (9,4 %) porque es el nivel de esta empresa en su peor año de energía: 13,7 % en 2022 sin haber trasladado aún el coste, y 12,0 % como mínimo de diez años, en 2016, antes de la escala actual. Mecanismo: escala regional (plantas que abastecen su mercado cercano) y clientes repartidos, en un sector de la hoja que mezcla todo tipo de envase. Quién se queda la mejora: el cliente se lleva el ahorro de energía por las fórmulas; la empresa conserva solo su diferencial mínimo histórico.",
+   "hechos": [
+    "Historia I29 (13,7 % en 2022)",
+    "Historia C50 (12,0 %, mínimo de diez años)",
+    "Palancas I15 (Q3 del sector 9,4 %)",
+    "AR_2025, PDF p.28 (más de 1.600 clientes, ninguno por encima del 10 %)",
+    "CF_2025, PDF p.48 (bajadas de precio en 2026 y precios ligados al coste desde 2027)"
+   ]
+  },
+  {
+   "comprobacion": "G5",
+   "escenario": "NORMAL",
+   "clase": "fundamentada",
+   "justificacion": "0,17 es la media de diez años de esta empresa (Historia C49, 16,9 %), con un valle de energía y dos picos dentro; supera el Q3 del sector porque el sector de la hoja (Packaging & Container) mezcla envases de todo tipo y Vidrala lleva diez años por encima: su mínimo (12,0 %) ya supera el Q3. Mecanismo: precio de coste más margen con retraso y escala regional. Quién se queda la mejora: la empresa conserva su diferencial histórico; el ahorro de energía va al cliente por las fórmulas de precio, y por eso no subo a la media de 2019-2025.",
+   "hechos": [
+    "Historia C49 (16,9 %)",
+    "Historia C50 (12,0 %)",
+    "Historia fila 29",
+    "Palancas I15 (Q3 9,4 %)",
+    "CF_2025, PDF p.48 (precios ligados al coste desde 2027)",
+    "AR_2025, PDF p.23 (fórmulas de precio adaptadas a la energía)"
+   ]
+  },
+  {
+   "comprobacion": "G5",
+   "escenario": "BUENO",
+   "clase": "fundamentada",
+   "justificacion": "0,19 supera el Q3 del sector pero no el máximo propio (Historia C51, 20,8 %): es la parte baja de 2023-2025 (J29:L29). Mecanismo: coste (autogeneración: triplicar la electricidad propia hacia 2028; una cogeneración ya cubre el 30 % del consumo de Derrylin) y mezcla (Brasil, con ≈33 % antes de intereses según su beneficio antes de impuestos más gasto financiero, lectura mía, gana peso). Quién se queda la mejora: la empresa, solo mientras los competidores no tengan la misma energía propia; como los precios siguen al coste desde 2027, no subo al máximo.",
+   "hechos": [
+    "Historia J29:L29 (18,7-20,8 %)",
+    "Historia C51 (20,8 %)",
+    "AR_2025, PDF p.37 (electricidad propia ×3 hacia 2028, guía)",
+    "AR_2025, PDF p.48 (cogeneración de Derrylin, 30 %)",
+    "CF_2025, PDF p.27 (Brasil: ventas 178,3 mm, beneficio antes de impuestos 39,5 mm, gasto financiero 18,9 mm)",
+    "CF_2025, PDF p.48 (precios ligados al coste desde 2027)"
+   ]
+  }
+ ],
+ "limite_del_modelo": {
+  "aplica": false,
+  "cual": null,
+  "porque": null
+ },
+ "herencia": {
+  "B68": {
+   "etapa1": 0.01,
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "En la V5.3 la g terminal se aplicaba al FCF; en la V6.3 el terminal reinvierte g ÷ ROIC (I2) y en mi MALO el ROIC terminal es r (0,09, Palancas B18): crecer a r no añade valor (E3), así que bajar g de la referencia (0,015) no da prudencia y castigaría dos veces el margen ya comprimido. 0,015 es crecer por debajo del IPC de largo plazo del 2,0 % [CF_2025, PDF p.49]."
+  },
+  "C68": {
+   "etapa1": 0.02,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Reviso la misma idea con el IPC de largo plazo (2,0 % en Europa y Reino Unido, 4,0 % en Brasil [CF_2025, PDF p.49]) y el reparto de ventas (48,7 / 39,1 / 12,2 %, Palancas A28:B33): inflación sin crecimiento real a perpetuidad, con el precio ligado al coste. Sostiene 0,02, por debajo de la referencia de 0,025."
+  },
+  "D68": {
+   "etapa1": 0.025,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "La etapa 1 ponía algo de crecimiento de Brasil y Chile sin suponer que dure siempre; con el 88 % de las ventas en Europa y Reino Unido (Palancas A28:B33) y su IPC del 2,0 % [CF_2025, PDF p.49], 0,03 sería crecer casi a la tasa sin riesgo (C57) para siempre. Sostiene 0,025."
+  },
+  "B69": {
+   "etapa1": 0.2,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La fila 29 de diez años, que la etapa 1 no tenía, muestra tres años en la zona de mi MALO (C29, D29, I29) y tres en la de mi BUENO (G29, K29, L29): no inclina hacia ningún lado. Subir el MALO contaría dos veces la normalización que ya hace el NORMAL (0,17 frente a 19,9 % en L29) (PA, E6)."
+  },
+  "C69": {
+   "etapa1": 0.6,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Con diez años de margen (Historia C49 16,9 %, C50 12,0 %, C51 20,8 %), los tres escenarios (0,14 / 0,17 / 0,19) cubren el rango observado y el central es la media del ciclo: 0,6 sigue siendo la convención argumentada."
+  },
+  "D69": {
+   "etapa1": 0.2,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "El extracto V6.3 da base al BUENO (electricidad propia ×3 hacia 2028 [AR_2025, PDF p.37]; Brasil con más margen que el grupo [CF_2025, PDF p.27]) y también freno (real −20 % en 2024 y −8 % en 2025 [CF_2025, PDF p.42]; exceso de oferta en Brasil [AR_2025, PDF p.9]): no hay razón estructural para moverlo."
+  },
+  "C76": {
+   "etapa1": 0,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Revisada la misma evidencia: caja de 109,4 mm a 30-jun-2026 (C53) con ≈16,5 mm de dividendo comprometido, caja operativa estimada en 29-44 mm, deuda con arrendamientos de 409,6 mm (C54) e intereses cobrados dentro del flujo de explotación (Historia fila 15, nota 2024): no hay caja claramente sobrante y sumarla contaría dos veces los intereses."
+  }
+ },
+ "dos_errores": {
+  "mas_cerca_de": "pagar cualquier cosa",
+  "porque": "El margen y la caja de 2023-2025 están en lo alto de diez años (Historia J29:L29 frente a C49) y la propia empresa supone bajadas de precio en 2026 [CF_2025, PDF p.48]: lo que me puede engañar es pagar por calidad un margen de pico. No es See's: el ROIC medio es 13,8 % (C55), no el de un negocio excepcional, y el foso es estrecho (C18 con confianza baja). «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). El error contrario existe y lo nombro: «We left a lot of money on the table through early fretting» (TCI p.79; HIM); por eso el BUENO lleva margen de 0,19 y ROIC de 0,14 y las probabilidades no se inclinan hacia el MALO."
+ },
+ "celdas": {
+  "Palancas!B14": -0.01,
+  "Palancas!C14": 0.03,
+  "Palancas!D14": 0.055,
+  "Palancas!B15": 0.14,
+  "Palancas!C15": 0.17,
+  "Palancas!D15": 0.19,
+  "Palancas!B16": 0.8,
+  "Palancas!C16": 1.0,
+  "Palancas!D16": 1.3,
+  "Palancas!B18": 0.09,
+  "Palancas!C18": 0.11,
+  "Palancas!D18": 0.14,
+  "Palancas!C22": 0,
+  "Palancas!C23": 0,
+  "Palancas!C24": null,
+  "Palancas!C44": null,
+  "B68": 0.015,
+  "C68": 0.02,
+  "D68": 0.025,
+  "B69": 0.2,
+  "C69": 0.6,
+  "D69": 0.2,
+  "C76": 0
+ },
+ "observaciones": {
+  "Palancas!B14": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: −0,01 (mín(NORMAL, máx(mín(Q1, NORMAL − σ), −0,10))). Decisión: −0,01. Desviación: ninguna porque mis componentes llegan a lo mismo: precio a la baja con el gas, volumen plano y Chile ≈+1 punto al año.\nApoyo: bajadas de precio en 2026 y precio ligado al coste desde 2027 [CF_2025, PDF p.48]; gas de 39,9 a 23,3 en 2029 [CF_2025, PDF p.50]; orgánico −5,4 % en 2025 [AR_2025, PDF p.13]; Toro ≈70 mm de ventas, 4,8 % de L6 [CF_2025, PDF p.78].\nLo sustituiría: −0,02 si 2026 repite la caída orgánica de 2025 sin Chile; 0 si los precios de 2026 no bajan.",
+  "Palancas!C14": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,08 (CAGR 5 años, Historia C46, acotado a [Q1, Q3]). Decisión: 0,03. Desviación: −0,05 porque C46 lleva la compra de Vidroporto y el salto de precio de 2022 (+24,1 %, I28), que no se repiten; por componentes, volumen ≈1 % + precio ligado al coste ≈1 % + Chile ≈1 punto.\nApoyo: CAGR 3 años 2,9 % (C45); Brasil 178,3 mm de ventas [CF_2025, PDF p.27]; la dirección supone volumen +1 % y ventas +1,6 % anual (guía, solo contraste) [CF_2025, PDF p.48-49]; Toro ≈70 mm [CF_2025, PDF p.78].\nLo sustituiría: 0,04 si se publicara volumen creciendo al 2 % sostenido; 0,02 si Chile no se integra o el real sigue cayendo.",
+  "Palancas!D14": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,105 (NORMAL + σ, acotado a Q3 y 1,5 × C46). Decisión: 0,055. Desviación: −0,05 porque la referencia pide más que el Q3 del sector sin decir de dónde; mi BUENO es volumen ≈2 % llenando capacidad, precio ≈ inflación y Chile ≈1 punto. El BUENO de Vidrala es de margen y de Latinoamérica.\nApoyo: volumen +2 % supuesto en Vidroporto e IPC de 2,0-4,3 % [CF_2025, PDF p.49]; demanda bajo las medias históricas [AR_2025, PDF p.9]; Toro ≈145.000 t [CF_2025, PDF p.78]; CAGR de la serie 7,4 % con dos compras (Historia C47, fila 13).\nLo sustituiría: 0,07 si Brasil y Chile crecen en euros dos años seguidos; 0,045 si el real sigue cayendo.",
+  "Palancas!B15": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,17 (máx(mín(m0, media), mínimo)). Decisión: 0,14. Desviación: −0,03 porque un MALO con la media del ciclo sería el NORMAL con otro nombre; en mi MALO el ahorro de energía se va al cliente y el margen vuelve a la zona de 2021-2022 para quedarse. Supera el Q3 del sector: justificado (G5).\nApoyo: Historia I29 13,7 %, H29 16,5 %, E29 15,4 %, C50 12,0 %; bajadas de precio en 2026 [CF_2025, PDF p.48]; exceso de oferta en Brasil [AR_2025, PDF p.9]. «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).\nLo sustituiría: 0,13 si 2026-2027 bajan del 15 % sin choque de energía; 0,15 si aguanta > 18 % con el gas a la baja.",
+  "Palancas!C15": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,17 (m0 = media del ciclo, Historia C49). Decisión: 0,17. Desviación: ninguna porque no subo a la media de 2019-2025 (≈18 %): el ahorro de energía va al cliente por las fórmulas, la amortización sube (J8 87,2 → L8 132,9 mm) y Toro diluye. Supera el Q3 del sector: justificado (G5).\nApoyo: Historia C49, fila 29; precios ligados al coste desde 2027 [CF_2025, PDF p.48]; Toro, EBITDA ≈12 mm sobre ≈70 mm [CF_2025, PDF p.78], frente al 30,1 % del grupo [AR_2025, PDF p.15]; Q3 del sector 9,4 % (Palancas I15).\nLo sustituiría: 0,18 si 2026-2027 sostienen ≥ 19 % con el gas a la baja; 0,16 si 2026 baja del 17 %.",
+  "Palancas!D15": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,17 (máx(m0, mín(máximo, Q3)); el Q3 queda bajo la media). Decisión: 0,19. Desviación: +0,02 porque la autogeneración abarata la energía más deprisa de lo que las fórmulas la trasladan y Brasil, con más margen, pesa más; por debajo del máximo (C51 20,8 %). Supera el Q3: justificado (G5).\nApoyo: Historia J29:L29 (18,7-20,8 %); triplicar la electricidad propia hacia 2028, guía [AR_2025, PDF p.37]; cogeneración del 30 % en Derrylin [AR_2025, PDF p.48]; Brasil: beneficio antes de impuestos 39,5 mm + 18,9 mm de gasto financiero sobre 178,3 mm [CF_2025, PDF p.27], ≈33 % (lectura mía).\nLo sustituiría: 0,20 si 2026-2027 superan el 20,8 % con el gas a la baja; 0,18 si Brasil sigue perdiendo ventas en euros.",
+  "Palancas!B16": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 1,2 (0,75 × NORMAL_ref). Decisión: 0,8. Desviación: −0,4 porque en el MALO el euro nuevo rinde r: 0,8 × 0,14 × (1 − 0,20) ≈ 0,09 (E3); es 0,75 × mi NORMAL. Con ventas a la baja en los años 1-5 libera algo más de capital; en 6-10 crece y el efecto neto es pequeño.\nApoyo: reinversión orgánica 2021-2025 de 295 mm (Historia H30:L30) para ≈300 mm de ventas sin Brasil (L6 − G6 − 178,3 [CF_2025, PDF p.27]); capex 1,4 veces la amortización en 2025 con ventas −7,8 % (L12, L8, L28); descarbonización sin trasladar [AR_2025, PDF p.37].\nLo sustituiría: 1,0 si el capex de 2026-2027 vuelve a la amortización con las ventas planas.",
+  "Palancas!C16": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 1,5 (Historia C53 = 1,55 con tope). Decisión: 1,0. Desviación: −0,5 porque C53 lleva Brasil comprado y una reinversión rebajada por la venta de Italia (K31, −318 mm); sin compras ni ventas sale ≈1,0 (295 mm de reinversión orgánica, H30:L30, para ≈300 mm de ventas sin Brasil). Rentabilidad marginal ≈0,136 ≈ C55.\nApoyo: obras en curso 208,5 mm y compromisos 66,6 mm [CF_2025, PDF p.43, 45]; altas «principalmente renovación de hornos» [CF_2025, PDF p.44]; Toro, VE ≈77 mm por ≈70 mm de ventas [CF_2025, PDF p.78].\nLo sustituiría: 1,3 si el capex vuelve a la amortización y las ventas crecen; 0,8 si sigue en 1,4 veces sin crecer ventas.",
+  "Palancas!D16": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 1,9 (1,25 × NORMAL_ref). Decisión: 1,3. Desviación: −0,6 porque con mi margen de 0,19 la referencia daría 0,29 de rentabilidad marginal, más que 2 × C55; llenar capacidad ociosa pide poco capital, pero la autogeneración añade capital sin ventas. Rentabilidad marginal ≈0,20.\nApoyo: Historia C53 (1,55) y H30:L30 (orgánico ≈1,0); demanda bajo las medias históricas y exceso de oferta en Brasil [AR_2025, PDF p.9]; electricidad propia ×3 hacia 2028, guía [AR_2025, PDF p.37]; Toro ≈145.000 t [CF_2025, PDF p.78].\nLo sustituiría: 1,5 si los volúmenes crecen sin capex de capacidad; 1,1 si la autogeneración exige capex sin bajar el coste.",
+  "Palancas!B18": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,09 (= tasa del motor, convención). Decisión: 0,09. Desviación: ninguna porque en el MALO el foso se reduce a la escala regional y el retorno converge a r (CV, MR, E2); no bajo de r porque el ROIC nunca bajó de 9,4 % en diez años. Rentabilidad marginal ≈0,09: sin salto en el año 11.\nApoyo: Historia C33 9,4 %, I33 12,5 % (2022); Análisis C56; ROIC del sector 9,3 % (Palancas H18). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).\nLo sustituiría: 0,08 si el ROIC baja de r dos años seguidos sin choque de energía.",
+  "Palancas!C18": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,09 (= tasa del motor, convención). Decisión: 0,11. Desviación: +0,02 porque leo un foso estrecho que ha durado diez años (C18 = Sí); conservo 2 de los 4,8 puntos de exceso, no todo, porque la descarbonización no se cobra y no sé quién me mata. Salto del año 11 ≈ 0,136 − 0,11 ≈ 2,6 puntos: la erosión que supongo.\nApoyo: Historia fila 33 (9,4-16,2 %), C55 13,8 %, C50 12,0 % frente a Q3 9,4 % (Palancas I15); descarbonización no trasladada [AR_2025, PDF p.37]; solo se nombra a Verallia [CF_2025, PDF p.31]. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM).\nLo sustituiría: 0,09 si la cuota cae o el ROIC baja del 11 % con energía normal.",
+  "Palancas!D18": "[Clase: fundamentada] [Confianza: baja]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,14 (mín(C55, C56 + 0,10)). Decisión: 0,14. Desviación: ninguna porque es el ROIC medio de cinco años que la empresa ya logró; más sería suponer que la ventaja de la energía propia dura siempre. Salto del año 11 ≈ 0,198 − 0,14 ≈ 5,8 puntos: los rivales la igualan tras el año 10.\nApoyo: Historia C55, K33 16,2 %; electricidad propia ×3 hacia 2028, guía [AR_2025, PDF p.37]; precios ligados al coste desde 2027 [CF_2025, PDF p.48]. «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).\nLo sustituiría: 0,16 si cinco años más sostienen > 15 % con energía normal; 0,12 si Brasil y Chile diluyen el retorno.",
+  "Palancas!C22": "[Clase: fundamentada] [Confianza: media]\nHereda: nueva en V6.3.\nReferencia mecánica: 0,05 (convención con disparador: C34 = No). Decisión: 0. Desviación: −0,05 porque el disparador viene de financiar recompras (52,7 mm), dividendos (43,3) y Chile (23,6) con deuda a corto, no de falta de caja; el riesgo de esta empresa es de margen y ya está en el MALO (PA, E6).\nApoyo: deuda neta 0,69x EBITDA (C33); líneas sin disponer de 258 mm a 31-dic-2025 [CF_2025, PDF p.69]; CFO 380 mm (Historia L11); EBIT positivo y ROIC ≥ 9,4 % en diez años (filas 7 y 33). «Three things ruin people: drugs, liquor, and leverage» (TCI p.68; HIM): aquí no hay apalancamiento que mate.\nLo sustituiría: 0,05 si el semestral muestra vencimientos a 12 meses por encima de caja más líneas disponibles.",
+  "Palancas!C23": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: 0 (convención: recuperación 0). Decisión: 0. Desviación: ninguna porque con C22 = 0 la recuperación no entra en el valor y, si la quiebra subiera, la escribiría igualmente 0.\nApoyo: C22 = 0 (deuda neta 0,69x EBITDA, C33; líneas sin disponer de 258 mm [CF_2025, PDF p.69]).\nLo sustituiría: no se sustituye salvo que C22 pase a 0,05; entonces seguiría en 0.",
+  "Palancas!C24": "[Clase: convención] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: no disponible: solo con cifra de fuente primaria en los extractos. Decisión: vacía. Desviación: sin referencia porque no hay tamaño de mercado del envase de vidrio en los documentos.\nApoyo: «Tamaño de mercado en cifras: No encontrado» (extracto V6.3, sección 1 y sección 9); capacidad propia de 9.000 millones de envases [AR_2025, PDF p.7], que no es mercado. Sin cifra no hay cuota implícita que comprobar.\nLo sustituiría: una cifra de mercado publicada por la empresa o una fuente primaria; la usaría como techo del BUENO.",
+  "Palancas!C44": "[Clase: fundamentada] [Confianza: alta]\nHereda: nueva en V6.3.\nReferencia mecánica: no disponible: C44 solo aplica con C43 = Transitorio o Extraordinario. Decisión: vacía. Desviación: sin referencia porque C43 = No aplica: el FCF base es positivo.\nApoyo: Análisis C52 = 161,2 mm (media 2023-2025); la fila 35 solo es negativa en 2022 (−6,1 mm, I35). Que la base esté hecha con márgenes de arriba (J29:L29) lo recojo en el margen objetivo (0,17), no cambiando la base.\nLo sustituiría: un FCF base ≤ 0 por circulante, que llevaría C43 a Transitorio y pediría cifra aquí.",
+  "B68": "[Clase: fundamentada] [Confianza: media]\nHereda: 0,01 → cambia (definicion_o_medicion_distinta): en la V6.3 el terminal reinvierte g ÷ ROIC y en mi MALO el ROIC es r, así que bajar g no añade prudencia y castiga dos veces el margen.\nReferencia mecánica: 0,015 (NORMAL_ref − 0,01). Decisión: 0,015. Desviación: ninguna porque es crecer por debajo de la inflación de largo plazo, con volumen que encoge despacio.\nApoyo: IPC a largo plazo 2,0 % en Europa y Reino Unido [CF_2025, PDF p.49]; demanda bajo las medias históricas [AR_2025, PDF p.9]; ROIC terminal 0,09 (Palancas B18) (GV, CV, E3).\nLo sustituiría: 0,01 si aparece sustitución del vidrio con volumen cayendo de forma sostenida.",
+  "C68": "[Clase: fundamentada] [Confianza: media]\nHereda: 0,02 → mantiene (misma_evidencia): inflación sin crecimiento real a perpetuidad, revisada con el IPC de largo plazo y el reparto de ventas.\nReferencia mecánica: 0,025 (mín(0,025; rf)). Decisión: 0,02. Desviación: −0,005 porque el 88 % de las ventas está en Europa occidental y Reino Unido con IPC del 2,0 % y el precio sigue al coste, no a la inflación.\nApoyo: Palancas A28:B33 (48,7 / 39,1 / 12,2 %); IPC [CF_2025, PDF p.49]; la dirección usa 1-3 % (solo contraste) [CF_2025, PDF p.48-49]; < rf (C57; CV, E1). «all man's desired geometric progressions, if a high rate of growth is chosen, at last come to grief on a finite earth» (PCA p.394; HIM).\nLo sustituiría: 0,025 si Latinoamérica pasa de un tercio de las ventas.",
+  "D68": "[Clase: fundamentada] [Confianza: media]\nHereda: 0,025 → mantiene (misma_evidencia): algo de crecimiento en Brasil y Chile sin suponer que dure siempre.\nReferencia mecánica: 0,03 (mín(NORMAL_ref + 0,005; rf; 0,03)). Decisión: 0,025. Desviación: −0,005 porque 0,03 supondría crecer para siempre casi a la tasa sin riesgo con el 88 % de las ventas en mercados maduros.\nApoyo: Palancas A28:B33; IPC 2,0 % en Europa y Reino Unido y 4,0 % en Brasil [CF_2025, PDF p.49]; Toro ≈70 mm [CF_2025, PDF p.78]; Análisis C57 3,29 % (CV, E1).\nLo sustituiría: 0,03 si Latinoamérica supera un tercio de las ventas creciendo en euros.",
+  "B69": "[Clase: convención] [Confianza: media]\nHereda: 0,2 → mantiene (evidencia_nueva): la fila 29 de diez años no inclina hacia el MALO ni hacia el BUENO.\nReferencia mecánica: 0,2 (0,2/0,6/0,2, convención). Decisión: 0,2. Desviación: ninguna porque hay tres años en la zona de mi MALO (C29, D29, I29 ≤ 14,2 %) y tres en la de mi BUENO (G29, K29, L29 ≥ 19,7 %); subirlo contaría dos veces la normalización del NORMAL (PA, E6).\nApoyo: Historia fila 29; bajadas de precio en 2026 [CF_2025, PDF p.48]. Frecuencias anuales no son probabilidad de un nivel permanente: convención.\nLo sustituiría: 0,25 si 2026 confirma bajadas de precio con margen por debajo del 17 %.",
+  "C69": "[Clase: convención] [Confianza: media]\nHereda: 0,6 → mantiene (evidencia_nueva): el NORMAL es la media de diez años del margen (C49) y el volumen maduro.\nReferencia mecánica: 0,6 (convención). Decisión: 0,6. Desviación: ninguna porque los tres escenarios cubren el rango observado del margen (12,0-20,8 %, C50 y C51) y suman 1.\nApoyo: Historia C49, C50, C51; volumen +1 % (guía) [CF_2025, PDF p.48-49].\nLo sustituiría: 0,55 si subo el MALO a 0,25.",
+  "D69": "[Clase: convención] [Confianza: media]\nHereda: 0,2 → mantiene (evidencia_nueva): Brasil y la autogeneración dan base al BUENO y el real y el exceso de oferta lo frenan.\nReferencia mecánica: 0,2 (convención). Decisión: 0,2. Desviación: ninguna porque no hay razón estructural escrita para que el BUENO sea más probable que el MALO ni para bajarlo.\nApoyo: Historia K29, L29; electricidad propia ×3 hacia 2028, guía [AR_2025, PDF p.37]; real −20 % en 2024 y −8 % de media en 2025 [CF_2025, PDF p.42]; exceso de oferta en Brasil [AR_2025, PDF p.9].\nLo sustituiría: 0,15 si Brasil y Chile no crecen en euros en 2026-2027.",
+  "C76": "[Clase: fundamentada] [Confianza: alta]\nHereda: 0 → mantiene (misma_evidencia): revisada la caja a 30-jun-2026, no hay caja claramente sobrante.\nReferencia mecánica: 0 (regla del inversor). Decisión: 0. Desviación: ninguna porque de 109,4 mm (C53) ≈16,5 mm eran dividendo comprometido y la caja operativa se estima en 29-44 mm; la deuda con arrendamientos es de 409,6 mm (C54). Los intereses cobrados van en el flujo de explotación (Historia fila 15, nota 2024): sumar caja los contaría dos veces.\nApoyo: Control maestro C53, C54 y C76 (etapa 1); C76 ≤ C53. «Excess cash is an advantage, not a disadvantage» (TCI p.141; HIM): aquí no hay exceso.\nLo sustituiría: deuda neta negativa sin compras pendientes."
+ }
+}

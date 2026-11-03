@@ -1,0 +1,330 @@
+{
+ "anio": 2022,
+ "fecha_cierre": "2022-12-31",
+ "moneda": "EUR",
+ "unidad": "kEUR",
+ "reexpresion": "Estado de flujos 2021 ajustado según IAS 8.14 (arrendamientos IFRS 16 y reclasificaciones; CFO 171,710 -> 172,101; intereses pagados -227 -> -618; nota 21 p.63). Hiperinflación Turquía IAS 29 desde 2022; cifras del año anterior no reexpresadas.",
+ "partidas": {
+  "ventas": {
+   "actual": {
+    "impreso": "1,022,345",
+    "pagina": 36,
+    "linea": "Sales revenues                                                            1     1,022,345     779,734"
+   },
+   "anterior": {
+    "impreso": "779,734",
+    "pagina": 36,
+    "linea": "Sales revenues                                                            1     1,022,345     779,734"
+   },
+   "nota": null
+  },
+  "ebit": {
+   "actual": {
+    "impreso": "237,510",
+    "pagina": 36,
+    "linea": "Earnings before financial result and taxes (EBIT)                                237,510      160,134"
+   },
+   "anterior": {
+    "impreso": "160,134",
+    "pagina": 36,
+    "linea": "Earnings before financial result and taxes (EBIT)                                237,510      160,134"
+   },
+   "nota": null
+  },
+  "da": {
+   "actual": {
+    "impreso": "30,918",
+    "pagina": 38,
+    "linea": "Depreciation and amortisation                                                               8, 9, 23    30,918     30,314"
+   },
+   "anterior": {
+    "impreso": "30,314",
+    "pagina": 38,
+    "linea": "Depreciation and amortisation                                                               8, 9, 23    30,918     30,314"
+   },
+   "nota": null
+  },
+  "beneficio_neto": {
+   "actual": {
+    "impreso": "185,722",
+    "pagina": 36,
+    "linea": "Profit or loss after taxes                                                       185,722      123,663"
+   },
+   "anterior": {
+    "impreso": "123,663",
+    "pagina": 36,
+    "linea": "Profit or loss after taxes                                                       185,722      123,663"
+   },
+   "nota": "Sin minoritarios; toda la utilidad es atribuible a los accionistas."
+  },
+  "impuestos": {
+   "actual": {
+    "impreso": "-52,021",
+    "pagina": 36,
+    "linea": "Income taxes                                                              5       -52,021      -35,197"
+   },
+   "anterior": {
+    "impreso": "-35,197",
+    "pagina": 36,
+    "linea": "Income taxes                                                              5       -52,021      -35,197"
+   },
+   "nota": null
+  },
+  "bai": {
+   "actual": {
+    "impreso": "237,743",
+    "pagina": 36,
+    "linea": "Earnings before taxes (EBT)                                                      237,743      158,860"
+   },
+   "anterior": {
+    "impreso": "158,860",
+    "pagina": 36,
+    "linea": "Earnings before taxes (EBT)                                                      237,743      158,860"
+   },
+   "nota": null
+  },
+  "cfo": {
+   "actual": {
+    "impreso": "160,618",
+    "pagina": 38,
+    "linea": "Cash flow from operating activities                                                              21    160,618    172,101"
+   },
+   "anterior": {
+    "impreso": "172,101",
+    "pagina": 38,
+    "linea": "Cash flow from operating activities                                                              21    160,618    172,101"
+   },
+   "nota": "2021 reexpresado (IAS 8.14); 171,710 antes del ajuste."
+  },
+  "capex": {
+   "actual": {
+    "impreso": "-37,184",
+    "pagina": 38,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment                     8, 9    -37,184   -25,820"
+   },
+   "anterior": {
+    "impreso": "-25,820",
+    "pagina": 38,
+    "linea": "Capital expenditures in intangible assets and property, plant and equipment                     8, 9    -37,184   -25,820"
+   },
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "impreso": "-19,009",
+     "pagina": 38,
+     "linea": "Inventories                                                                                          -19,009   -20,965",
+     "concepto": "Inventories"
+    },
+    {
+     "impreso": "-90,406",
+     "pagina": 38,
+     "linea": "Trade accounts receivable and other assets                                                           -90,406   -20,971",
+     "concepto": "Trade accounts receivable and other assets"
+    },
+    {
+     "impreso": "16,282",
+     "pagina": 38,
+     "linea": "Provisions                                                                                           16,282     24,555",
+     "concepto": "Provisions"
+    },
+    {
+     "impreso": "23,635",
+     "pagina": 38,
+     "linea": "Trade accounts payable and other liabilities                                                         23,635     28,015",
+     "concepto": "Trade accounts payable and other liabilities"
+    }
+   ],
+   "anterior": [
+    {
+     "impreso": "-20,965",
+     "pagina": 38,
+     "linea": "Inventories                                                                                          -19,009   -20,965",
+     "concepto": "Inventories"
+    },
+    {
+     "impreso": "-20,971",
+     "pagina": 38,
+     "linea": "Trade accounts receivable and other assets                                                           -90,406   -20,971",
+     "concepto": "Trade accounts receivable and other assets"
+    },
+    {
+     "impreso": "24,555",
+     "pagina": 38,
+     "linea": "Provisions                                                                                           16,282     24,555",
+     "concepto": "Provisions"
+    },
+    {
+     "impreso": "28,015",
+     "pagina": 38,
+     "linea": "Trade accounts payable and other liabilities                                                         23,635     28,015",
+     "concepto": "Trade accounts payable and other liabilities"
+    }
+   ],
+   "nota": "Línea 'Other' (-3,634 / 706) y 'Net interest' no incluidas. 2021 reexpresado."
+  },
+  "intereses": {
+   "actual": {
+    "impreso": "-647",
+    "pagina": 38,
+    "linea": "Interest paid                                                                                            -647      -618"
+   },
+   "anterior": {
+    "impreso": "-618",
+    "pagina": 38,
+    "linea": "Interest paid                                                                                            -647      -618"
+   },
+   "nota": "Intereses pagados en financiación; intereses cobrados (488/264) en inversión. 2021 reexpresado (antes -227)."
+  },
+  "intereses_financiacion": {
+   "actual": {
+    "impreso": "-647",
+    "pagina": 38,
+    "linea": "Interest paid                                                                                            -647      -618"
+   },
+   "anterior": {
+    "impreso": "-618",
+    "pagina": 38,
+    "linea": "Interest paid                                                                                            -647      -618"
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": {
+    "impreso": "-9,078",
+    "pagina": 38,
+    "linea": "Payments for lease liabilities                                                                          -9,078    -8,533"
+   },
+   "anterior": {
+    "impreso": "-8,533",
+    "pagina": 38,
+    "linea": "Payments for lease liabilities                                                                          -9,078    -8,533"
+   },
+   "nota": "Línea única 'Payments for lease liabilities' (principal; intereses van en Interest paid)."
+  },
+  "sbc": {
+   "actual": null,
+   "anterior": null,
+   "nota": "Sin gasto reconocido: nota 28 dice que no hubo acuerdo de pago basado en acciones en 2022 (plan de opciones liquidado en efectivo, 2002/2006)."
+  },
+  "id": {
+   "actual": {
+    "impreso": "-44,750",
+    "pagina": 36,
+    "linea": "Research and development expenses                                         2      -44,750       -45,119"
+   },
+   "anterior": {
+    "impreso": "-45,119",
+    "pagina": 36,
+    "linea": "Research and development expenses                                         2      -44,750       -45,119"
+   },
+   "nota": "Gasto en cuenta de resultados. El total de I+D incluyendo capitalizado fue 53,108 kEUR (2021: 48,207), nota 8 p.52."
+  },
+  "acciones_diluidas": {
+   "actual": {
+    "impreso": "11,370,000",
+    "pagina": 36,
+    "linea": "(undiluted/diluted)                                                            11,370,000   11,370,000"
+   },
+   "anterior": {
+    "impreso": "11,370,000",
+    "pagina": 36,
+    "linea": "(undiluted/diluted)                                                            11,370,000   11,370,000"
+   },
+   "nota": "Media ponderada no diluida/diluida (idéntica)."
+  },
+  "patrimonio": {
+   "actual": {
+    "impreso": "676,240",
+    "pagina": 37,
+    "linea": "Equity                                                                                                  676,240           603,330"
+   },
+   "anterior": {
+    "impreso": "603,330",
+    "pagina": 37,
+    "linea": "Equity                                                                                                  676,240           603,330"
+   },
+   "nota": "Sin minoritarios."
+  },
+  "deuda": {
+   "actual": {
+    "impreso": "944",
+    "pagina": 37,
+    "linea": "Financial debt                                                                            18                  944           1,181",
+    "componentes": "corriente 944 (+ no corriente '-')"
+   },
+   "anterior": {
+    "impreso": "1,181",
+    "pagina": 37,
+    "linea": "Financial debt                                                                            18                  944           1,181",
+    "componentes": "corriente 1,181 + no corriente 944 (línea: Financial debt                                                                            18                       -          944) = 2,125"
+   },
+   "nota": "2022: corriente 944, no corriente '-' = 944. 2021: 1,181 + 944 = 2,125. Sin arrendamientos."
+  },
+  "arrendamientos": {
+   "actual": {
+    "impreso": "6,630",
+    "pagina": 62,
+    "linea": "Lease liabilities                                                                  6,630             6,719        11,423              10,749",
+    "componentes": "corriente 6,630 + no corriente 11,423 = 18,053"
+   },
+   "anterior": {
+    "impreso": "6,719",
+    "pagina": 62,
+    "linea": "Lease liabilities                                                                  6,630             6,719        11,423              10,749",
+    "componentes": "corriente 6,719 + no corriente 10,749 = 17,468"
+   },
+   "nota": "Nota 19, columnas: corriente 2022/2021 y no corriente 2022/2021. Total 2022 18,053; 2021 17,468 (suma mía de importes impresos)."
+  },
+  "caja": {
+   "actual": {
+    "impreso": "207,901",
+    "pagina": 37,
+    "linea": "Cash and cash equivalents                                                                 14             207,901          253,695"
+   },
+   "anterior": {
+    "impreso": "253,695",
+    "pagina": 37,
+    "linea": "Cash and cash equivalents                                                                 14             207,901          253,695"
+   },
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": {
+    "impreso": "133,757",
+    "pagina": 37,
+    "linea": "Other financial assets                                                                    12             133,757           84,877"
+   },
+   "anterior": {
+    "impreso": "84,877",
+    "pagina": 37,
+    "linea": "Other financial assets                                                                    12             133,757           84,877"
+   },
+   "nota": "Corriente (incluye depósitos a plazo 130,405/84,282 y derivados 3,352/595 según nota 22). No corriente aparte: 1,158/1,040."
+  },
+  "pensiones": {
+   "actual": {
+    "impreso": "4,025",
+    "pagina": 37,
+    "linea": "Pension and similar obligations                                                           16                 4,025          5,785"
+   },
+   "anterior": {
+    "impreso": "5,785",
+    "pagina": 37,
+    "linea": "Pension and similar obligations                                                           16                 4,025          5,785"
+   },
+   "nota": null
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "nota": "sin línea"
+  }
+ }
+}

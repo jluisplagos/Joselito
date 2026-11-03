@@ -1,0 +1,107 @@
+{
+ "libro_origen": "/tmp/claude-0/-home-claude/3503ef25-50f5-5da7-a2bb-15f09b7294f9/scratchpad/personaje_v2/empresas_v2/Vidrala/Vidrala_v63_evaluada.xlsx",
+ "copia_de_prueba": "/tmp/claude-0/-home-claude/3503ef25-50f5-5da7-a2bb-15f09b7294f9/scratchpad/personaje_v2/empresas_v2/Vidrala/comprobacion_conjunta/Vidrala_conj.xlsx",
+ "hash_copia": "6757a6c2e0ff829b57f0246c7d3c1bba00a21ffcd710e1817f7b1f2f0f7ea92a",
+ "combinacion": {
+  "Análisis!B69": 0.3,
+  "Análisis!C69": 0.5,
+  "Análisis!D69": 0.2,
+  "Palancas!C18": 0.1
+ },
+ "rangos_y_evidencia": {
+  "B69:D69": {
+   "hay_base": true,
+   "rango": {
+    "MALO": [
+     0.2,
+     0.3
+    ],
+    "NORMAL": [
+     0.5,
+     0.6
+    ],
+    "BUENO": [
+     0.15,
+     0.2
+    ]
+   },
+   "evidencia": "p(MALO) suelo 0,2: dos de diez años con margen ≤ 0,14 (2016 y 2022: Historia C29, I29), y no menos porque la bajada del MALO es contractual, no accidental: fórmulas de precio ligadas al coste [AR_2025, PDF p.23] y bajadas de precio supuestas por la propia empresa para 2026 [CF_2025, PDF p.48]. Techo 0,3: tres de diez años en la zona del MALO (C29, D29, I29), y no más porque es frecuencia de años sueltos y el único episodio tras el salto de escala (2022) revirtió en dos años con las mismas fórmulas (I29 13,7 % → K29 20,8 %). p(BUENO) techo 0,2: el margen del BUENO se dio en tres de diez años (G29, K29, L29), pero el BUENO pide además Latinoamérica creciendo en euros y en 2025 Brasil cayó de 199,9 a 178,3 mm [CF_2025, PDF p.27] con el real −8 % [CF_2025, PDF p.42]. Suelo 0,15: la combinación ya ocurrió con el perímetro actual (2024: margen 20,8 %, K29, y Brasil 199,9 mm frente a 155,0 pro forma de 2023 [CF_2025, PDF p.27, 29-31]); por debajo trataría como excepcional algo que ya pasó. NORMAL: el resto."
+  },
+  "Palancas!C18": {
+   "hay_base": true,
+   "rango": [
+    0.094,
+    0.138
+   ],
+   "evidencia": "Suelo 0,094: el peor ROIC de diez años (Historia C33, 2016, antes de la compra de 2017 y del salto de escala); con el choque de energía de 2022 rindió 12,5 % (I33); un NORMAL con terminal por debajo del peor año sería el MALO, que ya está en r (B18). Techo 0,138: el ROIC medio de cinco años que la empresa ya logró (C55); por encima supondría un foso que se ensancha mientras la descarbonización no se cobra [AR_2025, PDF p.37] y los precios siguen al coste desde 2027 [CF_2025, PDF p.48]."
+  }
+ },
+ "coherencia_economica": "Una sola historia adversa: la competencia que no conozco erosiona antes el exceso de rentabilidad. El NORMAL conserva solo 1 de los 4,8 puntos (ROIC terminal 0,10) y el MALO gana la probabilidad que pierde el NORMAL (0,3 en su techo). El BUENO queda en 0,2 y no en su suelo de 0,15 porque 0,55 no está en la lista de la hoja; la otra combinación válida (0,25/0,6/0,15) es menos adversa en la escalera. El ROIC del NORMAL va a 0,10 y no a 0,09 porque 0,09 queda fuera del rango (y es el del MALO); 0,10 es el valor de la rejilla de 0,01 más desfavorable dentro del rango. Margen, crecimiento y S2C no se tocan: la erosión supuesta actúa en el terminal y en la frecuencia del MALO, y moverlos también contaría dos veces lo que ya recoge el MALO. Reglas: ROIC 0,09 ≤ 0,10 ≤ 0,14, todos por encima de g; probabilidades de la lista que suman 1; salto del año 11 del NORMAL 0,136 − 0,10 = 3,6 puntos. Opcional con conclusión esperar: su escalera se informa como rango del precio de Sí y no cambia el estado.",
+ "recalculo_forzado_comprobado": true,
+ "precio_actual": 87.9,
+ "resultados_bajo_combinacion": {
+  "B78": 43.799419289849,
+  "C78": 57.0418006415015,
+  "D78": 77.6934090626676,
+  "C83": 57.199407920239,
+  "Motor!B255": "INCOMPLETO",
+  "semaforos": {
+   "fila40": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila41": [
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector"
+   ],
+   "fila42": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila43": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila44": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ]
+  },
+  "errores_gramatica": []
+ },
+ "escalera_bajo_combinacion": {
+  "P_estrella": 52.17441218384274,
+  "precio_si": 52.17441218384274,
+  "precio_escenario_malo": 43.799419289849,
+  "ponderado": 57.199407920239,
+  "zona": "caro",
+  "zona_precio_actual": "caro",
+  "sin_lectura": null,
+  "sin_escalera": null
+ },
+ "escalera_original": {
+  "V": [
+   43.799419289849,
+   57.868191702431,
+   77.6934090626676
+  ],
+  "p": [
+   0.2,
+   0.6,
+   0.2
+  ],
+  "P_estrella": 54.67089171992964,
+  "precio_si": 54.67089171992964,
+  "precio_escenario_malo": 43.799419289849,
+  "ponderado": 59.0194806919619,
+  "zona": "caro",
+  "zona_precio_actual": "caro"
+ },
+ "sobrevive": false,
+ "nota": "superar esta comprobación no es una garantía de seguridad; su fuerza depende de los rangos declarados (S-17)"
+}

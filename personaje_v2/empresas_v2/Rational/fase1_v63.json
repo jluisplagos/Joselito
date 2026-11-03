@@ -1,0 +1,448 @@
+{
+ "empresa": "RATIONAL AG",
+ "ticker": "RAA",
+ "fecha_analisis": "2026-11-03",
+ "sector_texto": "Equipos de cocina profesional (hornos combinados iCombi e iVario) y posventa",
+ "moneda_modelo": "EUR",
+ "unidad": "mm",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "diciembre",
+ "mercado": "XETRA (Börse Frankfurt)",
+ "ratio_adr": null,
+ "sector_damodaran": "Machinery",
+ "anios_fcf_base": 3,
+ "historia": {
+  "anios": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "partidas": {
+   "ventas": {
+    "valores": [
+     613.01,
+     702.1,
+     777.859,
+     843.633,
+     649.587,
+     779.734,
+     1022.345,
+     1125.838,
+     1193.529,
+     1259.558
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.78; 2017 AR2017 p.70; 2018 AR2018 p.70; 2019 AR2019 p.70; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.36; 2023 AR2023 p.36; 2024 AR2024 p.19; 2025 AR2025 p.102",
+    "pagina": null,
+    "nota": null
+   },
+   "ebit": {
+    "valores": [
+     166.511,
+     187.568,
+     205.012,
+     223.375,
+     106.806,
+     160.134,
+     237.51,
+     277.001,
+     314.198,
+     332.552
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.78; 2017 AR2017 p.70; 2018 AR2018 p.70; 2019 AR2019 p.70; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.36; 2023 AR2023 p.36; 2024 AR2024 p.19; 2025 AR2025 p.102",
+    "pagina": null,
+    "nota": "EBIT de la cuenta de resultados (Operating result)."
+   },
+   "da": {
+    "valores": [
+     9.9,
+     11.827,
+     13.977,
+     24.983,
+     29.278,
+     30.314,
+     30.918,
+     32.619,
+     37.394,
+     37.014
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2021 p.44; 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Estado de flujos. Salto en 2019 por IFRS 16 (amortización del derecho de uso)."
+   },
+   "beneficio_neto": {
+    "valores": [
+     127.107,
+     143.001,
+     157.31,
+     171.59,
+     80.096,
+     123.663,
+     185.722,
+     213.968,
+     250.53,
+     253.847
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.78; 2017 AR2017 p.70; 2018 AR2018 p.70; 2019 AR2019 p.70; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.36; 2023 AR2024 p.19 (reexpresado); 2024 AR2024 p.19; 2025 AR2025 p.102",
+    "pagina": null,
+    "nota": "Sin minoritarios: todo atribuible. 2023 reexpresado en AR2024 (IAS 8, activo por impuesto diferido en Suiza)."
+   },
+   "tipo_impositivo": {
+    "valores": [
+     0.2337,
+     0.2355,
+     0.2295,
+     0.2377,
+     0.2176,
+     0.2216,
+     0.2188,
+     0.2467,
+     0.2313,
+     0.2558
+    ],
+    "fuente": "Income taxes ÷ Earnings before taxes; 2016 AR2016 p.78 / AR2016 p.78; 2017 AR2017 p.70 / AR2017 p.70; 2018 AR2018 p.70 / AR2018 p.70; 2019 AR2019 p.70 / AR2019 p.70; 2020 AR2020 p.39 / AR2020 p.39; 2021 AR2021 p.43 / AR2021 p.43; 2022 AR2022 p.36 / AR2022 p.36; 2023 AR2024 p.19 (reexpresado) / AR2023 p.36; 2024 AR2024 p.19 / AR2024 p.19; 2025 AR2025 p.102 / AR2025 p.102",
+    "pagina": null,
+    "nota": "Impuesto 2023 reexpresado (AR2024)."
+   },
+   "cfo": {
+    "valores": [
+     129.49,
+     145.936,
+     144.326,
+     198.638,
+     92.69,
+     172.101,
+     160.618,
+     258.345,
+     283.064,
+     253.079
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2022 p.38 (reexpresado); 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "2021 reexpresado en AR2022 (IAS 8.14: intereses pagados)."
+   },
+   "capex": {
+    "valores": [
+     24.592,
+     34.224,
+     46.166,
+     40.674,
+     33.397,
+     25.82,
+     37.184,
+     34.632,
+     31.618,
+     33.704
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2021 p.44; 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Pagos por inmovilizado material e intangible (positivo)."
+   },
+   "adquisiciones": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 sin línea de compra/venta de negocios en el estado de flujos; 2017 sin línea de compra/venta de negocios en el estado de flujos; 2018 sin línea de compra/venta de negocios en el estado de flujos; 2019 sin línea de compra/venta de negocios en el estado de flujos; 2020 sin línea de compra/venta de negocios en el estado de flujos; 2021 sin línea de compra/venta de negocios en el estado de flujos; 2022 sin línea de compra/venta de negocios en el estado de flujos; 2023 sin línea de compra/venta de negocios en el estado de flujos; 2024 sin línea de compra/venta de negocios en el estado de flujos; 2025 sin línea de compra/venta de negocios en el estado de flujos",
+    "pagina": null,
+    "nota": "0: ningún informe trae línea de adquisiciones de negocios."
+   },
+   "circulante": {
+    "valores": [
+     5.265,
+     9.104,
+     28.15,
+     4.326,
+     -4.869,
+     -10.634,
+     69.498,
+     -16.86,
+     -0.591,
+     31.465
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2022 p.38 (reexpresado); 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Convención del ejercicio: −(variación de inventarios + cuentas a cobrar y otros activos + provisiones + cuentas a pagar y otros pasivos) del estado de flujos; excluye impuestos pagados, intereses y otros no monetarios. 2021 reexpresado (AR2022)."
+   },
+   "intereses": {
+    "valores": [
+     0.826,
+     0.765,
+     0.239,
+     0.273,
+     0.243,
+     0.618,
+     0.647,
+     1.163,
+     1.389,
+     1.393
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2022 p.38 (reexpresado); 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Interest paid; Rational lo presenta en financiación. 2021 reexpresado (AR2022: incluye intereses de arrendamiento)."
+   },
+   "intereses_financiacion": {
+    "valores": [
+     0.826,
+     0.765,
+     0.239,
+     0.273,
+     0.243,
+     0.618,
+     0.647,
+     1.163,
+     1.389,
+     1.393
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.80; 2017 AR2017 p.72; 2018 AR2018 p.72; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2022 p.38 (reexpresado); 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Igual que la fila 15: todo el interés pagado figura en financiación."
+   },
+   "arrendamientos_principal": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     8.58,
+     9.082,
+     8.533,
+     9.078,
+     9.954,
+     11.277,
+     11.812
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 antes de IFRS 16: sin pagos de pasivos por arrendamiento; 2017 antes de IFRS 16: sin pagos de pasivos por arrendamiento; 2018 antes de IFRS 16: sin pagos de pasivos por arrendamiento; 2019 AR2019 p.72; 2020 AR2020 p.40; 2021 AR2021 p.44; 2022 AR2022 p.38; 2023 AR2023 p.38; 2024 AR2024 p.20; 2025 AR2025 p.104",
+    "pagina": null,
+    "nota": "Payments for lease liabilities (desde 2019, IFRS 16, sin reexpresar 2018). En 2020–2021 la línea incluye intereses del arrendamiento."
+   },
+   "sbc": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2017 AR2017: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2018 AR2018: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2019 AR2019: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2020 AR2020: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2021 AR2021: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2022 AR2022: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2023 AR2023: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2024 AR2024: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración); 2025 AR2025: sin acuerdos de pagos basados en acciones (nota de partes vinculadas/remuneración)",
+    "pagina": null,
+    "nota": "0: los diez informes dicen que no hubo acuerdos de pagos basados en acciones; el plan de opciones de 2000 se liquidó en efectivo."
+   },
+   "id": {
+    "valores": [
+     28.842,
+     33.2,
+     38.097,
+     42.017,
+     41.671,
+     45.119,
+     44.75,
+     52.594,
+     65.959,
+     75.774
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.78; 2017 AR2017 p.70; 2018 AR2018 p.70; 2019 AR2019 p.70; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.36; 2023 AR2023 p.36; 2024 AR2025 p.102 (gasto en cuenta de resultados); 2025 AR2025 p.102",
+    "pagina": null,
+    "nota": "Gasto de I+D de la cuenta de resultados (sin la parte capitalizada, pequeña: 1,0 mm en 2024)."
+   },
+   "acciones_diluidas": {
+    "valores": [
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37,
+     11.37
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.78; 2017 AR2017 p.70; 2018 AR2018 p.70; 2019 AR2019 p.70; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.36; 2023 AR2023 p.36; 2024 AR2024 p.19; 2025 AR2025 p.102",
+    "pagina": null,
+    "nota": "11.370.000 acciones; básicas = diluidas."
+   },
+   "patrimonio": {
+    "valores": [
+     396.958,
+     424.527,
+     455.514,
+     517.368,
+     535.091,
+     603.33,
+     676.24,
+     760.789,
+     856.902,
+     940.793
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.79; 2017 AR2017 p.71; 2018 AR2018 p.71; 2019 AR2019 p.71; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.37; 2023 AR2024 p.19 (reexpresado); 2024 AR2024 p.19; 2025 AR2025 p.103",
+    "pagina": null,
+    "nota": "2023 reexpresado en AR2024 (IAS 8)."
+   },
+   "deuda": {
+    "valores": [
+     27.793,
+     14.247,
+     11.918,
+     9.584,
+     4.676,
+     2.125,
+     0.944,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.79; 2017 AR2017 p.71; 2018 AR2018 p.97; 2019 AR2019 p.71; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.37; 2023 AR2023 p.37; 2024 AR2024 p.19 (Financial debt –); 2025 AR2025 p.130 (nota 18: sin deudas con bancos)",
+    "pagina": null,
+    "nota": "Deudas con bancos / Financial debt, corriente + no corriente, sin arrendamientos. Sumas de componentes impresos."
+   },
+   "arrendamientos": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     17.104,
+     18.076,
+     17.468,
+     18.053,
+     28.078,
+     29.797,
+     27.144
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 antes de IFRS 16: sin pasivo por arrendamiento en balance; 2017 antes de IFRS 16: sin pasivo por arrendamiento en balance; 2018 antes de IFRS 16: sin pasivo por arrendamiento en balance; 2019 AR2019 p.96; 2020 AR2020 p.52; 2021 AR2021 p.56; 2022 AR2022 p.62; 2023 AR2023 p.63; 2024 AR2024 p.33; 2025 AR2025 p.130",
+    "pagina": null,
+    "nota": "Lease liabilities corriente + no corriente (sumas de componentes impresos). 0 antes de 2019: los arrendamientos operativos no estaban en balance (discontinuidad en el capital invertido)."
+   },
+   "caja": {
+    "valores": [
+     278.152,
+     268.233,
+     243.044,
+     282.345,
+     257.056,
+     338.572,
+     341.658,
+     405.596,
+     502.53,
+     546.042
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 caja AR2016 p.79 + otros activos financieros corrientes AR2016 p.79; 2017 caja AR2017 p.71 + otros activos financieros corrientes AR2018 p.71 (reclasificado); 2018 caja AR2018 p.71 + otros activos financieros corrientes AR2018 p.71; 2019 caja AR2019 p.71 + otros activos financieros corrientes AR2019 p.71; 2020 caja AR2020 p.39 + otros activos financieros corrientes AR2020 p.39; 2021 caja AR2021 p.43 + otros activos financieros corrientes AR2021 p.43; 2022 caja AR2022 p.37 + otros activos financieros corrientes AR2022 p.37; 2023 caja AR2023 p.37 + otros activos financieros corrientes AR2023 p.37; 2024 caja AR2024 p.19 + otros activos financieros corrientes AR2025 p.103; 2025 caja AR2025 p.103 + otros activos financieros corrientes AR2025 p.103",
+    "pagina": null,
+    "nota": "Convención del ejercicio: Cash and cash equivalents + Other financial assets corrientes (depósitos a plazo y otras inversiones financieras líquidas, con derivados menores). Rational mantiene buena parte de su liquidez en depósitos a más de tres meses. Solo efectivo y equivalentes (mm): 2016 102.5, 2017 196.2, 2018 156.8, 2019 181.4, 2020 231.1, 2021 253.7, 2022 207.9, 2023 138.0, 2024 152.5, 2025 186.3."
+   },
+   "pensiones": {
+    "valores": [
+     3.223,
+     4.542,
+     4.706,
+     6.188,
+     6.508,
+     5.785,
+     4.025,
+     5.1,
+     5.97,
+     6.461
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016 p.79; 2017 AR2018 p.71 (reexpresado); 2018 AR2018 p.71; 2019 AR2019 p.71; 2020 AR2020 p.39; 2021 AR2021 p.43; 2022 AR2022 p.37; 2023 AR2023 p.37; 2024 AR2024 p.19; 2025 AR2025 p.103",
+    "pagina": null,
+    "nota": "Provisiones por pensiones (pasivo neto). 2017 según la reclasificación de AR2018."
+   },
+   "minoritarios": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "Rational AG, Annual Report: 2016 AR2016: sin línea de intereses no dominantes; 2017 AR2017: sin línea de intereses no dominantes; 2018 AR2018: sin línea de intereses no dominantes; 2019 AR2019: sin línea de intereses no dominantes; 2020 AR2020: sin línea de intereses no dominantes; 2021 AR2021: sin línea de intereses no dominantes; 2022 AR2022: sin línea de intereses no dominantes; 2023 AR2023: sin línea de intereses no dominantes; 2024 AR2024: sin línea de intereses no dominantes; 2025 AR2025: sin línea de intereses no dominantes",
+    "pagina": null,
+    "nota": "0: ningún balance trae intereses no dominantes."
+   }
+  }
+ },
+ "precio": {
+  "valor": 630.0,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-11-03",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "boerse.de (Börse Stuttgart), 03-11-2026 09:14:03: 630,00 EUR. Otras referencias vistas: cierre 02-11-2026 638,00 (boerse.de) y XETRA 622,50 (finanzen.net, cierre previo)."
+ },
+ "acciones_diluidas": {
+  "valor": 11.37,
+  "fecha": "2025-12-31",
+  "fuente": "Rational AG, Annual Report 2025, beneficio por acción",
+  "pagina": "102"
+ },
+ "capitalizacion": {
+  "valor": 7163.1,
+  "fecha": "2026-11-03",
+  "fuente": "precio × acciones diluidas (630,00 × 11,37 mm)"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0329,
+  "fuente": "Bund a 10 años, 3,29 % (dpa-AFX vía ariva.de, 02-11-2026 17:34)"
+ },
+ "analisis": {},
+ "geografia": [
+  {
+   "pais": "Germany",
+   "pct": 0.1026
+  },
+  {
+   "pais": "Región · Western Europe",
+   "pct": 0.4256,
+   "nota": "Europe (excl. Germany) 536.064 k€; aproximación: incluye algo de Europa del Este"
+  },
+  {
+   "pais": "Región · North America",
+   "pct": 0.2417
+  },
+  {
+   "pais": "Región · Central and South America",
+   "pct": 0.0672
+  },
+  {
+   "pais": "Región · Asia",
+   "pct": 0.1074
+  },
+  {
+   "pais": "Región · Middle East",
+   "pct": 0.0555,
+   "nota": "Rest of the world 69.925 k€ (Australia, Nueva Zelanda, Oriente Medio, África, sin desglose): Oriente Medio como aproximación; convención del ejercicio"
+  }
+ ],
+ "geografia_fuente": {
+  "fuente": "Rational AG, Annual Report 2025, ventas por región (ubicación del cliente), miles de EUR",
+  "pagina": "117"
+ },
+ "_notas": [
+  "Geografía: ventas por ubicación del cliente 2025 (AR2025 p.117). «Europe (excl. Germany)» → Región · Western Europe (incluye algo de Europa del Este: aproximación). «Rest of the world» (Australia, Nueva Zelanda, Oriente Medio, África, sin desglose) → Región · Middle East como aproximación intermedia entre Australia (1,5 %) y África (7,9 %): convención del ejercicio.",
+  "Historia construida por la pieza 7 (extracción por año con lectores Sonnet; cada cifra comprobada por script en su página; cada año cruzado con el comparativo del informe siguiente). Reexpresiones aplicadas: 2017 (pensiones, otros activos financieros; AR2018), 2021 (CFO, intereses, circulante; AR2022), 2023 (beneficio, impuestos, patrimonio; AR2024).",
+  "Fuente y página de cada año en el campo «fuente» de cada partida."
+ ]
+}

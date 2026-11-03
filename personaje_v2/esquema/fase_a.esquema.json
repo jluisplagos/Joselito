@@ -1,0 +1,1480 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "fase_a.json (Anexo D §D.2)",
+ "type": "object",
+ "required": [
+  "empresa",
+  "ticker",
+  "fecha_analisis",
+  "version_personaje",
+  "cinco_frases",
+  "seis_preguntas",
+  "descalificadores",
+  "foso",
+  "cubo_provisional",
+  "limite_del_modelo",
+  "celdas",
+  "herencia",
+  "escenarios",
+  "observaciones",
+  "lo_que_no_se",
+  "que_no_sabria_munger"
+ ],
+ "properties": {
+  "empresa": {
+   "type": "string",
+   "minLength": 1
+  },
+  "ticker": {
+   "type": [
+    "string",
+    "null"
+   ]
+  },
+  "fecha_analisis": {
+   "type": "string",
+   "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+  },
+  "version_personaje": {
+   "type": "string",
+   "minLength": 1
+  },
+  "cinco_frases": {
+   "type": "string",
+   "minLength": 20
+  },
+  "seis_preguntas": {
+   "type": "object",
+   "properties": {
+    "confio_en_la_gestion": {
+     "type": "string",
+     "minLength": 1
+    },
+    "puede_danar_reputacion": {
+     "type": "string",
+     "minLength": 1
+    },
+    "que_puede_salir_mal": {
+     "type": "string",
+     "minLength": 1
+    },
+    "lo_entiendo": {
+     "type": "string",
+     "minLength": 1
+    },
+    "necesita_capital": {
+     "type": "string",
+     "minLength": 1
+    },
+    "que_caja_espero": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "confio_en_la_gestion",
+    "puede_danar_reputacion",
+    "que_puede_salir_mal",
+    "lo_entiendo",
+    "necesita_capital",
+    "que_caja_espero"
+   ]
+  },
+  "descalificadores": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "nombre": {
+      "type": "string",
+      "minLength": 1
+     },
+     "aplica": {
+      "type": "boolean"
+     },
+     "evidencia": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "required": [
+     "nombre",
+     "aplica",
+     "evidencia"
+    ]
+   },
+   "minItems": 1
+  },
+  "foso": {
+   "type": "object",
+   "properties": {
+    "tipo": {
+     "type": "string",
+     "minLength": 1
+    },
+    "pruebas": {
+     "type": "object",
+     "properties": {
+      "sobrino_idiota": {
+       "type": "string",
+       "minLength": 1
+      },
+      "duracion": {
+       "type": "string",
+       "minLength": 1
+      },
+      "quien_me_mata": {
+       "type": "string",
+       "minLength": 1
+      },
+      "empresa_o_nicho": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "sobrino_idiota",
+      "duracion",
+      "quien_me_mata",
+      "empresa_o_nicho"
+     ]
+    }
+   },
+   "required": [
+    "tipo",
+    "pruebas"
+   ]
+  },
+  "cubo_provisional": {
+   "type": "string",
+   "enum": [
+    "Sí",
+    "Vigilar",
+    "No",
+    "Demasiado difícil"
+   ]
+  },
+  "limite_del_modelo": {
+   "type": "object",
+   "properties": {
+    "aplica": {
+     "type": "boolean"
+    },
+    "cual": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "L1",
+      "L2",
+      "L3",
+      null
+     ]
+    },
+    "porque": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "aplica"
+   ]
+  },
+  "celdas": {
+   "type": "object",
+   "properties": {
+    "C13": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "C66": {
+     "type": "string",
+     "minLength": 5
+    },
+    "C65": {
+     "type": "string",
+     "minLength": 5
+    },
+    "C12": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "D65": {
+     "type": "string",
+     "minLength": 5
+    },
+    "B66": {
+     "type": "string",
+     "minLength": 5
+    },
+    "C97": {
+     "type": "string",
+     "enum": [
+      "Comprando",
+      "Neutral",
+      "Vendiendo"
+     ]
+    },
+    "Palancas!C43": {
+     "type": "string",
+     "enum": [
+      "No aplica",
+      "Transitorio",
+      "Extraordinario",
+      "Estructural"
+     ]
+    },
+    "C61": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No",
+      "No está claro"
+     ]
+    },
+    "D66": {
+     "type": "string",
+     "minLength": 5
+    },
+    "C17": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "C27": {
+     "type": "string",
+     "enum": [
+      "Expandiendo",
+      "Estable",
+      "Comprimiendo"
+     ]
+    },
+    "C14": {
+     "type": "string",
+     "enum": [
+      "Compounder",
+      "Calidad a precio razonable",
+      "Deep value / especial",
+      "Cíclica / commodity",
+      "Turnaround / situación especial"
+     ]
+    },
+    "C19": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "Palancas!C8": {
+     "type": "string",
+     "enum": [
+      "Último año",
+      "Media del ciclo"
+     ]
+    },
+    "C62": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No · financiación cambia mucho",
+      "No · banco o aseguradora",
+      "No · este tipo de empresa requiere otro método"
+     ]
+    },
+    "C25": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "C56": {
+     "type": "number",
+     "exclusiveMinimum": 0,
+     "maximum": 0.5
+    },
+    "Palancas!C5": {
+     "type": "string",
+     "enum": [
+      "Joven (sin beneficios estables)",
+      "En crecimiento",
+      "Madura en crecimiento",
+      "Madura",
+      "En declive"
+     ]
+    },
+    "Palancas!C9": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "Palancas!C6": {
+     "type": "string",
+     "enum": [
+      "Ninguno",
+      "Financiera (banco o aseguradora)",
+      "Regulada (red, concesión)",
+      "Cíclica o materias primas",
+      "Intangibles (I+D, marca)",
+      "Emergente (riesgo país)",
+      "Multinegocio o conglomerado"
+     ]
+    },
+    "C51": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "C20": {
+     "type": "string",
+     "enum": [
+      "Incert. alta + riesgo bajo",
+      "Ambos bajos",
+      "Riesgo real alto"
+     ]
+    },
+    "C11": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "Palancas!C47": {
+     "type": "string",
+     "enum": [
+      "Ninguna",
+      "ADR o ADS",
+      "Split o contrasplit",
+      "Básicas frente a diluidas",
+      "Fechas distintas",
+      "Otra (explicada en Control maestro)"
+     ]
+    },
+    "C98": {
+     "type": "string",
+     "enum": [
+      "Buena",
+      "Aceptable",
+      "Dudosa"
+     ]
+    },
+    "C18": {
+     "type": "string",
+     "enum": [
+      "Sí",
+      "No"
+     ]
+    },
+    "Palancas!C10": {
+     "type": [
+      "integer",
+      "null"
+     ],
+     "minimum": 1,
+     "maximum": 20
+    },
+    "B65": {
+     "type": "string",
+     "minLength": 5
+    }
+   },
+   "required": [
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C25",
+    "C27",
+    "C51",
+    "C56",
+    "C61",
+    "C62",
+    "C97",
+    "C98",
+    "B65",
+    "C65",
+    "D65",
+    "B66",
+    "C66",
+    "D66",
+    "Palancas!C5",
+    "Palancas!C6",
+    "Palancas!C8",
+    "Palancas!C9",
+    "Palancas!C10",
+    "Palancas!C43",
+    "Palancas!C47"
+   ],
+   "additionalProperties": false
+  },
+  "herencia": {
+   "type": "object",
+   "properties": {
+    "C11": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C12": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C13": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C14": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C17": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C18": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C19": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C20": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C25": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C27": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C51": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C56": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C61": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C62": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C97": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C98": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "B65": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C65": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "D65": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "B66": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C66": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "D66": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    }
+   },
+   "required": [
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C25",
+    "C27",
+    "C51",
+    "C56",
+    "C61",
+    "C62",
+    "C97",
+    "C98",
+    "B65",
+    "C65",
+    "D65",
+    "B66",
+    "C66",
+    "D66"
+   ],
+   "additionalProperties": false
+  },
+  "escenarios": {
+   "type": "object",
+   "properties": {
+    "MALO": {
+     "type": "object",
+     "properties": {
+      "historia": {
+       "type": "string",
+       "minLength": 20
+      },
+      "mecanismo": {
+       "type": "string",
+       "minLength": 1
+      },
+      "quien_se_queda_la_mejora": {
+       "type": "string",
+       "minLength": 1
+      },
+      "que_lo_pararia": {
+       "type": "string",
+       "minLength": 1
+      },
+      "hechos_en_que_se_apoya": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "historia",
+      "mecanismo",
+      "quien_se_queda_la_mejora",
+      "que_lo_pararia",
+      "hechos_en_que_se_apoya"
+     ]
+    },
+    "NORMAL": {
+     "type": "object",
+     "properties": {
+      "historia": {
+       "type": "string",
+       "minLength": 20
+      },
+      "mecanismo": {
+       "type": "string",
+       "minLength": 1
+      },
+      "quien_se_queda_la_mejora": {
+       "type": "string",
+       "minLength": 1
+      },
+      "que_lo_pararia": {
+       "type": "string",
+       "minLength": 1
+      },
+      "hechos_en_que_se_apoya": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "historia",
+      "mecanismo",
+      "quien_se_queda_la_mejora",
+      "que_lo_pararia",
+      "hechos_en_que_se_apoya"
+     ]
+    },
+    "BUENO": {
+     "type": "object",
+     "properties": {
+      "historia": {
+       "type": "string",
+       "minLength": 20
+      },
+      "mecanismo": {
+       "type": "string",
+       "minLength": 1
+      },
+      "quien_se_queda_la_mejora": {
+       "type": "string",
+       "minLength": 1
+      },
+      "que_lo_pararia": {
+       "type": "string",
+       "minLength": 1
+      },
+      "hechos_en_que_se_apoya": {
+       "type": "array",
+       "items": {
+        "type": "string",
+        "minLength": 1
+       },
+       "minItems": 1
+      }
+     },
+     "required": [
+      "historia",
+      "mecanismo",
+      "quien_se_queda_la_mejora",
+      "que_lo_pararia",
+      "hechos_en_que_se_apoya"
+     ]
+    }
+   },
+   "required": [
+    "MALO",
+    "NORMAL",
+    "BUENO"
+   ]
+  },
+  "observaciones": {
+   "type": "object",
+   "properties": {
+    "C11": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C12": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C13": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C14": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C17": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C18": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C19": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C20": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C25": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C27": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C51": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C56": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C61": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C62": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C97": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C98": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "B65": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C65": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "D65": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "B66": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "C66": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "D66": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C5": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C6": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C8": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C9": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C10": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C43": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    },
+    "Palancas!C47": {
+     "type": "string",
+     "minLength": 30,
+     "maxLength": 900
+    }
+   },
+   "required": [
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C25",
+    "C27",
+    "C51",
+    "C56",
+    "C61",
+    "C62",
+    "C97",
+    "C98",
+    "B65",
+    "C65",
+    "D65",
+    "B66",
+    "C66",
+    "D66",
+    "Palancas!C5",
+    "Palancas!C6",
+    "Palancas!C8",
+    "Palancas!C9",
+    "Palancas!C10",
+    "Palancas!C43",
+    "Palancas!C47"
+   ],
+   "additionalProperties": false
+  },
+  "lo_que_no_se": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  },
+  "que_no_sabria_munger": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "minLength": 1
+   }
+  }
+ }
+}

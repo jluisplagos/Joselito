@@ -1,0 +1,1915 @@
+{
+ "$schema": "http://json-schema.org/draft-07/schema#",
+ "title": "fase_b.json (Anexo D §D.4)",
+ "type": "object",
+ "required": [
+  "motor",
+  "palancas",
+  "quiebra",
+  "mercado",
+  "exceso_caja",
+  "fcf_normalizado",
+  "desviaciones_justificadas",
+  "limite_del_modelo",
+  "herencia",
+  "dos_errores",
+  "celdas",
+  "observaciones"
+ ],
+ "properties": {
+  "motor": {
+   "type": "string",
+   "enum": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  "palancas": {
+   "type": "object",
+   "properties": {
+    "crecimiento_1_5": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO"
+     ]
+    },
+    "margen_objetivo": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO"
+     ]
+    },
+    "s2c": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO"
+     ]
+    },
+    "g_perpetuo": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO"
+     ]
+    },
+    "roic_lp": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO"
+     ]
+    },
+    "probabilidades": {
+     "type": "object",
+     "properties": {
+      "MALO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "NORMAL": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "BUENO": {
+       "type": "object",
+       "properties": {
+        "referencia_mecanica": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "referencia_no_disponible_motivo": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "valor": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "desviacion": {
+         "type": [
+          "number",
+          "null"
+         ]
+        },
+        "clase": {
+         "type": "string",
+         "enum": [
+          "fundamentada",
+          "convención",
+          "técnico",
+          "sin juicio propio"
+         ]
+        },
+        "confianza": {
+         "type": "string",
+         "enum": [
+          "alta",
+          "media",
+          "baja"
+         ]
+        },
+        "porque": {
+         "type": "string",
+         "minLength": 1
+        },
+        "apoyo": {
+         "type": "string",
+         "minLength": 1
+        },
+        "lo_sustituiria": {
+         "type": "string",
+         "minLength": 1
+        }
+       },
+       "required": [
+        "referencia_mecanica",
+        "valor",
+        "desviacion",
+        "clase",
+        "confianza",
+        "porque",
+        "apoyo",
+        "lo_sustituiria"
+       ]
+      },
+      "argumento": {
+       "type": "string",
+       "minLength": 1
+      }
+     },
+     "required": [
+      "MALO",
+      "NORMAL",
+      "BUENO",
+      "argumento"
+     ]
+    }
+   },
+   "required": [
+    "crecimiento_1_5",
+    "margen_objetivo",
+    "s2c",
+    "g_perpetuo",
+    "roic_lp",
+    "probabilidades"
+   ]
+  },
+  "quiebra": {
+   "type": "object",
+   "properties": {
+    "C22": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "C23": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "disparadores": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "minLength": 1
+     }
+    },
+    "clase": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "fundamentada",
+      "convención",
+      "técnico",
+      "sin juicio propio",
+      null
+     ]
+    },
+    "porque": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "C22",
+    "C23",
+    "disparadores",
+    "porque"
+   ]
+  },
+  "mercado": {
+   "type": "object",
+   "properties": {
+    "C24": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "fuente": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "C24"
+   ]
+  },
+  "exceso_caja": {
+   "type": "object",
+   "properties": {
+    "C76": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "clase": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "fundamentada",
+      "convención",
+      "técnico",
+      "sin juicio propio",
+      null
+     ]
+    },
+    "porque": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "C76",
+    "porque"
+   ]
+  },
+  "fcf_normalizado": {
+   "type": "object",
+   "properties": {
+    "C44": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "clase": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "fundamentada",
+      "convención",
+      "técnico",
+      "sin juicio propio",
+      null
+     ]
+    },
+    "porque": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "C44",
+    "porque"
+   ]
+  },
+  "desviaciones_justificadas": {
+   "type": "array",
+   "items": {
+    "type": "object",
+    "properties": {
+     "comprobacion": {
+      "type": "string",
+      "pattern": "^G[0-9]+[ab]?$"
+     },
+     "escenario": {
+      "type": "string",
+      "minLength": 1
+     },
+     "justificacion": {
+      "type": "string",
+      "minLength": 40
+     },
+     "hechos": {
+      "type": "array",
+      "items": {
+       "type": "string",
+       "minLength": 1
+      },
+      "minItems": 1
+     },
+     "clase": {
+      "type": "string",
+      "enum": [
+       "fundamentada",
+       "convención"
+      ]
+     }
+    },
+    "required": [
+     "comprobacion",
+     "escenario",
+     "justificacion",
+     "hechos",
+     "clase"
+    ]
+   }
+  },
+  "limite_del_modelo": {
+   "type": "object",
+   "properties": {
+    "aplica": {
+     "type": "boolean"
+    },
+    "cual": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "L1",
+      "L2",
+      "L3",
+      null
+     ]
+    },
+    "porque": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "required": [
+    "aplica"
+   ]
+  },
+  "herencia": {
+   "type": "object",
+   "properties": {
+    "B68": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C68": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "D68": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "B69": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C69": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "D69": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    },
+    "C76": {
+     "type": "object",
+     "properties": {
+      "etapa1": {},
+      "decision": {
+       "type": "string",
+       "enum": [
+        "mantiene",
+        "cambia"
+       ]
+      },
+      "motivo": {
+       "type": "string",
+       "enum": [
+        "misma_evidencia",
+        "evidencia_nueva",
+        "razonamiento_corregido",
+        "definicion_o_medicion_distinta"
+       ]
+      },
+      "evidencia_y_razonamiento": {
+       "type": "string",
+       "minLength": 20
+      }
+     },
+     "required": [
+      "etapa1",
+      "decision",
+      "motivo",
+      "evidencia_y_razonamiento"
+     ]
+    }
+   },
+   "required": [
+    "B68",
+    "C68",
+    "D68",
+    "B69",
+    "C69",
+    "D69",
+    "C76"
+   ],
+   "additionalProperties": false
+  },
+  "dos_errores": {
+   "type": "object",
+   "properties": {
+    "mas_cerca_de": {
+     "type": "string",
+     "enum": [
+      "regatear",
+      "pagar cualquier cosa"
+     ]
+    },
+    "porque": {
+     "type": "string",
+     "minLength": 1
+    }
+   },
+   "required": [
+    "mas_cerca_de",
+    "porque"
+   ]
+  },
+  "celdas": {
+   "type": "object",
+   "propertyNames": {
+    "pattern": "^(Palancas!(B14|C14|D14|B15|C15|D15|B16|C16|D16|B18|C18|D18|C22|C23|C24|C44)|(Análisis!)?(B68|C68|D68|B69|C69|D69|C76))$"
+   },
+   "additionalProperties": {
+    "type": [
+     "number",
+     "null"
+    ]
+   },
+   "minProperties": 23,
+   "maxProperties": 23,
+   "allOf": [
+    {
+     "required": [
+      "Palancas!B14",
+      "Palancas!C14",
+      "Palancas!D14",
+      "Palancas!B15",
+      "Palancas!C15",
+      "Palancas!D15",
+      "Palancas!B16",
+      "Palancas!C16",
+      "Palancas!D16",
+      "Palancas!B18",
+      "Palancas!C18",
+      "Palancas!D18",
+      "Palancas!C22",
+      "Palancas!C23",
+      "Palancas!C24",
+      "Palancas!C44"
+     ]
+    },
+    {
+     "anyOf": [
+      {
+       "required": [
+        "B68",
+        "C68",
+        "D68",
+        "B69",
+        "C69",
+        "D69",
+        "C76"
+       ]
+      },
+      {
+       "required": [
+        "Análisis!B68",
+        "Análisis!C68",
+        "Análisis!D68",
+        "Análisis!B69",
+        "Análisis!C69",
+        "Análisis!D69",
+        "Análisis!C76"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "observaciones": {
+   "type": "object",
+   "propertyNames": {
+    "pattern": "^(Palancas!(B14|C14|D14|B15|C15|D15|B16|C16|D16|B18|C18|D18|C22|C23|C24|C44)|(Análisis!)?(B68|C68|D68|B69|C69|D69|C76))$"
+   },
+   "additionalProperties": {
+    "type": "string",
+    "minLength": 30,
+    "maxLength": 900
+   },
+   "minProperties": 23,
+   "maxProperties": 23,
+   "allOf": [
+    {
+     "required": [
+      "Palancas!B14",
+      "Palancas!C14",
+      "Palancas!D14",
+      "Palancas!B15",
+      "Palancas!C15",
+      "Palancas!D15",
+      "Palancas!B16",
+      "Palancas!C16",
+      "Palancas!D16",
+      "Palancas!B18",
+      "Palancas!C18",
+      "Palancas!D18",
+      "Palancas!C22",
+      "Palancas!C23",
+      "Palancas!C24",
+      "Palancas!C44"
+     ]
+    },
+    {
+     "anyOf": [
+      {
+       "required": [
+        "B68",
+        "C68",
+        "D68",
+        "B69",
+        "C69",
+        "D69",
+        "C76"
+       ]
+      },
+      {
+       "required": [
+        "Análisis!B68",
+        "Análisis!C68",
+        "Análisis!D68",
+        "Análisis!B69",
+        "Análisis!C69",
+        "Análisis!D69",
+        "Análisis!C76"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "evaluado": "/tmp/claude-0/-home-claude/3503ef25-50f5-5da7-a2bb-15f09b7294f9/scratchpad/personaje_v2/empresas_v2/Rational/Rational_v63_evaluada.xlsx",
+ "entrada": "/tmp/claude-0/-home-claude/3503ef25-50f5-5da7-a2bb-15f09b7294f9/scratchpad/personaje_v2/empresas_v2/Rational/Rational_v63_datos.xlsx",
+ "fases": [
+  "A",
+  "B",
+  "C"
+ ],
+ "motor": "A",
+ "errores": [],
+ "n_ok": 64
+}

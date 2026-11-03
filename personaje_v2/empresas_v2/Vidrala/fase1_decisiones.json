@@ -1,0 +1,21 @@
+{
+ "_regla": "Arrendamientos = solo pasivos NIIF 16. Los arrendamientos financieros que no son NIIF 16 (leasing de maquinaria de dic-2018; sale & leaseback de 2022, «Finance Lease - Others») van en deuda, como hace la propia Vidrala desde 2024. Importes de las notas de deuda; la suma deuda + arrendamientos no cambia.",
+ "deuda": {
+  "2018": {"valor_mm": 433.767, "fuente": "CF_2019.txt p.59: deuda 2018 sin leasing 392,851 + Finance Lease 40,916 (miles)"},
+  "2019": {"valor_mm": 362.021, "fuente": "CF_2020.txt p.69: deuda 2019 sin leasing 321,593 + Finance Lease 41,352 + 748 − pasivo NIIF 16 1,672 (CF_2019.txt p.19)"},
+  "2020": {"valor_mm": 344.357, "fuente": "CF_2021.txt p.58: deuda 2020 sin leasing 303,788 + Finance Lease 41,135 + 737 − pasivo NIIF 16 1,303 (CF_2020.txt p.20)"},
+  "2021": {"valor_mm": 257.616, "fuente": "CF_2022.txt p.60: deuda 2021 sin leasing 236,942 + Finance Lease 20,462 + 212 (incluye el pasivo NIIF 16, no separado e inmaterial)"},
+  "2022": {"valor_mm": 321.207, "fuente": "CF_2023.txt p.65: deuda 2022 sin leasing 260,915 + Finance Lease 62,638 − NIIF 16 2,346"}
+ },
+ "arrendamientos": {
+  "2017": {"valor_mm": 0.0, "fuente": "CF_2018.txt p.57: antes de NIIF 16; Loans and borrowings 2017 = 476,265 + 11,554 sin línea de Finance Lease"},
+  "2018": {"valor_mm": 0.0, "fuente": "antes de NIIF 16 (aplicada desde 2019 sin reexpresar, CF_2019.txt p.19)"},
+  "2019": {"valor_mm": 1.672, "fuente": "CF_2019.txt p.19: pasivo NIIF 16 924 + 748"},
+  "2020": {"valor_mm": 1.303, "fuente": "CF_2020.txt p.20: pasivo NIIF 16 1,303"},
+  "2021": {"valor_mm": 0.0, "fuente": "CF_2021.txt p.58: pasivo NIIF 16 no separado del balance (derecho de uso 770 miles); queda dentro de la deuda: aproximación declarada"},
+  "2022": {"valor_mm": 2.346, "fuente": "CF_2023.txt p.65: Finance Lease NIIF 16 2022 = 2,346"}
+ },
+ "arrendamientos_principal": {
+  "2017": {"valor_mm": 0.0, "fuente": "antes de NIIF 16: sin pasivos por arrendamiento NIIF 16"}
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "modo": "tras",
+ "con_fase_c": true,
+ "motor": "A",
+ "codigo": 0,
+ "hallazgos": [
+  {
+   "id": "G4",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "ROIC/ROE largo plazo BUENO = 0.22 > C56 + 0,10 = 0.190 (E2; umbral de la plantilla)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar cuánto dura la ventaja y qué la sostiene"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "MALO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo MALO = 0.225 > máximo histórico (0.27162852155756) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "NORMAL",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo NORMAL = 0.26 > máximo histórico (0.27162852155756) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo BUENO = 0.27 > máximo histórico (0.27162852155756) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G8",
+   "categoria": "desviación",
+   "escenario": "MALO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "salto del año 11 MALO = 0.224 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
+  },
+  {
+   "id": "G8",
+   "categoria": "desviación",
+   "escenario": "NORMAL",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "salto del año 11 NORMAL = 0.516 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
+  },
+  {
+   "id": "G8",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "salto del año 11 BUENO = 0.586 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
+  },
+  {
+   "id": "A1",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "S2C medio fuera del rango del sector: ⚠ REVISAR · su capital por euro de ventas está fuera del rango del sector",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa"
+  },
+  {
+   "id": "A2",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "r frente a r mínima: ⚠ REVISAR · tu r (9.0 %) < r mínima (9.0 %)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa (r heredada, S-3)"
+  },
+  {
+   "id": "A3",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "fechas del precio y de las acciones: Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa"
+  },
+  {
+   "id": "A5",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "la palanca más influyente del tornado es la tasa de descuento (r heredada)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "la ficha dice que el valor depende sobre todo de la r exigida"
+  }
+ ],
+ "resumen": {
+  "errores": 0,
+  "limites": 0,
+  "desviaciones": 7,
+  "desviaciones_sin_justificar": 0,
+  "avisos": 4
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "k": 3.0,
+ "convencion": "escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento",
+ "copia_de_prueba": false,
+ "V": [
+  241.381637668309,
+  376.212433524949,
+  505.286711292969
+ ],
+ "p": [
+  0.2,
+  0.6,
+  0.2
+ ],
+ "precio": 630,
+ "P_estrella": 336.8669892675347,
+ "precio_si": 336.8669892675347,
+ "tope_normal_aplicado": false,
+ "precio_escenario_malo": 241.381637668309,
+ "nota_malo": "no es un suelo de valor ni la pérdida máxima posible (D11)",
+ "ponderado": 375.061129907225,
+ "zona": "caro",
+ "G": 57.29121095953546,
+ "L": 19.097070319845137,
+ "g_impl_actual": 0.16477544901604646,
+ "g_impl_si": 0.037113821676265465,
+ "tabla_dcf_inverso_ok": true,
+ "coincide_C86": true,
+ "C156_regla_antigua": 241.381637668309,
+ "distancias": {
+  "a_precio_si": 0.4652904932261354,
+  "a_malo": 0.6168545433836365
+ },
+ "aviso_tasa_descuento_mas_influyente": true,
+ "notas": []
+}

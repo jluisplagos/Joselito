@@ -1,0 +1,440 @@
+{
+ "empresa": "Vidrala, S.A.",
+ "ticker": "VID",
+ "fecha_analisis": "2026-11-03",
+ "sector_texto": "Fabricación y venta de envases de vidrio (botellas y tarros) para bebidas y alimentación, con plantas en España, Portugal, Reino Unido, Irlanda y Brasil",
+ "moneda_modelo": "EUR",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "diciembre",
+ "mercado": "Bolsas de Madrid y Bilbao (Mercado Continuo, BME)",
+ "ratio_adr": null,
+ "sector_damodaran": "Packaging & Container",
+ "precio": {
+  "valor": 87.9,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-11-03",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "Bolsamanía, cotización Vidrala (https://www.bolsamania.com/accion/vidrala), 03/11/2026 10:13; rango del día 87,20-88,00 EUR, -0,45% sobre el cierre anterior. Sin otra fuente contrastada. Hora: 10:13 (hora de España)."
+ },
+ "acciones_diluidas": {
+  "valor": 35.206,
+  "fecha": "2025-12-31",
+  "fuente": "Cuentas consolidadas 2025, nota 27 (beneficio por acción): promedio ponderado 35.205.947 acciones; 35.206.258 acciones emitidas a 31-dic-2025; sin instrumentos dilutivos; autocartera 23.400 acciones",
+  "pagina": "PDF 76 (CF_2025)"
+ },
+ "capitalizacion": {
+  "valor": 3094.6,
+  "fecha": "2026-11-03",
+  "fuente": "Precio 87,90 EUR x 35,206 millones de acciones"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0329,
+  "fuente": "Bund alemán a 10 años, 3,29 % (dpa-AFX vía ariva.de, 02-11-2026 17:34): tasa sin riesgo del euro. El bono español a 10 años (3,94 %, Trading Economics, 02-11-2026) lleva prima de riesgo país, que la plantilla ya suma aparte en «Riesgo país»; usarlo contaría ese riesgo dos veces (corrección del orquestador)."
+ },
+ "geografia": [
+  {
+   "pais": "Región · Western Europe",
+   "pct": 0.487,
+   "nota": "Segmento Vidrala Europe (España, Portugal; mercados de península ibérica, Francia, Bélgica y Alemania): 714,9 M EUR de 1.467,3. Sin desglose por país; se agrupa como Europa occidental."
+  },
+  {
+   "pais": "United Kingdom",
+   "pct": 0.391,
+   "nota": "Segmento Reino Unido e Irlanda (Encirc): 574,1 M EUR; el informe no separa Irlanda, se asigna todo a Reino Unido."
+  },
+  {
+   "pais": "Brazil",
+   "pct": 0.122,
+   "nota": "Segmento Brasil (Vidroporto): 178,3 M EUR."
+  }
+ ],
+ "geografia_fuente": {
+  "fuente": "Cuentas consolidadas 2025, nota 4 (información por segmentos, ingresos 2025); cada segmento abastece su mercado geográfico",
+  "pagina": "PDF 27 (CF_2025)"
+ },
+ "unidad": "mm",
+ "anios_fcf_base": 3,
+ "historia": {
+  "anios": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025
+  ],
+  "partidas": {
+   "ventas": {
+    "valores": [
+     773.57,
+     822.72,
+     955.426,
+     1010.833,
+     988.37,
+     1084.166,
+     1345.61,
+     1427.473,
+     1588.267,
+     1465.16
+    ],
+    "fuente": "2016 CF_2017.txt p.11 (comparativo del informe siguiente); 2017 CF_2018.txt p.10 (comparativo del informe siguiente); 2018 CF_2019.txt p.9 (comparativo del informe siguiente); 2019 CF_2020.txt p.10 (comparativo del informe siguiente); 2020 CF_2021.txt p.4 (comparativo del informe siguiente); 2021 CF_2022.txt p.4 (comparativo del informe siguiente); 2022 CF_2023.txt p.4 (comparativo del informe siguiente); 2023 CF_2024.txt p.4 (comparativo del informe siguiente); 2024 CF_2025.txt p.4 (comparativo del informe siguiente); 2025 CF_2025.txt p.4",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2024: Excluye Servicios prestados (2,910 / 721) y Otros ingresos. 2023 reexpresado por la venta del segmento Italia (operaciones discontinuadas). | 2023: Excluye 'Services rendered' (721/972) y otros ingresos. | 2022: 2021 reexpresado (Nota 2: CO2 reclasificado; no afecta a Revenues). | 2019: Hay ademas 'Services rendered' 104 (2019) fuera de Revenues; no incluido."
+   },
+   "ebit": {
+    "valores": [
+     93.039,
+     117.182,
+     147.082,
+     177.548,
+     194.268,
+     178.573,
+     184.214,
+     267.508,
+     331.008,
+     292.068
+    ],
+    "fuente": "2016 CF_2017.txt p.11 (comparativo del informe siguiente); 2017 CF_2018.txt p.10 (comparativo del informe siguiente); 2018 CF_2019.txt p.9 (comparativo del informe siguiente); 2019 CF_2020.txt p.10 (comparativo del informe siguiente); 2020 CF_2021.txt p.4 (comparativo del informe siguiente); 2021 CF_2022.txt p.4 (comparativo del informe siguiente); 2022 CF_2023.txt p.4 (comparativo del informe siguiente); 2023 CF_2024.txt p.4 (comparativo del informe siguiente); 2024 CF_2025.txt p.4 (comparativo del informe siguiente); 2025 CF_2025.txt p.4",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2024: Operaciones continuadas; 2023 reexpresado (Italia a discontinuadas). | 2020: Resultado de explotación tal como se presenta; incluye amortización y deterioro de inmovilizado. | 2019: EBIT derivado: la cuenta de resultados no imprime subtotal de explotacion; EBIT = BAI - resultado financiero (incluye deterioro y resultado por venta de instrumentos financieros, 2018 sin importe). | 2018: EBIT derivado: la cuenta de resultados no imprime subtotal de explotacion; EBIT = BAI - ingresos financieros - costes financieros. | 2017: EBIT derivado: la cuenta de resultados no imprime subtotal de explotacion; EBIT = BAI - resultado financiero. | 2016: La cuenta de resultados n"
+   },
+   "da": {
+    "valores": [
+     75.557,
+     76.999,
+     88.178,
+     97.091,
+     84.144,
+     86.284,
+     85.46,
+     87.21,
+     117.72,
+     132.948
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2019.txt p.12 (comparativo del informe siguiente); 2019 CF_2020.txt p.13 (comparativo del informe siguiente); 2020 CF_2021.txt p.7 (comparativo del informe siguiente); 2021 CF_2022.txt p.7 (comparativo del informe siguiente); 2022 CF_2023.txt p.7 (comparativo del informe siguiente); 2023 CF_2024.txt p.4 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: Deterioro de inmovilizado va en linea aparte (2,362 / 5,231) y no se incluye. | 2024: El deterioro de activos no corrientes (5,231 / 5,659) va en linea aparte y NO se incluye. 2024 incluye 4,768 de amortizacion de derechos de uso. | 2023: Deterioro de inmovilizado (5,992 / 724) va en linea aparte y no se incluye. | 2022: Excluye 'Impairment of non-current assets' (724 / 2,840), que va en línea aparte. | 2021: Deterioro de activos no corrientes (2,840 en 2021; 1,415 en 2020) va en linea separada y no se incluye. | 2020: Estado de flujos; D&A + deterioro de inmovilizado (líneas separadas en la cuenta de resultados). | 2019: Excluye 'Impairment of non-current asset"
+   },
+   "beneficio_neto": {
+    "valores": [
+     67.671,
+     89.146,
+     115.958,
+     143.275,
+     159.463,
+     145.157,
+     153.686,
+     233.395,
+     298.315,
+     209.341
+    ],
+    "fuente": "2016 CF_2017.txt p.11 (comparativo del informe siguiente); 2017 CF_2018.txt p.10 (comparativo del informe siguiente); 2018 CF_2019.txt p.9 (comparativo del informe siguiente); 2019 CF_2020.txt p.10 (comparativo del informe siguiente); 2020 CF_2021.txt p.4 (comparativo del informe siguiente); 2021 CF_2022.txt p.4 (comparativo del informe siguiente); 2022 CF_2023.txt p.4 (comparativo del informe siguiente); 2023 CF_2024.txt p.4 (comparativo del informe siguiente); 2024 CF_2025.txt p.4 (comparativo del informe siguiente); 2025 CF_2025.txt p.4",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: 2024 incluye 60,065 de operaciones discontinuadas. | 2024: Incluye operaciones discontinuadas (60,065 en 2024; 19,559 en 2023). Continuadas: 238,250 / 213,836."
+   },
+   "tipo_impositivo": {
+    "valores": [
+     0.1967,
+     0.1878,
+     0.1742,
+     0.1368,
+     0.157,
+     0.1586,
+     0.1814,
+     0.204,
+     0.2143,
+     0.2433
+    ],
+    "fuente": "impuestos ÷ resultado antes de impuestos; 2016 CF_2017.txt p.11 (comparativo del informe siguiente) / CF_2017.txt p.11 (comparativo del informe siguiente); 2017 CF_2018.txt p.10 (comparativo del informe siguiente) / CF_2018.txt p.10 (comparativo del informe siguiente); 2018 CF_2019.txt p.9 (comparativo del informe siguiente) / CF_2019.txt p.9 (comparativo del informe siguiente); 2019 CF_2020.txt p.10 (comparativo del informe siguiente) / CF_2020.txt p.10 (comparativo del informe siguiente); 2020 CF_2021.txt p.4 (comparativo del informe siguiente) / CF_2021.txt p.4 (comparativo del informe siguiente); 2021 CF_2022.txt p.4 (comparativo del informe siguiente) / CF_2022.txt p.4 (comparativo del informe siguiente); 2022 CF_2023.txt p.4 (comparativo del informe siguiente) / CF_2023.txt p.4 (comparativo del informe siguiente); 2023 CF_2024.txt p.4 (comparativo del informe siguiente) / CF_2024.txt p.4 (comparativo del informe siguiente); 2024 CF_2025.txt p.4 (comparativo del informe siguiente) / CF_2025.txt p.4 (comparativo del informe siguiente); 2025 CF_2025.txt p.4 / CF_2025.txt p.4",
+    "pagina": null,
+    "nota": "Vacío si el resultado antes de impuestos es ≤ 0."
+   },
+   "cfo": {
+    "valores": [
+     157.604,
+     198.244,
+     202.766,
+     227.348,
+     273.353,
+     280.749,
+     114.124,
+     263.437,
+     362.516,
+     380.287
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2019.txt p.12 (comparativo del informe siguiente); 2019 CF_2020.txt p.13 (comparativo del informe siguiente); 2020 CF_2021.txt p.7 (comparativo del informe siguiente); 2021 CF_2022.txt p.7 (comparativo del informe siguiente); 2022 CF_2023.txt p.7 (comparativo del informe siguiente); 2023 CF_2024.txt p.7 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: El subtotal impreso no cuadra con las lineas del estado de flujos (texto del informe con cifras redondeadas/erratas); se toma el total impreso. | 2024: Incluye flujos de operaciones discontinuadas (nota: 11,558 en 2024; 26,732 en 2023). Los subtotales intermedios impresos del estado de flujos (240,195 / 158,414) no cuadran con las lineas; el total 362,516 si cuadra: 538,510 de ajustes -84,994 -32,100 +11,200 -70,100. | 2022: Subtotal 'Cash used in operating activities' (117,546)/1,749 es previo a intereses e impuestos. | 2021: El texto del flujo esta desordenado: 164,873+1,749-3,260+30-27,800 = 135,592, no 280,749; se toma el total impreso (consistente con 280,7"
+   },
+   "capex": {
+    "valores": [
+     54.904,
+     89.02,
+     101.786,
+     107.169,
+     134.248,
+     109.8,
+     120.2,
+     151.7,
+     168.8,
+     188.503
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2019.txt p.12 (comparativo del informe siguiente); 2019 CF_2020.txt p.13 (comparativo del informe siguiente); 2020 CF_2021.txt p.7 (comparativo del informe siguiente); 2021 CF_2022.txt p.7 (comparativo del informe siguiente); 2022 CF_2023.txt p.7 (comparativo del informe siguiente); 2023 CF_2024.txt p.7 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2024: Las lineas se titulan 'Payments from sale of...' pero son salidas de caja (inversion). | 2023: Las lineas se titulan 'Payments from sale of...' pero son pagos por adquisicion (negativos, en inversion). | 2022: Las etiquetas impresas dicen 'Payments from sale of' pero son pagos por adquisicion (investing negativo). 2021 impreso con punto: (107.604). | 2021: Las dos unicas lineas de inversion suman el total de inversion (109,800 / 134,248); los rotulos del texto parecen errados. | 2020: Los rótulos de las dos líneas de inversión parecen intercambiados; ambas son pagos (negativas) y su suma es el total de actividades de inversión (134,248). | 2019: Las etiquetas de"
+   },
+   "adquisiciones": {
+    "valores": [
+     -0.0,
+     235.233,
+     -0.0,
+     -0.0,
+     -0.0,
+     -0.0,
+     -0.0,
+     254.086,
+     -241.668,
+     -0.0
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2018.txt p.13 (cero: Sin importe 2018 en la linea 'Acquisition of a subsidiary' del flujo; el neto de inversion (101,773) se explica sin ella); 2019 CF_2019.txt p.12 (cero: El estado de flujos no tiene linea de adquisiciones ni ventas de negocios; inversion solo en inmovilizado (suma = total de actividades de inversion).); 2020 CF_2020.txt p.13 (cero: El estado de flujos no tiene línea de adquisiciones ni ventas de negocios; las actividades de inversión son solo las dos líneas de inmovilizado); 2021 CF_2021.txt p.7 (cero: El estado de flujos de inversion solo tiene dos lineas de inmovilizado; no hay pagos ni cobros por adquisicion o venta de negocios); 2022 CF_2022.txt p.7 (cero: El estado de flujos de inversion solo tiene pagos de PP&E e intangibles; sin linea de adquisiciones ni ventas de negocios.); 2023 CF_2024.txt p.7 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Adquisiciones = −(pagos y cobros por negocios del estado de flujos). Notas de los lectores: 2025: Linea 'Acquisition of a subsidiary, net of cash acquired' sin importes en ambos anos. 2024: cobros por venta de negocios (signo positivo = entrada). Adquisicion de empresas por puesta en equivalencia 2024 (6,000) no incluida (no es dependiente). | 2024: 2024 neto = cobros por venta de Italia (230,000 + 11,668 otros efectos de la venta). Aparte, 'Acquisition of companies accounted for using the equity method' (6,000) NO incluido (no es dependiente). Dudoso si 'Other effects of disposal' pertenece a la venta. | 2016: 2016 sin importe ('-'); no hay cobros por venta de negocios."
+   },
+   "circulante": {
+    "valores": [
+     5.6,
+     -20.077,
+     25.544,
+     18.206,
+     -9.125,
+     -1.749,
+     117.546,
+     78.805,
+     -127.84,
+     -0.799
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2019.txt p.12 (comparativo del informe siguiente); 2019 CF_2020.txt p.13 (comparativo del informe siguiente); 2020 CF_2021.txt p.7 (comparativo del informe siguiente); 2021 CF_2022.txt p.7 (comparativo del informe siguiente); 2022 CF_2023.txt p.7 (comparativo del informe siguiente); 2023 CF_2024.txt p.7 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Aumento del circulante = −(suma de las líneas de variación del circulante del estado de flujos): convención del ejercicio. Notas de los lectores: 2025: 2024 'Other current liabilities' impreso '106,417)' (parentesis de apertura omitido): por cuadre del subtotal (-84,994) es -106,417. Variacion de provisiones (3,829 / 20,024) esta en ajustes, no incluida. | 2024: Se da el subtotal impreso 'Cash used in operating activities' porque la linea 'Other current liabilities' 2024 sale con el parentesis mal impreso ('106,417)'). El subtotal cuadra exactamente con la suma de las cinco lineas en ambos anos. Incluye el efecto de conversion (-3,638 / -1,554). | 2023: Incluye la linea de efecto de diferencias de conversion en activos/pasivos operativos (dentro del bloque). 'Changes in provisions' esta en los ajustes y no se i"
+   },
+   "intereses": {
+    "valores": [
+     9.776,
+     7.23,
+     7.917,
+     4.45,
+     5.279,
+     3.26,
+     4.07,
+     12.32,
+     32.1,
+     20.8
+    ],
+    "fuente": "2016 CF_2017.txt p.14 (comparativo del informe siguiente); 2017 CF_2018.txt p.13 (comparativo del informe siguiente); 2018 CF_2019.txt p.12 (comparativo del informe siguiente); 2019 CF_2020.txt p.13 (comparativo del informe siguiente); 2020 CF_2021.txt p.7 (comparativo del informe siguiente); 2021 CF_2022.txt p.7 (comparativo del informe siguiente); 2022 CF_2023.txt p.7 (comparativo del informe siguiente); 2023 CF_2024.txt p.7 (comparativo del informe siguiente); 2024 CF_2025.txt p.7 (comparativo del informe siguiente); 2025 CF_2025.txt p.7",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: Nota 26 muestra gasto por intereses de prestamos 29,253 / 40,046 (devengo). | 2024: Intereses cobrados aparte (11,200 / 7,774) en explotacion. | 2023: Intereses cobrados (7,774/2,870) aparte, no restados."
+   },
+   "intereses_financiacion": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "2016 CF_2016.txt p.9 (cero: Los pagos de intereses figuran en actividades de explotación; el bloque de financiación no tiene línea de intereses); 2017 CF_2017.txt p.14 (cero: Intereses pagados figuran en actividades de explotacion); 2018 CF_2018.txt p.13 (cero: Intereses pagados figuran en actividades de explotacion); 2019 CF_2019.txt p.12 (cero: Los intereses pagados figuran en actividades de explotacion; el bloque de financiacion no los incluye.); 2020 CF_2020.txt p.13 (cero: Los intereses pagados figuran en actividades de explotación); 2021 CF_2021.txt p.7 (cero: Intereses pagados figuran en actividades de explotacion; financiacion no tiene linea de intereses); 2022 CF_2022.txt p.7 (cero: Los intereses pagados figuran en actividades de explotacion; financiacion no tiene linea de intereses.); 2023 CF_2023.txt p.7 (cero: Intereses pagados figuran en actividades de explotacion); 2024 CF_2024.txt p.7 (cero: Los intereses pagados figuran en actividades de explotacion; el bloque de financiacion no tiene linea de intereses); 2025 CF_2025.txt p.7 (cero: Los intereses pagados figuran en actividades de explotacion; financiacion no tiene linea de intereses)",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe)."
+   },
+   "arrendamientos_principal": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.493,
+     0.707,
+     null,
+     null,
+     5.861,
+     6.117,
+     8.314
+    ],
+    "fuente": "2016 CF_2016.txt p.9 (cero: Informe previo a NIIF 16: sin pasivos por arrendamiento; el estado de flujos de financiación no tiene línea de pagos de arrendamiento); 2017 antes de NIIF 16: sin pasivos por arrendamiento NIIF 16 (fase1_decisiones.json); 2018 CF_2018.txt p.13 (cero: El flujo de financiacion no tiene linea de pago de arrendamientos (arrendamiento financiero 2018 sin flujo de principal)); 2019 CF_2020.txt p.20 (comparativo del informe siguiente); 2020 CF_2020.txt p.20; 2021 desconocido; 2022 desconocido; 2023 CF_2024.txt p.56 (comparativo del informe siguiente); 2024 CF_2025.txt p.52 (comparativo del informe siguiente); 2025 CF_2025.txt p.52",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: No hay linea separada en el estado de flujos; es el pago total de la nota 8 (incluye intereses devengados 2,452 / 2,179); principal no impreso. | 2024: El estado de flujos NO tiene linea de arrendamientos; el pago procede de la nota 8 (movimiento del pasivo; puede incluir intereses 2,179 / 2,131, que se acumulan aparte). No se ve en que linea de financiacion va (probable 'Payments of loans and borrowings' o 'Payments from other debts'): riesgo de doble conteo. | 2023: No hay linea de pagos de arrendamientos en financiacion. La nota 8 (pag. 52) muestra pagos del pasivo 5,861 (2023) / 613 (2022) pero no se identifica en que linea del flujo estan (posiblemente 'Pay"
+   },
+   "sbc": {
+    "valores": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "fuente": "2016 desconocido; 2017 desconocido; 2018 desconocido; 2019 desconocido; 2020 desconocido; 2021 desconocido; 2022 desconocido; 2023 desconocido; 2024 desconocido; 2025 desconocido",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: No se encuentra gasto por pagos basados en acciones ni afirmacion expresa de que no existan planes; null. | 2024: No hay plan de pagos en acciones en el texto; no se encontro evidencia explicita de 'cero', asi que null. | 2023: No se encuentra gasto por pagos basados en acciones en el texto; sin evidencia de ausencia, se deja null. | 2022: No se encontro gasto por pagos basados en acciones ni nota de plan en el texto; no se puede demostrar cero. | 2021: No se encuentra nota de pagos basados en acciones; no se puede mostrar cero. | 2020: No se encuentra ningún plan de pagos basados en acciones ni gasto asociado en el texto (solo pagos de incentivos en efectivo, n"
+   },
+   "id": {
+    "valores": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null
+    ],
+    "fuente": "2016 desconocido; 2017 desconocido; 2018 desconocido; 2019 desconocido; 2020 desconocido; 2021 desconocido; 2022 desconocido; 2023 desconocido; 2024 desconocido; 2025 desconocido",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: No se informa gasto de I+D del ano reconocido en resultados (solo politica contable y activo intangible R&D). | 2024: El informe no cifra el gasto de I+D reconocido en resultados (solo activos intangibles 'R&D'). | 2023: El informe solo dice que la investigacion se lleva a gasto; no cifra el gasto de I+D del ano. | 2022: El informe no cifra el gasto de I+D del ejercicio (solo politica contable y columna R&D del inmovilizado). | 2021: No hay gasto de I+D reconocido en resultados en el texto. | 2020: El informe no cifra el gasto de I+D del año (solo política contable de investigación). | 2019: No se informa el gasto de I+D del ejercicio (solo politica contable y c"
+   },
+   "acciones_diluidas": {
+    "valores": [
+     24.728,
+     24.7227,
+     25.966,
+     27.1737,
+     28.366,
+     29.742,
+     30.942,
+     32.263,
+     33.692,
+     35.206
+    ],
+    "fuente": "2016 CF_2017.txt p.72 (comparativo del informe siguiente); 2017 CF_2018.txt p.69 (comparativo del informe siguiente); 2018 CF_2019.txt p.74 (comparativo del informe siguiente); 2019 CF_2020.txt p.78 (comparativo del informe siguiente); 2020 CF_2021.txt p.66 (comparativo del informe siguiente); 2021 CF_2022.txt p.70 (comparativo del informe siguiente); 2022 CF_2023.txt p.75 (comparativo del informe siguiente); 2023 CF_2024.txt p.81 (comparativo del informe siguiente); 2024 CF_2025.txt p.76 (comparativo del informe siguiente); 2025 CF_2025.txt p.76",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: Informe: la sociedad no tiene acciones ordinarias potencialmente dilutivas (diluido = basico). Unidad: miles de acciones. | 2024: Miles de acciones (nota 27: 'The Company has no dilutive potential ordinary shares', pag. 82). Dato 2023 sin ajustar por la ampliacion de capital de abril 2024 (BPA 2023 ajustado 6.89). | 2023: En miles de acciones. Nota 27(b): la sociedad no tiene acciones ordinarias potencialmente dilutivas, diluido = basico. Nota: BPA ajustado por ampliacion liberada de dic-2023 seria 4.71 EUR. | 2022: Miles de acciones. Diluido = basico: 'The Company has no dilutive potential ordinary shares' (p.70). Cifra 2021 sin ajustar por la ampliacion libera"
+   },
+   "patrimonio": {
+    "valores": [
+     474.934,
+     528.136,
+     609.998,
+     723.359,
+     816.156,
+     966.902,
+     1033.624,
+     1224.332,
+     1309.83,
+     1412.878
+    ],
+    "fuente": "2016 CF_2017.txt p.10 (comparativo del informe siguiente); 2017 CF_2018.txt p.9 (comparativo del informe siguiente); 2018 CF_2019.txt p.8 (comparativo del informe siguiente); 2019 CF_2020.txt p.9 (comparativo del informe siguiente); 2020 CF_2021.txt p.3 (comparativo del informe siguiente); 2021 CF_2022.txt p.3 (comparativo del informe siguiente); 2022 CF_2023.txt p.3 (comparativo del informe siguiente); 2023 CF_2024.txt p.3 (comparativo del informe siguiente); 2024 CF_2025.txt p.3 (comparativo del informe siguiente); 2025 CF_2025.txt p.3",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2024: 2023 reexpresado."
+   },
+   "deuda": {
+    "valores": [
+     322.69,
+     529.338,
+     433.767,
+     362.021,
+     344.357,
+     257.616,
+     321.207,
+     553.666,
+     348.408,
+     213.613
+    ],
+    "fuente": "2016 CF_2017.txt p.10 (comparativo del informe siguiente); 2017 CF_2018.txt p.57 (comparativo del informe siguiente); 2018 CF_2019.txt p.59: deuda 2018 sin leasing 392,851 + Finance Lease 40,916 (miles) (fase1_decisiones.json); 2019 CF_2020.txt p.69: deuda 2019 sin leasing 321,593 + Finance Lease 41,352 + 748 − pasivo NIIF 16 1,672 (CF_2019.txt p.19) (fase1_decisiones.json); 2020 CF_2021.txt p.58: deuda 2020 sin leasing 303,788 + Finance Lease 41,135 + 737 − pasivo NIIF 16 1,303 (CF_2020.txt p.20) (fase1_decisiones.json); 2021 CF_2022.txt p.60: deuda 2021 sin leasing 236,942 + Finance Lease 20,462 + 212 (incluye el pasivo NIIF 16, no separado e inmaterial) (fase1_decisiones.json); 2022 CF_2023.txt p.65: deuda 2022 sin leasing 260,915 + Finance Lease 62,638 − NIIF 16 2,346 (fase1_decisiones.json); 2023 CF_2024.txt p.71 (comparativo del informe siguiente); 2024 CF_2025.txt p.66 (comparativo del informe siguiente); 2025 CF_2025.txt p.66",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: Total balance 262,913 (2025) / 393,312 (2024) menos arrendamientos NIIF 16. 'Finance Lease - Others' (60,364 / 60,365) se ha incluido en deuda por no ser NIIF 16 (ambiguo: podria ser arrendamiento). Otros pasivos financieros incluyen pagares (37 M). | 2024: Nota 16 (total 393,312 = balance 300,624+92,688) menos 'Finance Lease - NIIF 16' (44,904). Incluye 'Finance Lease - Others' (60,365): arrendamiento financiero no IFRS 16 tratado como deuda; si se considera arrendamiento, restar. | 2023: Nota 16. 'Other financial liabilities' incluye pagares MARF (25 M pendientes). '1.062' esta impreso con punto (=1,062 miles). Excluye Finance Lease (NIIF 16 y Others). Cuadra "
+   },
+   "arrendamientos": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     1.672,
+     1.303,
+     0.0,
+     2.346,
+     45.382,
+     44.904,
+     49.3
+    ],
+    "fuente": "2016 CF_2016.txt p.5 (cero: Informe previo a NIIF 16; el balance no tiene pasivos por arrendamiento (solo arrendamientos operativos con cuota a gasto, nota 3(f))); 2017 CF_2018.txt p.57: antes de NIIF 16; Loans and borrowings 2017 = 476,265 + 11,554 sin línea de Finance Lease (fase1_decisiones.json); 2018 antes de NIIF 16 (aplicada desde 2019 sin reexpresar, CF_2019.txt p.19) (fase1_decisiones.json); 2019 CF_2019.txt p.19: pasivo NIIF 16 924 + 748 (fase1_decisiones.json); 2020 CF_2020.txt p.20: pasivo NIIF 16 1,303 (fase1_decisiones.json); 2021 CF_2021.txt p.58: pasivo NIIF 16 no separado del balance (derecho de uso 770 miles); queda dentro de la deuda: aproximación declarada (fase1_decisiones.json); 2022 CF_2023.txt p.65: Finance Lease NIIF 16 2022 = 2,346 (fase1_decisiones.json); 2023 CF_2024.txt p.56 (comparativo del informe siguiente); 2024 CF_2025.txt p.66 (comparativo del informe siguiente); 2025 CF_2025.txt p.66",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2024: 41,279 no corriente + 3,625 corriente (2023: 42,269 + 3,113). | 2023: AMBIGUEDAD: 'Finance Lease - Others' (60,857+278 en 2023) no es NIIF 16 segun la nota pero es arrendamiento financiero (posible sale&leaseback); se incluye aqui. Si se excluye, solo NIIF 16: 45,382 (2023) / 2,346 (2022). | 2022: Finance lease de la Nota 15 (sale & leaseback en 2022). | 2021: Solo arrendamiento financiero de maquinaria incluido en Loans and borrowings. Pasivo IFRS 16 de los derechos de uso (activo 770 en 2021 / 1,303 en 2020) no se muestra por separado; no incluido. | 2020: Arrendamiento financiero de maquinaria (leasing comercial 2x20 mm, dic-2018). Además, el pasivo IFRS 16 d"
+   },
+   "caja": {
+    "valores": [
+     0.424,
+     42.043,
+     22.673,
+     28.795,
+     112.178,
+     160.54,
+     154.029,
+     81.506,
+     100.094,
+     108.352
+    ],
+    "fuente": "2016 CF_2017.txt p.9 (comparativo del informe siguiente); 2017 CF_2018.txt p.8 (comparativo del informe siguiente); 2018 CF_2019.txt p.7 (comparativo del informe siguiente); 2019 CF_2020.txt p.8 (comparativo del informe siguiente); 2020 CF_2021.txt p.2 (comparativo del informe siguiente); 2021 CF_2022.txt p.2 (comparativo del informe siguiente); 2022 CF_2023.txt p.2 (comparativo del informe siguiente); 2023 CF_2024.txt p.2 (comparativo del informe siguiente); 2024 CF_2025.txt p.2 (comparativo del informe siguiente); 2025 CF_2025.txt p.2",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Solo efectivo y equivalentes (definición de la plantilla)."
+   },
+   "pensiones": {
+    "valores": [
+     5.099,
+     6.352,
+     6.021,
+     6.244,
+     9.071,
+     6.342,
+     0.262,
+     4.355,
+     6.053,
+     6.223
+    ],
+    "fuente": "2016 CF_2017.txt p.69 (comparativo del informe siguiente); 2017 CF_2018.txt p.66 (comparativo del informe siguiente); 2018 CF_2019.txt p.70 (comparativo del informe siguiente); 2019 CF_2020.txt p.74 (comparativo del informe siguiente); 2020 CF_2021.txt p.62 (comparativo del informe siguiente); 2021 CF_2022.txt p.65 (comparativo del informe siguiente); 2022 CF_2023.txt p.71 (comparativo del informe siguiente); 2023 CF_2024.txt p.77 (comparativo del informe siguiente); 2024 CF_2025.txt p.71 (comparativo del informe siguiente); 2025 CF_2025.txt p.71",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe). Notas de los lectores: 2025: Provision de personal (planes de prestacion definida UK y otras obligaciones con empleados); no se imprime el deficit neto IAS 19 por separado. | 2024: Provision de personal: incluye ademas de las pensiones/medico post-empleo (Encirc, UK) otras obligaciones con empleados (retribucion variable); el informe no separa el deficit neto. | 2023: Nota 19: provision de personal (plan de prestacion definida UK y otras obligaciones con empleados), no desglosada mas. | 2022: Columna 'Personnel' de la Nota 18 (planes de prestacion definida UK y otras obligaciones con empleados). | 2021: Provision de personal incluye planes de prestacion definida UK y otras obligaciones con "
+   },
+   "minoritarios": {
+    "valores": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "fuente": "2016 CF_2016.txt p.5 (cero: El balance no tiene línea de participaciones no dominantes y el beneficio del ejercicio coincide con el atribuible a la dominante); 2017 CF_2017.txt p.10 (cero: El patrimonio del balance solo incluye el atribuido a la dominante (total equity = 528,136); sin participaciones no dominantes); 2018 CF_2018.txt p.9 (cero: Balance sin partida de participaciones no dominantes; todo el resultado y patrimonio atribuido a la dominante); 2019 CF_2019.txt p.8 (cero: El patrimonio del balance es todo atribuible a la dominante y el resultado se atribuye integramente a la dominante; sin participaciones no dominantes.); 2020 CF_2020.txt p.9 (cero: Todo el resultado y el patrimonio se atribuyen a la dominante; el balance no tiene línea de participaciones no dominantes); 2021 CF_2021.txt p.3 (cero: El balance solo muestra patrimonio atribuido a la dominante; todo el resultado es atribuible a la dominante); 2022 CF_2022.txt p.3 (cero: El balance no presenta participaciones no dominantes; todo el patrimonio es de la dominante y resultado total atribuido a la Parent.); 2023 CF_2023.txt p.3 (cero: El balance no presenta participaciones no dominantes: el patrimonio total es el atribuido a la dominante); 2024 CF_2024.txt p.3 (cero: El patrimonio solo muestra 'Equity attributed to equity holders of the Parent' (1,309,830 = activos 2,308,172 - pasivos 998,342); no hay linea de participaciones no dominantes); 2025 CF_2025.txt p.3 (cero: El balance solo muestra 'Equity attributed to equity holders of the Parent' = total equity; sin participaciones no dominantes)",
+    "pagina": null,
+    "nota": "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe)."
+   }
+  }
+ },
+ "analisis": {},
+ "_notas": [
+  "Historia construida por scripts/fase1_historia.py (pieza 7); revisión completa en historia_revision.md.",
+  "La geografía es por segmento operativo (ubicación de plantas, que abastecen su mercado local), no por ubicación exacta del cliente; el informe no da desglose por países.",
+  "Irlanda incluida en Reino Unido; Europe agrupado como Western Europe sin desglose España/Francia/Portugal/Alemania.",
+  "Precio de una única fuente web (Bolsamanía, intradía a las 10:13); no se contrastó con la web de BME.",
+  "Rentabilidad del bono: Trading Economics 2 nov 2026 (cierre de la sesión anterior); no se obtuvo dato del 3 nov.",
+  "Acciones: la empresa no tiene instrumentos dilutivos; se usa el promedio ponderado/emitidas 35,206 M (autocartera de 23.400 acciones ignorada por inmaterial)."
+ ]
+}
