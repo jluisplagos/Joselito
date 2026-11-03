@@ -11,6 +11,8 @@ Rutas:
 - corpus Damodaran (damodaran.md, si existe): /home/user/Joselito/personaje_v2/corpus/damodaran.md
 - modelo y esfuerzo previstos (config_v2.json → modelos): {"modelo": "opus", "esfuerzo": "alto"}
 
+**CORRECCIÓN pedida por el pipeline:** la fase C pide revisar palancas: Una sola vuelta a la fase B. No se toca ninguna celda de la fase A. (1) Palancas!B15 (margen del MALO, hoy 0,08): BAJAR y re-derivar desde hechos dentro de 0,06–0,08. La Observación lee el IEEPA al revés: el reembolso infla FY2026, y sin él el margen EBIT de FY2026 es ≈6,1 % (Análisis C42: 11,06x frente a 14,1x sin reembolso; con C33, EBITDA LTM ≈4.600 y reembolso ≈1.000), ≈7,7 % si solo se descue
+
 ---
 
 # Prompt de la FASE B · Traducción a palancas (modelo: Opus, esfuerzo alto, contexto limpio, uno por empresa)

@@ -1,11 +1,11 @@
 {
- "paso": 10,
+ "paso": 8,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
   "fase_c": 0,
   "auditoria": 0,
-  "vueltas_c_a_b": 0,
+  "vueltas_c_a_b": 1,
   "vueltas_b_a_a": 0,
   "esquema_fase_c_turno1": 1
  },
@@ -71,20 +71,23 @@
   "  $ python3 comprobar_gramatica.py Nike --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 5 (sin justificar 3) · avisos 3 → gramatica.md",
   "  $ python3 validar_esquema.py fase_c.json fase_c --turno 1 --salida esquema_fase_c.json.txt → 0 · VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)",
   "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_c.md fase_c.md → 1 · RESULTADO: FAIL (87)",
-  "2026-11-03T17:52:29 · paso 10 · formato de fase_c.json: corrección 1 a fase_c_turno1"
+  "2026-11-03T17:52:29 · paso 10 · formato de fase_c.json: corrección 1 a fase_c_turno1",
+  "  $ python3 validar_esquema.py fase_c.json fase_c --turno 1 --salida esquema_fase_c.json.txt → 0 · VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_c.md fase_c.md → 0 · RESULTADO: PASS",
+  "2026-11-03T17:53:19 · paso 8 · fase C pide revisar_palancas: vuelve a la fase B una sola vez"
  ],
  "motor": "A",
  "fase_b_escrita": true,
  "fase_c_escrita": false,
- "esperando": "10:fase_c.json",
+ "esperando": "8:fase_b.json",
  "inicio": "2026-11-03T17:12:46",
- "esperando_desde": 1793728349.576532,
+ "esperando_desde": 1793728399.614176,
  "consumidos": {
   "extracto_v63.md": 1793727138.9225616,
   "fase_a.json": 1793727133.7825618,
   "fase_b.json": 1793727570.494552,
-  "fase_c.json": 1793728281.1625357
+  "fase_c.json": 1793728387.6931074
  },
- "motivo_correccion": "citas de fase_c.json o fase_c.md que no superan verify_quotes_v2.py (cita literal, página o principio↔página; ver citas_fase_c.txt): [.quefalta: cuota de mercado de nike en cifras, global, por región o por categoría fasec.revisiondatosausentes.revisados]  <- «largest | [.conclusionafectada: c18 (duración del foso) y palancas!c18:d18; narrativa b65:b66 fasec.revisiondatosausentes.revisados]  <- «largest | [.porque: la cuota diría si la caída es de precio o de pérdida de terreno, y eso pesaría en el roic terminal y en p(malo). para esperar con precio objetivo no es material: el foso lo juzgo con",
+ "motivo_correccion": "la fase C pide revisar palancas: Una sola vuelta a la fase B. No se toca ninguna celda de la fase A. (1) Palancas!B15 (margen del MALO, hoy 0,08): BAJAR y re-derivar desde hechos dentro de 0,06–0,08. La Observación lee el IEEPA al revés: el reembolso infla FY2026, y sin él el margen EBIT de FY2026 es ≈6,1 % (Análisis C42: 11,06x frente a 14,1x sin reembolso; con C33, EBITDA LTM ≈4.600 y reembolso ≈1.000), ≈7,7 % si solo se descue",
  "ficha_valida": true
 }
