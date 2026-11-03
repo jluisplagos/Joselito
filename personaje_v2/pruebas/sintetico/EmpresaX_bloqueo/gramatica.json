@@ -1,0 +1,81 @@
+{
+ "modo": "antes",
+ "con_fase_c": false,
+ "motor": "A",
+ "codigo": 2,
+ "hallazgos": [
+  {
+   "id": "G2",
+   "categoria": "error",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "g para siempre BUENO = 0.09 ≥ tasa del motor 0.09 (N1)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "corregir"
+  },
+  {
+   "id": "G3",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "g para siempre BUENO = 0.09 > rf 0.03 (E1)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el crecimiento nominal esperado de la economía donde vende"
+  },
+  {
+   "id": "G10a",
+   "categoria": "error",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "g para siempre BUENO = 0.09 fuera de la lista",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "corregir"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "MALO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo MALO = 0.2 > máximo histórico (0.200000000000001) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "NORMAL",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo NORMAL = 0.2 > máximo histórico (0.200000000000001) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo BUENO = 0.2 > máximo histórico (0.200000000000001) o Q3 del sector (0.125493291239148)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  }
+ ],
+ "resumen": {
+  "errores": 2,
+  "limites": 0,
+  "desviaciones": 4,
+  "desviaciones_sin_justificar": 0,
+  "avisos": 0
+ }
+}

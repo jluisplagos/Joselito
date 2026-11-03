@@ -1,0 +1,38 @@
+{
+ "k": 3.0,
+ "convencion": "escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento",
+ "copia_de_prueba": false,
+ "V": [
+  15.6334859766655,
+  19.3758310526059,
+  21.7814504341023
+ ],
+ "p": [
+  0.2,
+  0.6,
+  0.2
+ ],
+ "precio": 16,
+ "P_estrella": 18.11562878884521,
+ "precio_si": 18.11562878884521,
+ "tope_normal_aplicado": false,
+ "precio_escenario_malo": 15.6334859766655,
+ "nota_malo": "no es un suelo de valor ni la pérdida máxima posible (D11)",
+ "ponderado": 19.1084859137171,
+ "zona": "cumple_regla_k",
+ "G": 1.4892856873078317,
+ "L": 0.49642856243594197,
+ "g_impl_actual": 0.027151547186704837,
+ "g_impl_si": 0.06191441476852932,
+ "tabla_dcf_inverso_ok": true,
+ "coincide_C86": true,
+ "C156_regla_antigua": 14.3313644352878,
+ "distancias": {
+  "a_precio_si": -0.13222679930282566,
+  "a_malo": 0.022907126458406202
+ },
+ "aviso_tasa_descuento_mas_influyente": false,
+ "notas": [
+  "estado técnico 'INCOMPLETO' (completitud pendiente, normal entre las fases B y C): escalera provisional; el valor no está bloqueado (B252/B254 falsos)"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "paso": 3,
+ "estado_analisis": "pendiente_de_datos",
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 0,
+  "auditoria": 0,
+  "vueltas_c_a_b": 0,
+  "vueltas_b_a_a": 0
+ },
+ "historial": [
+  "  $ bash comprobar_entorno.sh → 0 · autotest precio_de_si: PASA (5 casos + propiedades)",
+  "  $ python3 migrar_v53_a_v63.py EmpresaX_sin_precio_evaluada.xlsx Plantilla_V6.3.xlsx EmpresaX_sin_precio_v63_base.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 rellenar_fase1_v63.py EmpresaX_sin_precio_v63_base.xlsx fase1_v63.json EmpresaX_sin_precio_v63_datos.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_entrada_v63.py EmpresaX_sin_precio_v63_datos.xlsx EmpresaX_sin_precio → 1 · BLOQUEANTE: 2 bloqueantes · 5 necesarios para LISTO·PROVISIONAL · 3 no bloqueantes · motores calculables: []",
+  "  $ python3 diagnostico.py EmpresaX_sin_precio --estado pendiente_de_datos --tipo falta_de_datos --detalle  datos: ningún motor calcula con los datos presentes --paso 3 --que-hace-falta  datos ← fase1_v63.json (Contrato_de_relleno_V6.3.csv) --desde-paso 2 → 0 · diagnóstico escrito: pendiente_de_datos · falta_de_datos · paso 3",
+  "  $ python3 ficha.py EmpresaX_sin_precio --estado pendiente_de_datos → 0 · OK: ficha.json · estado pendiente_de_datos · cubo None · acción None",
+  "  $ python3 validar_esquema.py ficha.json ficha --salida esquema_ficha.json.txt → 0 · VÁLIDO · ficha.json contra ficha.esquema.json",
+  "  $ python3 informe.py EmpresaX_sin_precio → 0 · OK: informe.md (13 secciones)",
+  "  $ python3 resumen.py EmpresaX_sin_precio resumen_v2.csv → 0 · OK: fila de Empresa X (inventada) en /home/user/Joselito/personaje_v2/pruebas/sintetico/resumen_v2.csv",
+  "2026-11-03T18:54:00 · paso 3 · FIN · estado pendiente_de_datos · falta_de_datos: bloqueante en la entrada: Análisis!C37: precio actual (en la moneda del modelo); Historia / datos: ningún motor calcula con los datos presentes"
+ ],
+ "motor": null,
+ "fase_b_escrita": false,
+ "fase_c_escrita": false,
+ "esperando": null,
+ "inicio": "2026-11-03T18:53:42",
+ "ficha_valida": true
+}

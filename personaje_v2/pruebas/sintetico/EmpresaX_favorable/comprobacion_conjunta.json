@@ -1,0 +1,212 @@
+{
+ "libro_origen": "/home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_favorable/EmpresaX_favorable_v63_evaluada.xlsx",
+ "copia_de_prueba": "/home/user/Joselito/personaje_v2/pruebas/sintetico/EmpresaX_favorable/comprobacion_conjunta/EmpresaX_favorable_conj.xlsx",
+ "hash_copia": "4a96f635a4f494677a89361d99e2838b8e495788aed0640765fb700fe4329cb6",
+ "combinacion": {
+  "Palancas!B14": 0.025,
+  "Palancas!C14": 0.065,
+  "Palancas!D14": 0.065,
+  "Palancas!B16": 0.9,
+  "Palancas!C16": 1.2,
+  "Palancas!D16": 1.5,
+  "Análisis!B68": 0.01,
+  "Análisis!C68": 0.02,
+  "Análisis!D68": 0.02,
+  "Palancas!B18": 0.07,
+  "Palancas!C18": 0.07,
+  "Palancas!D18": 0.1,
+  "Análisis!B69": 0.3,
+  "Análisis!C69": 0.5,
+  "Análisis!D69": 0.2
+ },
+ "rangos_y_evidencia": {
+  "crecimiento_1_5·MALO": {
+   "hay_base": true,
+   "rango": [
+    0.024,
+    0.03
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "crecimiento_1_5·NORMAL": {
+   "hay_base": true,
+   "rango": [
+    0.064,
+    0.08
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "crecimiento_1_5·BUENO": {
+   "hay_base": true,
+   "rango": [
+    0.064,
+    0.08
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "s2c·MALO": {
+   "hay_base": true,
+   "rango": [
+    0.88,
+    1.1
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "s2c·NORMAL": {
+   "hay_base": true,
+   "rango": [
+    1.2,
+    1.5
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "s2c·BUENO": {
+   "hay_base": true,
+   "rango": [
+    1.52,
+    1.9
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "g_perpetuo·MALO": {
+   "hay_base": true,
+   "rango": [
+    0.012,
+    0.015
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "g_perpetuo·NORMAL": {
+   "hay_base": true,
+   "rango": [
+    0.02,
+    0.025
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "g_perpetuo·BUENO": {
+   "hay_base": true,
+   "rango": [
+    0.024,
+    0.03
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "roic_lp·MALO": {
+   "hay_base": true,
+   "rango": [
+    0.072,
+    0.09
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "roic_lp·NORMAL": {
+   "hay_base": true,
+   "rango": [
+    0.072,
+    0.09
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "roic_lp·BUENO": {
+   "hay_base": true,
+   "rango": [
+    0.096,
+    0.12
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "probabilidades·MALO": {
+   "hay_base": true,
+   "rango": [
+    0.16,
+    0.2
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "probabilidades·NORMAL": {
+   "hay_base": true,
+   "rango": [
+    0.48,
+    0.6
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  },
+  "probabilidades·BUENO": {
+   "hay_base": true,
+   "rango": [
+    0.16,
+    0.2
+   ],
+   "evidencia": "suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido"
+  }
+ },
+ "coherencia_economica": "si el foso dura menos, bajan a la vez margen y ROIC terminal, y el MALO gana probabilidad (sintético)",
+ "recalculo_forzado_comprobado": true,
+ "precio_actual": 16,
+ "resultados_bajo_combinacion": {
+  "B78": 14.8040942716231,
+  "C78": 16.671327536342,
+  "D78": 18.5949440924466,
+  "C83": 16.4958808681472,
+  "Motor!B255": "INCOMPLETO",
+  "semaforos": {
+   "fila40": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila41": [
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+    "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector"
+   ],
+   "fila42": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila43": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ],
+   "fila44": [
+    "✓ PASA",
+    "✓ PASA",
+    "✓ PASA"
+   ]
+  },
+  "errores_gramatica": []
+ },
+ "escalera_bajo_combinacion": {
+  "P_estrella": 15.861460894450696,
+  "precio_si": 15.861460894450696,
+  "precio_escenario_malo": 14.8040942716231,
+  "ponderado": 16.4958808681472,
+  "zona": "vigilar",
+  "zona_precio_actual": "vigilar",
+  "sin_lectura": null,
+  "sin_escalera": null
+ },
+ "escalera_original": {
+  "V": [
+   15.6334859766655,
+   19.3758310526059,
+   21.7814504341023
+  ],
+  "p": [
+   0.2,
+   0.6,
+   0.2
+  ],
+  "P_estrella": 18.11562878884521,
+  "precio_si": 18.11562878884521,
+  "precio_escenario_malo": 15.6334859766655,
+  "ponderado": 19.1084859137171,
+  "zona": "cumple_regla_k",
+  "zona_precio_actual": "cumple_regla_k"
+ },
+ "sobrevive": false,
+ "nota": "superar esta comprobación no es una garantía de seguridad; su fuerza depende de los rangos declarados (S-17)"
+}

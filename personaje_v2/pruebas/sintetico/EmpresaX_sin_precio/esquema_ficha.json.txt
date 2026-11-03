@@ -1,0 +1,1 @@
+VÁLIDO · ficha.json contra ficha.esquema.json

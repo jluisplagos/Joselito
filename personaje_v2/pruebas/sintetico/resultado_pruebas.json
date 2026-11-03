@@ -1,0 +1,152 @@
+[
+ {
+  "prueba": "pasada completa: termina (código 0)",
+  "ok": true,
+  "detalle": "estado final: concluido · paso 14"
+ },
+ {
+  "prueba": "pasada completa: estado final concluido o pendiente_de_investigacion (según la comprobación conjunta)",
+  "ok": true,
+  "detalle": "estado concluido · intentos {'fase_b': 1, 'fase_c': 0, 'auditoria': 0, 'vueltas_c_a_b': 0, 'vueltas_b_a_a': 0} · auditoría APROBADO"
+ },
+ {
+  "prueba": "pasada completa: existe ficha.json",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "pasada completa: existe informe.md",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "pasada completa: existe precio.json",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "pasada completa: existe resultados.json",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "pasada completa: existe gramatica.json",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "pasada completa: existe verificacion_integridad.txt",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "B.6 punto 5: con conclusión provisional no favorable (zona caro → esperar) la comprobación conjunta no se ejecuta",
+  "ok": true,
+  "detalle": "conclusión provisional esperar · comprobación conjunta: False"
+ },
+ {
+  "prueba": "criterio 1: libro evaluado íntegro (verificar_v63.py = 0)",
+  "ok": true,
+  "detalle": "VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos"
+ },
+ {
+  "prueba": "criterio 7: C104 empieza por «Pendiente de decisión de cartera» y sin porcentaje",
+  "ok": true,
+  "detalle": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 18.12 · zona caro · precio de Sí ≤ "
+ },
+ {
+  "prueba": "criterio 3/§7.3: estado del libro esperado (LISTO · PROVISIONAL o NO LISTO · incompleto por C08)",
+  "ok": true,
+  "detalle": "NO LISTO · evidencias incompletas (5 pendientes) · cálculo completo"
+ },
+ {
+  "prueba": "12(a) favorable: comprobación conjunta ejecutada sobre la copia de prueba y documentada (combinación, rangos, escalera bajo la combinación)",
+  "ok": true,
+  "detalle": "sobrevive False · zona original cumple_regla_k → bajo combinación vigilar"
+ },
+ {
+  "prueba": "12(b) el estado final sigue al resultado de la comprobación conjunta",
+  "ok": true,
+  "detalle": "estado pendiente_de_investigacion · acción None · cubo Vigilar"
+ },
+ {
+  "prueba": "12(d) la combinación no usa la suma del tornado ni la palanca más influyente (solo celdas de hipótesis sin fundamento)",
+  "ok": true,
+  "detalle": "['Palancas!B14', 'Palancas!C14', 'Palancas!D14', 'Palancas!B16', 'Palancas!C16', 'Palancas!D16', 'Análisis!B68', 'Análisis!C68', 'Análisis!D68', 'Palancas!B18', 'Palancas!C18', 'Palancas!D18', 'Análisis!B69', 'Análisis!C69', 'Análisis!D69']"
+ },
+ {
+  "prueba": "12(a) la copia de prueba no sustituye al libro (hash distinto, libro íntegro)",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "B.6: la gramática sobre la copia no marca como error las hipótesis «sin juicio propio» movidas por la combinación (solo reglas [I]/[N]/formato)",
+  "ok": true,
+  "detalle": "[]"
+ },
+ {
+  "prueba": "12(a) sobrevive: la comprobación conjunta se ejecutó y la conclusión favorable sobrevive (zona bajo la combinación cumple la regla, sin errores)",
+  "ok": true,
+  "detalle": "sobrevive True · zona original bajo_malo → bajo combinación bajo_malo · errores []"
+ },
+ {
+  "prueba": "12(b) sobrevive: cierre concluido · comprar · Sí · comprobacion_conjunta_superada · auditoría APROBADO",
+  "ok": true,
+  "detalle": "estado concluido · acción comprar · cubo Sí · resultado comprobacion_conjunta_superada · auditoría APROBADO"
+ },
+ {
+  "prueba": "criterio 7 †: ficha válida contra su esquema y sin diagnóstico vigente en concluido",
+  "ok": true,
+  "detalle": "ficha_valida True · diagnostico.md False"
+ },
+ {
+  "prueba": "D16: ningún porcentaje en C104 ni tamaño de posición en la ficha",
+  "ok": true,
+  "detalle": ""
+ },
+ {
+  "prueba": "10 abstención: sin precio el pipeline se detiene en la entrada, pendiente_de_datos, sin agentes",
+  "ok": true,
+  "detalle": "# Diagnóstico · EmpresaX_sin_precio · 2026-11-03\n\n- **Estado:** `pendiente_de_datos`\n- **Causa (falta_de_datos):** bloqueante en la entrada: Análisis!C37: precio actual (en la moneda del modelo); Historia / datos: ningún motor calcula con los datos presentes\n- **Paso en que se detuvo:** 3 · intentos"
+ },
+ {
+  "prueba": "13 bloqueo: error de gramática persistente → no_entregable tras max_correcciones (nunca APROBADO)",
+  "ok": true,
+  "detalle": "estado no_entregable · intentos B 3 · causa gramática código 2 tras 2 correcciones de la fase B: G2 g para siempre BUENO = 0.09 ≥ tasa del motor 0.09 (N1)"
+ },
+ {
+  "prueba": "14 límite del modelo: C62 «otro método» → modelo_no_aplicable, sin fase B, con ficha e informe",
+  "ok": true,
+  "detalle": "estado modelo_no_aplicable · ficha.cubo_cualitativo Vigilar"
+ },
+ {
+  "prueba": "15 datos ausentes: C34 ausente está en datos_ausentes.json",
+  "ok": true,
+  "detalle": "['Análisis!C34', 'evidencia Análisis!C46', 'evidencia Análisis!C47', 'evidencia Análisis!C48', 'evidencia Análisis!C49', 'evidencia Análisis!C50', 'Palancas!C24', 'Análisis!C88', 'Análisis!C38', 'extracto_v63: Tamaño del mercado (no publicado)', 'extracto_v63: Cuota de mercado']"
+ },
+ {
+  "prueba": "15 datos ausentes: la fase C lo declara material → pendiente_de_datos, acción null, diagnóstico con el dato",
+  "ok": true,
+  "detalle": "estado pendiente_de_datos · causa Análisis!C34: sin la liquidez no puedo descartar que la deuda apriete (sintético)"
+ },
+ {
+  "prueba": "12(c) hipótesis sin base para acotar → pendiente_de_investigacion sin comprobación conjunta",
+  "ok": true,
+  "detalle": "estado pendiente_de_investigacion"
+ },
+ {
+  "prueba": "13 auditoría REPETIR persistente → no_entregable tras 2 correcciones de la fase C (nunca APROBADO por agotamiento)",
+  "ok": true,
+  "detalle": "estado no_entregable · auditoría REPETIR · intentos auditoría 3 · causa auditoría en REPETIR tras agotar las correcciones (nunca se aprueba por agotamiento)"
+ },
+ {
+  "prueba": "13 cada corrección pidió una auditoría y una fase C nuevas (3 auditorías leídas, 3 pasadas de la fase C)",
+  "ok": true,
+  "detalle": "correcciones registradas: 2"
+ },
+ {
+  "prueba": "13 en no_entregable la ficha no lleva cubo ni acción y valida contra su esquema",
+  "ok": true,
+  "detalle": "cubo None · decision None · válida True"
+ }
+]

@@ -1,0 +1,15 @@
+Citas textuales comprobadas: 0 | referencias sueltas: 0
+
+FRAGMENTOS NO ENCONTRADOS (0):
+
+FRAGMENTOS SOLO APROXIMADOS, ≥85 % de palabras en una entrada (0):
+
+PÁGINA NO COINCIDE (0):
+
+REFERENCIAS SUELTAS CON PÁGINA INEXISTENTE (0):
+
+PRINCIPIO CITADO EN UNA PÁGINA QUE NO LO SOSTIENE (0):
+
+CITAS A UN CORPUS AUSENTE o sin documento identificable, no comprobables (0):
+
+RESULTADO: PASS

@@ -1,0 +1,233 @@
+- fase_c.lo_que_dice_la_hoja.dcf_inverso: 0.027151547186704837
+- fase_c.lo_que_dice_la_hoja.palanca_mas_influyente: ROIC / ROE largo plazo (±5 pts)
+- fase_c.lo_que_dice_la_hoja.nota: el tornado es información, no criterio
+- fase_c.desviaciones_justificadas[0].comprobacion: G8
+- fase_c.desviaciones_justificadas[0].escenario: MALO
+- fase_c.desviaciones_justificadas[0].justificacion: Justificación sintética de G8 tras el recálculo: la pérdida de ventaja en el año 11 está en la tesis; Historia fila 33 y extracto p. 3.
+- fase_c.desviaciones_justificadas[0].hechos[0]: Historia fila 33
+- fase_c.desviaciones_justificadas[0].hechos[1]: extracto p. 3
+- fase_c.desviaciones_justificadas[0].clase: fundamentada
+- fase_c.desviaciones_justificadas[1].comprobacion: G8
+- fase_c.desviaciones_justificadas[1].escenario: NORMAL
+- fase_c.desviaciones_justificadas[1].justificacion: Justificación sintética de G8 tras el recálculo: la pérdida de ventaja en el año 11 está en la tesis; Historia fila 33 y extracto p. 3.
+- fase_c.desviaciones_justificadas[1].hechos[0]: Historia fila 33
+- fase_c.desviaciones_justificadas[1].hechos[1]: extracto p. 3
+- fase_c.desviaciones_justificadas[1].clase: fundamentada
+- fase_c.desviaciones_justificadas[2].comprobacion: G8
+- fase_c.desviaciones_justificadas[2].escenario: BUENO
+- fase_c.desviaciones_justificadas[2].justificacion: Justificación sintética de G8 tras el recálculo: la pérdida de ventaja en el año 11 está en la tesis; Historia fila 33 y extracto p. 3.
+- fase_c.desviaciones_justificadas[2].hechos[0]: Historia fila 33
+- fase_c.desviaciones_justificadas[2].hechos[1]: extracto p. 3
+- fase_c.desviaciones_justificadas[2].clase: fundamentada
+- fase_c.autocomprobacion[0].sesgo: anclaje en la etapa 1
+- fase_c.autocomprobacion[0].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[0].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[1].sesgo: anclaje en el precio o en la fuente externa
+- fase_c.autocomprobacion[1].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[1].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[2].sesgo: consistencia y compromiso
+- fase_c.autocomprobacion[2].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[2].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[3].sesgo: historia bonita / viento de cola atribuido a la empresa
+- fase_c.autocomprobacion[3].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[3].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[4].sesgo: optimismo del BUENO frente a la tasa base
+- fase_c.autocomprobacion[4].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[4].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[5].sesgo: doble castigo del mismo riesgo
+- fase_c.autocomprobacion[5].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[5].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[6].sesgo: disponibilidad (lo vívido del extracto)
+- fase_c.autocomprobacion[6].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[6].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[7].sesgo: autoridad (guía de la dirección como hecho)
+- fase_c.autocomprobacion[7].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[7].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[8].sesgo: ¿el MALO es de verdad malo?
+- fase_c.autocomprobacion[8].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[8].cambio: ninguno porque sintético
+- fase_c.autocomprobacion[9].sesgo: lo no numerable que pesa y no está en las palancas
+- fase_c.autocomprobacion[9].hallazgo: nada relevante (sintético)
+- fase_c.autocomprobacion[9].cambio: ninguno porque sintético
+- fase_c.cubo_provisional: Sí
+- fase_c.conclusion_provisional: comprar
+- fase_c.revision_datos_ausentes.revisados[0].dato: evidencia Análisis!C46
+- fase_c.revision_datos_ausentes.revisados[0].que_falta: Caja de las operaciones (media 3–5 años): no verificable
+- fase_c.revision_datos_ausentes.revisados[0].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[0].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[1].dato: evidencia Análisis!C47
+- fase_c.revision_datos_ausentes.revisados[1].que_falta: Capex (positivo; media 3–5 años): no verificable
+- fase_c.revision_datos_ausentes.revisados[1].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[1].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[2].dato: evidencia Análisis!C48
+- fase_c.revision_datos_ausentes.revisados[2].que_falta: Intereses pagados clasificados en financiación · IFRS: no verificable
+- fase_c.revision_datos_ausentes.revisados[2].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[2].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[3].dato: evidencia Análisis!C49
+- fase_c.revision_datos_ausentes.revisados[3].que_falta: Principal de lease liabilities · IFRS 16: no verificable
+- fase_c.revision_datos_ausentes.revisados[3].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[3].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[4].dato: evidencia Análisis!C50
+- fase_c.revision_datos_ausentes.revisados[4].que_falta: Stock-based compensation (SBC): no verificable
+- fase_c.revision_datos_ausentes.revisados[4].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[4].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[5].dato: Palancas!C24
+- fase_c.revision_datos_ausentes.revisados[5].que_falta: tamaño del mercado año 10
+- fase_c.revision_datos_ausentes.revisados[5].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[5].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[6].dato: Análisis!C88
+- fase_c.revision_datos_ausentes.revisados[6].que_falta: P/FCF histórico
+- fase_c.revision_datos_ausentes.revisados[6].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[6].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[7].dato: Análisis!C38
+- fase_c.revision_datos_ausentes.revisados[7].que_falta: valor intrínseco de fuente externa (contraste)
+- fase_c.revision_datos_ausentes.revisados[7].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[7].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[8].dato: extracto_v63: Tamaño del mercado (no publicado)
+- fase_c.revision_datos_ausentes.revisados[8].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[8].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.revision_datos_ausentes.revisados[9].dato: extracto_v63: Cuota de mercado
+- fase_c.revision_datos_ausentes.revisados[9].conclusion_afectada: ninguna celda de juicio
+- fase_c.revision_datos_ausentes.revisados[9].porque: no entra en la escalera ni en los descalificadores (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[0].celda: crecimiento_1_5·MALO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[0].hipotesis: crecimiento_1_5 MALO = 0.03
+- fase_c.fundamento_material.hipotesis_sin_fundamento[0].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[0].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[0].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[1].celda: crecimiento_1_5·NORMAL
+- fase_c.fundamento_material.hipotesis_sin_fundamento[1].hipotesis: crecimiento_1_5 NORMAL = 0.08
+- fase_c.fundamento_material.hipotesis_sin_fundamento[1].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[1].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[1].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[2].celda: crecimiento_1_5·BUENO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[2].hipotesis: crecimiento_1_5 BUENO = 0.08
+- fase_c.fundamento_material.hipotesis_sin_fundamento[2].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[2].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[2].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[3].celda: s2c·MALO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[3].hipotesis: s2c MALO = 1.1
+- fase_c.fundamento_material.hipotesis_sin_fundamento[3].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[3].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[3].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[4].celda: s2c·NORMAL
+- fase_c.fundamento_material.hipotesis_sin_fundamento[4].hipotesis: s2c NORMAL = 1.5
+- fase_c.fundamento_material.hipotesis_sin_fundamento[4].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[4].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[4].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[5].celda: s2c·BUENO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[5].hipotesis: s2c BUENO = 1.9
+- fase_c.fundamento_material.hipotesis_sin_fundamento[5].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[5].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[5].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[6].celda: g_perpetuo·MALO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[6].hipotesis: g_perpetuo MALO = 0.015
+- fase_c.fundamento_material.hipotesis_sin_fundamento[6].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[6].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[6].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[7].celda: g_perpetuo·NORMAL
+- fase_c.fundamento_material.hipotesis_sin_fundamento[7].hipotesis: g_perpetuo NORMAL = 0.025
+- fase_c.fundamento_material.hipotesis_sin_fundamento[7].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[7].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[7].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[8].celda: g_perpetuo·BUENO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[8].hipotesis: g_perpetuo BUENO = 0.03
+- fase_c.fundamento_material.hipotesis_sin_fundamento[8].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[8].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[8].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[9].celda: roic_lp·MALO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[9].hipotesis: roic_lp MALO = 0.09
+- fase_c.fundamento_material.hipotesis_sin_fundamento[9].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[9].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[9].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[10].celda: roic_lp·NORMAL
+- fase_c.fundamento_material.hipotesis_sin_fundamento[10].hipotesis: roic_lp NORMAL = 0.09
+- fase_c.fundamento_material.hipotesis_sin_fundamento[10].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[10].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[10].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[11].celda: roic_lp·BUENO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[11].hipotesis: roic_lp BUENO = 0.12
+- fase_c.fundamento_material.hipotesis_sin_fundamento[11].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[11].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[11].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[12].celda: probabilidades·MALO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[12].hipotesis: probabilidades MALO = 0.2
+- fase_c.fundamento_material.hipotesis_sin_fundamento[12].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[12].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[12].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[13].celda: probabilidades·NORMAL
+- fase_c.fundamento_material.hipotesis_sin_fundamento[13].hipotesis: probabilidades NORMAL = 0.6
+- fase_c.fundamento_material.hipotesis_sin_fundamento[13].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[13].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[13].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.hipotesis_sin_fundamento[14].celda: probabilidades·BUENO
+- fase_c.fundamento_material.hipotesis_sin_fundamento[14].hipotesis: probabilidades BUENO = 0.2
+- fase_c.fundamento_material.hipotesis_sin_fundamento[14].clase: sin juicio propio
+- fase_c.fundamento_material.hipotesis_sin_fundamento[14].porque_sin_fundamento: copiada de la referencia (sintético)
+- fase_c.fundamento_material.hipotesis_sin_fundamento[14].alternativas_defendibles.evidencia: suelo = el peor valor de la propia serie (Historia, sintético); techo = el valor decidido
+- fase_c.fundamento_material.comprobacion_conjunta.coherencia_economica: si el foso dura menos, bajan a la vez margen y ROIC terminal, y el MALO gana probabilidad (sintético)
+- fase_c.fundamento_material.resultado: pendiente_de_investigacion
+- fase_c.fundamento_material.hipotesis_que_mas_condiciona: crecimiento_1_5·MALO
+- fase_c.fundamento_material.que_lo_resolveria: el ROIC por segmento de los informes (sintético)
+- fase_c.estado_analisis: pendiente_de_investigacion
+- fase_c.cubo_final: Vigilar
+- fase_c.escalera.de: precio.json
+- fase_c.decision.condiciones_revision.al_alza: …
+- fase_c.decision.condiciones_revision.a_la_baja: …
+- fase_c.insumos_decision_cartera.zona: cumple_regla_k
+- fase_c.insumos_decision_cartera.fundamento: pendiente de investigación
+- fase_c.insumos_decision_cartera.descalificadores_considerados[0]: deuda que mata
+- fase_c.insumos_decision_cartera.palanca_mas_influyente: ROIC / ROE largo plazo (±5 pts)
+- fase_c.herencia.C93.etapa1: Sí
+- fase_c.herencia.C93.decision: cambia
+- fase_c.herencia.C93.motivo: evidencia_nueva
+- fase_c.herencia.C93.evidencia_y_razonamiento: reescrita en la etapa 2 con la Historia de 10 años (S-8, sintético)
+- fase_c.herencia.B101.etapa1: Tesis v1.
+- fase_c.herencia.B101.decision: cambia
+- fase_c.herencia.B101.motivo: evidencia_nueva
+- fase_c.herencia.B101.evidencia_y_razonamiento: reescrita en la etapa 2 con la Historia de 10 años (S-8, sintético)
+- fase_c.herencia.B102.etapa1: Tesis inversa v1.
+- fase_c.herencia.B102.decision: cambia
+- fase_c.herencia.B102.motivo: evidencia_nueva
+- fase_c.herencia.B102.evidencia_y_razonamiento: reescrita en la etapa 2 con la Historia de 10 años (S-8, sintético)
+- fase_c.herencia.C103.etapa1: Sí
+- fase_c.herencia.C103.decision: cambia
+- fase_c.herencia.C103.motivo: evidencia_nueva
+- fase_c.herencia.C103.evidencia_y_razonamiento: reescrita en la etapa 2 con la Historia de 10 años (S-8, sintético)
+- fase_c.herencia.C104.etapa1: 0% · Vigilar · precio de Sí ≈ 15
+- fase_c.herencia.C104.decision: cambia
+- fase_c.herencia.C104.motivo: evidencia_nueva
+- fase_c.herencia.C104.evidencia_y_razonamiento: reescrita en la etapa 2 con la Historia de 10 años (S-8, sintético)
+- fase_c.comparacion_etapa_1.cubo_v1: 0% · Vigilar · precio de Sí ≈ 15
+- fase_c.comparacion_etapa_1.cubo_v2: Vigilar
+- fase_c.comparacion_etapa_1.por_que_difieren: sintético
+- fase_c.celdas.C93: Sí
+- fase_c.celdas.C103: Sí
+- fase_c.celdas.C104: Pendiente de decisión de cartera · conclusión del personaje: sin conclusión (pendiente de investigación) · zona cumple_regla_k · precio de Sí ≤ 18.12 · precio esc. MALO 15.63 · ponderado 19.11 · fundamento pendiente de investigación
+- fase_c.celdas.B101: Tesis sintética en cinco frases.
+- fase_c.celdas.B102: Tesis inversa sintética con hechos (Historia fila 29).
+- fase_c.celdas.Palancas!A38: Ventas FY siguiente ≥ 1.000 mm (sintético)
+- fase_c.celdas.Palancas!B38: 2028-04-12
+- fase_c.celdas.Palancas!A39: Margen EBIT ≥ 18 % (sintético)
+- fase_c.celdas.Palancas!B39: 2028-04-12
+- fase_c.celdas.Palancas!A40: Acciones diluidas ≤ 100 mm (sintético)
+- fase_c.celdas.Palancas!B40: 2028-04-12
+- fase_c.celdas.Diagnóstico V6!B222: crecimiento_1_5 MALO = 0.03
+- fase_c.celdas.Diagnóstico V6!B223: el ROIC por segmento de los informes (sintético)
+- fase_c.cambiaria_de_cubo.a_si: …
+- fase_c.cambiaria_de_cubo.a_no: …
+- fase_c.cambiaria_de_cubo.a_demasiado_dificil: …
+- fase_c.observaciones.C93: [Clase: fundamentada] [Confianza: media] Hereda: Sí → cambia (evidencia_nueva): reescrita. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.B101: [Clase: fundamentada] [Confianza: media] Hereda: Tesis v1. → cambia (evidencia_nueva): reescrita. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.B102: [Clase: fundamentada] [Confianza: media] Hereda: Tesis inversa v1. → cambia (evidencia_nueva): reescrita. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.C103: [Clase: fundamentada] [Confianza: media] Hereda: Sí → cambia (evidencia_nueva): reescrita. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.C104: [Clase: fundamentada] [Confianza: media] Hereda: 0% · Vigilar · precio de Sí ≈ 15 → cambia (evidencia_nueva): reescrita. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!A38: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!A39: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!A40: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!B38: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!B39: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!B40: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!C38: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!C39: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.observaciones.Palancas!C40: [Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: Historia C46 y extracto p. 3 (sintético). Lo sustituiría: un dato contrario en el próximo informe.
+- fase_c.confianza_global: media
