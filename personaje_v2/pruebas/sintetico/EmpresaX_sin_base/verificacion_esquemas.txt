@@ -1,4 +1,0 @@
-VÁLIDO · fase_a.json contra fase_a.esquema.json
-VÁLIDO · fase_b.json contra fase_b.esquema.json
-VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 2)
-VÁLIDO · ficha.json contra ficha.esquema.json
