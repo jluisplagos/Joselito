@@ -1,4 +1,4 @@
-# Hermès International SCA (RMS) · fase C · turno 1 · 2026-11-04
+# Hermès International SCA (RMS) · fase C · 2026-11-04
 
 Reviso la fase A y la fase B como si fueran de otro: «consider any evidence tending to disconfirm any hypothesis» (PCA p.528; HIM). Cuando escribo «estimación mía», la cifra sale de una réplica aproximada del motor A hecha fuera de la hoja. Reproduce B78:D78 con menos de un 1 % de error y solo la uso para medir efectos y materialidad. La escalera oficial es la de `precio.json`, y no la discuto.
 
@@ -77,3 +77,48 @@ Con la conclusión esperar, `resultado = no_procede` y no hago la comprobación 
 **B69:D69.** Es la que más mueve el precio objetivo (de unos 660 € a 842 €), aunque la conclusión no cambia. De las que no tienen base, la que deja provisional el precio objetivo es C18.
 
 **Qué lo resolvería.** El informe semestral a 30-jun-2026: ventas a tipo constante de Asia-Pacífico sin Japón y margen operativo recurrente del semestre. Con Asia por debajo del 3 % y margen por debajo del 39 %, p(MALO) pasa a 0,3. Para C18, el coste y las ventas del primer año completo de los talleres de Riom y L'Isle-d'Espagnac, que hay que pedir a Relación con Inversores.
+
+## 9. Conclusión (turno 2)
+
+No existe `comprobacion_conjunta.json` porque la comprobación no procedía: `sobrevive = null`, `resultado = no_procede`. **Estado `concluido`** (provisional hasta la auditoría) · **cubo Vigilar** · **acción esperar** · precio objetivo = precio de Sí de `precio.json`, **757,05 €**, provisional: lo condicionan Palancas!C18 y B68:D68, que no tienen base para acotarse. Zona caro: precio 1.312,5 €, precio esc. MALO 542,70 €, ponderado 842,80 €. No hay datos ausentes materiales ni descalificadores. La r (0,09) está por debajo de la r mínima (0,0987) y es la palanca más influyente del tornado; lo digo como información. «Missing out on some opportunity never bothers us» (TCI p.57; HIM).
+
+**C93 = Sí.** g 0,025 está por debajo de la tasa sin riesgo, el terminal reinvierte solo 0,025 ÷ 0,16 del beneficio, el peso del terminal es 0,55 y el salto del año 11 ya supone que el capital nuevo rinde la media del sector. **C103 = Sí:** es una propiedad del negocio, no de si lo compro.
+
+## 10. Tesis (B101)
+
+Hermès fabrica en 79 sitios propios y vende sobre todo en 234 sucursales propias, cobra al comprar y no tiene deuda. Gana un ROIC medio del 57 % con márgenes por encima del 39 % desde 2021. Pero el capital invertido crece más que el beneficio (ROIC de 0,655 a 0,489 en tres años) y Asia se frena. Mis tres escenarios y el ponderado quedan por debajo de 1.312,5 €, y el precio descuenta un 17,2 % anual de crecimiento. Es de los mejores negocios que entiendo y no lo compraría a este precio.
+
+## 11. Tesis inversa (B102)
+
+1. El ROIC baja y la rentabilidad incremental es 0,26–0,35: mi NORMAL, con una marginal de 0,69, es optimista.
+2. Asia-Pacífico sin Japón pasa de +19 % a +5 % cst y su margen de zona del 49 % al 41 % [AR_2025, PDF p. 38, 365].
+3. Las divisas restaron 515 M€ en 2025 [AR_2025, PDF p. 363], y la frase de que los precios las compensan ya no aparece en el informe de 2025.
+4. Gobierno: en la comandita el accionista de fuera no manda, y hay partes vinculadas: «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM).
+5. El capex se ha duplicado, los terrenos suben sin retorno publicado y hay deterioros en tiendas, líneas e inventarios [AR_2025, PDF p. 367, 368, 378].
+6. La contribución francesa puede repetirse: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM).
+7. El precio está por encima incluso del BUENO, y mi MALO no es un suelo: «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM).
+
+## 12. Predicciones (dado el NORMAL)
+
+| | Predicción | Fecha | Prob. |
+|---|---|---|---|
+| A38 | Ventas consolidadas de 2027 por encima de 17.500 M€ (16.002 en 2025) | 2028-03-31 | 0,75 |
+| A39 | Margen operativo recurrente de 2027 del 39 % o más (41,0 % en 2025) | 2028-03-31 | 0,75 |
+| A40 | Talleres de piel de Loupes y Charleville-Mézières inaugurados a 31-dic-2027 | 2028-03-31 | 0,8 |
+
+**B222:** las probabilidades B69:D69 son la hipótesis que más mueve el precio objetivo (de unos 660 € a 842 €). C18 y g, sin base, lo dejan provisional. **B223:** el informe semestral a 30-jun-2026 (ventas a tipo constante de Asia y margen recurrente del semestre) y, para C18, el coste y las ventas del primer año de los talleres de Riom y L'Isle-d'Espagnac, que hay que pedir a Relación con Inversores.
+
+## 13. Qué me haría cambiar de cubo
+
+- **A Sí:** un precio igual o inferior a 757,05 € con el negocio intacto (margen recurrente del 39 % o más, Asia al 3 % cst o más, ROIC de 0,40 o más) y resueltas C18 y g.
+- **A No:** un ROIC por debajo de 0,30 dos años sin pandemia, un margen bruto por debajo del 67 % por precio o un margen recurrente por debajo del 35 %.
+- **A Demasiado difícil:** que el valor pase a depender del consumo chino o del euro, o un cambio de gobierno en la comandita que no sepa juzgar.
+
+## 14. Comparación con la etapa 1
+
+- **Cubo:** Vigilar en las dos.
+- **Precio de Sí:** de unos 520 € a 757,05 €. La diferencia viene de la regla, no de los valores. La regla antigua aplicada a mis números da 542,70 € (C156), solo un 4 % por encima de la v1; el salto lo pone la escalera k = 3, que es una convención experimental.
+- **Celdas que cambian:** C17 pasa a No, C20 a Riesgo real alto y C97 a Neutral.
+- **Tesis inversa:** pierde los datos del semestre de 2026, que no están en mis entradas, y gana la caída del ROIC.
+
+La v1 no se equivocó en el negocio: medía con otra regla y con otros datos.

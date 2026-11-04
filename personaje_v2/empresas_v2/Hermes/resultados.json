@@ -29,10 +29,10 @@
   0.03
  ],
  "estados": {
-  "estado_tecnico_B255": "INCOMPLETO",
-  "causa_tecnica_B256": "Faltan 3 predicciones (Palancas A38:A40)",
+  "estado_tecnico_B255": "COMPLETO Y VÁLIDO",
+  "causa_tecnica_B256": null,
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
-  "estado_libro_B266": "NO LISTO · incompleto (1 pendientes)",
+  "estado_libro_B266": "LISTO · PROVISIONAL (25 estimaciones justificadas)",
   "lectura_precio_B267": "sin margen: tu DCF no da colchón",
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
   "evidencias_B269": "PROVISIONAL · 25 estimación(es) justificada(s) · documentadas 19 de 19 · hipótesis confirmadas 0 de 25",
@@ -40,7 +40,7 @@
   "comparable_B253": true,
   "bloqueo_lectura_B254": false,
   "n_avisos_B260": 4,
-  "n_causas_B261": 5,
+  "n_causas_B261": 4,
   "dcf_inverso_monotono_B193": "✓ PASA"
  },
  "reglas_motor": [
@@ -521,12 +521,12 @@
    "id": "C07",
    "regla": "Predicciones (Palancas A38:A40)",
    "aplica": true,
-   "resultado": "INCOMPLETO",
-   "codigo": "INC|Faltan 3 predicciones (Palancas A38:A40)",
-   "causa": "Faltan 3 predicciones (Palancas A38:A40)",
+   "resultado": "OK",
+   "codigo": null,
+   "causa": null,
    "nivel": 3,
    "prioridad": 9,
-   "n_causa_activa": 5
+   "n_causa_activa": null
   },
   {
    "id": "C08",
@@ -588,8 +588,7 @@
   "1. AVISO · La rentabilidad marginal de los años 1–10 y el ROIC del terminal se separan más de 5 puntos: el salto del año 11 es una hipótesis. Hazla explícita (Diagnóstico V6, bloque 10)",
   "2. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
   "3. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
-  "4. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-  "5. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+  "4. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha"
  ],
  "semaforos": {
   "fila40": [
@@ -856,7 +855,7 @@
   ],
   [
    "Las tres predicciones están escritas",
-   "⛔ TÉCNICO · Faltan 3 predicciones (Palancas A38:A40)"
+   "✓ PASA"
   ],
   [
    "Tipo de empresa y caso especial elegidos",
@@ -868,7 +867,7 @@
   ],
   [
    "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-   "NO LISTO · incompleto (1 pendientes)"
+   "LISTO · PROVISIONAL (25 estimaciones justificadas)"
   ]
  ],
  "salto_anio_11": {
@@ -953,8 +952,8 @@
    ]
   ],
   "mas_influyente": "Tasa de descuento (±1 pt)",
-  "B222": null,
-  "B223": null
+  "B222": "Las probabilidades de los escenarios (Análisis!B69:D69 = 0,2 / 0,6 / 0,2) no tienen una frecuencia ni un mecanismo propio que las fije; dentro de su rango defendible (MALO 0,1–0,4, BUENO 0,1–0,3, por frecuencias de la Historia filas 28–29) mueven el precio de Sí de unos 660 a 842 € según mi estimación. La conclusión esperar no cambia. Sin base para acotarse quedan el ROIC terminal del NORMAL (Palancas!C18 = 0,16) y el g (B68:D68), que dejan el precio objetivo provisional.",
+  "B223": "El informe financiero semestral a 30-jun-2026 (hermes_20260729_rfs_en_eaccessible.pdf, que la fase 1 solo usó para el balance): ventas a tipo constante de Asia-Pacífico sin Japón y margen operativo recurrente del semestre (con Asia por debajo del 3 % cst y margen por debajo del 39 %, p(MALO) pasa a 0,3). Para C18: pregunta a Relación con Inversores por el coste de inversión y las ventas del primer año completo de los talleres de Riom (2024) y L'Isle-d'Espagnac (2025)."
  },
  "precio_referencia_hoja_C156": 542.700114832629,
  "parametros_hoja": {
@@ -1419,9 +1418,9 @@
   "C93": "Sí",
   "C97": "Neutral",
   "C98": "Buena",
-  "B101": "Hermès vende objetos de artesanía escasos bajo su marca, en sus propias tiendas, cobra al contado y gana un 41 % operativo sin deuda. La capacidad de piel crece un taller al año y el precio compensa buena parte de las divisas, así que la caja crece con el negocio. La familia controla el 66,7 % del capital y ha gestionado con prudencia: sin deuda, sin adquisiciones grandes y sin incentivos raros. Es de los mejores negocios que puedo entender. A 1.280 € el precio pide más de lo que da incluso mi escenario bueno: Vigilar, con precio de Sí estimado en unos 520 € a r = 0,09.",
-  "B102": "1) Parte del éxito 2021–2024 fue la ola post-Covid y China: Asia sin Japón (42 % de las ventas) bajó de un margen del 49 % (2023) al 40–41 % y creció solo un 2 % en el primer semestre de 2026; si esa demanda no vuelve, el crecimiento normal está más cerca del 4 % que del 7 %. 2) El poder de precio no es infinito: con el 80 % de las ventas fuera del euro y las divisas restando 3,4 puntos en 2025 y 4,5 en el primer semestre de 2026, cada subida para compensar gasta deseabilidad, que es todo el foso. 3) El accionista no manda: en una comandita por acciones el socio comanditado aprueba cada decisión, y «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM); hay partes vinculadas (RDAI, 20 M€; 11,91 % en Ardian, cuya presidenta está en el Consejo). 4) Los 12.310 M€ de caja rinden un 2 % y no vuelven por recompras amortizadas. 5) El Estado francés repite la contribución excepcional y el tipo efectivo sube al 33–35 %: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM). 6) El capex se ha duplicado en tres años (518 → 1.161 M€) y buena parte va a inmuebles sin retorno publicado. 7) Y el precio: «Since it's so obvious that investing in great companies works, it gets horribly overdone from time to time» (PCA p.214; HIM). La tesis inversa no rompe la calidad; sí rompe el precio.",
+  "B101": "Hermès fabrica objetos de artesanía en 79 sitios propios y los vende sobre todo en sus 234 sucursales, más del 92 % de su venta minorista [AR_2025, PDF p. 17, 20], cobrando al comprar y sin deuda financiera (C33 = −1,35). Con un margen EBIT por encima del 32 % los diez años y del 39 % desde 2021 (Historia fila 29), gana un ROIC medio de cinco años del 57 % (C55) y devuelve la caja en dividendos. Pero el capital invertido crece más que el beneficio (de 5.149 a 8.947 M€ y ROIC de 0,655 a 0,489 en 2022–2025, series de la hoja) y Asia-Pacífico sin Japón, el 42 % de las ventas, se ha frenado (+19, +7 y +5 % cst [AR_2025, PDF p. 38]). Mis escenarios valen 542.70 / 842.11 / 1144.94 € y el ponderado 842.80 €, todos por debajo de 1.312,5 € (C37); el precio descuenta un 17,2 % anual de crecimiento (C86). Es de los mejores negocios que entiendo y no lo compraría a este precio: Vigilar, esperar, con precio de Sí ≤ 757.05 € (provisional por el ROIC terminal y el g).",
+  "B102": "1) El ROIC ya baja: de 0,655 (2022) a 0,489 (2025) con un capital invertido un 74 % mayor (series de la hoja), y la rentabilidad incremental de 2022–2025 es 0,26–0,35; si sigue así, mi NORMAL, con una marginal de 0,69 (Diagnóstico V6 C176), es optimista. 2) Asia-Pacífico sin Japón, el 42 % de las ventas, pasó de +19 % a +5 % cst en dos años y su margen de zona del 49 % (2023) al 41 % (2025), en parte por precios internos [AR_2025, PDF p. 38, 365; AR_2024, PDF p. 371]. 3) El 80 % de las ventas está fuera del euro y la producción en euros [AR_2025, PDF p. 179]; las divisas restaron 515 M€ en 2025 [AR_2025, PDF p. 363] y la frase de que las subidas de precio por región compensan las divisas, presente en los informes de 2021–2024 [AR_2024, PDF p. 346], ya no está en el de 2025. 4) El accionista de fuera no manda en una comandita por acciones, y hay partes vinculadas (RDAI 20 M€, arrendamientos con SAS SIFAH de 124 M€ [AR_2025, PDF p. 396, 397]): «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM). 5) El capex se duplicó (518 a 1.161 M€, Historia), los terrenos subieron 326 M€ sin retorno publicado y hubo 127 M€ de deterioros en tiendas y líneas poco rentables [AR_2025, PDF p. 367, 378]; el deterioro de inventarios pasó de 1.217 a 1.429 M€ [AR_2025, PDF p. 368]. 6) La contribución francesa (331 M€ [AR_2025, PDF p. 374]) puede repetirse: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM); con el tipo de 2025 el precio de Sí bajaría un 5 % (estimación mía). 7) Y el precio: 1.312,5 € está por encima incluso del BUENO (D78 = 1.144,9 €) y pide un 17,2 % anual (C86). Mi MALO no es un suelo: ventas planas y margen del 32 % lo dejarían en unos 440 €. «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). La tesis inversa no rompe la calidad; rompe el precio y pone en duda cuánto rinde el capital nuevo.",
   "C103": "Sí",
-  "C104": "0% · Watchlist · precio de Sí ≈ 520 € (estimado)"
+  "C104": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 757.05 · zona caro · precio de Sí ≤ 757.05 · precio esc. MALO 542.70 · ponderado 842.80 · fundamento: precio objetivo provisional (Palancas!C18 y Análisis!B68:D68 sin base para acotar; comprobación conjunta no procede)"
  }
 }

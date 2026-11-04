@@ -1,4 +1,4 @@
-# Gramática · modo tras · motor A · código 1
+# Gramática · modo tras (con fase C) · motor A · código 0
 
 Categorías (D17): **error** bloquea y ninguna explicación lo aprueba · **límite del modelo** vuelve a la fase A · **desviación** exige evidencia y razonamiento específicos en `desviaciones_justificadas` (justificación ≥ 40 caracteres, `hechos` no vacío, clase fundamentada o convención) · **aviso** informa.
 
@@ -17,9 +17,9 @@ Categorías (D17): **error** bloquea y ninguna explicación lo aprueba · **lím
 - **G5** · MALO · margen objetivo MALO = 0.35 > máximo histórico (0.420793922693081) o Q3 del sector (0.0861044379820458) → justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora · **justificada**
 - **G5** · NORMAL · margen objetivo NORMAL = 0.41 > máximo histórico (0.420793922693081) o Q3 del sector (0.0861044379820458) → justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora · **justificada**
 - **G5** · BUENO · margen objetivo BUENO = 0.42 > máximo histórico (0.420793922693081) o Q3 del sector (0.0861044379820458) → justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora · **justificada**
-- **G8** · MALO · salto del año 11 MALO = 0.324 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **SIN JUSTIFICAR**
-- **G8** · NORMAL · salto del año 11 NORMAL = 0.534 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **SIN JUSTIFICAR**
-- **G8** · BUENO · salto del año 11 BUENO = 0.706 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **SIN JUSTIFICAR**
+- **G8** · MALO · salto del año 11 MALO = 0.324 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **justificada**
+- **G8** · NORMAL · salto del año 11 NORMAL = 0.534 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **justificada**
+- **G8** · BUENO · salto del año 11 BUENO = 0.706 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan → la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11 · **justificada**
 
 ## aviso (3)
 

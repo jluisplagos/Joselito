@@ -1,0 +1,1311 @@
+{
+ "empresa": "Hermès International SCA",
+ "ticker": "RMS (Euronext Paris)",
+ "fecha": "2026-11-04",
+ "moneda": "EUR",
+ "versiones": {
+  "personaje": "v2.2",
+  "plantilla": "V6.3",
+  "gramatica": "0.2.1",
+  "referencias_mecanicas": "0.2.1",
+  "config": "0.2.2"
+ },
+ "hashes": {
+  "libro_entrada": "92786ac87753eef381dc2c2fa85df951250ac0ed3d333252a5f7667ed5f524d1",
+  "libro_evaluado": "fe9e386b8fcb2f823436e96dfe1facc5fb70021d56d852b2aea6c1b5cbf9f7fb"
+ },
+ "estado_analisis": "concluido",
+ "causa_si_no_concluido": null,
+ "etapa1": {
+  "cubo": "0% · Watchlist · precio de Sí ≈ 520 € (estimado)",
+  "cubo_juicio": null,
+  "precio_de_si": null,
+  "fecha": null,
+  "r": 0.09
+ },
+ "cubo": "Vigilar",
+ "cubo_cualitativo_fase_a": "Vigilar",
+ "decision": {
+  "accion": "esperar",
+  "precio_objetivo": 757.05,
+  "condicion": null,
+  "condiciones_revision": {
+   "al_alza": "Subiría el precio de Sí: un informe semestral de 2026 con Asia-Pacífico sin Japón por encima del 7 % cst y margen recurrente del 40 % o más (p(MALO) a 0,1–0,15), o el retorno de los talleres nuevos por encima de 0,35 (C18 hacia 0,25–0,33). Con todo a favor no pasaría de unos 990 €, por debajo del precio actual.",
+   "a_la_baja": "Bajaría el precio de Sí: Asia por debajo del 3 % cst con margen recurrente por debajo del 39 % (p(MALO) a 0,3: unos 690 €), la contribución francesa hecha permanente (−5 %) o un ROIC por debajo del 40 % en 2026–2027 (C18 a 0,12 y S2C del NORMAL a 1,6)."
+  }
+ },
+ "insumos_decision_cartera": {
+  "precio_actual": 1312.5,
+  "zona": "caro",
+  "precio_de_si": 757.05,
+  "precio_escenario_malo": 542.7,
+  "ponderado": 842.8,
+  "distancia_a_precio_si": 0.4232,
+  "distancia_a_malo": 0.5865,
+  "fundamento": "no procede la comprobación conjunta (conclusión esperar); 4 hipótesis sin fundamento suficiente, 2 sin base para acotar (Palancas!C18, Análisis!B68:D68): precio objetivo provisional",
+  "datos_ausentes_materiales": [],
+  "descalificadores_considerados": [
+   "no entiendo de dónde sale la caja: no aplica (C11 = Sí)",
+   "valor dependiente de macro o divisas: no aplica, el valor depende del foso; 80 % de ventas fuera del euro con cobertura del año siguiente [AR_2025, PDF p. 179]",
+   "cambio tecnológico: no aplica",
+   "gestión en la que no confío: no aplica (C98 = Buena), con reservas de gobierno en la comandita",
+   "deuda que puede matar: no aplica (C33 = −1,35)",
+   "reinvertir todo para mantenerse: no aplica (ROIC 0,489 en 2025)",
+   "demasiadas piezas: no aplica",
+   "sin historial o reestructuración: no aplica"
+  ],
+  "r": 0.09,
+  "r_minima": 0.0987,
+  "palanca_mas_influyente": "Tasa de descuento (±1 pt) · información, no criterio"
+ },
+ "motor": "A",
+ "escenarios": {
+  "MALO": {
+   "historia": {
+    "historia": "La demanda de Asia-Pacífico sin Japón, el 42 % de las ventas, se queda floja y las divisas siguen restando, mientras Hermès ya tiene comprometidos talleres hasta 2030, una plantilla que crece y un capex que se ha duplicado. Las ventas crecen menos que los costes y el margen vuelve hacia el 32–36 % de 2016–2020. Si sube precios para compensar las divisas, gasta deseabilidad, que es el foso entero.",
+    "mecanismo": "Apalancamiento operativo al revés: la base de costes de Hermès es artesanal, en Francia, y la red de tiendas se alquila a nueve años; esos costes no se ajustan al ritmo de la demanda. Además casi toda la producción está en euros y el 80 % de las ventas fuera: una divisa fuerte comprime el margen salvo que el precio lo compense.",
+    "quien_se_queda_la_mejora": "No hay mejora que repartir: la pérdida la absorbe el accionista, porque los costes ya están comprometidos. Si la empresa sube precios para defender el margen, a corto se lo queda la empresa y a largo lo paga en deseabilidad.",
+    "que_lo_pararia": "Que Asia-Pacífico sin Japón vuelva a crecer como en el cuarto trimestre de 2025 (+8 % cst), que el margen bruto se mantenga en el 71 % con divisas en contra, o que la empresa frene el capex de red si la venta no lo absorbe.",
+    "hechos_en_que_se_apoya": [
+     "Asia-Pacífico sin Japón 6.702 M€, 42 % de las ventas, +5 % cst en 2025 y +7 % en 2024 frente a +19 % en 2023 [AR_2025, PDF p. 38; AR_2024, PDF p. 38; AR_2023, PDF p. 37]",
+     "Efecto divisa −515 M€ en 2025 y −235 M€ en 2024 [AR_2025, PDF p. 363; AR_2024, PDF p. 369]; 80 % de las ventas fuera del euro y producción en la zona euro [AR_2025, PDF p. 179]",
+     "Plantilla de 25.185 a 26.494 y costes de personal de 2.347 a 2.479 M€ en 2025 [AR_2025, PDF p. 26, 370]",
+     "Talleres de piel comprometidos para 2026, 2027, 2028 y 2030 [AR_2025, PDF p. 29]; plazo de referencia de los alquileres de nueve años [AR_2025, PDF p. 379]",
+     "Capex de 518 M€ en 2022 a 1.161 M€ en 2025 (Historia, fila capex); capital invertido de 5.149 a 8.947 M€ y ROIC del 65,5 % al 48,9 % (series de la hoja)",
+     "Deterioro de inventarios de 1.217 a 1.429 M€ sobre un bruto estable de unos 4.000 M€ [AR_2025, PDF p. 368]; deterioros de 127 M€ en 2025 y 83 M€ en 2024 [AR_2025, PDF p. 367]",
+     "Margen EBIT de 2016–2020 entre el 32,4 % y el 35,7 % (Historia fila 29)"
+    ]
+   },
+   "frase": "La demanda de Asia y las divisas enfrían las ventas mientras la plantilla, los talleres y las tiendas ya comprometidos siguen creciendo; el margen vuelve hacia el de 2016–2020 y la pérdida la absorbe el accionista, porque subir precios para compensarla gastaría deseabilidad.",
+   "probabilidad": 0.2,
+   "valor_accion": 542.700114832629,
+   "palancas": {
+    "g15": {
+     "referencia_mecanica": -0.02,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.03,
+     "desviacion": 0.05,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "m_obj": {
+     "referencia_mecanica": 0.375,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.35,
+     "desviacion": -0.025,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "s2c": {
+     "referencia_mecanica": 3.0,
+     "referencia_no_disponible_motivo": null,
+     "valor": 1.8,
+     "desviacion": -1.2,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "g_inf": {
+     "referencia_mecanica": 0.015,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.015,
+     "desviacion": 0.0,
+     "clase": "convención",
+     "confianza": "media"
+    },
+    "roic_lp": {
+     "referencia_mecanica": 0.09,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.12,
+     "desviacion": 0.03,
+     "clase": "fundamentada",
+     "confianza": "media"
+    }
+   }
+  },
+  "NORMAL": {
+   "historia": {
+    "historia": "Pasado el periodo post-Covid, Hermès crece con su capacidad: una unidad de producción al año y algo de precio, en una red de tiendas que no crece en número sino en tamaño y venta por tienda. El margen se queda en la banda de 2021–2025, el capex sigue alto pero cubierto con holgura por la caja operativa, y lo que sobra vuelve en dividendos.",
+    "mecanismo": "Oferta limitada por la capacidad artesanal: la venta crece al ritmo al que entran artesanos y talleres, y el precio cubre la inflación y parte de las divisas. Como la producción es propia y la venta minorista es casi toda en sucursales propias, la empresa captura el margen de toda la cadena.",
+    "quien_se_queda_la_mejora": "La empresa: el margen bruto subió al 71 % en 2025 con divisas en contra, lo que leo como precio que el cliente acepta. No hay mejora de eficiencia grande que repartir; el margen se mantiene, no sube.",
+    "que_lo_pararia": "Los hechos del MALO (Asia floja con costes comprometidos) o que la capacidad nueva de piel no se venda al ritmo al que se abre.",
+    "hechos_en_que_se_apoya": [
+     "Objetivo de una unidad de producción al año, unos 300 empleos por taller [AR_2025, PDF p. 43]; taller número 24 abierto en 2025 y el 23 en 2024 [AR_2025, PDF p. 8; AR_2024, PDF p. 6]",
+     "Margen operativo recurrente 39,3; 40,5; 42,1; 40,5 y 41,0 % en 2021–2025 [AR_2025, PDF p. 26] y la misma banda en la Historia fila 29",
+     "Margen bruto 71 % en 2025 frente a 70 % con tipos de cambio negativos [AR_2025, PDF p. 41]",
+     "Cuarto trimestre de 2025 +10 % cst [AR_2025, PDF p. 8]; 2025 +8,9 % cst y +5,5 % corriente [AR_2025, PDF p. 363]",
+     "Tiendas exclusivas 294 en 2025 frente a 307 en 2016 [AR_2025, PDF p. 22; AR_2016, PDF p. 27]; capex de red 769 M€ en 2025 para ubicaciones estratégicas y renovación [AR_2025, PDF p. 42]",
+     "CFO 5.374 M€ frente a capex 1.161 M€ en 2025 (Historia); dividendos pagados 2.796 M€ [AR_2025, PDF p. 360]"
+    ]
+   },
+   "frase": "La capacidad artesanal nueva, una unidad de producción al año, más algo de precio sostienen el crecimiento con el margen de los últimos cinco años; la mejora se queda en la empresa porque la oferta limitada deja el poder de precio en casa, y la caja sobrante vuelve en dividendos.",
+   "probabilidad": 0.6,
+   "valor_accion": 842.110506051837,
+   "palancas": {
+    "g15": {
+     "referencia_mecanica": 0.12,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.08,
+     "desviacion": -0.04,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "m_obj": {
+     "referencia_mecanica": 0.41,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.41,
+     "desviacion": 0.0,
+     "clase": "fundamentada",
+     "confianza": "alta"
+    },
+    "s2c": {
+     "referencia_mecanica": 4.0,
+     "referencia_no_disponible_motivo": null,
+     "valor": 2.4,
+     "desviacion": -1.6,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "g_inf": {
+     "referencia_mecanica": 0.025,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.025,
+     "desviacion": 0.0,
+     "clase": "convención",
+     "confianza": "media"
+    },
+    "roic_lp": {
+     "referencia_mecanica": 0.09,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.16,
+     "desviacion": 0.07,
+     "clase": "fundamentada",
+     "confianza": "media"
+    }
+   }
+  },
+  "BUENO": {
+   "historia": {
+    "historia": "La escasez se mantiene y los talleres nuevos se llenan: Hermès crece por encima del mercado como en 2018–2019 y como la piel en 2024–2025, sin tener que bajar el precio para vender más. El capex de red y de capacidad de 2023–2025 empieza a rendir y el ROIC deja de caer.",
+    "mecanismo": "Demanda por encima de la oferta: cada taller nuevo vende lo que produce, y la mezcla se desplaza hacia la piel, el métier más grande. Con la producción y la venta propias, más volumen sobre una red de tiendas que ya existe aprovecha costes fijos.",
+    "quien_se_queda_la_mejora": "La empresa: con lista de clientes por encima de la oferta (inferencia mía; la empresa no publica listas de espera) el precio no tiene que bajar, y la mejora de volumen se queda en casa.",
+    "que_lo_pararia": "La propia capacidad: los artesanos y los talleres se añaden a un ritmo dado (uno al año), así que el BUENO no puede crecer más deprisa de lo que crece la capacidad más el precio; y la sobreexpansión, que gastaría la escasez que lo sostiene.",
+    "hechos_en_que_se_apoya": [
+     "Ventas de Hermès +7,5 % en 2018 y +15,4 % en 2019 (Historia) cuando el mercado que cita la empresa pasó de 262.000 a 260.000 y 281.000 M€ [AR_2017, PDF p. 13; AR_2018, PDF p. 13; AR_2019, PDF p. 13]",
+     "Piel y guarnicionería +18 % cst en 2024 y +13 % cst en 2025; pasa del 43 % al 44 % de las ventas [AR_2024, PDF p. 29; AR_2025, PDF p. 29]",
+     "Talleres de Loupes 2026, Charleville-Mézières 2027, Colombelles 2028 y Les Andelys 2030 [AR_2025, PDF p. 29]",
+     "Artesanos en Francia: casi 6.000 en 2021, casi 7.000 en 2022 y más de 7.300 en 2023 [AR_2021, PDF p. 16; AR_2022, PDF p. 16; AR_2023, PDF p. 16]; 12 escuelas propias [AR_2025, PDF p. 9]",
+     "Precios, volumen y listas de espera no publicados [extracto §4 y §9]: el mecanismo del BUENO es inferencia mía"
+    ]
+   },
+   "frase": "La escasez y los talleres nuevos dejan crecer por encima del mercado, como en 2018–2019 y en piel en 2024–2025; la empresa se queda la mejora porque la demanda supera a la oferta y no tiene que bajar el precio para vender más.",
+   "probabilidad": 0.2,
+   "valor_accion": 1144.94397380665,
+   "palancas": {
+    "g15": {
+     "referencia_mecanica": 0.12,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.115,
+     "desviacion": -0.005,
+     "clase": "fundamentada",
+     "confianza": "baja"
+    },
+    "m_obj": {
+     "referencia_mecanica": 0.41,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.42,
+     "desviacion": 0.01,
+     "clase": "fundamentada",
+     "confianza": "media"
+    },
+    "s2c": {
+     "referencia_mecanica": 4.0,
+     "referencia_no_disponible_motivo": null,
+     "valor": 3.5,
+     "desviacion": -0.5,
+     "clase": "fundamentada",
+     "confianza": "baja"
+    },
+    "g_inf": {
+     "referencia_mecanica": 0.03,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.03,
+     "desviacion": 0.0,
+     "clase": "convención",
+     "confianza": "media"
+    },
+    "roic_lp": {
+     "referencia_mecanica": 0.12,
+     "referencia_no_disponible_motivo": null,
+     "valor": 0.33,
+     "desviacion": 0.21,
+     "clase": "fundamentada",
+     "confianza": "baja"
+    }
+   }
+  }
+ },
+ "valor_ponderado": 842.795121358959,
+ "precio": 1312.5,
+ "escalera": {
+  "k": 3.0,
+  "convencion": "escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento",
+  "copia_de_prueba": false,
+  "V": [
+   542.700114832629,
+   842.110506051837,
+   1144.94397380665
+  ],
+  "p": [
+   0.2,
+   0.6,
+   0.2
+  ],
+  "precio": 1312.5,
+  "P_estrella": 757.0536909228641,
+  "precio_si": 757.0536909228641,
+  "tope_normal_aplicado": false,
+  "precio_escenario_malo": 542.700114832629,
+  "nota_malo": "no es un suelo de valor ni la pérdida máxima posible (D11)",
+  "ponderado": 842.795121358959,
+  "zona": "caro",
+  "G": 128.61214565414093,
+  "L": 42.87071521804703,
+  "g_impl_actual": 0.17210272109408548,
+  "g_impl_si": 0.05743987717100955,
+  "tabla_dcf_inverso_ok": true,
+  "coincide_C86": true,
+  "C156_regla_antigua": 542.700114832629,
+  "distancias": {
+   "a_precio_si": 0.423197187868294,
+   "a_malo": 0.5865141982227589
+  },
+  "aviso_tasa_descuento_mas_influyente": true,
+  "notas": []
+ },
+ "fundamento_material": {
+  "hipotesis_sin_fundamento": [
+   {
+    "celda": "Análisis!B69:D69",
+    "hipotesis": "probabilidades 0,2 / 0,6 / 0,2 (MALO / NORMAL / BUENO)",
+    "clase": "convención",
+    "porque_sin_fundamento": "Son la referencia de convención y la cifra de la etapa 1. El argumento de la fase B (el MALO de márgenes ya pasó en 2016–2020 y Asia se frena) dice que el MALO existe, no cuánto vale p(MALO): no cita una frecuencia observada ni un mecanismo que fije 0,2.",
+    "alternativas_defendibles": {
+     "hay_base": true,
+     "rango": {
+      "MALO": [
+       0.1,
+       0.4
+      ],
+      "NORMAL": [
+       0.3,
+       0.8
+      ],
+      "BUENO": [
+       0.1,
+       0.3
+      ]
+     },
+     "evidencia": "p(MALO), techo 0,4: 4 de 10 años (2016, 2017, 2019 y 2020) tuvieron un margen EBIT igual o inferior al del MALO, 0,35 (Historia fila 29). Es la mayor frecuencia con la que esta empresa ha estado en el margen del MALO, y todos esos años son anteriores al escalón de 2021: por eso acota por arriba. Suelo 0,1: solo 2020 cumplió a la vez ventas por debajo del 3 % y margen ≤ 0,35 (−7,2 % y 0,324, Historia filas 28 y 29), es decir, la definición estricta del MALO se cumplió una vez en diez años. p(BUENO), suelo 0,1: solo 2023 cumplió a la vez crecimiento ≥ 0,115 y margen ≥ 0,42 (+15,7 % y 0,421). Techo 0,3: 3 de 10 años (2019, 2023 y 2024: +15,4 %, +15,7 % y +13,0 %) crecieron al menos un 11,5 % sin ser el rebote de 2021–2022, que la dirección liga al periodo post-Covid [AR_2025, PDF p. 6]. 2024 incluye además la consolidación de Emiratos, así que el techo es generoso. NORMAL: el resto, dentro de la lista. Efecto, según mi estimación aproximada: el precio de Sí va de unos 660 € (0,4 / 0,5 / 0,1) a 842 € (0,1 / 0,6 / 0,3, donde manda el tope del NORMAL), y la zona sigue siendo caro en todo el rango."
+    }
+   },
+   {
+    "celda": "Palancas!C18",
+    "hipotesis": "ROIC a largo plazo del NORMAL 0,16: la ventaja propia sobre el sector se agota en el año 11 y queda la media del sector",
+    "clase": "fundamentada",
+    "porque_sin_fundamento": "La cifra sale de la media del ROIC del sector (H18 = 0,161), que es un dato de otras empresas, y de un criterio de convergencia (CV pp. 10–11; E2). Los hechos propios que cita la Observación (ROIC entre 0,332 y 0,655) dicen que Hermès gana más que r, no que en el año 11 vaya a ganar 0,16 y no 0,12 o 0,30.",
+    "alternativas_defendibles": {
+     "hay_base": false,
+     "rango": null,
+     "evidencia": "Solo un lado tiene un hecho de esta empresa. Por arriba, la rentabilidad incremental de 2022–2025: el NOPAT creció entre 1.000 y 1.319 M€ sobre 3.798 M€ más de capital invertido (Historia fila ebit y tipo impositivo; series de la hoja), es decir, 0,26–0,35. Es lo que rinde hoy el capital nuevo con el foso intacto, y en un NORMAL donde la ventaja se agota no debería rendir más después del año 10. Por abajo no hay ningún hecho: Hermès no ha ganado menos de 0,33 sobre su capital ningún año de diez, así que nada observado acota hasta dónde puede bajar. La r (C56 = 0,09) es una convención y H18 es una media del sector; ninguna vale como suelo. Haría falta el coste y las ventas del primer año completo de los talleres recientes (Riom 2024, L'Isle-d'Espagnac 2025) y de las tiendas ampliadas, y el resultado de las tiendas y líneas deterioradas por poco rentables (75 M€ en 2025 [AR_2025, PDF p. 378]). A título informativo (estimación mía): entre 0,09 y 0,33 el precio de Sí se mueve entre −3,5 % y +2,3 %, y la zona sigue siendo caro."
+    }
+   },
+   {
+    "celda": "Palancas!D18",
+    "hipotesis": "ROIC a largo plazo del BUENO 0,33: el foso conserva para siempre el ROIC de su peor año (2020)",
+    "clase": "fundamentada",
+    "porque_sin_fundamento": "Usa a perpetuidad un único dato de un año, 2020. Ese dato dice lo que el negocio ganó en un año malo con el foso intacto, no lo que rendirá el capital nuevo después del año 10. La confianza de la fase B es baja.",
+    "alternativas_defendibles": {
+     "hay_base": true,
+     "rango": [
+      0.26,
+      0.49
+     ],
+     "evidencia": "Suelo 0,26: la rentabilidad incremental de 2022–2025 (0,26–0,35; NOPAT +1.000 a +1.319 M€ sobre +3.798 M€ de capital invertido, Historia y series de la hoja). Es lo que rinde hoy el capital nuevo con el foso intacto, y en un BUENO en el que el foso se mantiene el capital nuevo no rinde menos que hoy. Techo 0,49: el ROIC de 2025 (0,489, series de la hoja), la rentabilidad media de todo el capital con el foso en plena fuerza. En 2022–2025 la rentabilidad incremental quedó por debajo de la media, así que a perpetuidad el capital nuevo no la supera. Efecto, según mi estimación aproximada: el precio de Sí se mueve entre −1 % y +0,3 %."
+    }
+   },
+   {
+    "celda": "Análisis!B68:D68",
+    "hipotesis": "g para siempre 0,015 / 0,025 / 0,03",
+    "clase": "convención",
+    "porque_sin_fundamento": "Son las referencias mecánicas y la cifra de la etapa 1. La propia fase B escribe que no tiene un hecho de esta empresa que pida otra cifra: la tasa sin riesgo y la cifra de mercado de 2017–2019 enmarcan el valor, pero no lo fijan.",
+    "alternativas_defendibles": {
+     "hay_base": false,
+     "rango": null,
+     "evidencia": "Por arriba hay un hecho: el único mercado que cita la empresa creció un 3,5 % nominal anual en 2017–2019 [AR_2019, PDF p. 13], y nadie supera a su mercado para siempre. Con la lista, eso deja 0,03 como techo del BUENO y del NORMAL. Por abajo no hay ningún hecho de esta empresa sobre su crecimiento nominal a largo plazo: no hay cifra de mercado posterior a 2019, ni reparto entre precio y volumen, ni subidas de precio publicadas. Haría falta el crecimiento del mercado posterior a 2019 y las subidas de precio por año (dos datos de datos_ausentes.json). A título informativo (estimación mía): bajando un escalón de la lista en los tres escenarios el precio de Sí cae un 3 %, subiéndolo sube un 2 %, y la zona no cambia."
+    }
+   }
+  ],
+  "comprobacion_conjunta": {
+   "procede": false,
+   "combinacion": null,
+   "coherencia_economica": null,
+   "sobrevive": null
+  },
+  "resultado": "no_procede",
+  "hipotesis_que_mas_condiciona": "Análisis!B69:D69, las probabilidades 0,2 / 0,6 / 0,2. Dentro de su rango defendible mueven el precio de Sí más que ninguna otra hipótesis de la lista: de unos 660 € a 842 €, según mi estimación. La conclusión esperar no cambia en ningún punto, porque el precio actual (1.312,5 €) está por encima del BUENO. De las que no tienen base, la que deja provisional el precio objetivo es Palancas!C18, el ROIC terminal del NORMAL.",
+  "que_lo_resolveria": "El informe financiero semestral a 30-jun-2026 (hermes_20260729_rfs_en_eaccessible.pdf, que la fase 1 solo usó para el balance): ventas a tipo constante de Asia-Pacífico sin Japón y margen operativo recurrente del semestre. Con Asia por debajo del 3 % cst y margen por debajo del 39 %, el MALO está en curso y p(MALO) pasa a 0,3; con Asia por encima del 7 % y margen del 40 % o más, se queda en 0,2. Para C18: coste de inversión y ventas del primer año completo de los talleres de Riom (2024) y L'Isle-d'Espagnac (2025), pregunta a Relación con Inversores."
+ },
+ "comprobacion_conjunta": null,
+ "revision_datos_ausentes": {
+  "revisados": [
+   {
+    "dato": "Palancas!C24",
+    "que_falta": "cifra primaria del tamaño del mercado del lujo en el año 10",
+    "conclusion_afectada": "Palancas!C24 (vacía) y el semáforo de cuota implícita (Palancas fila 45, «—»); techo del BUENO (D14)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Sin C24 la hoja no calcula la cuota implícita, que solo podría recortar el BUENO. Aun sin techo, el BUENO (1.144,9 €) queda por debajo del precio (1.312,5 €), así que la conclusión esperar no depende de esa cifra. Y el BUENO ya tiene un techo propio: la capacidad entra a un taller al año [AR_2025, PDF p. 43]. Con la única cifra que hay (281.000 M€ en 2019), las ventas del año 10 del BUENO (37.558 M€) serían un 13 % del mercado sin que el mercado crezca nada."
+   },
+   {
+    "dato": "extracto_v63: Tamaño del mercado del lujo posterior a 2019 y su crecimiento (el último dato publicado es de 2019, 281.000 M€).",
+    "que_falta": "tamaño del mercado del lujo después de 2019 y su crecimiento",
+    "conclusion_afectada": "techo de g (Análisis!B68:D68), C17 (viento de cola) y techo de crecimiento del BUENO (Palancas!D14)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el hecho que acotaría g por abajo y por arriba (por eso B68:D68 está en hipotesis_sin_fundamento), pero no cambia la conclusión: moviendo g en su lista (0–0,02 / 0,02–0,03 / 0,025–0,03) el precio de Sí se mueve entre −3 % y +2 % según mi estimación aproximada, y el precio sigue por encima del ponderado. C17 = No ya está escrito sin contar con un mercado que crezca. El precio objetivo queda provisional por g, no bloqueado."
+   },
+   {
+    "dato": "extracto_v63: Cuota de mercado de Hermès o de cualquier métier, con cualquier definición.",
+    "que_falta": "cuota de mercado de Hermès o de cualquier métier",
+    "conclusion_afectada": "narrativa del BUENO (D65/D66, «gana cuota») y semáforo G17 de cuota implícita (no calculable)",
+    "material_para_conclusion_favorable": false,
+    "porque": "La cuota del BUENO es inferencia desde 2018–2019, cuando Hermès creció 7,5 % y 15,4 % (Historia fila 28) con un mercado que pasó de 262.000 a 281.000 M€ [AR_2019, PDF p. 13]. Una cuota real solo podría confirmar o recortar el BUENO; la conclusión esperar se sostiene con el BUENO entero por debajo del precio, y el precio objetivo cambia poco: el BUENO pesa 0,2."
+   },
+   {
+    "dato": "extracto_v63: Competidores nombrados o comparaciones con ellos.",
+    "que_falta": "competidores nombrados o comparaciones con ellos",
+    "conclusion_afectada": "prueba «quién me mata» de C18 y duración del foso en Palancas!B18:D18",
+    "material_para_conclusion_favorable": false,
+    "porque": "No sé quién es el competidor que más daño puede hacer y lo digo (fase A). Pero diez años de ROIC entre 0,332 y 0,655 y margen EBIT por encima de 0,32 (series de la hoja, Historia fila 29) ya recogen el resultado de la competencia que hubo. Un competidor que rompiera el foso me llevaría a No o a Demasiado difícil, no a comprar; para esperar con precio de Sí basta con que el MALO recoja la compresión de márgenes, y la recoge."
+   },
+   {
+    "dato": "extracto_v63: Margen operativo por métier (solo se publica por zona geográfica).",
+    "que_falta": "margen operativo por métier",
+    "conclusion_afectada": "Palancas!B15:D15 (efecto mezcla hacia piel en el BUENO) y D14",
+    "material_para_conclusion_favorable": false,
+    "porque": "Los márgenes consolidados de diez años y los márgenes por zona [AR_2025, PDF p. 365] bastan para la banda 0,35–0,42 de los tres escenarios. El margen por métier diría cuánto mejora la mezcla hacia piel (44 % de las ventas [AR_2025, PDF p. 29]), que solo afecta al BUENO, ya topado en el máximo de 2023 (C51 = 0,421). No mueve la conclusión ni el precio objetivo de forma apreciable."
+   },
+   {
+    "dato": "extracto_v63: Subidas de precio por año, efecto precio frente a volumen frente a mezcla, listas de espera o evidencia cuantificada de absorción del cliente.",
+    "que_falta": "subidas de precio por año, efecto precio/volumen/mezcla, listas de espera",
+    "conclusion_afectada": "Palancas!C14:D14 (componentes del crecimiento), C15:D15 (quién se queda la mejora), C18 y g (duración del poder de precio)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es la variable central del foso y la que más echo de menos. Pero el NORMAL (0,08) está acotado por hechos que no dependen del reparto: 9,8 % anual en 2016–2019 (Historia fila 28), +8,9 % cst y +5,5 % corriente en 2025 [AR_2025, PDF p. 363]. El reparto cambiaría sobre todo cuánto dura el foso, que ya está en la lista de hipótesis sin fundamento (C18, g). Con el precio un 42 % por encima del precio de Sí, ningún reparto plausible lleva el precio actual a la zona de la regla: no impide esperar."
+   },
+   {
+    "dato": "extracto_v63: Unidades vendidas, número de clientes, ticket medio y ventas online en euros.",
+    "que_falta": "unidades vendidas, número de clientes, ticket medio y ventas online",
+    "conclusion_afectada": "las mismas que el dato anterior: C14:D14 y la narrativa del BUENO",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el mismo agujero que el reparto precio/volumen, visto desde el cliente. No añade otra conclusión afectada: el crecimiento por componentes del NORMAL se apoya en capacidad (plantilla de producción de 11.557 a 12.055 [AR_2025, PDF p. 26, 28]) y en la Historia, no en unidades vendidas."
+   },
+   {
+    "dato": "extracto_v63: Cartera de pedidos.",
+    "que_falta": "cartera de pedidos",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "Hermès vende al por menor y cobra en el momento de la compra [AR_2025, PDF p. 366]; no trabaja con cartera de pedidos y ninguna palanca la necesita. Una lista de espera sería otra cosa, y ya está en el dato de precios y absorción del cliente."
+   },
+   {
+    "dato": "extracto_v63: Importe de I+D y su porcentaje sobre ventas (la tabla de referencias marca «n/a»).",
+    "que_falta": "importe de I+D y su porcentaje sobre ventas",
+    "conclusion_afectada": "Palancas!C9 (No) y C10 (vacía)",
+    "material_para_conclusion_favorable": false,
+    "porque": "La empresa no publica I+D [AR_2025, PDF p. 514] y su intangible es la marca, cuyo gasto visible (comunicación 620 M€, 3,9 % de las ventas [AR_2025, PDF p. 367]) ya está en el margen. Capitalizar una I+D que no existe en las cuentas no cambiaría el motor A ni la conclusión."
+   },
+   {
+    "dato": "extracto_v63: Capex por métier o por taller; coste de cada nuevo taller o tienda; retorno esperado del capex inmobiliario.",
+    "que_falta": "capex por métier o por taller, coste y retorno de cada taller o tienda nuevos",
+    "conclusion_afectada": "Palancas!B16:D16 (S2C) y Palancas!C18:D18 (ROIC terminal)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el dato que resolvería la hipótesis sin base de C18 (y acotaría mejor D18 y el S2C). Moviendo C18 entre 0,09 y 0,33 el precio de Sí cambia entre −3,5 % y +2,3 % (estimación mía) y la zona sigue siendo caro: condiciona el precio objetivo, que marco provisional, pero no impide sostener esperar."
+   },
+   {
+    "dato": "extracto_v63: Precio pagado y múltiplo de las adquisiciones (Emiratos Árabes Unidos 2024, curtiduría Gal 2023).",
+    "que_falta": "precio pagado y múltiplo de las adquisiciones de Emiratos Árabes Unidos (2024) y de la curtiduría Gal (2023)",
+    "conclusion_afectada": "C98 (asignación de capital) y el S2C del MALO (Palancas!B16, que incluye adquisiciones)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Las adquisiciones suman 577 M€ en 2023–2025 (Historia fila adquisiciones), frente a un CFO de 14.841 M€ en esos tres años; la empresa dice que el precio de Emiratos no es significativo [AR_2024, PDF p. 369]. Ni el múltiplo pagado cambiaría C98 = Buena por sí solo ni mueve el S2C más que unas décimas."
+   },
+   {
+    "dato": "extracto_v63: Causa de la disminución de 40 M€ del fondo de comercio en 2025 y de 48 M€ en 2024.",
+    "que_falta": "causa de la disminución del fondo de comercio (40 M€ en 2025, 48 M€ en 2024)",
+    "conclusion_afectada": "C98 y el dato C32 (fondo de comercio sobre activo)",
+    "material_para_conclusion_favorable": false,
+    "porque": "El fondo de comercio es de 180 M€, todo de distribución [AR_2025, PDF p. 376], un 0,75 % del activo (C32). Aunque fuera un deterioro por una compra mala, el importe es inmaterial para el valor y para la gestión."
+   },
+   {
+    "dato": "extracto_v63: Guía numérica de ventas, de margen o de capex para 2026; el objetivo a medio plazo no tiene cifra.",
+    "que_falta": "guía numérica de ventas, margen o capex para 2026",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "No uso la guía de la dirección como hecho, la haya o no: «A projection prepared by» un directivo que justifica un plan «will frequently be a lie» (TCI p.60; HIM). Mis palancas salen de la Historia y de los informes, y la última guía de capex se incumplió (1.161 frente a unos 1.000 M€ [AR_2024, PDF p. 44])."
+   },
+   {
+    "dato": "extracto_v63: Efecto de aranceles o derechos de aduana en ventas o precios (no se mencionan en los textos como factor cuantificado).",
+    "que_falta": "efecto cuantificado de aranceles o derechos de aduana",
+    "conclusion_afectada": "Palancas!B14:B15 (MALO) y el margen de Américas",
+    "material_para_conclusion_favorable": false,
+    "porque": "Américas es el 19 % de las ventas y creció +12 % cst en 2025 [AR_2025, PDF p. 38]. Un arancel actúa como una divisa en contra: presión de precio o de margen, que es justo la historia del MALO (margen 0,35). No hay un mecanismo nuevo que el MALO no recoja, y la conclusión esperar no cambia."
+   },
+   {
+    "dato": "extracto_v63: Rating crediticio, covenants, coste medio de la deuda y calendario de vencimientos de deuda (no hay deuda financiera).",
+    "que_falta": "rating, covenants, coste de la deuda y vencimientos",
+    "conclusion_afectada": "Palancas!C22:C23 (quiebra, vacía) y el motor (C62 = A)",
+    "material_para_conclusion_favorable": false,
+    "porque": "No hay deuda financiera: préstamos de 35 M€, casi todo opciones de venta de minoritarios [AR_2025, PDF p. 364], y deuda neta/EBITDA de −1,35 (C33). No hay nada que calificar ni covenant que pueda saltar; no afecta a ninguna conclusión."
+   },
+   {
+    "dato": "extracto_v63: Condiciones (importe, vencimiento, cupón) de los EMTN y depósitos a plazo que forman parte de las inversiones financieras.",
+    "que_falta": "condiciones de los EMTN y depósitos a plazo de las inversiones financieras",
+    "conclusion_afectada": "Análisis!C76 (exceso de caja)",
+    "material_para_conclusion_favorable": false,
+    "porque": "C76 = 6.000 M€ sale de la caja y equivalentes (C53 = 12.310 M€) y no cuenta las inversiones financieras de 1.086 M€ [AR_2025, PDF p. 392], así que la liquidez de esos instrumentos no cambia la celda. Si lo hiciera, solo sumaría valor, y el precio seguiría por encima del ponderado."
+   },
+   {
+    "dato": "extracto_v63: Ratios de capital regulatorio y límites regulatorios a la distribución (la empresa no es financiera).",
+    "que_falta": "ratios de capital regulatorio y límites a la distribución",
+    "conclusion_afectada": "ninguna celda de juicio (C6 = Ninguno, motor A)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Hermès no es financiera ni está regulada en capital [AR_2025, PDF p. 393]; el motor C no aplica y ningún límite regulatorio condiciona el dividendo. El único límite estatutario conocido es el 0,67 % del beneficio distribuible del socio comanditado [AR_2025, PDF p. 396]."
+   },
+   {
+    "dato": "extracto_v63: Importe de la contribución excepcional fiscal francesa esperada para 2026.",
+    "que_falta": "importe de la contribución excepcional francesa en 2026",
+    "conclusion_afectada": "tipo impositivo de la hoja (Historia C52, dato, no celda mía) y la tesis inversa",
+    "material_para_conclusion_favorable": false,
+    "porque": "La hoja usa el tipo medio de cinco años (0,295); 2025 fue 0,334 con la contribución de 331 M€ y 0,285 sin ella [AR_2025, PDF p. 41, 374]. Si la contribución se hiciera permanente, el precio de Sí bajaría un 5 % según mi estimación aproximada, y la zona seguiría siendo caro. No impide esperar; lo escribo en la tesis inversa como un cargo «extraordinario» que puede dejar de serlo."
+   },
+   {
+    "dato": "extracto_v63: Cifra de ventas a clientes turistas o por nacionalidad del cliente.",
+    "que_falta": "ventas a clientes turistas o por nacionalidad",
+    "conclusion_afectada": "Palancas!B14 (demanda de Asia en el MALO) y Análisis!B69",
+    "material_para_conclusion_favorable": false,
+    "porque": "Las ventas por zona de destino están (Asia-Pacífico sin Japón 42 %, +5 % cst en 2025 [AR_2025, PDF p. 38]) y el MALO ya es Asia floja. Saber cuánto compra el cliente chino en Europa o Japón cambiaría el reparto del riesgo, no su tamaño en mis escenarios: no cambia la conclusión."
+   },
+   {
+    "dato": "extracto_v63: Informe semestral a 30 de junio de 2026: no está entre los textos de esta carpeta (solo informes anuales 2016-2025).",
+    "que_falta": "ventas, márgenes y textos del informe semestral a 30-jun-2026 (solo se usó su balance en la fase 1)",
+    "conclusion_afectada": "Análisis!B69:D69 (probabilidades), Palancas!B14:C14 y C15, y Diagnóstico V6!B222:B223",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el dato que más condiciona el precio objetivo: dice si el MALO ya está en curso. Si lo estuviera, p(MALO) subiría a 0,3 y el precio de Sí bajaría alrededor de un 8 % (estimación mía); la acción seguiría siendo esperar, porque el precio actual (1.312,5 €) está por encima incluso del BUENO (1.144,9 €). Un semestre no cambia escenarios construidos con diez años: «we have never given a damn whether any quarter's earnings were up or down» (PCA p.88; HIM). Lo pido en B223 y marco el precio objetivo como provisional."
+   }
+  ],
+  "alguno_material": false
+ },
+ "estado_libro": "LISTO · PROVISIONAL (25 estimaciones justificadas)",
+ "estado_evidencias": "PROVISIONAL · 25 estimación(es) justificada(s) · documentadas 19 de 19 · hipótesis confirmadas 0 de 25",
+ "palanca_mas_influyente": {
+  "nombre": "Tasa de descuento (±1 pt)",
+  "nota": "información, no criterio (D10)"
+ },
+ "semaforos": {
+  "fila40": [
+   "Crecimiento frente al sector y a su historia",
+   "✓ PASA",
+   "✓ PASA",
+   "✓ PASA"
+  ],
+  "fila41": [
+   "Margen frente a su máximo y al sector",
+   "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+   "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector",
+   "⚠ REVISAR · margen por encima de su máximo o del Q3 del sector"
+  ],
+  "fila42": [
+   "ROIC marginal frente a su historia",
+   "✓ PASA",
+   "✓ PASA",
+   "✓ PASA"
+  ],
+  "fila43": [
+   "ROIC (o ROE) a largo plazo",
+   "✓ PASA",
+   "✓ PASA",
+   "⚠ REVISAR · muy por encima de r para siempre: exige moat duradero"
+  ],
+  "fila44": [
+   "Peso del «para siempre»",
+   "✓ PASA",
+   "✓ PASA",
+   "✓ PASA"
+  ],
+  "fila45": [
+   "Cuota de mercado implícita",
+   "—",
+   "—",
+   "—"
+  ],
+  "fila46": [
+   "S2C medio frente al sector",
+   null,
+   "✓ PASA",
+   null
+  ],
+  "fila47": [
+   "Orden de los escenarios (MALO ≤ NORMAL ≤ BUENO)",
+   null,
+   "✓ PASA",
+   null
+  ],
+  "fila48": [
+   "Tu r frente a la r mínima",
+   null,
+   "⚠ REVISAR · tu r (9.0 %) < r mínima (9.9 %)",
+   null
+  ],
+  "fila49": [
+   "Tipo de empresa frente a motor",
+   null,
+   "✓ PASA · tipo y motor coherentes",
+   null
+  ],
+  "fila50": [
+   "Fugas al accionista (f) en un rango razonable",
+   null,
+   "✓ PASA",
+   null
+  ]
+ },
+ "salto_anio_11": [
+  "Salto en el año 11 (puntos; positivo = la rentabilidad marginal cae al pasar al terminal)",
+  0.3240492,
+  0.53356256,
+  0.7061148
+ ],
+ "peso_terminal": [
+  0.468627859254047,
+  0.552042627299701,
+  0.611175404681427
+ ],
+ "cambios_vs_etapa1": [
+  {
+   "celda": "C11",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Revisado qué vende, quién paga y de dónde sale la caja: piel 44 % de las ventas [AR_2025, PDF p. 29], 234 sucursales propias con más del 92 % de la venta minorista [AR_2025, PDF p. 17], clientes de 418 M€ sobre 16.002 M€ [AR_2025, PDF p. 369], CFO 5.374 M€ (Historia, fila cfo 2025). Lo puedo explicar en cinco frases."
+  },
+  {
+   "celda": "C12",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Las variables que deciden el valor a diez años (deseabilidad, capacidad artesanal, precio frente a divisas) son juzgables y ninguna depende de un cambio tecnológico; sé dónde está el borde: Asia-Pacífico sin Japón es el 42 % de las ventas [AR_2025, PDF p. 38] y el 80 % de las ventas está fuera del euro [AR_2025, PDF p. 179]."
+  },
+  {
+   "celda": "C13",
+   "antes": "No",
+   "despues": "No",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Con el precio de la V6.3, 1.312,5 € (C37) y capitalización 137.861 M€ (C41), el FCF base de 3.487 M€ (C52) rinde un 2,5 % y el precio es unas 30 veces el beneficio de 2025 (Historia); hace falta crecer en torno a un 6 % para siempre para rendir un 9 %: sin hoja no veo margen."
+  },
+  {
+   "celda": "C14",
+   "antes": "Compounder",
+   "despues": "Compounder",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La Historia de diez años lo confirma: ventas al 13 % anual (C47), ROIC medio de cinco años del 57 % (C55) frente al 16 % del sector, FCF al accionista de 1.151 a 3.749 M€ (fila 35) y acciones planas (C60). No es «Calidad a precio razonable» porque el precio no es razonable (C13)."
+  },
+  {
+   "celda": "C17",
+   "antes": "Sí",
+   "despues": "No",
+   "decision": "cambia",
+   "motivo": "razonamiento_corregido",
+   "evidencia_y_razonamiento": "La etapa 1 tomó el crecimiento por regiones de Hermès como viento del sector; eso es empresa o nicho, no marea. La única cifra de mercado que publica la empresa crece un 3,5 % anual en 2017–2019, con 2018 en negativo [AR_2018, PDF p. 13; AR_2019, PDF p. 13], mientras Hermès crecía un 7,5 % y un 15 % (Historia); no hay cifra posterior y la dirección da por cerrado el periodo post-Covid [AR_2025, PDF p. 6]."
+  },
+  {
+   "celda": "C18",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "ROIC entre el 33 % y el 66 % los diez años y del 57 % de media en cinco (C55), frente a r 9 % y 16 % del sector; margen EBIT medio del 37 % (C49) frente al 8,6 % del tercer cuartil del sector; margen bruto del 71 % con divisas en contra [AR_2025, PDF p. 41]. La ventaja se ve en diez años, no solo en tres."
+  },
+  {
+   "celda": "C19",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Crecimiento de ventas 2017–2025 de 6,7; 7,5; 15,4; −7,2; 40,6; 29,2; 15,7; 13,0 y 5,5 % (Historia): un solo año negativo, 2020; en 2025 +8,9 % a tipo constante [AR_2025, PDF p. 363]. Un bache no es un No."
+  },
+  {
+   "celda": "C20",
+   "antes": "Incert. alta + riesgo bajo",
+   "despues": "Riesgo real alto",
+   "decision": "cambia",
+   "motivo": "razonamiento_corregido",
+   "evidencia_y_razonamiento": "La etapa 1 juzgó el riesgo del negocio (sin deuda, caja neta), que es solvencia; la regla mide la pérdida permanente al precio pagado. A 1.312,5 € (C37) el precio exige un crecimiento perpetuo cercano al 6 % (C13) cuando 2025 creció un 5,5 % a tipo corriente [AR_2025, PDF p. 363]: si se cumple el NORMAL, parte de lo pagado no vuelve."
+  },
+  {
+   "celda": "C25",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "FCF al accionista 2016–2025 de 1.151 a 3.749 M€ (Historia fila 35) con baches en 2019, 2020 y 2023; el de 2023 es circulante (+794 M€) y capex (859 M€), no negocio. FCF ajustado de la empresa 3.880 M€ en 2025 [AR_2025, PDF p. 364]."
+  },
+  {
+   "celda": "C27",
+   "antes": "Estable",
+   "despues": "Estable",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Margen EBIT 2021–2025 de 39,3; 40,5; 42,1; 40,5 y 41,0 % (Historia fila 29): estable tras un escalón desde el 32–36 % de 2016–2020; no lo llamo Expandiendo porque el máximo es de 2023 y el escalón coincide con el periodo post-Covid."
+  },
+  {
+   "celda": "C51",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "La SBC se resta siempre (convención con evidencia); C50 = 126 M€ cuadra con la línea del estado de flujos 2023–2025 (104, 142, 132; Historia) y el gasto con cargas sociales es mayor, 199 M€ [AR_2025, PDF p. 372]."
+  },
+  {
+   "celda": "C56",
+   "antes": 0.09,
+   "despues": 0.09,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Heredada y no se cambia (S-3). Representa la alternativa de otra empresa de calidad a precio normal frente al 3,31 % del bono a 10 años (C57); está por debajo de la r mínima de la hoja, 9,87 % (datos_v63 §4), y lo informo."
+  },
+  {
+   "celda": "C61",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Acciones diluidas de 105,12 M (2016) a 105,04 M (2025) en la Historia fila 20, CAGR +0,03 % (C60); capital de 105.569.412 acciones con 733.097 propias [AR_2025, PDF p. 393]: la entrega de acciones gratuitas no aumenta el número de acciones."
+  },
+  {
+   "celda": "C62",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Sin deuda bancaria ni bonos [AR_2025, PDF p. 364], deuda neta/EBITDA −1,35 (C33): la financiación no cambia y el flujo al accionista aproxima bien; motor B no calculable (entrada_v63) y sin motivo para él; C es para financieras."
+  },
+  {
+   "celda": "C97",
+   "antes": "Comprando",
+   "despues": "Neutral",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "La regla V6.3 exige hechos de la evidencia de fase 1 en una ventana de 12 meses; ni datos_v63 §2 ni el extracto traen operaciones de insiders, solo tenencias (C96: consejeros 0,24 %, grupo familiar 66,7 % del capital). Las compras que citaba la etapa 1 no están en mis entradas: C97 queda como valor técnico Neutral."
+  },
+  {
+   "celda": "C98",
+   "antes": "Buena",
+   "despues": "Buena",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Historia filas 12, 13, 18 y 20: capex en talleres y tiendas, adquisiciones pequeñas (0–288 M€ al año), SBC pequeña y acciones planas; dividendos de 852 a 2.772 M€ en 2021–2024 con extraordinarios para devolver caja [AR_2025, PDF p. 436, 461]. Duda nueva: capital invertido +74 % en 2022–2025 y ROIC del 65 % al 49 %."
+  },
+  {
+   "celda": "B65",
+   "antes": "El viento de cola se frena",
+   "despues": "Márgenes se comprimen (costes o precios)",
+   "decision": "cambia",
+   "motivo": "razonamiento_corregido",
+   "evidencia_y_razonamiento": "Con C17 = No el MALO no es que se frene un viento del sector, sino que la base de costes comprometida (plantilla de 25.185 a 26.494 [AR_2025, PDF p. 26], talleres hasta 2030 [AR_2025, PDF p. 29], capex de 518 a 1.161 M€ en 2022–2025, Historia) siga creciendo cuando la demanda y las divisas aprietan."
+  },
+  {
+   "celda": "C65",
+   "antes": "Márgenes estables, sin sorpresas",
+   "despues": "Márgenes estables, sin sorpresas",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Margen EBIT del 39–42 % en 2021–2025 (Historia fila 29), una unidad de producción al año [AR_2025, PDF p. 43] y cuarto trimestre de 2025 a +10 % cst [AR_2025, PDF p. 8]: lo más probable es seguir así. No elijo «Sigue como los últimos 5 años» porque incluyen el periodo post-Covid (C46, 20 %)."
+  },
+  {
+   "celda": "D65",
+   "antes": "Gana cuota: el moat se ensancha",
+   "despues": "Gana cuota: el moat se ensancha",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "En 2018–2019 Hermès creció un 7,5 % y un 15 % (Historia) cuando el mercado que cita la empresa pasó de 262.000 a 260.000 y 281.000 M€ [AR_2019, PDF p. 13]: ya ganó cuota; piel +18 % y +13 % cst en 2024 y 2025 [AR_2025, PDF p. 29] con talleres nuevos hasta 2030."
+  },
+  {
+   "celda": "B66",
+   "antes": "Pasada la ola post-Covid, Hermès crece un 4–5 % a tipos constantes, las divisas restan 1–2 puntos, el margen baja hacia el 36–37 % y la caja libre solo crece un 2 % al año.",
+   "despues": "La demanda de Asia y las divisas enfrían las ventas mientras la plantilla, los talleres y las tiendas ya comprometidos siguen creciendo; el margen vuelve hacia el de 2016–2020 y la pérdida la absorbe el accionista, porque subir precios para compensarla gastaría deseabilidad.",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "La V6.3 pide en la frase el mecanismo y quién se queda la mejora, y los números van a las palancas (fase B); además el mecanismo cambia con B65: costes comprometidos (plantilla, talleres, capex de 1.161 M€, Historia) frente a demanda y divisas (−515 M€ [AR_2025, PDF p. 363])."
+  },
+  {
+   "celda": "C66",
+   "antes": "Un taller de piel al año más algo de precio dan un 6–8 % a tipos constantes, el margen se queda cerca del 40 % y la caja libre crece un 7 % al año.",
+   "despues": "La capacidad artesanal nueva, una unidad de producción al año, más algo de precio sostienen el crecimiento con el margen de los últimos cinco años; la mejora se queda en la empresa porque la oferta limitada deja el poder de precio en casa, y la caja sobrante vuelve en dividendos.",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "Mismo mecanismo que la etapa 1 (capacidad más precio, margen estable), pero la V6.3 pide el dueño de la mejora y deja los números para las palancas; apoyo: una unidad de producción al año [AR_2025, PDF p. 43] y margen bruto del 71 % con divisas en contra [AR_2025, PDF p. 41]."
+  },
+  {
+   "celda": "D66",
+   "antes": "La escasez y la capacidad nueva sostienen crecimientos de dos dígitos como en 2017–2019 y en piel en 2024–2025, y la caja libre crece un 12 % al año.",
+   "despues": "La escasez y los talleres nuevos dejan crecer por encima del mercado, como en 2018–2019 y en piel en 2024–2025; la empresa se queda la mejora porque la demanda supera a la oferta y no tiene que bajar el precio para vender más.",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "Mismo mecanismo (escasez y capacidad nueva), sin las cifras de caja de la V5.3, que la V6.3 ya no escribe; apoyo: 2018–2019 por encima del mercado [AR_2019, PDF p. 13] y piel +18 % y +13 % cst en 2024–2025 [AR_2025, PDF p. 29]."
+  },
+  {
+   "celda": "B68",
+   "antes": 0.015,
+   "despues": 0.015,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Revisada la misma evidencia: g del MALO menor que la tasa sin riesgo (0,0331, C57) y que r (0,09); coincide con la referencia mecánica y no tengo un hecho que pida otra cifra."
+  },
+  {
+   "celda": "C68",
+   "antes": 0.025,
+   "despues": 0.025,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Marca con poder de precio que crece con la inflación sin capital extra; por debajo de la tasa sin riesgo (C57) y coincide con la referencia; el mercado que cita la empresa creció un 3,5 % anual en 2017–2019 [AR_2019, PDF p. 13]."
+  },
+  {
+   "celda": "D68",
+   "antes": 0.03,
+   "despues": 0.03,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "El techo de la lista, por debajo de la tasa sin riesgo (0,0331); solo en el BUENO, donde la marca se ensancha; coincide con la referencia."
+  },
+  {
+   "celda": "B69",
+   "antes": 0.2,
+   "despues": 0.2,
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La Historia de diez años, que la etapa 1 no tenía, muestra que el MALO de márgenes (32–36 %) ya ocurrió en 2016–2020, y el extracto que Asia se frena (+19/+7/+5 % cst): no hay base para bajarlo ni para subirlo."
+  },
+  {
+   "celda": "C69",
+   "antes": 0.6,
+   "despues": 0.6,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "El NORMAL es la banda de márgenes de 2021–2025 con la capacidad marcando el ritmo; 0,6 completa la suma 1."
+  },
+  {
+   "celda": "D69",
+   "antes": 0.2,
+   "despues": 0.2,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Sin razón estructural escrita para que el BUENO pese más que el MALO; la piel al 13 % cst en 2025 [AR_2025, PDF p. 29] no basta para moverlo."
+  },
+  {
+   "celda": "C76",
+   "antes": 6000,
+   "despues": 6000,
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Rehecho el cálculo con la misma evidencia: caja de 12.310 M€ (C53) menos liquidez operativa (1.896 M€) y yuanes (609 M€) da unos 9.800 M€, menos unos 3.000–4.000 M€ que valen los ingresos de caja ya incluidos en el FCF base: unos 6.000 M€."
+  },
+  {
+   "celda": "C93",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "La V6.3 calcula el salto del año 11 (0,534 en el NORMAL) y el peso del terminal (0,552), que la etapa 1 no tenía: g 0,025 < rf 0,0331 (C57), el terminal reinvierte g ÷ ROIC = 0,025 ÷ 0,16 del beneficio y ya supone que el capital nuevo rinde solo la media del sector (H18 = 0,161). Sostenible."
+  },
+  {
+   "celda": "B101",
+   "antes": "Hermès vende objetos de artesanía escasos bajo su marca, en sus propias tiendas, cobra al contado y gana un 41 % operativo sin deuda. La capacidad de piel crece un taller al año y el precio compensa buena parte de las divisas, así que la caja crece con el negocio. La familia controla el 66,7 % del capital y ha gestionado con prudencia: sin deuda, sin adquisiciones grandes y sin incentivos raros. Es de los mejores negocios que puedo entender. A 1.280 € el precio pide más de lo que da incluso mi escenario bueno: Vigilar, con precio de Sí estimado en unos 520 € a r = 0,09.",
+   "despues": "Hermès fabrica objetos de artesanía en 79 sitios propios y los vende sobre todo en sus 234 sucursales, más del 92 % de su venta minorista [AR_2025, PDF p. 17, 20], cobrando al comprar y sin deuda financiera (C33 = −1,35). Con un margen EBIT por encima del 32 % los diez años y del 39 % desde 2021 (Historia fila 29), gana un ROIC medio de cinco años del 57 % (C55) y devuelve la caja en dividendos. Pero el capital invertido crece más que el beneficio (de 5.149 a 8.947 M€ y ROIC de 0,655 a 0,489 en 2022–2025, series de la hoja) y Asia-Pacífico sin Japón, el 42 % de las ventas, se ha frenado (+19, +7 y +5 % cst [AR_2025, PDF p. 38]). Mis escenarios valen 542.70 / 842.11 / 1144.94 € y el ponderado 842.80 €, todos por debajo de 1.312,5 € (C37); el precio descuenta un 17,2 % anual de crecimiento (C86). Es de los mejores negocios que entiendo y no lo compraría a este precio: Vigilar, esperar, con precio de Sí ≤ 757.05 € (provisional por el ROIC terminal y el g).",
+   "decision": "cambia",
+   "motivo": "evidencia_nueva",
+   "evidencia_y_razonamiento": "Mantengo la calidad y el Vigilar, pero añado lo que la Historia de diez años enseña: ROIC de 0,655 a 0,489 y capital invertido de 5.149 a 8.947 M€ en 2022–2025 (series de la hoja); y cambio el precio de Sí v1 (≈ 520 €, regla antigua y estimación propia) por el de la escalera de precio.json, con el precio de 1.312,5 € (C37) en vez de 1.280 €."
+  },
+  {
+   "celda": "B102",
+   "antes": "1) Parte del éxito 2021–2024 fue la ola post-Covid y China: Asia sin Japón (42 % de las ventas) bajó de un margen del 49 % (2023) al 40–41 % y creció solo un 2 % en el primer semestre de 2026; si esa demanda no vuelve, el crecimiento normal está más cerca del 4 % que del 7 %. 2) El poder de precio no es infinito: con el 80 % de las ventas fuera del euro y las divisas restando 3,4 puntos en 2025 y 4,5 en el primer semestre de 2026, cada subida para compensar gasta deseabilidad, que es todo el foso. 3) El accionista no manda: en una comandita por acciones el socio comanditado aprueba cada decisión, y «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM); hay partes vinculadas (RDAI, 20 M€; 11,91 % en Ardian, cuya presidenta está en el Consejo). 4) Los 12.310 M€ de caja rinden un 2 % y no vuelven por recompras amortizadas. 5) El Estado francés repite la contribución excepcional y el tipo efectivo sube al 33–35 %: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM). 6) El capex se ha duplicado en tres años (518 → 1.161 M€) y buena parte va a inmuebles sin retorno publicado. 7) Y el precio: «Since it's so obvious that investing in great companies works, it gets horribly overdone from time to time» (PCA p.214; HIM). La tesis inversa no rompe la calidad; sí rompe el precio.",
+   "despues": "1) El ROIC ya baja: de 0,655 (2022) a 0,489 (2025) con un capital invertido un 74 % mayor (series de la hoja), y la rentabilidad incremental de 2022–2025 es 0,26–0,35; si sigue así, mi NORMAL, con una marginal de 0,69 (Diagnóstico V6 C176), es optimista. 2) Asia-Pacífico sin Japón, el 42 % de las ventas, pasó de +19 % a +5 % cst en dos años y su margen de zona del 49 % (2023) al 41 % (2025), en parte por precios internos [AR_2025, PDF p. 38, 365; AR_2024, PDF p. 371]. 3) El 80 % de las ventas está fuera del euro y la producción en euros [AR_2025, PDF p. 179]; las divisas restaron 515 M€ en 2025 [AR_2025, PDF p. 363] y la frase de que las subidas de precio por región compensan las divisas, presente en los informes de 2021–2024 [AR_2024, PDF p. 346], ya no está en el de 2025. 4) El accionista de fuera no manda en una comandita por acciones, y hay partes vinculadas (RDAI 20 M€, arrendamientos con SAS SIFAH de 124 M€ [AR_2025, PDF p. 396, 397]): «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM). 5) El capex se duplicó (518 a 1.161 M€, Historia), los terrenos subieron 326 M€ sin retorno publicado y hubo 127 M€ de deterioros en tiendas y líneas poco rentables [AR_2025, PDF p. 367, 378]; el deterioro de inventarios pasó de 1.217 a 1.429 M€ [AR_2025, PDF p. 368]. 6) La contribución francesa (331 M€ [AR_2025, PDF p. 374]) puede repetirse: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM); con el tipo de 2025 el precio de Sí bajaría un 5 % (estimación mía). 7) Y el precio: 1.312,5 € está por encima incluso del BUENO (D78 = 1.144,9 €) y pide un 17,2 % anual (C86). Mi MALO no es un suelo: ventas planas y margen del 32 % lo dejarían en unos 440 €. «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). La tesis inversa no rompe la calidad; rompe el precio y pone en duda cuánto rinde el capital nuevo.",
+   "decision": "cambia",
+   "motivo": "razonamiento_corregido",
+   "evidencia_y_razonamiento": "La v1 usaba ventas, divisas y crecimiento de Asia del primer semestre de 2026 que no están en mis entradas (el extracto declara el informe semestral no encontrado): los quito. Añado la caída del ROIC y la rentabilidad incremental 0,26–0,35 (Historia y series de la hoja), la desaparición en el informe de 2025 de la frase sobre precios que compensan divisas [AR_2024, PDF p. 346] y el precio por encima del BUENO (D78)."
+  },
+  {
+   "celda": "C103",
+   "antes": "Sí",
+   "despues": "Sí",
+   "decision": "mantiene",
+   "motivo": "misma_evidencia",
+   "evidencia_y_razonamiento": "Revisada la misma evidencia: diez años de ROIC por encima de 0,33 (series de la hoja), sin deuda [AR_2025, PDF p. 364] y caja devuelta en dividendos: es un negocio que no vendería por valoración si lo comprara a buen precio. Es propiedad del negocio, no de la compra."
+  },
+  {
+   "celda": "C104",
+   "antes": "0% · Watchlist · precio de Sí ≈ 520 € (estimado)",
+   "despues": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 757.05 · zona caro · precio de Sí ≤ 757.05 · precio esc. MALO 542.70 · ponderado 842.80 · fundamento: precio objetivo provisional (Palancas!C18 y Análisis!B68:D68 sin base para acotar; comprobación conjunta no procede)",
+   "decision": "cambia",
+   "motivo": "definicion_o_medicion_distinta",
+   "evidencia_y_razonamiento": "La V6.3 no admite tamaño de posición (D16) y el precio de Sí ya no es mín(MALO, 0,75 × ponderado) estimado a mano sino la escalera k = 3 de precio.json: precio de Sí 757.05, zona caro, MALO 542.70, ponderado 842.80."
+  }
+ ],
+ "n_cambios_vs_etapa1": 34,
+ "predicciones": [
+  {
+   "texto": "Las ventas consolidadas de 2027 publicadas por Hermès en su informe anual 2027 superan los 17.500 M€ (16.002 M€ en 2025).",
+   "fecha": "2028-03-31",
+   "prob": 0.75,
+   "resultado": null
+  },
+  {
+   "texto": "El margen operativo recurrente consolidado de 2027 publicado por Hermès es del 39 % o más (41,0 % en 2025).",
+   "fecha": "2028-03-31",
+   "prob": 0.75,
+   "resultado": null
+  },
+  {
+   "texto": "A 31 de diciembre de 2027 Hermès ha inaugurado los talleres de piel de Loupes y de Charleville-Mézières (24 talleres de piel a cierre de 2025), según sus informes anuales.",
+   "fecha": "2028-03-31",
+   "prob": 0.8,
+   "resultado": null
+  }
+ ],
+ "incertidumbre_pendiente": "Las probabilidades de los escenarios (Análisis!B69:D69 = 0,2 / 0,6 / 0,2) no tienen una frecuencia ni un mecanismo propio que las fije; dentro de su rango defendible (MALO 0,1–0,4, BUENO 0,1–0,3, por frecuencias de la Historia filas 28–29) mueven el precio de Sí de unos 660 a 842 € según mi estimación. La conclusión esperar no cambia. Sin base para acotarse quedan el ROIC terminal del NORMAL (Palancas!C18 = 0,16) y el g (B68:D68), que dejan el precio objetivo provisional.",
+ "que_lo_resolveria": "El informe financiero semestral a 30-jun-2026 (hermes_20260729_rfs_en_eaccessible.pdf, que la fase 1 solo usó para el balance): ventas a tipo constante de Asia-Pacífico sin Japón y margen operativo recurrente del semestre (con Asia por debajo del 3 % cst y margen por debajo del 39 %, p(MALO) pasa a 0,3). Para C18: pregunta a Relación con Inversores por el coste de inversión y las ventas del primer año completo de los talleres de Riom (2024) y L'Isle-d'Espagnac (2025).",
+ "cambiaria_de_cubo": {
+  "a_si": "Un precio igual o inferior a 757.05 € con el negocio intacto (margen recurrente ≥ 39 %, Asia-Pacífico sin Japón ≥ 3 % cst, ROIC ≥ 0,40), y antes resueltas las dos hipótesis sin base (retorno de los talleres nuevos para C18; crecimiento del mercado posterior a 2019 para g).",
+  "a_no": "Un ROIC por debajo de 0,30 dos años seguidos sin causa como la pandemia, un margen bruto por debajo del 67 % por precio y no por divisas, o un margen recurrente por debajo del 35 %: el foso se estaría gastando.",
+  "a_demasiado_dificil": "Que el valor pasara a depender de predecir el consumo chino o el euro (por ejemplo, Asia-Pacífico sin Japón por encima de la mitad de las ventas con márgenes que oscilan con el cambio), o un cambio de control o de gobierno en la comandita que no sepa juzgar."
+ },
+ "autocomprobacion": [
+  {
+   "sesgo": "anclaje en la etapa 1",
+   "hallazgo": "B68:D69 y C76 coinciden exactamente con la etapa 1 (g 0,015/0,025/0,03; p 0,2/0,6/0,2; C76 6.000 M€). Rehíce C76: la resta de «unos 3.000–4.000 M€» cae justo en 6.000, y bien hecha da 6.600–6.800 M€ porque la caja operativa también rinde. g y probabilidades coinciden además con las referencias mecánicas, así que no distingo si mantengo por la etapa 1 o por la referencia. Las celdas que sí cambié (C17, C20, C97, B65, B66, C66, D66) muestran que no copié por defecto.",
+   "cambio": "Ninguna celda cambia: C76 mueve el precio de Sí un +0,9 % (celdas_corregidas, despues = antes). B68:D69 pasan a hipotesis_sin_fundamento. C104 heredada, que trae un porcentaje de posición, se reescribe en el turno 2."
+  },
+  {
+   "sesgo": "anclaje en el precio o en la fuente externa",
+   "hallazgo": "Mi ponderado (842,8 €) queda a un 1,6 % del valor de Simply Wall St (C38 = 856,32 €). Repasé las 23 celdas de la fase B: ninguna cita C38 ni la cotización, y cada una se apoya en la Historia o en los informes. La cotización no tiró de mis valores hacia arriba: el precio está por encima incluso del BUENO.",
+   "cambio": "Ninguno. Anoto la proximidad a C38 como coincidencia que no puedo excluir del todo, y en la ficha C38 figura solo como contraste."
+  },
+  {
+   "sesgo": "consistencia y compromiso",
+   "hallazgo": "El cubo Vigilar viene de la fase A. Lo probé contra las palancas en el extremo favorable de todos los rangos de la fase B (NORMAL 0,10 / 0,42 / 3,0 / 0,03 / 0,25; BUENO 0,13 / 0,43 / 4,0 / 0,03 / 0,45; MALO 0,04 / 0,37 / 2,4 / 0,02 / 0,16; probabilidades 0,1 / 0,6 / 0,3). Según mi réplica aproximada, el ponderado sería unos 1.067 € y el precio de Sí unos 993 €, ambos por debajo de 1.312,5 €. El cubo no depende de cómo ajusté las palancas. Miré también el otro lado, si debería ser No, y no: la calidad no está en duda.",
+   "cambio": "Ninguno."
+  },
+  {
+   "sesgo": "historia bonita / viento de cola atribuido a la empresa",
+   "hallazgo": "El NORMAL deja fuera el rebote de 2021–2022 (+40,6 % y +29,2 %) y C17 = No. Pero el margen del NORMAL (0,41) es el escalón de 2021, posterior al Covid (32–36 % antes, 39–42 % después), y el BUENO se apoya en 2024 (S2C 3,8), un año en el que Oriente Medio creció un 110 % por consolidar Emiratos, crecimiento no orgánico [AR_2024, PDF p. 38]. El escalón aguantó en 2025 con Asia floja y divisas en contra (41,0 %, margen bruto 71 % [AR_2025, PDF p. 41]), y eso es de la empresa, no del nicho.",
+   "cambio": "Ninguna palanca cambia. En la tesis atribuiré a la empresa el margen que aguantó en 2025, y al periodo post-Covid la parte del escalón que un MALO de 2016–2020 devolvería."
+  },
+  {
+   "sesgo": "optimismo del BUENO frente a la tasa base",
+   "hallazgo": "El BUENO pide un ROIC terminal de 0,33 para siempre y una rentabilidad marginal de 1,04 en los años 1–10, el triple de la rentabilidad incremental de 2022–2025 (0,26–0,35): «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM). No necesita más mercado del que existe: sus ventas del año 10 (37.558 M€) son un 13 % de los 281.000 M€ de 2019.",
+   "cambio": "Ninguna palanca cambia: con el S2C del BUENO en 2,3 y D18 en 0,26, el precio de Sí baja menos de un 2 % (estimación mía) y el BUENO sigue por debajo del precio. D18 entra en hipotesis_sin_fundamento con su rango."
+  },
+  {
+   "sesgo": "doble castigo del mismo riesgo",
+   "hallazgo": "El riesgo de Asia y divisas está solo en el MALO: crecimiento 0,03, margen 0,35, S2C 1,8, ROIC 0,12 y g 0,015, como una sola historia. No aparece en la quiebra (vacía, C33 = −1,35), ni en la r (heredada 0,09, sin prima, y por debajo de la r mínima de 0,0987), ni en la probabilidad (0,2, la de referencia). El salto del año 11 trata la duración del foso, que afecta a los tres escenarios, no repite el MALO (PA, E6).",
+   "cambio": "Ninguno: no hay doble castigo."
+  },
+  {
+   "sesgo": "disponibilidad (lo vívido del extracto)",
+   "hallazgo": "Lo más vívido del extracto son los talleres con nombre, las 12 escuelas y el taller al año, y sostienen el NORMAL y el BUENO. Las diez filas de la Historia dicen algo menos bonito que no pesó en el S2C del NORMAL: capital invertido de 5.149 a 8.947 M€ y ROIC de 0,655 a 0,489 en tres años, con una rentabilidad incremental de 0,26–0,35. «An idea or a fact is not worth more merely because it is easily available to you» (PCA p.587; HIM).",
+   "cambio": "Lo anoto como incoherencia y calculo el efecto de corregirlo (−1,6 % del precio de Sí con arrendamientos, −3,5 % con todo el capital invertido). No vuelvo a la fase B; la tesis contará la caída del ROIC."
+  },
+  {
+   "sesgo": "autoridad (guía de la dirección como hecho)",
+   "hallazgo": "Ninguna palanca copia una cifra de la dirección, porque no hay guía numérica de ventas ni de margen. El componente de capacidad del NORMAL sí usa un objetivo declarado, una unidad de producción al año [AR_2025, PDF p. 43]; lo contrasté con hechos: talleres 23 y 24 abiertos en 2024 y 2025 cuando se dijo y plantilla de producción +4,3 %. Dos frases de la dirección no las tomo como hecho: que 2025 cerró el periodo post-Covid [AR_2025, PDF p. 6] y la guía de capex, que se incumplió (1.161 frente a unos 1.000 M€).",
+   "cambio": "Ninguna palanca cambia. En la tesis el ritmo de capacidad irá como plan contrastado con el historial, no como hecho."
+  },
+  {
+   "sesgo": "¿el MALO es de verdad malo?",
+   "hallazgo": "El MALO (542,7 €) está un 59 % por debajo del precio, con ventas al 3 % y margen 0,35, por encima del mínimo de diez años (0,324). No es una recesión del lujo: ni un año de ventas negativas ni margen en mínimos. Un MALO más duro (ventas planas, margen 0,32, S2C 1,5, g 0,01, ROIC 0,09) dejaría el MALO en unos 440 € y bajaría el precio de Sí un 6 % (estimación mía). «We don't think because it's never happened that it won't» (AIWTK p.55; HIM).",
+   "cambio": "Ninguna palanca cambia: en diez años solo la pandemia trajo ventas negativas (Historia fila 28) y no tengo un hecho que haga probable una caída sostenida. La tesis inversa dirá que el MALO no es un suelo y que la realidad puede ser peor (D11)."
+  },
+  {
+   "sesgo": "lo no numerable que pesa y no está en las palancas",
+   "hallazgo": "Cuatro cosas que ninguna celda recoge. (a) La comandita por acciones: decide el socio comanditado y el accionista de fuera no manda. (b) Si la escasez es una política o un límite físico de artesanos. (c) Si la deseabilidad aguanta un cambio de generación. (d) Por qué la cotización cayó de 2.122 € a 1.312,5 € en 2026 [AR_2025, PDF p. 462]: no está en mis entradas. «For a security to be mispriced, someone else must be a damn fool» (TCI p.17; HIM), y no veo quién es.",
+   "cambio": "Van a la tesis inversa (B102), a B222 y a qué me haría cambiar de cubo en el turno 2. No los convierto en palancas sin un hecho."
+  }
+ ],
+ "recuento_clases": {
+  "fundamentada": 49,
+  "convencion": 16,
+  "tecnico": 1,
+  "sin_juicio": 0
+ },
+ "desviaciones_justificadas": {
+  "n": 8,
+  "lista": [
+   {
+    "comprobacion": "G5",
+    "escenario": "MALO",
+    "justificacion": "El margen del MALO (0,35) supera el Q3 del sector (0,086) porque incluso la Hermès de 2016–2020, antes del rebote, nunca bajó del 32,4 %: hace el producto en talleres propios y lo vende en tiendas propias con un margen bruto del 70–71 %, así que el margen de toda la cadena es suyo. El mecanismo del MALO es la compresión por costes comprometidos (personal +5,6 %, alquileres a nueve años); no hay mejora que repartir y la pérdida la absorbe el accionista. No supera el máximo histórico (0,421).",
+    "hechos": [
+     "Historia fila 29 (2016–2020: 0,324–0,357)",
+     "Historia C50 = 0,324",
+     "AR_2025, PDF p. 41 (margen bruto 71 %)",
+     "AR_2025, PDF p. 370 (costes de personal 2.347 a 2.479 M€)",
+     "AR_2025, PDF p. 379 (alquileres a nueve años)",
+     "AR_2025, PDF p. 20 y p. 17 (79 sitios propios; 92 % en sucursales propias)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G5",
+    "escenario": "NORMAL",
+    "justificacion": "El margen del NORMAL (0,41) es el del último año y el centro de 2021–2025 (39,3–42,1 %); supera el Q3 del sector (0,086) porque Hermès captura el margen de toda la cadena: fabricación propia, más del 92 % de la venta minorista en sucursales propias y oferta limitada por capacidad, con el margen bruto subiendo al 71 % con divisas en contra, que leo como precio aceptado. Quién se queda la mejora: la empresa. No supera el máximo histórico (0,421).",
+    "hechos": [
+     "Historia C48 = 0,410",
+     "Historia fila 29 (2021–2025)",
+     "AR_2025, PDF p. 26 (margen recurrente 2021–2025)",
+     "AR_2025, PDF p. 41 (margen bruto 71 % frente a 70 %)",
+     "AR_2025, PDF p. 17 (92 % de la venta minorista en sucursales propias)",
+     "AR_2025, PDF p. 43 (una unidad de producción al año)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G5",
+    "escenario": "BUENO",
+    "justificacion": "El margen del BUENO (0,42) vuelve al máximo de 2023 (0,421, C51) sin pasarlo; supera el Q3 del sector (0,086) por el mismo mecanismo que el NORMAL, más escala: más volumen sobre una red de tiendas que no crece en número (294 frente a 307 en 2016) reparte los costes fijos de red y de estructura. Quién se queda la mejora: la empresa, porque con la demanda por encima de la oferta no tiene que bajar el precio para vender más (inferencia: no publica listas de espera).",
+    "hechos": [
+     "Historia C51 = 0,421",
+     "AR_2025, PDF p. 22 y AR_2016, PDF p. 27 (294 frente a 307 tiendas)",
+     "AR_2025, PDF p. 42 (capex de red 769 M€)",
+     "AR_2025, PDF p. 41 (margen bruto 71 %)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G4",
+    "escenario": "NORMAL",
+    "justificacion": "ROIC terminal del NORMAL 0,16 > C56 + 0,03 = 0,12. Con C18 = Sí: la ventaja propia de Hermès sobre su sector (ROIC de cinco años 0,575 frente a 0,161) dura los diez años explícitos, que es lo que han mostrado los diez años de Historia (ROIC ≥ 0,33 todos, incluido 2020), y se agota en el terminal: lo que queda a perpetuidad es la rentabilidad media del sector, destino preferido de la convergencia (CV pp. 10–11; E2), no el coste de capital. Lo sostiene que una marca de lujo sin deuda, que fabrica y vende ella misma, no cae por debajo de su sector; el salto del año 11 es esa pérdida de ventaja.",
+    "hechos": [
+     "Palancas H18 = 0,161 (ROIC medio del sector)",
+     "Historia C55 = 0,575",
+     "Historia fila 33 / series de la hoja: ROIC 0,332–0,655 en 2016–2025",
+     "Análisis C18 = Sí",
+     "AR_2025, PDF p. 364 (sin deuda bancaria)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G4",
+    "escenario": "BUENO",
+    "justificacion": "ROIC terminal del BUENO 0,33 > 0,12. Con C18 = Sí: en el BUENO la escasez se mantiene y la ventaja dura décadas; conserva a perpetuidad el ROIC de su peor año observado (0,332 en 2020, con las tiendas cerradas), no el 0,575 medio. La sostienen la marca, el oficio propio (79 sitios, 63 en Francia, 12 escuelas), la venta en sucursales propias y una capacidad que solo crece un taller al año, que no se compran con dinero en poco tiempo. Confianza baja: es la tesis optimista y va contra la tasa base de que los grandes historiales se diluyen.",
+    "hechos": [
+     "Historia fila 33 / series de la hoja: ROIC 2020 = 0,332",
+     "Análisis C18 = Sí",
+     "AR_2025, PDF p. 20 (79 sitios propios, 63 en Francia)",
+     "AR_2025, PDF p. 9 (12 escuelas)",
+     "AR_2025, PDF p. 17 (92 % en sucursales propias)",
+     "AR_2025, PDF p. 43 (una unidad de producción al año)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G8",
+    "escenario": "MALO",
+    "justificacion": "En el MALO cada euro reinvertido en los años 1–10 rinde 0,44 (S2C 1,8 × margen 0,35 × (1 − 0,295)) y en el terminal 0,12: salto de 0,32. La ventaja que se pierde en el año 11 es la de vender cada unidad nueva al precio de la escasez: en este escenario la marca ha gastado deseabilidad subiendo precios contra las divisas y la capacidad comprometida hasta 2030 no se llena, así que el capital nuevo rinde poco más que r. La separación ya empieza: la rentabilidad incremental de 2022–2025 fue 0,26–0,35, por debajo de la del MALO de los años 1–10. Pesa poco en el valor porque el terminal solo reinvierte g ÷ ROIC = 0,015 ÷ 0,12 del beneficio.",
+    "hechos": [
+     "Diagnóstico V6 C176 y bloque 10: marginal MALO 0,444, ROIC terminal 0,12, salto 0,324 (resultados.json)",
+     "Palancas B16 = 1,8; B15 = 0,35; B18 = 0,12; Historia C52 = 0,295",
+     "Historia fila ebit 4.697 → 6.568 M€ y tipo 0,2816 → 0,334 (2022–2025); series de la hoja: capital invertido 5.149 → 8.947 M€, ROIC 0,655 → 0,489",
+     "AR_2025, PDF p. 29 (talleres comprometidos 2026–2030)",
+     "AR_2025, PDF p. 363 (efecto divisa −515 M€ en 2025)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G8",
+    "escenario": "NORMAL",
+    "justificacion": "En el NORMAL la marginal de los años 1–10 es 0,69 y el ROIC terminal 0,16: salto de 0,53. Durante diez años la capacidad artesanal escasa, un taller al año, deja que cada taller y cada tienda nuevos vendan al precio de la marca. Desde el año 11 supongo que el crecimiento que queda (g = 0,025) ya no sale de la escasez sino de capital nuevo en un negocio maduro, y que ese capital rinde la media de su sector (H18 = 0,161). Lo sostiene que la rentabilidad incremental ya cae: en 2022–2025 el capital invertido creció 3.798 M€ y el NOPAT entre 1.000 y 1.319 M€ (0,26–0,35), muy por debajo del ROIC medio de cinco años (C55 = 0,575). Parte del salto es de perímetro: con los pagos de arrendamientos el S2C sería 1,6, la marginal 0,46 y el salto 0,30. Sin ningún salto el precio de Sí subiría alrededor de un 6 % (estimación mía): la hipótesis es prudente.",
+    "hechos": [
+     "Diagnóstico V6 C176 y bloque 10: marginal NORMAL 0,694, salto 0,534 (resultados.json)",
+     "Palancas H18 = 0,161; Historia C55 = 0,575; Palancas C16 = 2,4, C18 = 0,16",
+     "series de la hoja: capital invertido 5.149 → 8.947 M€ y ROIC 0,655 → 0,489 (2022–2025)",
+     "Historia fila arrendamientos_principal: 277, 305 y 332 M€ (2023–2025)",
+     "AR_2025, PDF p. 43 (una unidad de producción al año)",
+     "AR_2025, PDF p. 368 (amortización de derechos de uso 351 M€)"
+    ],
+    "clase": "fundamentada"
+   },
+   {
+    "comprobacion": "G8",
+    "escenario": "BUENO",
+    "justificacion": "En el BUENO la marginal de los años 1–10 es 1,04 y el ROIC terminal 0,33: salto de 0,71. Aquí la ventaja dura, pero no al ritmo de 1,04 por euro: ese 1,04 sale del S2C de 2024 (3,8), el año en que se llenó la capacidad de 2022–2023 en una red ya pagada, y no puede ser la rentabilidad del capital nuevo para siempre. A perpetuidad el foso conserva lo que esta empresa ganó en su peor año, 2020, con las tiendas cerradas (0,332). Lo que se pierde en el año 11 es el efecto de llenar capacidad ya pagada, no la marca. Los hechos acotan el terminal entre la rentabilidad incremental de 2022–2025 (0,26–0,35) y el ROIC de 2025 (0,489).",
+    "hechos": [
+     "Diagnóstico V6 C176 y bloque 10: marginal BUENO 1,036, salto 0,706 (resultados.json)",
+     "Palancas D16 = 3,5; D18 = 0,33",
+     "series de la hoja: ROIC 2020 = 0,332; ROIC 2025 = 0,489; reinversión neta orgánica 2024 = 462 M€",
+     "Historia fila ventas: +1.743 M€ en 2024",
+     "AR_2025, PDF p. 20 (79 sitios propios)"
+    ],
+    "clase": "fundamentada"
+   }
+  ]
+ },
+ "avisos": [
+  {
+   "id": "A2",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "r frente a r mínima: ⚠ REVISAR · tu r (9.0 %) < r mínima (9.9 %)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa (r heredada, S-3)"
+  },
+  {
+   "id": "A3",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "fechas del precio y de las acciones: Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa"
+  },
+  {
+   "id": "A5",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "la palanca más influyente del tornado es la tasa de descuento (r heredada)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "la ficha dice que el valor depende sobre todo de la r exigida"
+  }
+ ],
+ "confianza_global": "media",
+ "que_falta": {
+  "bloqueantes": [],
+  "necesarios_para_listo_provisional": [],
+  "no_bloqueantes": [
+   {
+    "dato": "Palancas!C24",
+    "que": "tamaño del mercado año 10",
+    "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+    "nota": ""
+   }
+  ],
+  "datos_ausentes": [
+   {
+    "dato": "Palancas!C24",
+    "que": "tamaño del mercado año 10",
+    "nivel": "no bloqueante",
+    "origen_esperado": "extractos (solo con cifra de fuente primaria)",
+    "nota": ""
+   },
+   {
+    "dato": "extracto_v63: Tamaño del mercado del lujo posterior a 2019 y su crecimiento (el último dato publicado es de 2019, 281.000 M€).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Cuota de mercado de Hermès o de cualquier métier, con cualquier definición.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Competidores nombrados o comparaciones con ellos.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Margen operativo por métier (solo se publica por zona geográfica).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Subidas de precio por año, efecto precio frente a volumen frente a mezcla, listas de espera o evidencia cuantificada de absorción del cliente.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Unidades vendidas, número de clientes, ticket medio y ventas online en euros.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Cartera de pedidos.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Importe de I+D y su porcentaje sobre ventas (la tabla de referencias marca «n/a»).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Capex por métier o por taller; coste de cada nuevo taller o tienda; retorno esperado del capex inmobiliario.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Precio pagado y múltiplo de las adquisiciones (Emiratos Árabes Unidos 2024, curtiduría Gal 2023).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Causa de la disminución de 40 M€ del fondo de comercio en 2025 y de 48 M€ en 2024.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Guía numérica de ventas, de margen o de capex para 2026; el objetivo a medio plazo no tiene cifra.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Efecto de aranceles o derechos de aduana en ventas o precios (no se mencionan en los textos como factor cuantificado).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Rating crediticio, covenants, coste medio de la deuda y calendario de vencimientos de deuda (no hay deuda financiera).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Condiciones (importe, vencimiento, cupón) de los EMTN y depósitos a plazo que forman parte de las inversiones financieras.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Ratios de capital regulatorio y límites regulatorios a la distribución (la empresa no es financiera).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Importe de la contribución excepcional fiscal francesa esperada para 2026.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Cifra de ventas a clientes turistas o por nacionalidad del cliente.",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   },
+   {
+    "dato": "extracto_v63: Informe semestral a 30 de junio de 2026: no está entre los textos de esta carpeta (solo informes anuales 2016-2025).",
+    "nivel": "no bloqueante",
+    "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+    "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+   }
+  ]
+ },
+ "citas": {
+  "munger": 46,
+  "damodaran": 13
+ },
+ "dos_errores": {
+  "mas_cerca_de": "pagar cualquier cosa",
+  "porque": "Con Hermès el error que tengo más cerca es pagar cualquier cosa por calidad. Mis palancas ya son generosas donde los hechos lo permiten: margen del 41 % en el NORMAL, ROIC terminal del 16 % y del 33 % en el BUENO, muy por encima de lo que la convención daría. Si además el precio me pareciera aceptable solo porque es una gran empresa, estaría en el Nifty-Fifty: «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). El error opuesto existe, «We left a lot of money on the table through early fretting» (TCI p.79; HIM), y por eso no castigo el MALO con un crecimiento negativo que solo trajo la pandemia ni el NORMAL con un ROIC igual a r; pero a 30 veces beneficios (C37, C41) el riesgo es pagar de más, no regatear."
+ },
+ "seis_preguntas": {
+  "confio_en_la_gestion": "Sí, por el historial y no por la presentación: diez años sin deuda bancaria, sin adquisiciones grandes (0–288 M€ al año, Historia), sin dilución (C60), con dividendos extraordinarios para devolver caja sobrante [AR_2025, PDF p. 461] y con talleres y tiendas que se abren cuando se dijo (Riom 2024 [AR_2024, PDF p. 6], L'Isle-d'Espagnac 2025 [AR_2025, PDF p. 8]). La familia tiene el 66,7 % del capital y el 76–79 % de los votos (C96): se juega lo suyo. Reservas: en una comandita por acciones el accionista de fuera no manda, «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM); hay partes vinculadas pequeñas (RDAI 20 M€, Studio des Fleurs 4 M€ [AR_2025, PDF p. 396]; arrendamientos con SAS SIFAH, 124 M€ de derecho de uso [AR_2025, PDF p. 397]); el capex de 2025 superó la guía (1.161 frente a unos 1.000 M€ [AR_2024, PDF p. 44]).",
+  "puede_danar_reputacion": "Poco, por lo que veo, pero mis entradas no cubren litigios, sanciones ni controversias: no las encuentro y no puedo afirmar que no existan. El riesgo que sí veo es de imagen propia: abusar del precio o de la expansión gasta la deseabilidad que es el negocio.",
+  "que_puede_salir_mal": "Que Asia-Pacífico sin Japón, el 42 % de las ventas, siga floja (+5 % cst en 2025 [AR_2025, PDF p. 38]) con costes ya comprometidos; que las divisas sigan restando (−515 M€ en 2025 [AR_2025, PDF p. 363]) y el precio que las compensa gaste deseabilidad; que la contribución excepcional francesa (331 M€ en 2025 [AR_2025, PDF p. 374]) se repita cada año, «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM); que el capex inmobiliario rinda poco (terrenos +326 M€ en 2025 sin retorno publicado [AR_2025, PDF p. 378]) y siga bajando el ROIC (del 65,5 % de 2022 al 48,9 % de 2025); que el deterioro de inventarios siga subiendo (1.217 a 1.429 M€ [AR_2025, PDF p. 368]). Y sobre todo el precio (C13, C20).",
+  "lo_entiendo": "Sí: objetos de oficio artesanal, escasos por capacidad, bajo una marca, hechos en talleres propios y vendidos casi todos en sucursales propias, cobrando en el momento de la compra.",
+  "necesita_capital": "No. El capex, un 7,3 % de las ventas en 2025 (1.161 M€), lo cubre la caja operativa de 5.374 M€ (Historia); paga 2.796 M€ de dividendos [AR_2025, PDF p. 360] y aun así acumula caja, 12.239 M€ a cierre de 2025 (Historia). La reinversión neta es pequeña frente al beneficio (462 y 468 M€ en 2024–2025, series de la hoja).",
+  "que_caja_espero": "Una caja libre al accionista del orden de la base, 3.487 M€ (C52), y de los 3.749 M€ de 2025 (Historia fila 35), que crece con el negocio y con baches de circulante como el de 2023. Lleva dentro el rendimiento de la caja (286 M€ antes de impuestos en 2025 [AR_2025, PDF p. 384]). El ritmo lo traduzco a palancas en la fase B, no aquí."
+ },
+ "descalificadores": [
+  {
+   "nombre": "no puedo explicar de dónde viene la caja",
+   "aplica": false,
+   "evidencia": "Margen EBIT del 41 % con CFO 5.374 M€ y capex 1.161 M€ en 2025 (Historia); cobro en tienda, clientes 418 M€ [AR_2025, PDF p. 366, 369]; CFO/beneficio 1,16 (C26)."
+  },
+  {
+   "nombre": "el valor depende de predecir macro, tipos, divisas o materias primas",
+   "aplica": false,
+   "evidencia": "Las divisas pesan (80 % de las ventas fuera del euro [AR_2025, PDF p. 179]; −515 M€ en 2025 [AR_2025, PDF p. 363]) pero la empresa cubre casi el 100 % de los flujos internos del año siguiente [AR_2025, PDF p. 179] y el margen bruto subió con divisas en contra [AR_2025, PDF p. 41]. El valor depende del foso, no de acertar el euro. Lo vigilo: es el borde del círculo (C12)."
+  },
+  {
+   "nombre": "cambio tecnológico que no me deja juzgar si el foso dura",
+   "aplica": false,
+   "evidencia": "El producto es artesanal y la ventaja está en marca, oficio y distribución propia; ningún hecho del extracto apunta a un cambio tecnológico que la amenace."
+  },
+  {
+   "nombre": "gestión en la que no confío",
+   "aplica": false,
+   "evidencia": "Historial de diez años sin deuda, sin dilución y sin adquisiciones grandes (Historia filas 13 y 20; C60); familia con el 66,7 % del capital (C96). Reservas de gobierno (comandita, partes vinculadas pequeñas [AR_2025, PDF p. 396, 397]) que no llegan a desconfianza."
+  },
+  {
+   "nombre": "deuda que puede matar la empresa en un mal año",
+   "aplica": false,
+   "evidencia": "Sin deuda bancaria ni bonos [AR_2025, PDF p. 364]; deuda neta/EBITDA −1,35 (C33); la caja cubre la deuda a corto (C34); arrendamientos 2.311 M€ frente a caja de 12.239 M€ [AR_2025, PDF p. 380]."
+  },
+  {
+   "nombre": "negocio que reinvierte toda la caja solo para mantenerse, con retornos mediocres",
+   "aplica": false,
+   "evidencia": "ROIC medio de cinco años del 57 % (C55) y reinversión neta pequeña frente al beneficio; reparte 2.796 M€ en dividendos en 2025 [AR_2025, PDF p. 360]. Es lo contrario: «The second earns 12 percent, but all the excess cash must be reinvested—there's never any cash» (PCA p.110; HIM) no describe a Hermès."
+  },
+  {
+   "nombre": "demasiadas piezas móviles",
+   "aplica": false,
+   "evidencia": "Un solo negocio (objetos de marca hechos y vendidos por la empresa) con siete métiers del mismo oficio [AR_2025, PDF p. 29]; no es financiera ni conglomerado."
+  },
+  {
+   "nombre": "sin historial: start-up, salida a bolsa reciente u operación promocionada",
+   "aplica": false,
+   "evidencia": "Diez años de cuentas completas en la Historia con el mismo modelo de negocio."
+  },
+  {
+   "nombre": "reestructuración o «la nueva dirección lo arreglará»",
+   "aplica": false,
+   "evidencia": "No hay nada que arreglar: márgenes del 39–42 % en 2021–2025 (Historia fila 29) y ninguna reestructuración en el extracto."
+  }
+ ],
+ "foso": {
+  "tipo": "Marca protegida unida a un saber hacer artesanal propio y a una distribución propia, con una oferta limitada por la capacidad: escasez que no se compra con dinero en poco tiempo. Es el tipo C de su lista, rendimiento extremo en muchos factores a la vez (PCA pp.421–423; HIM), y tiene algo del secreto de oficio (PCA pp.230–231; HIM).",
+  "pruebas": {
+   "sobrino_idiota": "Lo pasa en el corto plazo: con margen bruto del 71 % [AR_2025, PDF p. 41], ROIC del 49 % en el peor año reciente (2025, series de la hoja) y caja neta de 12.239 M€ (Historia), soportaría bastante mala gestión. «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). Pero el sobrino idiota es justo el que destruye este foso: sobreexpandir o subir precios sin medida gasta la escasez, y eso no se ve en un año.",
+   "duracion": "Larga si no se gasta: diez años de ROIC entre el 33 % y el 66 % (series de la hoja) y margen EBIT por encima del 32 % todos los años (Historia fila 29). La señal de desgaste que vigilo es la caída del ROIC del 65,5 % (2022) al 48,9 % (2025) por un capital invertido que crece más que el beneficio. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM). La duración la escribiré como hipótesis en el ROIC terminal (fase B).",
+   "quien_me_mata": "No lo sé con mis entradas: el extracto no nombra competidores ni cuotas [extracto §1 y §9] y no los nombro de memoria. «I think it's important to know which competitor is most likely to do you in» (AIWTK p.131; HIM). Lo pediría. El candidato que sí veo en los hechos es la propia empresa: sobreexpansión de red (capex de red de 769 M€ en 2025 [AR_2025, PDF p. 42]) y precio para compensar divisas.",
+   "empresa_o_nicho": "Sobre todo empresa: en 2018–2019 creció 7,5 % y 15 % (Historia) cuando el mercado que cita creció de 260.000 a 281.000 M€ tras bajar en 2018 [AR_2019, PDF p. 13]; y la integración vertical (79 sitios propios, 92 % de la venta minorista en sucursales propias [AR_2025, PDF p. 20, 17]) es suya, no del nicho. Parte de 2021–2023 fue el periodo post-Covid, que la dirección da por cerrado [AR_2025, PDF p. 6]: ese tramo no lo cuento como mérito. «you must know how much of your present prosperity is causes by talents and momentum» (AIWTK p.136; HIM)."
+  }
+ },
+ "comparacion_etapa_1": {
+  "cubo_v1": "Vigilar",
+  "precio_de_si_v1": 520,
+  "cubo_v2": "Vigilar",
+  "precio_de_si_v2": 757.05,
+  "por_que_difieren": "El cubo coincide: gran negocio sin margen a este precio. El precio de Sí sube de unos 520 € a 757.05 € sobre todo por la regla, no por los valores: la v1 usaba mín(MALO, 0,75 × ponderado) con su estimación a mano (MALO ≈ 523 €, ponderado ≈ 819 €); la V6.3 da MALO 542.70 y ponderado 842.80, y esa misma regla antigua daría 542.7 € (C156), solo un 4 % más que la v1. La diferencia grande la pone la escalera k = 3, que es una convención experimental. Cambian además C17 (Sí → No: el crecimiento es de la empresa, no de la marea), C20 (a Riesgo real alto, por la pérdida al precio pagado), C97 (Comprando → Neutral, sin operaciones en mis entradas) y la tesis inversa, que pierde los datos del semestre de 2026 y gana la caída del ROIC. No es que la v1 se equivocara en el negocio: medía con otra regla y con otros datos."
+ }
+}

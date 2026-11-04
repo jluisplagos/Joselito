@@ -1,1 +1,1 @@
-VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)
+VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 2)
