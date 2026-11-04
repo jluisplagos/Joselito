@@ -33,18 +33,22 @@
   "  $ bash recalc.sh Viscofan_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/recalc/Viscofan_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/.lo_perfil)",
   "  $ python3 leer_resultados.py Viscofan_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/resultados.json · motor B · estado INCOMPLETO · libro NO LISTO · incompleto (1 pendientes)",
   "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 54.7 · esc. MALO 35.3886020412093 · precio de Sí 43.0510 (P* 43.0510) · ponderado 46.8821 · zona caro",
-  "  $ python3 comprobar_gramatica.py Viscofan --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 4 (sin justificar 1) · avisos 3 → gramatica.md"
+  "  $ python3 comprobar_gramatica.py Viscofan --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 4 (sin justificar 1) · avisos 3 → gramatica.md",
+  "  $ python3 validar_esquema.py fase_c.json fase_c --turno 1 --salida esquema_fase_c.json.txt → 0 · VÁLIDO · fase_c.json contra fase_c.esquema.json (turno 1)",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_c.md fase_c.md → 0 · RESULTADO: PASS"
  ],
  "motor": "B",
  "fase_b_escrita": true,
  "fase_c_escrita": false,
  "esperando": "10:fase_c.json",
  "inicio": "2026-11-04T08:49:45",
- "esperando_desde": 1793783699.706507,
+ "esperando_desde": 1793784209.454567,
  "consumidos": {
   "extracto_v63.md": 1793782579.3884652,
   "fase_a.json": 1793783115.0380526,
-  "fase_b.json": 1793783649.088407
+  "fase_b.json": 1793783649.088407,
+  "fase_c.json": 1793784187.5198493
  },
- "motivo_correccion": null
+ "motivo_correccion": "segundo turno de la fase C: lee comprobacion_conjunta.json (si existe) y cierra fase_c.json (turno 2)",
+ "turno_c": 2
 }
