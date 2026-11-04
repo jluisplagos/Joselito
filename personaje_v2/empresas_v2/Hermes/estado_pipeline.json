@@ -1,5 +1,5 @@
 {
- "paso": 5,
+ "paso": 6,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -21,7 +21,11 @@
  "motor": null,
  "fase_b_escrita": false,
  "fase_c_escrita": false,
- "esperando": "5:extracto_v63.md",
+ "esperando": "6:fase_a.json",
  "inicio": "2026-11-04T10:14:32",
- "esperando_desde": 1793787468.460134
+ "esperando_desde": 1793787995.614526,
+ "consumidos": {
+  "extracto_v63.md": 1793787985.4894161
+ },
+ "motivo_correccion": null
 }

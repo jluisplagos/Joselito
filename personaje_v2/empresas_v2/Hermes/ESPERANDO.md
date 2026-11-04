@@ -1,1 +1,1 @@
-ESPERANDO al agente **extraccion_v63** (paso 5). Entradas: texto/, extracto.md (etapa1), datos_v63.md. Escribe **extracto_v63.md** en esta carpeta y vuelve a lanzar pipeline.py.
+ESPERANDO al agente **fase_a** (paso 6). Entradas: datos_v63.md, extracto.md, extracto_v63.md, personaje_munger_v2.md. Escribe **fase_a.json** en esta carpeta y vuelve a lanzar pipeline.py.
