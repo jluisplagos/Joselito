@@ -29,10 +29,10 @@
   0.025
  ],
  "estados": {
-  "estado_tecnico_B255": "INCOMPLETO",
-  "causa_tecnica_B256": "Faltan 3 predicciones (Palancas A38:A40)",
+  "estado_tecnico_B255": "COMPLETO Y VÁLIDO",
+  "causa_tecnica_B256": null,
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
-  "estado_libro_B266": "NO LISTO · incompleto (1 pendientes)",
+  "estado_libro_B266": "LISTO · PROVISIONAL (24 estimaciones justificadas)",
   "lectura_precio_B267": "sin margen: tu DCF no da colchón",
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
   "evidencias_B269": "PROVISIONAL · 24 estimación(es) justificada(s) · documentadas 19 de 19 · hipótesis confirmadas 0 de 24",
@@ -40,7 +40,7 @@
   "comparable_B253": true,
   "bloqueo_lectura_B254": false,
   "n_avisos_B260": 4,
-  "n_causas_B261": 5,
+  "n_causas_B261": 4,
   "dcf_inverso_monotono_B193": "✓ PASA"
  },
  "reglas_motor": [
@@ -521,12 +521,12 @@
    "id": "C07",
    "regla": "Predicciones (Palancas A38:A40)",
    "aplica": true,
-   "resultado": "INCOMPLETO",
-   "codigo": "INC|Faltan 3 predicciones (Palancas A38:A40)",
-   "causa": "Faltan 3 predicciones (Palancas A38:A40)",
+   "resultado": "OK",
+   "codigo": null,
+   "causa": null,
    "nivel": 3,
    "prioridad": 9,
-   "n_causa_activa": 5
+   "n_causa_activa": null
   },
   {
    "id": "C08",
@@ -588,8 +588,7 @@
   "1. AVISO · La rentabilidad marginal de los años 1–10 y el ROIC del terminal se separan más de 5 puntos: el salto del año 11 es una hipótesis. Hazla explícita (Diagnóstico V6, bloque 10)",
   "2. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
   "3. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
-  "4. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-  "5. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+  "4. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha"
  ],
  "semaforos": {
   "fila40": [
@@ -856,7 +855,7 @@
   ],
   [
    "Las tres predicciones están escritas",
-   "⛔ TÉCNICO · Faltan 3 predicciones (Palancas A38:A40)"
+   "✓ PASA"
   ],
   [
    "Tipo de empresa y caso especial elegidos",
@@ -868,7 +867,7 @@
   ],
   [
    "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-   "NO LISTO · incompleto (1 pendientes)"
+   "LISTO · PROVISIONAL (24 estimaciones justificadas)"
   ]
  ],
  "salto_anio_11": {
@@ -953,8 +952,8 @@
    ]
   ],
   "mas_influyente": "Margen / ROE objetivo (±2 pts)",
-  "B222": null,
-  "B223": null
+  "B222": "Si el escalón de margen de 2023 (4,0 a 5,3% del grupo) es ejecución o marea: viene del margen propio de Construction (3,0 a 5,7%) en la ola de obra pública, no de la mezcla, y sostiene el margen NORMAL de 0,05 (Palancas!C15 · C66). El precio de Sí es además provisional porque las probabilidades B69:D69 no tienen frecuencia de escenarios que las acote: la Historia es un solo ciclo al alza.",
+  "B223": "Informe anual 2025/26 (cierre 30-sep-2026), nota de segmentos: margen EBIT de Construction y del grupo, margen bruto y entrada de pedidos frente a ventas. Para B69:D69: informes anuales anteriores a 2016 (ventas, margen y entrada de pedidos en el ciclo bajo de la construcción danesa) y pregunta a Relación con Inversores sobre el margen de Construction antes de 2020."
  },
  "precio_referencia_hoja_C156": 346.988187566186,
  "parametros_hoja": {
@@ -1419,9 +1418,9 @@
   "C93": "Sí",
   "C97": "Neutral",
   "C98": "Aceptable",
-  "B101": "Contratista danés de infraestructura con escala local, balance casi sin deuda neta y ROIC después de impuestos entre el 10% y el 19% durante once años. El backlog récord (26.408 mm, 63% del año cubierto) y los programas públicos dan visibilidad a dos o tres años. No veo un foso que sobreviva a mala gestión: gana por ejecución y selectividad en un sector de licitación con presión de precios declarada. A 682 DKK paga unas 15 veces la caja normalizada de la plantilla, sin margen frente a mi valor ponderado estimado (~775 DKK). Compraría solo con margen real, hacia el valor estimado del escenario malo (~465 DKK).",
-  "B102": "El FCF récord de 2024/25 lleva dentro +1.036 mm de capital circulante que ya se está dando la vuelta: en los nueve meses de 2025/26 el circulante restó 282 mm y la deuda neta pasó de -30 a -1.458. El margen EBIT del grupo nunca ha superado el 5,3% y los nueve meses van al 4,5%, con Ground Engineering al 1,3% y sobrecapacidad declarada en Alemania; la solvencia (30,2%) está por debajo del objetivo mínimo del 35%. El beneficio se reconoce por grado de avance —la materia clave de auditoría— y la propia empresa declara en Fehmarnbelt un 'wide outcome range'; un solo arbitraje ya costó 72 mm en 2018/19 y hubo deterioros en Hansson & Knudsen y Aarsleff Rail. Parte del crecimiento es comprado (CG Jensen y otras por 793 mm aportan de momento ingresos 400 mm con EBIT -2 mm) y Noruega y Suecia llevan años sin contribuir según la propia dirección. Pagar 15 veces una caja de pico de ciclo por un negocio de licitación sin poder de precio demostrado es comprar la marea, no el barco.",
+  "B101": "Aarsleff es un contratista danés que rinde por encima de r porque cobra por avance y usa poco capital: ROIC de 10,1 a 16,7% en diez años (Historia fila 33) con S2C medio 4,13 (Historia C54). No tiene foso: el escalón de margen de 2023 (4,0 a 5,3%, Historia fila 29) es del margen propio de Construction durante la ola de obra pública (3,0 a 5,7% [AR_2025, PDF pp. 26-34]), y Ground Engineering muestra lo que pasa cuando llega la competencia de precio (ROIC 3,8% [AR_2025, PDF p. 115]). Mis tres escenarios valen 347, 516 y 708 por acción con probabilidades 0,25/0,6/0,15; a 729 el precio paga más que mi BUENO y descuenta un 17,1% de crecimiento anual (C86). Espero: el precio de Sí es 450,57, provisional porque las probabilidades no tienen frecuencia observada que las acote. Lo que decide si me equivoco es si el margen de Construction aguanta cuando la ola deje de crecer.",
+  "B102": "El No es más fuerte de lo que parece. El margen del grupo estuvo siete de diez años entre 3,4 y 4,4% (Historia fila 29) y el escalón lo trajo un solo segmento en plena ola pública, cuya propia dirección guía ya en 4,5-5,0% para 2025/26 frente al 5,5% de 2024/25 [AR_2025, PDF p. 9]. El FCF de 2025 (1.569, Historia fila 35) lleva 1.036 de circulante liberado (Historia fila 14) que se devuelve: en diez años el FCF al accionista suma unos 2.630 con cuatro años negativos, y después de compras cinco años dejan 234 (C40). La deuda subió 1.629 en nueve meses y la solvencia está en 30,2% bajo su objetivo del 35% (C54). Hay 12.135 de garantías y 2.095 de responsabilidad solidaria [AR_2025, PDF p. 141], un 'wide outcome range' en Fehmarnbelt con riesgo 'assessed as increased' [AR_2025, PDF p. 97] y beneficio reconocido por grado de avance. Sin foso, el ROIC de 14-15% converge: a r, el MALO vale 347, un 52% bajo el precio, y aun así no es suelo.",
   "C103": "No",
-  "C104": "0% · Watchlist · precio de Sí ≈ 465 DKK (estimación; el script recalcula el exacto)"
+  "C104": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 450.57 (provisional, condicionado a B69:D69) · zona caro · precio de Sí ≤ 450.57 · precio esc. MALO 346.99 · ponderado 502.36 · fundamento pendiente de investigación (probabilidades B69:D69 sin base para acotar)"
  }
 }

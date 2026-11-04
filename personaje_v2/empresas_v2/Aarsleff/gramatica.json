@@ -1,8 +1,8 @@
 {
  "modo": "tras",
- "con_fase_c": false,
+ "con_fase_c": true,
  "motor": "A",
- "codigo": 1,
+ "codigo": 0,
  "hallazgos": [
   {
    "id": "G5",
@@ -21,9 +21,9 @@
    "escenario": "NORMAL",
    "motor": "A",
    "motores": "A, B",
-   "detalle": "salto del año 11 NORMAL = 0.056 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas",
+   "detalle": "salto del año 11 NORMAL = 0.056 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan",
    "requiere_justificacion": true,
-   "justificada": false,
+   "justificada": true,
    "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
   },
   {
@@ -32,9 +32,9 @@
    "escenario": "BUENO",
    "motor": "A",
    "motores": "A, B",
-   "detalle": "salto del año 11 BUENO = 0.086 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas",
+   "detalle": "salto del año 11 BUENO = 0.086 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan",
    "requiere_justificacion": true,
-   "justificada": false,
+   "justificada": true,
    "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
   },
   {
@@ -64,7 +64,7 @@
   "errores": 0,
   "limites": 0,
   "desviaciones": 3,
-  "desviaciones_sin_justificar": 2,
+  "desviaciones_sin_justificar": 0,
   "avisos": 2
  }
 }

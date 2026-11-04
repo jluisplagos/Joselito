@@ -1,0 +1,286 @@
+{
+ "empresa": "Per Aarsleff Holding A/S",
+ "fecha": "2026-11-04",
+ "estado_analisis": "no_entregable",
+ "causa": {
+  "tipo": "fallo_de_implementacion",
+  "detalle": "verificar_todo.sh con FAIL: FAIL · verify_quotes_v2.py (Munger y Damodaran; textos y Observaciones; páginas estrictas; corpus ausente = fallo) (código 1)",
+  "comprobacion": null,
+  "categoria": null
+ },
+ "paso_en_que_se_detuvo": 12,
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 0,
+  "auditoria": 0,
+  "vueltas_c_a_b": 0,
+  "vueltas_b_a_a": 0
+ },
+ "lo_que_sigue_valido": {
+  "libro": "íntegro: True · estado técnico INCOMPLETO · motores calculables ['A', 'B', 'C']",
+  "cubo_cualitativo": "Vigilar",
+  "descalificadores": "ninguno aplica",
+  "gestion": {
+   "C97": "Neutral",
+   "C98": "Aceptable"
+  },
+  "seis_preguntas": true,
+  "celdas_fase_a": [
+   "B65",
+   "B66",
+   "C11",
+   "C12",
+   "C13",
+   "C14",
+   "C17",
+   "C18",
+   "C19",
+   "C20",
+   "C25",
+   "C27",
+   "C51",
+   "C56",
+   "C61",
+   "C62",
+   "C65",
+   "C66",
+   "C97",
+   "C98",
+   "D65",
+   "D66",
+   "Palancas!C10",
+   "Palancas!C43",
+   "Palancas!C47",
+   "Palancas!C5",
+   "Palancas!C6",
+   "Palancas!C8",
+   "Palancas!C9"
+  ],
+  "palancas_fase_b": "escritas",
+  "fase_c": {
+   "cubo_final": "Vigilar",
+   "estado_analisis": "concluido"
+  },
+  "revision_datos_ausentes": {
+   "revisados": [
+    {
+     "dato": "Palancas!C24",
+     "que_falta": "tamaño del mercado año 10 (cifra de fuente primaria)",
+     "conclusion_afectada": "Palancas!C24 (queda vacía) y semáforo de cuota implícita (fila 45, G17), que no se calcula",
+     "material_para_conclusion_favorable": false,
+     "porque": "El BUENO no está limitado por el mercado sino por la capacidad propia, que es lo que la dirección dice que fija lo que puede licitar [AR_2025, PDF p. 7], y su crecimiento (0,10) queda por debajo del mejor CAGR propio de cinco años (11,2%, Historia C46). La cuota implícita solo podría recortar un BUENO que pesa 0,15; con la conclusión esperar y la zona caro no cambia nada. Para una compra cerca del precio de Sí sí la pediría."
+    },
+    {
+     "dato": "extracto_v63: Tamaño de mercado (Palancas!C24, tamaño del mercado año 10): no encontrado; ninguna cifra de fuente primaria en AR_2016 a AR_2025.",
+     "que_falta": "cifra de tamaño de mercado en AR_2016 a AR_2025",
+     "conclusion_afectada": "Palancas!C24 y la prueba de realismo del BUENO (la misma que el dato anterior)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Es el mismo hueco que Palancas!C24 visto desde el extracto: ninguna cifra primaria. Las ventas del BUENO en el año 10 (47.564, resultados por_escenario) salen de la capacidad y de la historia propia, no de una cuota supuesta; el precio de Sí no depende de un techo de mercado."
+    },
+    {
+     "dato": "extracto_v63: Crecimiento de mercado como cifra: no encontrado.",
+     "que_falta": "crecimiento del mercado como cifra",
+     "conclusion_afectada": "C65 (Crece al ritmo de su mercado) y Palancas!C14",
+     "material_para_conclusion_favorable": false,
+     "porque": "El NORMAL no se construyó con un crecimiento de mercado sino con el orgánico publicado (8,6%, 5,6% y 2,6% [AR_2025, PDF p. 23]) y la cartera (4,9% anual en tres cierres [AR_2025, PDF pp. 4 y 10]). Una cifra de mercado serviría de contraste, no cambia el 0,06 ni la zona."
+    },
+    {
+     "dato": "extracto_v63: Cuota de mercado de Aarsleff o de sus segmentos: no encontrado.",
+     "que_falta": "cuota de mercado de Aarsleff o de sus segmentos",
+     "conclusion_afectada": "C18 (foso, prueba de quién me mata) y C65/D65",
+     "material_para_conclusion_favorable": false,
+     "porque": "C18 ya es No, el lado desfavorable a la tesis: una cuota solo podría sostener un foso que no he concedido. Ninguna palanca del NORMAL ni del MALO supone ganar o perder cuota. No afecta a esperar ni al precio de Sí."
+    },
+    {
+     "dato": "extracto_v63: Competidores con nombre: no encontrado.",
+     "que_falta": "competidores con nombre",
+     "conclusion_afectada": "C18 (quién me mata) y el mecanismo del MALO (la presión de precio se extiende)",
+     "material_para_conclusion_favorable": false,
+     "porque": "El MALO no necesita nombres: la presión de precio está documentada por segmento (Ground Engineering de 4,9% a 2,6% de margen y ROIC 3,8% [AR_2025, PDF p. 115]; competencia en Suecia, Reino Unido y Noruega [AR_2025, PDF p. 33]). Con C18 = No los nombres solo cambiarían la confianza, no la cifra ni el cubo."
+    },
+    {
+     "dato": "extracto_v63: Evolución de ventas a tipo constante: no encontrado.",
+     "que_falta": "evolución de ventas a tipo constante",
+     "conclusion_afectada": "Palancas!B14:D14 (crecimiento 1-5)",
+     "material_para_conclusion_favorable": false,
+     "porque": "El extranjero es 8.468 de 22.620 [AR_2025, PDF p. 116] y la descomposición publicada ya separa Dinamarca y extranjero [AR_2025, PDF p. 23]; con la corona ligada al euro el efecto divisa sobre el orgánico es de décimas, dentro del redondeo de 0,005 de la palanca. No es material."
+    },
+    {
+     "dato": "extracto_v63: Desglose del ingreso internacional por país o región: no encontrado en la nota de segmentos de AR_2025 (solo Dinamarca e internacional).",
+     "que_falta": "desglose del ingreso internacional por país",
+     "conclusion_afectada": "Palancas!A28:B33 (reparto geográfico) y la r mínima de Diagnóstico C17",
+     "material_para_conclusion_favorable": false,
+     "porque": "La r es heredada (0,09) y está por encima de la r mínima (0,0772, datos_v63 §4) con el reparto Dinamarca 62,6% / Europa occidental 37,4%. Aunque parte del internacional fuera de Polonia o Chequia, la r mínima no llegaría a 0,09: no cambia la r usada ni ninguna palanca."
+    },
+    {
+     "dato": "extracto_v63: Importe de I+D y porcentaje sobre ventas: no encontrado.",
+     "que_falta": "importe de I+D y porcentaje sobre ventas",
+     "conclusion_afectada": "Palancas!C9 y C10",
+     "material_para_conclusion_favorable": false,
+     "porque": "Contratista sin I+D cuantificada en diez informes (Historia fila 19); C9 = No por eso y porque el caso especial no es Intangibles. Aunque existiera un importe pequeño, no llegaría al 5% de ventas que obligaría a capitalizarla. Ninguna celda de juicio cambia."
+    },
+    {
+     "dato": "extracto_v63: Capex por destino distinto del segmento (por ejemplo, desglose de la guía de 750-850 por proyecto): no encontrado más allá de las inversiones que cita el texto.",
+     "que_falta": "capex por destino distinto del segmento",
+     "conclusion_afectada": "Palancas!B16:D16 (S2C)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Las S2C salen de lo realizado (Δventas ÷ Δcapital, Historia filas 6 y 32), no de la guía de capex. El desglose por proyecto afinaría el BUENO, que pesa 0,15; no mueve la zona ni el precio de Sí de forma apreciable."
+    },
+    {
+     "dato": "extracto_v63: Múltiplo de adquisición (precio sobre ventas, EBITDA o beneficio) de ArtiCon, Rossaro, Styrud o Bøgelund: no encontrado; solo precio y fondo de comercio de Arti",
+     "que_falta": "múltiplo de adquisición de ArtiCon, Rossaro, Styrud y Bøgelund",
+     "conclusion_afectada": "C98 (asignación de capital) y el punto y medio de crecimiento comprado dentro de Palancas!C14",
+     "material_para_conclusion_favorable": false,
+     "porque": "Lo publicado ya acota el tamaño: ArtiCon 144 por 100% sin deuda con 709 de ingresos pro forma [AR_2025, PDF p. 143]; las demás son pequeñas frente a 22.620. El rendimiento de las compras queda dentro del perímetro de la S2C histórica (el capital invertido incluye el fondo de comercio, 451 [AR_2025, PDF p. 106]). No es material para esperar."
+    },
+    {
+     "dato": "extracto_v63: Precio de Rossaro Kanaltechnik, Styrud y Bøgelund VVS: no encontrado.",
+     "que_falta": "precio pagado por Rossaro Kanaltechnik, Styrud y Bøgelund VVS",
+     "conclusion_afectada": "C98",
+     "material_para_conclusion_favorable": false,
+     "porque": "Son compras pequeñas: Rossaro con ingresos de EUR 3 millones [AR_2025, PDF p. 35], Styrud con algo más de 200 de ingresos y Bøgelund con 60 empleados [AR_2025, PDF p. 146]. Ni juntas cambian C98 = Aceptable ni una palanca."
+    },
+    {
+     "dato": "extracto_v63: Subidas de precio aplicadas a clientes y efecto en volumen: no encontrado como cifra.",
+     "que_falta": "subidas de precio aplicadas a clientes y su efecto en volumen",
+     "conclusion_afectada": "C18 y C14 (poder de precio) y Palancas!B15:D15",
+     "material_para_conclusion_favorable": false,
+     "porque": "No tengo prueba de poder de precio y por eso C18 = No y C14 = Cíclica / commodity; los márgenes se fundaron en la serie propia (Historia fila 29) y en los segmentos, no en subidas de precio. El dato podría mejorar la tesis, no empeorarla: no es material para esperar."
+    },
+    {
+     "dato": "extracto_v63: Umbral numérico del covenant de gearing del RCF: no encontrado.",
+     "que_falta": "umbral numérico del covenant de gearing del RCF",
+     "conclusion_afectada": "Palancas!C22 (quiebra) y el descalificador de deuda",
+     "material_para_conclusion_favorable": false,
+     "porque": "Deuda neta/EBITDA 0,64 (C33), objetivo propio menor de 1,5 [AR_2025, PDF p. 139], RCF con 1.714 sin usar hasta julio de 2028 y todos los covenants cumplidos [AR_2025, PDF p. 135]. Ningún disparador de quiebra; el umbral solo importaría si la deuda neta se acercara a 1,5 veces el EBITDA."
+    },
+    {
+     "dato": "extracto_v63: Rating crediticio de la empresa: no encontrado.",
+     "que_falta": "rating crediticio",
+     "conclusion_afectada": "Palancas!C22 y el descalificador de deuda",
+     "material_para_conclusion_favorable": false,
+     "porque": "Mismo razonamiento que el covenant: la solvencia la juzgo con C33, C34 y la RCF [AR_2025, PDF p. 135], no con un rating. No cambia la quiebra vacía ni el cubo."
+    },
+    {
+     "dato": "extracto_v63: Coste medio de la deuda como cifra única: no encontrado (solo rango de tipos efectivos de 1 a 8%).",
+     "que_falta": "coste medio de la deuda como cifra única",
+     "conclusion_afectada": "ninguna celda de juicio: el motor A trabaja con flujo al accionista",
+     "material_para_conclusion_favorable": false,
+     "porque": "En el motor A los intereses ya van dentro del flujo (Historia fila 16) y la hoja no usa el coste de la deuda para descontar; Historia C63 (2,99%) es informativo. Solo importaría en el motor B, que no elegí (C62)."
+    },
+    {
+     "dato": "extracto_v63: Pensiones de prestación definida: no encontrado.",
+     "que_falta": "pensiones de prestación definida",
+     "conclusion_afectada": "ninguna celda de juicio: no hay partida que restar",
+     "material_para_conclusion_favorable": false,
+     "porque": "El balance no tiene línea de pensiones (Historia, pensiones 2025 = 0 [AR_2025, PDF p. 106]) y los 412 de Pensions son aportaciones del año dentro de costes de personal [AR_2025, PDF p. 119], ya dentro del EBIT. El motor A no resta pensiones."
+    },
+    {
+     "dato": "extracto_v63: Guía de dividendo en importe para 2025/26: no encontrado (solo la política de 20-40% del beneficio).",
+     "que_falta": "guía de dividendo en importe para 2025/26",
+     "conclusion_afectada": "ninguna celda de juicio",
+     "material_para_conclusion_favorable": false,
+     "porque": "El dividendo no entra en ninguna palanca: el motor A valora el flujo al accionista antes de reparto. La política 20-40% [AR_2025, PDF p. 18] basta para C98."
+    },
+    {
+     "dato": "extracto_v63: Guía de capex por destino y guía de crecimiento orgánico separada de la adquirida para 2025/26: no encontrado.",
+     "que_falta": "guía de capex por destino y guía de orgánico separada de la adquirida",
+     "conclusion_afectada": "ninguna celda de juicio: las palancas no copian guías",
+     "material_para_conclusion_favorable": false,
+     "porque": "Por la regla de autoridad no uso la guía como hecho: el crecimiento NORMAL sale del orgánico realizado [AR_2025, PDF p. 23] y la S2C de lo realizado (Historia filas 6 y 32). Una guía separada sería contraste, no fundamento."
+    },
+    {
+     "dato": "extracto_v63: Crecimiento orgánico por segmento: no encontrado.",
+     "que_falta": "crecimiento orgánico por segmento",
+     "conclusion_afectada": "Palancas!C15 y C66 (mecanismo del margen NORMAL: mezcla o ejecución)",
+     "material_para_conclusion_favorable": false,
+     "porque": "Afinaría la hipótesis H2 de la lista de fundamento, pero la serie de márgenes por segmento [AR_2025, PDF pp. 26-34] ya dice lo esencial: el escalón es del margen propio de Construction, no del peso de los segmentos. El rango de Palancas!C15 está atado a hechos del grupo (Historia C49 y fila 29); con cualquier valor del rango la zona sigue siendo caro."
+    },
+    {
+     "dato": "extracto_v63: Bornholm Energy Island y datos del primer, segundo y tercer trimestre de 2025/26: no encontrado en los documentos de texto (solo hay informes anuales hasta 2024",
+     "que_falta": "datos de los tres primeros trimestres de 2025/26 (y Bornholm Energy Island)",
+     "conclusion_afectada": "Palancas!C15 (margen NORMAL), Palancas!B14:D14 y, como contexto, C17",
+     "material_para_conclusion_favorable": false,
+     "porque": "La conclusión esperar a 729 no depende de ellos: el precio está por encima del valor del propio BUENO (708, precio.json). El precio de Sí depende del margen del año 5, no del de nueve meses, y el margen de nueve meses subestima el año por estacionalidad: en 2024/25 los tres primeros trimestres dieron 773 sobre 16.531 (4,7%) y el año cerró en 5,2% [AR_2025, PDF p. 25]. El disparador ya está escrito en Palancas!C15 (cierre de 2025/26 por debajo del 4,7% → 0,045). Bornholm no está en mis entradas y ninguna historia lo usa."
+    },
+    {
+     "dato": "extracto_v63: Regulación y ratios de capital regulatorio: no aplica a un contratista.",
+     "que_falta": "regulación y ratios de capital regulatorio",
+     "conclusion_afectada": "ninguna celda de juicio: no aplica a un contratista",
+     "material_para_conclusion_favorable": false,
+     "porque": "No es financiera ni regulada (Palancas C6 = Cíclica o materias primas; motor A). La única política de capital es la propia (solvencia 35%, gearing 1,5 [AR_2025, PDF pp. 18 y 139]), ya usada en C76 y en la quiebra."
+    }
+   ],
+   "alguno_material": false
+  },
+  "hipotesis_sin_fundamento": [
+   "B69:D69",
+   "Palancas!C15 · C66"
+  ]
+ },
+ "lo_que_no_es_valido": [
+  "todo lo posterior al paso 12"
+ ],
+ "para_continuar": {
+  "que_hace_falta": "ver verificacion_*.txt en la carpeta",
+  "desde_que_paso": 12,
+  "quien": "Claude Code"
+ },
+ "archivos": [
+  "Aarsleff_v63_base.xlsx",
+  "Aarsleff_v63_base.xlsx.conciliacion.json",
+  "Aarsleff_v63_datos.xlsx",
+  "Aarsleff_v63_datos.xlsx.fase1.registro.json",
+  "Aarsleff_v63_evaluada.xlsx",
+  "celdas_A.json",
+  "celdas_B.json",
+  "celdas_C.json",
+  "citas_fase_a.md",
+  "citas_fase_a.txt",
+  "citas_fase_b.md",
+  "citas_fase_b.txt",
+  "citas_fase_c.md",
+  "citas_fase_c.txt",
+  "datos_ausentes.json",
+  "datos_v63.json",
+  "datos_v63.md",
+  "diagnostico.json.anterior",
+  "diagnostico.md.anterior",
+  "entrada_v63.json",
+  "entrada_v63.md",
+  "esquema_fase_a.json.txt",
+  "esquema_fase_b.json.txt",
+  "esquema_fase_c.json.txt",
+  "esquema_ficha.json.txt",
+  "estado_pipeline.json",
+  "extracto_v63.md",
+  "fase1_fuentes.json",
+  "fase1_listas.md",
+  "fase1_metadatos.json",
+  "fase1_v63.json",
+  "fase_a.json",
+  "fase_a.md",
+  "fase_b.json",
+  "fase_b.md",
+  "fase_c.json",
+  "fase_c.md",
+  "ficha.json",
+  "gramatica.json",
+  "gramatica.md",
+  "historia_revision.md",
+  "informe.md",
+  "observaciones_para_citas.md",
+  "precio.json",
+  "referencias_mecanicas.json",
+  "resultados.json",
+  "verificacion_c86.txt",
+  "verificacion_cache.txt",
+  "verificacion_celdas.json",
+  "verificacion_celdas.txt",
+  "verificacion_citas.txt",
+  "verificacion_esquemas.txt",
+  "verificacion_estado_libro.txt",
+  "verificacion_gramatica.txt",
+  "verificacion_integridad.txt"
+ ]
+}

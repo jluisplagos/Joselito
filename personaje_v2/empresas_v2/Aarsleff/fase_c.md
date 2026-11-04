@@ -82,3 +82,51 @@ La conclusión provisional no es favorable, así que `resultado = no_procede`, n
 - Si Construction baja hacia su guía de 4,5% o el grupo cierra por debajo del 4,7%, es marea y el NORMAL pasa a 0,045.
 
 Para B69:D69, los informes anteriores a 2016 y una pregunta a Relación con Inversores sobre el margen de Construction antes de 2020.
+
+## 9. Turno 2 · conclusión
+
+No hay `comprobacion_conjunta.json`, porque no procedía con una conclusión no favorable. `sobrevive = null` y `resultado = no_procede`.
+
+**Estado concluido (provisional hasta la auditoría) · cubo Vigilar · acción esperar · precio objetivo 450,57.** El precio objetivo es provisional, condicionado a B69:D69. El precio tiene que bajar un 38% desde 729 para llegar ahí. No escribo ningún tamaño de posición: es decisión de José Luis.
+
+C104: «Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 450.57 (provisional, condicionado a B69:D69) · zona caro · precio de Sí ≤ 450.57 · precio esc. MALO 346.99 · ponderado 502.36 · fundamento pendiente de investigación (probabilidades B69:D69 sin base para acotar)».
+
+C93 = Sí. El g NORMAL de 0,02 queda bajo la rf (CV p. 5; E1) y sobre el 1,2% de las pruebas de deterioro. El peso del terminal es 0,59. C103 = No: sin foso, el negocio no aguanta mala gestión.
+
+## 10. Tesis (B101)
+
+- Aarsleff rinde por encima de r porque cobra por avance y usa poco capital: ROIC de 10,1 a 16,7% (Historia fila 33).
+- No tiene foso. El escalón de margen de 2023 es de Construction durante la ola de obra pública (3,0 a 5,7% [AR_2025, PDF pp. 26-34]).
+- Mis escenarios valen 347, 516 y 708 por acción. A 729 el precio paga más que mi BUENO y descuenta un 17,1% de crecimiento anual (C86).
+- Espero. El precio de Sí es 450,57, provisional porque las probabilidades no tienen una frecuencia observada que las acote.
+
+## 11. Tesis inversa (B102)
+
+- El margen del grupo estuvo siete de diez años entre 3,4 y 4,4% (Historia fila 29).
+- El escalón lo trajo un solo segmento, que su propia dirección ya guía en 4,5-5,0% [AR_2025, PDF p. 9].
+- El FCF de 2025 lleva 1.036 de circulante que se devuelve (Historia fila 14). Después de compras, cinco años dejan 234 (C40).
+- La solvencia está en 30,2%, por debajo de su objetivo (C54).
+- Hay 12.135 de garantías y 2.095 de responsabilidad solidaria [AR_2025, PDF p. 141], y Fehmarnbelt tiene un 'wide outcome range' con riesgo creciente [AR_2025, PDF p. 97].
+- Si el ROIC converge a r, el MALO vale 347, un 52% bajo el precio, y no es suelo. «What's the flip side, what can go wrong that I haven't seen?» (TCI p.15; HIM).
+
+## 12. Predicciones (dado el NORMAL)
+
+1. Margen EBIT de Construction de 2026/27 igual o superior al 5,0%: 2027-12-31, probabilidad 0,55. Pone a prueba directamente la hipótesis que más condiciona.
+2. Ingresos del grupo de 2026/27 iguales o superiores a 25.000: 2027-12-31, probabilidad 0,6.
+3. Cartera a 30-sep-2027 igual o superior a 26.408: 2027-12-31, probabilidad 0,7.
+
+## 13. Qué me haría cambiar de cubo
+
+- **A Sí:** precio por debajo de 450,57, con Construction en el 5% o más al cierre de 2025/26 y una base para acotar las probabilidades.
+- **A No:** una pérdida en Fehmarnbelt que revele un grado de avance agresivo; compras con deuda hacia 1,5 veces el EBITDA que rindan bajo el 12%; o el ROIC por debajo de r dos años.
+- **A Demasiado difícil:** que el resultado pase a depender de pocos megaproyectos, o que la caja deje de cuadrar con el beneficio reconocido por avance.
+
+## 14. Comparación con la etapa 1
+
+El cubo es el mismo (Vigilar) y el precio de Sí casi el mismo (465 en v1, 450,57 en v2), pero por caminos distintos:
+
+- El v1 estimaba un ponderado de unos 775 con la fórmula antigua.
+- El v2 da 502,36: no extrapola el escalón, arranca en la media del ciclo, hace converger el ROIC a 0,10 y sube el MALO a 0,25.
+- El v2 deja fuera los hechos del v1 que no están en mis entradas (los nueve meses al 4,5%).
+
+Con el precio en 729 (682 en el v1), los dos dicen lo mismo: buen negocio sin foso y sin margen al precio actual.

@@ -23,7 +23,19 @@ def f(x, pct=False):
         if abs(x) < 1:  # tasas y ratios (g = 0,015, S2C…): sin redondear a dos decimales (0,015 no es 0,01)
             return (f"{x:.4f}".rstrip("0").rstrip(".")) or "0"
         return f"{x:,.2f}"
+    if isinstance(x, (list, tuple)):
+        # sin repr de Python: con apóstrofos dentro, repr() imprime "…" y verify_quotes_v2 lo leería como una cita (Aarsleff, 4-nov-2026)
+        return "; ".join(f(i, pct) for i in x)
     return str(x)
+
+
+def txt(v):
+    """Texto sin repr de Python (listas y dicts): ver DECISIONES 4-nov-2026 (Aarsleff)."""
+    if isinstance(v, (list, tuple)):
+        return "; ".join(txt(i) for i in v)
+    if isinstance(v, dict):
+        return "; ".join(f"{k}: {txt(i)}" for k, i in v.items())
+    return str(v)
 
 
 def main():
@@ -58,14 +70,14 @@ def main():
         S.append(("2. Qué cambió respecto a la etapa 1 y por qué", "Sin herencia registrada (la fase A no se ejecutó o no hay etapa 1)."))
     # 3
     sp = F.get("seis_preguntas") or {}
-    S.append(("3. Las seis preguntas", "\n".join(f"- **{k.replace('_', ' ')}**: {v}" for k, v in sp.items()) if sp else na()))
+    S.append(("3. Las seis preguntas", "\n".join(f"- **{k.replace('_', ' ')}**: {txt(v)}" for k, v in sp.items()) if sp else na()))
     # 4
     esc = F.get("escenarios") or {}
     t = []
     for e in ("MALO", "NORMAL", "BUENO"):
         x = esc.get(e) or {}
         h = x.get("historia") or {}
-        t.append(f"**{e}** (p = {f(x.get('probabilidad'))}; valor por acción {f(x.get('valor_accion'))}): {x.get('frase') or ''}\n" + ("\n".join(f"  - {k}: {v}" for k, v in h.items()) if isinstance(h, dict) else str(h)))
+        t.append(f"**{e}** (p = {f(x.get('probabilidad'))}; valor por acción {f(x.get('valor_accion'))}): {x.get('frase') or ''}\n" + ("\n".join(f"  - {k}: {txt(v)}" for k, v in h.items()) if isinstance(h, dict) else str(h)))
     S.append(("4. Los tres escenarios contados", "\n".join(t) if fa else na()))
     # 5
     if fb:
@@ -126,7 +138,7 @@ def main():
     S.append(("9. Predicciones", "\n".join(f"- {p['texto']} · comprobar el {p['fecha']} · probabilidad dado el NORMAL {f(p['prob'])}" for p in pr) if pr and pr[0].get("texto") else na()))
     # 10
     cb = F.get("cambiaria_de_cubo") or {}
-    S.append(("10. Qué me haría cambiar de cubo", "\n".join(f"- {k}: {v}" for k, v in cb.items()) if cb else na()))
+    S.append(("10. Qué me haría cambiar de cubo", "\n".join(f"- {k}: {txt(v)}" for k, v in cb.items()) if cb else na()))
     # 11
     ac = F.get("autocomprobacion") or []
     S.append(("11. Autocomprobación", "\n".join(f"- **{x.get('sesgo')}**: {x.get('hallazgo')} → {x.get('cambio')}" for x in ac) if ac else na()))

@@ -96,3 +96,6 @@ Instalada la actualización `actualizacion_personaje_v2_2.zip` (solo `scripts/fa
 - **`Análisis!C46–C50`**: en Nike el pipeline se paró en `pendiente_de_datos` (C48/C49) y se escribieron a mano (entrada del 2026-11-03). Ahora `fase1_historia.py` los deriva (media de los últimos `anios_fcf_base` años de CFO, capex, intereses en financiación, principal de arrendamientos y SBC, con fuente) y solo se escriben en celdas vacías; la etapa 1 manda si los trae.
 - No cambia ningún criterio, umbral ni prompt de juicio. Nike no se repite. Pruebas tras instalar: ver abajo.
 - Pruebas tras instalar la v2.2 (2026-11-04): `test_pieza1.py` 17/17; `test_pipeline_sintetico.py` 30/30.
+
+## 2026-11-04 · Aarsleff: listas de `informe.md` con comillas dobles (fallo de implementación)
+Paso 12 `no_entregable`: `verify_quotes_v2.py` dio 1 fragmento «no encontrado». `scripts/informe.py` volcaba las listas con `str()`; si un elemento lleva apóstrofos (aquí, una cita de la propia empresa entre ' '), Python usa comillas dobles y el verificador lo leía como cita a un corpus. Corrección en la causa: `f()` y el nuevo `txt()` (escenarios, seis preguntas, cambio de cubo) unen listas y dicts con «; » sin `repr`. No se tocó el verificador ni su criterio. Las empresas ya hechas no se regeneran.
