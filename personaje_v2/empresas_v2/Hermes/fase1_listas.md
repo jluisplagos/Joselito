@@ -1,0 +1,269 @@
+# Nombres válidos de la Plantilla V6.3
+
+## Sector de Damodaran (hoja Sector, columna A)
+-   SECTOR · cuartiles y medias de Damodaran
+- Archivos Ginzu de Damodaran (fcffsimpleginzu), datos de enero de 2026. Crecimiento de ventas a 3 años; margen operativo antes de impuestos; S2C = ventas ÷ capital invertido (medida MEDIA, no marginal). Se actualiza cada enero pegando la tabla nueva sobre estas mismas columnas.
+- Fecha de las tablas de sector (actualízala al pegar tablas nuevas)
+- Sector (Damodaran)
+- Advertising
+- Aerospace/Defense
+- Air Transport
+- Apparel
+- Auto & Truck
+- Auto Parts
+- Bank (Money Center)
+- Banks (Regional)
+- Beverage (Alcoholic)
+- Beverage (Soft)
+- Broadcasting
+- Brokerage & Investment Banking
+- Building Materials
+- Business & Consumer Services
+- Cable TV
+- Chemical (Basic)
+- Chemical (Diversified)
+- Chemical (Specialty)
+- Coal & Related Energy
+- Computer Services
+- Computers/Peripherals
+- Construction Supplies
+- Diversified
+- Drugs (Biotechnology)
+- Drugs (Pharmaceutical)
+- Education
+- Electrical Equipment
+- Electronics (Consumer & Office)
+- Electronics (General)
+- Engineering/Construction
+- Entertainment
+- Environmental & Waste Services
+- Farming/Agriculture
+- Financial Svcs. (Non-bank & Insurance)
+- Food Processing
+- Food Wholesalers
+- Furn/Home Furnishings
+- Green & Renewable Energy
+- Healthcare Products
+- Healthcare Support Services
+- Heathcare Information and Technology
+- Homebuilding
+- Hospitals/Healthcare Facilities
+- Hotel/Gaming
+- Household Products
+- Information Services
+- Insurance (General)
+- Insurance (Life)
+- Insurance (Prop/Cas.)
+- Investments & Asset Management
+- Machinery
+- Metals & Mining
+- Office Equipment & Services
+- Oil/Gas (Integrated)
+- Oil/Gas (Production and Exploration)
+- Oil/Gas Distribution
+- Oilfield Svcs/Equip.
+- Packaging & Container
+- Paper/Forest Products
+- Power
+- Precious Metals
+- Publishing & Newspapers
+- R.E.I.T.
+- Real Estate (Development)
+- Real Estate (General/Diversified)
+- Real Estate (Operations & Services)
+- Recreation
+- Reinsurance
+- Restaurant/Dining
+- Retail (Automotive)
+- Retail (Building Supply)
+- Retail (Distributors)
+- Retail (General)
+- Retail (Grocery and Food)
+- Retail (REITs)
+- Retail (Special Lines)
+- Rubber& Tires
+- Semiconductor
+- Semiconductor Equip
+- Shipbuilding & Marine
+- Shoe
+- Software (Entertainment)
+- Software (Internet)
+- Software (System & Application)
+- Steel
+- Telecom (Wireless)
+- Telecom. Equipment
+- Telecom. Services
+- Tobacco
+- Transportation
+- Transportation (Railroads)
+- Trucking
+- Utility (General)
+- Utility (Water)
+
+## País o región (hoja Riesgo país, columna A)
+- Abu Dhabi
+- Albania
+- Andorra (Principality of)
+- Angola
+- Argentina
+- Armenia
+- Aruba
+- Australia
+- Austria
+- Azerbaijan
+- Bahamas
+- Bahrain
+- Bangladesh
+- Barbados
+- Belarus
+- Belgium
+- Belize
+- Benin
+- Bermuda
+- Bolivia
+- Bosnia and Herzegovina
+- Botswana
+- Brazil
+- Bulgaria
+- Burkina Faso
+- Cambodia
+- Cameroon
+- Canada
+- Cape Verde
+- Cayman Islands
+- Chile
+- China
+- Colombia
+- Congo (Democratic Republic of)
+- Congo (Republic of)
+- Cook Islands
+- Costa Rica
+- Côte d'Ivoire
+- Croatia
+- Cuba
+- Curacao
+- Cyprus
+- Czech Republic
+- Denmark
+- Dominican Republic
+- Ecuador
+- Egypt
+- El Salvador
+- Estonia
+- Ethiopia
+- Fiji
+- Finland
+- France
+- Gabon
+- Georgia
+- Germany
+- Ghana
+- Greece
+- Guatemala
+- Guernsey (States of)
+- Honduras
+- Hong Kong
+- Hungary
+- Iceland
+- India
+- Indonesia
+- Iraq
+- Ireland
+- Isle of Man
+- Israel
+- Italy
+- Jamaica
+- Japan
+- Jersey (States of)
+- Jordan
+- Kazakhstan
+- Kenya
+- Korea
+- Kuwait
+- Kyrgyzstan
+- Laos
+- Latvia
+- Lebanon
+- Liechtenstein
+- Lithuania
+- Luxembourg
+- Macao
+- Macedonia
+- Malaysia
+- Maldives
+- Mali
+- Malta
+- Mauritius
+- Mexico
+- Moldova
+- Mongolia
+- Montenegro
+- Montserrat
+- Morocco
+- Mozambique
+- Namibia
+- Nepal
+- Netherlands
+- New Zealand
+- Nicaragua
+- Niger
+- Nigeria
+- Norway
+- Oman
+- Pakistan
+- Panama
+- Papua New Guinea
+- Paraguay
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Qatar
+- Ras Al Khaimah (Emirate of)
+- Romania
+- Rwanda
+- Saudi Arabia
+- Senegal
+- Serbia
+- Sharjah
+- Singapore
+- Slovakia
+- Slovenia
+- Solomon Islands
+- South Africa
+- Spain
+- Sri Lanka
+- St. Maarten
+- St. Vincent & the Grenadines
+- Suriname
+- Swaziland
+- Sweden
+- Switzerland
+- Taiwan
+- Tajikistan
+- Tanzania
+- Thailand
+- Togo
+- Trinidad and Tobago
+- Tunisia
+- Turkey
+- Turks and Caicos Islands
+- Uganda
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States
+- Uruguay
+- Uzbekistan
+- Venezuela
+- Vietnam
+- Zambia
+- Región · Western Europe
+- Región · North America
+- Región · Asia
+- Región · Central and South America
+- Región · Eastern Europe & Russia
+- Región · Middle East
+- Región · Africa
+- Región · Australia & New Zealand
+- Región · Caribbean
