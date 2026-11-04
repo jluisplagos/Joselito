@@ -1,0 +1,78 @@
+{
+ "empresa": "Viscofan, S.A.",
+ "ticker": "VIS (BME, Bolsa de Madrid, mercado continuo)",
+ "fecha_analisis": "2026-11-04",
+ "sector_texto": "Envolturas artificiales (colágeno, celulosa, fibrosas y plástico) para embutidos y productos cárnicos, además de negocio de nuevos productos (bolsas, ingredientes, energía)",
+ "moneda_modelo": "EUR",
+ "norma_contable": "IFRS (IFRS-EU)",
+ "cierre_fiscal": "diciembre",
+ "mercado": "Bolsa de Madrid (mercado continuo, BME)",
+ "ratio_adr": null,
+ "sector_damodaran": "Food Processing",
+ "precio": {
+  "valor": 54.7,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-11-03",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "Bolsamania, cierre del 2026-11-03 17:35 (54,70 EUR, rango día 54,50-55,30). Otras fuentes más antiguas: Investing.com 54,00 EUR (2026-10-28), Google Finance 55,20 EUR (2026-10-23)"
+ },
+ "acciones_diluidas": {
+  "valor": 45.479209,
+  "fecha": "2025-12-31",
+  "fuente": "AR_2025, nota 20.2 Beneficio por acción diluido (nº medio ponderado de acciones en circulación, diluido)",
+  "pagina": 119
+ },
+ "capitalizacion": {
+  "valor": 2487.7,
+  "fecha": "2026-11-03",
+  "fuente": "Precio 54,70 EUR x 45,479209 millones de acciones diluidas"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0335,
+  "fuente": "Bund alemán a 10 años, ~3,35% el 2026-11-04 por la mañana (Euronews 2026-11-04); Trading Economics ~3,3% (2026-11-03), Finimize 3,33%. Rating Alemania AAA"
+ },
+ "geografia": [
+  {
+   "pais": "Spain",
+   "pct": 0.126,
+   "nota": "Ventas externas España 2025"
+  },
+  {
+   "pais": "Región · Western Europe",
+   "pct": 0.2836,
+   "nota": "Segmento 'Resto de Europa, Oriente Medio y África' (incluye Oriente Medio y África, que no se separan en el informe); se asigna a Europa Occidental por ser su mayor peso"
+  },
+  {
+   "pais": "Región · Asia",
+   "pct": 0.1362,
+   "nota": "Segmento Asia Pacífico"
+  },
+  {
+   "pais": "Región · North America",
+   "pct": 0.3094,
+   "nota": "Segmento Norteamérica"
+  },
+  {
+   "pais": "Región · Central and South America",
+   "pct": 0.1449,
+   "nota": "Segmento Sudamérica (principalmente Brasil)"
+  }
+ ],
+ "geografia_fuente": {
+  "fuente": "AR_2025, nota de segmentos, ingresos ordinarios de clientes externos 2025 (total 1.251.983 miles EUR); reparto por segmento geográfico comercial",
+  "pagina": 112
+ },
+ "convenciones": {
+  "caja_incluye_otros_activos_financieros": false,
+  "motivo_caja": "Efectivo 62.790 miles EUR y otros activos financieros corrientes solo 974 miles EUR (inmaterial) a 2025-12-31 (AR_2025, p. 21 y nota de deuda neta p. 76)"
+ },
+ "anios_fcf_base": 3,
+ "_notas": [
+  "Precio: no se obtuvo cotización en tiempo real; se usa el último cierre disponible (2026-11-03).",
+  "Acciones diluidas: media ponderada de 2025 (45,479 M); el capital es 46,5 M de acciones con autocartera; hay recompra en curso hasta feb-2026 y amortización prevista de 500.000 acciones en mayo 2026, no reflejadas.",
+  "Bund: valor intradía aproximado (3,3%-3,35%) por falta de cotización en vivo.",
+  "Sector: Viscofan fabrica envolturas para embutidos; se asimila a Food Processing (cliente y producto alimentario) frente a Packaging & Container.",
+  "Geografía: 'Resto de Europa, Oriente Medio y África' (28,4%) se asigna entera a Región · Western Europe; Sudamérica a Región · Central and South America."
+ ]
+}

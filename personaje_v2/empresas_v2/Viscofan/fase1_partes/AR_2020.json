@@ -1,0 +1,588 @@
+{
+ "anio": 2020,
+ "archivo": "AR_2020.txt",
+ "fecha_cierre": "2020-12-31",
+ "moneda": "EUR",
+ "unidad": "miles",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenue",
+     "impreso": "912.160",
+     "pagina": 5,
+     "linea": "Revenue 20.1 912.160 849.697"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenue",
+     "impreso": "849.697",
+     "pagina": 5,
+     "linea": "Revenue 20.1 912.160 849.697"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Profit (loss) from operating activities",
+     "impreso": "162.907",
+     "pagina": 5,
+     "linea": "Profit (loss) from operating activities 162.907 130.283"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit (loss) from operating activities",
+     "impreso": "130.283",
+     "pagina": 5,
+     "linea": "Profit (loss) from operating activities 162.907 130.283"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit_derivado": {
+   "actual": [
+    {
+     "concepto": "Profit (loss) before tax",
+     "impreso": "159.656",
+     "pagina": 5,
+     "linea": "Profit (loss) before tax 159.656 130.064"
+    },
+    {
+     "concepto": "Finance income",
+     "impreso": "524",
+     "pagina": 5,
+     "linea": "Finance income 20.5 524 597",
+     "signo": -1
+    },
+    {
+     "concepto": "Finance costs",
+     "impreso": "-1.475",
+     "pagina": 5,
+     "linea": "Finance costs 20.5 -1.475 -1.966",
+     "signo": -1
+    },
+    {
+     "concepto": "Impairment gain/loss IFRS 9",
+     "impreso": "5",
+     "pagina": 5,
+     "linea": "determined in accordance with IFRS 9 20.5 5 15",
+     "signo": -1
+    },
+    {
+     "concepto": "Gains (losses) on net monetary position",
+     "impreso": "-2.305",
+     "pagina": 5,
+     "linea": "Gains (losses) on net monetary position 20.5 -2.305 1.135",
+     "signo": -1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit (loss) before tax",
+     "impreso": "130.064",
+     "pagina": 5,
+     "linea": "Profit (loss) before tax 159.656 130.064"
+    },
+    {
+     "concepto": "Finance income",
+     "impreso": "597",
+     "pagina": 5,
+     "linea": "Finance income 20.5 524 597",
+     "signo": -1
+    },
+    {
+     "concepto": "Finance costs",
+     "impreso": "-1.966",
+     "pagina": 5,
+     "linea": "Finance costs 20.5 -1.475 -1.966",
+     "signo": -1
+    },
+    {
+     "concepto": "Impairment gain/loss IFRS 9",
+     "impreso": "15",
+     "pagina": 5,
+     "linea": "determined in accordance with IFRS 9 20.5 5 15",
+     "signo": -1
+    },
+    {
+     "concepto": "Gains (losses) on net monetary position",
+     "impreso": "1.135",
+     "pagina": 5,
+     "linea": "Gains (losses) on net monetary position 20.5 -2.305 1.135",
+     "signo": -1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado = BAI - resultado financiero (finance income, finance costs, IFRS 9 impairment, net monetary position). La linea de IFRS 9 impreso continua en la linea siguiente del texto; el valor 5/15 esta en la linea \"determined in accordance with IFRS 9\"."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Amortization and depreciation cost",
+     "impreso": "71.526",
+     "pagina": 8,
+     "linea": "Ajustment for amortization and depreciation cost 71.526 70.674"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Amortization and depreciation cost",
+     "impreso": "70.674",
+     "pagina": 8,
+     "linea": "Ajustment for amortization and depreciation cost 71.526 70.674"
+    }
+   ],
+   "cero": null,
+   "nota": "En 2019 el deterioro de goodwill (3.520) va en linea aparte y no se incluye."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Profit attributable to owners of parent",
+     "impreso": "122.513",
+     "pagina": 5,
+     "linea": "Profit (loss), attributable to owners of parent 122.513 105.577"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit attributable to owners of parent",
+     "impreso": "105.577",
+     "pagina": 5,
+     "linea": "Profit (loss), attributable to owners of parent 122.513 105.577"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Tax income (expense)",
+     "impreso": "-37.143",
+     "pagina": 5,
+     "linea": "Tax income (expense) -37.143 -24.487"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Tax income (expense)",
+     "impreso": "-24.487",
+     "pagina": 5,
+     "linea": "Tax income (expense) -37.143 -24.487"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Profit (loss) before tax",
+     "impreso": "159.656",
+     "pagina": 5,
+     "linea": "Profit (loss) before tax 159.656 130.064"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit (loss) before tax",
+     "impreso": "130.064",
+     "pagina": 5,
+     "linea": "Profit (loss) before tax 159.656 130.064"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Net cash flows from operating activities",
+     "impreso": "178.341",
+     "pagina": 8,
+     "linea": "Net cash flows from (used in) operating activities 178.341 177.931"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net cash flows from operating activities",
+     "impreso": "177.931",
+     "pagina": 8,
+     "linea": "Net cash flows from (used in) operating activities 178.341 177.931"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Payments for acquisition of PP&E and intangible assets",
+     "impreso": "-55.320",
+     "pagina": 8,
+     "linea": "assets -55.320 -62.755"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Payments for acquisition of PP&E and intangible assets",
+     "impreso": "-62.755",
+     "pagina": 8,
+     "linea": "assets -55.320 -62.755"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": [
+    {
+     "concepto": "Acquisition of subsidiaries, net of cash acquired",
+     "impreso": "-1.544",
+     "pagina": 8,
+     "linea": "Acquisition of subsidiaries, net of cash acquired 2.1 - -1.544"
+    }
+   ],
+   "cero": null,
+   "nota": "2020: la linea figura con \"-\" (sin pago) en la pagina 8; 2019: -1.544. Sin ventas de negocios."
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Decrease (increase) of inventories",
+     "impreso": "-20.965",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of inventories -20.965 15.023"
+    },
+    {
+     "concepto": "Decrease (increase) of receivables",
+     "impreso": "-15.602",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of receivables -15.602 -6.919"
+    },
+    {
+     "concepto": "Decrease (increase) of payables",
+     "impreso": "11.389",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of payables 11.389 -1.969"
+    },
+    {
+     "concepto": "Changes in provisions",
+     "impreso": "5.829",
+     "pagina": 8,
+     "linea": "Changes in provisions 5.829 5.999"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Decrease (increase) of inventories",
+     "impreso": "15.023",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of inventories -20.965 15.023"
+    },
+    {
+     "concepto": "Decrease (increase) of receivables",
+     "impreso": "-6.919",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of receivables -15.602 -6.919"
+    },
+    {
+     "concepto": "Decrease (increase) of payables",
+     "impreso": "-1.969",
+     "pagina": 8,
+     "linea": "Adjustment for decrease (increase) of payables 11.389 -1.969"
+    },
+    {
+     "concepto": "Changes in provisions",
+     "impreso": "5.999",
+     "pagina": 8,
+     "linea": "Changes in provisions 5.829 5.999"
+    }
+   ],
+   "cero": null,
+   "nota": "Se incluye Changes in provisions (bloque de ajustes). Excluidos impuestos pagados y contribuciones a planes de pensiones (-2.415 / -565)."
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "-1.800",
+     "pagina": 8,
+     "linea": "Interest paid 12.1 -1.800 -1.909"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "-1.909",
+     "pagina": 8,
+     "linea": "Interest paid 12.1 -1.800 -1.909"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses_financiacion": {
+   "actual": [
+    {
+     "concepto": "Interest paid (financing)",
+     "impreso": "-1.800",
+     "pagina": 8,
+     "linea": "Interest paid 12.1 -1.800 -1.909"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest paid (financing)",
+     "impreso": "-1.909",
+     "pagina": 8,
+     "linea": "Interest paid 12.1 -1.800 -1.909"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": [
+    {
+     "concepto": "Payments of Right-of-use assets",
+     "impreso": "-4.833",
+     "pagina": 8,
+     "linea": "Payments of Right-of-use assets 12.1 -4.833 -4.552"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Payments of Right-of-use assets",
+     "impreso": "-4.552",
+     "pagina": 8,
+     "linea": "Payments of Right-of-use assets 12.1 -4.833 -4.552"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "Share-based payments (cash flow / equity statement)",
+     "impreso": "1.485",
+     "pagina": 8,
+     "linea": "Share-based payments 1.485 -"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Share-based payment transactions, equity (2019)",
+     "impreso": "262",
+     "pagina": 7,
+     "linea": "Increase (decrease) through share-based payment transactions, equity - - 262 - - - - 262 - 262"
+    }
+   ],
+   "cero": null,
+   "nota": "2020 del estado de flujos (1.485, igual que estado de cambios en patrimonio). 2019: el estado de flujos pone \"-\"; se toma 262 del estado de cambios en patrimonio (pagina 7, linea recortada)."
+  },
+  "id": {
+   "actual": [
+    {
+     "concepto": "Research and development costs",
+     "impreso": "2,703",
+     "pagina": 82,
+     "linea": "Research and development costs 2,703 2,564"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Research and development costs",
+     "impreso": "2,564",
+     "pagina": 82,
+     "linea": "Research and development costs 2,703 2,564"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average ordinary shares (diluted)",
+     "impreso": "46,500,000",
+     "pagina": 83,
+     "linea": "Weighted average number of ordinary shares in circulation 46,500,000 46,458,230"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average ordinary shares (diluted)",
+     "impreso": "46,458,230",
+     "pagina": 83,
+     "linea": "Weighted average number of ordinary shares in circulation 46,500,000 46,458,230"
+    }
+   ],
+   "cero": null,
+   "nota": "Unidad: acciones (no miles), aunque el encabezado de la tabla diga Thousands of euros."
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Total equity attributable to owners of parent",
+     "impreso": "736.246",
+     "pagina": 4,
+     "linea": "Total equity attributable to owners of parent 736.246 784.366"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Total equity attributable to owners of parent",
+     "impreso": "784.366",
+     "pagina": 4,
+     "linea": "Total equity attributable to owners of parent 736.246 784.366"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Other non-current financial liabilities",
+     "impreso": "48.244",
+     "pagina": 4,
+     "linea": "Other non-current financial liabilities 16 48.244 71.909"
+    },
+    {
+     "concepto": "Other current financial liabilities",
+     "impreso": "71.347",
+     "pagina": 4,
+     "linea": "Other current financial liabilities 16 71.347 50.428"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Other non-current financial liabilities",
+     "impreso": "71.909",
+     "pagina": 4,
+     "linea": "Other non-current financial liabilities 16 48.244 71.909"
+    },
+    {
+     "concepto": "Other current financial liabilities",
+     "impreso": "50.428",
+     "pagina": 4,
+     "linea": "Other current financial liabilities 16 71.347 50.428"
+    }
+   ],
+   "cero": null,
+   "nota": "Suma 119.591 / 122.337 = total pasivos financieros de la nota 16 (pagina 71), que incluye deuda bancaria 90.067/93.737, intereses devengados y otros pasivos financieros 29.384/28.421 (prestamos subvencionados CDTI, proveedores de inmovilizado, etc.)."
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Long term debts by right of use assets",
+     "impreso": "11.229",
+     "pagina": 4,
+     "linea": "Long term debts by right of use assets 7.2 11.229 14.392"
+    },
+    {
+     "concepto": "Short term debts by right of use assets",
+     "impreso": "4.456",
+     "pagina": 4,
+     "linea": "Short term debts by right of use assets 7.2 4.456 4.903"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Long term debts by right of use assets",
+     "impreso": "14.392",
+     "pagina": 4,
+     "linea": "Long term debts by right of use assets 7.2 11.229 14.392"
+    },
+    {
+     "concepto": "Short term debts by right of use assets",
+     "impreso": "4.903",
+     "pagina": 4,
+     "linea": "Short term debts by right of use assets 7.2 4.456 4.903"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "51.990",
+     "pagina": 4,
+     "linea": "Cash and cash equivalents 11 51.990 51.370"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "51.370",
+     "pagina": 4,
+     "linea": "Cash and cash equivalents 11 51.990 51.370"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Other current financial assets",
+     "impreso": "840",
+     "pagina": 4,
+     "linea": "Other current financial assets 10 840 815"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Other current financial assets",
+     "impreso": "815",
+     "pagina": 4,
+     "linea": "Other current financial assets 10 840 815"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Non-current provisions for employee benefits",
+     "impreso": "37.871",
+     "pagina": 4,
+     "linea": "Non-current provisions for employee benefits 14.1 37.871 33.294"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Non-current provisions for employee benefits",
+     "impreso": "33.294",
+     "pagina": 4,
+     "linea": "Non-current provisions for employee benefits 14.1 37.871 33.294"
+    }
+   ],
+   "cero": null,
+   "nota": "Linea de balance; incluye el plan de incentivos a largo plazo (6.892 en 2020, 930 en 2019, nota 14.1 pag. 67), no solo pensiones."
+  },
+  "minoritarios": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Non-controlling interests figura con \"-\" en 2020 y 2019 en el balance",
+    "pagina": 4
+   },
+   "nota": null
+  }
+ }
+}
