@@ -1,0 +1,131 @@
+{
+ "version_referencias_mecanicas": "0.2.1",
+ "motor": "B",
+ "nota": "convención del ejercicio (Anexo B §B.2): no son estimaciones de Damodaran; «criterio_relacionado» no respalda la cifra",
+ "tasa_del_motor": 0.0826843190703182,
+ "rf": 0.0335,
+ "palancas": {
+  "crecimiento_1_5": {
+   "NORMAL": 0.065,
+   "MALO": -0.01,
+   "BUENO": 0.1,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = CAGR 5a acotado a [Q1, Q3]; MALO = mín(NORMAL, máx(mín(Q1, NORMAL − σ), −0,10)); BUENO = máx(NORMAL, mín(NORMAL + σ, Q3, 1,5 × CAGR))",
+   "anclas_usadas": {
+    "cagr_5": 0.0653823107792342,
+    "fuente": "Historia!C46 (CAGR 5 años de ventas)",
+    "sector_q1": 0.0199,
+    "sector_mediana": 0.0543,
+    "sector_q3": 0.115,
+    "sigma": 0.07340637420818831,
+    "sigma_nota": "σ muestral de 9 tasas anuales = 0.0734"
+   },
+   "criterio_relacionado": "E4 (el pasado predice mal); I1 (el crecimiento se paga con reinversión)",
+   "notas": []
+  },
+  "margen_objetivo": {
+   "NORMAL": 0.165,
+   "MALO": 0.165,
+   "BUENO": 0.165,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = m0 (último año o media del ciclo según C8); MALO = máx(mín(m0, media), mínimo); BUENO = máx(m0, mín(máximo histórico, Q3 sector)); si m0 ya es el máximo, BUENO = m0",
+   "anclas_usadas": {
+    "m0": 0.163575703503961,
+    "base": "Último año",
+    "media": 0.17472419687222,
+    "min": 0.150667285588769,
+    "max": 0.211219252551541,
+    "sector_q3": 0.102112676056338,
+    "fuente": "Historia!C48 / C49 (según Palancas!C8), C50, C51 y Sector Q3"
+   },
+   "criterio_relacionado": "E2 (la competencia muerde los márgenes); E5 (cíclicas); E7 (comprobar contra la historia)",
+   "notas": []
+  },
+  "s2c": {
+   "NORMAL": 1.1,
+   "MALO": 0.9,
+   "BUENO": 1.4,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = Historia!C53 con tope (rentabilidad marginal ≤ 2× ROIC histórico); MALO = 0,75 × NORMAL; BUENO = 1,25 × NORMAL con el mismo tope",
+   "anclas_usadas": {
+    "s2c_marginal_C53": 1.14615719301559,
+    "roic_medio_5_C55": 0.143186971637181,
+    "tipo_impositivo_C52": 0.19834
+   },
+   "criterio_relacionado": "I1 (reinversión = Δventas ÷ S2C); la banda ±25 % es convención del ejercicio",
+   "notas": []
+  },
+  "g_perpetuo": {
+   "NORMAL": 0.025,
+   "MALO": 0.015,
+   "BUENO": 0.03,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = mín(0,025; rf) ajustado a la lista; MALO = NORMAL − 0,01 (suelo 0); BUENO = mín(NORMAL + 0,005; rf; 0,03); siempre < tasa del motor",
+   "anclas_usadas": {
+    "rf_C57": 0.0335,
+    "tasa_del_motor": 0.0826843190703182,
+    "etapa_C5": "Madura en crecimiento"
+   },
+   "criterio_relacionado": "E1 (g estable ≤ rf, orientación); N1 (g < tasa del motor)",
+   "notas": []
+  },
+  "roic_lp": {
+   "NORMAL": 0.08,
+   "MALO": 0.08,
+   "BUENO": 0.12,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = MALO = tasa del motor (convención: sin retornos en exceso a perpetuidad como caso neutro; no una ley); BUENO = mín(ROIC medio 5a, Análisis!C56 + 0,10), y la tasa si el histórico es menor",
+   "anclas_usadas": {
+    "tasa_del_motor": 0.0826843190703182,
+    "roic_hist": 0.143186971637181,
+    "C56": 0.09,
+    "sector_roic_media_H18_solo_contexto": 0.119735100774203
+   },
+   "criterio_relacionado": "E2, E3; I2 (reinversión terminal g ÷ ROIC); el tope sobre la tasa es config referencias_mecanicas.roic_lp_bueno_tope_sobre_c56 (0,03 desde v2.1, MR pp. 62–63)",
+   "notas": []
+  },
+  "probabilidades": {
+   "NORMAL": 0.6,
+   "MALO": 0.2,
+   "BUENO": 0.2,
+   "referencia_no_disponible_motivo": null,
+   "regla": "0,2 / 0,6 / 0,2 (convención del ejercicio, S-6)",
+   "criterio_relacionado": "E6 (suman 1 si cubren el rango)"
+  },
+  "quiebra": {
+   "C22": 0.05,
+   "C23": 0,
+   "disparadores": [
+    "Análisis!C34 = No (la caja no cubre la deuda a corto)",
+    "deuda + arrendamientos (Historia!C64 = 316.318) > 3 × FCF base (97.29)"
+   ],
+   "regla": "vacío (= 0) salvo disparador; con disparador 0,05 como convención y obligación de argumentar; C23 = 0",
+   "criterio_relacionado": "E6 (no contar el riesgo dos veces)"
+  },
+  "exceso_caja": {
+   "C76": null,
+   "regla": "0 salvo evidencia (regla del inversor v1.2); vacío en B y C"
+  },
+  "mercado": {
+   "C24": null,
+   "referencia_no_disponible_motivo": "solo con cifra de fuente primaria en los extractos"
+  }
+ },
+ "implicaciones_con_referencias": {
+  "MALO": {
+   "rentabilidad_marginal": 0.11904651000000002,
+   "roic_lp_ref": 0.08,
+   "salto_anio_11": 0.03904651000000002
+  },
+  "NORMAL": {
+   "rentabilidad_marginal": 0.14550129000000003,
+   "roic_lp_ref": 0.08,
+   "salto_anio_11": 0.06550129000000003
+  },
+  "BUENO": {
+   "rentabilidad_marginal": 0.18518346,
+   "roic_lp_ref": 0.12,
+   "salto_anio_11": 0.06518346
+  }
+ }
+}

@@ -5,5 +5,125 @@
   "nivel": "no bloqueante",
   "origen_esperado": "extractos (solo con cifra de fuente primaria)",
   "nota": ""
+ },
+ {
+  "dato": "extracto_v63: Cuota de mercado de Viscofan en 2025, 2024 y 2023 con la definición B (solo productores de envoltura a medida): No encontrada; la última cifra es 41 % en 2022.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Tamaño de mercado de 2024 (valor y volumen): no hallado en los textos de AR_2024 (solo cuentas anuales); sí está el de 2025 (5.100 M€) y el de 2023.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Nombre de competidores, cuota de cada uno, su capacidad o su comportamiento de precios: no aparecen en los documentos.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Margen o resultado por segmento (tradicional, nuevos negocios, energía): no publicado; la empresa declara un único segmento.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Margen o resultado por región (EE. UU., Europa, Asia, Sudamérica): no publicado (solo ventas y activos).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Descomposición volumen, precio y mezcla del crecimiento de ventas con cifras: no publicada para 2025; solo la frase «mezcla de precios ligeramente inferior».",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Plan de capex de 2026 y de los años siguientes con cifra por destino: no hallado en el informe de 2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Objetivos numéricos de Beat'30 (ventas, EBITDA, capex, cuota, dividendo a 2030): no hallados.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Guía numérica de 2025 hecha un año antes: no hallada, así que no puedo comprobar su cumplimiento.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Importe de I+D como porcentaje de ventas y total de I+D incluida la capitalizada: no publicado; solo el gasto de 4.084 miles de € en otros gastos de explotación",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Múltiplo de compra de Pet Mania, Brasfibra y Master Couros: no publicado (solo precio y activos netos identificables).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Covenants financieros de los préstamos y las líneas: no hallados.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Rating crediticio: no hallado.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Coste medio de la deuda bancaria (tipo efectivo medio): no hallado; solo la referencia a Euribor, Libor o SOFR más diferencial.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Calendario de renovación de las líneas de crédito y cuánto de los 227,4 M€ a un año ya está renovado: no hallado más allá de la frase general de renovación.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Cartera de pedidos: no existe como métrica publicada.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Tamaño del mercado a diez años (Palancas!C24): no hallado; los documentos solo dan un crecimiento histórico de 2-4 % en volumen y 5.100 M€ en 2025.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Ratios regulatorios de capital: no aplican (no es financiera).",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Compras y ventas de acciones de directivos: no hallado en los textos consultados.",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
+ },
+ {
+  "dato": "extracto_v63: Archivo `etapa1/extracto.md`: no existe en la carpeta; solo `etapa1/Viscofan_respuesta.md` (el juicio de la etapa 1). Por eso no pude comparar contra el extract",
+  "nivel": "no bloqueante",
+  "origen_esperado": "informes de la empresa (fase 1 / extracción)",
+  "nota": "declarado «no encontrado» por el agente de extracción; la fase C decide si afecta a una celda de juicio"
  }
 ]
