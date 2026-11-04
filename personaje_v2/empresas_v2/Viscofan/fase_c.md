@@ -69,3 +69,61 @@ La conclusión provisional no es favorable: `resultado = no_procede` y no hago l
 La lista está vacía, así que la nombro por juicio y no por el tornado: **C15 y C18 del NORMAL. El margen deja de erosionarse en el 16,5 % y el capital nuevo rinde un 11 % a perpetuidad.** De ella depende el precio de Sí: la década muestra un margen del 21,1 % al 16,4 % y una rentabilidad incremental de ≈9 %. «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187–189; HIM).
 
 **Qué la resolvería:** el desglose de la variación de ventas y de margen en volumen, precio, mezcla y coste de pieles por tecnología, que no se publica (extracto AR_2025 p. 139); se pide a Relación con Inversores. Y el margen EBIT consolidado del informe anual de 2026: si es de al menos el 16 % con las pieles caras, confirma el NORMAL; si baja del 15 %, lo desplaza hacia el MALO.
+
+## 9. Turno 2 · comprobación conjunta
+
+No existe `comprobacion_conjunta.json`: con conclusión `esperar` y lista vacía no procedía. `sobrevive` queda en null y `resultado` en `no_procede`. No hay rango del precio de Sí bajo combinación que informar.
+
+## 10. Conclusión
+
+**Estado `concluido` (provisional hasta la auditoría) · cubo Vigilar · acción `esperar` · precio objetivo 43,05 €** (precio de Sí de `precio.json`). En orden de mando: no hay bloqueo, límite del modelo, descalificador, dato ausente material ni hipótesis material sin fundamento. Manda la zona, `caro`: 54,70 € está por encima del ponderado (46,88 €) y del NORMAL (47,56 €). La escalera es convención experimental (k = 3). El precio del MALO (35,39 €) no es un suelo. El precio objetivo arrastra la nota del tipo impositivo (punto 1.3): alrededor de un 3 % optimista.
+
+C104: «Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 43.05 · zona caro · precio de Sí ≤ 43.05 · precio esc. MALO 35.39 · ponderado 46.88 · fundamento lista vacía». La decisión de cartera es de José Luis.
+
+El veredicto de la hoja (A6, «DESCARTADA POR FILTRO PABRAI») y mi cubo difieren por C13 = No: la hoja descarta lo que no es barato a ojo; yo vigilo un buen negocio que entiendo a un precio sin margen. «We just said that we wouldn't buy it or recommend that our friends buy it at the prices then prevailing» (PCA p.267; HIM).
+
+C93 = Sí. El g del NORMAL (2 %) se sostiene: el terminal reinvierte el 18 % del NOPAT a un ROIC del 11 %, el salto del año 11 es de 3,6 puntos y el terminal pesa el 59 %. C103 = No: el foso existe pero rinde cada vez menos (margen del 21,1 % al 16,4 %). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
+
+## 11. Tesis (B101)
+
+Viscofan fabrica envolturas para embutidos en 22 plantas, para más de 1.700 clientes, y ninguno pesa más del 10 % (extracto AR_2025 pp. 121 y 137). Su ROIC no bajó del 12,1 % en diez años (Historia fila 33): es un buen negocio de nicho con un foso de escala y proceso. Pero el foso rinde menos. El margen EBIT pasó del 21,1 % al 16,4 % mientras la cuota que estima la propia empresa subía del 30 % al 41 % (extracto AR_2022 p. 200). El crecimiento es sobre todo del nicho. Mi NORMAL vale 47,56 €. A 54,70 € el precio descuenta un 8,2 % de crecimiento anual (C86), más que mi BUENO, y la dirección recompra por encima de mi NORMAL con deuda a corto (extracto AR_2025 pp. 144-145). Vigilar con precio de Sí de 43,05 €.
+
+## 12. Tesis inversa (B102)
+
+Defiendo el No con hechos.
+
+- **Costes que no controla.** El consumo de materias primas pasó de 370,5 a 411,6 M€ en 2025 (extracto AR_2025 p. 23), las pieles europeas sufren «inflación sustancial» y las coberturas de dólar fueron superadas (p. 436).
+- **Cuota pagada con precio.** La cuota sube, pero el margen cayó 4,7 puntos en diez años (Historia C29, L29) y en 2025 la mezcla fue inferior con volumen récord (p. 139).
+- **El capital nuevo apenas rinde su coste.** El capital invertido creció 436 M€ en 2016-2025 y el NOPAT solo ≈40 M€: ≈9 %, frente a una tasa del motor del 8,3 % [cálculo Historia].
+- **Reparte más caja de la que genera.** La caja libre al accionista no crece desde 2019 (Historia fila 35). Aun así pagó 145,1 M€ al accionista en 2025 (p. 144) y la deuda pasó de 116,8 a 304,1 M€, con 227,4 M€ de bancos a un año (p. 98).
+- **Lo que no sé.** No sé quién es el competidor que gana ni en qué quedó Danville (p. 150). Pet Mania perdió actividad por un arancel (p. 140).
+- **El precio frente al MALO.** Con el margen del peor año, la hoja da 35,39 € (B78) y el mercado paga un 55 % más. Y ese MALO aún no recoge perder cuota.
+
+## 13. Predicciones (dado el NORMAL)
+
+1. Ventas de 2027 entre 1.330 y 1.450 M€ · 2028-03-31 · 0,65.
+2. Margen EBIT de 2027 entre el 15,5 % y el 17,5 % · 2028-03-31 · 0,6.
+3. Pagos por inmovilizado de 2027 de no más de 1,3 veces la amortización · 2028-03-31 · 0,7.
+
+Las tres son sobre el negocio y se comprueban con el informe anual de 2027. Son la autopsia de este análisis: «comparing predictions with outcomes» (PCA p.606; HIM).
+
+## 14. B222 y B223
+
+- **B222:** la hipótesis fundamentada de la que más depende el precio de Sí. El margen deja de erosionarse en el 16,5 % (C15) y el capital nuevo rinde un 11 % (C18).
+- **B223:** el desglose de volumen, precio, mezcla y coste de pieles por tecnología, que se pide a Relación con Inversores, y el margen EBIT del informe anual de 2026. Si es de al menos el 16 %, confirma el NORMAL; si baja del 15 %, lo desplaza al MALO.
+
+## 15. Qué me haría cambiar de cubo
+
+- **A Sí:** un precio de 43,05 € o menos con el NORMAL intacto. O un margen de al menos el 17,5 % dos años con cuota publicada al alza.
+- **A No:** un margen por debajo del 15 % dos años con ventas planas; una deuda neta por encima de 2,5 veces el EBITDA para seguir pagando al accionista; o que Danville revele un problema de integridad.
+- **A Demasiado difícil:** que la caída del margen venga de un sustituto tecnológico que no pueda juzgar, o una compra grande fuera del nicho.
+
+## 16. Comparación con la etapa 1
+
+Coinciden el cubo (Vigilar) y la razón: precio sin margen. El precio de Sí sube de 25,1 € a 43,05 € por tres cambios:
+
+- **Motor.** La etapa 1 valoró el FCF al accionista sin restar deuda; yo valoro con el motor B y resto 279,9 M€.
+- **MALO.** El suyo era caja plana; el mío es el margen mínimo de diez años, y vale 35,39 €.
+- **Regla.** La suya era mín(MALO, 0,75 × ponderado), que en esta hoja daría 35,16 € (C156); la mía es la escalera k = 3.
+
+La etapa 1 acertó en que el precio descuenta más crecimiento del que la empresa ha dado. Se equivocó al usar como hechos datos de 2T26 que no están en mis extractos y al poner un tamaño de posición, que no me corresponde.

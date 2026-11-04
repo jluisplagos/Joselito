@@ -152,3 +152,117 @@
 - fase_c.celdas_corregidas.C18.antes: Sí
 - fase_c.celdas_corregidas.C18.despues: Sí
 - fase_c.celdas_corregidas.C18.motivo: Revisada contra la rentabilidad incremental de la década (≈9 %): el foso existe porque el ROIC medio nunca bajó del 12,1 % (Historia fila 33), pero su rendimiento se estrecha. Ya está recogido en C18 del NORMAL (0,11). Se mantiene.
+- fase_c.estado_analisis: concluido
+- fase_c.cubo_final: Vigilar
+- fase_c.escalera.de: precio.json
+- fase_c.escalera.zona: caro
+- fase_c.escalera.convencion: escalera experimental del ejercicio (D11), k = 3; la zona no es la conclusión: no mide riesgo ni fundamento
+- fase_c.decision.accion: esperar
+- fase_c.decision.condiciones_revision.al_alza: Subiría el precio de Sí si el informe de 2026 o 2027 da un margen EBIT de al menos el 17,5 % con las pieles caras y la empresa vuelve a publicar una cuota por encima del 41 %: movería el NORMAL hacia el BUENO y subiría p(BUENO).
+- fase_c.decision.condiciones_revision.a_la_baja: Lo bajaría si el margen EBIT de 2026 queda por debajo del 15 % o si la deuda sigue subiendo para pagar recompras por encima del valor: el MALO ganaría probabilidad y el NORMAL bajaría su margen.
+- fase_c.insumos_decision_cartera.zona: caro
+- fase_c.insumos_decision_cartera.fundamento: lista vacía (ninguna hipótesis material sin fundamento); comprobación conjunta no procede con esperar
+- fase_c.insumos_decision_cartera.descalificadores_considerados[0]: no entiendo de dónde viene la caja: no aplica (un segmento, margen EBIT 15-21 %, caja operativa positiva diez años)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[1]: dependencia de macro, divisas o materias primas: considerado; pieles, gas y dólar mueven el margen pero la empresa los traslada con retraso (MALO)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[2]: cambio tecnológico: no aplica
+- fase_c.insumos_decision_cartera.descalificadores_considerados[3]: gestión de la que desconfío: no aplica; C98 Aceptable en el borde
+- fase_c.insumos_decision_cartera.descalificadores_considerados[4]: deuda que mata en un mal año: no aplica (1,13x EBITDA, 155,3 M€ de líneas libres)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[5]: reinvierte toda la caja con retornos mediocres: no aplica (ROIC ≥ 12,1 %)
+- fase_c.insumos_decision_cartera.descalificadores_considerados[6]: demasiadas piezas móviles, sin historial, reestructuración: no aplican
+- fase_c.insumos_decision_cartera.palanca_mas_influyente: Tasa de descuento (±1 pt) · información, no criterio
+- fase_c.herencia.C93.etapa1: Sí
+- fase_c.herencia.C93.decision: mantiene
+- fase_c.herencia.C93.motivo: evidencia_nueva
+- fase_c.herencia.C93.evidencia_y_razonamiento: El bloque 10 de la V6.3 (salto del año 11 del NORMAL de 3,6 puntos, ROIC terminal 0,11 > g 0,02) y un peso del terminal del 59 % muestran que el g del NORMAL se sostiene con una reinversión del 18 % del NOPAT; mercado del 2-4 % en volumen (extracto AR_2025 p. 181).
+- fase_c.herencia.B101.etapa1: Viscofan es el mayor fabricante de envolturas para embutidos y el único con todas las tecnologías; vende a más de 1.700 clientes de la industria cárnica en más de 100 países y, según sus propias estimaciones, ha ganado cuota durante una década. Creo que es un buen negocio, no uno extraordinario: margen EBITDA del 22-26 %, ROIC del 12,6 % y una caja libre para el accionista que no ha crecido desde 2019 porque la absorben el capex, el circulante y los impuestos. La dirección cuenta las malas noticias y hace compras pequeñas, pero reparte más de lo que genera y lo paga con deuda bancaria que vence en su mayor parte en un año. A 53,6 € el precio descuenta, según mi estimación, que la caja libre crezca un 9-10 % anual diez años, algo que en caja la empresa no ha hecho en el periodo que tengo. Vigilar: precio de Sí de 25,1 € según la hoja recalculada, o revisarlo si la caja libre demuestra que crece.
+- fase_c.herencia.B101.decision: cambia
+- fase_c.herencia.B101.motivo: evidencia_nueva
+- fase_c.herencia.B101.evidencia_y_razonamiento: La Historia de diez años (margen 21,1 % → 16,4 %, ROIC ≥ 12,1 %, filas 29 y 33) y el motor B dan otro precio de Sí (43,05 € frente a 25,1 €); quito los hechos de 2T26 y 1S26 que la etapa 1 tomó del bloque que no está en mis extractos.
+- fase_c.herencia.B102.etapa1: Defiendo el No: Viscofan transforma pieles bovinas, celulosa y gas en un insumo industrial, y sus márgenes dependen de esas materias, de los derechos de CO2 y del dólar; en 2022 el margen bruto cayó 3,2 puntos y en 2T26 otros 3,5, así que leo que no traslada los costes a tiempo. La cuota sube, pero en 2025 el precio-mezcla bajó con volumen récord y en 2T26 las ventas de Norteamérica bajaron un 0,7 % por las divisas y ‘el entorno competitivo’: puede que la cuota se esté pagando con precio. Siete años de EBITDA al alza (+6,3 % anual) no han dado más caja al accionista (108,7 M€ en 2019, 100,5 M€ en 2025), y la empresa reparte por encima de esa caja: la deuda bancaria neta pasó de 1,8 M€ en 2021 a 283,3 M€ en junio de 2026, con 227 M€ de deuda bancaria a menos de un año al cierre de 2025 y un dividendo ‘extraordinario’ de 1 € repetido tres años. La inversión en EE. UU. dio resultados negativos durante años, los nuevos negocios llevan cinco años en el 12 % de las ventas con el mismo ‘potencial de más de 5.000 M€’, la última compra (Pet Mania) redujo mucho su actividad por un arancel seis meses después, y en la junta de 2025 el 23,7 % de los votos fue contra el informe de remuneraciones del ejercicio en que se pagaron 1,3 M€ de indemnización a un presidente que sigue siendo presidente (lo cuento como secuencia de hechos; el informe no da la causa del voto). Si la caja libre sigue plana, que es lo que ha pasado, la hoja da 25,1 € por acción en ese escenario (B78) con r del 9 %, y el mercado paga más del doble.
+- fase_c.herencia.B102.decision: cambia
+- fase_c.herencia.B102.motivo: evidencia_nueva
+- fase_c.herencia.B102.evidencia_y_razonamiento: Mantengo su núcleo (costes que no controla, cuota pagada con precio, reparto con deuda) pero lo apoyo en el extracto V6.3 (AR_2025 pp. 23, 98, 139, 144, 436) y en la rentabilidad incremental de la Historia (≈9 % en 2016-2025); quito 2T26, la junta de 2025 y la indemnización, que no están en mis extractos.
+- fase_c.herencia.C103.etapa1: No
+- fase_c.herencia.C103.decision: mantiene
+- fase_c.herencia.C103.motivo: misma_evidencia
+- fase_c.herencia.C103.evidencia_y_razonamiento: Revisada la misma evidencia, el margen que cae del 21,1 % al 16,4 % (Historia fila 29) con un BPA que crece un 3 % anual, sostiene que es un buen negocio pero no uno para no vender nunca.
+- fase_c.herencia.C104.etapa1: 0% · Watchlist · precio de Sí 25,1 €
+- fase_c.herencia.C104.decision: cambia
+- fase_c.herencia.C104.motivo: definicion_o_medicion_distinta
+- fase_c.herencia.C104.evidencia_y_razonamiento: La V6.3 no admite tamaño de posición (D16) y el precio de Sí lo da la escalera k = 3 de precio.json (43,05 €), no la regla antigua mín(MALO, 0,75 × ponderado), que en esta hoja da 35,16 € (C156).
+- fase_c.comparacion_etapa_1.cubo_v1: Vigilar
+- fase_c.comparacion_etapa_1.cubo_v2: Vigilar
+- fase_c.comparacion_etapa_1.por_que_difieren: El cubo coincide y por la misma razón: buen negocio que entiendo, sin margen en el precio. El precio de Sí sube de 25,1 € a 43,05 € por tres cambios. (1) Motor: la etapa 1 valoró el FCF al accionista de tres años (97 M€) sin restar deuda y con un MALO de caja plana; yo valoro la operación con el motor B (margen, S2C y ROIC) y resto 279,9 M€ de deuda neta. (2) MALO: el de la etapa 1 suponía caja sin crecer; el mío es margen en el mínimo de diez años con ventas al 1 %, y vale 35,39 €. (3) Regla: la etapa 1 usaba mín(MALO, 0,75 × ponderado); yo uso la escalera k = 3, que da 43,05 €; la regla antigua en esta hoja daría 35,16 € (C156). La etapa 1 acertó al ver que el precio descuenta más crecimiento del que la empresa ha dado; se equivocó al usar como hechos datos de 2T26 que no están en mis extractos y al poner un porcentaje de posición.
+- fase_c.celdas.C93: Sí
+- fase_c.celdas.C103: No
+- fase_c.celdas.C104: Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 43.05 · zona caro · precio de Sí ≤ 43.05 · precio esc. MALO 35.39 · ponderado 46.88 · fundamento lista vacía
+- fase_c.celdas.B101: Viscofan fabrica envolturas para embutidos en 22 plantas para más de 1.700 clientes, sin ninguno por encima del 10 % (extracto AR_2025 pp. 121 y 137), y su ROIC no bajó del 12,1 % en diez años (Historia fila 33): es un buen negocio de nicho con un foso de escala y proceso. El foso rinde menos que antes: el margen EBIT pasó del 21,1 % (2016) al 16,4 % (2025) mientras la cuota estimada por la empresa subía del 30 % al 41 % (extracto AR_2022 p. 200), y la mejora se reparte con proveedores de pieles y clientes. El crecimiento es sobre todo del nicho (mercado del 2-4 % en volumen, extracto AR_2025 p. 181); mi NORMAL es un 4,5 % de ventas con margen del 16,5 % y vale 47,56 €, con el MALO en 35,39 € y el BUENO en 63,33 €. A 54,70 € el precio descuenta un 8,2 % de crecimiento anual (C86), más que mi BUENO, y la dirección recompra por encima de mi NORMAL con deuda a corto (extracto AR_2025 pp. 144-145). Vigilar: esperar a un precio de Sí de 43,05 € o a que el margen demuestre que deja de erosionarse.
+- fase_c.celdas.B102: Defiendo el No. Viscofan transforma pieles, celulosa y gas en un insumo industrial y no controla esos costes: en 2025 el consumo de materias primas subió de 370,5 a 411,6 M€ (extracto AR_2025 p. 23), las pieles bovinas en Europa sufren «inflación sustancial del coste unitario» y las coberturas de dólar fueron superadas (p. 436). La cuota sube, pero el margen EBIT cayó del 21,1 % al 16,4 % en diez años (Historia C29, L29) y en 2025 la mezcla de precios fue inferior con volumen récord (p. 139): la cuota se está pagando con precio. El capital invertido creció 436 M€ entre 2016 y 2025 y el NOPAT solo ≈40 M€: el euro nuevo rindió ≈9 %, apenas la tasa del motor (8,3 %), y en 2021-2025 ≈7,6 % [cálculo Historia]. La caja libre al accionista no crece desde 2019 (108,5 M€ entonces, 93,8 M€ en 2025, Historia fila 35), y aun así la empresa pagó 145,1 M€ en dividendos y recompras en 2025 (p. 144), repite un dividendo «extraordinario» y triplicó la deuda desde 2021 (116,8 → 304,1 M€), con 227,4 M€ de bancos a un año (p. 98). No sé quién es el competidor que gana, no sé en qué quedaron las «acusaciones en Danville» (p. 150) y la última compra, Pet Mania, perdió actividad por un arancel a los meses (p. 140). Si el margen se queda en el 15 % del peor año, la hoja da 35,39 € (B78) y el mercado paga un 55 % más; y ese MALO aún no recoge perder cuota.
+- fase_c.celdas.Palancas!A38: Las ventas consolidadas de Viscofan en el ejercicio 2027, según su informe anual, estarán entre 1.330 y 1.450 M€.
+- fase_c.celdas.Palancas!B38: 2028-03-31
+- fase_c.celdas.Palancas!A39: El margen EBIT consolidado de 2027 (resultado de explotación dividido entre ventas, cuenta de resultados del informe anual) estará entre el 15,5 % y el 17,5 %.
+- fase_c.celdas.Palancas!B39: 2028-03-31
+- fase_c.celdas.Palancas!A40: Los pagos por inmovilizado del estado de flujos de 2027 no superarán 1,3 veces la amortización del mismo ejercicio.
+- fase_c.celdas.Palancas!B40: 2028-03-31
+- fase_c.celdas.Diagnóstico V6!B222: Hipótesis fundamentada de la que más depende el precio de Sí (lista sin fundamento vacía): que el margen EBIT deja de erosionarse en torno al 16,5 % (Palancas C15) y que el capital nuevo rinde un 11 % a perpetuidad (Palancas C18). La década muestra margen del 21,1 % al 16,4 % y rentabilidad incremental de ≈9 %.
+- fase_c.celdas.Diagnóstico V6!B223: Desglose de la variación de ventas y de margen en volumen, precio, mezcla y coste de pieles por tecnología (pregunta a Relación con Inversores; no se publica, extracto AR_2025 p. 139) y el margen EBIT consolidado del informe anual 2026: ≥ 16 % con pieles caras confirma el NORMAL; < 15 % lo desplaza al MALO.
+- fase_c.cambiaria_de_cubo.a_si: Un precio de 43,05 € o menos con el NORMAL intacto (margen EBIT de 2026 de al menos el 16 % con pieles caras) y sin descalificadores nuevos; o un margen de al menos el 17,5 % dos años con cuota publicada al alza, que subiría el NORMAL y el precio de Sí por encima del precio.
+- fase_c.cambiaria_de_cubo.a_no: Margen EBIT por debajo del 15 % dos años seguidos con ventas planas (el foso ya no traslada costes); deuda neta por encima de 2,5 veces el EBITDA por seguir pagando al accionista por encima de la caja; o que las acusaciones de Danville (extracto AR_2025 p. 150) revelen un problema de integridad de la dirección.
+- fase_c.cambiaria_de_cubo.a_demasiado_dificil: Que la caída del margen viniera de un sustituto tecnológico de la envoltura artificial cuyo avance no pueda juzgar, o una compra grande fuera del nicho que convierta la empresa en un conjunto de negocios que no sé valorar.
+- fase_c.observaciones.C93: [Clase: fundamentada] [Confianza: media]
+Hereda: Sí → mantiene (evidencia_nueva): con el bloque 10 de la V6.3, el g del NORMAL se sostiene con la reinversión que pide.
+Apoyo: g NORMAL 0,02 frente a un ROIC terminal de 0,11: el terminal reinvierte g ÷ ROIC = 18 % del NOPAT; salto del año 11 de 3,6 puntos (rentabilidad marginal 14,6 % → 11 %), bajo el umbral de 5; peso del terminal del 59 %; g por debajo de rf (3,35 %) y de la tasa del motor (8,3 %); mercado del 2-4 % en volumen (extracto AR_2025 p. 181).
+Lo sustituiría: No si el margen bajara del 15 % dos años seguidos, porque el ROIC terminal dejaría de superar holgadamente la tasa.
+- fase_c.observaciones.C103: [Clase: fundamentada] [Confianza: media]
+Hereda: No → mantiene (misma_evidencia): es propiedad del negocio y el foso rinde cada vez menos.
+Apoyo: margen EBIT del 21,1 % (2016) al 16,4 % (2025) (Historia C29, L29); BPA +3,0 % anual; rentabilidad incremental de la década ≈9 % [cálculo Historia]; costes de pieles y dólar que no controla (extracto AR_2025 p. 436). Un buen negocio, no uno para no vender nunca: «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM).
+Lo sustituiría: Sí si el margen volviera a más del 18 % con cuota publicada al alza durante tres años.
+- fase_c.observaciones.C104: [Clase: convención] [Confianza: alta]
+Hereda: Watchlist con tamaño de posición y precio de Sí 25,1 € → cambia (definicion_o_medicion_distinta): la V6.3 no admite tamaño de posición (D16) y el precio de Sí sale de la escalera k = 3.
+Apoyo: precio.json: precio de Sí 43,05 (P*, sin tope del NORMAL), MALO 35,39, ponderado 46,88; precio 54,70, zona caro; lista de hipótesis sin fundamento vacía; ningún dato ausente material. La escalera es convención experimental del ejercicio y no mide riesgo. La decisión de cartera es de José Luis.
+Lo sustituiría: comprar si el precio bajara de 43,05 con el NORMAL intacto.
+- fase_c.observaciones.B101: [Clase: fundamentada] [Confianza: media]
+Hereda: tesis de la etapa 1 (Vigilar, 25,1 €) → cambia (evidencia_nueva): la Historia de diez años y el motor B cambian el precio de Sí y quitan hechos de 2T26 que no están en mis extractos.
+Apoyo: Historia filas 29, 33 y 35; extracto AR_2025 pp. 121, 137, 144-145, 181; AR_2022 p. 200; resultados: B78:D78, C83, C86.
+Lo sustituiría: si 2026-2027 dan margen EBIT ≥ 17,5 % con cuota publicada al alza, la tesis pasa de buen negocio a negocio que se ensancha.
+- fase_c.observaciones.B102: [Clase: fundamentada] [Confianza: media]
+Hereda: tesis inversa de la etapa 1 → cambia (evidencia_nueva): mantengo su núcleo (costes, cuota pagada con precio, reparto con deuda) con hechos de la Historia y del extracto V6.3, y quito 2T26 y la junta de 2025, que no están en mis extractos.
+Apoyo: extracto AR_2025 pp. 23, 98, 139, 140, 144, 150, 436; Historia C29, L29, fila 35, filas ebit y capital_invertido; B78.
+Lo sustituiría: pierde fuerza si la empresa publica una cuota de 2026-2027 al alza con margen ≥ 17 %.
+- fase_c.observaciones.Palancas!A38: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: NORMAL 4,5 % anual desde 1.251,98 M€ (Historia L28) da ≈1.367 M€ en 2027; la banda recoge el dólar (−3,0 pp en 2025, extracto AR_2025 p. 141). Falsable con la cuenta de resultados de 2027.
+Lo sustituiría: si 2026 cierra por debajo de 1.270 M€, la bajaría.
+- fase_c.observaciones.Palancas!B38: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: el informe anual de 2027 se publica en el primer trimestre de 2028; 31-3-2028 cae dentro de los 12-24 meses desde la fecha de análisis (2026-11-04, Análisis D4).
+Lo sustituiría: la fecha real de publicación del informe.
+- fase_c.observaciones.Palancas!C38: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: probabilidad de la predicción dado el NORMAL, no la del escenario: la banda de ±60 M€ cubre el crecimiento de 2-7 % de 2025 (extracto AR_2025 p. 141) y un año de dólar adverso; queda fuera una caída como la de 2024 (Historia K28).
+Lo sustituiría: 0,5 si 2026 trae otra caída de volumen del mercado.
+- fase_c.observaciones.Palancas!A39: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: el NORMAL mantiene el margen en el rango de 2019-2025 (15,1-18,0 %, Historia F29:L29) con objetivo del 16,5 % (Palancas C15). Falsable con la cuenta de resultados de 2027.
+Lo sustituiría: si 2026 cierra por debajo del 15 % con precios ya subidos, la predicción pierde sentido como NORMAL.
+- fase_c.observaciones.Palancas!B39: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: mismo informe anual de 2027 que A38; 31-3-2028 está dentro de 12-24 meses desde 2026-11-04 (Análisis D4).
+Lo sustituiría: la fecha real de publicación del informe.
+- fase_c.observaciones.Palancas!C39: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: dado el NORMAL, cinco de siete años de 2019-2025 cayeron en una banda similar (Historia F29:L29); el riesgo es el de 2019 y 2023 (15,1-15,3 %), por debajo de la banda, con pieles caras (extracto AR_2025 p. 436).
+Lo sustituiría: 0,45 si el informe de 2026 muestra margen bajo el 15,5 %.
+- fase_c.observaciones.Palancas!A40: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: el NORMAL no cambia la forma de crecer (S2C 1,1, Palancas C16): capex de 1,16 veces la amortización en 2016-2025 [cálculo Historia filas capex y da]; compromisos de 52,0 M€ a fin de 2025 (extracto AR_2025 p. 143). Falsable con el estado de flujos de 2027.
+Lo sustituiría: si se anuncia una planta nueva aparte de Chequia, la revisaría.
+- fase_c.observaciones.Palancas!B40: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Apoyo: estado de flujos del informe anual 2027; 31-3-2028 está dentro de 12-24 meses desde 2026-11-04 (Análisis D4).
+Lo sustituiría: la fecha real de publicación del informe.
+- fase_c.observaciones.Palancas!C40: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Apoyo: en diez años la ratio capex/amortización solo pasó de 1,3 en 2017, 2021 y 2022 (Historia filas capex y da); la nueva planta de Chequia (1.250 M CZK, extracto AR_2025 p. 66) puede concentrar pago en 2027.
+Lo sustituiría: 0,55 si el plan de Chequia se paga sobre todo en 2027.
+- fase_c.confianza_global: media

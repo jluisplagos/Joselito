@@ -29,10 +29,10 @@
   0.025
  ],
  "estados": {
-  "estado_tecnico_B255": "INCOMPLETO",
-  "causa_tecnica_B256": "Faltan 3 predicciones (Palancas A38:A40)",
+  "estado_tecnico_B255": "COMPLETO Y VÁLIDO",
+  "causa_tecnica_B256": null,
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
-  "estado_libro_B266": "NO LISTO · incompleto (1 pendientes)",
+  "estado_libro_B266": "LISTO · PROVISIONAL (22 estimaciones justificadas)",
   "lectura_precio_B267": "sin margen: tu DCF no da colchón",
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
   "evidencias_B269": "PROVISIONAL · 22 estimación(es) justificada(s) · documentadas 17 de 17 · hipótesis confirmadas 0 de 22",
@@ -40,7 +40,7 @@
   "comparable_B253": true,
   "bloqueo_lectura_B254": false,
   "n_avisos_B260": 3,
-  "n_causas_B261": 4,
+  "n_causas_B261": 3,
   "dcf_inverso_monotono_B193": "✓ PASA"
  },
  "reglas_motor": [
@@ -521,12 +521,12 @@
    "id": "C07",
    "regla": "Predicciones (Palancas A38:A40)",
    "aplica": true,
-   "resultado": "INCOMPLETO",
-   "codigo": "INC|Faltan 3 predicciones (Palancas A38:A40)",
-   "causa": "Faltan 3 predicciones (Palancas A38:A40)",
+   "resultado": "OK",
+   "codigo": null,
+   "causa": null,
    "nivel": 3,
    "prioridad": 9,
-   "n_causa_activa": 4
+   "n_causa_activa": null
   },
   {
    "id": "C08",
@@ -587,8 +587,7 @@
  "causas_activas": [
   "1. AVISO · La rentabilidad marginal de los años 1–10 y el ROIC del terminal se separan más de 5 puntos: el salto del año 11 es una hipótesis. Hazla explícita (Diagnóstico V6, bloque 10)",
   "2. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
-  "3. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-  "4. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+  "3. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha"
  ],
  "semaforos": {
   "fila40": [
@@ -855,7 +854,7 @@
   ],
   [
    "Las tres predicciones están escritas",
-   "⛔ TÉCNICO · Faltan 3 predicciones (Palancas A38:A40)"
+   "✓ PASA"
   ],
   [
    "Tipo de empresa y caso especial elegidos",
@@ -867,7 +866,7 @@
   ],
   [
    "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-   "NO LISTO · incompleto (1 pendientes)"
+   "LISTO · PROVISIONAL (22 estimaciones justificadas)"
   ]
  ],
  "salto_anio_11": {
@@ -952,8 +951,8 @@
    ]
   ],
   "mas_influyente": "Tasa de descuento (±1 pt)",
-  "B222": null,
-  "B223": null
+  "B222": "Hipótesis fundamentada de la que más depende el precio de Sí (lista sin fundamento vacía): que el margen EBIT deja de erosionarse en torno al 16,5 % (Palancas C15) y que el capital nuevo rinde un 11 % a perpetuidad (Palancas C18). La década muestra margen del 21,1 % al 16,4 % y rentabilidad incremental de ≈9 %.",
+  "B223": "Desglose de la variación de ventas y de margen en volumen, precio, mezcla y coste de pieles por tecnología (pregunta a Relación con Inversores; no se publica, extracto AR_2025 p. 139) y el margen EBIT consolidado del informe anual 2026: ≥ 16 % con pieles caras confirma el NORMAL; < 15 % lo desplaza al MALO."
  },
  "precio_referencia_hoja_C156": 35.1616098947254,
  "parametros_hoja": {
@@ -1418,9 +1417,9 @@
   "C93": "Sí",
   "C97": "Neutral",
   "C98": "Aceptable",
-  "B101": "Viscofan es el mayor fabricante de envolturas para embutidos y el único con todas las tecnologías; vende a más de 1.700 clientes de la industria cárnica en más de 100 países y, según sus propias estimaciones, ha ganado cuota durante una década. Creo que es un buen negocio, no uno extraordinario: margen EBITDA del 22-26 %, ROIC del 12,6 % y una caja libre para el accionista que no ha crecido desde 2019 porque la absorben el capex, el circulante y los impuestos. La dirección cuenta las malas noticias y hace compras pequeñas, pero reparte más de lo que genera y lo paga con deuda bancaria que vence en su mayor parte en un año. A 53,6 € el precio descuenta, según mi estimación, que la caja libre crezca un 9-10 % anual diez años, algo que en caja la empresa no ha hecho en el periodo que tengo. Vigilar: precio de Sí de 25,1 € según la hoja recalculada, o revisarlo si la caja libre demuestra que crece.",
-  "B102": "Defiendo el No: Viscofan transforma pieles bovinas, celulosa y gas en un insumo industrial, y sus márgenes dependen de esas materias, de los derechos de CO2 y del dólar; en 2022 el margen bruto cayó 3,2 puntos y en 2T26 otros 3,5, así que leo que no traslada los costes a tiempo. La cuota sube, pero en 2025 el precio-mezcla bajó con volumen récord y en 2T26 las ventas de Norteamérica bajaron un 0,7 % por las divisas y ‘el entorno competitivo’: puede que la cuota se esté pagando con precio. Siete años de EBITDA al alza (+6,3 % anual) no han dado más caja al accionista (108,7 M€ en 2019, 100,5 M€ en 2025), y la empresa reparte por encima de esa caja: la deuda bancaria neta pasó de 1,8 M€ en 2021 a 283,3 M€ en junio de 2026, con 227 M€ de deuda bancaria a menos de un año al cierre de 2025 y un dividendo ‘extraordinario’ de 1 € repetido tres años. La inversión en EE. UU. dio resultados negativos durante años, los nuevos negocios llevan cinco años en el 12 % de las ventas con el mismo ‘potencial de más de 5.000 M€’, la última compra (Pet Mania) redujo mucho su actividad por un arancel seis meses después, y en la junta de 2025 el 23,7 % de los votos fue contra el informe de remuneraciones del ejercicio en que se pagaron 1,3 M€ de indemnización a un presidente que sigue siendo presidente (lo cuento como secuencia de hechos; el informe no da la causa del voto). Si la caja libre sigue plana, que es lo que ha pasado, la hoja da 25,1 € por acción en ese escenario (B78) con r del 9 %, y el mercado paga más del doble.",
+  "B101": "Viscofan fabrica envolturas para embutidos en 22 plantas para más de 1.700 clientes, sin ninguno por encima del 10 % (extracto AR_2025 pp. 121 y 137), y su ROIC no bajó del 12,1 % en diez años (Historia fila 33): es un buen negocio de nicho con un foso de escala y proceso. El foso rinde menos que antes: el margen EBIT pasó del 21,1 % (2016) al 16,4 % (2025) mientras la cuota estimada por la empresa subía del 30 % al 41 % (extracto AR_2022 p. 200), y la mejora se reparte con proveedores de pieles y clientes. El crecimiento es sobre todo del nicho (mercado del 2-4 % en volumen, extracto AR_2025 p. 181); mi NORMAL es un 4,5 % de ventas con margen del 16,5 % y vale 47,56 €, con el MALO en 35,39 € y el BUENO en 63,33 €. A 54,70 € el precio descuenta un 8,2 % de crecimiento anual (C86), más que mi BUENO, y la dirección recompra por encima de mi NORMAL con deuda a corto (extracto AR_2025 pp. 144-145). Vigilar: esperar a un precio de Sí de 43,05 € o a que el margen demuestre que deja de erosionarse.",
+  "B102": "Defiendo el No. Viscofan transforma pieles, celulosa y gas en un insumo industrial y no controla esos costes: en 2025 el consumo de materias primas subió de 370,5 a 411,6 M€ (extracto AR_2025 p. 23), las pieles bovinas en Europa sufren «inflación sustancial del coste unitario» y las coberturas de dólar fueron superadas (p. 436). La cuota sube, pero el margen EBIT cayó del 21,1 % al 16,4 % en diez años (Historia C29, L29) y en 2025 la mezcla de precios fue inferior con volumen récord (p. 139): la cuota se está pagando con precio. El capital invertido creció 436 M€ entre 2016 y 2025 y el NOPAT solo ≈40 M€: el euro nuevo rindió ≈9 %, apenas la tasa del motor (8,3 %), y en 2021-2025 ≈7,6 % [cálculo Historia]. La caja libre al accionista no crece desde 2019 (108,5 M€ entonces, 93,8 M€ en 2025, Historia fila 35), y aun así la empresa pagó 145,1 M€ en dividendos y recompras en 2025 (p. 144), repite un dividendo «extraordinario» y triplicó la deuda desde 2021 (116,8 → 304,1 M€), con 227,4 M€ de bancos a un año (p. 98). No sé quién es el competidor que gana, no sé en qué quedaron las «acusaciones en Danville» (p. 150) y la última compra, Pet Mania, perdió actividad por un arancel a los meses (p. 140). Si el margen se queda en el 15 % del peor año, la hoja da 35,39 € (B78) y el mercado paga un 55 % más; y ese MALO aún no recoge perder cuota.",
   "C103": "No",
-  "C104": "0% · Watchlist · precio de Sí 25,1 €"
+  "C104": "Pendiente de decisión de cartera · conclusión del personaje: esperar: precio de Sí ≤ 43.05 · zona caro · precio de Sí ≤ 43.05 · precio esc. MALO 35.39 · ponderado 46.88 · fundamento lista vacía"
  }
 }

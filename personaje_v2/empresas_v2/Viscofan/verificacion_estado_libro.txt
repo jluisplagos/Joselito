@@ -1,0 +1,2 @@
+estado del libro: 'LISTO · PROVISIONAL (22 estimaciones justificadas)' · técnico: 'COMPLETO Y VÁLIDO' · fase B escrita: True · fase C escrita: True · estado del análisis: None · faltan (C08/metadatos): []
+reglas no OK: []
