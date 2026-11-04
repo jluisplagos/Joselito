@@ -1,5 +1,5 @@
 {
- "paso": 2,
+ "paso": 6,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -11,11 +11,21 @@
  "historial": [
   "  $ bash comprobar_entorno.sh → 0 · autotest precio_de_si: PASA (5 casos + propiedades)",
   "  $ python3 migrar_v53_a_v63.py Viscofan_evaluada.xlsx Plantilla_V6.3.xlsx Viscofan_v63_base.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
-  "  $ python3 fase1_historia.py preparar Viscofan Viscofan → 10 · ESPERANDO fase 1: 11 agentes (historia 2016, historia 2017, historia 2018, historia 2019, historia 2020, historia 2021, historia 2022, historia 2023, historia 2024, historia 2025, metadatos)"
+  "  $ python3 fase1_historia.py preparar Viscofan Viscofan → 10 · ESPERANDO fase 1: 11 agentes (historia 2016, historia 2017, historia 2018, historia 2019, historia 2020, historia 2021, historia 2022, historia 2023, historia 2024, historia 2025, metadatos)",
+  "  $ python3 fase1_historia.py preparar Viscofan Viscofan → 0 · ",
+  "  $ python3 fase1_historia.py construir Viscofan → 0 · fase1_v63.json escrito (10 años, 13 diferencias con el comparativo, ver historia_revision.md)",
+  "  $ python3 rellenar_fase1_v63.py Viscofan_v63_base.xlsx fase1_v63.json Viscofan_v63_datos.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_entrada_v63.py Viscofan_v63_datos.xlsx Viscofan → 0 · OK: 0 bloqueantes · 0 necesarios para LISTO·PROVISIONAL · 1 no bloqueantes · motores calculables: ['A', 'B', 'C']",
+  "  $ python3 volcar_datos_v63.py Viscofan_v63_datos.xlsx Viscofan → 0 · OK: datos_v63.md (10612 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Viscofan"
  ],
  "motor": null,
  "fase_b_escrita": false,
  "fase_c_escrita": false,
- "esperando": "2:fase1",
- "inicio": "2026-11-04T08:49:45"
+ "esperando": "6:fase_a.json",
+ "inicio": "2026-11-04T08:49:45",
+ "esperando_desde": 1793782591.02227,
+ "consumidos": {
+  "extracto_v63.md": 1793782579.3884652
+ },
+ "motivo_correccion": null
 }

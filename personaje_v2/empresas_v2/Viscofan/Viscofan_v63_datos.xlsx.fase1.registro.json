@@ -1,0 +1,47 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Envolturas para alimentación (tripas artificiales para embutidos)",
+   "nuevo": "Envolturas artificiales (colágeno, celulosa, fibrosas y plástico) para embutidos y productos cárnicos, además de negocio de nuevos productos (bolsas, ingredientes, energía)"
+  },
+  {
+   "celda": "Análisis!C46",
+   "actual": 192.3,
+   "nuevo": 192.3
+  },
+  {
+   "celda": "Análisis!C47",
+   "actual": 77.5,
+   "nuevo": 77.533
+  },
+  {
+   "celda": "Análisis!C48",
+   "actual": 8.3,
+   "nuevo": 8.294
+  },
+  {
+   "celda": "Análisis!C49",
+   "actual": 5.5,
+   "nuevo": 5.547
+  },
+  {
+   "celda": "Análisis!C50",
+   "actual": 3.71,
+   "nuevo": 3.707
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 462
+}
