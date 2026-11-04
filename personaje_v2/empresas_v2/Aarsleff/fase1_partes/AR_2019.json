@@ -120,7 +120,7 @@
      "concepto": "Profit attributable to Aarsleff Holding A/S shareholders",
      "impreso": "360,054",
      "pagina": 46,
-     "linea": "Per Aarsleff Holding A/S shareholders 335,063 307,084"
+     "linea": "Per Aarsleff Holding A/S shareholders 360,054 339,829 Total 335,680 308,216"
     }
    ],
    "anterior": [
@@ -128,7 +128,7 @@
      "concepto": "Profit attributable to Aarsleff Holding A/S shareholders",
      "impreso": "339,829",
      "pagina": 46,
-     "linea": "Per Aarsleff Holding A/S shareholders 335,063 307,084"
+     "linea": "Per Aarsleff Holding A/S shareholders 360,054 339,829 Total 335,680 308,216"
     }
    ],
    "cero": null,
@@ -264,7 +264,7 @@
      "concepto": "Receivables",
      "impreso": "245,582",
      "pagina": 78,
-     "linea": "Receivables3 2,173 2,859 0 2"
+     "linea": "shareholding and the dissemination of other shareholdings. Apart from distribution of dividend, Receivables 245,582 -572,833"
     },
     {
      "concepto": "Trade payables, other payables, etc.",
@@ -290,7 +290,7 @@
      "concepto": "Receivables",
      "impreso": "-572,833",
      "pagina": 78,
-     "linea": "Receivables3 2,173 2,859 0 2"
+     "linea": "shareholding and the dissemination of other shareholdings. Apart from distribution of dividend, Receivables 245,582 -572,833"
     },
     {
      "concepto": "Trade payables, other payables, etc.",

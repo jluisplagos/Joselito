@@ -1,0 +1,52 @@
+{
+ "empresa": "Per Aarsleff Holding A/S",
+ "ticker": "PAAL B (Nasdaq Copenhagen)",
+ "fecha_analisis": "2026-11-04",
+ "sector_texto": "Contratista de ingeniería y construcción (cimentaciones, obra civil, edificación, tuberías y rehabilitación de redes, ferrocarril y energía), sobre todo en Dinamarca y norte de Europa",
+ "moneda_modelo": "DKK",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "septiembre",
+ "mercado": "Nasdaq Copenhagen (acción clase B)",
+ "ratio_adr": null,
+ "sector_damodaran": "Engineering/Construction",
+ "precio": {
+  "valor": 729.0,
+  "moneda_cotizacion": "DKK",
+  "fecha": "2026-09-07",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "npinvestor.dk, Per Aarsleff Holding A/S aktiekurs, 'Opdateret 07. Sep 2026' (hora no indicada). Cotización más reciente hallada; no se pudo obtener una de noviembre de 2026 (la búsqueda web devuelve datos hasta septiembre; WebFetch bloqueado para stockanalysis.com e investing.com). Rango visto: 706 (cierre 29-jul-2026), 721 (cierre 4-sep-2026), 725 (24-jul-2026), 729 (7-sep-2026). Acción cotiza en DKK = moneda del modelo, sin FX."
+ },
+ "acciones_diluidas": {
+  "valor": 19.314,
+  "fecha": "2025-09-30",
+  "fuente": "Informe anual 2024/25, nota 'Earnings per share': nº medio de acciones en circulación diluido = 19.314 miles (medio ponderado del ejercicio). Contraste: capital 19,575 M de acciones equivalentes (27.000 A de DKK 100 + 18.225.000 B de DKK 2) menos 787.907 propias = 18,787 M en circulación a 30-09-2025",
+  "pagina": 122
+ },
+ "capitalizacion": {
+  "valor": 14080,
+  "fecha": "2026-09-07",
+  "fuente": "Cálculo: 729 DKK x 19,314 M acciones diluidas = 14.080 M DKK (el informe da 11.962 M DKK ajustada por propias a 30-09-2025, a 686 DKK, p. 21)"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0317,
+  "fuente": "Rentabilidad del bono danés a 10 años 3,17% el 2026-09-01 (Trading Economics, 'Denmark 10Y Bond Yield Hits 34-month High', tradingeconomics.com/denmark/government-bond-yield). Dato más reciente accesible (no hay de noviembre 2026). Rating soberano de Dinamarca: AAA (sin riesgo país adicional; se usa el bono danés, no el Bund, por ser la moneda del modelo DKK). Referencia: 3,02% el 2026-08-18."
+ },
+ "geografia": [
+  {"pais": "Denmark", "pct": 0.6256, "nota": "Ingresos 14.152 M DKK de 22.620 M (ubicación del cliente)"},
+  {"pais": "Región · Western Europe", "pct": 0.3744, "nota": "Ingresos 'International' 8.468 M DKK; el informe no desglosa por país. Se asigna a Europa Occidental por convención (Suecia, Noruega, Reino Unido, Alemania, Polonia, etc.), aproximación"}
+ ],
+ "geografia_fuente": {"fuente": "Informe anual 2024/25, nota 4 Segment information, Geographical information (ingresos por ubicación del cliente)", "pagina": 116},
+ "convenciones": {
+  "caja_incluye_otros_activos_financieros": true,
+  "motivo_caja": "A 30-09-2025 la empresa tiene valores (principalmente bonos, a valor razonable) por 465 M DKK frente a caja y equivalentes de 1.238 M DKK (479 y 387 en 2023/24), es decir, ~27% de la liquidez total en inversiones financieras líquidas (p. 116)"
+ },
+ "anios_fcf_base": 3,
+ "_notas": [
+  "Precio: no se encontró cotización de noviembre 2026; se usa la última hallada (729 DKK, 2026-09-07), con ~2 meses de antigüedad. Conviene refrescarla.",
+  "Tasa sin riesgo: bono danés 10 años 3,17% a 2026-09-01 (último dato accesible); sin cifra de noviembre 2026. Rating AAA de Dinamarca según indicación del usuario, no verificado en fuente web.",
+  "Acciones diluidas: media ponderada de 2024/25 (19,314 M); la cifra de cierre aprox. sería 18,787 M en circulación + ~0,43 M diluyentes (acciones de matching) = ~19,21 M. Diferencia de ~0,5%.",
+  "Geografía: el informe solo separa Dinamarca / Internacional en ingresos; el desglose por países no existe, de ahí la asignación de 'International' a Región · Western Europe (aproximación).",
+  "Cierre fiscal 30 de septiembre; ejercicio 2024/25 corresponde al fichero AR_2025.txt."
+ ]
+}
