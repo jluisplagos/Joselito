@@ -1,0 +1,70 @@
+{
+ "modo": "tras",
+ "con_fase_c": false,
+ "motor": "A",
+ "codigo": 1,
+ "hallazgos": [
+  {
+   "id": "G5",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "margen objetivo BUENO = 0.055 > máximo histórico (0.0532503457814661) o Q3 del sector (0.106763285024155)",
+   "requiere_justificacion": true,
+   "justificada": true,
+   "consecuencia": "justificar con el mecanismo (precio, mezcla, escala) y quién se queda la mejora"
+  },
+  {
+   "id": "G8",
+   "categoria": "desviación",
+   "escenario": "NORMAL",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "salto del año 11 NORMAL = 0.056 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas",
+   "requiere_justificacion": true,
+   "justificada": false,
+   "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
+  },
+  {
+   "id": "G8",
+   "categoria": "desviación",
+   "escenario": "BUENO",
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "salto del año 11 BUENO = 0.086 (> 0.05): la rentabilidad marginal de los años 1–10 y el ROIC terminal se separan · justificación rechazada: sin entrada en desviaciones_justificadas",
+   "requiere_justificacion": true,
+   "justificada": false,
+   "consecuencia": "la tesis o la Observación de B18:D18 explica la pérdida (o ganancia) de ventaja en el año 11"
+  },
+  {
+   "id": "A1",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B",
+   "detalle": "S2C medio fuera del rango del sector: ⚠ REVISAR · su capital por euro de ventas está fuera del rango del sector",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa"
+  },
+  {
+   "id": "A3",
+   "categoria": "aviso",
+   "escenario": null,
+   "motor": "A",
+   "motores": "A, B, C",
+   "detalle": "fechas del precio y de las acciones: Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
+   "requiere_justificacion": false,
+   "justificada": null,
+   "consecuencia": "se informa"
+  }
+ ],
+ "resumen": {
+  "errores": 0,
+  "limites": 0,
+  "desviaciones": 3,
+  "desviaciones_sin_justificar": 2,
+  "avisos": 2
+ }
+}

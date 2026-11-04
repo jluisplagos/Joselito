@@ -1,5 +1,5 @@
 {
- "paso": 8,
+ "paso": 10,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -23,17 +23,28 @@
   "  $ python3 escribir_v63.py Aarsleff_v63_datos.xlsx Aarsleff_v63_evaluada.xlsx --celdas celdas_A.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
   "  $ python3 comprobar_celdas_v2.py Aarsleff_v63_evaluada.xlsx Aarsleff_v63_datos.xlsx --fases A → 0 · PASS: 0 errores · 29 celdas correctas · fases ['A'] · motor A",
   "  $ python3 comprobar_entrada_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff --motor A → 0 · OK: 0 bloqueantes · 0 necesarios para LISTO·PROVISIONAL · 1 no bloqueantes · motores calculables: ['A', 'B', 'C']",
-  "  $ python3 volcar_datos_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff --referencias-mecanicas → 0 · OK: datos_v63.md (11343 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff · referencias_mecanicas.json"
+  "  $ python3 volcar_datos_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff --referencias-mecanicas → 0 · OK: datos_v63.md (11343 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff · referencias_mecanicas.json",
+  "  $ python3 validar_esquema.py fase_b.json fase_b --salida esquema_fase_b.json.txt → 0 · VÁLIDO · fase_b.json contra fase_b.esquema.json",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_b.md fase_b.md → 0 · RESULTADO: PASS",
+  "  $ python3 comprobar_gramatica.py Aarsleff --antes-de-recalculo → 0 · código 0 · errores 0 · límites 0 · desviaciones 1 (sin justificar 0) · avisos 0 → gramatica.md",
+  "  $ python3 fase_a_celdas.py fase_b.json B celdas_B.json → 0 · OK: 92 celdas (incluidas E/F/N de Control maestro) → /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff/celdas_B.json",
+  "  $ python3 escribir_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff_v63_evaluada.xlsx.tmp.xlsx --celdas celdas_B.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py Aarsleff_v63_evaluada.xlsx Aarsleff_v63_datos.xlsx --fases A,B → 0 · PASS: 0 errores · 48 celdas correctas · fases ['A', 'B'] · motor A",
+  "  $ bash recalc.sh Aarsleff_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff/recalc/Aarsleff_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff/.lo_perfil)",
+  "  $ python3 leer_resultados.py Aarsleff_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff/resultados.json · motor A · estado INCOMPLETO · libro NO LISTO · incompleto (1 pendientes)",
+  "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 729 · esc. MALO 346.988187566186 · precio de Sí 450.5719 (P* 450.5719) · ponderado 502.3637 · zona caro",
+  "  $ python3 comprobar_gramatica.py Aarsleff --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 3 (sin justificar 2) · avisos 2 → gramatica.md"
  ],
  "motor": "A",
- "fase_b_escrita": false,
+ "fase_b_escrita": true,
  "fase_c_escrita": false,
- "esperando": "8:fase_b.json",
+ "esperando": "10:fase_c.json",
  "inicio": "2026-11-04T11:30:49",
- "esperando_desde": 1793792803.410858,
+ "esperando_desde": 1793793282.261877,
  "consumidos": {
   "extracto_v63.md": 1793792266.8724458,
-  "fase_a.json": 1793792690.1762516
+  "fase_a.json": 1793792690.1762516,
+  "fase_b.json": 1793793257.0675592
  },
  "motivo_correccion": null
 }
