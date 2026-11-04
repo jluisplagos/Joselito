@@ -101,3 +101,6 @@ concluido · Vigilar · esperar · precio de Sí 43,05 € (precio 54,70 €, zo
 
 ## Hermès (4-nov-2026, personaje v2.2)
 concluido · Vigilar · esperar · precio de Sí 757,05 € (precio 1.312,50 €, zona caro; MALO 542,70 · ponderado 842,80) · motor A · auditoría APROBADO. Dudoso: ROIC terminal del NORMAL (C18) y g perpetuo (B68:D68) sin base para acotarse (precio objetivo provisional); salto del año 11 muy alto (0,32/0,53/0,71); operaciones de directivos de 2025 en el informe no pasaron a la fase 1/extracción (C97 Neutral técnico); sin informe semestral de 2026; intereses pagados no desglosados en el flujo (varias sustituciones).
+
+## Aarsleff (4-nov-2026, personaje v2.2)
+concluido · Vigilar · esperar · precio de Sí 450,57 DKK (provisional; precio 729 DKK de 7-sep, zona caro; MALO 346,99 · ponderado 502,36) · motor A · auditoría APROBADO. Dudoso: precio y tasa sin riesgo (3,17 %, bono danés a 10 años) de septiembre, sin dato de noviembre; probabilidades B69:D69 sin base (una década, un solo ciclo); margen NORMAL 0,05 (C8 = media del ciclo); salto del año 11 alto en NORMAL/BUENO. Corregido en la causa: `informe.py` volcaba listas con repr (DECISIONES 4-nov).
