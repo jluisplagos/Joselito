@@ -1,0 +1,47 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Construcción e ingeniería (infraestructura, cimentaciones, rehabilitación de tuberías sin zanja)",
+   "nuevo": "Contratista de ingeniería y construcción (cimentaciones, obra civil, edificación, tuberías y rehabilitación de redes, ferrocarril y energía), sobre todo en Dinamarca y norte de Europa"
+  },
+  {
+   "celda": "Análisis!C46",
+   "actual": 1957,
+   "nuevo": 1957.0
+  },
+  {
+   "celda": "Análisis!C47",
+   "actual": 793,
+   "nuevo": 888.667
+  },
+  {
+   "celda": "Análisis!C48",
+   "actual": 16,
+   "nuevo": 2.333
+  },
+  {
+   "celda": "Análisis!C49",
+   "actual": 241,
+   "nuevo": 257.0
+  },
+  {
+   "celda": "Análisis!C50",
+   "actual": 34.3,
+   "nuevo": 34.333
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 444
+}
