@@ -227,9 +227,22 @@
      "linea": "Disposals of consolidated shares and impact of losses of control 2 81.4 -"
     }
    ],
-   "anterior": null,
+   "anterior": [
+    {
+     "concepto": "Acquisitions of consolidated shares",
+     "impreso": "-",
+     "pagina": 359,
+     "linea": "Acquisitions of consolidated shares 2 (71.6) -"
+    },
+    {
+     "concepto": "Disposals of consolidated shares and impact of losses of control",
+     "impreso": "-",
+     "pagina": 359,
+     "linea": "Disposals of consolidated shares and impact of losses of control 2 81.4 -"
+    }
+   ],
    "cero": null,
-   "nota": "Actual: pago neto 71.6 menos cobro 81.4 por desconsolidacion de Shang Xia. En 'anterior' se usa cero con evidencia."
+   "nota": "Actual: pago neto 71.6 menos cobro 81.4 por desconsolidacion de Shang Xia. Anterior: ambas lineas impresas como '-' (cero)."
   },
   "circulante_lineas": {
    "actual": [
@@ -275,7 +288,7 @@
     }
    ],
    "cero": null,
-   "nota": "Pagina 365 (nota 1) dice que principal e intereses de arrendamientos se presentan juntos en 'Repayment of lease liabilities'. Cifra tomada del gasto financiero de la nota 9, no de un pago."
+   "nota": "Pagina 364 (nota 1) dice que principal e intereses de arrendamientos se presentan juntos en 'Repayment of lease liabilities'. Cifra tomada del gasto financiero de la nota 9, no de un pago."
   },
   "arrendamientos_principal": {
    "actual": [

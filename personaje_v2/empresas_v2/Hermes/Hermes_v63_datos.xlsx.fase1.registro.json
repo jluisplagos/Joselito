@@ -1,0 +1,42 @@
+{
+ "escritas": [
+  "Análisis!B3",
+  "Análisis!D3",
+  "Análisis!D4",
+  "Análisis!C37",
+  "Análisis!C55",
+  "Análisis!C41",
+  "Análisis!C57"
+ ],
+ "derivadas": [],
+ "no_pisadas": [
+  {
+   "celda": "Análisis!B4",
+   "actual": "Lujo personal (consumo discrecional)",
+   "nuevo": "Artículos de lujo de cuero y marroquinería, prêt-à-porter, seda, perfumes, relojes y joyería"
+  },
+  {
+   "celda": "Análisis!C46",
+   "actual": 4947,
+   "nuevo": 4947.0
+  },
+  {
+   "celda": "Análisis!C47",
+   "actual": 1029,
+   "nuevo": 1029.0
+  },
+  {
+   "celda": "Análisis!C49",
+   "actual": 304.7,
+   "nuevo": 304.667
+  },
+  {
+   "celda": "Análisis!C50",
+   "actual": 126,
+   "nuevo": 126.0
+  }
+ ],
+ "convenciones": [],
+ "avisos": [],
+ "n_celdas": 464
+}

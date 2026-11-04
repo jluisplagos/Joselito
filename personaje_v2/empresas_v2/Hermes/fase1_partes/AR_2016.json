@@ -1,0 +1,456 @@
+{
+ "anio": 2016,
+ "archivo": "AR_2016.txt",
+ "fecha_cierre": "2016-12-31",
+ "moneda": "EUR",
+ "unidad": "millones",
+ "reexpresion": "El informe no declara reexpresion de cifras de 2015 (solo reclasificacion de pasivos financieros ligados a participacion de empleados a otros pasivos en las cuentas de la sociedad matriz, p.219).",
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenue",
+     "impreso": "5,202.2",
+     "pagina": 162,
+     "linea": "Revenue 3 5,202.2 4,841.0"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenue",
+     "impreso": "4,841.0",
+     "pagina": 162,
+     "linea": "Revenue 3 5,202.2 4,841.0"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Operating income",
+     "impreso": "1,696.5",
+     "pagina": 162,
+     "linea": "Operating income 1,696.5 1,540.7"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Operating income",
+     "impreso": "1,540.7",
+     "pagina": 162,
+     "linea": "Operating income 1,696.5 1,540.7"
+    }
+   ],
+   "cero": null,
+   "nota": "Subtotal impreso 'Operating income' (tras 'Other non-recurring income and expenses' = 0)."
+  },
+  "ebit_derivado": {
+   "actual": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "1,648.8",
+     "pagina": 162,
+     "linea": "Net income before tax 1,648.8 1,495.1"
+    },
+    {
+     "concepto": "Net financial income",
+     "impreso": "(47.8)",
+     "pagina": 162,
+     "linea": "Net financial income 7 (47.8) (45.6)",
+     "signo": -1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "1,495.1",
+     "pagina": 162,
+     "linea": "Net income before tax 1,648.8 1,495.1"
+    },
+    {
+     "concepto": "Net financial income",
+     "impreso": "(45.6)",
+     "pagina": 162,
+     "linea": "Net financial income 7 (47.8) (45.6)",
+     "signo": -1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado = BAI - resultado financiero. Net financial income (Nota 7) incluye coste deuda neta y otros ingresos/gastos financieros (cobertura ineficaz). 'Net income from associates' va debajo del impuesto, fuera del EBIT derivado. Diferencia de 0,1 con el subtotal impreso por redondeo."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Depreciation and amortisation",
+     "impreso": "201.8",
+     "pagina": 168,
+     "linea": "Depreciation and amortisation 11, 12 and 13 201.8 178.6"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Depreciation and amortisation",
+     "impreso": "178.6",
+     "pagina": 168,
+     "linea": "Depreciation and amortisation 11, 12 and 13 201.8 178.6"
+    }
+   ],
+   "cero": null,
+   "nota": "Excluye 'Impairment losses' (30,3 / 27,9), que figura en linea aparte del estado de flujos."
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Net income attributable to owners of the parent",
+     "impreso": "1,100.3",
+     "pagina": 162,
+     "linea": "NET INCOME ATTRIBUTABLE TO OWNERS OF THE PARENT 3 1,100.3 972.6"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income attributable to owners of the parent",
+     "impreso": "972.6",
+     "pagina": 162,
+     "linea": "NET INCOME ATTRIBUTABLE TO OWNERS OF THE PARENT 3 1,100.3 972.6"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax",
+     "impreso": "(555.5)",
+     "pagina": 162,
+     "linea": "Income tax 8 (555.5) (535.6)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax",
+     "impreso": "(535.6)",
+     "pagina": 162,
+     "linea": "Income tax 8 (555.5) (535.6)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "1,648.8",
+     "pagina": 162,
+     "linea": "Net income before tax 1,648.8 1,495.1"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "1,495.1",
+     "pagina": 162,
+     "linea": "Net income before tax 1,648.8 1,495.1"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Change in net cash related to operating activities",
+     "impreso": "1,473.9",
+     "pagina": 168,
+     "linea": "Change in net cash related to operating activities 1,473.9 1,185.7"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Change in net cash related to operating activities",
+     "impreso": "1,185.7",
+     "pagina": 168,
+     "linea": "Change in net cash related to operating activities 1,473.9 1,185.7"
+    }
+   ],
+   "cero": null,
+   "nota": "Hermes tambien imprime 'Operating cash flows' 1,438.7 / 1,218.2 (antes de circulante e impuestos pagados); se usa el flujo neto de explotacion."
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Purchase of intangible assets",
+     "impreso": "(46.9)",
+     "pagina": 168,
+     "linea": "Purchase of intangible assets 11 (46.9) (39.1)"
+    },
+    {
+     "concepto": "Purchase of property, plant and equipment",
+     "impreso": "(215.2)",
+     "pagina": 168,
+     "linea": "Purchase of property, plant and equipment 12 and 13 (215.2) (213.3)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Purchase of intangible assets",
+     "impreso": "(39.1)",
+     "pagina": 168,
+     "linea": "Purchase of intangible assets 11 (46.9) (39.1)"
+    },
+    {
+     "concepto": "Purchase of property, plant and equipment",
+     "impreso": "(213.3)",
+     "pagina": 168,
+     "linea": "Purchase of property, plant and equipment 12 and 13 (215.2) (213.3)"
+    }
+   ],
+   "cero": null,
+   "nota": "La linea de PP&E cita notas 12 y 13 (incluye inversiones inmobiliarias). Excluye 'Amounts payable to fixed asset suppliers' (2.8 / -21.3)."
+  },
+  "adquisiciones": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Nota 2: ningun cambio significativo en el perimetro de consolidacion en 2016; el estado de flujos de inversion no tiene lineas de adquisiciones de negocios",
+    "pagina": 179
+   },
+   "nota": "Sin lineas de adquisicion/venta de negocios en el estado de flujos (solo 'Investments in associates' y 'Change in scope' (0.0), no pagos por negocios). Cero evidenciado para 2016; 2015 trae 'Change in scope' 1.9 fuera de inversion."
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Change in working capital requirements related to the activity",
+     "impreso": "22.5",
+     "pagina": 168,
+     "linea": "Change in working capital requirements related to the activity 22.5 2.0"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Change in working capital requirements related to the activity",
+     "impreso": "2.0",
+     "pagina": 168,
+     "linea": "Change in working capital requirements related to the activity 22.5 2.0"
+    }
+   ],
+   "cero": null,
+   "nota": "Hermes agrupa el circulante en una sola linea. 'Change in provisions' (70.1 / 19.9) esta en el bloque anterior de ajustes no monetarios y no se incluye."
+  },
+  "intereses": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El estado de flujos no imprime intereses pagados; solo 'Interest income and expenses' (3.4 / 5.7) como ajuste neto dentro de explotacion. No se estima."
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "El bloque de financiacion no contiene linea de intereses; los intereses figuran (netos) en explotacion",
+    "pagina": 168
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Sin pagos de pasivos por arrendamiento en financiacion (IFRS 16 no vigente en 2016)",
+    "pagina": 168
+   },
+   "nota": null
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "Accrued expenses and income related to share-based payments",
+     "impreso": "53.8",
+     "pagina": 168,
+     "linea": "Accrued expenses and income related to share-based payments 30 53.8 36.4"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Accrued expenses and income related to share-based payments",
+     "impreso": "36.4",
+     "pagina": 168,
+     "linea": "Accrued expenses and income related to share-based payments 30 53.8 36.4"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe 2016 no cifra el gasto de I+D en la cuenta de resultados ni en las notas (solo menciones cualitativas)."
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Weighted average number of ordinary shares",
+     "impreso": "104,518,900",
+     "pagina": 183,
+     "linea": "Weighted average number of ordinary shares 104,518,900 104,395,884"
+    },
+    {
+     "concepto": "Weighted average number of shares resulting from bonus shares",
+     "impreso": "600,449",
+     "pagina": 183,
+     "linea": "Weighted average number of shares resulting from bonus shares 600,449 692,884"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Weighted average number of ordinary shares",
+     "impreso": "104,395,884",
+     "pagina": 183,
+     "linea": "Weighted average number of ordinary shares 104,518,900 104,395,884"
+    },
+    {
+     "concepto": "Weighted average number of shares resulting from bonus shares",
+     "impreso": "692,884",
+     "pagina": 183,
+     "linea": "Weighted average number of shares resulting from bonus shares 600,449 692,884"
+    }
+   ],
+   "cero": null,
+   "nota": "Suma = 'Weighted average number of diluted ordinary shares' 105,119,349 (2016) / 105,088,768 (2015); el total impreso trae un espacio ('105, 119,349'), por eso se dan los componentes. En unidades de acciones."
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Equity attributable to owners of the parent",
+     "impreso": "4,382.6",
+     "pagina": 167,
+     "linea": "2.8 163.3 (93.8) 4,382.6 2.2 4,384.8 105,569,412"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Equity attributable to owners of the parent",
+     "impreso": "3,742.0",
+     "pagina": 167,
+     "linea": "22.2 165.3 (82.5) 3,742.0 6.7 3,748.7 105,569,412"
+    }
+   ],
+   "cero": null,
+   "nota": "Estado de variaciones del patrimonio, columna 'Equity attributable to owners of the parent'. Patrimonio total del balance 4,384.8 / 3,748.7 (p.165)."
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Financial debts",
+     "impreso": "(23.0)",
+     "pagina": 197,
+     "linea": "Financial debts 22 - - - - - (23.0) (23.0) (23.0) - -"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Financial debts",
+     "impreso": "(32.0)",
+     "pagina": 198,
+     "linea": "Financial debts 22 - - - - - (32.0) (32.0) (32.0) - -"
+    }
+   ],
+   "cero": null,
+   "nota": "Instrumentos financieros (nota 22): descubiertos bancarios + prestamos Brasil/India/Japon + otros. Balance: 20.8 no corriente + 20.2 corriente = 41.0 (p.165), que incluye 18.0 de compromisos de compra de minoritarios (nota 22.3), excluidos aqui. Incluye descubiertos 8.4 / 17.6, que tambien restan de la caja neta. Sin arrendamientos financieros identificados."
+  },
+  "arrendamientos": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Antes de IFRS 16: el balance no recoge pasivos por arrendamiento",
+    "pagina": 165
+   },
+   "nota": null
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "2,328.9",
+     "pagina": 164,
+     "linea": "Cash and cash equivalents 19 2,328.9 1,589.2"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "1,589.2",
+     "pagina": 164,
+     "linea": "Cash and cash equivalents 19 2,328.9 1,589.2"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Financial investments (nota 14)",
+     "impreso": "20.8",
+     "pagina": 197,
+     "linea": "Financial investments 14 - 10.9 - 9.9 - - 20.8 20.8 - -"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Financial investments (nota 14)",
+     "impreso": "32.9",
+     "pagina": 198,
+     "linea": "Financial investments 14 - 20.3 - 12.7 - - 32.9 32.9 - -"
+    }
+   ],
+   "cero": null,
+   "nota": "Inversiones financieras que no cumplen criterio de equivalente de caja (vencimiento original > 3 meses). En balance estan dentro de 'Financial assets' no corriente, no como activo corriente; el usuario decide si se incluyen. Excluye contrato de liquidez (10.9 / 9.3)."
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Net defined-benefit plan obligations",
+     "impreso": "189.0",
+     "pagina": 202,
+     "linea": "Net defined-benefit plan obligations 176.0 13.0 189.0 149.0 10.8 159.8"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net defined-benefit plan obligations",
+     "impreso": "159.8",
+     "pagina": 202,
+     "linea": "Net defined-benefit plan obligations 176.0 13.0 189.0 149.0 10.8 159.8"
+    }
+   ],
+   "cero": null,
+   "nota": "Coincide con balance: 183.4 + 5.6 = 189.0 (2016); 155.0 + 4.8 = 159.8 (2015)."
+  },
+  "minoritarios": {
+   "actual": [
+    {
+     "concepto": "Non-controlling interests",
+     "impreso": "2.2",
+     "pagina": 165,
+     "linea": "Non-controlling interests 21 2.2 6.7"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Non-controlling interests",
+     "impreso": "6.7",
+     "pagina": 165,
+     "linea": "Non-controlling interests 21 2.2 6.7"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  }
+ }
+}

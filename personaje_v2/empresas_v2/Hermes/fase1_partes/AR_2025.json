@@ -83,22 +83,22 @@
   "da": {
    "actual": [
     {
-     "concepto": "D&A fixed assets, right-of-use and impairment",
+     "concepto": "D&A fixed assets, right-of-use assets and impairment losses",
      "impreso": "926",
      "pagina": 360,
-     "linea": "Depreciation and amortisation of fixed assets, right‑of‑use assets and impairment"
+     "linea": "losses  8.2 to 8.4  926  844"
     }
    ],
    "anterior": [
     {
-     "concepto": "D&A fixed assets, right-of-use and impairment",
+     "concepto": "D&A fixed assets, right-of-use assets and impairment losses",
      "impreso": "844",
      "pagina": 360,
-     "linea": "Depreciation and amortisation of fixed assets, right‑of‑use assets and impairment"
+     "linea": "losses  8.2 to 8.4  926  844"
     }
    ],
    "cero": null,
-   "nota": null
+   "nota": "La linea del texto continua la etiqueta de la fila anterior."
   },
   "beneficio_neto": {
    "actual": [
@@ -244,13 +244,13 @@
    "actual": null,
    "anterior": null,
    "cero": null,
-   "nota": "El estado de flujos no tiene linea de intereses pagados. Solo consta intereses por arrendamiento devengados (55 en 2025, 59 en 2024; nota 10.1 p.384, 'Interest expense on lease liabilities'), no pagados; no se usa."
+   "nota": "El estado de flujos no tiene linea de intereses pagados. Solo consta interes por arrendamiento devengado (55 en 2025, 59 en 2024; nota 10.1 p.384), no pagado; no se usa."
   },
   "intereses_financiacion": {
    "actual": null,
    "anterior": null,
    "cero": {
-    "motivo": "El estado de flujos de financiacion (p.360) no tiene linea de intereses; Hermes trata los pagos de arrendamientos (incl. intereses) como operativos (p.364 3.4)",
+    "motivo": "El estado de flujos de financiacion (p.360) no tiene linea de intereses; Hermes trata los pagos de arrendamientos (incl. intereses) como operativos (p.364, 3.4)",
     "pagina": 360
    },
    "nota": null
@@ -293,13 +293,13 @@
     }
    ],
    "cero": null,
-   "nota": "Cuenta de flujos (equity-settled, no monetario). La nota 6.4 p.372 da gasto total de 199 (180 en 2024) incluyendo cargas sociales."
+   "nota": "Del estado de flujos (no monetario). La nota 6.4 p.372 da gasto total de 199 (180 en 2024) incluyendo cargas sociales."
   },
   "id": {
    "actual": null,
    "anterior": null,
    "cero": null,
-   "nota": "No hay cifra de gasto de I+D en resultados ni en notas del texto de las cuentas consolidadas."
+   "nota": "No hay cifra de gasto de I+D en resultados ni en notas de las cuentas consolidadas."
   },
   "acciones_diluidas": {
    "actual": [
