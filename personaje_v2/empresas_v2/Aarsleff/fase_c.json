@@ -1,0 +1,380 @@
+{
+ "turno": 1,
+ "una_sola_historia": {
+  "coherente": true,
+  "incoherencias": [
+   "C66 y Palancas!C15 (mecanismo del NORMAL): la fase A atribuye el margen de 2023-2025 a 'la ejecución y la mezcla de segmentos', pero la serie por segmento no muestra mezcla: Construction pasó de 3,4% y 3,0% (2020/21-2021/22) a 5,7%, 5,2% y 5,5% [AR_2025, PDF pp. 26-34] con un peso estable de 46-47% de los ingresos [AR_2025, PDF p. 115], lo que explica por sí solo unos 1,2 de los 1,3 puntos del escalón del grupo (Historia fila 29: 4,01% → 5,33%); Pipe Technologies pasó de 10,9% a 11,5% del total. El escalón es del margen propio del segmento más ligado a la obra pública danesa: más marea o ejecución que mezcla. No obliga a mover la palanca (0,05 queda dentro de su rango atado a hechos, ver hipotesis_sin_fundamento) y lo anoto en celdas_corregidas con despues = antes.",
+   "B69:D69 (probabilidades): el hecho citado (margen del MALO siete años de diez, Historia fila 29) mide la frecuencia de un nivel de margen, no la de un escenario de cinco años. Las cinco ventanas de cinco años de la Historia crecieron todas entre 7,0% y 11,2% anual (Historia fila 6): la década es un solo ciclo al alza y no contiene ninguna observación del MALO completo. El movimiento 0,2 → 0,25 es defendible en sentido (Fehmarnbelt 'assessed as increased' [AR_2025, PDF p. 97]), no en tamaño. Pasa a la lista de hipótesis sin fundamento.",
+   "Palancas!C8 (Media del ciclo) frente a la historia NORMAL: el motor parte de m0 = 4,32% (datos_v63 §5) y llega al 5,0% solo en el año 5, mientras C66 dice que el margen de los últimos años (5,1-5,3%) se sostiene. Es la convención de la base del margen en una cíclica (UD p. 3; E5), no un error; cuesta al NORMAL unos 11 por acción en los años 1-4 (estimación mía: diferencia de margen 0,54/0,41/0,27/0,14 puntos sobre ventas de 24.000-28.600, después de impuestos, descontada al 9%), el 2% de su valor. La fase B usó además el mismo argumento de la media del ciclo para dejar el objetivo NORMAL bajo la media de 2023-2025, pero sin efecto numérico: 5,2% redondea a 0,05 en la rejilla de 0,005.",
+   "C52 (FCF base 872,7) lleva unos 493 de circulante liberado (C46; Historia fila 14), pero el motor no proyecta desde C52 sino desde ventas × margen m0: el FCF del año 1 es 574 en el MALO y 387 en el NORMAL (resultados por_escenario). No hay doble cuenta del circulante; que el FCF del año 1 del MALO supere al del NORMAL es la reinversión del crecimiento (gramática), no incoherencia.",
+   "Precio 729 por encima del valor del BUENO (708) y DCF inverso de 17,1% de crecimiento en los años 1-5 (C86) frente a un NORMAL de 0,06, un BUENO de 0,10 y un mejor quinquenio propio de 11,2% con compras (Historia C46): el mercado descuenta algo que ninguna de mis tres historias contiene. No es incoherencia interna sino la pregunta de quién es el tonto; la contesto en la autocomprobación (anclaje en el precio).",
+   "Aviso A3 (precio de 7-sep-2026, acciones de 30-sep-2025): las recompras hasta el 27-feb-2026 (C28) reducen algo las acciones; el valor por acción está ligeramente infravalorado, en el orden de décimas a un punto porcentual. No cambia la zona.",
+   "Veredicto de la hoja (A6 = DESCARTADA POR FILTRO PABRAI, C13 = No) frente a mi cubo Vigilar: es el caso típico de la regla 4 de la sección 17; lo documento, no es incoherencia."
+  ]
+ },
+ "lo_que_dice_la_hoja": {
+  "valores": {
+   "MALO_B78": 346.99,
+   "NORMAL_C78": 515.69,
+   "BUENO_D78": 708.0,
+   "ponderado_C83": 502.36,
+   "precio_C37": 729,
+   "precio_de_si": 450.57,
+   "zona": "caro",
+   "regla_antigua_C156": 346.99
+  },
+  "semaforos_relevantes": [
+   "fila 41 BUENO: ⚠ margen 0,055 por encima del máximo histórico 5,33% (G5, justificada en la fase B)",
+   "fila 46: ⚠ S2C medio 4,13 fuera del rango del sector (Q3 3,18): coherente con la historia del contratista que cobra por avance (aviso A1)",
+   "fila 44: peso del terminal 0,46 / 0,59 / 0,66, todos por debajo del 75% (G16 no aplica)",
+   "fila 45: cuota implícita no calculable porque C24 está vacía (G17 no aplica)",
+   "filas 40, 42, 43, 47, 48, 49, 50: pasan",
+   "bloque 10: salto del año 11 por encima de 5 puntos en NORMAL y BUENO (V16, G8)",
+   "cuánto pagas por crecer: 352,6 por acción por un crecimiento que en el NORMAL vale 139,3 (2,5 veces)",
+   "estado técnico INCOMPLETO solo por las predicciones (turno 2); bloqueos B252/B254 falsos"
+  ],
+  "peso_terminal_NORMAL": 0.591,
+  "peso_terminal": {
+   "MALO": 0.459,
+   "NORMAL": 0.591,
+   "BUENO": 0.657
+  },
+  "salto_anio_11": {
+   "MALO": 0.0012,
+   "NORMAL": 0.0558,
+   "BUENO": 0.0865,
+   "explicacion": "Rentabilidad marginal de los años 1-10 (S2C × margen × (1 − t)): 9,1% / 15,6% / 19,6%; ROIC terminal 9% / 10% / 11%. En el MALO no hay salto: el negocio ya rinde r. En el NORMAL y el BUENO el salto es mi hipótesis de pérdida de ventaja: lo que dura es el poco capital del contratista que cobra por avance (ROIC nunca por debajo de 10,1% en diez años, Historia fila 33); lo que se pierde en el año 11 es el exceso que trae la ola de obra pública y, en el BUENO, la escasez de capacidad del sector. Justificado en desviaciones_justificadas (G8)."
+  },
+  "dcf_inverso": "El precio de 729 exige un crecimiento de ventas de 17,1% anual en los años 1-5 con el resto de palancas del NORMAL (C86); el precio de Sí (450,57) descuenta 0,75% (g implícito de precio.json). Ninguna ventana de cinco años de la Historia pasó de 11,2% y esa llevaba compras (Historia C46; 2022 +23,8% con 378 de compras, Historia filas 28 y 13). El precio paga más que mi BUENO (708).",
+  "palanca_mas_influyente": "Margen / ROE objetivo (±2 pts)",
+  "tornado_efectos_NORMAL": {
+   "crecimiento ±2 pts": 29.97,
+   "margen ±2 pts": 255.92,
+   "S2C ±0,3": 8.91,
+   "g ±0,5 pts": 3.66,
+   "ROIC LP ±5 pts": 87.48,
+   "tasa ±1 pt": 96.61
+  },
+  "nota": "el tornado es información, no criterio: dice que el valor del NORMAL depende sobre todo del margen, la misma duda que la fase A dejó escrita (¿mezcla o marea?); no decide nada"
+ },
+ "desviaciones_justificadas": [
+  {
+   "comprobacion": "G8",
+   "escenario": "NORMAL",
+   "justificacion": "En los años 1-10 cada euro nuevo rinde 4,1 × 0,05 × 0,76 = 15,6%, que es lo que la empresa ha hecho en la década (ROIC 10,1-16,7%, media de cinco años 14,2%): el contratista cobra por avance y casi todo el trabajo en curso está facturado (precio de venta 35.762 frente a facturación 35.372, neto 390), así que crece con poco capital. Lo que pierdo en el año 11 es el exceso que no defiende ningún foso (C18 = No): el escalón de margen de 2023-2025 viene del margen propio de Construction en plena ola de obra pública (3,0-3,4% antes, 5,2-5,7% después), y un segmento con el mismo grupo detrás, Ground Engineering, pasó en dos años de 4,9% a 2,6% de margen y a un ROIC de 3,8% cuando le llegó la competencia de precio. Lo que conservo es lo que la década sí demuestra sin marea: el ROIC terminal de 0,10 está en el suelo propio de diez años (10,1% en 2017), un punto sobre r, no tres (MR p. 63; E2). Es la hipótesis de la tesis: la ventaja de capital bajo dura, la de la ola no.",
+   "hechos": [
+    "ROIC 10,1-16,7% en 2016-2025, mínimo 10,1% en 2017 (Historia fila 33); ROIC medio de cinco años 14,2% (Historia C55)",
+    "Trabajos en curso: precio de venta 35.762, facturación por avance 35.372, neto 390 [AR_2025, PDF p. 130]",
+    "Margen de Construction 3,4/3,0/5,7/5,2/5,5% de 2020/21 a 2024/25 [AR_2025, PDF pp. 26-34]",
+    "Ground Engineering: margen 4,9% → 2,6% y ROIC 8,4% → 3,8% en un año [AR_2025, PDF p. 115]; competencia de precio en Suecia, Reino Unido y Noruega [AR_2025, PDF p. 33]",
+    "S2C medio 4,13 (Historia C54) frente a Q3 del sector 3,18 (Palancas G19:I19)"
+   ],
+   "clase": "fundamentada"
+  },
+  {
+   "comprobacion": "G8",
+   "escenario": "BUENO",
+   "justificacion": "En el BUENO los años 1-10 rinden 4,7 × 0,055 × 0,76 = 19,6% porque la demanda pública llena la capacidad propia, que es lo que limita lo que Aarsleff puede licitar, y Ground Engineering vuelve a su margen de 2020/21-2022/23: es una renta de escasez de capacidad, no un foso. Cuando la escasez termina (más capacidad en el sector o fin de la ola) esa renta se pierde, y el año 11 lo recoge: el ROIC terminal de 0,11 queda entre el suelo de diez años (10,1%) y el 12% que la empresa exige a sus propias inversiones, porque sin foso no puedo sostener a perpetuidad más de lo que la propia empresa pide al capital nuevo. La rentabilidad marginal de 19,6% está por debajo del doble de la historia (28,3%) y de los mejores segmentos (Construction 24,1%, Pipe Technologies 26,3%), así que el salto mide la pérdida de una ventaja temporal y no un punto de partida inflado.",
+   "hechos": [
+    "'it is largely our own capacity that determines what and how much we in the Aarsleff Group can bid for' [AR_2025, PDF p. 7]",
+    "Margen de Ground Engineering 5,9/5,2/6,0% en 2020/21-2022/23 [AR_2025, PDF pp. 26-34]",
+    "Objetivo de ROIC del 12% tras impuestos para las inversiones [AR_2025, PDF p. 18]",
+    "ROIC de segmentos: Construction 24,1%, Pipe Technologies 26,3% [AR_2025, PDF p. 115]; mínimo del grupo 10,1% (Historia fila 33)"
+   ],
+   "clase": "fundamentada"
+  }
+ ],
+ "autocomprobacion": [
+  {
+   "sesgo": "anclaje en la etapa 1",
+   "hallazgo": "El precio de Sí v1 era ≈ 465 y el v2 sale 450,57: parecido, pero por caminos distintos (v1: ponderado estimado ≈ 775; v2: ponderado 502,36). Las celdas mantenidas (C18 = No, C13 = No, C20, C27) se revisaron con la Historia de diez años; las probabilidades sí cambiaron (B69, D69) y las tres frases B66:D66 también. Lo que miré: si alguna celda heredada se sostiene solo por estar: C27 = Expandiendo es literal para la década, aunque ahora sé que el escalón es de Construction.",
+   "cambio": "ninguno en celdas porque cada mantenimiento nombra su evidencia; la cercanía 465/450 la anoto como coincidencia, no como ancla: el v2 valora el NORMAL en 515,7, muy por debajo de lo que suponía el v1"
+  },
+  {
+   "sesgo": "anclaje en el precio o en la fuente externa",
+   "hallazgo": "Mis valores no se acercaron a la cotización (729) ni al valor externo de C38 (1.030,6 de Simply Wall St): el BUENO (708) queda por debajo de ambos. La pregunta contraria es quién es el tonto: «For a security to be mispriced, someone else must be a damn fool» (TCI p.17; HIM). El mercado paga un crecimiento de 17,1% (C86) o, lo que es parecido, que el ROIC de 14-15% no decaiga nunca y la guía de margen 5,0-5,5% [AR_2025, PDF p. 9] sea el suelo. Mi r (0,09) es heredada y la propia empresa descuenta sus segmentos al 9,4-9,8% [AR_2025, PDF p. 125]: no es mi r la que separa los dos números, es la duración del exceso.",
+   "cambio": "ninguno: no subo palancas para acercarme al precio; dejo escrito que si me equivoco es en C18 (duración del foso), y eso es lo que haría cambiar de cubo"
+  },
+  {
+   "sesgo": "consistencia y compromiso",
+   "hallazgo": "El cubo Vigilar se decidió en la fase A antes de los números. Miré si la fase B empujó las palancas hacia él: las desviaciones van en los dos sentidos (crecimiento NORMAL −0,05 y S2C −0,6 a la baja; margen NORMAL +0,005 y ROIC NORMAL +0,01 al alza) y el cubo no dependía de ellas: para que el precio de Sí llegara a 729 el NORMAL tendría que valer al menos 729 (+41%), y el único efecto del tornado que se acerca es el de margen ±2 puntos, un margen NORMAL de 7% que la empresa nunca tuvo (máximo 5,33%, Historia C51).",
+   "cambio": "ninguno en el cubo; sí reabro dos hipótesis que la fase B daba por fundadas (probabilidades y mecanismo del margen NORMAL) en vez de defenderlas por ser mías"
+  },
+  {
+   "sesgo": "historia bonita / viento de cola atribuido a la empresa",
+   "hallazgo": "La serie por segmento dice que el escalón de margen de 2023 es casi todo de Construction (3,0% → 5,7%, peso 46-47%) [AR_2025, PDF pp. 26-34 y 115], el segmento de Fehmarnbelt, Lynetteholm y los hospitales [AR_2025, PDF pp. 7 y 27]; Pipe Technologies, el que tiene oficio propio, estaba en 6,8-8,0% antes y después. La 'mezcla' de la historia NORMAL no aparece en los datos: lo que hay es ola de obra pública y ejecución en ella.",
+   "cambio": "C66/Palancas!C15 pasa a la lista de hipótesis sin fundamento con su rango (0,045-0,05); no muevo la palanca porque 0,05 está dentro del rango y la zona no cambia, pero la tesis del turno 2 atribuye el escalón a la marea"
+  },
+  {
+   "sesgo": "optimismo del BUENO frente a la tasa base",
+   "hallazgo": "El BUENO pide crecer 10% cinco años (ventas del año 10: 47.564, 2,1 veces las de 2025) y un margen de 5,5% que nunca se dio (máximo 5,33%). El crecimiento queda por debajo del mejor quinquenio propio (11,2%, con compras), la rentabilidad marginal de 19,6% por debajo de 2 × C55 (28,3%) y su probabilidad (0,15) por debajo de la del MALO. No puedo comprobar la cuota implícita porque no hay tamaño de mercado (C24 vacía). «What a man wishes, that also will he believe» (PCA p.564; HIM).",
+   "cambio": "ninguno: el BUENO es exigente pero no pide más ROIC ni más crecimiento del que la empresa ya mostró; dejo dicho que su límite es la capacidad, no el mercado"
+  },
+  {
+   "sesgo": "doble castigo del mismo riesgo",
+   "hallazgo": "Repasé r, MALO, quiebra y probabilidad: la r no lleva prima (heredada), la quiebra está vacía y las garantías de 12.135 se cargan solo en el MALO (PA p. 20; E6). El único doble uso es el argumento de la media del ciclo: está en C8 (el motor parte de 4,32%) y otra vez en la fase B para dejar el objetivo NORMAL bajo la media de 2023-2025; no tiene efecto numérico porque 5,2% redondea a 0,05. El arranque en m0 cuesta al NORMAL unos 11 por acción (2%), que es la convención de C8.",
+   "cambio": "ninguno en palancas; lo anoto en incoherencias para que no se lea como prudencia adicional"
+  },
+  {
+   "sesgo": "disponibilidad (lo vívido del extracto)",
+   "hallazgo": "Lo vívido es Fehmarnbelt ('wide outcome range' [AR_2025, PDF p. 97]), la guerra de precios de Ground Engineering y la cancelación de Odense. Fehmarnbelt movió 0,05 de probabilidad del BUENO al MALO: la cuota de Aarsleff es 3,7 bn en precios de 2015 [AR_2025, PDF p. 128]; un sobrecoste del 10% serían unos 370 una vez, unos 19 por acción. El peso que le di no supera ese orden de magnitud; lo que manda en las palancas es la Historia de diez filas (márgenes, S2C, ROIC). «An idea or a fact is not worth more merely because it is easily available to you» (PCA p.587; HIM).",
+   "cambio": "ninguno en cifras; la probabilidad queda en la lista sin fundamento por otra razón (no hay frecuencia de escenarios), no por exceso de color"
+  },
+  {
+   "sesgo": "autoridad (guía de la dirección como hecho)",
+   "hallazgo": "Varias palancas coinciden con números de la dirección: crecimiento NORMAL 0,06 = suelo de la guía 6-11%; margen NORMAL 0,05 = suelo de la guía 5,0-5,5% [AR_2025, PDF p. 9]; margen BUENO 0,055 = objetivo del grupo y margen de la prueba de deterioro [AR_2025, PDF pp. 18 y 125]; el techo del ROIC BUENO usa el 12% que la empresa exige. Cada una tiene además un hecho propio (orgánico realizado, margen de tres años, segmentos). Y hay un dato de la dirección en contra que la fase B no usó: guía de Construction 2025/26 de 4,5-5,0% [AR_2025, PDF p. 9], por debajo de su 5,5% de 2024/25.",
+   "cambio": "ninguno en cifras; incorporo la guía de Construction como hecho en contra del NORMAL dentro de la hipótesis H2, no como fundamento"
+  },
+  {
+   "sesgo": "¿el MALO es de verdad malo?",
+   "hallazgo": "El MALO es diez años sin crecer (1%), con el margen medio de 2016-2022 (4,0%), S2C 3,0 y ROIC = r: el crecimiento destruye valor (−29 por acción, resultados valor_del_crecimiento) y vale 347, un 52% bajo el precio. No es un NORMAL maquillado. Tampoco es el peor caso: el margen mínimo propio fue 3,4% (2017), Construction estuvo en 3,0% en 2021/22 y no hay pérdida explícita de Fehmarnbelt ni de las garantías. «We don't think because it's never happened that it won't» (AIWTK p.55; HIM).",
+   "cambio": "ninguno: el MALO es real sin ser suelo (D11); lo digo así en la tesis inversa del turno 2"
+  },
+  {
+   "sesgo": "lo no numerable que pesa y no está en las palancas",
+   "hallazgo": "Tres cosas que ninguna celda recoge: la fundación con el 44,7% de los votos [AR_2025, PDF p. 20], que da estabilidad pero puede preferir tamaño y empleo a rentabilidad; la seguridad (14,6 accidentes por millón de horas frente a un objetivo de 5 [AR_2025, PDF p. 5]), que en un contratista es también riesgo de reputación y de licitación; y la responsabilidad solidaria en operaciones conjuntas (2.095 [AR_2025, PDF p. 141]), que liga el resultado a socios que no controlo.",
+   "cambio": "ninguno en palancas; van a la tesis inversa (B102) y a lo que me haría cambiar de cubo en el turno 2"
+  }
+ ],
+ "revisar_palancas": false,
+ "instrucciones_revision": null,
+ "limite_del_modelo": {
+  "aplica": false,
+  "cual": null,
+  "porque": null
+ },
+ "cubo_provisional": "Vigilar",
+ "conclusion_provisional": "esperar",
+ "revision_datos_ausentes": {
+  "revisados": [
+   {
+    "dato": "Palancas!C24",
+    "que_falta": "tamaño del mercado año 10 (cifra de fuente primaria)",
+    "conclusion_afectada": "Palancas!C24 (queda vacía) y semáforo de cuota implícita (fila 45, G17), que no se calcula",
+    "material_para_conclusion_favorable": false,
+    "porque": "El BUENO no está limitado por el mercado sino por la capacidad propia, que es lo que la dirección dice que fija lo que puede licitar [AR_2025, PDF p. 7], y su crecimiento (0,10) queda por debajo del mejor CAGR propio de cinco años (11,2%, Historia C46). La cuota implícita solo podría recortar un BUENO que pesa 0,15; con la conclusión esperar y la zona caro no cambia nada. Para una compra cerca del precio de Sí sí la pediría."
+   },
+   {
+    "dato": "extracto_v63: Tamaño de mercado (Palancas!C24, tamaño del mercado año 10): no encontrado; ninguna cifra de fuente primaria en AR_2016 a AR_2025.",
+    "que_falta": "cifra de tamaño de mercado en AR_2016 a AR_2025",
+    "conclusion_afectada": "Palancas!C24 y la prueba de realismo del BUENO (la misma que el dato anterior)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Es el mismo hueco que Palancas!C24 visto desde el extracto: ninguna cifra primaria. Las ventas del BUENO en el año 10 (47.564, resultados por_escenario) salen de la capacidad y de la historia propia, no de una cuota supuesta; el precio de Sí no depende de un techo de mercado."
+   },
+   {
+    "dato": "extracto_v63: Crecimiento de mercado como cifra: no encontrado.",
+    "que_falta": "crecimiento del mercado como cifra",
+    "conclusion_afectada": "C65 (Crece al ritmo de su mercado) y Palancas!C14",
+    "material_para_conclusion_favorable": false,
+    "porque": "El NORMAL no se construyó con un crecimiento de mercado sino con el orgánico publicado (8,6%, 5,6% y 2,6% [AR_2025, PDF p. 23]) y la cartera (4,9% anual en tres cierres [AR_2025, PDF pp. 4 y 10]). Una cifra de mercado serviría de contraste, no cambia el 0,06 ni la zona."
+   },
+   {
+    "dato": "extracto_v63: Cuota de mercado de Aarsleff o de sus segmentos: no encontrado.",
+    "que_falta": "cuota de mercado de Aarsleff o de sus segmentos",
+    "conclusion_afectada": "C18 (foso, prueba de quién me mata) y C65/D65",
+    "material_para_conclusion_favorable": false,
+    "porque": "C18 ya es No, el lado desfavorable a la tesis: una cuota solo podría sostener un foso que no he concedido. Ninguna palanca del NORMAL ni del MALO supone ganar o perder cuota. No afecta a esperar ni al precio de Sí."
+   },
+   {
+    "dato": "extracto_v63: Competidores con nombre: no encontrado.",
+    "que_falta": "competidores con nombre",
+    "conclusion_afectada": "C18 (quién me mata) y el mecanismo del MALO (la presión de precio se extiende)",
+    "material_para_conclusion_favorable": false,
+    "porque": "El MALO no necesita nombres: la presión de precio está documentada por segmento (Ground Engineering de 4,9% a 2,6% de margen y ROIC 3,8% [AR_2025, PDF p. 115]; competencia en Suecia, Reino Unido y Noruega [AR_2025, PDF p. 33]). Con C18 = No los nombres solo cambiarían la confianza, no la cifra ni el cubo."
+   },
+   {
+    "dato": "extracto_v63: Evolución de ventas a tipo constante: no encontrado.",
+    "que_falta": "evolución de ventas a tipo constante",
+    "conclusion_afectada": "Palancas!B14:D14 (crecimiento 1-5)",
+    "material_para_conclusion_favorable": false,
+    "porque": "El extranjero es 8.468 de 22.620 [AR_2025, PDF p. 116] y la descomposición publicada ya separa Dinamarca y extranjero [AR_2025, PDF p. 23]; con la corona ligada al euro el efecto divisa sobre el orgánico es de décimas, dentro del redondeo de 0,005 de la palanca. No es material."
+   },
+   {
+    "dato": "extracto_v63: Desglose del ingreso internacional por país o región: no encontrado en la nota de segmentos de AR_2025 (solo Dinamarca e internacional).",
+    "que_falta": "desglose del ingreso internacional por país",
+    "conclusion_afectada": "Palancas!A28:B33 (reparto geográfico) y la r mínima de Diagnóstico C17",
+    "material_para_conclusion_favorable": false,
+    "porque": "La r es heredada (0,09) y está por encima de la r mínima (0,0772, datos_v63 §4) con el reparto Dinamarca 62,6% / Europa occidental 37,4%. Aunque parte del internacional fuera de Polonia o Chequia, la r mínima no llegaría a 0,09: no cambia la r usada ni ninguna palanca."
+   },
+   {
+    "dato": "extracto_v63: Importe de I+D y porcentaje sobre ventas: no encontrado.",
+    "que_falta": "importe de I+D y porcentaje sobre ventas",
+    "conclusion_afectada": "Palancas!C9 y C10",
+    "material_para_conclusion_favorable": false,
+    "porque": "Contratista sin I+D cuantificada en diez informes (Historia fila 19); C9 = No por eso y porque el caso especial no es Intangibles. Aunque existiera un importe pequeño, no llegaría al 5% de ventas que obligaría a capitalizarla. Ninguna celda de juicio cambia."
+   },
+   {
+    "dato": "extracto_v63: Capex por destino distinto del segmento (por ejemplo, desglose de la guía de 750-850 por proyecto): no encontrado más allá de las inversiones que cita el texto.",
+    "que_falta": "capex por destino distinto del segmento",
+    "conclusion_afectada": "Palancas!B16:D16 (S2C)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Las S2C salen de lo realizado (Δventas ÷ Δcapital, Historia filas 6 y 32), no de la guía de capex. El desglose por proyecto afinaría el BUENO, que pesa 0,15; no mueve la zona ni el precio de Sí de forma apreciable."
+   },
+   {
+    "dato": "extracto_v63: Múltiplo de adquisición (precio sobre ventas, EBITDA o beneficio) de ArtiCon, Rossaro, Styrud o Bøgelund: no encontrado; solo precio y fondo de comercio de Arti",
+    "que_falta": "múltiplo de adquisición de ArtiCon, Rossaro, Styrud y Bøgelund",
+    "conclusion_afectada": "C98 (asignación de capital) y el punto y medio de crecimiento comprado dentro de Palancas!C14",
+    "material_para_conclusion_favorable": false,
+    "porque": "Lo publicado ya acota el tamaño: ArtiCon 144 por 100% sin deuda con 709 de ingresos pro forma [AR_2025, PDF p. 143]; las demás son pequeñas frente a 22.620. El rendimiento de las compras queda dentro del perímetro de la S2C histórica (el capital invertido incluye el fondo de comercio, 451 [AR_2025, PDF p. 106]). No es material para esperar."
+   },
+   {
+    "dato": "extracto_v63: Precio de Rossaro Kanaltechnik, Styrud y Bøgelund VVS: no encontrado.",
+    "que_falta": "precio pagado por Rossaro Kanaltechnik, Styrud y Bøgelund VVS",
+    "conclusion_afectada": "C98",
+    "material_para_conclusion_favorable": false,
+    "porque": "Son compras pequeñas: Rossaro con ingresos de EUR 3 millones [AR_2025, PDF p. 35], Styrud con algo más de 200 de ingresos y Bøgelund con 60 empleados [AR_2025, PDF p. 146]. Ni juntas cambian C98 = Aceptable ni una palanca."
+   },
+   {
+    "dato": "extracto_v63: Subidas de precio aplicadas a clientes y efecto en volumen: no encontrado como cifra.",
+    "que_falta": "subidas de precio aplicadas a clientes y su efecto en volumen",
+    "conclusion_afectada": "C18 y C14 (poder de precio) y Palancas!B15:D15",
+    "material_para_conclusion_favorable": false,
+    "porque": "No tengo prueba de poder de precio y por eso C18 = No y C14 = Cíclica / commodity; los márgenes se fundaron en la serie propia (Historia fila 29) y en los segmentos, no en subidas de precio. El dato podría mejorar la tesis, no empeorarla: no es material para esperar."
+   },
+   {
+    "dato": "extracto_v63: Umbral numérico del covenant de gearing del RCF: no encontrado.",
+    "que_falta": "umbral numérico del covenant de gearing del RCF",
+    "conclusion_afectada": "Palancas!C22 (quiebra) y el descalificador de deuda",
+    "material_para_conclusion_favorable": false,
+    "porque": "Deuda neta/EBITDA 0,64 (C33), objetivo propio menor de 1,5 [AR_2025, PDF p. 139], RCF con 1.714 sin usar hasta julio de 2028 y todos los covenants cumplidos [AR_2025, PDF p. 135]. Ningún disparador de quiebra; el umbral solo importaría si la deuda neta se acercara a 1,5 veces el EBITDA."
+   },
+   {
+    "dato": "extracto_v63: Rating crediticio de la empresa: no encontrado.",
+    "que_falta": "rating crediticio",
+    "conclusion_afectada": "Palancas!C22 y el descalificador de deuda",
+    "material_para_conclusion_favorable": false,
+    "porque": "Mismo razonamiento que el covenant: la solvencia la juzgo con C33, C34 y la RCF [AR_2025, PDF p. 135], no con un rating. No cambia la quiebra vacía ni el cubo."
+   },
+   {
+    "dato": "extracto_v63: Coste medio de la deuda como cifra única: no encontrado (solo rango de tipos efectivos de 1 a 8%).",
+    "que_falta": "coste medio de la deuda como cifra única",
+    "conclusion_afectada": "ninguna celda de juicio: el motor A trabaja con flujo al accionista",
+    "material_para_conclusion_favorable": false,
+    "porque": "En el motor A los intereses ya van dentro del flujo (Historia fila 16) y la hoja no usa el coste de la deuda para descontar; Historia C63 (2,99%) es informativo. Solo importaría en el motor B, que no elegí (C62)."
+   },
+   {
+    "dato": "extracto_v63: Pensiones de prestación definida: no encontrado.",
+    "que_falta": "pensiones de prestación definida",
+    "conclusion_afectada": "ninguna celda de juicio: no hay partida que restar",
+    "material_para_conclusion_favorable": false,
+    "porque": "El balance no tiene línea de pensiones (Historia, pensiones 2025 = 0 [AR_2025, PDF p. 106]) y los 412 de Pensions son aportaciones del año dentro de costes de personal [AR_2025, PDF p. 119], ya dentro del EBIT. El motor A no resta pensiones."
+   },
+   {
+    "dato": "extracto_v63: Guía de dividendo en importe para 2025/26: no encontrado (solo la política de 20-40% del beneficio).",
+    "que_falta": "guía de dividendo en importe para 2025/26",
+    "conclusion_afectada": "ninguna celda de juicio",
+    "material_para_conclusion_favorable": false,
+    "porque": "El dividendo no entra en ninguna palanca: el motor A valora el flujo al accionista antes de reparto. La política 20-40% [AR_2025, PDF p. 18] basta para C98."
+   },
+   {
+    "dato": "extracto_v63: Guía de capex por destino y guía de crecimiento orgánico separada de la adquirida para 2025/26: no encontrado.",
+    "que_falta": "guía de capex por destino y guía de orgánico separada de la adquirida",
+    "conclusion_afectada": "ninguna celda de juicio: las palancas no copian guías",
+    "material_para_conclusion_favorable": false,
+    "porque": "Por la regla de autoridad no uso la guía como hecho: el crecimiento NORMAL sale del orgánico realizado [AR_2025, PDF p. 23] y la S2C de lo realizado (Historia filas 6 y 32). Una guía separada sería contraste, no fundamento."
+   },
+   {
+    "dato": "extracto_v63: Crecimiento orgánico por segmento: no encontrado.",
+    "que_falta": "crecimiento orgánico por segmento",
+    "conclusion_afectada": "Palancas!C15 y C66 (mecanismo del margen NORMAL: mezcla o ejecución)",
+    "material_para_conclusion_favorable": false,
+    "porque": "Afinaría la hipótesis H2 de la lista de fundamento, pero la serie de márgenes por segmento [AR_2025, PDF pp. 26-34] ya dice lo esencial: el escalón es del margen propio de Construction, no del peso de los segmentos. El rango de Palancas!C15 está atado a hechos del grupo (Historia C49 y fila 29); con cualquier valor del rango la zona sigue siendo caro."
+   },
+   {
+    "dato": "extracto_v63: Bornholm Energy Island y datos del primer, segundo y tercer trimestre de 2025/26: no encontrado en los documentos de texto (solo hay informes anuales hasta 2024",
+    "que_falta": "datos de los tres primeros trimestres de 2025/26 (y Bornholm Energy Island)",
+    "conclusion_afectada": "Palancas!C15 (margen NORMAL), Palancas!B14:D14 y, como contexto, C17",
+    "material_para_conclusion_favorable": false,
+    "porque": "La conclusión esperar a 729 no depende de ellos: el precio está por encima del valor del propio BUENO (708, precio.json). El precio de Sí depende del margen del año 5, no del de nueve meses, y el margen de nueve meses subestima el año por estacionalidad: en 2024/25 los tres primeros trimestres dieron 773 sobre 16.531 (4,7%) y el año cerró en 5,2% [AR_2025, PDF p. 25]. El disparador ya está escrito en Palancas!C15 (cierre de 2025/26 por debajo del 4,7% → 0,045). Bornholm no está en mis entradas y ninguna historia lo usa."
+   },
+   {
+    "dato": "extracto_v63: Regulación y ratios de capital regulatorio: no aplica a un contratista.",
+    "que_falta": "regulación y ratios de capital regulatorio",
+    "conclusion_afectada": "ninguna celda de juicio: no aplica a un contratista",
+    "material_para_conclusion_favorable": false,
+    "porque": "No es financiera ni regulada (Palancas C6 = Cíclica o materias primas; motor A). La única política de capital es la propia (solvencia 35%, gearing 1,5 [AR_2025, PDF pp. 18 y 139]), ya usada en C76 y en la quiebra."
+   }
+  ],
+  "alguno_material": false
+ },
+ "fundamento_material": {
+  "hipotesis_sin_fundamento": [
+   {
+    "celda": "B69:D69",
+    "hipotesis": "probabilidades 0,25 / 0,6 / 0,15",
+    "clase": "fundamentada (B69, D69) y convención (C69)",
+    "porque_sin_fundamento": "Las Observaciones citan hechos, pero ninguno fija el valor: la frecuencia citada (siete de diez años con el margen del MALO, Historia fila 29) es la de un nivel de margen, no la de un escenario de cinco años de crecimiento, margen y reinversión; las cinco ventanas de cinco años de la Historia crecieron entre 7,0% y 11,2% anual (Historia fila 6), así que la década no contiene ninguna observación del MALO ni del NORMAL completos. C69 = 0,6 se apoya en la cartera, que cubre el 63% de un solo año [AR_2025, PDF p. 9], no diez. El sentido del cambio (más MALO por Fehmarnbelt [AR_2025, PDF p. 97]) es defendible; el tamaño, no.",
+    "alternativas_defendibles": {
+     "hay_base": false,
+     "rango": null,
+     "evidencia": "No hay base para acotarlas con hechos de esta empresa: diez años de un mismo ciclo al alza no dan frecuencia de escenarios, la dispersión de los márgenes no dice cuánto vale p(MALO) y el 0,2/0,6/0,2 es convención, no límite. Lo que haría falta: la serie de ventas, margen EBIT y entrada de pedidos de un ciclo bajo completo de la construcción danesa (informes anuales anteriores a 2016, para contar cuántas ventanas de cinco años tuvieron ventas planas y margen en la banda baja) y la relación entrada de pedidos / ventas del cierre 2025/26 como mecanismo de los primeros años. Información, no criterio: con la misma fórmula del Anexo C y los valores de precio.json, 0,2/0,6/0,2 daría un precio de Sí de unos 471 y 0,3/0,6/0,1 de unos 433; la zona sería caro en todos."
+    }
+   },
+   {
+    "celda": "Palancas!C15 · C66",
+    "hipotesis": "margen NORMAL 0,05 sostenido por 'la ejecución y la mezcla de segmentos'",
+    "clase": "fundamentada",
+    "porque_sin_fundamento": "El mecanismo de la mezcla no está en los hechos: el escalón de 2023 es del margen propio de Construction (3,4% y 3,0% en 2020/21-2021/22; 5,7%, 5,2% y 5,5% después [AR_2025, PDF pp. 26-34]) con su peso estable (46-47% [AR_2025, PDF p. 115]); Pipe Technologies apenas ganó peso (10,9% → 11,5%). Lo que queda es 'ejecución durante la ola', que es la duda que la fase A dejó abierta. Además la dirección guía Construction en 4,5-5,0% para 2025/26 [AR_2025, PDF p. 9], por debajo de su 5,5%.",
+    "alternativas_defendibles": {
+     "hay_base": true,
+     "rango": [
+      0.045,
+      0.05
+     ],
+     "evidencia": "Suelo 0,045: el margen medio de diez años (4,32%, Historia C49), que ya contiene los siete años de la banda baja y los tres del escalón; un NORMAL por debajo de la media del ciclo completo sería el MALO (0,04, banda 2016-2022). Techo 0,05: la media de los tres años del escalón (5,33/5,07/5,20%, Historia fila 29), 5,2%, redondeada a la rejilla de 0,005; por encima hace falta que Ground Engineering se recupere, que es el BUENO (0,055). El valor elegido (0,05) está en el extremo favorable a la tesis. No uso como límite la guía ni el objetivo de la dirección ni el sector (mediana 5,3%, Q3 10,7%)."
+    }
+   }
+  ],
+  "comprobacion_conjunta": {
+   "procede": false,
+   "combinacion": null,
+   "coherencia_economica": null,
+   "sobrevive": null
+  },
+  "resultado": "no_procede",
+  "hipotesis_que_mas_condiciona": "Palancas!C15 · C66: margen NORMAL 0,05 atribuido a mezcla, cuando la serie por segmento dice que el escalón de 2023 es del margen propio de Construction durante la ola de obra pública. Con esperar, el precio objetivo (450,57) queda además provisional por B69:D69, sin base para acotar.",
+  "que_lo_resolveria": "El informe anual 2025/26 (cierre 30-sep-2026): margen EBIT de Construction y del grupo, margen bruto y entrada de pedidos frente a ventas; si Construction se mantiene en 5% o más con Fehmarnbelt y Lynetteholm en marcha, el escalón es ejecución; si baja hacia su guía (4,5%) o el grupo cierra bajo el 4,7%, es marea y el NORMAL va a 0,045. Para B69:D69: las notas de segmentos y la serie de ventas y margen de los informes anteriores a 2016 (ciclo bajo de la construcción danesa), y una pregunta a Relación con Inversores sobre el margen de Construction antes de 2020."
+ },
+ "celdas_corregidas": {
+  "C66": {
+   "antes": "Crece con la inversión pública en infraestructura y energía en Dinamarca y fuera, con compras pequeñas y del mismo oficio; la ejecución y la mezcla de segmentos sostienen el margen de los últimos años, el circulante ondula sin regalar caja y el cliente se lleva por licitación casi todo el ahorro de escala.",
+   "despues": "Crece con la inversión pública en infraestructura y energía en Dinamarca y fuera, con compras pequeñas y del mismo oficio; la ejecución y la mezcla de segmentos sostienen el margen de los últimos años, el circulante ondula sin regalar caja y el cliente se lleva por licitación casi todo el ahorro de escala.",
+   "motivo": "Celda de la fase A: el mecanismo 'mezcla de segmentos' no lo sostiene la serie por segmento [AR_2025, PDF pp. 26-34]; el escalón es del margen propio de Construction. No la reescribo; lo anoto en incoherencias y en la hipótesis H2. No impide esperar porque el margen NORMAL que traduce queda dentro de un rango atado a hechos."
+  },
+  "Palancas!C15": {
+   "antes": 0.05,
+   "despues": 0.05,
+   "motivo": "Revisada: 0,05 está en el techo del rango defendible 0,045-0,05 (Historia C49 y fila 29). No está mal derivada (sin error de aritmética ni de perímetro); moverla a 0,045 no cambiaría el cubo ni la zona (caro) y no la pido."
+  },
+  "B69": {
+   "antes": 0.25,
+   "despues": 0.25,
+   "motivo": "Revisada: sentido defendible, tamaño sin frecuencia observada; queda en hipotesis_sin_fundamento sin base y el precio objetivo se marca provisional."
+  },
+  "C69": {
+   "antes": 0.6,
+   "despues": 0.6,
+   "motivo": "Revisada: la cartera cubre un año, no el reparto de diez; convención sin hecho que la fije; misma hipótesis que B69."
+  },
+  "D69": {
+   "antes": 0.15,
+   "despues": 0.15,
+   "motivo": "Revisada: el BUENO menos probable que el MALO tiene razón estructural escrita (margen nunca alcanzado, Historia C51); el tamaño exacto, no; misma hipótesis que B69."
+  },
+  "Palancas!C8": {
+   "antes": "Media del ciclo",
+   "despues": "Media del ciclo",
+   "motivo": "Revisada: la regla la pide con C6 = Cíclica y el último margen está a 0,1 puntos del máximo; correcta. Su efecto (el motor parte de 4,32%) es convención y no se suma a otro castigo con efecto numérico."
+  }
+ },
+ "estado_analisis": null,
+ "cubo_final": null,
+ "escalera": null,
+ "decision": null,
+ "insumos_decision_cartera": null,
+ "herencia": null,
+ "comparacion_etapa_1": null,
+ "cambiaria_de_cubo": null,
+ "celdas": null,
+ "observaciones": null
+}
