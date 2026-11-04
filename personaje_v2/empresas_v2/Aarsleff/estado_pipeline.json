@@ -1,5 +1,5 @@
 {
- "paso": 6,
+ "paso": 8,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -16,16 +16,24 @@
   "  $ python3 fase1_historia.py construir Aarsleff → 0 · fase1_v63.json escrito (10 años, 26 diferencias con el comparativo, ver historia_revision.md)",
   "  $ python3 rellenar_fase1_v63.py Aarsleff_v63_base.xlsx fase1_v63.json Aarsleff_v63_datos.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
   "  $ python3 comprobar_entrada_v63.py Aarsleff_v63_datos.xlsx Aarsleff → 0 · OK: 0 bloqueantes · 0 necesarios para LISTO·PROVISIONAL · 1 no bloqueantes · motores calculables: ['A', 'B', 'C']",
-  "  $ python3 volcar_datos_v63.py Aarsleff_v63_datos.xlsx Aarsleff → 0 · OK: datos_v63.md (9828 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff"
+  "  $ python3 volcar_datos_v63.py Aarsleff_v63_datos.xlsx Aarsleff → 0 · OK: datos_v63.md (9828 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff",
+  "  $ python3 validar_esquema.py fase_a.json fase_a --salida esquema_fase_a.json.txt → 0 · VÁLIDO · fase_a.json contra fase_a.esquema.json",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_a.md fase_a.md → 0 · RESULTADO: PASS",
+  "  $ python3 fase_a_celdas.py fase_a.json A celdas_A.json → 0 · OK: 116 celdas (incluidas E/F/N de Control maestro) → /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff/celdas_A.json",
+  "  $ python3 escribir_v63.py Aarsleff_v63_datos.xlsx Aarsleff_v63_evaluada.xlsx --celdas celdas_A.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py Aarsleff_v63_evaluada.xlsx Aarsleff_v63_datos.xlsx --fases A → 0 · PASS: 0 errores · 29 celdas correctas · fases ['A'] · motor A",
+  "  $ python3 comprobar_entrada_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff --motor A → 0 · OK: 0 bloqueantes · 0 necesarios para LISTO·PROVISIONAL · 1 no bloqueantes · motores calculables: ['A', 'B', 'C']",
+  "  $ python3 volcar_datos_v63.py Aarsleff_v63_evaluada.xlsx Aarsleff --referencias-mecanicas → 0 · OK: datos_v63.md (11343 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Aarsleff · referencias_mecanicas.json"
  ],
- "motor": null,
+ "motor": "A",
  "fase_b_escrita": false,
  "fase_c_escrita": false,
- "esperando": "6:fase_a.json",
+ "esperando": "8:fase_b.json",
  "inicio": "2026-11-04T11:30:49",
- "esperando_desde": 1793792281.654117,
+ "esperando_desde": 1793792803.410858,
  "consumidos": {
-  "extracto_v63.md": 1793792266.8724458
+  "extracto_v63.md": 1793792266.8724458,
+  "fase_a.json": 1793792690.1762516
  },
  "motivo_correccion": null
 }

@@ -49,9 +49,9 @@
   "B65": "Cae el ciclo del sector",
   "C65": "Crece al ritmo de su mercado",
   "D65": "El viento de cola acelera",
-  "B66": "El ciclo constructor nórdico cae, el circulante se da la vuelta, Ground Engineering sigue con sobrecapacidad y un megaproyecto (Fehmarnbelt) acaba mal: la caja retrocede poco a poco durante una década.",
-  "C66": "Crece con la inversión en infraestructura danesa y nórdica a un dígito medio-bajo, margen EBIT en torno al 5%, el circulante ondula pero no regala ni quita caja a largo plazo.",
-  "D66": "La ola de infraestructura (Fehmarnbelt, Bornholm, calefacción urbana) acelera, el margen alcanza el objetivo del 5,5% y las compras pequeñas siguen rindiendo: la caja crece al 8% una década.",
+  "B66": "La obra privada sigue floja y, cuando pasan los grandes proyectos públicos, la licitación se endurece: la presión de precio de Ground Engineering se extiende a los demás segmentos, el margen vuelve a la banda de antes de 2022, el circulante devuelve los anticipos y las compras pagadas con deuda rinden por debajo de su objetivo; la mejora se la queda el cliente.",
+  "C66": "Crece con la inversión pública en infraestructura y energía en Dinamarca y fuera, con compras pequeñas y del mismo oficio; la ejecución y la mezcla de segmentos sostienen el margen de los últimos años, el circulante ondula sin regalar caja y el cliente se lleva por licitación casi todo el ahorro de escala.",
+  "D66": "Defensa, infraestructura crítica y transición verde amplían la demanda pública; como su propia capacidad limita lo que puede licitar, Aarsleff elige obra y precio, Ground Engineering recupera utilización y Pipe Technologies crece fuera: la empresa se queda parte de la mejora por selectividad y mezcla, no por foso.",
   "B67": null,
   "C67": null,
   "D67": null,
@@ -430,11 +430,11 @@
   ]
  },
  "palancas": {
-  "C5": null,
-  "C6": null,
+  "C5": "Madura en crecimiento",
+  "C6": "Cíclica o materias primas",
   "C7": "Engineering/Construction",
-  "C8": null,
-  "C9": null,
+  "C8": "Media del ciclo",
+  "C9": "No",
   "C10": null,
   "B14": null,
   "C14": null,
@@ -539,18 +539,18 @@
     null
    ]
   ],
-  "C43": null,
+  "C43": "No aplica",
   "C44": null,
   "C45": "2026-09-07",
   "C46": "2025-09-30",
-  "C47": null,
+  "C47": "Ninguna",
   "C48": "DKK"
  },
  "diagnostico": {
   "motor": "A",
-  "coherencia_tipo_motor": "—",
+  "coherencia_tipo_motor": "✓ PASA · tipo y motor coherentes",
   "V0": 22620,
-  "m0": 0.0520335985853227,
+  "m0": 0.0432274129156086,
   "t": 0.23992,
   "f": 0.00393389127169688,
   "B0": 5506,
@@ -694,7 +694,7 @@
    "fila49": [
     "Tipo de empresa frente a motor",
     null,
-    "—",
+    "✓ PASA · tipo y motor coherentes",
     null
    ],
    "fila50": [
@@ -828,7 +828,7 @@
    ],
    [
     "Tipo de empresa y caso especial elegidos",
-    "⛔ TÉCNICO · Falta la etapa o el caso especial (Palancas C5, C6)"
+    "✓ PASA"
    ],
    [
     "El motor calcula un valor en los tres escenarios",
@@ -836,7 +836,7 @@
    ],
    [
     "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-    "NO LISTO · incompleto (6 pendientes)"
+    "NO LISTO · incompleto (5 pendientes)"
    ]
   ],
   "parametros": {
@@ -856,8 +856,7 @@
    "5. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
    "6. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
    "7. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-   "8. INCOMPLETO · Falta la etapa o el caso especial (Palancas C5, C6)",
-   "9. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+   "8. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
   ],
   "salto_anio_11": {
    "filas": [
@@ -1406,11 +1405,11 @@
   "causa_tecnica_B256": "Faltan palancas de crecimiento (Palancas B14:D14)",
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
   "n_avisos_B260": 3,
-  "n_causas_B261": 9,
-  "estado_libro_B266": "NO LISTO · incompleto (6 pendientes)",
+  "n_causas_B261": 8,
+  "estado_libro_B266": "NO LISTO · incompleto (5 pendientes)",
   "lectura_precio_B267": null,
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
-  "evidencias_B269": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 1 estimaciones · 0 no verificables · 9 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+  "evidencias_B269": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 0 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
   "dcf_inverso_monotono_B193": "—",
   "reglas": [
    {
@@ -1846,12 +1845,12 @@
     "id": "C03",
     "regla": "Tipo de empresa (Palancas C5, C6)",
     "aplica": true,
-    "resultado": "INCOMPLETO",
-    "codigo": "INC|Falta la etapa o el caso especial (Palancas C5, C6)",
-    "causa": "Falta la etapa o el caso especial (Palancas C5, C6)",
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 8
+    "n_causa_activa": null
    },
    {
     "id": "C04",
@@ -1895,7 +1894,7 @@
     "causa": "Faltan 3 predicciones (Palancas A38:A40)",
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 9
+    "n_causa_activa": 8
    },
    {
     "id": "C08",
@@ -2032,8 +2031,8 @@
     "celda": "Análisis!C11",
     "concepto": "Entender el negocio en ≤5 frases",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2041,14 +2040,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: lo explico en cinco frases: construye infraestructura y edificios (cimentaciones, túneles, vía férrea, instalaciones técnicas, rehabilitación de tuberías sin zanja); le pagan clientes públicos y privados, utilities y operadores ferroviarios, por contrato o licitación; la caja sale de contratos de construcción (20.929 de 22.620 mm en 2024/25) cobrados por avance con anticipos de clientes; el backlog (26.408 mm) cubre el 63% del año siguiente. Todo está en el extracto §1. Lo sustituiría: si el valor pasara a depender de actividades que no sé explicar (concesiones, financiación de proyectos)."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (misma_evidencia): la caja sigue saliendo de obra cobrada por avance. Apoyo: contratos de construcción 20.929 de 22.620 de ingresos [AR_2025, PDF p. 117]; clientes en gran parte públicos o semipúblicos y ninguno por encima del 10% [AR_2025, PDF pp. 115 y 140]; cartera 26.408 [AR_2025, PDF p. 4]; cinco segmentos con margen y ROIC publicados [AR_2025, PDF p. 115]. Las cinco frases están en fase_a.md. Lo sustituiría: que el valor pasara a depender de un megaproyecto o de concesiones que no sé explicar (a No)."
    },
    "22": {
     "celda": "Análisis!C12",
     "concepto": "Círculo de competencia",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2056,14 +2055,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: sector viejo y sin cambio tecnológico rápido; las variables que deciden el valor a diez años (inversión en infraestructura nórdica, disciplina de licitación, márgenes de ejecución) son juzgables con once años de series. El borde del círculo: no sé juzgar el desenlace de un megaproyecto concreto; la empresa misma declara en Fehmarnbelt un 'wide outcome range'. Lo sustituiría: si los megaproyectos únicos pasaran de ser una parte acotada a ser el negocio."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): las variables del valor se pueden juzgar con lo que hay. Apoyo: margen de ejecución, licitación, ciclo de la obra privada y circulante están en Historia filas 28-35 y en la tabla de segmentos [AR_2025, PDF p. 115]. Borde del círculo: no juzgo el desenlace de Fehmarnbelt ('wide outcome range' [AR_2025, PDF p. 97]) ni el grado de avance de cada obra; la cuota de Aarsleff en Fehmarnbelt es 3,7 bn en precios de 2015 [AR_2025, PDF p. 128], acotada frente a 22.620 de ingresos anuales. Lo sustituiría: que los megaproyectos dominaran la cartera o una pérdida grande por avance mal estimado (a No)."
    },
    "23": {
     "celda": "Análisis!C13",
     "concepto": "Valor claro sin modelo complejo",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2071,14 +2070,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: FCF yield 4,8% según la plantilla (C40/C41) y ~15 veces la base normalizada de 873 mm; «no matter how wonderful it is, it's not worth an infinite price» (AIWTK p.158; HIM). Para ver margen aquí hace falta la hoja, luego la respuesta literal es No. Anoto una incoherencia aparente de datos: C40 (619) difiere de la base derivada de la propia plantilla (873); uso ambas tal cual, sin recalcular. Lo sustituiría: un precio al que la caja normalizada rinda claramente más que la alternativa (r = 0,09)."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: No → mantiene (evidencia_nueva): con el precio nuevo sigue sin verse margen a ojo. Apoyo: precio 729 (C37) frente a 682 en la etapa 1; FCF yield 4,4% con C40/C41 y 6,2% con la base C52 (872,7), unas 16 veces; EV/EBITDA 6,28 en el máximo de su historia 3,5-6,2, mediana 4,1 (C42). «No matter how wonderful [a business] is, it's not worth an infinite price» (TCI p.29; HIM). Si para ver que es barata hace falta la hoja, es No. Lo sustituiría: un precio al que la caja normalizada, sin circulante favorable, rinda claramente más que r = 0,09."
    },
    "24": {
     "celda": "Análisis!C14",
     "concepto": "Tipo de oportunidad",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2086,14 +2085,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: negocio de licitación con presión de precios declarada por la empresa ('intense price competition' en Ground Engineering; 'price pressure in several markets'), márgenes EBIT del grupo entre 3,4% y 5,3% en once años: cíclica de servicio sin poder de precio demostrado. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM). Lo sustituiría: evidencia de poder de precio sostenido que lo acercara a Calidad a precio razonable."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Cíclica / commodity → mantiene (misma_evidencia): licitación sin poder de precio demostrado. Apoyo: competencia de precio en Suecia, Reino Unido y Noruega [AR_2025, PDF p. 33]; obra privada afectada por la desaceleración [AR_2025, PDF p. 97]; margen 2020/21 dañado por materiales [AR_2022, PDF p. 25]; margen EBIT 3,4-5,3% en diez años (Historia fila 29). El ROIC 10-17% (fila 33) no basta para Compounder sin precio. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM). Lo sustituiría: subidas de precio con volumen estable o margen por encima del 5,5% varios años (a Calidad a precio razonable)."
    },
    "25": {
     "celda": "Análisis!C17",
     "concepto": "Viento de cola duradero",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2101,14 +2100,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: backlog en récord (26.408 → 28.096 a jun 2026), entrada de pedidos 24.683, programas públicos plurianuales (Fehmarnbelt, Bornholm Energy Island 3,7 bn, calefacción urbana, hospitales); el trabajo en el extranjero ha crecido de 2.843 (2015/16) a 8.468. Lo digo con honradez: el viento es del sector, no mérito del foso, y el crecimiento de una industria no dice qué márgenes quedarán. Lo sustituiría: dos años de caída de entrada de pedidos o backlog."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): el viento existe y es del sector. Apoyo: cartera 22.847, 22.250, 24.345 y 26.408 en cuatro cierres; entrada de pedidos 24.683 [AR_2025, PDF pp. 4 y 10]; trabajo en el extranjero de 4.475 a 8.468 en cinco años [AR_2025, PDF p. 8]; demanda pública en transición verde y defensa [AR_2025, PDF p. 97]. Lo atribuyo con honradez: es la marea de la obra pública, no mérito de un foso. Lo sustituiría: dos años de entrada de pedidos por debajo de los ingresos (a No)."
    },
    "26": {
     "celda": "Análisis!C18",
     "concepto": "Ventaja competitiva sostenible",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2116,14 +2115,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: hay ventajas reales —escala local y producción propia ('it is largely our own capacity that determines what we can bid for', dice la dirección), anticipos de clientes, ROIC después de impuestos 10–19% once años seguidos; «advantages of scale are ungodly important» (PCA pp.174–177; HIM)— pero no pasan la prueba del sobrino: «even your idiot nephew could do well» (TCI p.121; HIM); un contratista mal gestionado quiebra con una mala obra, y la empresa sufre presión de precios explícita y segmentos con ROIC del 3,8% (Ground Engineering). El extracto no nombra competidores ni cuotas: no puedo juzgar quién la mata, y lo pediría. Lo sustituiría: evidencia de poder de precio o de cuota defendida con nombre y números."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: No → mantiene (evidencia_nueva): diez años de Historia no muestran precio. Apoyo: ROIC 10-17% (Historia fila 33) frente a 7,2% del sector (Palancas H18), pero con margen 3,4-5,3% (fila 29) y S2C medio 4,1 (C54 de Historia): retorno de poco capital y anticipos; Ground Engineering ROIC 3,8% [AR_2025, PDF p. 115]; materias primas tras firmar a cargo de la empresa [AR_2025, PDF p. 97]. «even your idiot nephew could do well» (TCI p.121; HIM): un contratista mal llevado pierde con una mala obra. Sin competidores con nombre (extracto §9). Lo sustituiría: cuota defendida con nombre y cifras o margen sostenido sobre el objetivo (a Sí)."
    },
    "27": {
     "celda": "Análisis!C19",
     "concepto": "Consistencia de crecimiento de ingresos/beneficios",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2131,14 +2130,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: ingresos de 10.254 (2014/15) a 22.620 (2024/25) y EBIT de 484 a 1.177, con baches pequeños (2019/20 -1,2%); parte del crecimiento es comprado (adquisiciones casi todos los años). «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM). Lo sustituiría: separar mejor orgánico y comprado; el extracto solo da orgánico de 2019/20 y de los nueve meses 2025/26."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): diez años de Historia lo confirman. Apoyo: ventas de 10.420 a 22.620 (Historia fila 6) con un solo retroceso (-1,2% en 2020); EBIT de 416 a 1.177 (fila 7), con un bache en 2017. Parte es comprada: orgánico 8,6%, 5,6% y 2,6% en los tres últimos años [AR_2025, PDF p. 23]. Un bache cíclico no es No. Lo sustituiría: orgánico negativo dos años seguidos sin compras que lo tapen (a No)."
    },
    "28": {
     "celda": "Análisis!C20",
     "concepto": "Riesgo vs incertidumbre",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2146,7 +2145,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia preparada en paquete MOAT.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: la definición del inversor manda: C20 mide el riesgo de pérdida permanente al precio pagado, no solo la solvencia. Separo las dos partes. Parte del negocio: baja —deuda neta/EBITDA 0,64 (C33), la caja cubre la deuda corta (C34), RCF de 1.750 mm casi sin usar, backlog que cubre el 63% del año—, con incertidumbre alta (beneficio por grado de avance, 'wide outcome range' declarado en Fehmarnbelt, ciclo constructor). Parte del precio: a 682 DKK no hay margen —mi malo estimado (~465) es ≈ -32% frente a la cotización y pago ~15 veces una caja normalizada con viento de circulante dentro—, de modo que la valoración no protege frente a un deterioro del poder de ganancia (margen de vuelta al 4% histórico, circulante devolviendo lo cobrado); «Risk to us is 1) the risk of permanent loss of capital, or 2) the risk of inadequate return» (TCI p.91; HIM). Ninguna opción del desplegable encaja exacta; por exclusión elijo Riesgo real alto, porque la celda pregunta al precio de hoy y esa parte domina. Cambio el valor respecto al primer intento (era Incert. alta + riesgo bajo) porque la coherencia con la definición del inversor lo obliga. Lo sustituiría: a ~465 DKK con balance y backlog intactos, el riesgo al precio pagado sería bajo y la celda volvería a Incert. alta + riesgo bajo."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Riesgo real alto → mantiene (evidencia_nueva): el riesgo es del precio, no del balance. Apoyo: negocio con deuda neta/EBITDA 0,64 (C33), caja que cubre la deuda corta (C34), RCF hasta 2028 [AR_2025, PDF p. 135]. Precio 729 (C37) con EV/EBITDA en su máximo (C42), margen en el escalón alto (Historia fila 29) y FCF LTM con circulante y desfase de impuestos (C40); creo que si el margen vuelve a la media de diez años (4,3%, Historia C49) la pérdida al precio pagado sería permanente. «Risk to us is 1) the risk of permanent loss of capital, or 2) the risk of inadequate return» (TCI p.91; HIM). Lo sustituiría: un precio que no dependa del margen alto (a Incert. alta + riesgo bajo)."
    },
    "29": {
     "celda": "Análisis!C24",
@@ -2167,8 +2166,8 @@
     "celda": "Análisis!C25",
     "concepto": "FCF creciente",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "FY19/20–LTM",
     "unidad": "DKKm",
     "tipo_fuente": "Primaria + derivado",
@@ -2176,7 +2175,7 @@
     "K": null,
     "L": "FIN 2.5",
     "M": "Pendiente de inversor. Escalado: tendencia 5a sube (FCF normalizado 361→592; reportado −289→1.682) pero el último dato baja (reportado LTM 935 vs 1.682; normalizado FY24/25 592 vs 795).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: mi serie propia de FCF (CFO menos PPE neto, extracto §2.2) va de -298 a +2.016 con tres años negativos en once; el récord de 2024/25 lleva +1.036 mm de circulante. No es un bache cíclico único sino la naturaleza ondulante del circulante de contratista, así que la respuesta literal es No sin que eso convierta el negocio en malo. Lo sustituiría: una media móvil de cinco años de FCF claramente creciente."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: No → mantiene (evidencia_nueva): la serie de diez años no crece. Apoyo: FCF al accionista (Historia fila 35) -238, -66, 285, 455, 907, -410, -628, -93, 848, 1.569: cuatro años negativos de diez; media 2016-20 ≈ 269 y 2021-25 ≈ 257. El récord de 2025 lleva una liberación de circulante de 1.036 (Historia fila 14) y el LTM, +145 de circulante y +171 de impuestos (C40). Es la ondulación del contratista, no un bache. Lo sustituiría: media móvil de cinco años creciente sin liberación de circulante (a Sí)."
    },
    "31": {
     "celda": "Análisis!C26",
@@ -2197,8 +2196,8 @@
     "celda": "Análisis!C27",
     "concepto": "Tendencia de márgenes 5–10 años",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "FY14/15–LTM",
     "unidad": "%",
     "tipo_fuente": "Primaria + derivado",
@@ -2206,7 +2205,7 @@
     "K": null,
     "L": "OPS 2.6",
     "M": "Pendiente de inversor. Margen EBIT (métrica menos distorsionada): medias 3a 3,8% → 5,2% en 10 años (+0,19 pp/año); meseta 5,1–5,3% desde FY22/23; LTM 5,0%; 9M 4,5% vs 4,7%.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: margen EBIT 3,4–4,2% (2015/16–2019/20) frente a 5,1–5,2% (2022/23–2024/25); objetivo elevado de 5,0% a 5,5%. Aviso en contra: nueve meses 2025/26 al 4,5%, con Ground Engineering al 1,3%. Elijo Expandiendo por la década completa y digo el riesgo de que 2025/26 lo desmienta. Lo sustituiría: el cierre de 2025/26 por debajo del 5%."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Expandiendo → mantiene (evidencia_nueva): la década expande, en escalón. Apoyo: margen EBIT 3,4-4,4% de 2016 a 2022 y 5,1-5,3% de 2023 a 2025 (Historia fila 29); margen bruto de 10,7% a 12,2% [AR_2025, PDF p. 8]. En contra: es un escalón de tres años, no una pendiente, y Ground Engineering cayó de 6,0% a 2,6% en dos años [AR_2025, PDF pp. 26-34]; por eso la base del margen es la media del ciclo (Palancas!C8). Lo sustituiría: 2025/26 por debajo del 5% (a Estable) o por debajo del 4,4% (a Comprimiendo)."
    },
    "33": {
     "celda": "Análisis!C28",
@@ -2452,8 +2451,8 @@
     "celda": "Análisis!C51",
     "concepto": "¿Restar SBC del FCF base?",
     "naturaleza": "Decisión del inversor / metodología elegida",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2461,7 +2460,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. SBC no material (<10% del FCF): no hace falta decidir antes de C40.",
-    "N": "[Clase: convención] [Confianza: alta] Apoyo: «A stock option is both an expense and dilution» (PCA p.127; HIM); SBC de 34,3 mm restada en la base (C50); el programa matching 1:1 se cubre con autocartera comprada con caja del accionista. Lo sustituiría: nada; es regla fija del ejercicio con evidencia."
+    "N": "[Clase: convención] [Confianza: alta] Hereda: Sí → mantiene (misma_evidencia): regla fija del ejercicio. Apoyo: SBC 34,3 (C50), entre el 2% y el 7% del FCF según el horizonte (C50); se resta siempre porque es coste y dilución: «A stock option is both an expense and dilution» (PCA pp.126-127; HIM). Convención del ejercicio con evidencia en el corpus. Lo sustituiría: nada."
    },
    "50": {
     "celda": "Análisis!C53",
@@ -2512,8 +2511,8 @@
     "celda": "Análisis!C56",
     "concepto": "Rentabilidad exigida al accionista (r)",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2521,7 +2520,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: convención] [Confianza: alta] Apoyo: los datos automáticos no traen C56, así que uso r = 0,09 como convención del ejercicio y lo digo; representa la alternativa exigida al capital, no un CAPM: «it's your alternatives that matter» (PCA p.114; HIM). La referencia sin riesgo dada es 0,0322 (C57). Lo sustituiría: la r que fije el inversor."
+    "N": "[Clase: convención] [Confianza: alta] Hereda: 0,09 → mantiene (misma_evidencia): heredada, no la cambio. Apoyo: representa la alternativa que el ejercicio exige al capital (r por defecto 0,09), no un CAPM: «it's your alternatives that matter» (PCA p.114; HIM). Está por encima de la r mínima de la hoja (0,0772, Diagnóstico C17: PASA) y de la tasa sin riesgo 0,0317 (C57). Contraste: la empresa descuenta al 9,4-9,8% en su prueba de deterioro [AR_2025, PDF p. 125]. Lo sustituiría: la r que fije el inversor."
    },
    "54": {
     "celda": "Análisis!C57",
@@ -2557,8 +2556,8 @@
     "celda": "Análisis!C61",
     "concepto": "¿Recompras neutralizan la SBC?",
     "naturaleza": "Juicio asistido por datos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2566,14 +2565,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Evidencia: FY20/21–24/25 recompras 1,80m acciones vs 0,56m entregadas como matching (3,2×); acciones en circulación −6,2%.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: acciones diluidas con CAGR -0,71% (C60) y C28 = Recompra; recompras de 169 mm en 2024/25 frente a SBC de 34 mm; las matching shares se entregan desde autocartera. El trozo del accionista crece despacio. Lo sustituiría: un programa de acciones que creciera por encima de las recompras."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): diez años de acciones a la baja. Apoyo: diluidas de 20,385 a 19,314 (Historia fila 20; CAGR -0,71%, C60) con SBC 34-36 al año (fila 18); recompra de 521.351 acciones por 246,5 entre junio de 2024 y septiembre de 2025 [AR_2025, PDF p. 21]; C28 = Recompra. Aviso: el programa terminó el 27-feb-2026 sin programa nuevo encontrado (C28). Lo sustituiría: diluidas subiendo dos años sin recompra (a No está claro)."
    },
    "57": {
     "celda": "Análisis!C62",
     "concepto": "Aplicabilidad del DCF simplificado / estabilidad financiación",
     "naturaleza": "Juicio metodológico del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2581,14 +2580,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor. Primera decisión.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: industrial con caja real y balance simple; la financiación no domina el valor (deuda neta ~0). La pega es la ondulación del circulante, que la base normalizada (media 3–5 años de CFO, C46) amortigua; por eso Sí. Lo sustituiría: si los flujos pasaran a depender de financiación de proyectos, otro método."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (evidencia_nueva): motor A. Apoyo: motor A calculable (entrada_v63.md); intereses pagados dentro de explotación (Historia fila 16 en cero en 2025), f = 0,0039 (Historia C58), deuda neta/EBITDA 0,64 (C33): el flujo al accionista aproxima bien. La deuda subió 1.629 en nueve meses por compras y circulante (C54), dentro de su objetivo de gearing por debajo de 1,5 [AR_2025, PDF p. 18]: es un saldo, no un cambio de modelo de financiación. Pega: la base lleva circulante favorable (C40, C46). Lo sustituiría: deuda neta/EBITDA hacia 1,5 por compras (a motor B)."
    },
    "58": {
     "celda": "Análisis!B65",
     "concepto": "MALO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2596,14 +2595,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: la opción de la lista que mejor encaja: el riesgo dominante del malo es ciclo constructor nórdico más reversión del circulante y un mal desenlace de megaproyecto; la empresa ya describe sobrecapacidad y presión de precios en Ground Engineering. Lo sustituiría: si el riesgo dominante pasara a ser deuda o regulación."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Cae el ciclo del sector → mantiene (misma_evidencia): el riesgo dominante del MALO es el ciclo. Apoyo: obra privada afectada por la desaceleración [AR_2025, PDF p. 97]; competencia de precio en Suecia, Reino Unido y Noruega [AR_2025, PDF p. 33]; margen de 2016-2022 en la banda 3,4-4,4% (Historia fila 29); circulante que se libera y vuelve (Historia fila 14). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77-78; HIM). Lo sustituiría: si el riesgo dominante pasara a ser la deuda de las compras (a La deuda aprieta)."
    },
    "59": {
     "celda": "Análisis!B66",
     "concepto": "MALO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2611,7 +2610,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: cada pieza del malo está documentada: circulante +1.036 en 2024/25 y -282 en los nueve meses siguientes; 'wide outcome range' en Fehmarnbelt; sobrecapacidad en Alemania; «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM). Lo sustituiría: nada; el malo tiene que ser real, no cosmético."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: El ciclo constructor nórdico cae… → cambia (definicion_o_medicion_distinta): la V6.3 pide mecanismo y dueño de la mejora, sin la trayectoria del FCF. Apoyo: obra privada afectada [AR_2025, PDF p. 97]; competencia de precio en tres países [AR_2025, PDF p. 33]; margen 3,4-4,4% antes de 2023 (Historia fila 29); trabajos en curso netos de 851 a 390 [AR_2025, PDF p. 130]; deuda +1.629 en nueve meses y solvencia 30,2% (C54); objetivo de ROIC del 12% [AR_2025, PDF p. 18]. Lo sustituiría: margen sostenido por encima del 5% en una caída de la obra privada."
    },
    "60": {
     "celda": "Análisis!B67",
@@ -2662,8 +2661,8 @@
     "celda": "Análisis!C65",
     "concepto": "NORMAL: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2671,14 +2670,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: crecer al ritmo de su mercado describe el caso central: inversión pública nórdica estable, cuota sin cambios demostrables (no hay datos de cuota en el extracto). Lo sustituiría: datos de cuota que mostraran ganancia o pérdida sistemática."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Crece al ritmo de su mercado → mantiene (misma_evidencia): caso central sin cuota demostrable. Apoyo: no hay cuotas ni competidores con nombre (extracto §9); orgánico 2,6% a 8,6% en tres años [AR_2025, PDF p. 23]; cartera de 22.250 a 26.408 [AR_2025, PDF pp. 4 y 10]. No elijo Sigue como los últimos 5 años: ese tramo (CAGR 11%, Historia C46) incluye compras y el escalón de margen. Lo sustituiría: datos de cuota que mostraran ganancia o pérdida sistemática."
    },
    "64": {
     "celda": "Análisis!C66",
     "concepto": "NORMAL: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2686,7 +2685,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: caso central coherente con la historia: ingresos +8% anual la última década pero con adquisiciones; margen en torno al 5% como los tres últimos años; el circulante ondula sin regalar caja. Lo sustituiría: evidencia de orgánico sostenido mayor."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Crece con la inversión en infraestructura danesa… → cambia (definicion_o_medicion_distinta): la frase del v1 llevaba números de palancas. Apoyo: clientes públicos [AR_2025, PDF p. 140]; orgánico 2,6-8,6% [AR_2025, PDF p. 23]; compras pequeñas (Historia fila 13); mezcla: Construction 5,5% y Pipe Technologies 9,3% frente a Ground Engineering 2,6% [AR_2025, PDF p. 115]; circulante que ondula (Historia fila 14); «how much is going to stay home and how much is just going to flow through to the customer» (PCA pp.187-189; HIM). Lo sustituiría: orgánico sostenido por encima del de su mercado."
    },
    "65": {
     "celda": "Análisis!C67",
@@ -2737,8 +2736,8 @@
     "celda": "Análisis!D65",
     "concepto": "BUENO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2746,14 +2745,14 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: el bueno es el viento acelerando: cartera récord, Fehmarnbelt y Bornholm en ejecución, calefacción urbana y hospitales citados por la dirección; no exige milagros de margen, solo alcanzar el objetivo 5,5% que la propia prueba de deterioro usa a largo plazo. Lo sustituiría: cancelaciones de grandes proyectos (ya ocurrió una: el centro de datos de Odense, 2,4 bn, en 2022)."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: El viento de cola acelera → mantiene (misma_evidencia): el BUENO es demanda pública más ancha. Apoyo: defensa, infraestructura crítica y transición verde en la guía y en riesgos [AR_2025, PDF pp. 9 y 97]; la capacidad propia limita lo que licita [AR_2025, PDF p. 7]; trabajo fuera de 4.475 a 8.468 [AR_2025, PDF p. 8]. No elijo Gana cuota: no veo foso (C18). Lo sustituiría: cancelaciones de grandes obras, como el centro de datos de Odense de 2,4 bn [AR_2022, PDF p. 26]."
    },
    "69": {
     "celda": "Análisis!D66",
     "concepto": "BUENO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2761,7 +2760,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: el bueno usa los números de la propia empresa (objetivo de margen 5,5%, guía de crecimiento 25/26 de 6–11% antes de adquisiciones nuevas) sin extrapolar lo irrepetible. Lo sustituiría: nada mientras el bueno siga siendo bueno sin ser heroico."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: La ola de infraestructura… → cambia (definicion_o_medicion_distinta): quito Bornholm (no está en mis entradas) y las cifras de palancas. Apoyo: capacidad propia como límite [AR_2025, PDF p. 7]; 'earnings requirements take priority over growth' [AR_2025, PDF p. 18]; presión de precio decreciente en Ground Engineering [AR_2025, PDF pp. 9 y 25]; Pipe Technologies 9,3% de margen y 1.991 fuera [AR_2025, PDF p. 115]; defensa y transición verde [AR_2025, PDF p. 97]. Lo sustituiría: que la selectividad no se vea en el margen con cartera récord."
    },
    "70": {
     "celda": "Análisis!D67",
@@ -2858,7 +2857,7 @@
     "concepto": "Insiders comprando o vendiendo",
     "naturaleza": "Dato objetivo con periodo definido",
     "E": "Listo para auditoría",
-    "F": "Rellenado y verificado",
+    "F": "Estimación declarada",
     "periodo": "17-oct-2025 a 17-oct-2026",
     "unidad": "—",
     "tipo_fuente": "Primaria (notificaciones art. 19 MAR)",
@@ -2866,14 +2865,14 @@
     "K": "https://www.aarsleff.com/ext-uk/investor/company-announcements",
     "L": null,
     "M": "Neutral. Únicas operaciones: CEO compra 1.168 y CFO 653 acciones a 826,13 DKK (10-mar-2026) dentro del programa matching shares (lo dice la notificación) y entregas de matching shares (12-mar-2026). Sin ventas; sin operaciones del Consejo.",
-    "N": "[Clase: técnico] [Confianza: baja] Apoyo: el extracto solo da tenencias, no operaciones: dirección ejecutiva 43.788 acciones (subió desde 37.329, sin saber cuánto es programa de acciones), insiders 0,28% (C96); la fundación controla el 44,7% de los votos pero no es un insider que compre o venda. Neutral por exclusión. Lo sustituiría: el registro de operaciones de insiders, que pediría."
+    "N": "[Clase: fundamentada] [Confianza: baja] Hereda: Neutral → mantiene (evidencia_nueva): ahora hay un hecho, ligado a plan. Apoyo: en la ventana de 12 meses (nov-2025 a nov-2026) la única operación que consta es que la dirección añadió unas 5,5k acciones en marzo de 2026 dentro del programa (C96); no consta ninguna venta. Es ligada a plan, no discrecional: Neutral por la regla. La fundación (44,7% de los votos, C96) no es un insider que opere. Lo sustituiría: compras discrecionales de dos personas o del CEO por importe relevante (a Comprando) o ventas discrecionales de dos en más de una ventana (a Vendiendo)."
    },
    "77": {
     "celda": "Análisis!C98",
     "concepto": "Asignación de capital de la dirección",
     "naturaleza": "Juicio del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2881,7 +2880,7 @@
     "K": null,
     "L": null,
     "M": "Pendiente de inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: «Proper allocation of capital is an investor's number one job» (TCI p.114; HIM). A favor: dividendo disciplinado 20–40%, recompras grandes a ~392–473 DKK (muy por debajo del precio actual), goodwill solo 4% del activo, compras pequeñas y relacionadas, ROIC ~14–15% sostenido. En contra: deterioros de Hansson & Knudsen (72 mm) y Aarsleff Rail (cerrada), Noruega y Suecia años sin contribuir según la propia dirección, y la compra reciente de CG Jensen (793 mm) entra con EBIT -2 mm y circulante alto. Aceptable, no Buena. Lo sustituiría: una revisión publicada de compras pasadas frente a lo prometido; o dos compras más que rindan, hacia Buena."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Aceptable → mantiene (evidencia_nueva): historial bueno con dudas recientes. Apoyo: capex 474-922 (Historia fila 12) con ROIC 10-17%; compras pequeñas salvo 2022 (378, fila 13) y el LTM (1.078, C40); recompras a ≈ 473 por acción [AR_2025, PDF p. 21]; dividendo 20-40% [AR_2025, PDF p. 18]; goodwill 4% del activo (C32). En contra: deterioro de fondo de comercio de 71,7 en 2020 (nota de Historia fila 8); Rail en Noruega y Suecia y Ground Engineering no satisfactorios [AR_2025, PDF pp. 30 y 32]; compras con deuda y solvencia 30,2% bajo su objetivo del 35% (C54). Lo sustituiría: el resultado de CG Jensen frente a lo pagado (a Buena o a Dudosa)."
    },
    "78": {
     "celda": "Análisis!B101",
@@ -3697,8 +3696,8 @@
     "celda": "Palancas!C5",
     "concepto": "Etapa del ciclo de vida",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3706,14 +3705,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: ventas +9% anual en diez años (Historia C47) con orgánico 8,6%, 5,6% y 2,6% [AR_2025, PDF p. 23]; beneficio positivo los diez años (Historia fila 9); ROIC estable 10-17% (fila 33) y capex cerca de la amortización en 2023-2025 (filas 8 y 12). No es joven ni en declive; crece algo más que una madura por el trabajo fuera de Dinamarca (de 4.475 a 8.468) [AR_2025, PDF p. 8]. Lo sustituiría: orgánico por debajo del 2% varios años (a Madura)."
    },
    "138": {
     "celda": "Palancas!C6",
     "concepto": "Caso especial",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3721,14 +3720,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: obra privada afectada por la desaceleración y riesgo de materias primas tras firmar [AR_2025, PDF p. 97]; margen 2020/21 dañado por materiales [AR_2022, PDF p. 25]; margen de Ground Engineering de 6,0% a 2,6% en dos años [AR_2025, PDF pp. 26-34]. Coherente con C14 = Cíclica / commodity y con el motor A (no es financiera ni regulada: extracto §7). No es conglomerado: los cinco segmentos son el mismo oficio de obra. Normalizar sobre el ciclo (UD p. 3; E5). Lo sustituiría: márgenes que no se muevan en una caída de la obra privada (a Ninguno)."
    },
    "139": {
     "celda": "Palancas!C8",
     "concepto": "Base de partida del margen",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3736,14 +3735,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: con C6 = Cíclica la regla pide media del ciclo; además el último margen (5,2%, Historia C48) está en el escalón alto, a 0,1 puntos del máximo (5,3%, C51), y la década coincide con la ola de obra pública [AR_2025, PDF p. 97]. Damodaran pide normalizar sobre un ciclo completo y no extrapolar un pico (UD p. 3; E5). La media de diez años es 4,3% (C49); el objetivo del año 5 lo decide la fase B. Lo sustituiría: 2025/26 y 2026/27 por encima del 5% con Ground Engineering recuperado (a Último año)."
    },
    "140": {
     "celda": "Palancas!C9",
     "concepto": "I+D capitalizada en las anclas",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3751,14 +3750,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: ningún informe cuantifica gasto de I+D (Historia fila 19 vacía los diez años; extracto §3, solo participación en proyectos sin importe [AR_2025, PDF p. 53]); el caso especial no es Intangibles (C6 = Cíclica). Sin I+D medible no hay nada que capitalizar. Lo sustituiría: un importe de I+D publicado por encima del 5% de las ventas (a Sí)."
    },
    "141": {
     "celda": "Palancas!C10",
     "concepto": "Vida útil de la I+D",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3766,7 +3765,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: convención] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: no aplica porque Palancas!C9 = No (I+D no cuantificada, Historia fila 19 vacía); la celda queda vacía por regla de la plantilla. Lo sustituiría: C9 = Sí; entonces 5 años (industrial, convención de la hoja)."
    },
    "142": {
     "celda": "Palancas!B14",
@@ -4132,8 +4131,8 @@
     "celda": "Palancas!C43",
     "concepto": "Naturaleza del FCF base ≤ 0 (motor A)",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4141,7 +4140,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: no aplica porque el FCF base es positivo (C52 = 872,7). Lo dejo dicho: la base sale de un CFO medio de tres años (1.957, C46) que incluye una liberación neta de circulante de unos 493 en 2023-2025 (Historia fila 14); no cambio la base, la fase B lo tiene en cuenta. Lo sustituiría: un FCF base ≤ 0 (entonces Transitorio si viene del circulante)."
    },
    "167": {
     "celda": "Palancas!C44",
@@ -4192,8 +4191,8 @@
     "celda": "Palancas!C47",
     "concepto": "Causa declarada de la diferencia precio × acciones frente a capitalización",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4201,7 +4200,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: la conciliación no pide causa: V22, V26 y V27 OK; solo V28 avisa de fechas separadas (precio 7-sep-2026, acciones de 30-sep-2025; datos_v63 §5). C41 = 729 × 19,314 por construcción; el informe da 11.962 ajustada por propias a 686 (C41). Lo sustituiría: una desviación por encima de la tolerancia (entonces Fechas distintas)."
    },
    "171": {
     "celda": "Palancas!C48",
@@ -4652,10 +4651,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (elección del motor)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 53,
@@ -4665,10 +4664,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (r exigida; en B entra en la r operativa)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 138,
@@ -4678,10 +4677,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (aplicabilidad del motor: «Financiera» bloquea A y B)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 139,
@@ -4691,10 +4690,10 @@
     "motores": "A · B",
     "aplica": true,
     "condicion": "A y B (margen de partida: último año o media del ciclo)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 129,
@@ -4717,10 +4716,10 @@
     "motores": "A",
     "aplica": true,
     "condicion": "A, si la SBC (C50) no es 0",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 142,
@@ -5003,9 +5002,9 @@
     "motores": "A",
     "aplica": false,
     "condicion": "A, si el FCF base (Análisis C52) ≤ 0",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    },
    {
@@ -5029,9 +5028,9 @@
     "motores": "A · B · C",
     "aplica": false,
     "condicion": "si la desviación capitalización ÷ (precio × acciones) supera el umbral (Diagnóstico C91) o hay causa declarada",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    }
   ],
@@ -5041,12 +5040,12 @@
    "D242": 19,
    "D243": 24,
    "D244": 0,
-   "D245": 1,
+   "D245": 6,
    "D246": 0,
-   "D247": 9,
-   "D248": 14,
+   "D247": 6,
+   "D248": 12,
    "D249": 0,
-   "D250": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 1 estimaciones · 0 no verificables · 9 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
+   "D250": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 24 · 6 estimaciones · 0 no verificables · 6 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
   }
  },
  "herencia": {

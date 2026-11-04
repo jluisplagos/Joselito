@@ -1,0 +1,128 @@
+{
+ "version_referencias_mecanicas": "0.2.1",
+ "motor": "A",
+ "nota": "convención del ejercicio (Anexo B §B.2): no son estimaciones de Damodaran; «criterio_relacionado» no respalda la cifra",
+ "tasa_del_motor": 0.09,
+ "rf": 0.0317,
+ "palancas": {
+  "crecimiento_1_5": {
+   "NORMAL": 0.11,
+   "MALO": 0.03,
+   "BUENO": 0.155,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = CAGR 5a acotado a [Q1, Q3]; MALO = mín(NORMAL, máx(mín(Q1, NORMAL − σ), −0,10)); BUENO = máx(NORMAL, mín(NORMAL + σ, Q3, 1,5 × CAGR))",
+   "anclas_usadas": {
+    "cagr_5": 0.11213839151781,
+    "fuente": "Historia!C46 (CAGR 5 años de ventas)",
+    "sector_q1": 0.032,
+    "sector_mediana": 0.0804,
+    "sector_q3": 0.156,
+    "sigma": 0.06765409754814564,
+    "sigma_nota": "σ muestral de 9 tasas anuales = 0.0677"
+   },
+   "criterio_relacionado": "E4 (el pasado predice mal); I1 (el crecimiento se paga con reinversión)",
+   "notas": []
+  },
+  "margen_objetivo": {
+   "NORMAL": 0.045,
+   "MALO": 0.045,
+   "BUENO": 0.055,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = m0 (último año o media del ciclo según C8); MALO = máx(mín(m0, media), mínimo); BUENO = máx(m0, mín(máximo histórico, Q3 sector)); si m0 ya es el máximo, BUENO = m0",
+   "anclas_usadas": {
+    "m0": 0.0432274129156086,
+    "base": "Media del ciclo",
+    "media": 0.0432274129156086,
+    "min": 0.0340069117123269,
+    "max": 0.0532503457814661,
+    "sector_q3": 0.106763285024155,
+    "fuente": "Historia!C48 / C49 (según Palancas!C8), C50, C51 y Sector Q3"
+   },
+   "criterio_relacionado": "E2 (la competencia muerde los márgenes); E5 (cíclicas); E7 (comprobar contra la historia)",
+   "notas": []
+  },
+  "s2c": {
+   "NORMAL": 4.7,
+   "MALO": 3.5,
+   "BUENO": 5.8,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = Historia!C53 con tope (rentabilidad marginal ≤ 2× ROIC histórico); MALO = 0,75 × NORMAL; BUENO = 1,25 × NORMAL con el mismo tope",
+   "anclas_usadas": {
+    "s2c_marginal_C53": 4.65768781218781,
+    "roic_medio_5_C55": 0.141663976925068,
+    "tipo_impositivo_C52": 0.23992
+   },
+   "criterio_relacionado": "I1 (reinversión = Δventas ÷ S2C); la banda ±25 % es convención del ejercicio",
+   "notas": []
+  },
+  "g_perpetuo": {
+   "NORMAL": 0.025,
+   "MALO": 0.015,
+   "BUENO": 0.03,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = mín(0,025; rf) ajustado a la lista; MALO = NORMAL − 0,01 (suelo 0); BUENO = mín(NORMAL + 0,005; rf; 0,03); siempre < tasa del motor",
+   "anclas_usadas": {
+    "rf_C57": 0.0317,
+    "tasa_del_motor": 0.09,
+    "etapa_C5": "Madura en crecimiento"
+   },
+   "criterio_relacionado": "E1 (g estable ≤ rf, orientación); N1 (g < tasa del motor)",
+   "notas": []
+  },
+  "roic_lp": {
+   "NORMAL": 0.09,
+   "MALO": 0.09,
+   "BUENO": 0.12,
+   "referencia_no_disponible_motivo": null,
+   "regla": "NORMAL = MALO = tasa del motor (convención: sin retornos en exceso a perpetuidad como caso neutro; no una ley); BUENO = mín(ROIC medio 5a, Análisis!C56 + 0,10), y la tasa si el histórico es menor",
+   "anclas_usadas": {
+    "tasa_del_motor": 0.09,
+    "roic_hist": 0.141663976925068,
+    "C56": 0.09,
+    "sector_roic_media_H18_solo_contexto": 0.0719137042553061
+   },
+   "criterio_relacionado": "E2, E3; I2 (reinversión terminal g ÷ ROIC); el tope sobre la tasa es config referencias_mecanicas.roic_lp_bueno_tope_sobre_c56 (0,03 desde v2.1, MR pp. 62–63)",
+   "notas": []
+  },
+  "probabilidades": {
+   "NORMAL": 0.6,
+   "MALO": 0.2,
+   "BUENO": 0.2,
+   "referencia_no_disponible_motivo": null,
+   "regla": "0,2 / 0,6 / 0,2 (convención del ejercicio, S-6)",
+   "criterio_relacionado": "E6 (suman 1 si cubren el rango)"
+  },
+  "quiebra": {
+   "C22": null,
+   "C23": null,
+   "disparadores": [],
+   "regla": "vacío (= 0) salvo disparador; con disparador 0,05 como convención y obligación de argumentar; C23 = 0",
+   "criterio_relacionado": "E6 (no contar el riesgo dos veces)"
+  },
+  "exceso_caja": {
+   "C76": 0,
+   "regla": "0 salvo evidencia (regla del inversor v1.2); vacío en B y C"
+  },
+  "mercado": {
+   "C24": null,
+   "referencia_no_disponible_motivo": "solo con cifra de fuente primaria en los extractos"
+  }
+ },
+ "implicaciones_con_referencias": {
+  "MALO": {
+   "rentabilidad_marginal": 0.1197126,
+   "roic_lp_ref": 0.09,
+   "salto_anio_11": 0.029712600000000006
+  },
+  "NORMAL": {
+   "rentabilidad_marginal": 0.16075692,
+   "roic_lp_ref": 0.09,
+   "salto_anio_11": 0.07075692
+  },
+  "BUENO": {
+   "rentabilidad_marginal": 0.24246552,
+   "roic_lp_ref": 0.12,
+   "salto_anio_11": 0.12246552
+  }
+ }
+}

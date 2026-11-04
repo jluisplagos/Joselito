@@ -1,12 +1,13 @@
-# Comprobación de entrada · Aarsleff_v63_datos.xlsx
+# Comprobación de entrada · Aarsleff_v63_evaluada.xlsx
 
-- Íntegro (verificar_v63.py): True · estado técnico: INCOMPLETO (Faltan palancas de crecimiento (Palancas B14:D14)) · estado del libro: NO LISTO · incompleto (6 pendientes) · comparable precio↔valor: True · años con ventas: 10
+- Íntegro (verificar_v63.py): True · estado técnico: INCOMPLETO (Faltan palancas de crecimiento (Palancas B14:D14)) · estado del libro: NO LISTO · incompleto (5 pendientes) · comparable precio↔valor: True · años con ventas: 10
 
 ## Motores calculables (simulación con palancas de prueba)
 
 - Motor A: CALCULABLE
 - Motor B: CALCULABLE
 - Motor C: CALCULABLE
+- Motor elegido por la fase A: A → calculable
 
 ## BLOQUEANTE (el pipeline se detiene: pendiente_de_datos)
 
