@@ -98,3 +98,6 @@ concluido · Vigilar · esperar · precio de Sí 18,69 $ (precio 39,12 $, zona c
 
 ## Viscofan (4-nov-2026, personaje v2.2)
 concluido · Vigilar · esperar · precio de Sí 43,05 € (precio 54,70 €, zona caro; MALO 35,39 · ponderado 46,88) · motor B · auditoría APROBADO. Dudoso: tipo impositivo de Historia C52 (19,8 %) con el 10,1 % puntual de 2025 (≈ +3 % optimista en el precio de Sí); capex 2021 con etiquetas del PDF desplazadas; circulante con y sin «Changes in provisions» según el año; fase A pasó de motor A (etapa 1) a B (deuda 116,8→304,1 M€); rf 3,35 % intradía.
+
+## Hermès (4-nov-2026, personaje v2.2)
+concluido · Vigilar · esperar · precio de Sí 757,05 € (precio 1.312,50 €, zona caro; MALO 542,70 · ponderado 842,80) · motor A · auditoría APROBADO. Dudoso: ROIC terminal del NORMAL (C18) y g perpetuo (B68:D68) sin base para acotarse (precio objetivo provisional); salto del año 11 muy alto (0,32/0,53/0,71); operaciones de directivos de 2025 en el informe no pasaron a la fase 1/extracción (C97 Neutral técnico); sin informe semestral de 2026; intereses pagados no desglosados en el flujo (varias sustituciones).
