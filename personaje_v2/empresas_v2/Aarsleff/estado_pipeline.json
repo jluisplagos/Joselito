@@ -1,0 +1,21 @@
+{
+ "paso": 2,
+ "estado_analisis": null,
+ "intentos": {
+  "fase_b": 0,
+  "fase_c": 0,
+  "auditoria": 0,
+  "vueltas_c_a_b": 0,
+  "vueltas_b_a_a": 0
+ },
+ "historial": [
+  "  $ bash comprobar_entorno.sh → 0 · autotest precio_de_si: PASA (5 casos + propiedades)",
+  "  $ python3 migrar_v53_a_v63.py Aarsleff_evaluada.xlsx Plantilla_V6.3.xlsx Aarsleff_v63_base.xlsx → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 fase1_historia.py preparar Aarsleff Aarsleff → 10 · ESPERANDO fase 1: 11 agentes (historia 2016, historia 2017, historia 2018, historia 2019, historia 2020, historia 2021, historia 2022, historia 2023, historia 2024, historia 2025, metadatos)"
+ ],
+ "motor": null,
+ "fase_b_escrita": false,
+ "fase_c_escrita": false,
+ "esperando": "2:fase1",
+ "inicio": "2026-11-04T11:30:49"
+}
