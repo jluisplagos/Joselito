@@ -4,17 +4,17 @@
   "D3": "RMS (Euronext Paris)",
   "B4": "Lujo personal (consumo discrecional)",
   "D4": "2026-11-04",
-  "C7": 1,
+  "C7": 3,
   "D7": 2,
   "A6": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
   "C11": "Sí",
   "C12": "Sí",
   "C13": "No",
   "C14": "Compounder",
-  "C17": "Sí",
+  "C17": "No",
   "C18": "Sí",
   "C19": "Sí",
-  "C20": "Incert. alta + riesgo bajo",
+  "C20": "Riesgo real alto",
   "C24": 0.22,
   "C25": "Sí",
   "C26": 1.15935287124619,
@@ -46,12 +46,12 @@
   "C60": 0.00028,
   "C61": "Sí",
   "C62": "Sí",
-  "B65": "El viento de cola se frena",
+  "B65": "Márgenes se comprimen (costes o precios)",
   "C65": "Márgenes estables, sin sorpresas",
   "D65": "Gana cuota: el moat se ensancha",
-  "B66": "Pasada la ola post-Covid, Hermès crece un 4–5 % a tipos constantes, las divisas restan 1–2 puntos, el margen baja hacia el 36–37 % y la caja libre solo crece un 2 % al año.",
-  "C66": "Un taller de piel al año más algo de precio dan un 6–8 % a tipos constantes, el margen se queda cerca del 40 % y la caja libre crece un 7 % al año.",
-  "D66": "La escasez y la capacidad nueva sostienen crecimientos de dos dígitos como en 2017–2019 y en piel en 2024–2025, y la caja libre crece un 12 % al año.",
+  "B66": "La demanda de Asia y las divisas enfrían las ventas mientras la plantilla, los talleres y las tiendas ya comprometidos siguen creciendo; el margen vuelve hacia el de 2016–2020 y la pérdida la absorbe el accionista, porque subir precios para compensarla gastaría deseabilidad.",
+  "C66": "La capacidad artesanal nueva, una unidad de producción al año, más algo de precio sostienen el crecimiento con el margen de los últimos cinco años; la mejora se queda en la empresa porque la oferta limitada deja el poder de precio en casa, y la caja sobrante vuelve en dividendos.",
+  "D66": "La escasez y los talleres nuevos dejan crecer por encima del mercado, como en 2018–2019 y en piel en 2024–2025; la empresa se queda la mejora porque la demanda supera a la oferta y no tiene que bajar el precio para vender más.",
   "B67": null,
   "C67": null,
   "D67": null,
@@ -73,7 +73,7 @@
   "C88": 57.9,
   "C93": "Sí",
   "C96": 0.0024,
-  "C97": "Comprando",
+  "C97": "Neutral",
   "C98": "Buena",
   "B101": "Hermès vende objetos de artesanía escasos bajo su marca, en sus propias tiendas, cobra al contado y gana un 41 % operativo sin deuda. La capacidad de piel crece un taller al año y el precio compensa buena parte de las divisas, así que la caja crece con el negocio. La familia controla el 66,7 % del capital y ha gestionado con prudencia: sin deuda, sin adquisiciones grandes y sin incentivos raros. Es de los mejores negocios que puedo entender. A 1.280 € el precio pide más de lo que da incluso mi escenario bueno: Vigilar, con precio de Sí estimado en unos 520 € a r = 0,09.",
   "B102": "1) Parte del éxito 2021–2024 fue la ola post-Covid y China: Asia sin Japón (42 % de las ventas) bajó de un margen del 49 % (2023) al 40–41 % y creció solo un 2 % en el primer semestre de 2026; si esa demanda no vuelve, el crecimiento normal está más cerca del 4 % que del 7 %. 2) El poder de precio no es infinito: con el 80 % de las ventas fuera del euro y las divisas restando 3,4 puntos en 2025 y 4,5 en el primer semestre de 2026, cada subida para compensar gasta deseabilidad, que es todo el foso. 3) El accionista no manda: en una comandita por acciones el socio comanditado aprueba cada decisión, y «If you're counting on the outside directors to fix bad management, you're in trouble» (AIWTK p.36; HIM); hay partes vinculadas (RDAI, 20 M€; 11,91 % en Ardian, cuya presidenta está en el Consejo). 4) Los 12.310 M€ de caja rinden un 2 % y no vuelven por recompras amortizadas. 5) El Estado francés repite la contribución excepcional y el tipo efectivo sube al 33–35 %: «If it happens every year like clockwork, what's so extraordinary about it?» (PCA p.119; HIM). 6) El capex se ha duplicado en tres años (518 → 1.161 M€) y buena parte va a inmuebles sin retorno publicado. 7) Y el precio: «Since it's so obvious that investing in great companies works, it gets horribly overdone from time to time» (PCA p.214; HIM). La tesis inversa no rompe la calidad; sí rompe el precio.",
@@ -84,10 +84,10 @@
    "D12": "✓ PASA",
    "D13": "✗ BANDERA",
    "D14": "—",
-   "D17": "✓ PASA",
+   "D17": "✗ BANDERA",
    "D18": "✓ PASA",
    "D19": "✓ PASA",
-   "D20": "✓ PASA",
+   "D20": "✗ BANDERA",
    "D24": "✓ PASA",
    "D25": "✓ PASA",
    "D26": "✓ PASA",
@@ -430,11 +430,11 @@
   ]
  },
  "palancas": {
-  "C5": null,
-  "C6": null,
+  "C5": "Madura en crecimiento",
+  "C6": "Ninguno",
   "C7": "Apparel",
-  "C8": null,
-  "C9": null,
+  "C8": "Último año",
+  "C9": "No",
   "C10": null,
   "B14": null,
   "C14": null,
@@ -539,16 +539,16 @@
     null
    ]
   ],
-  "C43": null,
+  "C43": "No aplica",
   "C44": null,
   "C45": "2026-11-03",
   "C46": "2025-12-31",
-  "C47": null,
+  "C47": "Ninguna",
   "C48": "EUR"
  },
  "diagnostico": {
   "motor": "A",
-  "coherencia_tipo_motor": "—",
+  "coherencia_tipo_motor": "✓ PASA · tipo y motor coherentes",
   "V0": 16002,
   "m0": 0.410448693913261,
   "t": 0.29516,
@@ -694,7 +694,7 @@
    "fila49": [
     "Tipo de empresa frente a motor",
     null,
-    "—",
+    "✓ PASA · tipo y motor coherentes",
     null
    ],
    "fila50": [
@@ -828,7 +828,7 @@
    ],
    [
     "Tipo de empresa y caso especial elegidos",
-    "⛔ TÉCNICO · Falta la etapa o el caso especial (Palancas C5, C6)"
+    "✓ PASA"
    ],
    [
     "El motor calcula un valor en los tres escenarios",
@@ -836,7 +836,7 @@
    ],
    [
     "ESTADO DEL LIBRO · LISTO = el cálculo está completo y pasa sus comprobaciones. No es una aprobación de inversión ni dice que los datos sean ciertos: mira el estado de las evidencias y las advertencias.",
-    "NO LISTO · incompleto (6 pendientes)"
+    "NO LISTO · incompleto (5 pendientes)"
    ]
   ],
   "parametros": {
@@ -856,8 +856,7 @@
    "5. AVISO · Probabilidad de quiebra vacía (Palancas C22): se asume 0 por convención, no es un riesgo medido",
    "6. AVISO · Precio y acciones con fechas separadas más de 90 días (Palancas C45, C46)",
    "7. AVISO · Fecha de análisis escrita como texto (Análisis D4): escríbela como fecha",
-   "8. INCOMPLETO · Falta la etapa o el caso especial (Palancas C5, C6)",
-   "9. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
+   "8. INCOMPLETO · Faltan 3 predicciones (Palancas A38:A40)"
   ],
   "salto_anio_11": {
    "filas": [
@@ -1406,11 +1405,11 @@
   "causa_tecnica_B256": "Faltan palancas de crecimiento (Palancas B14:D14)",
   "estado_inversion_B258": "DESCARTADA POR FILTRO PABRAI",
   "n_avisos_B260": 3,
-  "n_causas_B261": 9,
-  "estado_libro_B266": "NO LISTO · incompleto (6 pendientes)",
+  "n_causas_B261": 8,
+  "estado_libro_B266": "NO LISTO · incompleto (5 pendientes)",
   "lectura_precio_B267": null,
   "veredicto_B268": "DESCARTADA POR FILTRO PABRAI · el valor no es claro sin modelos (C13)",
-  "evidencias_B269": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 25 · 1 estimaciones · 0 no verificables · 10 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
+  "evidencias_B269": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 25 · 6 estimaciones · 0 no verificables · 7 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido",
   "dcf_inverso_monotono_B193": "—",
   "reglas": [
    {
@@ -1846,12 +1845,12 @@
     "id": "C03",
     "regla": "Tipo de empresa (Palancas C5, C6)",
     "aplica": true,
-    "resultado": "INCOMPLETO",
-    "codigo": "INC|Falta la etapa o el caso especial (Palancas C5, C6)",
-    "causa": "Falta la etapa o el caso especial (Palancas C5, C6)",
+    "resultado": "OK",
+    "codigo": null,
+    "causa": null,
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 8
+    "n_causa_activa": null
    },
    {
     "id": "C04",
@@ -1895,7 +1894,7 @@
     "causa": "Faltan 3 predicciones (Palancas A38:A40)",
     "nivel": 3,
     "prioridad": 9,
-    "n_causa_activa": 9
+    "n_causa_activa": 8
    },
    {
     "id": "C08",
@@ -2032,8 +2031,8 @@
     "celda": "Análisis!C11",
     "concepto": "Entender el negocio en ≤5 frases",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2041,14 +2040,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Cinco frases. Hace objetos de piel, ropa, seda, hogar y joyería, el 75 % en Francia y el 55 % en talleres propios. Los vende sobre todo en 234 sucursales propias, que son el 92 % de la venta minorista, a particulares que pagan por la marca y la escasez. Cobra al contado en tienda: cuentas a cobrar de 418 M€ sobre 16.002 M€ de ventas. La caja sale de un margen operativo recurrente del 41 % (caja operativa 5.374 M€ en 2025) y no tiene deuda financiera. Lo sustituiría: si el mayorista o el canal online ganaran peso hasta cambiar cómo y cuándo cobra."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (misma_evidencia): con los mismos hechos y la Historia sé qué vende, quién paga y de dónde sale la caja. Apoyo: piel 44 %, ropa y accesorios 28 %, seda 6 % de 16.002 M€ [AR_2025, PDF p. 29]; 234 sucursales propias, más del 92 % de la venta minorista [AR_2025, PDF p. 17]; la venta minorista se reconoce al comprar y los clientes son 418 M€ [AR_2025, PDF p. 366, 369]; margen EBIT 41 % y CFO 5.374 M€ en 2025 (Historia); sin deuda bancaria [AR_2025, PDF p. 364]. Lo sustituiría: que el canal de terceros ganara peso hasta cambiar cuándo cobra, o que la caja dejara de seguir al beneficio (C26 hoy 1,16)."
    },
    "22": {
     "celda": "Análisis!C12",
     "concepto": "Círculo de competencia",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2056,14 +2055,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Las variables que deciden el valor a diez años son tres: deseabilidad de la marca, capacidad de los talleres (un taller de piel al año, unos 300 empleos cada uno) y poder de precio frente a las divisas. Ninguna depende de un cambio tecnológico. Sé dónde está el borde: no sé juzgar cuánto durará la demanda china (Asia sin Japón, 42 % de las ventas, +2 % cst en el primer semestre de 2026) ni los cambios de gusto entre generaciones de clientes ricos. «It's not a competency if you don't know the edge of it» (TCI p.100; HIM). Lo sustituiría: si el valor pasara a depender de predecir el consumo chino o el euro, iría a Demasiado difícil."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → mantiene (misma_evidencia): las variables que deciden el valor a diez años son deseabilidad, capacidad artesanal y precio frente a divisas, y ninguna depende de un cambio tecnológico. Apoyo: una unidad de producción al año, unos 300 empleos [AR_2025, PDF p. 43]; 80 % de las ventas fuera del euro con producción en la zona euro [AR_2025, PDF p. 179]; Asia-Pacífico sin Japón 42 % de las ventas, +5 % cst [AR_2025, PDF p. 38]. El borde: no sé juzgar la demanda de Asia ni el gusto de la próxima generación de clientes. «It's not a competency if you don't know the edge of it» (TCI p.100; HIM). Lo sustituiría: que el valor pasara a depender de predecir el consumo chino o el euro → Demasiado difícil."
    },
    "23": {
     "celda": "Análisis!C13",
     "concepto": "Valor claro sin modelo complejo",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2071,14 +2070,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: A 1.280 € la capitalización es 134.070 M€ (C41). Con el FCF base de 3.487 M€ la rentabilidad de caja es del 2,6 %; sin la caja neta, unas 27 veces el beneficio de 2025 (BPA diluido 43,07 €). Para ganar un 9 % la caja tendría que crecer cerca de un 6 % para siempre. Sin hoja no veo margen; a ojo está justa o cara. «I know it's wonderful, but is it wonderful enough to justify that big a premium?» (DR p.308; HIM). Lo sustituiría: un precio por debajo de unos 800 €, donde rentabilidad de caja más crecimiento razonable supera el 9 % sin hacer cuentas."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: No → mantiene (evidencia_nueva): con el precio de la V6.3, 1.312,5 € (C37), sigo sin ver margen a ojo. Apoyo: capitalización 137.861 M€ (C41) frente a FCF base 3.487 M€ (C52): 2,5 % de rentabilidad de caja; unas 30 veces el beneficio de 2025 (Historia); caja neta de unos 10.000 M€, un 7 % de la capitalización (C53, C54). Para rendir un 9 % la caja tendría que crecer cerca de un 6 % para siempre. «I know it's wonderful, but is it wonderful enough to justify that big a premium?» (DR p.308; HIM). Lo sustituiría: un precio al que la rentabilidad de caja más un crecimiento modesto superen el 9 % sin hoja."
    },
    "24": {
     "celda": "Análisis!C14",
     "concepto": "Tipo de oportunidad",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2086,14 +2085,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Ventas de 5.549 a 16.002 M€ entre 2017 y 2025 (14 % anual), FCF según Hermès de 1.340 a 3.880 M€, margen recurrente del 35 % al 41 %, sin deuda y sin adquisiciones relevantes. Reinvierte un 7 % de las ventas y reparte la mayor parte del resto. Encaja en el tipo C de su lista: buen rendimiento extremo en muchos factores a la vez, marca, artesanía integrada, tiendas propias y escasez (PCA pp.421–423; HIM). No es «Calidad a precio razonable» porque el precio no es razonable (C13). Lo sustituiría: tres años seguidos por debajo del 5 % cst."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Compounder → mantiene (evidencia_nueva): la Historia de diez años lo confirma. Apoyo: ventas de 5.202 a 16.002 M€ en 2016–2025, 13 % anual (C47); ROIC medio de cinco años 57 % (C55) frente al 16 % del sector; FCF al accionista de 1.151 a 3.749 M€ (fila 35); acciones planas (C60). Es el tipo C de su lista, rendimiento extremo en muchos factores a la vez: marca, oficio propio, tiendas propias y escasez (PCA pp.421–423; HIM). No es «Calidad a precio razonable» porque el precio no lo es (C13). Lo sustituiría: tres años por debajo del 5 % a tipo constante con el ROIC cayendo."
    },
    "25": {
     "celda": "Análisis!C17",
     "concepto": "Viento de cola duradero",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2101,14 +2100,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: En 2025 crecieron todas las regiones a tipos constantes (Japón +14 %, Américas +12 %, Europa sin Francia +11 %, Oriente Medio +15 %), aunque Asia sin Japón solo +5 %. La demanda de los clientes ricos es un viento que existe. Pero 2021–2023 (+42 %, +23 %, +21 %) fue en buena parte la ola post-Covid, que la dirección da por cerrada en su mensaje del URD 2025 (habla del fin del periodo post-Covid, PDF p. 6). Ese tramo no lo cuento como mérito ni lo extrapolo: «you must know how much of your present prosperity is causes by talents and momentum» (AIWTK p.136; HIM). Lo sustituiría: dos años con dos de las tres grandes regiones por debajo del 3 % cst → No."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Sí → cambia (razonamiento_corregido): la etapa 1 tomó el crecimiento de Hermès por regiones como viento del sector; eso es empresa o nicho, no marea. Apoyo: la única cifra de mercado que publica (fuente Bain) es 262.000, 260.000 y 281.000 M€ en 2017–2019 [AR_2019, PDF p. 13], un 3,5 % anual con 2018 negativo, mientras Hermès crecía 7,5 % y 15 % (Historia); desde 2020 no hay cifra; la dirección da por cerrado el periodo post-Covid [AR_2025, PDF p. 6]. Leo un mercado que crece poco y una empresa que lo supera. «We try and predict what individual investments will swim well in relation to the tide» (TCI p.107; HIM). Lo sustituiría: una cifra primaria de mercado posterior a 2019 con crecimiento sostenido alto → Sí."
    },
    "26": {
     "celda": "Análisis!C18",
     "concepto": "Ventaja competitiva sostenible",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2116,14 +2115,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Por qué gana: marca protegida, saber hacer artesanal difícil de copiar (12 escuelas propias, 25 talleres de piel), distribución propia y oferta limitada por capacidad («capacity constraints», 2021). Señales: margen bruto del 71 % estable pese a divisas en contra, y la empresa dice que las subidas de precio por región compensan total o parcialmente las pérdidas por cambio (URD 2021–2024). Pasa la prueba del sobrino: «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). Qué lo pararía: perder deseabilidad por sobreexpansión o por abusar del precio. Lo sustituiría: margen bruto por debajo del 67 % sin causa de divisas, o ventas de piel cayendo con capacidad sobrante."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): la Historia de diez años enseña la ventaja que la etapa 1 veía en tres. Apoyo: ROIC entre 33 % y 66 % los diez años, 57 % de media en cinco (C55), frente a r 9 % y 16 % del sector; margen EBIT medio 37 % (C49) frente al 8,6 % del tercer cuartil del sector; margen bruto 71 % con divisas en contra [AR_2025, PDF p. 41]; 79 sitios propios de producción [AR_2025, PDF p. 20]; 92 % de la venta minorista en sucursales propias [AR_2025, PDF p. 17]. «The margin of safety in a great business is that it will stand a fair amount of mismanagement» (AIWTK p.129; HIM). Lo sustituiría: margen bruto por debajo del 67 % sin causa de divisas o ROIC por debajo del 30 % dos años."
    },
    "27": {
     "celda": "Análisis!C19",
     "concepto": "Consistencia de crecimiento de ingresos/beneficios",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2131,14 +2130,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Crecimiento a tipos constantes 9, 10, 12, −6, 42, 23, 21, 15 y 9 % (2017–2025) y +6 % en el primer semestre de 2026. Un solo año negativo, 2020, por el cierre de tiendas. Un bache cíclico no es un No (PCA p.223; HIM). Lo sustituiría: dos años seguidos por debajo del 3 % cst."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): ahora tengo diez años. Apoyo: crecimiento de ventas 2017–2025 de 6,7; 7,5; 15,4; −7,2; 40,6; 29,2; 15,7; 13,0 y 5,5 % (Historia); un solo año negativo, 2020, que leo como el de la pandemia; 2025 +8,9 % a tipo constante [AR_2025, PDF p. 363]. «We don't expect linear growth; cyclicality is fine with us as long as the price is appropriate» (PCA p.223; HIM). Lo sustituiría: dos años seguidos por debajo del 3 % a tipo constante → No."
    },
    "28": {
     "celda": "Análisis!C20",
     "concepto": "Riesgo vs incertidumbre",
     "naturaleza": "Juicio del inversor / cualitativo",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2146,7 +2145,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Evidencia en el paquete MOAT (segmentos, moat, riesgos, historial).",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: El riesgo de pérdida permanente del negocio es bajo: sin deuda financiera, caja neta de 12.310 M€, cobro al contado, sin clientes concentrados. La incertidumbre está en el ritmo: del 15 % cst en 2024 al 9 % en 2025 y al 6 % en el primer semestre de 2026, y en euros corrientes solo +1,6 %. La caída de la cotización no es riesgo: «Using [a stock's] volatility as a measure of risk is nuts» (TCI p.91; HIM). «Alta» es alta respecto a lo que exige el precio, no al negocio. Lo sustituiría: tres años estables en el 7–9 % cst → Ambos bajos."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Incert. alta + riesgo bajo → cambia (razonamiento_corregido): la etapa 1 juzgó solvencia (sin deuda, caja); la regla mide la pérdida permanente al precio pagado. Apoyo: a 1.312,5 € (C37) el precio exige crecer cerca de un 6 % para siempre (C13); 2025 creció un 5,5 % a tipo corriente [AR_2025, PDF p. 363] y la dirección da por cerrado el periodo post-Covid [AR_2025, PDF p. 6]: si se cumple el NORMAL, parte de lo pagado no vuelve. El negocio en sí es de riesgo bajo: deuda neta/EBITDA −1,35 (C33). «Using [a stock's] volatility as a measure of risk is nuts» (TCI p.91; HIM): no pesa la caída de la cotización, pesa lo que se paga. Lo sustituiría: un precio por debajo del valor del NORMAL → Incert. alta + riesgo bajo."
    },
    "29": {
     "celda": "Análisis!C24",
@@ -2167,8 +2166,8 @@
     "celda": "Análisis!C25",
     "concepto": "FCF creciente",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "FY2021–25 + LTM",
     "unidad": "M€",
     "tipo_fuente": "Primaria",
@@ -2176,7 +2175,7 @@
     "K": null,
     "L": null,
     "M": "Evidencia: FCF accionista (CFO − capex − principal de leases) 2,661 · 3,405 · 3,192 · 3,767 · 3,881 (FY21–25); LTM 4,216. TACC +9,9%. No crece todos los años: FY23 cae por circulante (existencias) y FY25 queda frenado por la contribución fiscal francesa de 331 M€. Decide el inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: FCF ajustado según Hermès 1.340, 1.447, 1.406, 995, 2.661, 3.404, 3.192, 3.767 y 3.880 M€ (2017–2025); primer semestre de 2026 2.182 frente a 1.847. Los baches (2020 por el cierre; 2023 por reponer inventario, −794 M€ de circulante) son de circulante, no de negocio. Lo sustituiría: dos años de FCF a la baja sin causa de inventario o de capex de capacidad."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): la fila 35 de diez años lo sostiene. Apoyo: FCF al accionista 1.151; 1.266; 1.396; 1.268; 848; 2.507; 3.350; 3.088; 3.625; 3.749 M€ (2016–2025, Historia): se triplica con tres baches; 2020 por la caída de ventas y 2023 por circulante (+794 M€) y capex (859 M€), no por el negocio. FCF ajustado de la empresa 3.880 M€ en 2025 [AR_2025, PDF p. 364]. Lo sustituiría: dos años de FCF a la baja sin causa de circulante ni de capex de capacidad → No."
    },
    "31": {
     "celda": "Análisis!C26",
@@ -2197,8 +2196,8 @@
     "celda": "Análisis!C27",
     "concepto": "Tendencia de márgenes 5–10 años",
     "naturaleza": "Juicio asistido por históricos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": "2016–2025, LTM",
     "unidad": "%",
     "tipo_fuente": "Primaria (2016: fuente secundaria fhs.swiss)",
@@ -2206,7 +2205,7 @@
     "K": null,
     "L": null,
     "M": "Evidencia: margen operativo recurrente 39,3 · 40,5 · 42,1 · 40,5 · 41,1% (FY21–25), LTM 40,9%. A 10 años: 32,6% (2016, fuente secundaria) → 41,1%. Margen bruto 70–72%. \"Expandiendo\" (10 años) y \"Estable\" (5 años) dan el mismo veredicto. Decide el inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Margen operativo recurrente 40,5 / 42,1 / 40,5 / 41,0 % (2022–2025) y 41,0 % en el primer semestre de 2026 (41,4 % un año antes). Margen bruto en torno al 71 %. El margen neto baja por la contribución fiscal francesa, no por el negocio. Lo sustituiría: dos años por debajo del 38 % → Comprimiendo."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Estable → mantiene (evidencia_nueva): diez años de fila 29. Apoyo: margen EBIT 2021–2025 de 39,3; 40,5; 42,1; 40,5 y 41,0 % (Historia): estable tras un escalón desde el 32–36 % de 2016–2020. No marco Expandiendo porque el máximo es de 2023 y el escalón coincide con el periodo post-Covid. Margen bruto 71 % en 2025 frente a 70 % [AR_2025, PDF p. 41]. Lo sustituiría: dos años por debajo del 38 % → Comprimiendo; por encima del 43 % sin efecto de divisas → Expandiendo."
    },
    "33": {
     "celda": "Análisis!C28",
@@ -2452,8 +2451,8 @@
     "celda": "Análisis!C51",
     "concepto": "¿Restar SBC del FCF base?",
     "naturaleza": "Decisión del inversor / metodología elegida",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2461,7 +2460,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. SBC < 10% del FCF (no material según el umbral acordado).",
-    "N": "[Clase: convención] [Confianza: alta] Apoyo: La SBC se resta siempre: «A stock option is both an expense and dilution» (PCA pp.126–127; HIM). En Hermès son acciones gratuitas ya existentes, sin emisión nueva, pero se compran con caja del accionista (recompras de 162, 116, 132, 40 y 160 M€ en 2021–2024 y el primer semestre de 2026). C50 = 126 M€ cuadra con la media 2023–2025 de la línea del estado de flujos (104, 142, 132); el gasto en la cuenta de resultados, con cargas sociales, es mayor (151, 180, 199). Uso C50 tal cual. Lo sustituiría: nada; es convención con evidencia."
+    "N": "[Clase: convención] [Confianza: alta] Hereda: Sí → mantiene (misma_evidencia): la SBC se resta siempre. Apoyo: C50 = 126 M€ cuadra con la línea del estado de flujos 2023–2025 (104, 142 y 132 M€, Historia); el gasto con cargas sociales es mayor, 199 M€ en 2025 [AR_2025, PDF p. 372]; las acciones gratuitas salen de autocartera que se compra con caja (recompras netas 8 y 37 M€ en 2025 y 2024 [AR_2025, PDF p. 360]). «A stock option is both an expense and dilution» (PCA pp.126–127; HIM). Uso C50 tal cual. Lo sustituiría: nada; es convención del ejercicio con evidencia."
    },
    "50": {
     "celda": "Análisis!C53",
@@ -2512,8 +2511,8 @@
     "celda": "Análisis!C56",
     "concepto": "Rentabilidad exigida al accionista (r)",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2521,7 +2520,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor. Referencias: Bund 3,49%; WACC de deterioro de Hermès 9,16% (no es r).",
-    "N": "[Clase: convención] [Confianza: media] Apoyo: datos_automaticos.md no trae r en C56; uso 0,09 por convención del ejercicio y lo digo. Representa la alternativa de comprar otra empresa de calidad a precio normal, frente al 3,49 % de la tasa sin riesgo (C57). «it's your alternatives that matter. That's how we make all of our decisions» (AIWTK p.163; HIM). No la bajo para que salga el número: a 0,07 el valor ponderado estimado sería unos 1.190 €, todavía por debajo de 1.280 €. Lo sustituiría: la r que fije el inversor."
+    "N": "[Clase: convención] [Confianza: media] Hereda: 0,09 → mantiene (misma_evidencia): heredada, no se cambia. Apoyo: representa la alternativa de comprar otra empresa de calidad a precio normal, frente al 3,31 % del bono a 10 años (C57). Está por debajo de la r mínima de la hoja (9,87 %, Diagnóstico C17): lo informo y no la toco. Como contexto, la empresa descuenta sus tests de deterioro al 9,16 % [AR_2025, PDF p. 381]. «it's your alternatives that matter. That's how we make all of our decisions» (AIWTK p.163; HIM). No la bajo para que salga el número. Lo sustituiría: la r que fije el inversor."
    },
    "54": {
     "celda": "Análisis!C57",
@@ -2557,8 +2556,8 @@
     "celda": "Análisis!C61",
     "concepto": "¿Recompras neutralizan la SBC?",
     "naturaleza": "Juicio asistido por datos",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2566,14 +2565,14 @@
     "K": null,
     "L": null,
     "M": "Evidencia (CAP): las diluidas están planas → \"Sí\" a nivel de acciones. Matiz: entre 2021 y 2025 se entregaron 576,169 acciones y se recompraron 342,670; la diferencia salió de la autocartera previa. En el H1 2026 se recompraron 94,846 acciones por 160 M€. Decide el inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: 105.569.412 acciones emitidas sin cambio desde 2017; las acciones gratuitas salen de autocartera y no diluyen el capital; acciones medias 104,65 → 104,84 → 104,79 millones; CAGR de diluidas +0,03 % (C60). En número de acciones las recompras neutralizan la SBC; el coste en caja ya lo resto en C51. Lo sustituiría: emisión de acciones nuevas o entrega de acciones sin recompras que la repongan."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (evidencia_nueva): diez años de fila 20. Apoyo: acciones diluidas de 105,12 M en 2016 a 105,04 M en 2025 (Historia), CAGR +0,03 % (C60); capital de 105.569.412 acciones con 733.097 propias [AR_2025, PDF p. 393]; las 281.438 acciones gratuitas en circulación [AR_2025, PDF p. 373] se entregan de autocartera. En número de acciones las recompras neutralizan la SBC; su coste en caja ya lo resta C51. Lo sustituiría: emisión de acciones nuevas o diluidas creciendo más de un 0,5 % al año → No."
    },
    "57": {
     "celda": "Análisis!C62",
     "concepto": "Aplicabilidad del DCF simplificado / estabilidad financiación",
     "naturaleza": "Juicio metodológico del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2581,14 +2580,14 @@
     "K": null,
     "L": null,
     "M": "Primera decisión. Ver el resumen al inversor.",
-    "N": "[Clase: fundamentada] [Confianza: alta] Apoyo: Caja previsible, sin deuda y sin financiación que altere el FCF; los arrendamientos ya se restan en C49. El rendimiento de la caja está dentro de la caja operativa (ingresos de tesorería 286 M€ en 2025); lo tengo en cuenta en C76 para no sumarlo dos veces. Lo sustituiría: nada previsible."
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: Sí → mantiene (misma_evidencia): el flujo al accionista aproxima bien y la financiación no cambia. Apoyo: sin deuda bancaria ni bonos [AR_2025, PDF p. 364]; deuda neta/EBITDA −1,35 (C33); arrendamientos restados en C49. El motor B no es calculable (entrada_v63) ni hace falta; el C es para financieras. Motor A. Los ingresos de la caja, 286 M€ en 2025 [AR_2025, PDF p. 384], ya están en el CFO (C26): lo tendré en cuenta en C76 para no contarlos dos veces. Lo sustituiría: una emisión de deuda grande o una adquisición financiada con deuda → motor B."
    },
    "58": {
     "celda": "Análisis!B65",
     "concepto": "MALO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2596,14 +2595,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: El riesgo concreto es la demanda de lujo de alta gama tras el ciclo post-Covid: Asia sin Japón a +2 % cst en el primer semestre de 2026, divisas restando entre 3 y 4,5 puntos, contribución fiscal francesa renovada. Los escenarios son de la empresa frente a la marea: «We try and predict what individual investments will swim well in relation to the tide» (TCI p.107; HIM). Lo sustituiría: «Márgenes se comprimen (costes o precios)» si el margen bruto empezara a caer por precio."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: El viento de cola se frena → cambia (razonamiento_corregido): con C17 = No el MALO no es un viento que se frena, sino costes comprometidos que siguen creciendo cuando la demanda se enfría. Apoyo: plantilla de 25.185 a 26.494 [AR_2025, PDF p. 26]; talleres comprometidos hasta 2030 [AR_2025, PDF p. 29]; capex de 518 a 1.161 M€ en 2022–2025 (Historia); efecto divisa −515 M€ [AR_2025, PDF p. 363]; Asia-Pacífico sin Japón +5 % cst [AR_2025, PDF p. 38]; margen EBIT 2016–2020 del 32–36 % (Historia). «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM). Lo sustituiría: un margen bruto que cae por precio → «Pierde cuota frente a la competencia»."
    },
    "59": {
     "celda": "Análisis!B66",
     "concepto": "MALO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2611,7 +2610,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Malo real, no cosmético: «recognize that terrible things can happen» (AIWTK pp.77–78; HIM). Combina menos demanda, divisas en contra y margen más bajo, que ya se ven en pequeño en 2025–2026. Lo sustituiría: una caída de ventas de piel con talleres ociosos, que haría el malo negativo."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: «Pasada la ola post-Covid…» → cambia (definicion_o_medicion_distinta): la V6.3 pide mecanismo y dueño de la mejora, los números van a las palancas, y el mecanismo cambia con B65. Apoyo: costes de personal de 2.347 a 2.479 M€ [AR_2025, PDF p. 370]; capex 1.161 M€ (Historia); deterioro de inventarios de 1.217 a 1.429 M€ [AR_2025, PDF p. 368]; deterioros de tiendas y líneas poco rentables, 127 M€ [AR_2025, PDF p. 367]; 80 % de ventas fuera del euro [AR_2025, PDF p. 179]. Quién pierde: el accionista, porque la base de costes ya está comprometida. Lo sustituiría: margen bruto que se mantiene en el 71 % con Asia plana: el MALO sería más suave."
    },
    "60": {
     "celda": "Análisis!B67",
@@ -2662,8 +2661,8 @@
     "celda": "Análisis!C65",
     "concepto": "NORMAL: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2671,14 +2670,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Lo más probable es crecer un 6–8 % cst con margen recurrente cerca del 40 % y capex en torno al 7 % de las ventas, como 2025 y el primer semestre de 2026. No elijo «Sigue como los últimos 5 años» porque esos años incluyen la ola post-Covid. Lo sustituiría: dos años seguidos por encima del 10 % cst."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Márgenes estables, sin sorpresas → mantiene (misma_evidencia): lo más probable es seguir como 2021–2025 sin el impulso post-Covid. Apoyo: margen EBIT 39–42 % en 2021–2025 (Historia fila 29); una unidad de producción al año [AR_2025, PDF p. 43]; cuarto trimestre de 2025 +10 % cst [AR_2025, PDF p. 8]; red estable, 294 tiendas frente a 307 en 2016 [AR_2025, PDF p. 22]. No elijo «Sigue como los últimos 5 años» porque esos años incluyen el periodo post-Covid (20 % anual, C46). Lo sustituiría: dos años seguidos por encima del 12 % cst → «Sigue como los últimos 5 años»."
    },
    "64": {
     "celda": "Análisis!C66",
     "concepto": "NORMAL: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2686,7 +2685,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Por componentes: unidades +3–4 % (un taller al año sobre 25), precio +3 %, margen estable. Coherente con el 9 % cst de 2025 y el 6 % del primer semestre de 2026. Lo sustituiría: las ventas cst completas de 2026 y 2027."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: «Un taller de piel al año…» → cambia (definicion_o_medicion_distinta): mismo mecanismo, capacidad más precio con margen estable, sin los números, que la V6.3 deja para las palancas. Apoyo: una unidad de producción al año, unos 300 empleos [AR_2025, PDF p. 43]; margen bruto 71 % con divisas en contra [AR_2025, PDF p. 41]; margen EBIT 39–42 % en 2021–2025 (Historia); dividendos pagados 2.796 M€ en 2025 [AR_2025, PDF p. 360]. Quién se queda la mejora: la empresa, porque la oferta limitada mantiene el poder de precio. Lo sustituiría: las ventas a tipo constante de 2026 y 2027."
    },
    "65": {
     "celda": "Análisis!C67",
@@ -2737,8 +2736,8 @@
     "celda": "Análisis!D65",
     "concepto": "BUENO: ¿qué tiene que pasar?",
     "naturaleza": "Decisión del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2746,14 +2745,14 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: baja] Apoyo: El bueno es que la escasez más la capacidad nueva (un taller de piel al año, ampliaciones en relojería y vajilla) sostengan dos dígitos, como la piel en 2024 (+18 %) y 2025 (+13 %). Lo sustituiría: «Márgenes suben por escala o precios» si el motor resultara ser el precio y no las unidades."
+    "N": "[Clase: fundamentada] [Confianza: baja] Hereda: Gana cuota: el moat se ensancha → mantiene (evidencia_nueva): ahora tengo la cifra de mercado y diez años. Apoyo: en 2018–2019 Hermès creció 7,5 % y 15 % (Historia) cuando el mercado que cita pasó de 262.000 a 260.000 y 281.000 M€ [AR_2019, PDF p. 13]: ya ganó cuota; piel +18 % y +13 % cst en 2024 y 2025 [AR_2025, PDF p. 29]; cuatro talleres de piel nuevos hasta 2030 [AR_2025, PDF p. 29]. No hay cifra de cuota ni competidores nombrados (extracto §9): la cuota es inferencia mía. Lo sustituiría: «Márgenes suben por escala o precios» si el crecimiento viniera de precio y no de unidades."
    },
    "69": {
     "celda": "Análisis!D66",
     "concepto": "BUENO: descripción en una frase",
     "naturaleza": "Decisión del inversor / narrativa",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2761,7 +2760,7 @@
     "K": null,
     "L": null,
     "M": "Decisión del inversor (escenarios). Evidencia en MOAT y OPS.",
-    "N": "[Clase: fundamentada] [Confianza: baja] Apoyo: Es el ritmo 2017–2019 (9–12 % cst) y el de piel en 2024–2025, posible porque la oferta está limitada por capacidad. Un gran negocio merece que su bueno sea bueno. Lo sustituiría: dos años por encima del 12 % cst sin ayuda de divisas."
+    "N": "[Clase: fundamentada] [Confianza: baja] Hereda: «La escasez y la capacidad nueva…» → cambia (definicion_o_medicion_distinta): mismo mecanismo sin la cifra de caja de la V5.3. Apoyo: 2018–2019 por encima del mercado que cita la empresa [AR_2019, PDF p. 13] y Historia; piel +18 % y +13 % cst en 2024–2025 [AR_2025, PDF p. 29]; talleres de Loupes, Charleville-Mézières, Colombelles y Les Andelys [AR_2025, PDF p. 29]. Quién se queda la mejora: la empresa, porque la demanda supera a la oferta. Un BUENO por encima de la historia pedirá en la fase B qué unidades y qué precio. Lo sustituiría: dos años de piel por encima del 15 % cst sin ayuda de divisas lo reforzaría; talleres ociosos lo anularían."
    },
    "70": {
     "celda": "Análisis!D67",
@@ -2858,7 +2857,7 @@
     "concepto": "Insiders comprando o vendiendo",
     "naturaleza": "Dato objetivo con periodo definido",
     "E": "Listo para auditoría",
-    "F": "Rellenado y verificado",
+    "F": "Estimación declarada",
     "periodo": "Oct-2025 a oct-2026 (12 meses)",
     "unidad": "nº de operaciones / M€",
     "tipo_fuente": "Primaria (AMF BDIF, art. 19 MAR) + URD 2025; resúmenes vía web",
@@ -2866,14 +2865,14 @@
     "K": "https://bdif.amf-france.org",
     "L": "Declaraciones 2026DD…",
     "M": "17 compras (24,726 acciones, ≈40,7 M€) y ninguna venta. Todas declaradas sin vínculo con planes. → Comprando.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: En 2025 Émile Hermès SAS, el socio comanditado con responsabilidad ilimitada, compró por 30,6 M€ a 2.350,83 €; entidades de Frédéric Dumas, 6,7 M€; Laurent Momméja, 2,1 M€. Vendieron cinco miembros del Comité Ejecutivo por unos 9 M€, cuatro en febrero y marzo cerca de máximos, todos receptores de acciones gratuitas. Pesa más quien decide y carga con las consecuencias: «The guy who created the arch stood under it as the scaffolding was removed» (TCI p.51; HIM). C96 (0,24 %) solo cuenta tenencias personales de consejeros; el grupo familiar tiene el 66,7 % del capital y el 78,6 % de los votos, sin variación desde 2023. Lo sustituiría: ventas de H51 o H2 → Vendiendo."
+    "N": "[Clase: técnico] [Confianza: baja] Hereda: Comprando → cambia (definicion_o_medicion_distinta): la regla V6.3 pide hechos de la evidencia de fase 1 en 12 meses y mis entradas no traen ninguna operación de insiders; las compras que citaba la etapa 1 no están en ellas y no las uso. Desviación: sin referencia. Apoyo: solo hay tenencias: consejeros 0,24 % (C96); grupo familiar 66,7 % del capital y 76–79 % de los votos (C96). Valor técnico, rango Neutral–Comprando. Lo sustituiría: el registro de operaciones de directivos de los últimos 12 meses: compras discrecionales de dos personas o del socio comanditado → Comprando; ventas discrecionales de dos o más en varias ventanas → Vendiendo."
    },
    "77": {
     "celda": "Análisis!C98",
     "concepto": "Asignación de capital de la dirección",
     "naturaleza": "Juicio del inversor",
-    "E": "Pendiente de inversor",
-    "F": "Pendiente de inversor",
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -2881,7 +2880,7 @@
     "K": null,
     "L": null,
     "M": "Evidencia (CAP): dividendos ≈72% del FCF en FY24–25 y extraordinarios de 10 €/acción en FY23–24; recompras pequeñas, solo para planes; sin deuda; M&A menor de integración vertical. Decide el inversor.",
-    "N": "[Clase: fundamentada] [Confianza: media] Apoyo: Sin deuda; sin adquisiciones grandes (solo integración vertical «not significant»; fondo de comercio 0,75 % del activo, C32); dividendo ordinario creciente y extraordinarios para devolver caja; capex en talleres y tiendas propias. Remuneración del presidente: 0,20 % del beneficio antes de impuestos, regla de los estatutos sin cambiar desde 1993, sin incentivo a largo plazo. Es lo que él valoraba: «We wrote a one-page deal with Chuck Huggins when we bought See's and it's never been touched» (TCI p.116; HIM). Dudas: 12.310 M€ al 2 % durante años; recompras pequeñas y para cubrir planes, no oportunistas (ninguna en 2025, 160 M€ en el primer semestre de 2026 a unos 1.687 €); inmuebles comprados (terrenos +326 M€ en 2025) sin retorno publicado; 11,91 % en Ardian, cuya presidenta está en el Consejo; RDAI, vinculado a la familia, cobró 20 M€. Ninguna es una tontería probada. Lo sustituiría: una adquisición grande fuera del núcleo o más peso de partes vinculadas → Aceptable o Dudosa."
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: Buena → mantiene (evidencia_nueva): Historia filas 12, 13, 18 y 20. Apoyo: sin deuda; adquisiciones de 0 a 288 M€ al año y fondo de comercio 0,75 % del activo (C32); acciones planas (C60); dividendos de 852 a 2.772 M€ en 2021–2024, con extraordinarios para devolver caja [AR_2025, PDF p. 436, 461]. Dudas: capital invertido +74 % en 2022–2025 y ROIC del 65 % al 49 % (hoja); terrenos +326 M€ en 2025 sin retorno publicado [AR_2025, PDF p. 378]; caja de 12.239 M€ que rinde un 2,3 % [AR_2025, PDF p. 384]. «Proper allocation of capital is an investor's number one job» (TCI p.114; HIM). Lo sustituiría: ROIC por debajo del 35 % con capex creciendo, o una adquisición grande fuera del núcleo → Aceptable."
    },
    "78": {
     "celda": "Análisis!B101",
@@ -3697,8 +3696,8 @@
     "celda": "Palancas!C5",
     "concepto": "Etapa del ciclo de vida",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3706,14 +3705,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: crece un 13 % anual en diez años (Historia C47) y un 11 % en tres (C45) con reinversión neta pequeña (462 y 468 M€ en 2024–2025, Historia) frente a un beneficio de 4.524 M€, y paga 2.796 M€ de dividendos en 2025 [AR_2025, PDF p. 360]: reparte la mayor parte de la caja; margen estable del 40–42 %. No es «En crecimiento» porque no necesita capital para crecer; no es «Madura» porque la piel sigue a dos dígitos [AR_2025, PDF p. 29]. Lo sustituiría: tres años por debajo del 5 % a tipo constante → Madura."
    },
    "138": {
     "celda": "Palancas!C6",
     "concepto": "Caso especial",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3721,14 +3720,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: no es financiera ni regulada en capital [AR_2025, PDF p. 393]; no es cíclica de materias primas (un año negativo en diez, Historia); su intangible es la marca, pero el gasto visible, comunicación 620 M€, un 3,9 % de las ventas [AR_2025, PDF p. 367], es pequeño y estable, y no hay I+D publicada [AR_2025, PDF p. 514]: el motor A con el FCF ya lo recoge. Asia no la hace emergente: vende en 45 países y produce en la zona euro [AR_2025, PDF p. 17, 179]. Coherente con el motor A. Lo sustituiría: un gasto de marca o de I+D grande y creciente → Intangibles (I+D, marca)."
    },
    "139": {
     "celda": "Palancas!C8",
     "concepto": "Base de partida del margen",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3736,14 +3735,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: media] Hereda: nueva en V6.3. Apoyo: el margen de 2025, 41,0 % (Historia C48), no es el máximo de la serie (42,1 % en 2023, Historia C51) ni el mínimo (32,4 %, Historia C50), y no la trato como cíclica (C6). La media del ciclo, 37,3 % (Historia C49), mezcla el escalón de 2021; volver a ella es la historia del MALO, no la base. Lo sustituiría: que el margen del último año pasara a ser el máximo o el mínimo de la serie → Media del ciclo."
    },
    "140": {
     "celda": "Palancas!C9",
     "concepto": "I+D capitalizada en las anclas",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3751,14 +3750,14 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: no hay gasto de I+D publicado en ninguno de los diez años (Historia fila 19 vacía) y la tabla de referencias marca la I+D como «n/a» [AR_2025, PDF p. 514]; C6 no es Intangibles. Capitalizar sin cifra no es posible ni cambiaría las anclas. Lo sustituiría: una cifra de I+D por encima del 5 % de las ventas → Sí."
    },
    "141": {
     "celda": "Palancas!C10",
     "concepto": "Vida útil de la I+D",
     "naturaleza": "Juicio del inversor / V6",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -3766,7 +3765,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: convención] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: queda vacía por la regla condicional, porque C9 = No: sin I+D publicada (Historia fila 19 vacía; [AR_2025, PDF p. 514]) no hay vida útil que fijar. Lo sustituiría: C9 = Sí; entonces 5 años por convención de la plantilla para industrial."
    },
    "142": {
     "celda": "Palancas!B14",
@@ -4132,8 +4131,8 @@
     "celda": "Palancas!C43",
     "concepto": "Naturaleza del FCF base ≤ 0 (motor A)",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4141,7 +4140,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: el FCF base es positivo, 3.487 M€ (C52), y el FCF al accionista es positivo los diez años, de 848 a 3.749 M€ (Historia fila 35): la celda no aplica. Lo sustituiría: un FCF base ≤ 0, que con esta Historia no veo posible sin un cambio de negocio."
    },
    "167": {
     "celda": "Palancas!C44",
@@ -4192,8 +4191,8 @@
     "celda": "Palancas!C47",
     "concepto": "Causa declarada de la diferencia precio × acciones frente a capitalización",
     "naturaleza": "Juicio del inversor / V6.1",
-    "E": "Pendiente de inversor",
-    "F": null,
+    "E": "Listo para auditoría",
+    "F": "Estimación declarada",
     "periodo": null,
     "unidad": null,
     "tipo_fuente": null,
@@ -4201,7 +4200,7 @@
     "K": null,
     "L": null,
     "M": null,
-    "N": null
+    "N": "[Clase: fundamentada] [Confianza: alta] Hereda: nueva en V6.3. Apoyo: la conciliación precio × acciones ≈ capitalización pasa (V22, V26 y V27 en OK, datos_v63 §5): 1.312,5 € × 105,037 M = 137.861 M€ (C41). V28 avisa de que precio (3-nov-2026) y acciones (media de 2025) están separados más de 90 días; con las acciones a 30-jun-2026, 104,742 M, la diferencia es del 0,25 % (C55), inmaterial. Lo sustituiría: una desviación de la conciliación por encima de la tolerancia de la hoja."
    },
    "171": {
     "celda": "Palancas!C48",
@@ -4652,10 +4651,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (elección del motor)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 53,
@@ -4665,10 +4664,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (r exigida; en B entra en la r operativa)",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 138,
@@ -4678,10 +4677,10 @@
     "motores": "A · B · C",
     "aplica": true,
     "condicion": "siempre (aplicabilidad del motor: «Financiera» bloquea A y B)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 139,
@@ -4691,10 +4690,10 @@
     "motores": "A · B",
     "aplica": true,
     "condicion": "A y B (margen de partida: último año o media del ciclo)",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
-    "estado_evidencia": "sin clasificar"
+    "justificada": true,
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 129,
@@ -4717,10 +4716,10 @@
     "motores": "A",
     "aplica": true,
     "condicion": "A, si la SBC (C50) no es 0",
-    "clasificacion": "Pendiente de inversor",
+    "clasificacion": "Estimación declarada",
     "documento": null,
     "justificada": true,
-    "estado_evidencia": "hipótesis pendiente"
+    "estado_evidencia": "estimación"
    },
    {
     "fila_cm": 142,
@@ -5003,9 +5002,9 @@
     "motores": "A",
     "aplica": false,
     "condicion": "A, si el FCF base (Análisis C52) ≤ 0",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    },
    {
@@ -5029,9 +5028,9 @@
     "motores": "A · B · C",
     "aplica": false,
     "condicion": "si la desviación capitalización ÷ (precio × acciones) supera el umbral (Diagnóstico C91) o hay causa declarada",
-    "clasificacion": null,
+    "clasificacion": "Estimación declarada",
     "documento": null,
-    "justificada": false,
+    "justificada": true,
     "estado_evidencia": "—"
    }
   ],
@@ -5041,12 +5040,12 @@
    "D242": 19,
    "D243": 25,
    "D244": 0,
-   "D245": 1,
+   "D245": 6,
    "D246": 0,
-   "D247": 10,
-   "D248": 14,
+   "D247": 7,
+   "D248": 12,
    "D249": 0,
-   "D250": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 25 · 1 estimaciones · 0 no verificables · 10 hipótesis pendientes · 14 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
+   "D250": "INCOMPLETAS · datos 19 de 19 · hipótesis confirmadas 0 de 25 · 6 estimaciones · 0 no verificables · 7 hipótesis pendientes · 12 sin dato, sin clasificar, sin fuente o incoherentes · 0 «No aplicable» indebido"
   }
  },
  "herencia": {

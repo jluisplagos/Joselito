@@ -1,10 +1,10 @@
 {
- "libro": "/home/user/Joselito/personaje_v2/empresas_v2/Hermes/Hermes_v63_datos.xlsx",
- "recalc": "/home/user/Joselito/personaje_v2/empresas_v2/Hermes/recalc/Hermes_v63_datos.xlsx",
+ "libro": "/home/user/Joselito/personaje_v2/empresas_v2/Hermes/Hermes_v63_evaluada.xlsx",
+ "recalc": "/home/user/Joselito/personaje_v2/empresas_v2/Hermes/recalc/Hermes_v63_evaluada.xlsx",
  "integro": true,
  "estado_tecnico": "INCOMPLETO",
  "causa_tecnica": "Faltan palancas de crecimiento (Palancas B14:D14)",
- "estado_libro": "NO LISTO · incompleto (6 pendientes)",
+ "estado_libro": "NO LISTO · incompleto (5 pendientes)",
  "comparable": true,
  "motores": {
   "A": {
@@ -25,7 +25,7 @@
    "C83_simulado": 396.083907725492
   }
  },
- "motor_elegido": null,
+ "motor_elegido": "A",
  "bloqueantes": [],
  "necesarios_para_listo_provisional": [],
  "no_bloqueantes": [
