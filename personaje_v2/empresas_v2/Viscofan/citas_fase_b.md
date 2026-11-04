@@ -1,0 +1,268 @@
+- fase_b.motor: B
+- fase_b.palancas.crecimiento_1_5.MALO.clase: fundamentada
+- fase_b.palancas.crecimiento_1_5.MALO.confianza: media
+- fase_b.palancas.crecimiento_1_5.MALO.porque: El MALO de la fase A es de margen, no de volumen: el volumen crece y el margen no. Las ventas crecen poco porque la mezcla baja y el dólar resta, no porque caigan los metros. Tomo el ritmo de los tres últimos años (Historia C45, 1,4 %), que ya contiene la peor caída de volumen del mercado en 24 años (2023, −4 %) y un año de ventas negativas (2024). La referencia (−1 %) supondría cinco años seguidos peores que ese tramo: eso es perder cuota, otra historia que la fase A no contó.
+- fase_b.palancas.crecimiento_1_5.MALO.apoyo: Historia C45 (CAGR 3 años 1,4 %) y K28 (−1,8 % en 2024); volumen del mercado −4 % en 2023 (extracto AR_2023 p. 144); mezcla ligeramente inferior con volumen récord en 2025 (extracto AR_2025 p. 139); tipo de cambio −3,0 pp a las ventas de 2025 (extracto AR_2025 p. 141). Rango 0 a 0,02.
+- fase_b.palancas.crecimiento_1_5.MALO.lo_sustituiria: −0,01 si en 2026-2027 cae el volumen de la empresa (cuota perdida o sustituto); 0,02 si la mezcla deja de bajar.
+- fase_b.palancas.crecimiento_1_5.NORMAL.clase: fundamentada
+- fase_b.palancas.crecimiento_1_5.NORMAL.confianza: media
+- fase_b.palancas.crecimiento_1_5.NORMAL.porque: Por componentes: volumen del mercado del 2-4 % (tomo 3 %), medio punto de cuota y en torno a un punto de precio que solo acompaña al coste: 4,5 %. La referencia (CAGR de 5 años, 6,5 %, Historia C46) lleva dentro la subida de precios de 2022 (+23,9 % en un año) y el perímetro de Brasil; sin 2022, la media de las tasas anuales de 2017-2025 es del 4,2 % [cálculo Historia fila 28]. No copio la guía de 2026 (+5-7 %): es guía, no hecho.
+- fase_b.palancas.crecimiento_1_5.NORMAL.apoyo: Mercado 2-4 % anual en volumen (extracto AR_2025 p. 181); I28 +23,9 % con subidas de precio que trasladan costes (extracto AR_2022 p. 115); perímetro +0,9 pp en 2025 (extracto AR_2025 p. 141); Historia C46 (6,5 %), C47 (6,2 %), fila 28 sin 2022 (4,2 %). Rango 0,035-0,055.
+- fase_b.palancas.crecimiento_1_5.NORMAL.lo_sustituiria: 0,055 si 2026-2027 crecen ≥ 5 % a tipo constante sin subidas de precio extraordinarias; 0,035 si el volumen del mercado se queda en el 2 %.
+- fase_b.palancas.crecimiento_1_5.BUENO.clase: fundamentada
+- fase_b.palancas.crecimiento_1_5.BUENO.confianza: baja
+- fase_b.palancas.crecimiento_1_5.BUENO.porque: El BUENO repite la racha de cuota: entre productores de envoltura a medida pasó del 30 % (2015) al 38 % (2021), y en 2016-2021 las ventas crecieron un 5,8 % anual compuesto [cálculo Historia D28:H28]. Le sumo lo que ese tramo no tenía: capacidad nueva de colágeno y plásticos y nuevos negocios que crecen más (+8,4 % en 2025). Sale un 7 %. La referencia (10 %) pide casi el doble del ritmo que dio la mejor racha de cuota de la década; no tengo unidades ni precios que lo sostengan.
+- fase_b.palancas.crecimiento_1_5.BUENO.apoyo: Cuota 30 % (2015), 38 % (2021), 41 % (2022) (extracto AR_2019 p. 121; AR_2021 p. 134; AR_2022 p. 200); Historia D28:H28; capacidad nueva en EE. UU., México, Serbia y Tailandia (extracto AR_2025 p. 65); nuevos negocios +8,4 % (extracto AR_2025 p. 141); Q3 del sector 11,5 % (Palancas I14). Rango 0,06-0,08.
+- fase_b.palancas.crecimiento_1_5.BUENO.lo_sustituiria: 0,08 si la empresa vuelve a publicar cuota y pasa del 43 %; 0,06 si la capacidad nueva se llena con mezcla a la baja.
+- fase_b.palancas.margen_objetivo.MALO.clase: fundamentada
+- fase_b.palancas.margen_objetivo.MALO.confianza: media
+- fase_b.palancas.margen_objetivo.MALO.porque: La historia del MALO lleva el margen operativo al mínimo de la serie: 15,1 % en 2023 (Historia C50, J29), con un 15,3 % en 2019 (F29). Es el malo que ya pasó dos veces en siete años. La referencia (0,165, el último año) no recoge la presión que ya está en marcha: pieles, dólar y un EBITDA de 1S26 que cae un 7,4 %. Por debajo del mínimo no voy: en 2022-2023 la empresa trasladó costes con retraso y el margen no bajó del 15,1 %.
+- fase_b.palancas.margen_objetivo.MALO.apoyo: Historia C50, F29, J29; inflación sustancial del coste de pieles en Europa (extracto AR_2025 p. 436); tipo de cambio −4,6 pp al EBITDA de 2025 (extracto AR_2025 p. 142); EBITDA 1S26 −7,4 % (Análisis C42, nota de fase 1); Q3 del sector 10,2 % (Palancas I15). Rango 0,14-0,155.
+- fase_b.palancas.margen_objetivo.MALO.lo_sustituiria: 0,14 si 2026 cierra por debajo del 15 % con los precios ya subidos; 0,155 si 2026 traslada pieles y dólar dentro del año.
+- fase_b.palancas.margen_objetivo.NORMAL.clase: fundamentada
+- fase_b.palancas.margen_objetivo.NORMAL.confianza: media
+- fase_b.palancas.margen_objetivo.NORMAL.porque: El NORMAL deja el margen en el rango de 2019-2025, cuya media es 16,4 % [cálculo Historia F29:L29], igual que el último año (C48). Coincido con la referencia por los hechos: el precio sigue al coste con un año de retraso y la eficiencia nueva se reparte con el cliente (mezcla algo más baja en 2025), así que no subo hacia la media de diez años (C49, 17,5 %), que lleva dentro 2016-2018. Queda por encima del Q3 del sector: lo justifico (G5).
+- fase_b.palancas.margen_objetivo.NORMAL.apoyo: Historia C48, C49, F29:L29 (15,1-18,0 %); margen EBITDA comparable 23,7 % en 2025, igual que 2024 (extracto AR_2025 p. 141); precios que compensan costes en 2022 y 2023 (extracto AR_2022 p. 115; AR_2023 p. 239); Palancas I15 (10,2 %). Rango 0,155-0,175.
+- fase_b.palancas.margen_objetivo.NORMAL.lo_sustituiria: 0,175 si 2026-2027 vuelven al 17,5 % con las pieles caras; 0,155 si 2026 cierra por debajo del 15,5 %.
+- fase_b.palancas.margen_objetivo.BUENO.clase: fundamentada
+- fase_b.palancas.margen_objetivo.BUENO.confianza: baja
+- fase_b.palancas.margen_objetivo.BUENO.porque: El BUENO recupera parte del margen perdido desde 2016 por escala: plantas nuevas que reparten costes fijos. Lo llevo al techo de 2019-2025 (18,0 % en 2021, H29; 17,9 % en 2020, G29), no al máximo de 2016 (21,1 %, C51): no tengo hechos que expliquen la caída de 2016-2019 ni sé si es reversible. La mejora se la queda la empresa solo si los competidores no responden con precio. La referencia es el último año porque el Q3 del sector queda por debajo y la regla no capta este mecanismo.
+- fase_b.palancas.margen_objetivo.BUENO.apoyo: Historia G29, H29, C51; cuota del 30 % al 41 % con margen siempre por encima del 15 % (extracto AR_2019 p. 121; AR_2022 p. 200; Historia fila 29); capacidad nueva (extracto AR_2025 p. 65); 37 % del capex de 2025 a capacidad (extracto AR_2025 p. 143). Rango 0,175-0,19.
+- fase_b.palancas.margen_objetivo.BUENO.lo_sustituiria: 0,19 si 2027 pasa del 18 % con la capacidad nueva llena; 0,17 si la mezcla sigue bajando.
+- fase_b.palancas.s2c.MALO.clase: fundamentada
+- fase_b.palancas.s2c.MALO.confianza: media
+- fase_b.palancas.s2c.MALO.porque: En el MALO la empresa sigue invirtiendo en lo que no da ventas: el traslado de Chequia con la misma capacidad (1.250 M CZK) y el 27 % del capex de 2025 en medio ambiente y seguridad. Cada euro de ventas nuevas cuesta más que en la historia (C53, 1,15). Coincido con la referencia por un hecho: en 2021-2025, con el circulante inflado, el capital invertido creció 319 M€ para 283 M€ de ventas nuevas (0,89 [cálculo Historia H32:L32]).
+- fase_b.palancas.s2c.MALO.apoyo: Historia C53 (1,15) y H32:L32 (862 → 1.181 M€); aumento de circulante de 106 y 83 M€ en 2022-2023 (Historia, partida circulante, I y J); Chequia (extracto AR_2025 p. 66); 27 % del capex a medio ambiente (extracto AR_2025 p. 143). Rango 0,8-1,0.
+- fase_b.palancas.s2c.MALO.lo_sustituiria: 0,8 si el capex pasa de 100 M€ sin ventas nuevas; 1,0 si el circulante vuelve al nivel de 2024.
+- fase_b.palancas.s2c.NORMAL.clase: fundamentada
+- fase_b.palancas.s2c.NORMAL.confianza: media
+- fase_b.palancas.s2c.NORMAL.porque: Es el S2C marginal de diez años (Historia C53, 1,15) redondeado: en 2016-2025 el capital invertido creció 436 M€ para 521 M€ de ventas nuevas (1,19 [cálculo Historia C32:L32]), con capex de 1,16 veces la amortización. El NORMAL no cambia la forma de crecer, así que no me desvío. Rentabilidad marginal: 1,1 × 0,165 × (1 − 0,198) = 14,6 %, igual que el ROIC de cinco años (C55, 14,3 %): sin promesa de euros nuevos mejores que los viejos.
+- fase_b.palancas.s2c.NORMAL.apoyo: Historia C53, C54 (1,06), C55, C32:L32 (745 → 1.181 M€); compromisos de inversión de 52,0 M€ a fin de 2025 (extracto AR_2025 p. 143). Rango 1,0-1,2.
+- fase_b.palancas.s2c.NORMAL.lo_sustituiria: 1,2 si 2026-2027 crecen sin capex de capacidad; 1,0 si el capex sigue en 84 M€ con ventas planas.
+- fase_b.palancas.s2c.BUENO.clase: fundamentada
+- fase_b.palancas.s2c.BUENO.confianza: baja
+- fase_b.palancas.s2c.BUENO.porque: En el BUENO se llena capacidad ya construida y la escala da más ventas por euro. En la racha de cuota (2016-2021) el capital invertido creció 117 M€ para 238 M€ de ventas nuevas (≈2,0 [cálculo Historia C32:H32]), aunque con el margen bajando. Me quedo en la referencia (1,25 × NORMAL), entre ese tramo y la media de diez años (1,19), porque la capacidad nueva también hay que pagarla. Rentabilidad marginal 1,4 × 0,18 × 0,80 = 20 %, por debajo de 2 × C55 (28,6 %).
+- fase_b.palancas.s2c.BUENO.apoyo: Historia C32:H32 (745 → 862 M€) y fila 28; 37 % del capex de 2025 a capacidad y compromisos de 52,0 M€ (extracto AR_2025 p. 143); plantas nuevas (extracto AR_2025 p. 65). Rango 1,2-1,6.
+- fase_b.palancas.s2c.BUENO.lo_sustituiria: 1,6 si 2026-2027 crecen más del 6 % con capex por debajo de la amortización; 1,2 si llenar la capacidad exige más plantas.
+- fase_b.palancas.g_perpetuo.MALO.clase: fundamentada
+- fase_b.palancas.g_perpetuo.MALO.confianza: media
+- fase_b.palancas.g_perpetuo.MALO.porque: En el MALO el precio no sigue al coste y la mezcla baja: a perpetuidad solo crece lo que crece la población que come embutido, que la empresa da en +1 % anual. La referencia (0,015) añade medio punto de precio que esta historia niega. Con el ROIC terminal del MALO en la tasa (0,08), g casi no mueve el valor (GV; E3): no castigo dos veces el mismo riesgo.
+- fase_b.palancas.g_perpetuo.MALO.apoyo: Población +1 % anual como impulsor del mercado (extracto AR_2025 p. 181); mezcla ligeramente inferior (extracto AR_2025 p. 139); Palancas B18 = 0,08. Rango 0,005-0,015.
+- fase_b.palancas.g_perpetuo.MALO.lo_sustituiria: 0,005 si el consumo de carne en emergentes se estancara; 0,015 si los precios volvieran a seguir al coste.
+- fase_b.palancas.g_perpetuo.NORMAL.clase: fundamentada
+- fase_b.palancas.g_perpetuo.NORMAL.confianza: media
+- fase_b.palancas.g_perpetuo.NORMAL.porque: A perpetuidad la sustitución de tripa animal se agota (aún es el 44 % del mercado, pero baja un punto cada año y medio) y queda la población (+1 %) más un punto de precio que acompaña al coste: 2 %. La referencia (mín(0,025; rf)) es una regla general; esta empresa ya crece por debajo de su mercado en 2023-2025 (CAGR 3 años 1,4 %, Historia C45). Queda por debajo de rf (3,35 %, Análisis C57) y de la tasa del motor (8,3 %).
+- fase_b.palancas.g_perpetuo.NORMAL.apoyo: Tripa animal 47 % (2020) y 44 % (2023) (extracto AR_2020 p. 110; AR_2023 p. 145); población +1 % (extracto AR_2025 p. 181); Historia C45; Análisis C57. «If a thing can't go on forever, it will eventually stop» (PCA p.416; HIM). Rango 0,015-0,025.
+- fase_b.palancas.g_perpetuo.NORMAL.lo_sustituiria: 0,025 si la sustitución siguiera al mismo ritmo después de 2030; 0,015 si el volumen del mercado se estancara.
+- fase_b.palancas.g_perpetuo.BUENO.clase: fundamentada
+- fase_b.palancas.g_perpetuo.BUENO.confianza: media
+- fase_b.palancas.g_perpetuo.BUENO.porque: En el BUENO la sustitución sigue y la empresa gana peso en Sudamérica y Asia, que crecen más; pero ninguna cuota sube para siempre. Pongo medio punto más que el NORMAL y no el máximo de la lista (0,03): el crecimiento del año 11 en adelante es el de un líder maduro, no el de la racha.
+- fase_b.palancas.g_perpetuo.BUENO.apoyo: Crecimiento a tipo constante en 2025: Sudamérica +12,7 %, Asia-Pacífico +8,4 %, EMEA +1,5 % (extracto AR_2025 p. 142); tripa animal 44 % (extracto AR_2023 p. 145). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM). Rango 0,02-0,03.
+- fase_b.palancas.g_perpetuo.BUENO.lo_sustituiria: 0,03 si la cuota siguiera subiendo después de 2030; 0,02 si la sustitución se frena.
+- fase_b.palancas.roic_lp.MALO.clase: fundamentada
+- fase_b.palancas.roic_lp.MALO.confianza: media
+- fase_b.palancas.roic_lp.MALO.porque: En el MALO el volumen extra se lo quedan proveedores y clientes: el capital nuevo rinde su coste y crecer no añade valor (GV; E3). Coincido con la referencia (la tasa del motor, Diagnóstico V6 C15) por esa historia, no por convención. No bajo de la tasa: diez años de ROIC de al menos 12,1 % (Historia fila 33) no dicen que el capital nuevo vaya a destruir valor. Salto del año 11 con mis cifras: 10,8 % − 8 % ≈ 2,8 puntos.
+- fase_b.palancas.roic_lp.MALO.apoyo: Historia fila 33 (mínimo F33, 12,1 %) y C55 (14,3 %); Diagnóstico V6 C15 (8,3 %); margen del MALO 0,15 (Palancas B15). Rango 0,07-0,09.
+- fase_b.palancas.roic_lp.MALO.lo_sustituiria: 0,09 si el ROIC se sostiene por encima del 12 % con el margen en el 15 %; 0,07 si se pierde cuota.
+- fase_b.palancas.roic_lp.NORMAL.clase: fundamentada
+- fase_b.palancas.roic_lp.NORMAL.confianza: media
+- fase_b.palancas.roic_lp.NORMAL.porque: Me desvío hacia arriba porque C18 = Sí con hechos: diez años de ROIC entre el 12,1 % y el 16,7 % (Historia fila 33), nunca por debajo de r ni del sector (12,0 %, Palancas H18), con cuota creciente. Pero el foso se estrecha: el margen cayó del 21,1 % al 16,4 % (C29, L29). Pongo el capital nuevo a perpetuidad por debajo del peor año de la década y de la media del sector: unos 2,7 puntos sobre la tasa del motor, el exceso que Damodaran admite a perpetuidad con una ventaja demostrada (MR pp. 62–63; E2). Lo sostienen la escala y el proceso, con cambio tecnológico lento. Salto del año 11: 14,6 % − 11 % ≈ 3,6 puntos.
+- fase_b.palancas.roic_lp.NORMAL.apoyo: Historia fila 33, C55, C29 y L29; Palancas H18; cuota del 41 % en 2022 (extracto AR_2022 p. 200); convergencia hacia el sector (CV pp. 10–11; E2). Rango 0,09-0,12.
+- fase_b.palancas.roic_lp.NORMAL.lo_sustituiria: 0,12 si el margen se sostiene por encima del 17 % hasta 2028 con cuota publicada al alza; 0,09 si el ROIC baja del 12 % dos años.
+- fase_b.palancas.roic_lp.BUENO.clase: fundamentada
+- fase_b.palancas.roic_lp.BUENO.confianza: baja
+- fase_b.palancas.roic_lp.BUENO.porque: En el BUENO el foso se ensancha y el capital nuevo rinde a perpetuidad lo que rindió el peor año de la década (12,1 % en 2019, Historia F33), en línea con la media del sector (12,0 %, H18). Coincide con la referencia (mín(C55; C56 + 0,03)). No subo hacia el 14,3 % de cinco años (C55): la ventaja de llenar plantas ya hechas se agota. Salto del año 11: 20,2 % − 12 % ≈ 8 puntos; es mi hipótesis de que esa rentabilidad no dura más allá del año 10, y la fase C la explicará (G8).
+- fase_b.palancas.roic_lp.BUENO.apoyo: Historia F33 y C55; Palancas H18; Análisis C56. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM). Rango 0,11-0,13.
+- fase_b.palancas.roic_lp.BUENO.lo_sustituiria: 0,13 si 2026-2028 dan ROIC por encima del 15 % con la capacidad llena; 0,11 si la cuota deja de subir.
+- fase_b.palancas.probabilidades.MALO.clase: fundamentada
+- fase_b.palancas.probabilidades.MALO.confianza: media
+- fase_b.palancas.probabilidades.MALO.porque: Subo el MALO un paso de la lista porque su mecanismo está en marcha, no por frecuencia: pieles con inflación sustancial del coste unitario en Europa, coberturas de dólar superadas, mezcla a la baja en 2025 y un EBITDA de 1S26 que cae un 7,4 %. Y ya ocurrió: margen del 15,1-15,3 % en 2019 y 2023.
+- fase_b.palancas.probabilidades.MALO.apoyo: Pieles y coberturas (extracto AR_2025 p. 436); mezcla (extracto AR_2025 p. 139); Análisis C42 (nota: EBITDA 1S26 −7,4 %); Historia F29 y J29. «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).
+- fase_b.palancas.probabilidades.MALO.lo_sustituiria: 0,2 si 2026 cierra con margen EBIT de al menos 16,5 %; 0,3 si cierra por debajo del 15 %.
+- fase_b.palancas.probabilidades.NORMAL.clase: convención
+- fase_b.palancas.probabilidades.NORMAL.confianza: media
+- fase_b.palancas.probabilidades.NORMAL.porque: Mantengo 0,6: el NORMAL es el estado más repetido de los últimos siete años (cinco de siete con margen entre el 15,7 % y el 18,0 %). Lo que muevo, lo muevo entre los extremos.
+- fase_b.palancas.probabilidades.NORMAL.apoyo: Historia G29:L29 (2020-2025) y F29 (2019); las tres probabilidades suman 1 y los tres escenarios cubren el rango de margen observado desde 2019 (15,1-18,0 %).
+- fase_b.palancas.probabilidades.NORMAL.lo_sustituiria: 0,5 si 2026 y 2027 confirman el MALO; se ajusta si cambian los extremos.
+- fase_b.palancas.probabilidades.BUENO.clase: fundamentada
+- fase_b.palancas.probabilidades.BUENO.confianza: media
+- fase_b.palancas.probabilidades.BUENO.porque: Bajo el BUENO un paso: es la historia menos probada. La última cuota publicada es de 2022 (41 %); en 2025 la empresa gana volumen con una mezcla más baja, lo contrario de «sin ceder precio»; y la capacidad nueva aún no tiene historial de ventas.
+- fase_b.palancas.probabilidades.BUENO.apoyo: Cuota 41 % en 2022 (extracto AR_2022 p. 200); mezcla ligeramente inferior (extracto AR_2025 p. 139); plantas nuevas (extracto AR_2025 p. 65); último año en la zona del BUENO: 2021 (Historia H29, 18,0 %).
+- fase_b.palancas.probabilidades.BUENO.lo_sustituiria: 0,2 si la empresa publica una cuota de 2026 por encima del 41 % con margen de al menos el 17 %.
+- fase_b.palancas.probabilidades.argumento: Me desvío de 0,2/0,6/0,2 a 0,25/0,6/0,15. El MALO sube porque su mecanismo (pieles, dólar, mezcla) está actuando ahora y el EBITDA de 1S26 ya cae (Análisis C42, nota; extracto AR_2025 pp. 139, 436); el BUENO baja porque la prueba de que el foso se ensancha, la cuota, dejó de publicarse en 2022 y la mezcla de 2025 va en contra (extracto AR_2022 p. 200). El NORMAL sigue siendo lo más repetido desde 2019 (Historia F29:L29). No las muevo para cuadrar con la cotización. No las uso para contar dos veces la deuda: la quiebra queda en 0 (Palancas C22). Suman 1 y cubren el rango de margen de 2019-2025.
+- fase_b.quiebra.disparadores[0]: Análisis!C34 = No (la caja no cubre la deuda a corto): considerado y argumentado; no lleva a probabilidad de quiebra
+- fase_b.quiebra.disparadores[1]: deuda + arrendamientos (Historia C64 = 316,3 M€) > 3 × FCF base (C52 = 97,3 M€): considerado y argumentado; no lleva a probabilidad de quiebra
+- fase_b.quiebra.clase: fundamentada
+- fase_b.quiebra.porque: Hay dos disparadores mecánicos y los argumento. La deuda a corto (227,4 M€ con bancos) es sobre todo pólizas de renovación anual cuya renovación ya se acordó tras el cierre, con 155,3 M€ de líneas sin disponer (extracto AR_2025 pp. 98-99); no hubo impagos en 2024-2025 ni se prevén en 2026 (extracto AR_2025 p. 122). Deuda neta de 1,13 veces el EBITDA (Análisis C33), caja operativa positiva los diez años (Historia, partida cfo, 120,7-235,8 M€) y EBIT de al menos 130 M€ cada año. La deuda subió para pagar al accionista (extracto AR_2025 p. 144): es una decisión que se puede parar, no una falta de caja del negocio. El riesgo de esta empresa está en el margen y ya lo recogen el MALO y su probabilidad (0,25): un 0,05 más sería contarlo dos veces (PA pp. 20–21; E6). Me desvío de la convención (0,05) a 0 y escribo la recuperación 0. Lo que no tengo: covenants y calendario de renovación (extracto AR_2025 p. 100).
+- fase_b.exceso_caja.clase: convención
+- fase_b.exceso_caja.porque: Motor B: la hoja ya resta la deuda, los arrendamientos, las pensiones y los minoritarios menos la caja, así que C76 se deja vacía (regla del motor; G12). Tampoco hay caja sobrante que discutir: 57,7 M€ de efectivo (Análisis C53) frente a 375,8 M€ de deuda (Análisis C54) y una caja que no cubre la deuda a corto (C34 = No).
+- fase_b.fcf_normalizado.clase: convención
+- fase_b.fcf_normalizado.porque: La fase A fijó Palancas!C43 = No aplica: el FCF base es positivo (Análisis C52 = 97,3 M€) y la fila 35 de Historia solo es negativa en 2022 (I35, −3,3 M€, por el circulante de la inflación). C44 solo se informa con Transitorio o Extraordinario, y en el motor B el valor sale de las palancas operativas, no del FCF al accionista.
+- fase_b.desviaciones_justificadas[0].comprobacion: G5
+- fase_b.desviaciones_justificadas[0].escenario: MALO
+- fase_b.desviaciones_justificadas[0].clase: fundamentada
+- fase_b.desviaciones_justificadas[0].justificacion: El margen del MALO (0,15) supera el Q3 del sector (10,2 %) porque es el peor nivel de esta empresa en diez años: 15,1 % en 2023 con la mayor caída de volumen del mercado en 24 años y 15,3 % en 2019. Mecanismo: escala y know-how de proceso en un nicho que el sector de la hoja (Food Processing) no recoge; la empresa traslada costes a precio con retraso. Quién se queda la mejora: en el MALO, nadie la tiene; proveedores de pieles y clientes se llevan la diferencia y la empresa conserva solo su suelo histórico.
+- fase_b.desviaciones_justificadas[0].hechos[0]: Historia C50 (15,1 %, mínimo de diez años)
+- fase_b.desviaciones_justificadas[0].hechos[1]: Historia F29 (15,3 % en 2019) y J29 (15,1 % en 2023)
+- fase_b.desviaciones_justificadas[0].hechos[2]: Palancas I15 (Q3 del sector 10,2 %)
+- fase_b.desviaciones_justificadas[0].hechos[3]: extracto AR_2023 p. 144 (volumen del mercado −4 % en 2023)
+- fase_b.desviaciones_justificadas[0].hechos[4]: extracto AR_2025 p. 436 (inflación de pieles en Europa)
+- fase_b.desviaciones_justificadas[1].comprobacion: G5
+- fase_b.desviaciones_justificadas[1].escenario: NORMAL
+- fase_b.desviaciones_justificadas[1].clase: fundamentada
+- fase_b.desviaciones_justificadas[1].justificacion: 0,165 es la media de 2019-2025 de esta empresa y su último año; supera el Q3 del sector porque Food Processing mezcla todo tipo de alimentación y Viscofan lleva diez años por encima: su mínimo (15,1 %) ya es una vez y media ese Q3. Mecanismo: escala con 22 plantas y todas las tecnologías, sin cliente por encima del 10 %, y precio que sigue al coste con un año de retraso. Quién se queda la mejora: la empresa conserva su diferencial; la eficiencia nueva va en parte al cliente (mezcla más baja en 2025), por eso no subo a la media de diez años.
+- fase_b.desviaciones_justificadas[1].hechos[0]: Historia F29:L29 (15,1-18,0 %)
+- fase_b.desviaciones_justificadas[1].hechos[1]: Historia C48 (16,4 %) y C49 (17,5 %)
+- fase_b.desviaciones_justificadas[1].hechos[2]: Palancas I15 (10,2 %)
+- fase_b.desviaciones_justificadas[1].hechos[3]: extracto AR_2025 p. 137 (22 plantas)
+- fase_b.desviaciones_justificadas[1].hechos[4]: extracto AR_2025 p. 121 (ningún cliente > 10 %)
+- fase_b.desviaciones_justificadas[1].hechos[5]: extracto AR_2025 p. 139 (mezcla ligeramente inferior)
+- fase_b.desviaciones_justificadas[1].hechos[6]: extracto AR_2022 p. 115 (precios que compensan costes)
+- fase_b.desviaciones_justificadas[2].comprobacion: G5
+- fase_b.desviaciones_justificadas[2].escenario: BUENO
+- fase_b.desviaciones_justificadas[2].clase: fundamentada
+- fase_b.desviaciones_justificadas[2].justificacion: 0,18 supera el Q3 del sector pero no el máximo propio (21,1 %): es el techo de 2019-2025 (18,0 % en 2021). Mecanismo: escala; las plantas nuevas de colágeno y plásticos reparten costes fijos al llenarse y la cuota sube sin ceder precio, como entre 2015 y 2021 con margen siempre por encima del 15 %. Quién se queda la mejora: la empresa, solo mientras los competidores no respondan con precio; como no sé quiénes son ni explico la caída de 2016-2019, no subo al máximo histórico.
+- fase_b.desviaciones_justificadas[2].hechos[0]: Historia H29 (18,0 %) y G29 (17,9 %)
+- fase_b.desviaciones_justificadas[2].hechos[1]: Historia C51 (21,1 %)
+- fase_b.desviaciones_justificadas[2].hechos[2]: Palancas I15 (10,2 %)
+- fase_b.desviaciones_justificadas[2].hechos[3]: extracto AR_2025 p. 65 (capacidad nueva)
+- fase_b.desviaciones_justificadas[2].hechos[4]: extracto AR_2025 p. 143 (37 % del capex a capacidad)
+- fase_b.desviaciones_justificadas[2].hechos[5]: extracto AR_2019 p. 121 y AR_2022 p. 200 (cuota 30 % → 41 %)
+- fase_b.herencia.B68.decision: mantiene
+- fase_b.herencia.B68.motivo: misma_evidencia
+- fase_b.herencia.B68.evidencia_y_razonamiento: Revisé la misma base que la etapa 1, el volumen del mercado y sus impulsores (extracto AR_2025 p. 181), y la sostiene: en el MALO solo crece la población (+1 %) y el precio no sigue al coste (mezcla a la baja, extracto AR_2025 p. 139). Con el ROIC terminal del MALO en la tasa (Palancas B18), g casi no mueve el valor: no es un segundo castigo.
+- fase_b.herencia.C68.decision: mantiene
+- fase_b.herencia.C68.motivo: misma_evidencia
+- fase_b.herencia.C68.evidencia_y_razonamiento: Revisada la misma evidencia que usó la etapa 1 (volumen del mercado 2-4 % y sustitución de tripa animal, extracto AR_2025 p. 181; tripa animal 47 % → 44 %, extracto AR_2020 p. 110 y AR_2023 p. 145), sostiene el 2 %: población más un punto de precio, con la sustitución agotándose a perpetuidad. La Historia (C45, 1,4 % en tres años) no pide más.
+- fase_b.herencia.D68.decision: mantiene
+- fase_b.herencia.D68.motivo: misma_evidencia
+- fase_b.herencia.D68.evidencia_y_razonamiento: La etapa 1 no puso el 3 % porque los grandes historiales se apagan; reviso la misma evidencia (cuota 30 % → 41 % en 2015-2022, extracto AR_2022 p. 200; regiones que crecen más, extracto AR_2025 p. 142) y la sostiene: medio punto más que el NORMAL por la sustitución y las regiones, no el máximo de la lista.
+- fase_b.herencia.B69.decision: cambia
+- fase_b.herencia.B69.motivo: evidencia_nueva
+- fase_b.herencia.B69.evidencia_y_razonamiento: La Historia de diez años muestra el MALO dos veces en siete años (Historia F29 y J29, 15,1-15,3 %) y el extracto V6.3 trae el mecanismo actuando ahora: inflación sustancial de pieles y coberturas de dólar superadas (extracto AR_2025 p. 436), mezcla a la baja (p. 139) y EBITDA de 1S26 −7,4 % (Análisis C42, nota). Paso de 0,2 a 0,25.
+- fase_b.herencia.C69.decision: mantiene
+- fase_b.herencia.C69.motivo: evidencia_nueva
+- fase_b.herencia.C69.evidencia_y_razonamiento: La Historia de diez años (fila 29) confirma que el rango de 2019-2025 es el estado más repetido: cinco de siete años con margen entre el 15,7 % y el 18,0 % (Historia G29:L29). Mantengo 0,6 y muevo solo los extremos.
+- fase_b.herencia.D69.decision: cambia
+- fase_b.herencia.D69.motivo: evidencia_nueva
+- fase_b.herencia.D69.evidencia_y_razonamiento: El extracto V6.3 dice que la última cuota publicada es de 2022 (41 %, extracto AR_2022 p. 200) y que en 2025 la mezcla de precios fue ligeramente inferior con volumen récord (extracto AR_2025 p. 139): la cuota se gana cediendo algo de precio, lo contrario del BUENO. Paso de 0,2 a 0,15, por debajo del MALO.
+- fase_b.herencia.C76.decision: cambia
+- fase_b.herencia.C76.motivo: definicion_o_medicion_distinta
+- fase_b.herencia.C76.evidencia_y_razonamiento: La etapa 1 valoraba con el flujo al accionista; la fase A eligió el motor B (Análisis C62), en el que la hoja resta deuda, arrendamientos, pensiones y minoritarios menos la caja, y C76 debe quedar vacía (regla G12). La evidencia de la etapa 1 sigue en pie: efectivo de 57,7 M€ (Análisis C53) frente a 375,8 M€ de deuda (C54); no hay caja sobrante.
+- fase_b.dos_errores.mas_cerca_de: pagar cualquier cosa
+- fase_b.dos_errores.porque: El error que tengo más cerca con Viscofan es pagar por el foso que cuenta la cuota (30 % → 41 % en 2015-2022, extracto AR_2022 p. 200) cuando el margen dice otra cosa: del 21,1 % al 16,4 % en diez años (Historia C29, L29) y un BPA que crece un 3 % anual. A 25,6 veces el FCF base (Análisis C41 y C52), la tentación es subir el BUENO o el ROIC terminal porque es una buena empresa: «Since it's so obvious that investing in great companies works, it gets horribly overdone» (PCA p.214; HIM). El error contrario existe y lo vigilo: un nicho con ROIC de al menos el 12 % diez años (Historia fila 33) no es una commodity, y un MALO que copia el peor año de la década no debe convertirse en el NORMAL. «We left a lot of money on the table through early fretting» (TCI p.79; HIM). Hoy el lado peligroso es el primero.
+- fase_b.observaciones.Palancas!B14: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: −0,01 (mín(Q1, NORMAL − σ)). Decisión: 0,01. Desviación: +0,02 porque el MALO es de margen, no de volumen: los metros crecen y la mezcla y el dólar restan. Tomo el ritmo de tres años, que ya incluye la peor caída del mercado en 24 años.
+Apoyo: Historia C45 (1,4 %) y K28 (−1,8 %); mercado −4 % en 2023 (extracto AR_2023 p. 144); mezcla a la baja (extracto AR_2025 p. 139); dólar −3,0 pp (extracto AR_2025 p. 141). Rango 0-0,02.
+Lo sustituiría: −0,01 si cae el volumen propio (cuota perdida); 0,02 si la mezcla deja de bajar.
+- fase_b.observaciones.Palancas!C14: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,065 (CAGR 5 años, C46). Decisión: 0,045. Desviación: −0,02 porque por componentes sale volumen 3 % + medio punto de cuota + un punto de precio; la referencia lleva el +23,9 % de precios de 2022 y Brasil. Sin 2022 la media anual de 2017-2025 es 4,2 %. No copio la guía de 2026.
+Apoyo: mercado 2-4 % (extracto AR_2025 p. 181); Historia I28 y fila 28; precios de 2022 (extracto AR_2022 p. 115); perímetro (extracto AR_2025 p. 141). Rango 0,035-0,055.
+Lo sustituiría: 0,055 si 2026-2027 crecen ≥ 5 % a tipo constante sin precio extraordinario; 0,035 si el mercado se queda en 2 %.
+- fase_b.observaciones.Palancas!D14: [Clase: fundamentada] [Confianza: baja]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,10 (mín(NORMAL + σ, Q3, 1,5 × C46)). Decisión: 0,07. Desviación: −0,03 porque en la racha de cuota (30 % → 38 % en 2015-2021) las ventas crecieron 5,8 % anual; le sumo capacidad nueva y nuevos negocios (+8,4 % en 2025). El 10 % pide casi el doble sin unidades ni precios que lo sostengan.
+Apoyo: cuota (extracto AR_2019 p. 121; AR_2021 p. 134); Historia D28:H28; capacidad (extracto AR_2025 p. 65); nuevos negocios (extracto AR_2025 p. 141). Rango 0,06-0,08.
+Lo sustituiría: 0,08 si se publica cuota > 43 %; 0,06 si la capacidad se llena con mezcla a la baja.
+- fase_b.observaciones.Palancas!B15: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,165 (máx(mín(m0, media), mínimo)). Decisión: 0,15. Desviación: −0,015 porque la historia del MALO vuelve al mínimo de la serie (15,1 % en 2023; 15,3 % en 2019) y la presión ya está en marcha. Supera el Q3 del sector: justificado (G5).
+Apoyo: Historia C50, F29, J29; pieles (extracto AR_2025 p. 436); dólar −4,6 pp al EBITDA (extracto AR_2025 p. 142); EBITDA 1S26 −7,4 % (Análisis C42, nota); Palancas I15 (10,2 %). Rango 0,14-0,155.
+Lo sustituiría: 0,14 si 2026 cierra por debajo del 15 % con precios ya subidos; 0,155 si traslada pieles y dólar en el año.
+- fase_b.observaciones.Palancas!C15: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,165 (m0 = último año, C48). Decisión: 0,165. Desviación: ninguna porque la media de 2019-2025 es 16,4 %: el precio sigue al coste con retraso y la eficiencia nueva se reparte con el cliente; no subo a la media de diez años (17,5 %), que incluye 2016-2018. Supera el Q3 del sector: justificado (G5).
+Apoyo: Historia C48, C49, F29:L29; margen EBITDA comparable igual en 2024 y 2025 (extracto AR_2025 p. 141); precios y costes (extracto AR_2022 p. 115; AR_2023 p. 239); Palancas I15. Rango 0,155-0,175.
+Lo sustituiría: 0,175 si 2026-2027 vuelven al 17,5 %; 0,155 si 2026 baja del 15,5 %.
+- fase_b.observaciones.Palancas!D15: [Clase: fundamentada] [Confianza: baja]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,165 (m0 ya por encima del Q3). Decisión: 0,18. Desviación: +0,015 porque la escala de las plantas nuevas recupera parte del margen perdido: llevo al techo de 2019-2025, no al 21,1 % de 2016, cuya caída no sé explicar. La mejora es de la empresa solo si nadie responde con precio. Justificado (G5).
+Apoyo: Historia G29, H29, C51; cuota con margen > 15 % (extracto AR_2019 p. 121; AR_2022 p. 200); capacidad (extracto AR_2025 p. 65); 37 % del capex a capacidad (extracto AR_2025 p. 143). Rango 0,175-0,19.
+Lo sustituiría: 0,19 si 2027 pasa del 18 % con la capacidad llena; 0,17 si la mezcla sigue bajando.
+- fase_b.observaciones.Palancas!B16: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,9 (0,75 × NORMAL). Decisión: 0,9. Desviación: ninguna porque en el MALO se invierte en lo que no da ventas (Chequia con la misma capacidad, 27 % del capex en medio ambiente) y en 2021-2025 el capital creció 319 M€ para 283 M€ de ventas nuevas (0,89).
+Apoyo: Historia C53 (1,15) y H32:L32; circulante de 2022-2023 (Historia, partida circulante); Chequia (extracto AR_2025 p. 66); capex (extracto AR_2025 p. 143). Rango 0,8-1,0.
+Lo sustituiría: 0,8 si el capex pasa de 100 M€ sin ventas nuevas; 1,0 si el circulante vuelve al de 2024.
+- fase_b.observaciones.Palancas!C16: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 1,1 (Historia C53). Decisión: 1,1. Desviación: ninguna porque el NORMAL no cambia la forma de crecer: en 2016-2025 el capital creció 436 M€ para 521 M€ de ventas nuevas (1,19), con capex de 1,16 veces la amortización. Rentabilidad marginal 14,6 %, igual que el ROIC de cinco años.
+Apoyo: Historia C53, C54, C55 y C32:L32; compromisos de 52,0 M€ (extracto AR_2025 p. 143). Rango 1,0-1,2.
+Lo sustituiría: 1,2 si 2026-2027 crecen sin capex de capacidad; 1,0 si el capex sigue en 84 M€ con ventas planas.
+- fase_b.observaciones.Palancas!D16: [Clase: fundamentada] [Confianza: baja]
+Hereda: nueva en V6.3.
+Referencia mecánica: 1,4 (1,25 × NORMAL). Decisión: 1,4. Desviación: ninguna porque llenar capacidad ya hecha da más ventas por euro: en la racha de cuota (2016-2021) el capital creció 117 M€ para 238 M€ de ventas (≈2,0), con el margen bajando; me quedo entre ese tramo y la media de diez años (1,19). Rentabilidad marginal 20 %, menos que 2 × C55.
+Apoyo: Historia C32:H32 y fila 28; capacidad y compromisos (extracto AR_2025 pp. 65, 143). Rango 1,2-1,6.
+Lo sustituiría: 1,6 si 2026-2027 crecen > 6 % con capex por debajo de la amortización; 1,2 si hacen falta más plantas.
+- fase_b.observaciones.Palancas!B18: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,08 (tasa del motor). Decisión: 0,08. Desviación: ninguna porque en el MALO el volumen extra se lo quedan proveedores y clientes: el capital nuevo rinde su coste y crecer no añade valor (GV; E3). No bajo de la tasa: diez años de ROIC ≥ 12,1 %. Salto del año 11 ≈ 2,8 puntos.
+Apoyo: Historia fila 33 (F33, 12,1 %) y C55; Diagnóstico V6 C15 (8,3 %); Palancas B15 (0,15). Rango 0,07-0,09.
+Lo sustituiría: 0,09 si el ROIC aguanta > 12 % con margen del 15 %; 0,07 si se pierde cuota.
+- fase_b.observaciones.Palancas!C18: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,08 (tasa del motor; H18 = 12,0 % como alternativa). Decisión: 0,11. Desviación: +0,03 porque C18 = Sí con hechos (ROIC 12,1-16,7 % diez años, cuota al alza) pero el foso se estrecha (margen 21,1 % → 16,4 %): pongo el capital nuevo por debajo del peor año y del sector, ≈2,7 puntos sobre la tasa (MR pp. 62–63; E2). Lo sostienen escala y proceso. Salto del año 11 ≈ 3,6 puntos.
+Apoyo: Historia fila 33, C55, C29, L29; Palancas H18; cuota 41 % (extracto AR_2022 p. 200). Rango 0,09-0,12.
+Lo sustituiría: 0,12 si el margen aguanta > 17 % hasta 2028 con cuota al alza; 0,09 si el ROIC baja del 12 % dos años.
+- fase_b.observaciones.Palancas!D18: [Clase: fundamentada] [Confianza: baja]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,12 (mín(C55; C56 + 0,03)). Decisión: 0,12. Desviación: ninguna porque el BUENO da al capital nuevo lo que rindió el peor año de la década (12,1 %, F33), como la media del sector (12,0 %); no subo al 14,3 % de C55: la ventaja de llenar plantas se agota. Salto del año 11 ≈ 8 puntos: mi hipótesis de pérdida de esa rentabilidad tras el año 10 (G8, fase C).
+Apoyo: Historia F33, C55; Palancas H18. «The question of how long your period in the sun will be is a very good one» (AIWTK p.127; HIM). Rango 0,11-0,13.
+Lo sustituiría: 0,13 si 2026-2028 dan ROIC > 15 % con la capacidad llena; 0,11 si la cuota deja de subir.
+- fase_b.observaciones.Palancas!C22: [Clase: fundamentada] [Confianza: media]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0,05 (disparadores: C34 = No; deuda + arrendamientos > 3 × FCF base). Decisión: 0. Desviación: −0,05 porque la deuda a corto son pólizas ya renovadas tras el cierre, con 155,3 M€ sin disponer; deuda neta 1,13x EBITDA; caja operativa positiva diez años. El riesgo está en el margen y ya lo recogen el MALO y su 0,25 (PA pp. 20–21; E6).
+Apoyo: extracto AR_2025 pp. 98-99 y p. 122 (sin impagos); Análisis C33, C34; Historia C64, partida cfo; deuda por remuneración (extracto AR_2025 p. 144). «Three things ruin people: drugs, liquor, and leverage» (TCI p.68; HIM): aquí no.
+Lo sustituiría: 0,05 si no se renovaran las pólizas o la deuda neta pasara de 2,5x EBITDA.
+- fase_b.observaciones.Palancas!C23: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Referencia mecánica: 0 (convención del ejercicio). Decisión: 0. Desviación: ninguna porque con C22 = 0 la recuperación no actúa; la escribo explícita para que no quede vacía.
+Apoyo: Palancas C22 = 0; deuda bancaria de 267,8 M€ a fin de 2025 (extracto AR_2025 p. 98) por delante del accionista en una quiebra.
+Lo sustituiría: no cambia mientras C22 sea 0; con C22 > 0 seguiría en 0.
+- fase_b.observaciones.Palancas!C24: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Referencia mecánica: vacío (solo con cifra de fuente primaria del año 10). Decisión: vacío. Desviación: ninguna porque el extracto solo da el mercado de 2025 (5.100 M€) y un crecimiento histórico del 2-4 % en volumen; una cifra del año 10 sería mía, no primaria.
+Apoyo: extracto AR_2025 p. 181 (5.100 M€ en 2025; 2-4 % anual); mercado de nuevos negocios «más de 5.000 M€ de potencial» (extracto AR_2025 p. 181), sin año. Convención del ejercicio, no de Damodaran.
+Lo sustituiría: una cifra de mercado a 2035 publicada por la empresa o un estudio sectorial primario.
+- fase_b.observaciones.Palancas!C44: [Clase: convención] [Confianza: alta]
+Hereda: nueva en V6.3.
+Referencia mecánica: no aplica (C43 = No aplica). Decisión: vacío. Desviación: ninguna porque el FCF base es positivo (Análisis C52 = 97,3 M€) y la fila 35 solo es negativa en 2022 (I35, −3,3 M€, circulante de la inflación); C44 solo se informa con Transitorio o Extraordinario, y el motor B valora desde las palancas operativas.
+Apoyo: Análisis C52; Historia fila 35 (I35); Palancas C43.
+Lo sustituiría: un FCF base negativo que la fase A declarase transitorio.
+- fase_b.observaciones.B68: [Clase: fundamentada] [Confianza: media]
+Hereda: 0,01 → mantiene (misma_evidencia): en el MALO solo crece la población y el precio no sigue al coste.
+Referencia mecánica: 0,015 (NORMAL − 0,01). Decisión: 0,01. Desviación: −0,005 porque la referencia añade medio punto de precio que la historia del MALO niega; con el ROIC terminal en la tasa, g casi no mueve el valor (GV; E3).
+Apoyo: población +1 % (extracto AR_2025 p. 181); mezcla a la baja (extracto AR_2025 p. 139); Palancas B18 = 0,08. Rango 0,005-0,015.
+Lo sustituiría: 0,005 si el consumo de carne en emergentes se estancara; 0,015 si los precios volvieran a seguir al coste.
+- fase_b.observaciones.C68: [Clase: fundamentada] [Confianza: media]
+Hereda: 0,02 → mantiene (misma_evidencia): población más un punto de precio, con la sustitución agotándose a perpetuidad.
+Referencia mecánica: 0,025 (mín(0,025; rf)). Decisión: 0,02. Desviación: −0,005 porque a la tripa animal le queda el 44 % y baja despacio, y la empresa ya crece 1,4 % en tres años. Por debajo de rf (3,35 %) y de la tasa (8,3 %).
+Apoyo: tripa animal 47 % → 44 % (extracto AR_2020 p. 110; AR_2023 p. 145); población +1 % (extracto AR_2025 p. 181); Historia C45; Análisis C57. «If a thing can't go on forever, it will eventually stop» (PCA p.416; HIM). Rango 0,015-0,025.
+Lo sustituiría: 0,025 si la sustitución siguiera igual tras 2030; 0,015 si el volumen se estancara.
+- fase_b.observaciones.D68: [Clase: fundamentada] [Confianza: media]
+Hereda: 0,025 → mantiene (misma_evidencia): medio punto más que el NORMAL, no el máximo de la lista.
+Referencia mecánica: 0,03 (mín(NORMAL + 0,005; rf; 0,03)). Decisión: 0,025. Desviación: −0,005 porque ninguna cuota sube para siempre: del año 11 en adelante crece un líder maduro, con algo más de sustitución y de peso en Sudamérica y Asia.
+Apoyo: tipo constante 2025: Sudamérica +12,7 %, Asia +8,4 %, EMEA +1,5 % (extracto AR_2025 p. 142); tripa animal 44 % (extracto AR_2023 p. 145). «most big businesses eventually fall into mediocrity or worse» (AIWTK p.140; HIM). Rango 0,02-0,03.
+Lo sustituiría: 0,03 si la cuota siguiera subiendo tras 2030; 0,02 si la sustitución se frena.
+- fase_b.observaciones.B69: [Clase: fundamentada] [Confianza: media]
+Hereda: 0,2 → cambia (evidencia_nueva): la Historia muestra el MALO dos veces en siete años y el extracto V6.3 trae su mecanismo actuando.
+Referencia mecánica: 0,2 (0,2/0,6/0,2, convención). Decisión: 0,25. Desviación: +0,05 porque pieles, dólar y mezcla presionan ahora y el EBITDA de 1S26 cae 7,4 %; no por frecuencia. La quiebra queda en 0: no cuento la deuda dos veces.
+Apoyo: extracto AR_2025 p. 436 (pieles, coberturas) y p. 139 (mezcla); Análisis C42 (nota); Historia F29, J29. «when you're managing your money, recognize that terrible things can happen» (AIWTK pp.77–78; HIM).
+Lo sustituiría: 0,2 si 2026 cierra con margen EBIT ≥ 16,5 %; 0,3 si cierra por debajo del 15 %.
+- fase_b.observaciones.C69: [Clase: convención] [Confianza: media]
+Hereda: 0,6 → mantiene (evidencia_nueva): la Historia de diez años confirma que el rango de 2019-2025 es lo más repetido.
+Referencia mecánica: 0,6 (convención). Decisión: 0,6. Desviación: ninguna porque cinco de los siete años de 2019-2025 tienen margen entre el 15,7 % y el 18,0 %; lo que muevo, lo muevo entre los extremos. Suman 1 y cubren el rango.
+Apoyo: Historia F29:L29 (15,1-18,0 %).
+Lo sustituiría: 0,5 si 2026 y 2027 confirman el MALO.
+- fase_b.observaciones.D69: [Clase: fundamentada] [Confianza: media]
+Hereda: 0,2 → cambia (evidencia_nueva): la cuota dejó de publicarse en 2022 y la mezcla de 2025 va contra el BUENO.
+Referencia mecánica: 0,2 (convención). Decisión: 0,15. Desviación: −0,05 porque es la historia menos probada: gana volumen cediendo algo de precio, lo contrario de «sin ceder precio», y la capacidad nueva no tiene historial. Queda por debajo del MALO.
+Apoyo: cuota 41 % en 2022 (extracto AR_2022 p. 200); mezcla (extracto AR_2025 p. 139); plantas nuevas (extracto AR_2025 p. 65); Historia H29 (18,0 %, último año en la zona del BUENO).
+Lo sustituiría: 0,2 si se publica una cuota de 2026 por encima del 41 % con margen ≥ 17 %.
+- fase_b.observaciones.C76: [Clase: convención] [Confianza: alta]
+Hereda: 0 → cambia (definicion_o_medicion_distinta): con el motor B la hoja ya resta deuda menos caja y C76 queda vacía.
+Referencia mecánica: vacío en B (regla del inversor v1.2). Decisión: vacío. Desviación: ninguna porque en el motor B sumar caja aquí la contaría dos veces; y no hay caja sobrante.
+Apoyo: efectivo 57,7 M€ (Análisis C53) frente a deuda de 375,8 M€ (Análisis C54); C34 = No; motor B (Análisis C62). «Excess cash is an advantage, not a disadvantage» (TCI p.141; HIM): aquí no existe.
+Lo sustituiría: la vuelta al motor A con caja neta positiva.
