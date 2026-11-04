@@ -1,6 +1,6 @@
 {
- "paso": 13,
- "estado_analisis": null,
+ "paso": 14,
+ "estado_analisis": "concluido",
  "intentos": {
   "fase_b": 0,
   "fase_c": 0,
@@ -50,23 +50,32 @@
   "  $ bash recalc.sh Viscofan_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/recalc/Viscofan_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/.lo_perfil)",
   "  $ python3 leer_resultados.py Viscofan_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Viscofan/resultados.json · motor B · estado COMPLETO Y VÁLIDO · libro LISTO · PROVISIONAL (22 estimaciones justificadas)",
   "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 54.7 · esc. MALO 35.3886020412093 · precio de Sí 43.0510 (P* 43.0510) · ponderado 46.8821 · zona caro",
-  "  $ bash verificar_todo.sh Viscofan Viscofan_v63_evaluada.xlsx Viscofan_v63_datos.xlsx → 0 · RESULTADO verificar_todo.sh: PASS"
+  "  $ bash verificar_todo.sh Viscofan Viscofan_v63_evaluada.xlsx Viscofan_v63_datos.xlsx → 0 · RESULTADO verificar_todo.sh: PASS",
+  "  $ python3 ficha.py Viscofan --estado concluido → 0 · OK: ficha.json · estado concluido · cubo Vigilar · acción esperar",
+  "  $ python3 validar_esquema.py ficha.json ficha --salida esquema_ficha.json.txt → 0 · VÁLIDO · ficha.json contra ficha.esquema.json",
+  "  $ python3 informe.py Viscofan → 0 · OK: informe.md (13 secciones)",
+  "  $ python3 resumen.py Viscofan resumen_v2.csv → 0 · OK: fila de Viscofan, S.A. en /home/user/Joselito/personaje_v2/empresas_v2/resumen_v2.csv",
+  "2026-11-04T09:29:28 · paso 14 · FIN · estado concluido · auditoría APROBADO"
  ],
  "motor": "B",
  "fase_b_escrita": true,
  "fase_c_escrita": true,
- "esperando": "13:auditoria.md",
+ "esperando": null,
  "inicio": "2026-11-04T08:49:45",
  "esperando_desde": 1793784371.294714,
  "consumidos": {
   "extracto_v63.md": 1793782579.3884652,
   "fase_a.json": 1793783115.0380526,
   "fase_b.json": 1793783649.088407,
-  "fase_c.json": 1793784323.0978537
+  "fase_c.json": 1793784323.0978537,
+  "auditoria.md": 1793784549.0725822
  },
  "motivo_correccion": null,
  "turno_c": null,
  "estado_pendiente": null,
  "estado_analisis_fase_c": "concluido",
- "motivo_correccion_c": null
+ "motivo_correccion_c": null,
+ "auditoria": "APROBADO",
+ "fin": "2026-11-04T09:29:28",
+ "ficha_valida": true
 }

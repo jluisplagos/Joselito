@@ -95,3 +95,6 @@ Encargo vigente: **versión 0.2.1** (2-nov-2026). **Dos empresas reales hechas: 
 
 ## Nike (3-nov-2026, personaje v2.1)
 concluido · Vigilar · esperar · precio de Sí 18,69 $ (precio 39,12 $, zona caro) · auditoría APROBADO. Dudoso: EBIT de la Historia con definición mixta entre años (2024: 7.089 en la Historia frente a 6.311 del 10-K, según la auditoría); C18 (ROIC terminal del NORMAL) sin fundamento propio; faltan el 10-K de FY2026 y el 10-Q de FY2027 (se usan cifras de la etapa 1). Ver DECISIONES.md (C48/C49 en US GAAP; comilla abierta en volcar_datos_v63).
+
+## Viscofan (4-nov-2026, personaje v2.2)
+concluido · Vigilar · esperar · precio de Sí 43,05 € (precio 54,70 €, zona caro; MALO 35,39 · ponderado 46,88) · motor B · auditoría APROBADO. Dudoso: tipo impositivo de Historia C52 (19,8 %) con el 10,1 % puntual de 2025 (≈ +3 % optimista en el precio de Sí); capex 2021 con etiquetas del PDF desplazadas; circulante con y sin «Changes in provisions» según el año; fase A pasó de motor A (etapa 1) a B (deuda 116,8→304,1 M€); rf 3,35 % intradía.
