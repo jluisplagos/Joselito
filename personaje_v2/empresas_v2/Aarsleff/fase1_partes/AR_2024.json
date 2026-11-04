@@ -1,0 +1,577 @@
+{
+ "anio": 2024,
+ "archivo": "AR_2024.txt",
+ "fecha_cierre": "2024-09-30",
+ "moneda": "DKK",
+ "unidad": "millones",
+ "reexpresion": "Sin reexpresion de cifras del ano anterior mencionada; operaciones discontinuadas en 2022/23 (nota 32) ya presentadas por separado (beneficio -6).",
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenue",
+     "impreso": "21,719",
+     "pagina": 95,
+     "linea": "Revenue  21,719  20,244  Profit for the year  826  792"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenue",
+     "impreso": "20,244",
+     "pagina": 95,
+     "linea": "Revenue  21,719  20,244  Profit for the year  826  792"
+    }
+   ],
+   "cero": null,
+   "nota": "DKKm"
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Operating profit (EBIT)",
+     "impreso": "1,101",
+     "pagina": 95,
+     "linea": "Operating profit (EBIT)  1,101  1,078"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Operating profit (EBIT)",
+     "impreso": "1,078",
+     "pagina": 95,
+     "linea": "Operating profit (EBIT)  1,101  1,078"
+    }
+   ],
+   "cero": null,
+   "nota": "Subtotal impreso en la cuenta de resultados"
+  },
+  "ebit_derivado": {
+   "actual": [
+    {
+     "concepto": "Profit before tax",
+     "impreso": "1,088",
+     "pagina": 95,
+     "linea": "Profit before tax  1,088  1,042  Total comprehensive income  828  797",
+     "signo": 1
+    },
+    {
+     "concepto": "Financial income",
+     "impreso": "93",
+     "pagina": 95,
+     "linea": "Financial income  93  35",
+     "signo": -1
+    },
+    {
+     "concepto": "Financial expenses",
+     "impreso": "-106",
+     "pagina": 95,
+     "linea": "Financial expenses  -106  -71",
+     "signo": -1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit before tax",
+     "impreso": "1,042",
+     "pagina": 95,
+     "linea": "Profit before tax  1,088  1,042  Total comprehensive income  828  797",
+     "signo": 1
+    },
+    {
+     "concepto": "Financial income",
+     "impreso": "35",
+     "pagina": 95,
+     "linea": "Financial income  93  35",
+     "signo": -1
+    },
+    {
+     "concepto": "Financial expenses",
+     "impreso": "-71",
+     "pagina": 95,
+     "linea": "Financial expenses  -106  -71",
+     "signo": -1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado: BAI menos resultado financiero (ingresos financieros 93 y gastos financieros -106). Coincide con el EBIT impreso 1,101."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Depreciation, amortisation and impairment",
+     "impreso": "803",
+     "pagina": 97,
+     "linea": "Depreciation, amortisation and impairment  803  783  Cash flow from operating activities"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Depreciation, amortisation and impairment",
+     "impreso": "783",
+     "pagina": 97,
+     "linea": "Depreciation, amortisation and impairment  803  783  Cash flow from operating activities"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "Shareholders of Per Aarsleff Holding A/S",
+     "impreso": "806",
+     "pagina": 95,
+     "linea": "Shareholders of Per Aarsleff Holding A/S  806  786"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Shareholders of Per Aarsleff Holding A/S",
+     "impreso": "786",
+     "pagina": 95,
+     "linea": "Shareholders of Per Aarsleff Holding A/S  806  786"
+    }
+   ],
+   "cero": null,
+   "nota": "Profit for the year attributable to shareholders of Per Aarsleff Holding A/S"
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Tax on profit for the year",
+     "impreso": "-262",
+     "pagina": 95,
+     "linea": "Tax on profit for the year  -262  -244"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Tax on profit for the year",
+     "impreso": "-244",
+     "pagina": 95,
+     "linea": "Tax on profit for the year  -262  -244"
+    }
+   ],
+   "cero": null,
+   "nota": "Impreso con signo negativo (gasto)"
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Profit before tax",
+     "impreso": "1,088",
+     "pagina": 95,
+     "linea": "Profit before tax  1,088  1,042  Total comprehensive income  828  797"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Profit before tax",
+     "impreso": "1,042",
+     "pagina": 95,
+     "linea": "Profit before tax  1,088  1,042  Total comprehensive income  828  797"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "Cash flow from operating activities  ",
+     "impreso": "1,981",
+     "pagina": 97,
+     "linea": "Cash flow from operating activities  1,981  1,102  of securities not included in cash and cash equivalents. Acquisition prices are measured including costs of purchase, and"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash flow from operating activities  ",
+     "impreso": "1,102",
+     "pagina": 97,
+     "linea": "Cash flow from operating activities  1,981  1,102  of securities not included in cash and cash equivalents. Acquisition prices are measured including costs of purchase, and"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Investments in property, plant and equipment",
+     "impreso": "-817",
+     "pagina": 97,
+     "linea": "Investments in property, plant and equipment  -817  -892"
+    },
+    {
+     "concepto": "Investments in intangible assets",
+     "impreso": "-29",
+     "pagina": 97,
+     "linea": "Investments in intangible assets  -29  -30  Cash flow from financing activities"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Investments in property, plant and equipment",
+     "impreso": "-892",
+     "pagina": 97,
+     "linea": "Investments in property, plant and equipment  -817  -892"
+    },
+    {
+     "concepto": "Investments in intangible assets",
+     "impreso": "-30",
+     "pagina": 97,
+     "linea": "Investments in intangible assets  -29  -30  Cash flow from financing activities"
+    }
+   ],
+   "cero": null,
+   "nota": "Pagos por inmovilizado material e intangible; no se incluyen compras de activos por arrendamiento (no monetarias)"
+  },
+  "adquisiciones": {
+   "actual": [
+    {
+     "concepto": "Acquisitions",
+     "impreso": "-73",
+     "pagina": 97,
+     "linea": "Acquisitions  -73  -17  sition, and cash flows from divested companies are recognised until the date of divestment."
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Acquisitions",
+     "impreso": "-17",
+     "pagina": 97,
+     "linea": "Acquisitions  -73  -17  sition, and cash flows from divested companies are recognised until the date of divestment."
+    }
+   ],
+   "cero": null,
+   "nota": "No hay linea separada de ventas de negocios en el estado de flujos"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories",
+     "impreso": "4",
+     "pagina": 130,
+     "linea": "Inventories  4  -32"
+    },
+    {
+     "concepto": "Work in progress, net",
+     "impreso": "-220",
+     "pagina": 130,
+     "linea": "Work in progress, net  -220  149"
+    },
+    {
+     "concepto": "Receivables",
+     "impreso": "54",
+     "pagina": 130,
+     "linea": "Receivables  54  -1,020"
+    },
+    {
+     "concepto": "Trade payables, other payables, etc.",
+     "impreso": "221",
+     "pagina": 130,
+     "linea": "Trade payables, other payables, etc.  221  301"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories",
+     "impreso": "-32",
+     "pagina": 130,
+     "linea": "Inventories  4  -32"
+    },
+    {
+     "concepto": "Work in progress, net",
+     "impreso": "149",
+     "pagina": 130,
+     "linea": "Work in progress, net  -220  149"
+    },
+    {
+     "concepto": "Receivables",
+     "impreso": "-1,020",
+     "pagina": 130,
+     "linea": "Receivables  54  -1,020"
+    },
+    {
+     "concepto": "Trade payables, other payables, etc.",
+     "impreso": "301",
+     "pagina": 130,
+     "linea": "Trade payables, other payables, etc.  221  301"
+    }
+   ],
+   "cero": null,
+   "nota": "Nota 27; suma 59 / -602 igual que la linea impresa 'Change in working capital' del estado de flujos (p97)"
+  },
+  "intereses": {
+   "actual": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "-87",
+     "pagina": 97,
+     "linea": "Interest paid  -87  -63  Cash flow from investing activities"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Interest paid",
+     "impreso": "-63",
+     "pagina": 97,
+     "linea": "Interest paid  -87  -63  Cash flow from investing activities"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": {
+    "motivo": "Los intereses pagados (Interest paid) figuran en actividades de explotacion; el bloque de financiacion no contiene intereses",
+    "pagina": 97
+   },
+   "nota": null
+  },
+  "arrendamientos_principal": {
+   "actual": [
+    {
+     "concepto": "Lease payments",
+     "impreso": "-251",
+     "pagina": 97,
+     "linea": "Lease payments  -251  -235"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Lease payments",
+     "impreso": "-235",
+     "pagina": 97,
+     "linea": "Lease payments  -251  -235"
+    }
+   ],
+   "cero": null,
+   "nota": "Pagos de arrendamiento (principal; el interes de arrendamiento esta en Interest paid)"
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "Share-based payment (staff costs)",
+     "impreso": "36",
+     "pagina": 109,
+     "linea": "Share-based payment  36  31"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Share-based payment (staff costs)",
+     "impreso": "31",
+     "pagina": 109,
+     "linea": "Share-based payment  36  31"
+    }
+   ],
+   "cero": null,
+   "nota": "Nota 7 gastos de personal"
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "No hay gasto de I+D reconocido en resultados en el informe (null)"
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Average no. of shares in circulation, diluted (thousands)",
+     "impreso": "19,313",
+     "pagina": 112,
+     "linea": "Average no. of shares in circulation, diluted (thousands)  19,313  19,561"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Average no. of shares in circulation, diluted (thousands)",
+     "impreso": "19,561",
+     "pagina": 112,
+     "linea": "Average no. of shares in circulation, diluted (thousands)  19,313  19,561"
+    }
+   ],
+   "cero": null,
+   "nota": "En miles de acciones"
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Equity, shareholders of Per Aarsleff Holding A/S",
+     "impreso": "4,947",
+     "pagina": 96,
+     "linea": "Equity, shareholders of Per Aarsleff Holding A/S  4,947  4,372"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Equity, shareholders of Per Aarsleff Holding A/S",
+     "impreso": "4,372",
+     "pagina": 96,
+     "linea": "Equity, shareholders of Per Aarsleff Holding A/S  4,947  4,372"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Mortgage debt (no corriente)",
+     "impreso": "79",
+     "pagina": 96,
+     "linea": "Mortgage debt  79  85"
+    },
+    {
+     "concepto": "Credit institutions (no corriente)",
+     "impreso": "856",
+     "pagina": 96,
+     "linea": "Credit institutions  856  1,645"
+    },
+    {
+     "concepto": "Mortgage debt (corriente)",
+     "impreso": "6",
+     "pagina": 96,
+     "linea": "Mortgage debt  6  6"
+    },
+    {
+     "concepto": "Credit institutions (corriente)",
+     "impreso": "75",
+     "pagina": 96,
+     "linea": "Credit institutions  75  138"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Mortgage debt (no corriente)",
+     "impreso": "85",
+     "pagina": 96,
+     "linea": "Mortgage debt  79  85"
+    },
+    {
+     "concepto": "Credit institutions (no corriente)",
+     "impreso": "1,645",
+     "pagina": 96,
+     "linea": "Credit institutions  856  1,645"
+    },
+    {
+     "concepto": "Mortgage debt (corriente)",
+     "impreso": "6",
+     "pagina": 96,
+     "linea": "Mortgage debt  6  6"
+    },
+    {
+     "concepto": "Credit institutions (corriente)",
+     "impreso": "138",
+     "pagina": 96,
+     "linea": "Credit institutions  75  138"
+    }
+   ],
+   "cero": null,
+   "nota": "Sin pasivos por arrendamiento (todos NIIF 16)"
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Lease liabilities (no corriente)",
+     "impreso": "557",
+     "pagina": 96,
+     "linea": "Lease liabilities  557  449"
+    },
+    {
+     "concepto": "Lease liabilities (corriente)",
+     "impreso": "230",
+     "pagina": 96,
+     "linea": "Lease liabilities  230  183"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Lease liabilities (no corriente)",
+     "impreso": "449",
+     "pagina": 96,
+     "linea": "Lease liabilities  557  449"
+    },
+    {
+     "concepto": "Lease liabilities (corriente)",
+     "impreso": "183",
+     "pagina": 96,
+     "linea": "Lease liabilities  230  183"
+    }
+   ],
+   "cero": null,
+   "nota": "Coincide con la nota 15 (p116)"
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "387",
+     "pagina": 96,
+     "linea": "Cash and cash equivalents  387  579"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "579",
+     "pagina": 96,
+     "linea": "Cash and cash equivalents  387  579"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": [
+    {
+     "concepto": "Securities",
+     "impreso": "479",
+     "pagina": 96,
+     "linea": "Securities  479  485"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Securities",
+     "impreso": "485",
+     "pagina": 96,
+     "linea": "Securities  479  485"
+    }
+   ],
+   "cero": null,
+   "nota": "Valores (securities) en activo corriente"
+  },
+  "pensiones": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe solo muestra gasto de pensiones (357/313, nota 7) y no revela provision por prestaciones definidas; no se puede mostrar cero"
+  },
+  "minoritarios": {
+   "actual": [
+    {
+     "concepto": "Minority interests. share of equity",
+     "impreso": "51",
+     "pagina": 96,
+     "linea": "Minority interests’ share of equity  51  32"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Minority interests. share of equity",
+     "impreso": "32",
+     "pagina": 96,
+     "linea": "Minority interests’ share of equity  51  32"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  }
+ }
+}
