@@ -3,7 +3,7 @@
  "version_config": "0.2.2",
  "version_gramatica": "0.2.1",
  "version_referencias_mecanicas": "0.2.1",
- "version_personaje": "v2.1",
+ "version_personaje": "v2.2",
  "plantilla": {
   "archivo": "../v6/entregables/Plantilla_V6.3.xlsx",
   "referencia": "../v6/referencia/referencia_V6.3.json",

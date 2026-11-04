@@ -7,7 +7,8 @@ Localiza los estados financieros consolidados (cuenta de resultados, balance, es
 | clave | qué es | dónde |
 |---|---|---|
 | ventas | ingresos ordinarios (revenue / sales / importe neto de la cifra de negocios) | cuenta de resultados |
-| ebit | resultado de explotación / operating profit (EBIT) tal como lo presenta la cuenta de resultados | cuenta de resultados |
+| ebit | el subtotal **impreso** de resultado de explotación / operating income / EBIT, si la cuenta de resultados lo trae; si no lo trae, `null` (no lo calcules aquí) | cuenta de resultados |
+| ebit_derivado | **siempre** (v2.2): resultado antes de impuestos (signo 1) y, con `"signo": -1`, cada línea del **resultado financiero** que haya entre el resultado de explotación y el resultado antes de impuestos: ingresos y gastos financieros / interest income and expense, diferencias de cambio y deterioros o resultados de instrumentos financieros si la empresa los agrupa en ese bloque. **No** restes «Other (income) expense», resultados de participadas ni partidas extraordinarias: quedan dentro del EBIT derivado. Así el EBIT de los diez años sale con la misma definición | cuenta de resultados |
 | da | amortizaciones y depreciaciones (y deterioros si van en la misma línea) | estado de flujos (o cuenta de resultados) |
 | beneficio_neto | resultado atribuido a la sociedad dominante | cuenta de resultados |
 | impuestos | gasto por impuesto sobre beneficios | cuenta de resultados |
@@ -33,7 +34,7 @@ Localiza los estados financieros consolidados (cuenta de resultados, balance, es
 ## Reglas
 - Cada importe como **componentes**: una lista de `{"concepto", "impreso", "pagina", "linea"}` (y `"signo"` solo cuando haga falta restar; ver EBIT). `impreso` es el número **tal como está impreso** (cadena, con separadores y signo: "1,125,977", "(12.345)", "-8,580"); `linea` es la línea literal donde aparece (copiada del texto, recortada a ≤ 200 caracteres). Si el total no está impreso (p. ej. deuda corriente + no corriente), da cada componente; el script suma. Si el total está impreso, da solo el total.
 - **Cero con evidencia** (`cero`): cuando la partida no existe para la empresa (no hay línea de adquisiciones, no hay minoritarios, no hay plan de pagos en acciones, no hay arrendamientos antes de IFRS 16, no hay deuda financiera), escribe `"cero": {"motivo": "...", "pagina": n}` con la página que lo muestra (el balance sin la línea, la nota que dice que no hay plan). Si no puedes mostrarlo, `null` (desconocido), no cero.
-- **EBIT sin subtotal impreso** (cuentas de resultados que pasan de los gastos al resultado financiero sin «resultado de explotación»): da como componentes el resultado antes de impuestos y cada línea del resultado financiero y de participadas que haya entre ambos, con `"signo": -1` en esas líneas (el script calcula EBIT = BAI − resultado financiero). Por ejemplo, BAI «93.039» (signo 1), gastos financieros «(10.311)» (signo −1), ingresos financieros «1.208» (signo −1). Anota en `nota` que el EBIT es derivado. Un `signo` solo puede ser 1 o −1 (por defecto 1).
+- **EBIT derivado** (`ebit_derivado`, siempre, también cuando hay subtotal impreso): componentes = resultado antes de impuestos y cada línea del resultado financiero, con `"signo": -1` en estas (el script calcula EBIT = BAI − resultado financiero). Por ejemplo, BAI «93.039» (signo 1), gastos financieros «(10.311)» (signo −1), ingresos financieros «1.208» (signo −1). Anota en `nota` que el EBIT es derivado. Un `signo` solo puede ser 1 o −1 (por defecto 1).
 - Si dudas entre dos líneas, elige la que encaja con la definición de la tabla y pon la otra en `nota`.
 - Unidades: anota la unidad impresa de los estados (p. ej. "miles de euros", "kEUR", "EUR million").
 
@@ -47,6 +48,6 @@ Localiza los estados financieros consolidados (cuenta de resultados, balance, es
    ...,
    "circulante_lineas": {"actual": [ ...una por línea... ], "anterior": [ ... ], "cero": null, "nota": null}}}
 ```
-`unidad` es una de: "unidades", "miles", "millones". Están las 23 claves de la tabla, siempre (con `actual`/`anterior` a null si no hay dato).
+`unidad` es una de: "unidades", "miles", "millones". Están las 24 claves de la tabla, siempre (con `actual`/`anterior` a null si no hay dato).
 
 Antes de terminar, ejecuta `python3 {RAIZ}/scripts/fase1_historia.py comprobar-anio {CARPETA} {ANIO}`: comprueba que cada `impreso` está en su `linea` y que la `linea` está en su página. Corrige hasta que pase. Mensaje final (≤ 8 líneas): partidas null y por qué, ambigüedades, reexpresiones. No leas ni escribas nada fuera de la carpeta de la empresa (salvo ejecutar ese script). No leas ningún repositorio que no sea esta carpeta.

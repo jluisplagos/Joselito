@@ -33,7 +33,10 @@ RAIZ = os.path.normpath(os.path.join(AQUI, ".."))
 PARTIDAS = ["ventas", "ebit", "da", "beneficio_neto", "impuestos", "bai", "cfo", "capex", "adquisiciones", "circulante_lineas", "intereses",
             "intereses_financiacion", "arrendamientos_principal", "sbc", "id", "acciones_diluidas", "patrimonio", "deuda", "arrendamientos",
             "caja", "otros_activos_financieros", "pensiones", "minoritarios"]
-CON_SIGNO = {"ebit", "beneficio_neto", "bai", "cfo", "patrimonio"}
+CON_SIGNO = {"ebit", "ebit_derivado", "beneficio_neto", "bai", "cfo", "patrimonio"}
+# v2.2 (Nike, 3-nov-2026): EBIT con una sola definición en los diez años. `ebit_derivado` = BAI − resultado financiero; si está
+# los diez años se usa para todos, si no, el subtotal impreso; nunca se mezclan definiciones sin dejarlo en historia_revision.md
+OPCIONALES = ["ebit_derivado"]
 ESENCIALES = ["ventas", "ebit", "beneficio_neto", "cfo", "capex", "patrimonio", "caja", "acciones_diluidas"]
 ESCALA = {"unidades": 1e-6, "miles": 1e-3, "millones": 1.0}
 CLAVE_ESTADOS = re.compile(r"balance sheet|statement of financial position|cash flow statement|statement of cash flows|estado de flujos|balance consolidado|estado de situaci", re.I)
@@ -253,7 +256,7 @@ def construir(carpeta):
         return abs(v)
 
     serie, fuente, notas_k = {}, {}, {}
-    for k in PARTIDAS:
+    for k in PARTIDAS + OPCIONALES:
         serie[k], fuente[k] = [], []
         for a in anios:
             v, f, _ = leer(a, k, "actual")
@@ -271,6 +274,15 @@ def construir(carpeta):
             else:
                 serie[k].append(None if v is None else round(ajustar(k, v), 4))
             fuente[k].append(f or "desconocido")
+    # EBIT homogéneo (v2.2)
+    ebit_metodo = "impreso"
+    if all(v is not None for v in serie["ebit_derivado"]):
+        difs = [(a, i, d) for a, i, d in zip(anios, serie["ebit"], serie["ebit_derivado"]) if i is not None and abs(i - d) > max(0.005 * abs(d), 0.001)]
+        for a, i, d in difs:
+            rev.append(f"- **ebit {a}**: subtotal impreso = {round(i, 3)} · derivado (BAI − resultado financiero) = {round(d, 3)} → se usa el derivado los diez años (misma definición)")
+        serie["ebit"], fuente["ebit"], ebit_metodo = serie["ebit_derivado"], fuente["ebit_derivado"], "derivado"
+    elif any(v is not None for v in serie["ebit_derivado"]) or any(v is None for v in serie["ebit"]):
+        rev.append("- **AVISO EBIT**: no hay EBIT derivado los diez años; se usa el subtotal impreso donde existe. Revisar que la definición sea la misma todos los años.")
     # tipo impositivo
     tipo = []
     for i in range(len(anios)):
@@ -294,7 +306,7 @@ def construir(carpeta):
         H[clave] = {"valores": vals, "fuente": "; ".join(f"{a} {s}" for a, s in zip(anios, fu)), "pagina": None, "nota": nota + extra}
     base = "Construido por fase1_historia.py: cifra más reciente publicada de cada año (comparativo del informe siguiente cuando existe)."
     for k in ["ventas", "ebit", "da", "beneficio_neto"]:
-        poner(k, serie[k], fuente[k], base)
+        poner(k, serie[k], fuente[k], base + (" EBIT = resultado antes de impuestos − resultado financiero, la misma definición los diez años (v2.2)." if k == "ebit" and ebit_metodo == "derivado" else ""))
     H["tipo_impositivo"] = {"valores": tipo, "fuente": "impuestos ÷ resultado antes de impuestos; " + "; ".join(f"{a} {x} / {y}" for a, x, y in zip(anios, fuente["impuestos"], fuente["bai"])), "pagina": None, "nota": "Vacío si el resultado antes de impuestos es ≤ 0."}
     for k in ["cfo", "capex", "adquisiciones"]:
         poner(k, serie[k], fuente[k], base + (" Adquisiciones = −(pagos y cobros por negocios del estado de flujos)." if k == "adquisiciones" else ""))
@@ -311,6 +323,13 @@ def construir(carpeta):
     f1["anios_fcf_base"] = meta.get("anios_fcf_base", 3)
     f1["historia"] = {"anios": anios, "partidas": H}
     f1["analisis"] = meta.get("analisis") or {}
+    # v2.2 (Nike): los datos base del DCF (Análisis C46–C50) salen de la Historia si la etapa 1 no los trae: media de los
+    # últimos anios_fcf_base ejercicios. rellenar_fase1_v63.py solo los escribe en celdas vacías (no pisa la etapa 1).
+    n_fcf = int(meta.get("anios_fcf_base", 3) or 3)
+    for celda, k in (("C46", "cfo"), ("C47", "capex"), ("C48", "intereses_financiacion"), ("C49", "arrendamientos_principal"), ("C50", "sbc")):
+        ult = serie[k][-n_fcf:]
+        if celda not in f1["analisis"] and len(ult) == n_fcf and all(v is not None for v in ult):
+            f1["analisis"][celda] = {"valor": round(sum(ult) / n_fcf, 3), "fuente": f"Historia de fase1_v63.json, media {anios[-n_fcf]}–{anios[-1]} de {k}: " + "; ".join(fuente[k][-n_fcf:])[:400], "pagina": None, "periodo": f"{anios[-n_fcf]}–{anios[-1]}", "unidad": "mm"}
     if not f1.get("capitalizacion") and f1.get("precio") and f1.get("acciones_diluidas"):
         f1["capitalizacion"] = {"valor": round(f1["precio"]["valor"] * f1["acciones_diluidas"]["valor"], 1), "fecha": f1["precio"].get("fecha"), "fuente": "precio × acciones diluidas"}
     f1["_notas"] = ["Historia construida por scripts/fase1_historia.py (pieza 7); revisión completa en historia_revision.md."] + list(meta.get("_notas") or [])
