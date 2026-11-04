@@ -1,0 +1,83 @@
+{
+ "empresa": "Hermès International SCA",
+ "ticker": "RMS (Euronext Paris)",
+ "fecha_analisis": "2026-11-04",
+ "sector_texto": "Artículos de lujo de cuero y marroquinería, prêt-à-porter, seda, perfumes, relojes y joyería",
+ "moneda_modelo": "EUR",
+ "norma_contable": "IFRS",
+ "cierre_fiscal": "diciembre",
+ "mercado": "Euronext Paris",
+ "ratio_adr": null,
+ "sector_damodaran": "Apparel",
+ "precio": {
+  "valor": 1312.5,
+  "moneda_cotizacion": "EUR",
+  "fecha": "2026-11-03",
+  "fx": null,
+  "fx_fecha": null,
+  "fuente": "Cierre Euronext Paris 3-nov-2026 17:35 (Boursorama, Zonebourse y Fortuneo coinciden: 1.312,50 EUR, -0,61%; cierre previo 1.320,50). Otras páginas sin fecha mostraban cifras distintas y se descartaron por antiguas."
+ },
+ "acciones_diluidas": {
+  "valor": 105.036704,
+  "fecha": "2025-12-31",
+  "fuente": "AR_2025.txt, nota de beneficio por acción: media de acciones tras dilución 105.036.704 (105.569.412 emitidas - 733.303 propias + 200.595 dilutivas)",
+  "pagina": 395
+ },
+ "capitalizacion": {
+  "valor": 137860.7,
+  "fecha": "2026-11-03",
+  "fuente": "precio 1.312,50 EUR x 105,036704 M acciones diluidas"
+ },
+ "tasa_sin_riesgo": {
+  "valor": 0.0331,
+  "fuente": "Bund alemán a 10 años (Alemania, AAA), 3,31% según Trading Economics, nota del 2026-10-30 (mínimo desde agosto); cierre de octubre ~3,34%. No se pudo obtener la lectura del 2026-11-04."
+ },
+ "geografia": [
+  {
+   "pais": "France",
+   "pct": 0.0984,
+   "nota": "Francia"
+  },
+  {
+   "pais": "Región · Western Europe",
+   "pct": 0.1476,
+   "nota": "Europa excluida Francia; convención: Europa del informe asimilada a Europa Occidental"
+  },
+  {
+   "pais": "Japan",
+   "pct": 0.0994,
+   "nota": "Japón"
+  },
+  {
+   "pais": "Región · Asia",
+   "pct": 0.4188,
+   "nota": "Asia-Pacífico excluido Japón"
+  },
+  {
+   "pais": "Región · North America",
+   "pct": 0.1922,
+   "nota": "«Americas» del informe (mayoría EE. UU.); incluye algo de Centro y Sudamérica, asimilado a Norteamérica"
+  },
+  {
+   "pais": "Región · Middle East",
+   "pct": 0.0436,
+   "nota": "«Other (Middle East)» del informe"
+  }
+ ],
+ "geografia_fuente": {
+  "fuente": "AR_2025.txt, nota 4 Información por segmentos: ventas por zona geográfica de destino, total 16.002 M EUR",
+  "pagina": 365
+ },
+ "convenciones": {
+  "caja_incluye_otros_activos_financieros": false,
+  "motivo_caja": "Caja y equivalentes 12.239 M EUR (p. 358) ya incluye depósitos a plazo que cumplen criterios de equivalente. Las inversiones financieras de 1.086 M EUR (nota 10.2, p. 384) están en activos financieros no corrientes, no cumplen criterio de equivalente (vencimiento original >3 meses), por lo que no se suman."
+ },
+ "anios_fcf_base": 3,
+ "_notas": [
+  "Precio: cierre del 3-nov-2026; no hay cotización intradía del 4-nov.",
+  "Tasa sin riesgo: dato del 2026-10-30, no del día de análisis (hosts de datos de mercado no accesibles desde la sesión; obtenido por búsqueda web).",
+  "Acciones diluidas: media del ejercicio 2025, no recuento a cierre; acciones emitidas 105.569.412.",
+  "Geografía: «Europe (excluding France)» asignada a Región · Western Europe; «Asia-Pacific (excluding Japan)» a Región · Asia; «Americas» a Región · North America; «Other (Middle East)» a Región · Middle East. pct redondeados a 4 decimales.",
+  "Sector: Apparel como mejor encaje de Damodaran para lujo de moda y marroquinería; no hay categoría de lujo."
+ ]
+}

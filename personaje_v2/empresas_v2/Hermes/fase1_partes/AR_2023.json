@@ -1,0 +1,520 @@
+{
+ "anio": 2023,
+ "archivo": "AR_2023.txt",
+ "fecha_cierre": "2023-12-31",
+ "moneda": "EUR",
+ "unidad": "millones",
+ "reexpresion": null,
+ "partidas": {
+  "ventas": {
+   "actual": [
+    {
+     "concepto": "Revenue",
+     "impreso": "13,427",
+     "pagina": 416,
+     "linea": "Revenue  3 and 4  13,427  11,602"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Revenue",
+     "impreso": "11,602",
+     "pagina": 416,
+     "linea": "Revenue  3 and 4  13,427  11,602"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "ebit": {
+   "actual": [
+    {
+     "concepto": "Operating income",
+     "impreso": "5,650",
+     "pagina": 416,
+     "linea": "Operating income  3  5,650  4,697"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Operating income",
+     "impreso": "4,697",
+     "pagina": 416,
+     "linea": "Operating income  3  5,650  4,697"
+    }
+   ],
+   "cero": null,
+   "nota": "Subtotal impreso 'Operating income' (igual a recurring operating income; sin partidas no recurrentes)"
+  },
+  "ebit_derivado": {
+   "actual": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "5,840",
+     "pagina": 416,
+     "linea": "Net income before tax  5,840  4,635"
+    },
+    {
+     "concepto": "Net ﬁnancial income",
+     "impreso": "190",
+     "pagina": 416,
+     "linea": "Net ﬁnancial income  9.1  190  (62)",
+     "signo": -1
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "4,635",
+     "pagina": 416,
+     "linea": "Net income before tax  5,840  4,635"
+    },
+    {
+     "concepto": "Net ﬁnancial income",
+     "impreso": "(62)",
+     "pagina": 416,
+     "linea": "Net ﬁnancial income  9.1  190  (62)",
+     "signo": -1
+    }
+   ],
+   "cero": null,
+   "nota": "EBIT derivado = BAI - resultado financiero neto (nota 9.1: 190 / -62). Net income from associates (105 / 50) va despues del impuesto y no entra."
+  },
+  "da": {
+   "actual": [
+    {
+     "concepto": "Depreciation and amortisation of fixed assets, right-of-use assets and impairment losses",
+     "impreso": "772",
+     "pagina": 419,
+     "linea": "losses  7.2 to 7.4  772  730"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "idem",
+     "impreso": "730",
+     "pagina": 419,
+     "linea": "losses  7.2 to 7.4  772  730"
+    }
+   ],
+   "cero": null,
+   "nota": "Incluye deterioros (misma linea del flujo de efectivo)"
+  },
+  "beneficio_neto": {
+   "actual": [
+    {
+     "concepto": "NET INCOME ATTRIBUTABLE",
+     "impreso": "4,311",
+     "pagina": 416,
+     "linea": "NET INCOME ATTRIBUTABLE TO OWNERS OF THE PARENT  4,311  3,367"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "NET INCOME ATTRIBUTABLE",
+     "impreso": "3,367",
+     "pagina": 416,
+     "linea": "NET INCOME ATTRIBUTABLE TO OWNERS OF THE PARENT  4,311  3,367"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "impuestos": {
+   "actual": [
+    {
+     "concepto": "Income tax",
+     "impreso": "(1,623)",
+     "pagina": 416,
+     "linea": "Income tax  6  (1,623)  (1,305)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Income tax",
+     "impreso": "(1,305)",
+     "pagina": 416,
+     "linea": "Income tax  6  (1,623)  (1,305)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "bai": {
+   "actual": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "5,840",
+     "pagina": 416,
+     "linea": "Net income before tax  5,840  4,635"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Net income before tax",
+     "impreso": "4,635",
+     "pagina": 416,
+     "linea": "Net income before tax  5,840  4,635"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "cfo": {
+   "actual": [
+    {
+     "concepto": "CASH FLOWS RELATED TO OPERATING",
+     "impreso": "4,328",
+     "pagina": 419,
+     "linea": "CASH FLOWS RELATED TO OPERATING ACTIVITIES (A)  4,328  4,184"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "CASH FLOWS RELATED TO OPERATING",
+     "impreso": "4,184",
+     "pagina": 419,
+     "linea": "CASH FLOWS RELATED TO OPERATING ACTIVITIES (A)  4,328  4,184"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "capex": {
+   "actual": [
+    {
+     "concepto": "Operating investments",
+     "impreso": "(859)",
+     "pagina": 419,
+     "linea": "Operating investments  7.2  (859)  (518)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Operating investments",
+     "impreso": "(518)",
+     "pagina": 419,
+     "linea": "Operating investments  7.2  (859)  (518)"
+    }
+   ],
+   "cero": null,
+   "nota": "Operating investments (nota 7.2), incluye intangible e inmaterial"
+  },
+  "adquisiciones": {
+   "actual": [
+    {
+     "concepto": "Acquisitions of consolidated shares",
+     "impreso": "(288)",
+     "pagina": 419,
+     "linea": "Acquisitions of consolidated shares  (288)  (1)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Acquisitions of consolidated shares",
+     "impreso": "(1)",
+     "pagina": 419,
+     "linea": "Acquisitions of consolidated shares  (288)  (1)"
+    }
+   ],
+   "cero": null,
+   "nota": "Linea 'Disposals of consolidated shares' sin importe (-) en ambos anos; el texto de esa zona esta desordenado, no se suma nada"
+  },
+  "circulante_lineas": {
+   "actual": [
+    {
+     "concepto": "Inventories and work‑in‑progress",
+     "impreso": "(662)",
+     "pagina": 429,
+     "linea": "Inventories and work‑in‑progress  (662)  (324)"
+    },
+    {
+     "concepto": "Trade and other receivables",
+     "impreso": "(122)",
+     "pagina": 429,
+     "linea": "Trade and other receivables  (122)  (54)"
+    },
+    {
+     "concepto": "Trade and other payables",
+     "impreso": "42",
+     "pagina": 429,
+     "linea": "Trade and other payables  42  203"
+    },
+    {
+     "concepto": "Other receivables and payables",
+     "impreso": "(53)",
+     "pagina": 429,
+     "linea": "Other receivables and payables  (53)  248"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Inventories and work‑in‑progress",
+     "impreso": "(324)",
+     "pagina": 429,
+     "linea": "Inventories and work‑in‑progress  (662)  (324)"
+    },
+    {
+     "concepto": "Trade and other receivables",
+     "impreso": "(54)",
+     "pagina": 429,
+     "linea": "Trade and other receivables  (122)  (54)"
+    },
+    {
+     "concepto": "Trade and other payables",
+     "impreso": "203",
+     "pagina": 429,
+     "linea": "Trade and other payables  42  203"
+    },
+    {
+     "concepto": "Other receivables and payables",
+     "impreso": "248",
+     "pagina": 429,
+     "linea": "Other receivables and payables  (53)  248"
+    }
+   ],
+   "cero": null,
+   "nota": "Desglose de la nota 4.4.4; total (794) / 73 = linea 'Change in working capital requirements' del flujo (p.419)"
+  },
+  "intereses": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El estado de flujos no separa intereses pagados; no hay dato de intereses pagados en el informe. Gasto por intereses de arrendamientos: (56)/(43) en nota 9.1 (devengado, no pagado)"
+  },
+  "intereses_financiacion": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "No hay intereses pagados identificados; el repago de arrendamientos (277) en financiacion se muestra aparte"
+  },
+  "arrendamientos_principal": {
+   "actual": [
+    {
+     "concepto": "Repayment of lease liabilities",
+     "impreso": "(277)",
+     "pagina": 419,
+     "linea": "Repayment of lease liabilities  7.3  (277)  (261)"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Repayment of lease liabilities",
+     "impreso": "(261)",
+     "pagina": 419,
+     "linea": "Repayment of lease liabilities  7.3  (277)  (261)"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "sbc": {
+   "actual": [
+    {
+     "concepto": "share‑based payments",
+     "impreso": "104",
+     "pagina": 419,
+     "linea": "Accrued expenses and income related to share‑based payments  104  55"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "share‑based payments",
+     "impreso": "55",
+     "pagina": 419,
+     "linea": "Accrued expenses and income related to share‑based payments  104  55"
+    }
+   ],
+   "cero": null,
+   "nota": "Partida de flujo de efectivo (componente equity-settled). Gasto IFRS total de planes de acciones gratuitas incl. cargas del empleador: 151 (2023) / 65 (2022), nota 4.3 p.427 y nota 5.4 p.433"
+  },
+  "id": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El informe no cuantifica el gasto de I+D del ano reconocido en resultados en las notas consolidadas"
+  },
+  "acciones_diluidas": {
+   "actual": [
+    {
+     "concepto": "Average number of shares after dilution",
+     "impreso": "104,842,483",
+     "pagina": 455,
+     "linea": "Average number of shares after dilution  104,842,483  104,936,295"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Average number of shares after dilution",
+     "impreso": "104,936,295",
+     "pagina": 455,
+     "linea": "Average number of shares after dilution  104,842,483  104,936,295"
+    }
+   ],
+   "cero": null,
+   "nota": "Numero de acciones (unidades)"
+  },
+  "patrimonio": {
+   "actual": [
+    {
+     "concepto": "Equity attributable to owners of the parent",
+     "impreso": "15,201",
+     "pagina": 417,
+     "linea": "Equity attributable to owners of the parent  15,201  12,440"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Equity attributable to owners of the parent",
+     "impreso": "12,440",
+     "pagina": 417,
+     "linea": "Equity attributable to owners of the parent  15,201  12,440"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "deuda": {
+   "actual": [
+    {
+     "concepto": "Borrowings and ﬁnancial liabilities due in more than one year",
+     "impreso": "50",
+     "pagina": 417,
+     "linea": "Borrowings and ﬁnancial liabilities due in more than one year  9  50  35"
+    },
+    {
+     "concepto": "Borrowings and ﬁnancial liabilities due in less than one year",
+     "impreso": "1",
+     "pagina": 417,
+     "linea": "Borrowings and ﬁnancial liabilities due in less than one year  9  1  2"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Borrowings and ﬁnancial liabilities due in more than one year",
+     "impreso": "35",
+     "pagina": 417,
+     "linea": "Borrowings and ﬁnancial liabilities due in more than one year  9  50  35"
+    },
+    {
+     "concepto": "Borrowings and ﬁnancial liabilities due in less than one year",
+     "impreso": "2",
+     "pagina": 417,
+     "linea": "Borrowings and ﬁnancial liabilities due in less than one year  9  1  2"
+    }
+   ],
+   "cero": null,
+   "nota": "Excluye pasivos por arrendamiento NIIF 16 y compromisos de compra de minoritarios (nota 9.4)"
+  },
+  "arrendamientos": {
+   "actual": [
+    {
+     "concepto": "Lease liabilities due in more than one year",
+     "impreso": "1,720",
+     "pagina": 417,
+     "linea": "Lease liabilities due in more than one year  7.3  1,720  1,629"
+    },
+    {
+     "concepto": "Lease liabilities due in less than one year",
+     "impreso": "289",
+     "pagina": 417,
+     "linea": "Lease liabilities due in less than one year  7.3  289  268"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Lease liabilities due in more than one year",
+     "impreso": "1,629",
+     "pagina": 417,
+     "linea": "Lease liabilities due in more than one year  7.3  1,720  1,629"
+    },
+    {
+     "concepto": "Lease liabilities due in less than one year",
+     "impreso": "268",
+     "pagina": 417,
+     "linea": "Lease liabilities due in less than one year  7.3  289  268"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "caja": {
+   "actual": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "10,625",
+     "pagina": 417,
+     "linea": "Cash and cash equivalents  9.3  10,625  9,225"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Cash and cash equivalents",
+     "impreso": "9,225",
+     "pagina": 417,
+     "linea": "Cash and cash equivalents  9.3  10,625  9,225"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  },
+  "otros_activos_financieros": {
+   "actual": null,
+   "anterior": null,
+   "cero": null,
+   "nota": "El balance no tiene activos financieros corrientes distintos de caja. 'Financial assets' no corrientes 1,141 / 1,109 (nota 9.2 p.445: inversiones financieras que no cumplen criterios de equivalente de efectivo, incl. vencimientos >1 ano y activos de contrato de liquidez) y derivados 188/160; no se incluyen por no ser corrientes"
+  },
+  "pensiones": {
+   "actual": [
+    {
+     "concepto": "Post‑employment and other employee beneﬁt obligations due in more than one year",
+     "impreso": "151",
+     "pagina": 417,
+     "linea": "Post‑employment and other employee beneﬁt obligations due in more than one year  5.3  151  181"
+    },
+    {
+     "concepto": "Post‑employment and other employee beneﬁt obligations due in less than one year",
+     "impreso": "16",
+     "pagina": 417,
+     "linea": "Post‑employment and other employee beneﬁt obligations due in less than one year  5.3  16  15"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Post‑employment and other employee beneﬁt obligations due in more than one year",
+     "impreso": "181",
+     "pagina": 417,
+     "linea": "Post‑employment and other employee beneﬁt obligations due in more than one year  5.3  151  181"
+    },
+    {
+     "concepto": "Post‑employment and other employee beneﬁt obligations due in less than one year",
+     "impreso": "15",
+     "pagina": 417,
+     "linea": "Post‑employment and other employee beneﬁt obligations due in less than one year  5.3  16  15"
+    }
+   ],
+   "cero": null,
+   "nota": "Pasivo por prestaciones post-empleo y otras a empleados, corriente + no corriente (balance); no se descuentan activos del plan"
+  },
+  "minoritarios": {
+   "actual": [
+    {
+     "concepto": "Non‑controlling interests",
+     "impreso": "2",
+     "pagina": 417,
+     "linea": "Non‑controlling interests  2  16"
+    }
+   ],
+   "anterior": [
+    {
+     "concepto": "Non‑controlling interests",
+     "impreso": "16",
+     "pagina": 417,
+     "linea": "Non‑controlling interests  2  16"
+    }
+   ],
+   "cero": null,
+   "nota": null
+  }
+ }
+}
