@@ -1,5 +1,5 @@
 {
- "paso": 8,
+ "paso": 10,
  "estado_analisis": null,
  "intentos": {
   "fase_b": 0,
@@ -23,17 +23,28 @@
   "  $ python3 escribir_v63.py Hermes_v63_datos.xlsx Hermes_v63_evaluada.xlsx --celdas celdas_A.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
   "  $ python3 comprobar_celdas_v2.py Hermes_v63_evaluada.xlsx Hermes_v63_datos.xlsx --fases A → 0 · PASS: 0 errores · 29 celdas correctas · fases ['A'] · motor A",
   "  $ python3 comprobar_entrada_v63.py Hermes_v63_evaluada.xlsx Hermes --motor A → 0 · OK: 0 bloqueantes · 0 necesarios para LISTO·PROVISIONAL · 1 no bloqueantes · motores calculables: ['A', 'C']",
-  "  $ python3 volcar_datos_v63.py Hermes_v63_evaluada.xlsx Hermes --referencias-mecanicas → 0 · OK: datos_v63.md (11897 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Hermes · referencias_mecanicas.json"
+  "  $ python3 volcar_datos_v63.py Hermes_v63_evaluada.xlsx Hermes --referencias-mecanicas → 0 · OK: datos_v63.md (11897 palabras) y datos_v63.json en /home/user/Joselito/personaje_v2/empresas_v2/Hermes · referencias_mecanicas.json",
+  "  $ python3 validar_esquema.py fase_b.json fase_b --salida esquema_fase_b.json.txt → 0 · VÁLIDO · fase_b.json contra fase_b.esquema.json",
+  "  $ python3 verify_quotes_v2.py --corpus munger.md --corpus damodaran.md --paginas-estrictas citas_fase_b.md fase_b.md → 0 · RESULTADO: PASS",
+  "  $ python3 comprobar_gramatica.py Hermes --antes-de-recalculo → 0 · código 0 · errores 0 · límites 0 · desviaciones 5 (sin justificar 0) · avisos 0 → gramatica.md",
+  "  $ python3 fase_a_celdas.py fase_b.json B celdas_B.json → 0 · OK: 92 celdas (incluidas E/F/N de Control maestro) → /home/user/Joselito/personaje_v2/empresas_v2/Hermes/celdas_B.json",
+  "  $ python3 escribir_v63.py Hermes_v63_evaluada.xlsx Hermes_v63_evaluada.xlsx.tmp.xlsx --celdas celdas_B.json --verificar referencia_V6.3.json → 0 · VEREDICTO: ÍNTEGRO · 0 fallos · 0 avisos",
+  "  $ python3 comprobar_celdas_v2.py Hermes_v63_evaluada.xlsx Hermes_v63_datos.xlsx --fases A,B → 0 · PASS: 0 errores · 48 celdas correctas · fases ['A', 'B'] · motor A",
+  "  $ bash recalc.sh Hermes_v63_evaluada.xlsx recalc .lo_perfil → 0 · OK: /home/user/Joselito/personaje_v2/empresas_v2/Hermes/recalc/Hermes_v63_evaluada.xlsx (recálculo forzado, perfil /home/user/Joselito/personaje_v2/empresas_v2/Hermes/.lo_perfil)",
+  "  $ python3 leer_resultados.py Hermes_v63_evaluada.xlsx resultados.json --exigir-recalculo-forzado → 0 · OK: resultados.json → /home/user/Joselito/personaje_v2/empresas_v2/Hermes/resultados.json · motor A · estado INCOMPLETO · libro NO LISTO · incompleto (1 pendientes)",
+  "  $ python3 precio_de_si.py resultados.json precio.json --k 3 → 0 · OK: precio 1312.5 · esc. MALO 542.700114832629 · precio de Sí 757.0537 (P* 757.0537) · ponderado 842.7951 · zona caro",
+  "  $ python3 comprobar_gramatica.py Hermes --tras-recalculo → 1 · código 1 · errores 0 · límites 0 · desviaciones 8 (sin justificar 3) · avisos 3 → gramatica.md"
  ],
  "motor": "A",
- "fase_b_escrita": false,
+ "fase_b_escrita": true,
  "fase_c_escrita": false,
- "esperando": "8:fase_b.json",
+ "esperando": "10:fase_c.json",
  "inicio": "2026-11-04T10:14:32",
- "esperando_desde": 1793788539.769423,
+ "esperando_desde": 1793789012.152335,
  "consumidos": {
   "extracto_v63.md": 1793787985.4894161,
-  "fase_a.json": 1793788447.8498538
+  "fase_a.json": 1793788447.8498538,
+  "fase_b.json": 1793788950.8898835
  },
  "motivo_correccion": null
 }

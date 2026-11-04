@@ -1,1 +1,1 @@
-ESPERANDO al agente **fase_b** (paso 8). Entradas: fase_a.json, datos_v63.md, referencias_mecanicas.json, extracto_v63.md, gramatica.md (si hay corrección). Escribe **fase_b.json** en esta carpeta y vuelve a lanzar pipeline.py.
+ESPERANDO al agente **fase_c_turno1** (paso 10). Entradas: fase_a.json, fase_b.json, resultados.json, precio.json, gramatica.md, datos_ausentes.json, datos_v63.md, extractos. Escribe **fase_c.json** en esta carpeta y vuelve a lanzar pipeline.py.
